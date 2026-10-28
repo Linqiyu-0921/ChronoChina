@@ -90,20 +90,18 @@ npm test           # 日期、换算、搜索与档案布局回归测试
 
 ## 项目结构
 
-```
-ChronoChina/
-├─ data/               # 静态数据：政权、君主、年号、事件、人物、遗产、来源
-│  └─ curated/         # 手工校订覆盖层，优先级最高
-├─ scripts/            # 数据导入、校验与回归测试
-├─ public/             # 字体、图标原稿、站点图标
-├─ src/                # 源码（React + TypeScript）
-│  ├─ views/           # 阅年、并世、纪年资料库、历史遗产
-│  ├─ components/      # 搜索浮层、年档案、年份面板、图标
-│  ├─ lib/             # 数据访问、时间与干支、搜索、换算
-│  └─ styles.css       # 版式与明暗配色
-├─ docs/preview/       # README 界面预览图
-└─ index.html
-```
+| 目录 / 文件 | 用途 |
+|---|---|
+| `data/` | 静态数据：政权、君主、年号、事件、人物、遗产、来源 |
+| `data/curated/` | 手工校订覆盖层，优先级最高 |
+| `scripts/` | 数据导入、校验与回归测试 |
+| `public/` | 字体、图标原稿、站点图标 |
+| `src/views/` | 阅年、并世、纪年资料库、历史遗产 |
+| `src/components/` | 搜索浮层、年档案、年份面板、图标 |
+| `src/lib/` | 数据访问、时间与干支、搜索、换算 |
+| `src/styles.css` | 版式与明暗配色 |
+| `docs/preview/` | README 界面预览图 |
+| `index.html` | 页面入口 |
 
 ## 开发计划
 
