@@ -1,3 +1,5 @@
+[English](README.en.md) · 简体中文
+
 <p><img src="public/favicon-art.png" width="64" alt="此年 ChronoChina logo" align="left"></p>
 
 # 此年 · ChronoChina
