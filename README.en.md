@@ -12,7 +12,7 @@ I mostly work with spatial data, so my first instinct is to put everything into 
 
 The first thing that tripped me up was a simple question: which era names were actually in use in 1127? The answer spans several volumes. The Song went from Jingkang to Jianyan, the Jin were already in Tianhui, Western Xia in Zhengde, Qara Khitai in Yanqing, Dali still in Yongjia. Different books, same year — and I had to stack them in my head to see it.
 
-So this site starts by aligning the ruler: give it a year, then read every regime that existed in that year side by side. When you want to dig in, each era can be traced to its sources, and years with no data are marked as blank, not as "nothing happened".
+So this site starts by aligning the ruler: give it a year, then read every regime that existed in that year side by side. When you want to dig in, each era can be traced to its sources, and years with no data are marked as blank, not as "nothing happened". Line the ruler up and settle the rules, and reading history stops giving you heartburn.
 
 It deliberately is not a map, and not a decorative scroll. "此年，山河同阅" is both the framing and the constraint: give the simultaneity back to history, and leave the judgement to you.
 
