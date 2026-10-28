@@ -1,0 +1,15 @@
+{
+  "name": "chronochina",
+  "title": "同岁山河 · ChronoChina｜中国历史时序图谱",
+  "version": "0.4.0",
+  "scope": {
+    "startYear": -305,
+    "endYear": 1911
+  },
+  "coverage": "前306—1911 年主要政权纪年，部分时段缺录",
+  "defaultView": [
+    1100,
+    1150
+  ],
+  "scopeNote": "主要政权纪年；事件、人物与遗产为精选整理，待条目级复核。十六国、十国与西辽部分纪年缺录。"
+}

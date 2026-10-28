@@ -1,0 +1,589 @@
+[
+  {
+    "id": "ev-1123-01",
+    "year": 1123,
+    "month": 4,
+    "title": "宋金完成燕京交割",
+    "categories": [
+      "外交"
+    ],
+    "polityIds": [
+      "song",
+      "jin"
+    ],
+    "summary": "「海上之盟」善后：宋以岁币与代税钱赎回燕京及六州，金军北撤。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1123-02",
+    "year": 1123,
+    "month": 8,
+    "title": "金太祖阿骨打崩，太宗完颜晟即位",
+    "categories": [
+      "政治",
+      "人物"
+    ],
+    "polityIds": [
+      "jin"
+    ],
+    "summary": "天辅七年八月（公历 9 月）阿骨打崩于返上京途中，弟完颜晟继立。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1124-01",
+    "year": 1124,
+    "title": "耶律大石自立为王，率部西迁",
+    "categories": [
+      "政治",
+      "军事"
+    ],
+    "polityIds": [
+      "karakhitai",
+      "liao"
+    ],
+    "summary": "于可敦城自立为王，西辽政权草创。自立之年有 1122 / 1123 / 1124 三说，本站取通说 1124。",
+    "sources": [
+      "S2",
+      "S4"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "ev-1124-02",
+    "year": 1124,
+    "title": "西夏向金奉表称臣",
+    "categories": [
+      "外交"
+    ],
+    "polityIds": [
+      "xia",
+      "jin"
+    ],
+    "summary": "元德六年，夏崇宗向金上誓表称藩，金以陕西北部故辽之地与之。",
+    "sources": [
+      "S1",
+      "S4"
+    ]
+  },
+  {
+    "id": "ev-1125-01",
+    "year": 1125,
+    "month": 2,
+    "title": "金军俘天祚帝，辽亡",
+    "categories": [
+      "军事",
+      "政治"
+    ],
+    "polityIds": [
+      "liao",
+      "jin"
+    ],
+    "summary": "保大五年二月，天祚帝在应州被完颜娄室部俘获，辽朝灭亡。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1125-02",
+    "year": 1125,
+    "month": 10,
+    "title": "金太宗诏两路伐宋",
+    "categories": [
+      "军事"
+    ],
+    "polityIds": [
+      "jin",
+      "song"
+    ],
+    "summary": "天会三年十月，完颜宗翰、宗望两路南下，宋金战事全面爆发。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1126-01",
+    "year": 1126,
+    "month": 1,
+    "title": "金军第一次围汴京，城下议和",
+    "categories": [
+      "军事",
+      "外交"
+    ],
+    "polityIds": [
+      "song",
+      "jin"
+    ],
+    "summary": "靖康元年正月完颜宗望军渡河围城，宋许割三镇、增岁币以和。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1126-02",
+    "year": 1126,
+    "month": 11,
+    "title": "金军攻破汴京（第二次围城）",
+    "categories": [
+      "军事"
+    ],
+    "polityIds": [
+      "song",
+      "jin"
+    ],
+    "summary": "靖康元年闰十一月城破（公历已入 1127 年 1 月），汴京陷落。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1127-01",
+    "year": 1127,
+    "month": 3,
+    "title": "金立张邦昌为帝，国号楚（伪楚）",
+    "categories": [
+      "政治"
+    ],
+    "polityIds": [
+      "song",
+      "jin"
+    ],
+    "summary": "靖康二年三月金立伪楚；张邦昌旋还政赵氏，伪楚月余而罢。",
+    "sources": [
+      "S1"
+    ],
+    "supersedes": [
+      "w-1127-02"
+    ]
+  },
+  {
+    "id": "ev-1127-02",
+    "year": 1127,
+    "month": 4,
+    "title": "靖康之变：二帝北迁，北宋亡",
+    "categories": [
+      "政治",
+      "军事"
+    ],
+    "polityIds": [
+      "song",
+      "jin"
+    ],
+    "summary": "金废徽、钦二帝为庶人，四月掳二帝及宗室北迁，北宋灭亡。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1127-03",
+    "year": 1127,
+    "month": 5,
+    "title": "赵构即位应天府，改元建炎，南宋开端",
+    "categories": [
+      "政治"
+    ],
+    "polityIds": [
+      "song"
+    ],
+    "summary": "五月初一即位于南京应天府（今商丘），改元建炎，南宋自此始。",
+    "sources": [
+      "S1"
+    ],
+    "supersedes": [
+      "w-1127-03"
+    ]
+  },
+  {
+    "id": "ev-1127-04",
+    "year": 1127,
+    "title": "高宗拜李纲为相，宗泽留守开封",
+    "categories": [
+      "政治",
+      "人物"
+    ],
+    "polityIds": [
+      "song"
+    ],
+    "summary": "李纲主战拜相；宗泽留守开封整修防务，屡表请还都。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1128-01",
+    "year": 1128,
+    "month": 7,
+    "title": "宗泽卒，临终三呼「过河」",
+    "categories": [
+      "人物"
+    ],
+    "polityIds": [
+      "song"
+    ],
+    "summary": "建炎二年七月宗泽忧愤而卒，开封防务与北方部署瓦解。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1128-02",
+    "year": 1128,
+    "title": "金军三路大举南侵",
+    "categories": [
+      "军事"
+    ],
+    "polityIds": [
+      "jin",
+      "song"
+    ],
+    "summary": "山东、河南、陕西相继失守，宋廷自扬州节节南撤。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1129-01",
+    "year": 1129,
+    "month": 3,
+    "title": "苗刘兵变",
+    "categories": [
+      "政治",
+      "军事"
+    ],
+    "polityIds": [
+      "song"
+    ],
+    "summary": "苗傅、刘正彦逼高宗禅位皇子，旋为韩世忠等勤王军平定。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1129-02",
+    "year": 1129,
+    "title": "完颜宗弼渡江「搜山检海」，高宗航海避敌",
+    "categories": [
+      "军事"
+    ],
+    "polityIds": [
+      "jin",
+      "song"
+    ],
+    "summary": "兀术穷追宋廷，高宗自明州登船避于温州沿海，金军搜山检海而返。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1129-03",
+    "year": 1129,
+    "title": "升杭州为临安府",
+    "categories": [
+      "制度"
+    ],
+    "polityIds": [
+      "song"
+    ],
+    "summary": "建炎三年升杭州为临安府，为南宋定行在之张本。",
+    "sources": [
+      "S1",
+      "S4"
+    ]
+  },
+  {
+    "id": "ev-1130-01",
+    "year": 1130,
+    "title": "黄天荡之战",
+    "categories": [
+      "军事"
+    ],
+    "polityIds": [
+      "song",
+      "jin"
+    ],
+    "summary": "韩世忠以八千水师扼江，困完颜宗弼军四十八日。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1130-02",
+    "year": 1130,
+    "month": 9,
+    "title": "富平之战",
+    "categories": [
+      "军事"
+    ],
+    "polityIds": [
+      "song",
+      "jin"
+    ],
+    "summary": "宋金陕西大会战，宋军大败，尽失陕西战场主动权。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1130-03",
+    "year": 1130,
+    "month": 9,
+    "title": "金立刘豫伪齐",
+    "categories": [
+      "政治"
+    ],
+    "polityIds": [
+      "jin"
+    ],
+    "summary": "天会八年九月册刘豫为帝，国号齐，以间接统治河南、陕西。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1130-04",
+    "year": 1130,
+    "title": "秦桧自金南归",
+    "categories": [
+      "人物",
+      "政治"
+    ],
+    "polityIds": [
+      "song",
+      "jin"
+    ],
+    "summary": "秦桧携家自金南归，力主和议，渐获高宗信用。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1131-01",
+    "year": 1131,
+    "month": 10,
+    "title": "和尚原之战",
+    "categories": [
+      "军事"
+    ],
+    "polityIds": [
+      "song",
+      "jin"
+    ],
+    "summary": "吴玠以弱卒大破金军，兀术中箭仅以身免。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1132-01",
+    "year": 1132,
+    "title": "高宗还临安驻跸，南宋定行在",
+    "categories": [
+      "政治",
+      "制度"
+    ],
+    "polityIds": [
+      "song"
+    ],
+    "summary": "绍兴二年正月自绍兴府还临安驻跸，杭州遂为南宋实际都城。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1133-01",
+    "year": 1133,
+    "title": "饶风关之战与仙人关布防",
+    "categories": [
+      "军事"
+    ],
+    "polityIds": [
+      "song",
+      "jin"
+    ],
+    "summary": "金军破饶风关后粮尽北退；吴玠移防仙人关，和尚原失守。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1134-01",
+    "year": 1134,
+    "month": 2,
+    "title": "仙人关之战",
+    "categories": [
+      "军事"
+    ],
+    "polityIds": [
+      "song",
+      "jin"
+    ],
+    "summary": "吴玠、吴璘凭险大破金军，川陕战线自此稳固。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1134-02",
+    "year": 1134,
+    "month": 5,
+    "title": "岳飞首复襄阳六郡",
+    "categories": [
+      "军事"
+    ],
+    "polityIds": [
+      "song"
+    ],
+    "summary": "绍兴四年五月至七月，岳飞收复郢、随、唐、邓、襄阳、信阳六郡。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1134-03",
+    "year": 1134,
+    "month": 9,
+    "title": "金齐联军渡淮南犯",
+    "categories": [
+      "军事"
+    ],
+    "polityIds": [
+      "jin",
+      "song"
+    ],
+    "summary": "九月至次年春，金齐合兵南下，兵锋至扬州、六合而返。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1135-01",
+    "year": 1135,
+    "month": 1,
+    "title": "金太宗崩，熙宗即位，沿用天会年号",
+    "categories": [
+      "政治"
+    ],
+    "polityIds": [
+      "jin"
+    ],
+    "summary": "天会十三年正月太宗卒，熙宗立而未改元，天会行至十五年（1137），1138 年始改元天眷。",
+    "sources": [
+      "S1",
+      "S2"
+    ]
+  },
+  {
+    "id": "ev-1135-02",
+    "year": 1135,
+    "title": "宋徽宗卒于五国城",
+    "categories": [
+      "人物"
+    ],
+    "polityIds": [
+      "song"
+    ],
+    "summary": "绍兴五年，徽宗赵佶病死于五国城（今黑龙江依兰）。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1135-03",
+    "year": 1135,
+    "month": 6,
+    "title": "岳飞平定杨幺",
+    "categories": [
+      "军事"
+    ],
+    "polityIds": [
+      "song"
+    ],
+    "summary": "六月岳飞平洞庭湖杨幺起义，收其众编入抗金军。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1136-01",
+    "year": 1136,
+    "month": 8,
+    "title": "岳飞二次北伐，收复商虢",
+    "categories": [
+      "军事"
+    ],
+    "polityIds": [
+      "song"
+    ],
+    "summary": "八月出兵收复商州、虢州，粮尽还镇。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1136-02",
+    "year": 1136,
+    "month": 10,
+    "title": "藕塘之战",
+    "categories": [
+      "军事"
+    ],
+    "polityIds": [
+      "song"
+    ],
+    "summary": "杨存中等大破伪齐军于藕塘，刘豫最后一次南侵失利。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1137-01",
+    "year": 1137,
+    "month": 11,
+    "title": "金废伪齐",
+    "categories": [
+      "政治"
+    ],
+    "polityIds": [
+      "jin"
+    ],
+    "summary": "天会十五年十一月金废刘豫，伪齐亡，河南陕西收归金直辖。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1137-02",
+    "year": 1137,
+    "title": "宋金议和开端",
+    "categories": [
+      "外交"
+    ],
+    "polityIds": [
+      "song",
+      "jin"
+    ],
+    "summary": "王伦使金携金方议和意向还，宋廷和战之议再起。",
+    "sources": [
+      "S1"
+    ]
+  },
+  {
+    "id": "ev-1137-03",
+    "year": 1137,
+    "title": "西辽击破西喀喇汗国",
+    "categories": [
+      "军事"
+    ],
+    "polityIds": [
+      "karakhitai"
+    ],
+    "summary": "康国四年，西辽军于忽毡一带击破西喀喇汗军（年份系推定）。",
+    "sources": [
+      "S4"
+    ],
+    "confidence": "low"
+  }
+]

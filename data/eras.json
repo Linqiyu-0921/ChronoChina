@@ -1,0 +1,7685 @@
+[
+  {
+    "id": "qin-无年号--305",
+    "polityId": "qin",
+    "name": "无年号",
+    "reignIds": [
+      "qin-昭襄王--305"
+    ],
+    "startYear": -305,
+    "note": "前256年灭周；此期无年号纪年（追记）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": -250
+  },
+  {
+    "id": "qin-无年号--249",
+    "polityId": "qin",
+    "name": "无年号",
+    "reignIds": [
+      "qin-孝文王--249"
+    ],
+    "startYear": -249,
+    "note": "此期无年号纪年（追记）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": -249
+  },
+  {
+    "id": "qin-无年号--248",
+    "polityId": "qin",
+    "name": "无年号",
+    "reignIds": [
+      "qin-庄襄王--248"
+    ],
+    "startYear": -248,
+    "note": "秦汉关中水利；此期无年号纪年（追记）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": -246
+  },
+  {
+    "id": "qin-无年号--245",
+    "polityId": "qin",
+    "name": "无年号",
+    "reignIds": [
+      "qin-始皇帝--245"
+    ],
+    "startYear": -245,
+    "note": "秦灭六国;秦统一前221年称帝；此期无年号纪年（追记）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": -209
+  },
+  {
+    "id": "qin-无年号--208",
+    "polityId": "qin",
+    "name": "无年号",
+    "reignIds": [
+      "qin-二世皇帝--208"
+    ],
+    "startYear": -208,
+    "note": "秦末陈胜吴广起义,农民战争；此期无年号纪年（追记）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": -206
+  },
+  {
+    "id": "western-han-无年号--205",
+    "polityId": "western-han",
+    "name": "无年号",
+    "reignIds": [
+      "western-han-高帝--205"
+    ],
+    "startYear": -205,
+    "note": "项羽,刘邦楚汉战争；此期无年号纪年（追记）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": -194
+  },
+  {
+    "id": "western-han-无年号--193",
+    "polityId": "western-han",
+    "name": "无年号",
+    "reignIds": [
+      "western-han-惠帝--193"
+    ],
+    "startYear": -193,
+    "note": "西汉疆域；此期无年号纪年（追记）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": -187
+  },
+  {
+    "id": "western-han-无年号--186",
+    "polityId": "western-han",
+    "name": "无年号",
+    "reignIds": [
+      "western-han-高后--186"
+    ],
+    "startYear": -186,
+    "note": "此期无年号纪年（追记）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": -179
+  },
+  {
+    "id": "western-han-无年号--178",
+    "polityId": "western-han",
+    "name": "无年号",
+    "reignIds": [
+      "western-han-文帝--178"
+    ],
+    "startYear": -178,
+    "note": "此期无年号纪年（追记）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": -163
+  },
+  {
+    "id": "western-han-后元--162",
+    "polityId": "western-han",
+    "name": "后元",
+    "reignIds": [
+      "western-han-文帝--178"
+    ],
+    "startYear": -162,
+    "startMonth": 1,
+    "note": "原表作「(后元)」",
+    "sources": [
+      "S3"
+    ],
+    "endYear": -156
+  },
+  {
+    "id": "western-han-无年号--155",
+    "polityId": "western-han",
+    "name": "无年号",
+    "reignIds": [
+      "western-han-景帝--155"
+    ],
+    "startYear": -155,
+    "note": "西汉前期形势,七国之乱；此期无年号纪年（追记）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": -149
+  },
+  {
+    "id": "western-han-中元--148",
+    "polityId": "western-han",
+    "name": "中元",
+    "reignIds": [
+      "western-han-景帝--155"
+    ],
+    "startYear": -148,
+    "startMonth": 1,
+    "note": "原表作「(中元)」",
+    "sources": [
+      "S3"
+    ],
+    "endYear": -143
+  },
+  {
+    "id": "western-han-后元--142",
+    "polityId": "western-han",
+    "name": "后元",
+    "reignIds": [
+      "western-han-景帝--155"
+    ],
+    "startYear": -142,
+    "startMonth": 1,
+    "note": "原表作「(后元)」",
+    "sources": [
+      "S3"
+    ],
+    "endYear": -140
+  },
+  {
+    "id": "western-han-建元--139",
+    "polityId": "western-han",
+    "name": "建元",
+    "reignIds": [
+      "western-han-武帝--139"
+    ],
+    "startYear": -139,
+    "note": "西汉同匈奴的战争和张骞出使西域",
+    "sources": [
+      "S3"
+    ],
+    "endYear": -134
+  },
+  {
+    "id": "western-han-元光--133",
+    "polityId": "western-han",
+    "name": "元光",
+    "reignIds": [
+      "western-han-武帝--139"
+    ],
+    "startYear": -133,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -128
+  },
+  {
+    "id": "western-han-元朔--127",
+    "polityId": "western-han",
+    "name": "元朔",
+    "reignIds": [
+      "western-han-武帝--139"
+    ],
+    "startYear": -127,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -122
+  },
+  {
+    "id": "western-han-元狩--121",
+    "polityId": "western-han",
+    "name": "元狩",
+    "reignIds": [
+      "western-han-武帝--139"
+    ],
+    "startYear": -121,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -116
+  },
+  {
+    "id": "western-han-元鼎--115",
+    "polityId": "western-han",
+    "name": "元鼎",
+    "reignIds": [
+      "western-han-武帝--139"
+    ],
+    "startYear": -115,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -110
+  },
+  {
+    "id": "western-han-元封--109",
+    "polityId": "western-han",
+    "name": "元封",
+    "reignIds": [
+      "western-han-武帝--139"
+    ],
+    "startYear": -109,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -104
+  },
+  {
+    "id": "western-han-太初--103",
+    "polityId": "western-han",
+    "name": "太初",
+    "reignIds": [
+      "western-han-武帝--139"
+    ],
+    "startYear": -103,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -100
+  },
+  {
+    "id": "western-han-天汉--99",
+    "polityId": "western-han",
+    "name": "天汉",
+    "reignIds": [
+      "western-han-武帝--139"
+    ],
+    "startYear": -99,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -96
+  },
+  {
+    "id": "western-han-太始--95",
+    "polityId": "western-han",
+    "name": "太始",
+    "reignIds": [
+      "western-han-武帝--139"
+    ],
+    "startYear": -95,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -92
+  },
+  {
+    "id": "western-han-征和--91",
+    "polityId": "western-han",
+    "name": "征和",
+    "reignIds": [
+      "western-han-武帝--139"
+    ],
+    "startYear": -91,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -88
+  },
+  {
+    "id": "western-han-后元--87",
+    "polityId": "western-han",
+    "name": "后元",
+    "reignIds": [
+      "western-han-武帝--139"
+    ],
+    "startYear": -87,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -86
+  },
+  {
+    "id": "western-han-始元--85",
+    "polityId": "western-han",
+    "name": "始元",
+    "reignIds": [
+      "western-han-昭帝--85"
+    ],
+    "startYear": -85,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -79
+  },
+  {
+    "id": "western-han-元凤--79",
+    "polityId": "western-han",
+    "name": "元凤",
+    "reignIds": [
+      "western-han-昭帝--85"
+    ],
+    "startYear": -79,
+    "startMonth": 8,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -74
+  },
+  {
+    "id": "western-han-元平--73",
+    "polityId": "western-han",
+    "name": "元平",
+    "reignIds": [
+      "western-han-昭帝--85"
+    ],
+    "startYear": -73,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -73
+  },
+  {
+    "id": "western-han-本始--72",
+    "polityId": "western-han",
+    "name": "本始",
+    "reignIds": [
+      "western-han-宣帝--72"
+    ],
+    "startYear": -72,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -69
+  },
+  {
+    "id": "western-han-地节--68",
+    "polityId": "western-han",
+    "name": "地节",
+    "reignIds": [
+      "western-han-宣帝--72"
+    ],
+    "startYear": -68,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -65
+  },
+  {
+    "id": "western-han-元康--64",
+    "polityId": "western-han",
+    "name": "元康",
+    "reignIds": [
+      "western-han-宣帝--72"
+    ],
+    "startYear": -64,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -60
+  },
+  {
+    "id": "western-han-神爵--60",
+    "polityId": "western-han",
+    "name": "神爵",
+    "reignIds": [
+      "western-han-宣帝--72"
+    ],
+    "startYear": -60,
+    "startMonth": 3,
+    "note": "丝绸之路",
+    "sources": [
+      "S3"
+    ],
+    "endYear": -57
+  },
+  {
+    "id": "western-han-五凤--56",
+    "polityId": "western-han",
+    "name": "五凤",
+    "reignIds": [
+      "western-han-宣帝--72"
+    ],
+    "startYear": -56,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -53
+  },
+  {
+    "id": "western-han-甘露--52",
+    "polityId": "western-han",
+    "name": "甘露",
+    "reignIds": [
+      "western-han-宣帝--72"
+    ],
+    "startYear": -52,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -49
+  },
+  {
+    "id": "western-han-黄龙--48",
+    "polityId": "western-han",
+    "name": "黄龙",
+    "reignIds": [
+      "western-han-宣帝--72"
+    ],
+    "startYear": -48,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -48
+  },
+  {
+    "id": "western-han-初元--47",
+    "polityId": "western-han",
+    "name": "初元",
+    "reignIds": [
+      "western-han-元帝--47"
+    ],
+    "startYear": -47,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -43
+  },
+  {
+    "id": "western-han-永光--42",
+    "polityId": "western-han",
+    "name": "永光",
+    "reignIds": [
+      "western-han-元帝--47"
+    ],
+    "startYear": -42,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -38
+  },
+  {
+    "id": "western-han-建昭--37",
+    "polityId": "western-han",
+    "name": "建昭",
+    "reignIds": [
+      "western-han-元帝--47"
+    ],
+    "startYear": -37,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -33
+  },
+  {
+    "id": "western-han-竟宁--32",
+    "polityId": "western-han",
+    "name": "竟宁",
+    "reignIds": [
+      "western-han-元帝--47"
+    ],
+    "startYear": -32,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -32
+  },
+  {
+    "id": "western-han-建始--31",
+    "polityId": "western-han",
+    "name": "建始",
+    "reignIds": [
+      "western-han-成帝--31"
+    ],
+    "startYear": -31,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -28
+  },
+  {
+    "id": "western-han-河平--27",
+    "polityId": "western-han",
+    "name": "河平",
+    "reignIds": [
+      "western-han-成帝--31"
+    ],
+    "startYear": -27,
+    "startMonth": 3,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -24
+  },
+  {
+    "id": "western-han-阳朔--23",
+    "polityId": "western-han",
+    "name": "阳朔",
+    "reignIds": [
+      "western-han-成帝--31"
+    ],
+    "startYear": -23,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -20
+  },
+  {
+    "id": "western-han-鸿嘉--19",
+    "polityId": "western-han",
+    "name": "鸿嘉",
+    "reignIds": [
+      "western-han-成帝--31"
+    ],
+    "startYear": -19,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -16
+  },
+  {
+    "id": "western-han-永始--15",
+    "polityId": "western-han",
+    "name": "永始",
+    "reignIds": [
+      "western-han-成帝--31"
+    ],
+    "startYear": -15,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -12
+  },
+  {
+    "id": "western-han-元延--11",
+    "polityId": "western-han",
+    "name": "元延",
+    "reignIds": [
+      "western-han-成帝--31"
+    ],
+    "startYear": -11,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -8
+  },
+  {
+    "id": "western-han-绥和--7",
+    "polityId": "western-han",
+    "name": "绥和",
+    "reignIds": [
+      "western-han-成帝--31"
+    ],
+    "startYear": -7,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -5
+  },
+  {
+    "id": "western-han-建平--5",
+    "polityId": "western-han",
+    "name": "建平",
+    "reignIds": [
+      "western-han-哀帝--5"
+    ],
+    "startYear": -5,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": -2
+  },
+  {
+    "id": "western-han-元寿--1",
+    "polityId": "western-han",
+    "name": "元寿",
+    "reignIds": [
+      "western-han-哀帝--5"
+    ],
+    "startYear": -1,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 0
+  },
+  {
+    "id": "western-han-元始-1",
+    "polityId": "western-han",
+    "name": "元始",
+    "reignIds": [
+      "western-han-平帝-1"
+    ],
+    "startYear": 1,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 5
+  },
+  {
+    "id": "western-han-居摄-6",
+    "polityId": "western-han",
+    "name": "居摄",
+    "reignIds": [
+      "western-han-孺子婴-6"
+    ],
+    "startYear": 6,
+    "startMonth": 1,
+    "note": "王莽摄政",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 8
+  },
+  {
+    "id": "western-han-初始-8",
+    "polityId": "western-han",
+    "name": "初始",
+    "reignIds": [
+      "western-han-孺子婴-6"
+    ],
+    "startYear": 8,
+    "startMonth": 11,
+    "note": "王莽摄政",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 8
+  },
+  {
+    "id": "xin-始建国-9",
+    "polityId": "xin",
+    "name": "始建国",
+    "reignIds": [
+      "xin-王莽-9"
+    ],
+    "startYear": 9,
+    "startMonth": 1,
+    "note": "新朝 绿林赤眉起义",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 13
+  },
+  {
+    "id": "xin-天凤-14",
+    "polityId": "xin",
+    "name": "天凤",
+    "reignIds": [
+      "xin-王莽-9"
+    ],
+    "startYear": 14,
+    "startMonth": 1,
+    "note": "新朝 绿林赤眉起义",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 19
+  },
+  {
+    "id": "xin-地皇-20",
+    "polityId": "xin",
+    "name": "地皇",
+    "reignIds": [
+      "xin-王莽-9"
+    ],
+    "startYear": 20,
+    "startMonth": 1,
+    "note": "新朝 绿林赤眉起义",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 23
+  },
+  {
+    "id": "gengshi-更始-23",
+    "polityId": "gengshi",
+    "name": "更始",
+    "reignIds": [
+      "gengshi-更始帝-23"
+    ],
+    "startYear": 23,
+    "startMonth": 2,
+    "note": "昆阳之战",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 25
+  },
+  {
+    "id": "eastern-han-建武-25",
+    "polityId": "eastern-han",
+    "name": "建武",
+    "reignIds": [
+      "eastern-han-光武帝-25"
+    ],
+    "startYear": 25,
+    "startMonth": 6,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 56
+  },
+  {
+    "id": "eastern-han-建武中元-56",
+    "polityId": "eastern-han",
+    "name": "建武中元",
+    "reignIds": [
+      "eastern-han-光武帝-25"
+    ],
+    "startYear": 56,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 57
+  },
+  {
+    "id": "eastern-han-永平-58",
+    "polityId": "eastern-han",
+    "name": "永平",
+    "reignIds": [
+      "eastern-han-明帝-58"
+    ],
+    "startYear": 58,
+    "startMonth": 1,
+    "note": "班超出使西域",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 75
+  },
+  {
+    "id": "eastern-han-建初-76",
+    "polityId": "eastern-han",
+    "name": "建初",
+    "reignIds": [
+      "eastern-han-章帝-76"
+    ],
+    "startYear": 76,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 84
+  },
+  {
+    "id": "eastern-han-元和-84",
+    "polityId": "eastern-han",
+    "name": "元和",
+    "reignIds": [
+      "eastern-han-章帝-76"
+    ],
+    "startYear": 84,
+    "startMonth": 8,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 87
+  },
+  {
+    "id": "eastern-han-章和-87",
+    "polityId": "eastern-han",
+    "name": "章和",
+    "reignIds": [
+      "eastern-han-章帝-76"
+    ],
+    "startYear": 87,
+    "startMonth": 7,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 88
+  },
+  {
+    "id": "eastern-han-永元-89",
+    "polityId": "eastern-han",
+    "name": "永元",
+    "reignIds": [
+      "eastern-han-和帝-89"
+    ],
+    "startYear": 89,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 105
+  },
+  {
+    "id": "eastern-han-元兴-105",
+    "polityId": "eastern-han",
+    "name": "元兴",
+    "reignIds": [
+      "eastern-han-和帝-89"
+    ],
+    "startYear": 105,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 105
+  },
+  {
+    "id": "eastern-han-延平-106",
+    "polityId": "eastern-han",
+    "name": "延平",
+    "reignIds": [
+      "eastern-han-殇帝-106"
+    ],
+    "startYear": 106,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 106
+  },
+  {
+    "id": "eastern-han-永初-107",
+    "polityId": "eastern-han",
+    "name": "永初",
+    "reignIds": [
+      "eastern-han-安帝-107"
+    ],
+    "startYear": 107,
+    "startMonth": 1,
+    "note": "东汉羌汉人民反抗斗争形势",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 113
+  },
+  {
+    "id": "eastern-han-元初-114",
+    "polityId": "eastern-han",
+    "name": "元初",
+    "reignIds": [
+      "eastern-han-安帝-107"
+    ],
+    "startYear": 114,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 120
+  },
+  {
+    "id": "eastern-han-永宁-120",
+    "polityId": "eastern-han",
+    "name": "永宁",
+    "reignIds": [
+      "eastern-han-安帝-107"
+    ],
+    "startYear": 120,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 121
+  },
+  {
+    "id": "eastern-han-建光-121",
+    "polityId": "eastern-han",
+    "name": "建光",
+    "reignIds": [
+      "eastern-han-安帝-107"
+    ],
+    "startYear": 121,
+    "startMonth": 7,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 122
+  },
+  {
+    "id": "eastern-han-延光-122",
+    "polityId": "eastern-han",
+    "name": "延光",
+    "reignIds": [
+      "eastern-han-安帝-107"
+    ],
+    "startYear": 122,
+    "startMonth": 3,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 125
+  },
+  {
+    "id": "eastern-han-永建-126",
+    "polityId": "eastern-han",
+    "name": "永建",
+    "reignIds": [
+      "eastern-han-顺帝-126"
+    ],
+    "startYear": 126,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 132
+  },
+  {
+    "id": "eastern-han-阳嘉-132",
+    "polityId": "eastern-han",
+    "name": "阳嘉",
+    "reignIds": [
+      "eastern-han-顺帝-126"
+    ],
+    "startYear": 132,
+    "startMonth": 3,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 135
+  },
+  {
+    "id": "eastern-han-永和-136",
+    "polityId": "eastern-han",
+    "name": "永和",
+    "reignIds": [
+      "eastern-han-顺帝-126"
+    ],
+    "startYear": 136,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 141
+  },
+  {
+    "id": "eastern-han-汉安-142",
+    "polityId": "eastern-han",
+    "name": "汉安",
+    "reignIds": [
+      "eastern-han-顺帝-126"
+    ],
+    "startYear": 142,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 144
+  },
+  {
+    "id": "eastern-han-建康-144",
+    "polityId": "eastern-han",
+    "name": "建康",
+    "reignIds": [
+      "eastern-han-顺帝-126"
+    ],
+    "startYear": 144,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 144
+  },
+  {
+    "id": "eastern-han-永熹/嘉-145",
+    "polityId": "eastern-han",
+    "name": "永熹/嘉",
+    "reignIds": [
+      "eastern-han-冲帝-145"
+    ],
+    "startYear": 145,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 145
+  },
+  {
+    "id": "eastern-han-本初-146",
+    "polityId": "eastern-han",
+    "name": "本初",
+    "reignIds": [
+      "eastern-han-质帝-146"
+    ],
+    "startYear": 146,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 146
+  },
+  {
+    "id": "eastern-han-建和-147",
+    "polityId": "eastern-han",
+    "name": "建和",
+    "reignIds": [
+      "eastern-han-桓帝-147"
+    ],
+    "startYear": 147,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 149
+  },
+  {
+    "id": "eastern-han-和平-150",
+    "polityId": "eastern-han",
+    "name": "和平",
+    "reignIds": [
+      "eastern-han-桓帝-147"
+    ],
+    "startYear": 150,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 150
+  },
+  {
+    "id": "eastern-han-元嘉-151",
+    "polityId": "eastern-han",
+    "name": "元嘉",
+    "reignIds": [
+      "eastern-han-桓帝-147"
+    ],
+    "startYear": 151,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 153
+  },
+  {
+    "id": "eastern-han-永兴-153",
+    "polityId": "eastern-han",
+    "name": "永兴",
+    "reignIds": [
+      "eastern-han-桓帝-147"
+    ],
+    "startYear": 153,
+    "startMonth": 5,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 154
+  },
+  {
+    "id": "eastern-han-永寿-155",
+    "polityId": "eastern-han",
+    "name": "永寿",
+    "reignIds": [
+      "eastern-han-桓帝-147"
+    ],
+    "startYear": 155,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 158
+  },
+  {
+    "id": "eastern-han-延熹-158",
+    "polityId": "eastern-han",
+    "name": "延熹",
+    "reignIds": [
+      "eastern-han-桓帝-147"
+    ],
+    "startYear": 158,
+    "startMonth": 6,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 167
+  },
+  {
+    "id": "eastern-han-永康-167",
+    "polityId": "eastern-han",
+    "name": "永康",
+    "reignIds": [
+      "eastern-han-桓帝-147"
+    ],
+    "startYear": 167,
+    "startMonth": 6,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 167
+  },
+  {
+    "id": "eastern-han-建宁-168",
+    "polityId": "eastern-han",
+    "name": "建宁",
+    "reignIds": [
+      "eastern-han-灵帝-168"
+    ],
+    "startYear": 168,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 172
+  },
+  {
+    "id": "eastern-han-熹平-172",
+    "polityId": "eastern-han",
+    "name": "熹平",
+    "reignIds": [
+      "eastern-han-灵帝-168"
+    ],
+    "startYear": 172,
+    "startMonth": 5,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 178
+  },
+  {
+    "id": "eastern-han-光和-178",
+    "polityId": "eastern-han",
+    "name": "光和",
+    "reignIds": [
+      "eastern-han-灵帝-168"
+    ],
+    "startYear": 178,
+    "startMonth": 3,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 184
+  },
+  {
+    "id": "eastern-han-中平-184",
+    "polityId": "eastern-han",
+    "name": "中平",
+    "reignIds": [
+      "eastern-han-灵帝-168"
+    ],
+    "startYear": 184,
+    "startMonth": 12,
+    "note": "黄巾起义",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 189
+  },
+  {
+    "id": "eastern-han-初平-190",
+    "polityId": "eastern-han",
+    "name": "初平",
+    "reignIds": [
+      "eastern-han-献帝-190"
+    ],
+    "startYear": 190,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 193
+  },
+  {
+    "id": "eastern-han-兴平-194",
+    "polityId": "eastern-han",
+    "name": "兴平",
+    "reignIds": [
+      "eastern-han-献帝-190"
+    ],
+    "startYear": 194,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 195
+  },
+  {
+    "id": "eastern-han-建安-196",
+    "polityId": "eastern-han",
+    "name": "建安",
+    "reignIds": [
+      "eastern-han-献帝-190"
+    ],
+    "startYear": 196,
+    "startMonth": 1,
+    "note": "东汉末年军阀割据形势 官渡之战 隆中對 赤壁之战",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 220
+  },
+  {
+    "id": "eastern-han-延康-220",
+    "polityId": "eastern-han",
+    "name": "延康",
+    "reignIds": [
+      "eastern-han-献帝-190"
+    ],
+    "startYear": 220,
+    "startMonth": 3,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 220
+  },
+  {
+    "id": "wei-黄初-220",
+    "polityId": "wei",
+    "name": "黄初",
+    "reignIds": [
+      "wei-文帝-220"
+    ],
+    "startYear": 220,
+    "startMonth": 10,
+    "note": "三国鼎立形势",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 226
+  },
+  {
+    "id": "wei-太和-227",
+    "polityId": "wei",
+    "name": "太和",
+    "reignIds": [
+      "wei-明帝-227"
+    ],
+    "startYear": 227,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 233
+  },
+  {
+    "id": "wei-青龙-233",
+    "polityId": "wei",
+    "name": "青龙",
+    "reignIds": [
+      "wei-明帝-227"
+    ],
+    "startYear": 233,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 237
+  },
+  {
+    "id": "wei-景初-237",
+    "polityId": "wei",
+    "name": "景初",
+    "reignIds": [
+      "wei-明帝-227"
+    ],
+    "startYear": 237,
+    "startMonth": 3,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 239
+  },
+  {
+    "id": "wei-正始-240",
+    "polityId": "wei",
+    "name": "正始",
+    "reignIds": [
+      "wei-齐王-240"
+    ],
+    "startYear": 240,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 249
+  },
+  {
+    "id": "wei-嘉平-249",
+    "polityId": "wei",
+    "name": "嘉平",
+    "reignIds": [
+      "wei-齐王-240"
+    ],
+    "startYear": 249,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 254
+  },
+  {
+    "id": "wei-正元-254",
+    "polityId": "wei",
+    "name": "正元",
+    "reignIds": [
+      "wei-高贵乡公-254"
+    ],
+    "startYear": 254,
+    "startMonth": 10,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 256
+  },
+  {
+    "id": "wei-甘露-256",
+    "polityId": "wei",
+    "name": "甘露",
+    "reignIds": [
+      "wei-高贵乡公-254"
+    ],
+    "startYear": 256,
+    "startMonth": 6,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 260
+  },
+  {
+    "id": "wei-景元-260",
+    "polityId": "wei",
+    "name": "景元",
+    "reignIds": [
+      "wei-元帝(陈留王)-260"
+    ],
+    "startYear": 260,
+    "startMonth": 6,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 264
+  },
+  {
+    "id": "wei-咸熙-264",
+    "polityId": "wei",
+    "name": "咸熙",
+    "reignIds": [
+      "wei-元帝(陈留王)-260"
+    ],
+    "startYear": 264,
+    "startMonth": 5,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 265
+  },
+  {
+    "id": "shu-han-章武-221",
+    "polityId": "shu-han",
+    "name": "章武",
+    "reignIds": [
+      "shu-han-昭烈帝-221"
+    ],
+    "startYear": 221,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 223
+  },
+  {
+    "id": "shu-han-建兴-223",
+    "polityId": "shu-han",
+    "name": "建兴",
+    "reignIds": [
+      "shu-han-后主-223"
+    ],
+    "startYear": 223,
+    "startMonth": 5,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 237
+  },
+  {
+    "id": "shu-han-延熙-238",
+    "polityId": "shu-han",
+    "name": "延熙",
+    "reignIds": [
+      "shu-han-后主-223"
+    ],
+    "startYear": 238,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 257
+  },
+  {
+    "id": "shu-han-景耀-258",
+    "polityId": "shu-han",
+    "name": "景耀",
+    "reignIds": [
+      "shu-han-后主-223"
+    ],
+    "startYear": 258,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 263
+  },
+  {
+    "id": "shu-han-炎兴-263",
+    "polityId": "shu-han",
+    "name": "炎兴",
+    "reignIds": [
+      "shu-han-后主-223"
+    ],
+    "startYear": 263,
+    "startMonth": 8,
+    "note": "魏灭蜀形势",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 263
+  },
+  {
+    "id": "wu-黄武-222",
+    "polityId": "wu",
+    "name": "黄武",
+    "reignIds": [
+      "wu-大帝-222"
+    ],
+    "startYear": 222,
+    "startMonth": 10,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 229
+  },
+  {
+    "id": "wu-黄龙-229",
+    "polityId": "wu",
+    "name": "黄龙",
+    "reignIds": [
+      "wu-大帝-222"
+    ],
+    "startYear": 229,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 231
+  },
+  {
+    "id": "wu-嘉禾-232",
+    "polityId": "wu",
+    "name": "嘉禾",
+    "reignIds": [
+      "wu-大帝-222"
+    ],
+    "startYear": 232,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 238
+  },
+  {
+    "id": "wu-赤乌-238",
+    "polityId": "wu",
+    "name": "赤乌",
+    "reignIds": [
+      "wu-大帝-222"
+    ],
+    "startYear": 238,
+    "startMonth": 9,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 251
+  },
+  {
+    "id": "wu-太元-251",
+    "polityId": "wu",
+    "name": "太元",
+    "reignIds": [
+      "wu-大帝-222"
+    ],
+    "startYear": 251,
+    "startMonth": 5,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 252
+  },
+  {
+    "id": "wu-神凤-252",
+    "polityId": "wu",
+    "name": "神凤",
+    "reignIds": [
+      "wu-大帝-222"
+    ],
+    "startYear": 252,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 252
+  },
+  {
+    "id": "wu-建兴-252",
+    "polityId": "wu",
+    "name": "建兴",
+    "reignIds": [
+      "wu-会稽王-252"
+    ],
+    "startYear": 252,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 253
+  },
+  {
+    "id": "wu-五凤-254",
+    "polityId": "wu",
+    "name": "五凤",
+    "reignIds": [
+      "wu-会稽王-252"
+    ],
+    "startYear": 254,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 256
+  },
+  {
+    "id": "wu-太平-256",
+    "polityId": "wu",
+    "name": "太平",
+    "reignIds": [
+      "wu-会稽王-252"
+    ],
+    "startYear": 256,
+    "startMonth": 10,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 258
+  },
+  {
+    "id": "wu-永安-258",
+    "polityId": "wu",
+    "name": "永安",
+    "reignIds": [
+      "wu-景帝-258"
+    ],
+    "startYear": 258,
+    "startMonth": 10,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 264
+  },
+  {
+    "id": "wu-元兴-264",
+    "polityId": "wu",
+    "name": "元兴",
+    "reignIds": [
+      "wu-乌程侯-264"
+    ],
+    "startYear": 264,
+    "startMonth": 7,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 265
+  },
+  {
+    "id": "wu-甘露-265",
+    "polityId": "wu",
+    "name": "甘露",
+    "reignIds": [
+      "wu-乌程侯-264"
+    ],
+    "startYear": 265,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 266
+  },
+  {
+    "id": "wu-宝鼎-266",
+    "polityId": "wu",
+    "name": "宝鼎",
+    "reignIds": [
+      "wu-乌程侯-264"
+    ],
+    "startYear": 266,
+    "startMonth": 8,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 269
+  },
+  {
+    "id": "wu-建衡-269",
+    "polityId": "wu",
+    "name": "建衡",
+    "reignIds": [
+      "wu-乌程侯-264"
+    ],
+    "startYear": 269,
+    "startMonth": 10,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 271
+  },
+  {
+    "id": "wu-凤凰-272",
+    "polityId": "wu",
+    "name": "凤凰",
+    "reignIds": [
+      "wu-乌程侯-264"
+    ],
+    "startYear": 272,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 274
+  },
+  {
+    "id": "wu-天册-275",
+    "polityId": "wu",
+    "name": "天册",
+    "reignIds": [
+      "wu-乌程侯-264"
+    ],
+    "startYear": 275,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 276
+  },
+  {
+    "id": "wu-天玺-276",
+    "polityId": "wu",
+    "name": "天玺",
+    "reignIds": [
+      "wu-乌程侯-264"
+    ],
+    "startYear": 276,
+    "startMonth": 7,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 276
+  },
+  {
+    "id": "wu-天纪-277",
+    "polityId": "wu",
+    "name": "天纪",
+    "reignIds": [
+      "wu-乌程侯-264"
+    ],
+    "startYear": 277,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 280
+  },
+  {
+    "id": "western-jin-泰始-265",
+    "polityId": "western-jin",
+    "name": "泰始",
+    "reignIds": [
+      "western-jin-武帝-265"
+    ],
+    "startYear": 265,
+    "startMonth": 12,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 274
+  },
+  {
+    "id": "western-jin-咸宁-275",
+    "polityId": "western-jin",
+    "name": "咸宁",
+    "reignIds": [
+      "western-jin-武帝-265"
+    ],
+    "startYear": 275,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 280
+  },
+  {
+    "id": "western-jin-太康-280",
+    "polityId": "western-jin",
+    "name": "太康",
+    "reignIds": [
+      "western-jin-武帝-265"
+    ],
+    "startYear": 280,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 289
+  },
+  {
+    "id": "western-jin-太熙-290",
+    "polityId": "western-jin",
+    "name": "太熙",
+    "reignIds": [
+      "western-jin-武帝-265"
+    ],
+    "startYear": 290,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 290
+  },
+  {
+    "id": "western-jin-永熙-290",
+    "polityId": "western-jin",
+    "name": "永熙",
+    "reignIds": [
+      "western-jin-惠帝-290"
+    ],
+    "startYear": 290,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 290
+  },
+  {
+    "id": "western-jin-永平-291",
+    "polityId": "western-jin",
+    "name": "永平",
+    "reignIds": [
+      "western-jin-惠帝-290"
+    ],
+    "startYear": 291,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 291
+  },
+  {
+    "id": "western-jin-元康-291",
+    "polityId": "western-jin",
+    "name": "元康",
+    "reignIds": [
+      "western-jin-惠帝-290"
+    ],
+    "startYear": 291,
+    "startMonth": 3,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 299
+  },
+  {
+    "id": "western-jin-永康-300",
+    "polityId": "western-jin",
+    "name": "永康",
+    "reignIds": [
+      "western-jin-惠帝-290"
+    ],
+    "startYear": 300,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 301
+  },
+  {
+    "id": "western-jin-永宁-301",
+    "polityId": "western-jin",
+    "name": "永宁",
+    "reignIds": [
+      "western-jin-惠帝-290"
+    ],
+    "startYear": 301,
+    "startMonth": 4,
+    "note": "西晋境内内迁各族的分布及流民起义",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 302
+  },
+  {
+    "id": "western-jin-太安-302",
+    "polityId": "western-jin",
+    "name": "太安",
+    "reignIds": [
+      "western-jin-惠帝-290"
+    ],
+    "startYear": 302,
+    "startMonth": 12,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 303
+  },
+  {
+    "id": "western-jin-永安-304",
+    "polityId": "western-jin",
+    "name": "永安",
+    "reignIds": [
+      "western-jin-惠帝-290"
+    ],
+    "startYear": 304,
+    "startMonth": 1,
+    "note": "东晋和十六国形势",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 304
+  },
+  {
+    "id": "western-jin-建武-304",
+    "polityId": "western-jin",
+    "name": "建武",
+    "reignIds": [
+      "western-jin-惠帝-290"
+    ],
+    "startYear": 304,
+    "startMonth": 7,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 304
+  },
+  {
+    "id": "western-jin-永安-304-2",
+    "polityId": "western-jin",
+    "name": "永安",
+    "reignIds": [
+      "western-jin-惠帝-290"
+    ],
+    "startYear": 304,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 304
+  },
+  {
+    "id": "western-jin-永兴-304",
+    "polityId": "western-jin",
+    "name": "永兴",
+    "reignIds": [
+      "western-jin-惠帝-290"
+    ],
+    "startYear": 304,
+    "startMonth": 12,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 306
+  },
+  {
+    "id": "western-jin-光熙-306",
+    "polityId": "western-jin",
+    "name": "光熙",
+    "reignIds": [
+      "western-jin-惠帝-290"
+    ],
+    "startYear": 306,
+    "startMonth": 6,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 306
+  },
+  {
+    "id": "western-jin-永嘉-307",
+    "polityId": "western-jin",
+    "name": "永嘉",
+    "reignIds": [
+      "western-jin-怀帝-307"
+    ],
+    "startYear": 307,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 313
+  },
+  {
+    "id": "western-jin-建兴-313",
+    "polityId": "western-jin",
+    "name": "建兴",
+    "reignIds": [
+      "western-jin-愍帝-313"
+    ],
+    "startYear": 313,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 317
+  },
+  {
+    "id": "eastern-jin-建武-317",
+    "polityId": "eastern-jin",
+    "name": "建武",
+    "reignIds": [
+      "eastern-jin-元帝-317"
+    ],
+    "startYear": 317,
+    "startMonth": 3,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 318
+  },
+  {
+    "id": "eastern-jin-大兴-318",
+    "polityId": "eastern-jin",
+    "name": "大兴",
+    "reignIds": [
+      "eastern-jin-元帝-317"
+    ],
+    "startYear": 318,
+    "startMonth": 3,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 321
+  },
+  {
+    "id": "eastern-jin-永昌-322",
+    "polityId": "eastern-jin",
+    "name": "永昌",
+    "reignIds": [
+      "eastern-jin-元帝-317"
+    ],
+    "startYear": 322,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 322
+  },
+  {
+    "id": "eastern-jin-永昌-322-2",
+    "polityId": "eastern-jin",
+    "name": "永昌",
+    "reignIds": [
+      "eastern-jin-明帝-322"
+    ],
+    "startYear": 322,
+    "startMonth": 11,
+    "note": "（闰月）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 323
+  },
+  {
+    "id": "eastern-jin-太宁-323",
+    "polityId": "eastern-jin",
+    "name": "太宁",
+    "reignIds": [
+      "eastern-jin-明帝-322"
+    ],
+    "startYear": 323,
+    "startMonth": 3,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 325
+  },
+  {
+    "id": "eastern-jin-太宁-325",
+    "polityId": "eastern-jin",
+    "name": "太宁",
+    "reignIds": [
+      "eastern-jin-成帝-325"
+    ],
+    "startYear": 325,
+    "startMonth": 8,
+    "note": "（闰月）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 326
+  },
+  {
+    "id": "eastern-jin-咸和-326",
+    "polityId": "eastern-jin",
+    "name": "咸和",
+    "reignIds": [
+      "eastern-jin-成帝-325"
+    ],
+    "startYear": 326,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 334
+  },
+  {
+    "id": "eastern-jin-咸康-335",
+    "polityId": "eastern-jin",
+    "name": "咸康",
+    "reignIds": [
+      "eastern-jin-成帝-325"
+    ],
+    "startYear": 335,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 342
+  },
+  {
+    "id": "eastern-jin-建元-343",
+    "polityId": "eastern-jin",
+    "name": "建元",
+    "reignIds": [
+      "eastern-jin-康帝-343"
+    ],
+    "startYear": 343,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 344
+  },
+  {
+    "id": "eastern-jin-永和-345",
+    "polityId": "eastern-jin",
+    "name": "永和",
+    "reignIds": [
+      "eastern-jin-穆帝-345"
+    ],
+    "startYear": 345,
+    "startMonth": 1,
+    "note": "东晋,前秦形势",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 356
+  },
+  {
+    "id": "eastern-jin-升平-357",
+    "polityId": "eastern-jin",
+    "name": "升平",
+    "reignIds": [
+      "eastern-jin-穆帝-345"
+    ],
+    "startYear": 357,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 361
+  },
+  {
+    "id": "eastern-jin-隆和-362",
+    "polityId": "eastern-jin",
+    "name": "隆和",
+    "reignIds": [
+      "eastern-jin-哀帝-362"
+    ],
+    "startYear": 362,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 363
+  },
+  {
+    "id": "eastern-jin-兴宁-363",
+    "polityId": "eastern-jin",
+    "name": "兴宁",
+    "reignIds": [
+      "eastern-jin-哀帝-362"
+    ],
+    "startYear": 363,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 365
+  },
+  {
+    "id": "eastern-jin-太和-366",
+    "polityId": "eastern-jin",
+    "name": "太和",
+    "reignIds": [
+      "eastern-jin-海西公-366"
+    ],
+    "startYear": 366,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 371
+  },
+  {
+    "id": "eastern-jin-咸安-371",
+    "polityId": "eastern-jin",
+    "name": "咸安",
+    "reignIds": [
+      "eastern-jin-简文帝-371"
+    ],
+    "startYear": 371,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 372
+  },
+  {
+    "id": "eastern-jin-宁康-373",
+    "polityId": "eastern-jin",
+    "name": "宁康",
+    "reignIds": [
+      "eastern-jin-孝武帝-373"
+    ],
+    "startYear": 373,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 375
+  },
+  {
+    "id": "eastern-jin-太元-376",
+    "polityId": "eastern-jin",
+    "name": "太元",
+    "reignIds": [
+      "eastern-jin-孝武帝-373"
+    ],
+    "startYear": 376,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 396
+  },
+  {
+    "id": "eastern-jin-隆安-397",
+    "polityId": "eastern-jin",
+    "name": "隆安",
+    "reignIds": [
+      "eastern-jin-安帝-397"
+    ],
+    "startYear": 397,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 401
+  },
+  {
+    "id": "eastern-jin-元兴-402",
+    "polityId": "eastern-jin",
+    "name": "元兴",
+    "reignIds": [
+      "eastern-jin-安帝-397"
+    ],
+    "startYear": 402,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 404
+  },
+  {
+    "id": "eastern-jin-义熙-405",
+    "polityId": "eastern-jin",
+    "name": "义熙",
+    "reignIds": [
+      "eastern-jin-安帝-397"
+    ],
+    "startYear": 405,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 418
+  },
+  {
+    "id": "eastern-jin-元熙-419",
+    "polityId": "eastern-jin",
+    "name": "元熙",
+    "reignIds": [
+      "eastern-jin-恭帝-419"
+    ],
+    "startYear": 419,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 420
+  },
+  {
+    "id": "northern-wei-登国-386",
+    "polityId": "northern-wei",
+    "name": "登国",
+    "reignIds": [
+      "northern-wei-道武帝-386"
+    ],
+    "startYear": 386,
+    "startMonth": 1,
+    "note": "初称代国,四月改国号为魏",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 396
+  },
+  {
+    "id": "northern-wei-皇始-396",
+    "polityId": "northern-wei",
+    "name": "皇始",
+    "reignIds": [
+      "northern-wei-道武帝-386"
+    ],
+    "startYear": 396,
+    "startMonth": 7,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 398
+  },
+  {
+    "id": "northern-wei-天兴-398",
+    "polityId": "northern-wei",
+    "name": "天兴",
+    "reignIds": [
+      "northern-wei-道武帝-386"
+    ],
+    "startYear": 398,
+    "startMonth": 12,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 404
+  },
+  {
+    "id": "northern-wei-天赐-404",
+    "polityId": "northern-wei",
+    "name": "天赐",
+    "reignIds": [
+      "northern-wei-道武帝-386"
+    ],
+    "startYear": 404,
+    "startMonth": 10,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 409
+  },
+  {
+    "id": "northern-wei-永兴-409",
+    "polityId": "northern-wei",
+    "name": "永兴",
+    "reignIds": [
+      "northern-wei-明元帝-409"
+    ],
+    "startYear": 409,
+    "startMonth": 10,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 413
+  },
+  {
+    "id": "northern-wei-神瑞-414",
+    "polityId": "northern-wei",
+    "name": "神瑞",
+    "reignIds": [
+      "northern-wei-明元帝-409"
+    ],
+    "startYear": 414,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 416
+  },
+  {
+    "id": "northern-wei-泰常-416",
+    "polityId": "northern-wei",
+    "name": "泰常",
+    "reignIds": [
+      "northern-wei-明元帝-409"
+    ],
+    "startYear": 416,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 423
+  },
+  {
+    "id": "northern-wei-始光-424",
+    "polityId": "northern-wei",
+    "name": "始光",
+    "reignIds": [
+      "northern-wei-太武帝-424"
+    ],
+    "startYear": 424,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 428
+  },
+  {
+    "id": "northern-wei-神麚-428",
+    "polityId": "northern-wei",
+    "name": "神麚",
+    "reignIds": [
+      "northern-wei-太武帝-424"
+    ],
+    "startYear": 428,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 431
+  },
+  {
+    "id": "northern-wei-延和-432",
+    "polityId": "northern-wei",
+    "name": "延和",
+    "reignIds": [
+      "northern-wei-太武帝-424"
+    ],
+    "startYear": 432,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 434
+  },
+  {
+    "id": "northern-wei-太延-435",
+    "polityId": "northern-wei",
+    "name": "太延",
+    "reignIds": [
+      "northern-wei-太武帝-424"
+    ],
+    "startYear": 435,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 440
+  },
+  {
+    "id": "northern-wei-太平真君-440",
+    "polityId": "northern-wei",
+    "name": "太平真君",
+    "reignIds": [
+      "northern-wei-太武帝-424"
+    ],
+    "startYear": 440,
+    "startMonth": 6,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 451
+  },
+  {
+    "id": "northern-wei-正平-451",
+    "polityId": "northern-wei",
+    "name": "正平",
+    "reignIds": [
+      "northern-wei-太武帝-424"
+    ],
+    "startYear": 451,
+    "startMonth": 6,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 452
+  },
+  {
+    "id": "northern-wei-永/承平-452",
+    "polityId": "northern-wei",
+    "name": "永/承平",
+    "reignIds": [
+      "northern-wei-南安王-452"
+    ],
+    "startYear": 452,
+    "startMonth": 3,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 452
+  },
+  {
+    "id": "northern-wei-兴安-452",
+    "polityId": "northern-wei",
+    "name": "兴安",
+    "reignIds": [
+      "northern-wei-文成帝-452"
+    ],
+    "startYear": 452,
+    "startMonth": 10,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 454
+  },
+  {
+    "id": "northern-wei-兴光-454",
+    "polityId": "northern-wei",
+    "name": "兴光",
+    "reignIds": [
+      "northern-wei-文成帝-452"
+    ],
+    "startYear": 454,
+    "startMonth": 7,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 455
+  },
+  {
+    "id": "northern-wei-太安-455",
+    "polityId": "northern-wei",
+    "name": "太安",
+    "reignIds": [
+      "northern-wei-文成帝-452"
+    ],
+    "startYear": 455,
+    "startMonth": 6,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 459
+  },
+  {
+    "id": "northern-wei-和平-460",
+    "polityId": "northern-wei",
+    "name": "和平",
+    "reignIds": [
+      "northern-wei-文成帝-452"
+    ],
+    "startYear": 460,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 465
+  },
+  {
+    "id": "northern-wei-天安-466",
+    "polityId": "northern-wei",
+    "name": "天安",
+    "reignIds": [
+      "northern-wei-献文帝-466"
+    ],
+    "startYear": 466,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 467
+  },
+  {
+    "id": "northern-wei-皇兴-467",
+    "polityId": "northern-wei",
+    "name": "皇兴",
+    "reignIds": [
+      "northern-wei-献文帝-466"
+    ],
+    "startYear": 467,
+    "startMonth": 8,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 471
+  },
+  {
+    "id": "northern-wei-延兴-471",
+    "polityId": "northern-wei",
+    "name": "延兴",
+    "reignIds": [
+      "northern-wei-孝文帝-471"
+    ],
+    "startYear": 471,
+    "startMonth": 8,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 476
+  },
+  {
+    "id": "northern-wei-承明-476",
+    "polityId": "northern-wei",
+    "name": "承明",
+    "reignIds": [
+      "northern-wei-孝文帝-471"
+    ],
+    "startYear": 476,
+    "startMonth": 6,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 476
+  },
+  {
+    "id": "northern-wei-太和-477",
+    "polityId": "northern-wei",
+    "name": "太和",
+    "reignIds": [
+      "northern-wei-孝文帝-471"
+    ],
+    "startYear": 477,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 499
+  },
+  {
+    "id": "northern-wei-景明-500",
+    "polityId": "northern-wei",
+    "name": "景明",
+    "reignIds": [
+      "northern-wei-宣武帝-500"
+    ],
+    "startYear": 500,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 503
+  },
+  {
+    "id": "northern-wei-正始-504",
+    "polityId": "northern-wei",
+    "name": "正始",
+    "reignIds": [
+      "northern-wei-宣武帝-500"
+    ],
+    "startYear": 504,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 508
+  },
+  {
+    "id": "northern-wei-永平-508",
+    "polityId": "northern-wei",
+    "name": "永平",
+    "reignIds": [
+      "northern-wei-宣武帝-500"
+    ],
+    "startYear": 508,
+    "startMonth": 8,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 512
+  },
+  {
+    "id": "northern-wei-延昌-512",
+    "polityId": "northern-wei",
+    "name": "延昌",
+    "reignIds": [
+      "northern-wei-宣武帝-500"
+    ],
+    "startYear": 512,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 515
+  },
+  {
+    "id": "northern-wei-熙平-516",
+    "polityId": "northern-wei",
+    "name": "熙平",
+    "reignIds": [
+      "northern-wei-孝明帝-516"
+    ],
+    "startYear": 516,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 518
+  },
+  {
+    "id": "northern-wei-神龟-518",
+    "polityId": "northern-wei",
+    "name": "神龟",
+    "reignIds": [
+      "northern-wei-孝明帝-516"
+    ],
+    "startYear": 518,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 520
+  },
+  {
+    "id": "northern-wei-正光-520",
+    "polityId": "northern-wei",
+    "name": "正光",
+    "reignIds": [
+      "northern-wei-孝明帝-516"
+    ],
+    "startYear": 520,
+    "startMonth": 7,
+    "note": "北魏末年各族人民起义",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 525
+  },
+  {
+    "id": "northern-wei-孝昌-525",
+    "polityId": "northern-wei",
+    "name": "孝昌",
+    "reignIds": [
+      "northern-wei-孝明帝-516"
+    ],
+    "startYear": 525,
+    "startMonth": 6,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 527
+  },
+  {
+    "id": "northern-wei-武泰-528",
+    "polityId": "northern-wei",
+    "name": "武泰",
+    "reignIds": [
+      "northern-wei-孝明帝-516"
+    ],
+    "startYear": 528,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 528
+  },
+  {
+    "id": "northern-wei-建义-528",
+    "polityId": "northern-wei",
+    "name": "建义",
+    "reignIds": [
+      "northern-wei-孝庄帝-528"
+    ],
+    "startYear": 528,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 528
+  },
+  {
+    "id": "northern-wei-永安-528",
+    "polityId": "northern-wei",
+    "name": "永安",
+    "reignIds": [
+      "northern-wei-孝庄帝-528"
+    ],
+    "startYear": 528,
+    "startMonth": 9,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 530
+  },
+  {
+    "id": "northern-wei-建明-530",
+    "polityId": "northern-wei",
+    "name": "建明",
+    "reignIds": [
+      "northern-wei-长广王-530"
+    ],
+    "startYear": 530,
+    "startMonth": 10,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 531
+  },
+  {
+    "id": "northern-wei-普泰-531",
+    "polityId": "northern-wei",
+    "name": "普泰",
+    "reignIds": [
+      "northern-wei-节闵帝-531"
+    ],
+    "startYear": 531,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 531
+  },
+  {
+    "id": "northern-wei-中兴-531",
+    "polityId": "northern-wei",
+    "name": "中兴",
+    "reignIds": [
+      "northern-wei-安定王-531"
+    ],
+    "startYear": 531,
+    "startMonth": 10,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 532
+  },
+  {
+    "id": "northern-wei-太昌-532",
+    "polityId": "northern-wei",
+    "name": "太昌",
+    "reignIds": [
+      "northern-wei-孝武帝-532"
+    ],
+    "startYear": 532,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 532
+  },
+  {
+    "id": "northern-wei-永兴-532",
+    "polityId": "northern-wei",
+    "name": "永兴",
+    "reignIds": [
+      "northern-wei-孝武帝-532"
+    ],
+    "startYear": 532,
+    "startMonth": 12,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 532
+  },
+  {
+    "id": "northern-wei-永熙-532",
+    "polityId": "northern-wei",
+    "name": "永熙",
+    "reignIds": [
+      "northern-wei-孝武帝-532"
+    ],
+    "startYear": 532,
+    "startMonth": 12,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 534
+  },
+  {
+    "id": "liu-song-永初-420",
+    "polityId": "liu-song",
+    "name": "永初",
+    "reignIds": [
+      "liu-song-武帝-420"
+    ],
+    "startYear": 420,
+    "startMonth": 6,
+    "note": "南北朝宋,北魏",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 422
+  },
+  {
+    "id": "liu-song-景平-423",
+    "polityId": "liu-song",
+    "name": "景平",
+    "reignIds": [
+      "liu-song-少帝-423"
+    ],
+    "startYear": 423,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 424
+  },
+  {
+    "id": "liu-song-元嘉-424",
+    "polityId": "liu-song",
+    "name": "元嘉",
+    "reignIds": [
+      "liu-song-文帝-424"
+    ],
+    "startYear": 424,
+    "startMonth": 8,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 453
+  },
+  {
+    "id": "liu-song-孝建-454",
+    "polityId": "liu-song",
+    "name": "孝建",
+    "reignIds": [
+      "liu-song-孝武帝-454"
+    ],
+    "startYear": 454,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 456
+  },
+  {
+    "id": "liu-song-大明-457",
+    "polityId": "liu-song",
+    "name": "大明",
+    "reignIds": [
+      "liu-song-孝武帝-454"
+    ],
+    "startYear": 457,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 464
+  },
+  {
+    "id": "liu-song-永光-465",
+    "polityId": "liu-song",
+    "name": "永光",
+    "reignIds": [
+      "liu-song-前废帝-465"
+    ],
+    "startYear": 465,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 465
+  },
+  {
+    "id": "liu-song-景和-465",
+    "polityId": "liu-song",
+    "name": "景和",
+    "reignIds": [
+      "liu-song-前废帝-465"
+    ],
+    "startYear": 465,
+    "startMonth": 8,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 465
+  },
+  {
+    "id": "liu-song-泰始-465",
+    "polityId": "liu-song",
+    "name": "泰始",
+    "reignIds": [
+      "liu-song-明帝-465"
+    ],
+    "startYear": 465,
+    "startMonth": 12,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 471
+  },
+  {
+    "id": "liu-song-泰豫-472",
+    "polityId": "liu-song",
+    "name": "泰豫",
+    "reignIds": [
+      "liu-song-明帝-465"
+    ],
+    "startYear": 472,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 472
+  },
+  {
+    "id": "liu-song-元徽-473",
+    "polityId": "liu-song",
+    "name": "元徽",
+    "reignIds": [
+      "liu-song-后废帝(苍梧王)-473"
+    ],
+    "startYear": 473,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 477
+  },
+  {
+    "id": "liu-song-昇明-477",
+    "polityId": "liu-song",
+    "name": "昇明",
+    "reignIds": [
+      "liu-song-顺帝-477"
+    ],
+    "startYear": 477,
+    "startMonth": 7,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 479
+  },
+  {
+    "id": "southern-qi-建元-479",
+    "polityId": "southern-qi",
+    "name": "建元",
+    "reignIds": [
+      "southern-qi-高帝-479"
+    ],
+    "startYear": 479,
+    "startMonth": 4,
+    "note": "南北朝齐,北魏",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 482
+  },
+  {
+    "id": "southern-qi-永明-483",
+    "polityId": "southern-qi",
+    "name": "永明",
+    "reignIds": [
+      "southern-qi-武帝-483"
+    ],
+    "startYear": 483,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 493
+  },
+  {
+    "id": "southern-qi-隆昌-494",
+    "polityId": "southern-qi",
+    "name": "隆昌",
+    "reignIds": [
+      "southern-qi-欎林王-494"
+    ],
+    "startYear": 494,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 494
+  },
+  {
+    "id": "southern-qi-延兴-494",
+    "polityId": "southern-qi",
+    "name": "延兴",
+    "reignIds": [
+      "southern-qi-海陵王-494"
+    ],
+    "startYear": 494,
+    "startMonth": 7,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 494
+  },
+  {
+    "id": "southern-qi-建武-494",
+    "polityId": "southern-qi",
+    "name": "建武",
+    "reignIds": [
+      "southern-qi-明帝-494"
+    ],
+    "startYear": 494,
+    "startMonth": 10,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 498
+  },
+  {
+    "id": "southern-qi-永泰-498",
+    "polityId": "southern-qi",
+    "name": "永泰",
+    "reignIds": [
+      "southern-qi-明帝-494"
+    ],
+    "startYear": 498,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 498
+  },
+  {
+    "id": "southern-qi-永元-499",
+    "polityId": "southern-qi",
+    "name": "永元",
+    "reignIds": [
+      "southern-qi-东昏侯-499"
+    ],
+    "startYear": 499,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 501
+  },
+  {
+    "id": "southern-qi-中兴-501",
+    "polityId": "southern-qi",
+    "name": "中兴",
+    "reignIds": [
+      "southern-qi-和帝-501"
+    ],
+    "startYear": 501,
+    "startMonth": 3,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 502
+  },
+  {
+    "id": "liang-天监-502",
+    "polityId": "liang",
+    "name": "天监",
+    "reignIds": [
+      "liang-武帝-502"
+    ],
+    "startYear": 502,
+    "startMonth": 4,
+    "note": "南北朝梁,东魏,西魏",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 519
+  },
+  {
+    "id": "liang-普通-520",
+    "polityId": "liang",
+    "name": "普通",
+    "reignIds": [
+      "liang-武帝-502"
+    ],
+    "startYear": 520,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 527
+  },
+  {
+    "id": "liang-大通-527",
+    "polityId": "liang",
+    "name": "大通",
+    "reignIds": [
+      "liang-武帝-502"
+    ],
+    "startYear": 527,
+    "startMonth": 3,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 529
+  },
+  {
+    "id": "liang-中大通-529",
+    "polityId": "liang",
+    "name": "中大通",
+    "reignIds": [
+      "liang-武帝-502"
+    ],
+    "startYear": 529,
+    "startMonth": 10,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 534
+  },
+  {
+    "id": "liang-大同-535",
+    "polityId": "liang",
+    "name": "大同",
+    "reignIds": [
+      "liang-武帝-502"
+    ],
+    "startYear": 535,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 546
+  },
+  {
+    "id": "liang-中大同-546",
+    "polityId": "liang",
+    "name": "中大同",
+    "reignIds": [
+      "liang-武帝-502"
+    ],
+    "startYear": 546,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 547
+  },
+  {
+    "id": "liang-太清-547",
+    "polityId": "liang",
+    "name": "太清",
+    "reignIds": [
+      "liang-武帝-502"
+    ],
+    "startYear": 547,
+    "startMonth": 4,
+    "note": "*有的地区用至6年",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 549
+  },
+  {
+    "id": "liang-大宝-550",
+    "polityId": "liang",
+    "name": "大宝",
+    "reignIds": [
+      "liang-简文帝-550"
+    ],
+    "startYear": 550,
+    "startMonth": 1,
+    "note": "*有的地区用至3年",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 551
+  },
+  {
+    "id": "liang-承圣-552",
+    "polityId": "liang",
+    "name": "承圣",
+    "reignIds": [
+      "liang-元帝-552"
+    ],
+    "startYear": 552,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 555
+  },
+  {
+    "id": "liang-绍泰-555",
+    "polityId": "liang",
+    "name": "绍泰",
+    "reignIds": [
+      "liang-敬帝-555"
+    ],
+    "startYear": 555,
+    "startMonth": 10,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 556
+  },
+  {
+    "id": "liang-太平-556",
+    "polityId": "liang",
+    "name": "太平",
+    "reignIds": [
+      "liang-敬帝-555"
+    ],
+    "startYear": 556,
+    "startMonth": 9,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 557
+  },
+  {
+    "id": "eastern-wei-天平-534",
+    "polityId": "eastern-wei",
+    "name": "天平",
+    "reignIds": [
+      "eastern-wei-孝静帝-534"
+    ],
+    "startYear": 534,
+    "startMonth": 10,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 537
+  },
+  {
+    "id": "eastern-wei-元象-538",
+    "polityId": "eastern-wei",
+    "name": "元象",
+    "reignIds": [
+      "eastern-wei-孝静帝-534"
+    ],
+    "startYear": 538,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 539
+  },
+  {
+    "id": "eastern-wei-兴和-539",
+    "polityId": "eastern-wei",
+    "name": "兴和",
+    "reignIds": [
+      "eastern-wei-孝静帝-534"
+    ],
+    "startYear": 539,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 542
+  },
+  {
+    "id": "eastern-wei-武定-543",
+    "polityId": "eastern-wei",
+    "name": "武定",
+    "reignIds": [
+      "eastern-wei-孝静帝-534"
+    ],
+    "startYear": 543,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 550
+  },
+  {
+    "id": "western-wei-大统-535",
+    "polityId": "western-wei",
+    "name": "大统",
+    "reignIds": [
+      "western-wei-文帝-535"
+    ],
+    "startYear": 535,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 551
+  },
+  {
+    "id": "western-wei-大统-552",
+    "polityId": "western-wei",
+    "name": "大统",
+    "reignIds": [
+      "western-wei-废帝-552"
+    ],
+    "startYear": 552,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 554
+  },
+  {
+    "id": "western-wei-大统-554",
+    "polityId": "western-wei",
+    "name": "大统",
+    "reignIds": [
+      "western-wei-恭帝-554"
+    ],
+    "startYear": 554,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 556
+  },
+  {
+    "id": "northern-qi-天保-550",
+    "polityId": "northern-qi",
+    "name": "天保",
+    "reignIds": [
+      "northern-qi-文宣帝-550"
+    ],
+    "startYear": 550,
+    "startMonth": 5,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 559
+  },
+  {
+    "id": "northern-qi-乾明-560",
+    "polityId": "northern-qi",
+    "name": "乾明",
+    "reignIds": [
+      "northern-qi-废帝-560"
+    ],
+    "startYear": 560,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 560
+  },
+  {
+    "id": "northern-qi-皇建-560",
+    "polityId": "northern-qi",
+    "name": "皇建",
+    "reignIds": [
+      "northern-qi-孝昭帝-560"
+    ],
+    "startYear": 560,
+    "startMonth": 8,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 561
+  },
+  {
+    "id": "northern-qi-太宁-561",
+    "polityId": "northern-qi",
+    "name": "太宁",
+    "reignIds": [
+      "northern-qi-武成帝-561"
+    ],
+    "startYear": 561,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 562
+  },
+  {
+    "id": "northern-qi-河清-562",
+    "polityId": "northern-qi",
+    "name": "河清",
+    "reignIds": [
+      "northern-qi-武成帝-561"
+    ],
+    "startYear": 562,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 565
+  },
+  {
+    "id": "northern-qi-天统-565",
+    "polityId": "northern-qi",
+    "name": "天统",
+    "reignIds": [
+      "northern-qi-后主-565"
+    ],
+    "startYear": 565,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 569
+  },
+  {
+    "id": "northern-qi-武平-570",
+    "polityId": "northern-qi",
+    "name": "武平",
+    "reignIds": [
+      "northern-qi-后主-565"
+    ],
+    "startYear": 570,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 576
+  },
+  {
+    "id": "northern-qi-隆化-576",
+    "polityId": "northern-qi",
+    "name": "隆化",
+    "reignIds": [
+      "northern-qi-后主-565"
+    ],
+    "startYear": 576,
+    "startMonth": 12,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 576
+  },
+  {
+    "id": "northern-qi-承光-577",
+    "polityId": "northern-qi",
+    "name": "承光",
+    "reignIds": [
+      "northern-qi-幼主-577"
+    ],
+    "startYear": 577,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 577
+  },
+  {
+    "id": "chen-永定-557",
+    "polityId": "chen",
+    "name": "永定",
+    "reignIds": [
+      "chen-武帝-557"
+    ],
+    "startYear": 557,
+    "startMonth": 10,
+    "note": "南北朝陈,北齐,北周",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 559
+  },
+  {
+    "id": "chen-天嘉-560",
+    "polityId": "chen",
+    "name": "天嘉",
+    "reignIds": [
+      "chen-文帝-560"
+    ],
+    "startYear": 560,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 566
+  },
+  {
+    "id": "chen-天康-566",
+    "polityId": "chen",
+    "name": "天康",
+    "reignIds": [
+      "chen-文帝-560"
+    ],
+    "startYear": 566,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 566
+  },
+  {
+    "id": "chen-光大-567",
+    "polityId": "chen",
+    "name": "光大",
+    "reignIds": [
+      "chen-废帝(临海王)-567"
+    ],
+    "startYear": 567,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 568
+  },
+  {
+    "id": "chen-太建-569",
+    "polityId": "chen",
+    "name": "太建",
+    "reignIds": [
+      "chen-宣帝-569"
+    ],
+    "startYear": 569,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 582
+  },
+  {
+    "id": "chen-至德-583",
+    "polityId": "chen",
+    "name": "至德",
+    "reignIds": [
+      "chen-后主-583"
+    ],
+    "startYear": 583,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 586
+  },
+  {
+    "id": "chen-祯明-587",
+    "polityId": "chen",
+    "name": "祯明",
+    "reignIds": [
+      "chen-后主-583"
+    ],
+    "startYear": 587,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 589
+  },
+  {
+    "id": "northern-zhou-大统-557",
+    "polityId": "northern-zhou",
+    "name": "大统",
+    "reignIds": [
+      "northern-zhou-孝闵帝-557"
+    ],
+    "startYear": 557,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 557
+  },
+  {
+    "id": "northern-zhou-大统-557-2",
+    "polityId": "northern-zhou",
+    "name": "大统",
+    "reignIds": [
+      "northern-zhou-明帝-557"
+    ],
+    "startYear": 557,
+    "startMonth": 9,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 559
+  },
+  {
+    "id": "northern-zhou-武成-559",
+    "polityId": "northern-zhou",
+    "name": "武成",
+    "reignIds": [
+      "northern-zhou-明帝-557"
+    ],
+    "startYear": 559,
+    "startMonth": 8,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 560
+  },
+  {
+    "id": "northern-zhou-保定-561",
+    "polityId": "northern-zhou",
+    "name": "保定",
+    "reignIds": [
+      "northern-zhou-武帝-561"
+    ],
+    "startYear": 561,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 565
+  },
+  {
+    "id": "northern-zhou-天和-566",
+    "polityId": "northern-zhou",
+    "name": "天和",
+    "reignIds": [
+      "northern-zhou-武帝-561"
+    ],
+    "startYear": 566,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 572
+  },
+  {
+    "id": "northern-zhou-建德-572",
+    "polityId": "northern-zhou",
+    "name": "建德",
+    "reignIds": [
+      "northern-zhou-武帝-561"
+    ],
+    "startYear": 572,
+    "startMonth": 3,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 578
+  },
+  {
+    "id": "northern-zhou-宣政-578",
+    "polityId": "northern-zhou",
+    "name": "宣政",
+    "reignIds": [
+      "northern-zhou-武帝-561"
+    ],
+    "startYear": 578,
+    "startMonth": 3,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 578
+  },
+  {
+    "id": "northern-zhou-大成-579",
+    "polityId": "northern-zhou",
+    "name": "大成",
+    "reignIds": [
+      "northern-zhou-宣帝-579"
+    ],
+    "startYear": 579,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 579
+  },
+  {
+    "id": "northern-zhou-大象-579",
+    "polityId": "northern-zhou",
+    "name": "大象",
+    "reignIds": [
+      "northern-zhou-静帝-579"
+    ],
+    "startYear": 579,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 581
+  },
+  {
+    "id": "northern-zhou-大定-581",
+    "polityId": "northern-zhou",
+    "name": "大定",
+    "reignIds": [
+      "northern-zhou-静帝-579"
+    ],
+    "startYear": 581,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 581
+  },
+  {
+    "id": "sui-开皇-581",
+    "polityId": "sui",
+    "name": "开皇",
+    "reignIds": [
+      "sui-文帝-581"
+    ],
+    "startYear": 581,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 600
+  },
+  {
+    "id": "sui-仁寿-601",
+    "polityId": "sui",
+    "name": "仁寿",
+    "reignIds": [
+      "sui-文帝-581"
+    ],
+    "startYear": 601,
+    "startMonth": 1,
+    "note": "隋洛阳城",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 604
+  },
+  {
+    "id": "sui-大业-605",
+    "polityId": "sui",
+    "name": "大业",
+    "reignIds": [
+      "sui-炀帝-605"
+    ],
+    "startYear": 605,
+    "startMonth": 1,
+    "note": "隋朝运河,广通渠 隋末农民战争",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 617
+  },
+  {
+    "id": "sui-义宁-617",
+    "polityId": "sui",
+    "name": "义宁",
+    "reignIds": [
+      "sui-恭帝-617"
+    ],
+    "startYear": 617,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 618
+  },
+  {
+    "id": "tang-武德-618",
+    "polityId": "tang",
+    "name": "武德",
+    "reignIds": [
+      "tang-高祖-618"
+    ],
+    "startYear": 618,
+    "startMonth": 5,
+    "note": "唐长安城",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 626
+  },
+  {
+    "id": "tang-贞观-627",
+    "polityId": "tang",
+    "name": "贞观",
+    "reignIds": [
+      "tang-太宗-627"
+    ],
+    "startYear": 627,
+    "startMonth": 1,
+    "note": "唐玄奘西游 安西都护府(640年)",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 649
+  },
+  {
+    "id": "tang-永徽-650",
+    "polityId": "tang",
+    "name": "永徽",
+    "reignIds": [
+      "tang-高宗-650"
+    ],
+    "startYear": 650,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 655
+  },
+  {
+    "id": "tang-显庆-656",
+    "polityId": "tang",
+    "name": "显庆",
+    "reignIds": [
+      "tang-高宗-650"
+    ],
+    "startYear": 656,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 661
+  },
+  {
+    "id": "tang-龙朔-661",
+    "polityId": "tang",
+    "name": "龙朔",
+    "reignIds": [
+      "tang-高宗-650"
+    ],
+    "startYear": 661,
+    "startMonth": 3,
+    "note": "辛酉三月丙申朔改元,一作辛酉二月乙未晦改元.",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 663
+  },
+  {
+    "id": "tang-麟德-664",
+    "polityId": "tang",
+    "name": "麟德",
+    "reignIds": [
+      "tang-高宗-650"
+    ],
+    "startYear": 664,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 665
+  },
+  {
+    "id": "tang-乾封-666",
+    "polityId": "tang",
+    "name": "乾封",
+    "reignIds": [
+      "tang-高宗-650"
+    ],
+    "startYear": 666,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 668
+  },
+  {
+    "id": "tang-总章-668",
+    "polityId": "tang",
+    "name": "总章",
+    "reignIds": [
+      "tang-高宗-650"
+    ],
+    "startYear": 668,
+    "startMonth": 3,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 670
+  },
+  {
+    "id": "tang-咸亨-670",
+    "polityId": "tang",
+    "name": "咸亨",
+    "reignIds": [
+      "tang-高宗-650"
+    ],
+    "startYear": 670,
+    "startMonth": 3,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 674
+  },
+  {
+    "id": "tang-上元-674",
+    "polityId": "tang",
+    "name": "上元",
+    "reignIds": [
+      "tang-高宗-650"
+    ],
+    "startYear": 674,
+    "startMonth": 8,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 676
+  },
+  {
+    "id": "tang-仪凤-676",
+    "polityId": "tang",
+    "name": "仪凤",
+    "reignIds": [
+      "tang-高宗-650"
+    ],
+    "startYear": 676,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 679
+  },
+  {
+    "id": "tang-调露-679",
+    "polityId": "tang",
+    "name": "调露",
+    "reignIds": [
+      "tang-高宗-650"
+    ],
+    "startYear": 679,
+    "startMonth": 6,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 680
+  },
+  {
+    "id": "tang-永隆-680",
+    "polityId": "tang",
+    "name": "永隆",
+    "reignIds": [
+      "tang-高宗-650"
+    ],
+    "startYear": 680,
+    "startMonth": 8,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 681
+  },
+  {
+    "id": "tang-开耀-681",
+    "polityId": "tang",
+    "name": "开耀",
+    "reignIds": [
+      "tang-高宗-650"
+    ],
+    "startYear": 681,
+    "startMonth": 9,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 682
+  },
+  {
+    "id": "tang-永淳-682",
+    "polityId": "tang",
+    "name": "永淳",
+    "reignIds": [
+      "tang-高宗-650"
+    ],
+    "startYear": 682,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 683
+  },
+  {
+    "id": "tang-弘道-683",
+    "polityId": "tang",
+    "name": "弘道",
+    "reignIds": [
+      "tang-高宗-650"
+    ],
+    "startYear": 683,
+    "startMonth": 12,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 683
+  },
+  {
+    "id": "tang-嗣圣-684",
+    "polityId": "tang",
+    "name": "嗣圣",
+    "reignIds": [
+      "tang-中宗-684"
+    ],
+    "startYear": 684,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 684
+  },
+  {
+    "id": "tang-文明-684",
+    "polityId": "tang",
+    "name": "文明",
+    "reignIds": [
+      "tang-睿宗-684"
+    ],
+    "startYear": 684,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 684
+  },
+  {
+    "id": "tang-光宅-684",
+    "polityId": "tang",
+    "name": "光宅",
+    "reignIds": [
+      "tang-武后-684"
+    ],
+    "startYear": 684,
+    "startMonth": 9,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 684
+  },
+  {
+    "id": "tang-垂拱-685",
+    "polityId": "tang",
+    "name": "垂拱",
+    "reignIds": [
+      "tang-武后-684"
+    ],
+    "startYear": 685,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 688
+  },
+  {
+    "id": "tang-永昌-689",
+    "polityId": "tang",
+    "name": "永昌",
+    "reignIds": [
+      "tang-武后-684"
+    ],
+    "startYear": 689,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 689
+  },
+  {
+    "id": "tang-载初-690",
+    "polityId": "tang",
+    "name": "载初",
+    "reignIds": [
+      "tang-武后-684"
+    ],
+    "startYear": 690,
+    "startMonth": 1,
+    "note": "始用周正, 改永昌元年十一月为载初元年正月, 以十二月为腊月, 夏正月为一月. 本表在这段期间内干支后面所注的改元月份都是周历, 各年号的使用年数也是按照周历的计算方法.",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 690
+  },
+  {
+    "id": "tang-天授-690",
+    "polityId": "tang",
+    "name": "天授",
+    "reignIds": [
+      "tang-武后-684"
+    ],
+    "startYear": 690,
+    "startMonth": 9,
+    "note": "武后稱帝, 改國號為周",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 692
+  },
+  {
+    "id": "tang-如意-692",
+    "polityId": "tang",
+    "name": "如意",
+    "reignIds": [
+      "tang-武后-684"
+    ],
+    "startYear": 692,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 692
+  },
+  {
+    "id": "tang-长寿-692",
+    "polityId": "tang",
+    "name": "长寿",
+    "reignIds": [
+      "tang-武后-684"
+    ],
+    "startYear": 692,
+    "startMonth": 9,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 694
+  },
+  {
+    "id": "tang-延载-694",
+    "polityId": "tang",
+    "name": "延载",
+    "reignIds": [
+      "tang-武后-684"
+    ],
+    "startYear": 694,
+    "startMonth": 5,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 694
+  },
+  {
+    "id": "tang-证圣-695",
+    "polityId": "tang",
+    "name": "证圣",
+    "reignIds": [
+      "tang-武后-684"
+    ],
+    "startYear": 695,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 695
+  },
+  {
+    "id": "tang-天册万岁-695",
+    "polityId": "tang",
+    "name": "天册万岁",
+    "reignIds": [
+      "tang-武后-684"
+    ],
+    "startYear": 695,
+    "startMonth": 9,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 696
+  },
+  {
+    "id": "tang-万岁登封-696",
+    "polityId": "tang",
+    "name": "万岁登封",
+    "reignIds": [
+      "tang-武后-684"
+    ],
+    "startYear": 696,
+    "startMonth": 12,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 696
+  },
+  {
+    "id": "tang-万岁通天-696",
+    "polityId": "tang",
+    "name": "万岁通天",
+    "reignIds": [
+      "tang-武后-684"
+    ],
+    "startYear": 696,
+    "startMonth": 3,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 697
+  },
+  {
+    "id": "tang-神功-697",
+    "polityId": "tang",
+    "name": "神功",
+    "reignIds": [
+      "tang-武后-684"
+    ],
+    "startYear": 697,
+    "startMonth": 9,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 697
+  },
+  {
+    "id": "tang-圣历-698",
+    "polityId": "tang",
+    "name": "圣历",
+    "reignIds": [
+      "tang-武后-684"
+    ],
+    "startYear": 698,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 700
+  },
+  {
+    "id": "tang-久视-700",
+    "polityId": "tang",
+    "name": "久视",
+    "reignIds": [
+      "tang-武后-684"
+    ],
+    "startYear": 700,
+    "startMonth": 5,
+    "note": "久视元年十月复用夏正, 以正月为十一月, 腊月为十二月, 一月为正月.",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 700
+  },
+  {
+    "id": "tang-大足-701",
+    "polityId": "tang",
+    "name": "大足",
+    "reignIds": [
+      "tang-武后-684"
+    ],
+    "startYear": 701,
+    "startMonth": 1,
+    "note": "唐朝疆域",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 701
+  },
+  {
+    "id": "tang-长安-701",
+    "polityId": "tang",
+    "name": "长安",
+    "reignIds": [
+      "tang-武后-684"
+    ],
+    "startYear": 701,
+    "startMonth": 10,
+    "note": "北庭都护府(702年)",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 704
+  },
+  {
+    "id": "tang-神龙-705",
+    "polityId": "tang",
+    "name": "神龙",
+    "reignIds": [
+      "tang-中宗-705"
+    ],
+    "startYear": 705,
+    "startMonth": 1,
+    "note": "复唐国号",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 707
+  },
+  {
+    "id": "tang-景龙-707",
+    "polityId": "tang",
+    "name": "景龙",
+    "reignIds": [
+      "tang-中宗-705"
+    ],
+    "startYear": 707,
+    "startMonth": 9,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 710
+  },
+  {
+    "id": "tang-景云-710",
+    "polityId": "tang",
+    "name": "景云",
+    "reignIds": [
+      "tang-睿宗-710"
+    ],
+    "startYear": 710,
+    "startMonth": 7,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 711
+  },
+  {
+    "id": "tang-太极-712",
+    "polityId": "tang",
+    "name": "太极",
+    "reignIds": [
+      "tang-睿宗-710"
+    ],
+    "startYear": 712,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 712
+  },
+  {
+    "id": "tang-延和-712",
+    "polityId": "tang",
+    "name": "延和",
+    "reignIds": [
+      "tang-睿宗-710"
+    ],
+    "startYear": 712,
+    "startMonth": 5,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 712
+  },
+  {
+    "id": "tang-先天-712",
+    "polityId": "tang",
+    "name": "先天",
+    "reignIds": [
+      "tang-玄宗-712"
+    ],
+    "startYear": 712,
+    "startMonth": 8,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 713
+  },
+  {
+    "id": "tang-开元-713",
+    "polityId": "tang",
+    "name": "开元",
+    "reignIds": [
+      "tang-玄宗-712"
+    ],
+    "startYear": 713,
+    "startMonth": 12,
+    "note": "黑水都督府和渤海都督府(726年)",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 741
+  },
+  {
+    "id": "tang-天宝-742",
+    "polityId": "tang",
+    "name": "天宝",
+    "reignIds": [
+      "tang-玄宗-712"
+    ],
+    "startYear": 742,
+    "startMonth": 1,
+    "note": "唐朝主要对外交通",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 756
+  },
+  {
+    "id": "tang-至德-756",
+    "polityId": "tang",
+    "name": "至德",
+    "reignIds": [
+      "tang-肃宗-756"
+    ],
+    "startYear": 756,
+    "startMonth": 7,
+    "note": "安史之乱和藩镇割据形势",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 758
+  },
+  {
+    "id": "tang-乾元-758",
+    "polityId": "tang",
+    "name": "乾元",
+    "reignIds": [
+      "tang-肃宗-756"
+    ],
+    "startYear": 758,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 760
+  },
+  {
+    "id": "tang-上元-760",
+    "polityId": "tang",
+    "name": "上元",
+    "reignIds": [
+      "tang-肃宗-756"
+    ],
+    "startYear": 760,
+    "startMonth": 4,
+    "note": "（闰月）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 761
+  },
+  {
+    "id": "tang-无年号-761",
+    "polityId": "tang",
+    "name": "无年号",
+    "reignIds": [
+      "tang-肃宗-756"
+    ],
+    "startYear": 761,
+    "startMonth": 9,
+    "note": "此年九月以后去年号, 但称元年.；此期无年号纪年（追记）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 761
+  },
+  {
+    "id": "tang-宝应-762",
+    "polityId": "tang",
+    "name": "宝应",
+    "reignIds": [
+      "tang-代宗-762"
+    ],
+    "startYear": 762,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 763
+  },
+  {
+    "id": "tang-广德-763",
+    "polityId": "tang",
+    "name": "广德",
+    "reignIds": [
+      "tang-代宗-762"
+    ],
+    "startYear": 763,
+    "startMonth": 7,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 764
+  },
+  {
+    "id": "tang-永泰-765",
+    "polityId": "tang",
+    "name": "永泰",
+    "reignIds": [
+      "tang-代宗-762"
+    ],
+    "startYear": 765,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 766
+  },
+  {
+    "id": "tang-大历-766",
+    "polityId": "tang",
+    "name": "大历",
+    "reignIds": [
+      "tang-代宗-762"
+    ],
+    "startYear": 766,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 779
+  },
+  {
+    "id": "tang-建中-780",
+    "polityId": "tang",
+    "name": "建中",
+    "reignIds": [
+      "tang-德宗-780"
+    ],
+    "startYear": 780,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 783
+  },
+  {
+    "id": "tang-兴元-784",
+    "polityId": "tang",
+    "name": "兴元",
+    "reignIds": [
+      "tang-德宗-780"
+    ],
+    "startYear": 784,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 784
+  },
+  {
+    "id": "tang-贞元-785",
+    "polityId": "tang",
+    "name": "贞元",
+    "reignIds": [
+      "tang-德宗-780"
+    ],
+    "startYear": 785,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 805
+  },
+  {
+    "id": "tang-永贞-805",
+    "polityId": "tang",
+    "name": "永贞",
+    "reignIds": [
+      "tang-顺宗-805"
+    ],
+    "startYear": 805,
+    "startMonth": 8,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 805
+  },
+  {
+    "id": "tang-元和-806",
+    "polityId": "tang",
+    "name": "元和",
+    "reignIds": [
+      "tang-宪宗-806"
+    ],
+    "startYear": 806,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 820
+  },
+  {
+    "id": "tang-长庆-821",
+    "polityId": "tang",
+    "name": "长庆",
+    "reignIds": [
+      "tang-穆宗-821"
+    ],
+    "startYear": 821,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 824
+  },
+  {
+    "id": "tang-宝历-825",
+    "polityId": "tang",
+    "name": "宝历",
+    "reignIds": [
+      "tang-敬宗-825"
+    ],
+    "startYear": 825,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 826
+  },
+  {
+    "id": "tang-宝历-826",
+    "polityId": "tang",
+    "name": "宝历",
+    "reignIds": [
+      "tang-文宗-826"
+    ],
+    "startYear": 826,
+    "startMonth": 12,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 826
+  },
+  {
+    "id": "tang-大和-827",
+    "polityId": "tang",
+    "name": "大和",
+    "reignIds": [
+      "tang-文宗-826"
+    ],
+    "startYear": 827,
+    "startMonth": 2,
+    "note": "原表作「大(太)和」",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 835
+  },
+  {
+    "id": "tang-开成-836",
+    "polityId": "tang",
+    "name": "开成",
+    "reignIds": [
+      "tang-文宗-826"
+    ],
+    "startYear": 836,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 840
+  },
+  {
+    "id": "tang-会昌-841",
+    "polityId": "tang",
+    "name": "会昌",
+    "reignIds": [
+      "tang-武宗-841"
+    ],
+    "startYear": 841,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 846
+  },
+  {
+    "id": "tang-大中-847",
+    "polityId": "tang",
+    "name": "大中",
+    "reignIds": [
+      "tang-宣宗-847"
+    ],
+    "startYear": 847,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 859
+  },
+  {
+    "id": "tang-大中-859",
+    "polityId": "tang",
+    "name": "大中",
+    "reignIds": [
+      "tang-懿宗-859"
+    ],
+    "startYear": 859,
+    "startMonth": 8,
+    "note": "唐末农民战争",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 859
+  },
+  {
+    "id": "tang-咸通-860",
+    "polityId": "tang",
+    "name": "咸通",
+    "reignIds": [
+      "tang-懿宗-859"
+    ],
+    "startYear": 860,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 873
+  },
+  {
+    "id": "tang-咸通-873",
+    "polityId": "tang",
+    "name": "咸通",
+    "reignIds": [
+      "tang-僖宗-873"
+    ],
+    "startYear": 873,
+    "startMonth": 7,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 873
+  },
+  {
+    "id": "tang-乾符-874",
+    "polityId": "tang",
+    "name": "乾符",
+    "reignIds": [
+      "tang-僖宗-873"
+    ],
+    "startYear": 874,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 879
+  },
+  {
+    "id": "tang-广明-880",
+    "polityId": "tang",
+    "name": "广明",
+    "reignIds": [
+      "tang-僖宗-873"
+    ],
+    "startYear": 880,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 881
+  },
+  {
+    "id": "tang-中和-881",
+    "polityId": "tang",
+    "name": "中和",
+    "reignIds": [
+      "tang-僖宗-873"
+    ],
+    "startYear": 881,
+    "startMonth": 7,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 885
+  },
+  {
+    "id": "tang-光启-885",
+    "polityId": "tang",
+    "name": "光启",
+    "reignIds": [
+      "tang-僖宗-873"
+    ],
+    "startYear": 885,
+    "startMonth": 3,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 888
+  },
+  {
+    "id": "tang-文德-888",
+    "polityId": "tang",
+    "name": "文德",
+    "reignIds": [
+      "tang-僖宗-873"
+    ],
+    "startYear": 888,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 888
+  },
+  {
+    "id": "tang-龙纪-889",
+    "polityId": "tang",
+    "name": "龙纪",
+    "reignIds": [
+      "tang-昭宗-889"
+    ],
+    "startYear": 889,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 889
+  },
+  {
+    "id": "tang-大顺-890",
+    "polityId": "tang",
+    "name": "大顺",
+    "reignIds": [
+      "tang-昭宗-889"
+    ],
+    "startYear": 890,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 891
+  },
+  {
+    "id": "tang-景福-892",
+    "polityId": "tang",
+    "name": "景福",
+    "reignIds": [
+      "tang-昭宗-889"
+    ],
+    "startYear": 892,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 893
+  },
+  {
+    "id": "tang-乾宁-894",
+    "polityId": "tang",
+    "name": "乾宁",
+    "reignIds": [
+      "tang-昭宗-889"
+    ],
+    "startYear": 894,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 898
+  },
+  {
+    "id": "tang-光化-898",
+    "polityId": "tang",
+    "name": "光化",
+    "reignIds": [
+      "tang-昭宗-889"
+    ],
+    "startYear": 898,
+    "startMonth": 8,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 901
+  },
+  {
+    "id": "tang-天复-901",
+    "polityId": "tang",
+    "name": "天复",
+    "reignIds": [
+      "tang-昭宗-889"
+    ],
+    "startYear": 901,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 904
+  },
+  {
+    "id": "tang-天祐-904",
+    "polityId": "tang",
+    "name": "天祐",
+    "reignIds": [
+      "tang-昭宗-889"
+    ],
+    "startYear": 904,
+    "startMonth": 4,
+    "note": "（闰月）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 904
+  },
+  {
+    "id": "tang-天祐-904-2",
+    "polityId": "tang",
+    "name": "天祐",
+    "reignIds": [
+      "tang-哀帝-904"
+    ],
+    "startYear": 904,
+    "startMonth": 8,
+    "note": "哀帝即位未改元",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 907
+  },
+  {
+    "id": "later-liang-开平-907",
+    "polityId": "later-liang",
+    "name": "开平",
+    "reignIds": [
+      "later-liang-太祖-907"
+    ],
+    "startYear": 907,
+    "startMonth": 4,
+    "note": "五代十国;幽云十六州",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 911
+  },
+  {
+    "id": "later-liang-乾化-911",
+    "polityId": "later-liang",
+    "name": "乾化",
+    "reignIds": [
+      "later-liang-太祖-907"
+    ],
+    "startYear": 911,
+    "startMonth": 5,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 913
+  },
+  {
+    "id": "later-liang-乾化-913",
+    "polityId": "later-liang",
+    "name": "乾化",
+    "reignIds": [
+      "later-liang-末帝-913"
+    ],
+    "startYear": 913,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 915
+  },
+  {
+    "id": "later-liang-贞明-915",
+    "polityId": "later-liang",
+    "name": "贞明",
+    "reignIds": [
+      "later-liang-末帝-913"
+    ],
+    "startYear": 915,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 921
+  },
+  {
+    "id": "later-liang-龙德-921",
+    "polityId": "later-liang",
+    "name": "龙德",
+    "reignIds": [
+      "later-liang-末帝-913"
+    ],
+    "startYear": 921,
+    "startMonth": 5,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 923
+  },
+  {
+    "id": "liao-无年号-907",
+    "polityId": "liao",
+    "name": "无年号",
+    "reignIds": [
+      "liao-太祖-907"
+    ],
+    "startYear": 907,
+    "startMonth": 1,
+    "note": "辽建国于907年, 国号契丹；此期无年号纪年（追记）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 916
+  },
+  {
+    "id": "liao-神册-916",
+    "polityId": "liao",
+    "name": "神册",
+    "reignIds": [
+      "liao-太祖-907"
+    ],
+    "startYear": 916,
+    "startMonth": 12,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 922
+  },
+  {
+    "id": "liao-天赞-922",
+    "polityId": "liao",
+    "name": "天赞",
+    "reignIds": [
+      "liao-太祖-907"
+    ],
+    "startYear": 922,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 926
+  },
+  {
+    "id": "liao-天显-926",
+    "polityId": "liao",
+    "name": "天显",
+    "reignIds": [
+      "liao-太祖-907"
+    ],
+    "startYear": 926,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 927
+  },
+  {
+    "id": "liao-天显-927",
+    "polityId": "liao",
+    "name": "天显",
+    "reignIds": [
+      "liao-太宗-927"
+    ],
+    "startYear": 927,
+    "startMonth": 11,
+    "note": "太宗即位未改元",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 938
+  },
+  {
+    "id": "liao-会同-938",
+    "polityId": "liao",
+    "name": "会同",
+    "reignIds": [
+      "liao-太宗-927"
+    ],
+    "startYear": 938,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 947
+  },
+  {
+    "id": "liao-大同-947",
+    "polityId": "liao",
+    "name": "大同",
+    "reignIds": [
+      "liao-太宗-927"
+    ],
+    "startYear": 947,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 947
+  },
+  {
+    "id": "liao-天禄-947",
+    "polityId": "liao",
+    "name": "天禄",
+    "reignIds": [
+      "liao-世宗-947"
+    ],
+    "startYear": 947,
+    "startMonth": 9,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 951
+  },
+  {
+    "id": "liao-应历-951",
+    "polityId": "liao",
+    "name": "应历",
+    "reignIds": [
+      "liao-穆宗-951"
+    ],
+    "startYear": 951,
+    "startMonth": 9,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 969
+  },
+  {
+    "id": "liao-保宁-969",
+    "polityId": "liao",
+    "name": "保宁",
+    "reignIds": [
+      "liao-景宗-969"
+    ],
+    "startYear": 969,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 979
+  },
+  {
+    "id": "liao-乾亨-979",
+    "polityId": "liao",
+    "name": "乾亨",
+    "reignIds": [
+      "liao-景宗-969"
+    ],
+    "startYear": 979,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 982
+  },
+  {
+    "id": "liao-乾亨-982",
+    "polityId": "liao",
+    "name": "乾亨",
+    "reignIds": [
+      "liao-圣宗-982"
+    ],
+    "startYear": 982,
+    "startMonth": 9,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 983
+  },
+  {
+    "id": "liao-统和-983",
+    "polityId": "liao",
+    "name": "统和",
+    "reignIds": [
+      "liao-圣宗-982"
+    ],
+    "startYear": 983,
+    "startMonth": 6,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1012
+  },
+  {
+    "id": "liao-开泰-1012",
+    "polityId": "liao",
+    "name": "开泰",
+    "reignIds": [
+      "liao-圣宗-982"
+    ],
+    "startYear": 1012,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1021
+  },
+  {
+    "id": "liao-太平-1021",
+    "polityId": "liao",
+    "name": "太平",
+    "reignIds": [
+      "liao-圣宗-982"
+    ],
+    "startYear": 1021,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1031
+  },
+  {
+    "id": "liao-景福-1031",
+    "polityId": "liao",
+    "name": "景福",
+    "reignIds": [
+      "liao-兴宗-1031"
+    ],
+    "startYear": 1031,
+    "startMonth": 6,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1032
+  },
+  {
+    "id": "liao-重熙-1032",
+    "polityId": "liao",
+    "name": "重熙",
+    "reignIds": [
+      "liao-兴宗-1031"
+    ],
+    "startYear": 1032,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1055
+  },
+  {
+    "id": "liao-清宁-1055",
+    "polityId": "liao",
+    "name": "清宁",
+    "reignIds": [
+      "liao-道宗-1055"
+    ],
+    "startYear": 1055,
+    "startMonth": 8,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1064
+  },
+  {
+    "id": "liao-咸雍-1065",
+    "polityId": "liao",
+    "name": "咸雍",
+    "reignIds": [
+      "liao-道宗-1055"
+    ],
+    "startYear": 1065,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1074
+  },
+  {
+    "id": "liao-大康-1075",
+    "polityId": "liao",
+    "name": "大康",
+    "reignIds": [
+      "liao-道宗-1055"
+    ],
+    "startYear": 1075,
+    "startMonth": 1,
+    "note": "原表作「大(太)康」",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1084
+  },
+  {
+    "id": "liao-大安-1085",
+    "polityId": "liao",
+    "name": "大安",
+    "reignIds": [
+      "liao-道宗-1055"
+    ],
+    "startYear": 1085,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1094
+  },
+  {
+    "id": "liao-寿昌-1095",
+    "polityId": "liao",
+    "name": "寿昌",
+    "reignIds": [
+      "liao-道宗-1055"
+    ],
+    "startYear": 1095,
+    "startMonth": 1,
+    "note": "原表作「寿昌(隆)」",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1101
+  },
+  {
+    "id": "liao-乾统-1101",
+    "polityId": "liao",
+    "name": "乾统",
+    "reignIds": [
+      "liao-天祚帝-1101"
+    ],
+    "startYear": 1101,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1110
+  },
+  {
+    "id": "liao-tianqing",
+    "polityId": "liao",
+    "name": "天庆",
+    "reignIds": [
+      "liao-天祚帝-1101"
+    ],
+    "startYear": 1111,
+    "startMonth": 1,
+    "sources": [
+      "S2",
+      "S3"
+    ],
+    "endYear": 1120
+  },
+  {
+    "id": "liao-baoda",
+    "polityId": "liao",
+    "name": "保大",
+    "reignIds": [
+      "liao-天祚帝-1101"
+    ],
+    "startYear": 1121,
+    "startMonth": 1,
+    "sources": [
+      "S2",
+      "S3"
+    ],
+    "endYear": 1125,
+    "endNote": "五年二月天祚帝被俘，辽亡。"
+  },
+  {
+    "id": "later-tang-同光-923",
+    "polityId": "later-tang",
+    "name": "同光",
+    "reignIds": [
+      "later-tang-庄宗-923"
+    ],
+    "startYear": 923,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 926
+  },
+  {
+    "id": "later-tang-天成-926",
+    "polityId": "later-tang",
+    "name": "天成",
+    "reignIds": [
+      "later-tang-明宗-926"
+    ],
+    "startYear": 926,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 930
+  },
+  {
+    "id": "later-tang-长兴-930",
+    "polityId": "later-tang",
+    "name": "长兴",
+    "reignIds": [
+      "later-tang-明宗-926"
+    ],
+    "startYear": 930,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 933
+  },
+  {
+    "id": "later-tang-应顺-934",
+    "polityId": "later-tang",
+    "name": "应顺",
+    "reignIds": [
+      "later-tang-闵帝-934"
+    ],
+    "startYear": 934,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 934
+  },
+  {
+    "id": "later-tang-清泰-934",
+    "polityId": "later-tang",
+    "name": "清泰",
+    "reignIds": [
+      "later-tang-末帝-934"
+    ],
+    "startYear": 934,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 936
+  },
+  {
+    "id": "later-jin-天福-936",
+    "polityId": "later-jin",
+    "name": "天福",
+    "reignIds": [
+      "later-jin-高祖-936"
+    ],
+    "startYear": 936,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 942
+  },
+  {
+    "id": "later-jin-天福-942",
+    "polityId": "later-jin",
+    "name": "天福",
+    "reignIds": [
+      "later-jin-出帝-942"
+    ],
+    "startYear": 942,
+    "startMonth": 6,
+    "note": "出帝即位未改元",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 944
+  },
+  {
+    "id": "later-jin-开运-944",
+    "polityId": "later-jin",
+    "name": "开运",
+    "reignIds": [
+      "later-jin-出帝-942"
+    ],
+    "startYear": 944,
+    "startMonth": 7,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 947
+  },
+  {
+    "id": "dali-rixin",
+    "polityId": "dali",
+    "name": "日新",
+    "reignIds": [
+      "dali-duanzhengyan"
+    ],
+    "startYear": 1109,
+    "endYear": 1110,
+    "precision": "approx",
+    "note": "大理年号起讫均系碑刻与后世文献推定，学界考证不一，仅备一格。",
+    "sources": [
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-wenzhi",
+    "polityId": "dali",
+    "name": "文治",
+    "reignIds": [
+      "dali-duanzhengyan"
+    ],
+    "startYear": 1111,
+    "endYear": 1119,
+    "precision": "approx",
+    "sources": [
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-yongjia",
+    "polityId": "dali",
+    "name": "永嘉",
+    "reignIds": [
+      "dali-duanzhengyan"
+    ],
+    "startYear": 1120,
+    "endYear": 1127,
+    "precision": "approx",
+    "sources": [
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-baotian",
+    "polityId": "dali",
+    "name": "保天",
+    "reignIds": [
+      "dali-duanzhengyan"
+    ],
+    "startYear": 1128,
+    "endYear": 1137,
+    "precision": "approx",
+    "sources": [
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-guangyun",
+    "polityId": "dali",
+    "name": "广运",
+    "reignIds": [
+      "dali-duanzhengyan"
+    ],
+    "startYear": 1138,
+    "endYear": 1147,
+    "precision": "approx",
+    "sources": [
+      "S4"
+    ]
+  },
+  {
+    "id": "later-han-天福-947",
+    "polityId": "later-han",
+    "name": "天福",
+    "reignIds": [
+      "later-han-高祖-947"
+    ],
+    "startYear": 947,
+    "startMonth": 2,
+    "note": "后汉高祖即位, 仍用后晋高祖年号, 称天福十二年.",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 948
+  },
+  {
+    "id": "later-han-乾祐-948",
+    "polityId": "later-han",
+    "name": "乾祐",
+    "reignIds": [
+      "later-han-高祖-947"
+    ],
+    "startYear": 948,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 948
+  },
+  {
+    "id": "later-han-乾祐-948-2",
+    "polityId": "later-han",
+    "name": "乾祐",
+    "reignIds": [
+      "later-han-隐帝-948"
+    ],
+    "startYear": 948,
+    "startMonth": 2,
+    "note": "隐帝即位未改元",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 950
+  },
+  {
+    "id": "later-zhou-广顺-951",
+    "polityId": "later-zhou",
+    "name": "广顺",
+    "reignIds": [
+      "later-zhou-太祖-951"
+    ],
+    "startYear": 951,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 953
+  },
+  {
+    "id": "later-zhou-显德-954",
+    "polityId": "later-zhou",
+    "name": "显德",
+    "reignIds": [
+      "later-zhou-太祖-951"
+    ],
+    "startYear": 954,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 954
+  },
+  {
+    "id": "later-zhou-显德-954-2",
+    "polityId": "later-zhou",
+    "name": "显德",
+    "reignIds": [
+      "later-zhou-世宗-954"
+    ],
+    "startYear": 954,
+    "startMonth": 1,
+    "note": "世宗即位未改元",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 959
+  },
+  {
+    "id": "later-zhou-显德-959",
+    "polityId": "later-zhou",
+    "name": "显德",
+    "reignIds": [
+      "later-zhou-恭帝-959"
+    ],
+    "startYear": 959,
+    "startMonth": 6,
+    "note": "恭帝即位未改元",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 965
+  },
+  {
+    "id": "song-建隆-960",
+    "polityId": "song",
+    "name": "建隆",
+    "reignIds": [
+      "song-太祖-960"
+    ],
+    "startYear": 960,
+    "startMonth": 1,
+    "note": "北宋东京城",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 963
+  },
+  {
+    "id": "song-乾德-963",
+    "polityId": "song",
+    "name": "乾德",
+    "reignIds": [
+      "song-太祖-960"
+    ],
+    "startYear": 963,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 968
+  },
+  {
+    "id": "song-开宝-968",
+    "polityId": "song",
+    "name": "开宝",
+    "reignIds": [
+      "song-太祖-960"
+    ],
+    "startYear": 968,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 976
+  },
+  {
+    "id": "song-太平兴国-976",
+    "polityId": "song",
+    "name": "太平兴国",
+    "reignIds": [
+      "song-太宗-976"
+    ],
+    "startYear": 976,
+    "startMonth": 12,
+    "note": "宋辽边境形势 高粱河之战(979年)",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 984
+  },
+  {
+    "id": "song-雍熙-984",
+    "polityId": "song",
+    "name": "雍熙",
+    "reignIds": [
+      "song-太宗-976"
+    ],
+    "startYear": 984,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 987
+  },
+  {
+    "id": "song-端拱-988",
+    "polityId": "song",
+    "name": "端拱",
+    "reignIds": [
+      "song-太宗-976"
+    ],
+    "startYear": 988,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 989
+  },
+  {
+    "id": "song-淳化-990",
+    "polityId": "song",
+    "name": "淳化",
+    "reignIds": [
+      "song-太宗-976"
+    ],
+    "startYear": 990,
+    "startMonth": 1,
+    "note": "王小波,李顺起义",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 994
+  },
+  {
+    "id": "song-至道-995",
+    "polityId": "song",
+    "name": "至道",
+    "reignIds": [
+      "song-太宗-976"
+    ],
+    "startYear": 995,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 997
+  },
+  {
+    "id": "song-咸平-998",
+    "polityId": "song",
+    "name": "咸平",
+    "reignIds": [
+      "song-真宗-998"
+    ],
+    "startYear": 998,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1003
+  },
+  {
+    "id": "song-景德-1004",
+    "polityId": "song",
+    "name": "景德",
+    "reignIds": [
+      "song-真宗-998"
+    ],
+    "startYear": 1004,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1007
+  },
+  {
+    "id": "song-大中祥符-1008",
+    "polityId": "song",
+    "name": "大中祥符",
+    "reignIds": [
+      "song-真宗-998"
+    ],
+    "startYear": 1008,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1016
+  },
+  {
+    "id": "song-天禧-1017",
+    "polityId": "song",
+    "name": "天禧",
+    "reignIds": [
+      "song-真宗-998"
+    ],
+    "startYear": 1017,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1021
+  },
+  {
+    "id": "song-乾兴-1022",
+    "polityId": "song",
+    "name": "乾兴",
+    "reignIds": [
+      "song-真宗-998"
+    ],
+    "startYear": 1022,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1022
+  },
+  {
+    "id": "song-天圣-1023",
+    "polityId": "song",
+    "name": "天圣",
+    "reignIds": [
+      "song-仁宗-1023"
+    ],
+    "startYear": 1023,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1032
+  },
+  {
+    "id": "song-明道-1032",
+    "polityId": "song",
+    "name": "明道",
+    "reignIds": [
+      "song-仁宗-1023"
+    ],
+    "startYear": 1032,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1033
+  },
+  {
+    "id": "song-景祐-1034",
+    "polityId": "song",
+    "name": "景祐",
+    "reignIds": [
+      "song-仁宗-1023"
+    ],
+    "startYear": 1034,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1038
+  },
+  {
+    "id": "song-宝元-1038",
+    "polityId": "song",
+    "name": "宝元",
+    "reignIds": [
+      "song-仁宗-1023"
+    ],
+    "startYear": 1038,
+    "startMonth": 11,
+    "note": "北宋,辽,西夏形势",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1040
+  },
+  {
+    "id": "song-康定-1040",
+    "polityId": "song",
+    "name": "康定",
+    "reignIds": [
+      "song-仁宗-1023"
+    ],
+    "startYear": 1040,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1041
+  },
+  {
+    "id": "song-庆历-1041",
+    "polityId": "song",
+    "name": "庆历",
+    "reignIds": [
+      "song-仁宗-1023"
+    ],
+    "startYear": 1041,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1048
+  },
+  {
+    "id": "song-皇祐-1049",
+    "polityId": "song",
+    "name": "皇祐",
+    "reignIds": [
+      "song-仁宗-1023"
+    ],
+    "startYear": 1049,
+    "startMonth": 3,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1054
+  },
+  {
+    "id": "song-至和-1054",
+    "polityId": "song",
+    "name": "至和",
+    "reignIds": [
+      "song-仁宗-1023"
+    ],
+    "startYear": 1054,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1056
+  },
+  {
+    "id": "song-嘉祐-1056",
+    "polityId": "song",
+    "name": "嘉祐",
+    "reignIds": [
+      "song-仁宗-1023"
+    ],
+    "startYear": 1056,
+    "startMonth": 9,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1063
+  },
+  {
+    "id": "song-治平-1064",
+    "polityId": "song",
+    "name": "治平",
+    "reignIds": [
+      "song-英宗-1064"
+    ],
+    "startYear": 1064,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1067
+  },
+  {
+    "id": "song-熙宁-1068",
+    "polityId": "song",
+    "name": "熙宁",
+    "reignIds": [
+      "song-神宗-1068"
+    ],
+    "startYear": 1068,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1077
+  },
+  {
+    "id": "song-元丰-1078",
+    "polityId": "song",
+    "name": "元丰",
+    "reignIds": [
+      "song-神宗-1068"
+    ],
+    "startYear": 1078,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1085
+  },
+  {
+    "id": "song-元祐-1086",
+    "polityId": "song",
+    "name": "元祐",
+    "reignIds": [
+      "song-哲宗-1086"
+    ],
+    "startYear": 1086,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1094
+  },
+  {
+    "id": "song-绍圣-1094",
+    "polityId": "song",
+    "name": "绍圣",
+    "reignIds": [
+      "song-哲宗-1086"
+    ],
+    "startYear": 1094,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1098
+  },
+  {
+    "id": "song-元符-1098",
+    "polityId": "song",
+    "name": "元符",
+    "reignIds": [
+      "song-哲宗-1086"
+    ],
+    "startYear": 1098,
+    "startMonth": 6,
+    "note": "蘇東坡詞選48首",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1100
+  },
+  {
+    "id": "song-建中靖国-1101",
+    "polityId": "song",
+    "name": "建中靖国",
+    "reignIds": [
+      "song-徽宗-1101"
+    ],
+    "startYear": 1101,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1101
+  },
+  {
+    "id": "song-崇宁-1102",
+    "polityId": "song",
+    "name": "崇宁",
+    "reignIds": [
+      "song-徽宗-1101"
+    ],
+    "startYear": 1102,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1106
+  },
+  {
+    "id": "song-大观-1107",
+    "polityId": "song",
+    "name": "大观",
+    "reignIds": [
+      "song-徽宗-1101"
+    ],
+    "startYear": 1107,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1110
+  },
+  {
+    "id": "song-政和-1111",
+    "polityId": "song",
+    "name": "政和",
+    "reignIds": [
+      "song-徽宗-1101"
+    ],
+    "startYear": 1111,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1118
+  },
+  {
+    "id": "song-重和-1118",
+    "polityId": "song",
+    "name": "重和",
+    "reignIds": [
+      "song-徽宗-1101"
+    ],
+    "startYear": 1118,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1119
+  },
+  {
+    "id": "song-xuanhe",
+    "polityId": "song",
+    "name": "宣和",
+    "reignIds": [
+      "song-huizong"
+    ],
+    "startYear": 1119,
+    "startMonth": 2,
+    "note": "宋江起义;方腊起义",
+    "sources": [
+      "S2",
+      "S3"
+    ],
+    "endYear": 1125
+  },
+  {
+    "id": "song-jingkang",
+    "polityId": "song",
+    "name": "靖康",
+    "reignIds": [
+      "song-钦宗-1126"
+    ],
+    "startYear": 1126,
+    "startMonth": 1,
+    "sources": [
+      "S2",
+      "S3"
+    ],
+    "endYear": 1127,
+    "endNote": "靖康二年三月汴京陷落后政局崩解，四月二帝北迁；本表记至 1127。"
+  },
+  {
+    "id": "song-jianyan",
+    "polityId": "song",
+    "name": "建炎",
+    "reignIds": [
+      "song-高宗-1127"
+    ],
+    "startYear": 1127,
+    "startMonth": 5,
+    "note": "元年五月即位改元，与靖康二年同年并存，非全年使用。",
+    "sources": [
+      "S2",
+      "S3"
+    ],
+    "endYear": 1130
+  },
+  {
+    "id": "song-shaoxing",
+    "polityId": "song",
+    "name": "绍兴",
+    "reignIds": [
+      "song-高宗-1127"
+    ],
+    "startYear": 1131,
+    "startMonth": 1,
+    "note": "钟相,杨么起义",
+    "sources": [
+      "S2",
+      "S3"
+    ],
+    "endYear": 1162
+  },
+  {
+    "id": "song-隆兴-1163",
+    "polityId": "song",
+    "name": "隆兴",
+    "reignIds": [
+      "song-孝宗-1163"
+    ],
+    "startYear": 1163,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1164
+  },
+  {
+    "id": "song-乾道-1165",
+    "polityId": "song",
+    "name": "乾道",
+    "reignIds": [
+      "song-孝宗-1163"
+    ],
+    "startYear": 1165,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1173
+  },
+  {
+    "id": "song-淳熙-1174",
+    "polityId": "song",
+    "name": "淳熙",
+    "reignIds": [
+      "song-孝宗-1163"
+    ],
+    "startYear": 1174,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1189
+  },
+  {
+    "id": "song-绍熙-1190",
+    "polityId": "song",
+    "name": "绍熙",
+    "reignIds": [
+      "song-光宗-1190"
+    ],
+    "startYear": 1190,
+    "startMonth": 1,
+    "note": "朱熹《四書章句》",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1194
+  },
+  {
+    "id": "song-庆元-1195",
+    "polityId": "song",
+    "name": "庆元",
+    "reignIds": [
+      "song-宁宗-1195"
+    ],
+    "startYear": 1195,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1200
+  },
+  {
+    "id": "song-嘉泰-1201",
+    "polityId": "song",
+    "name": "嘉泰",
+    "reignIds": [
+      "song-宁宗-1195"
+    ],
+    "startYear": 1201,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1204
+  },
+  {
+    "id": "song-开禧-1205",
+    "polityId": "song",
+    "name": "开禧",
+    "reignIds": [
+      "song-宁宗-1195"
+    ],
+    "startYear": 1205,
+    "startMonth": 1,
+    "note": "辛棄疾詞選92首",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1207
+  },
+  {
+    "id": "song-嘉定-1208",
+    "polityId": "song",
+    "name": "嘉定",
+    "reignIds": [
+      "song-宁宗-1195"
+    ],
+    "startYear": 1208,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1224
+  },
+  {
+    "id": "song-宝庆-1225",
+    "polityId": "song",
+    "name": "宝庆",
+    "reignIds": [
+      "song-理宗-1225"
+    ],
+    "startYear": 1225,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1227
+  },
+  {
+    "id": "song-绍定-1228",
+    "polityId": "song",
+    "name": "绍定",
+    "reignIds": [
+      "song-理宗-1225"
+    ],
+    "startYear": 1228,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1233
+  },
+  {
+    "id": "song-端平-1234",
+    "polityId": "song",
+    "name": "端平",
+    "reignIds": [
+      "song-理宗-1225"
+    ],
+    "startYear": 1234,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1236
+  },
+  {
+    "id": "song-嘉熙-1237",
+    "polityId": "song",
+    "name": "嘉熙",
+    "reignIds": [
+      "song-理宗-1225"
+    ],
+    "startYear": 1237,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1240
+  },
+  {
+    "id": "song-淳祐-1241",
+    "polityId": "song",
+    "name": "淳祐",
+    "reignIds": [
+      "song-理宗-1225"
+    ],
+    "startYear": 1241,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1252
+  },
+  {
+    "id": "song-宝祐-1253",
+    "polityId": "song",
+    "name": "宝祐",
+    "reignIds": [
+      "song-理宗-1225"
+    ],
+    "startYear": 1253,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1258
+  },
+  {
+    "id": "song-开庆-1259",
+    "polityId": "song",
+    "name": "开庆",
+    "reignIds": [
+      "song-理宗-1225"
+    ],
+    "startYear": 1259,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1259
+  },
+  {
+    "id": "song-景定-1260",
+    "polityId": "song",
+    "name": "景定",
+    "reignIds": [
+      "song-理宗-1225"
+    ],
+    "startYear": 1260,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1264
+  },
+  {
+    "id": "song-咸淳-1265",
+    "polityId": "song",
+    "name": "咸淳",
+    "reignIds": [
+      "song-度宗-1265"
+    ],
+    "startYear": 1265,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1274
+  },
+  {
+    "id": "song-德祐-1275",
+    "polityId": "song",
+    "name": "德祐",
+    "reignIds": [
+      "song-恭帝-1275"
+    ],
+    "startYear": 1275,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1276
+  },
+  {
+    "id": "song-景炎-1276",
+    "polityId": "song",
+    "name": "景炎",
+    "reignIds": [
+      "song-端宗-1276"
+    ],
+    "startYear": 1276,
+    "startMonth": 5,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1278
+  },
+  {
+    "id": "song-祥兴-1278",
+    "polityId": "song",
+    "name": "祥兴",
+    "reignIds": [
+      "song-帝昺-1278"
+    ],
+    "startYear": 1278,
+    "startMonth": 5,
+    "note": "千家詩",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1279
+  },
+  {
+    "id": "xia-yuande",
+    "polityId": "xia",
+    "name": "元德",
+    "reignIds": [
+      "xia-chongzong"
+    ],
+    "startYear": 1119,
+    "endYear": 1126,
+    "disputed": true,
+    "note": "一说起于 1120。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "xia-zhengde",
+    "polityId": "xia",
+    "name": "正德",
+    "reignIds": [
+      "xia-chongzong"
+    ],
+    "startYear": 1127,
+    "endYear": 1134,
+    "note": "元年丁未。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "xia-dade",
+    "polityId": "xia",
+    "name": "大德",
+    "reignIds": [
+      "xia-chongzong"
+    ],
+    "startYear": 1135,
+    "endYear": 1139,
+    "note": "元年乙卯。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "jin-收国-1115",
+    "polityId": "jin",
+    "name": "收国",
+    "reignIds": [
+      "jin-太祖-1115"
+    ],
+    "startYear": 1115,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1116
+  },
+  {
+    "id": "jin-tianfu",
+    "polityId": "jin",
+    "name": "天辅",
+    "reignIds": [
+      "jin-太祖-1115"
+    ],
+    "startYear": 1117,
+    "startMonth": 1,
+    "sources": [
+      "S2",
+      "S3"
+    ],
+    "endYear": 1123,
+    "endNote": "七年八月太祖崩。"
+  },
+  {
+    "id": "jin-tianhui",
+    "polityId": "jin",
+    "name": "天会",
+    "reignIds": [
+      "jin-太宗-1123",
+      "jin-熙宗-1135"
+    ],
+    "startYear": 1123,
+    "startMonth": 9,
+    "note": "元年癸卯。太宗即位建元；1135 年熙宗即位沿用，行至十五年（1137），1138 年改元天眷。一个年号跨两朝的典型例证。",
+    "sources": [
+      "S2",
+      "S3"
+    ],
+    "endYear": 1137,
+    "crossReign": true
+  },
+  {
+    "id": "jin-天眷-1138",
+    "polityId": "jin",
+    "name": "天眷",
+    "reignIds": [
+      "jin-熙宗-1135"
+    ],
+    "startYear": 1138,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1140
+  },
+  {
+    "id": "jin-皇统-1141",
+    "polityId": "jin",
+    "name": "皇统",
+    "reignIds": [
+      "jin-熙宗-1135"
+    ],
+    "startYear": 1141,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1149
+  },
+  {
+    "id": "jin-天德-1149",
+    "polityId": "jin",
+    "name": "天德",
+    "reignIds": [
+      "jin-海陵王-1149"
+    ],
+    "startYear": 1149,
+    "startMonth": 12,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1153
+  },
+  {
+    "id": "jin-贞元-1153",
+    "polityId": "jin",
+    "name": "贞元",
+    "reignIds": [
+      "jin-海陵王-1149"
+    ],
+    "startYear": 1153,
+    "startMonth": 3,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1156
+  },
+  {
+    "id": "jin-正隆-1156",
+    "polityId": "jin",
+    "name": "正隆",
+    "reignIds": [
+      "jin-海陵王-1149"
+    ],
+    "startYear": 1156,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1161
+  },
+  {
+    "id": "jin-大定-1161",
+    "polityId": "jin",
+    "name": "大定",
+    "reignIds": [
+      "jin-世宗-1161"
+    ],
+    "startYear": 1161,
+    "startMonth": 10,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1189
+  },
+  {
+    "id": "jin-明昌-1190",
+    "polityId": "jin",
+    "name": "明昌",
+    "reignIds": [
+      "jin-章宗-1190"
+    ],
+    "startYear": 1190,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1196
+  },
+  {
+    "id": "jin-承安-1196",
+    "polityId": "jin",
+    "name": "承安",
+    "reignIds": [
+      "jin-章宗-1190"
+    ],
+    "startYear": 1196,
+    "startMonth": 11,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1200
+  },
+  {
+    "id": "jin-泰和-1201",
+    "polityId": "jin",
+    "name": "泰和",
+    "reignIds": [
+      "jin-章宗-1190"
+    ],
+    "startYear": 1201,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1208
+  },
+  {
+    "id": "jin-大安-1209",
+    "polityId": "jin",
+    "name": "大安",
+    "reignIds": [
+      "jin-卫绍王-1209"
+    ],
+    "startYear": 1209,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1211
+  },
+  {
+    "id": "jin-崇庆-1212",
+    "polityId": "jin",
+    "name": "崇庆",
+    "reignIds": [
+      "jin-卫绍王-1209"
+    ],
+    "startYear": 1212,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1213
+  },
+  {
+    "id": "jin-至宁-1213",
+    "polityId": "jin",
+    "name": "至宁",
+    "reignIds": [
+      "jin-卫绍王-1209"
+    ],
+    "startYear": 1213,
+    "startMonth": 5,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1213
+  },
+  {
+    "id": "jin-贞祐-1213",
+    "polityId": "jin",
+    "name": "贞祐",
+    "reignIds": [
+      "jin-宣宗-1213"
+    ],
+    "startYear": 1213,
+    "startMonth": 9,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1217
+  },
+  {
+    "id": "jin-兴定-1217",
+    "polityId": "jin",
+    "name": "兴定",
+    "reignIds": [
+      "jin-宣宗-1213"
+    ],
+    "startYear": 1217,
+    "startMonth": 9,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1222
+  },
+  {
+    "id": "jin-元光-1222",
+    "polityId": "jin",
+    "name": "元光",
+    "reignIds": [
+      "jin-宣宗-1213"
+    ],
+    "startYear": 1222,
+    "startMonth": 8,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1223
+  },
+  {
+    "id": "jin-正大-1224",
+    "polityId": "jin",
+    "name": "正大",
+    "reignIds": [
+      "jin-哀宗-1224"
+    ],
+    "startYear": 1224,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1232
+  },
+  {
+    "id": "jin-开兴-1232",
+    "polityId": "jin",
+    "name": "开兴",
+    "reignIds": [
+      "jin-哀宗-1224"
+    ],
+    "startYear": 1232,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1232
+  },
+  {
+    "id": "jin-天兴-1232",
+    "polityId": "jin",
+    "name": "天兴",
+    "reignIds": [
+      "jin-哀宗-1224"
+    ],
+    "startYear": 1232,
+    "startMonth": 4,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1234
+  },
+  {
+    "id": "kk-yanqing",
+    "polityId": "karakhitai",
+    "name": "延庆",
+    "reignIds": [
+      "kk-yelvdashi"
+    ],
+    "startYear": 1124,
+    "endYear": 1133,
+    "disputed": true,
+    "note": "起年有 1122 / 1123 / 1124 三说，本表取 1124（通说）。改元月份史无明文。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "kk-kangguo",
+    "polityId": "karakhitai",
+    "name": "康国",
+    "reignIds": [
+      "kk-yelvdashi"
+    ],
+    "startYear": 1134,
+    "endYear": 1143,
+    "disputed": true,
+    "note": "元年甲寅；一说 1132 / 1133 年起。约当 1134 年迁都虎思斡耳朵前后建元。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "yuan-无年号-1206",
+    "polityId": "yuan",
+    "name": "无年号",
+    "reignIds": [
+      "yuan-太祖-1206"
+    ],
+    "startYear": 1206,
+    "startMonth": 1,
+    "note": "蒙古兴起;成吉思汗西征；此期无年号纪年（追记）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1227
+  },
+  {
+    "id": "yuan-无年号-1228",
+    "polityId": "yuan",
+    "name": "无年号",
+    "reignIds": [
+      "yuan-拖雷-1228"
+    ],
+    "startYear": 1228,
+    "startMonth": 1,
+    "note": "此期无年号纪年（追记）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1228
+  },
+  {
+    "id": "yuan-无年号-1229",
+    "polityId": "yuan",
+    "name": "无年号",
+    "reignIds": [
+      "yuan-太宗-1229"
+    ],
+    "startYear": 1229,
+    "startMonth": 1,
+    "note": "此期无年号纪年（追记）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1241
+  },
+  {
+    "id": "yuan-无年号-1242",
+    "polityId": "yuan",
+    "name": "无年号",
+    "reignIds": [
+      "yuan-乃马真后-1242"
+    ],
+    "startYear": 1242,
+    "startMonth": 1,
+    "note": "此期无年号纪年（追记）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1246
+  },
+  {
+    "id": "yuan-无年号-1246",
+    "polityId": "yuan",
+    "name": "无年号",
+    "reignIds": [
+      "yuan-定宗-1246"
+    ],
+    "startYear": 1246,
+    "startMonth": 7,
+    "note": "此期无年号纪年（追记）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1248
+  },
+  {
+    "id": "yuan-无年号-1249",
+    "polityId": "yuan",
+    "name": "无年号",
+    "reignIds": [
+      "yuan-海迷失后-1249"
+    ],
+    "startYear": 1249,
+    "startMonth": 3,
+    "note": "此期无年号纪年（追记）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1251
+  },
+  {
+    "id": "yuan-无年号-1251",
+    "polityId": "yuan",
+    "name": "无年号",
+    "reignIds": [
+      "yuan-宪宗-1251"
+    ],
+    "startYear": 1251,
+    "startMonth": 6,
+    "note": "此期无年号纪年（追记）",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1259
+  },
+  {
+    "id": "yuan-中统-1260",
+    "polityId": "yuan",
+    "name": "中统",
+    "reignIds": [
+      "yuan-世祖-1260"
+    ],
+    "startYear": 1260,
+    "startMonth": 5,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1264
+  },
+  {
+    "id": "yuan-至元-1264",
+    "polityId": "yuan",
+    "name": "至元",
+    "reignIds": [
+      "yuan-世祖-1260"
+    ],
+    "startYear": 1264,
+    "startMonth": 8,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1294
+  },
+  {
+    "id": "yuan-元贞-1295",
+    "polityId": "yuan",
+    "name": "元贞",
+    "reignIds": [
+      "yuan-成宗-1295"
+    ],
+    "startYear": 1295,
+    "startMonth": 1,
+    "note": "元朝疆域;岭北行省北部",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1297
+  },
+  {
+    "id": "yuan-大德-1297",
+    "polityId": "yuan",
+    "name": "大德",
+    "reignIds": [
+      "yuan-成宗-1295"
+    ],
+    "startYear": 1297,
+    "startMonth": 2,
+    "note": "元大都城",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1307
+  },
+  {
+    "id": "yuan-至大-1308",
+    "polityId": "yuan",
+    "name": "至大",
+    "reignIds": [
+      "yuan-武宗-1308"
+    ],
+    "startYear": 1308,
+    "startMonth": 1,
+    "note": "元朝运河和海运",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1311
+  },
+  {
+    "id": "yuan-皇庆-1312",
+    "polityId": "yuan",
+    "name": "皇庆",
+    "reignIds": [
+      "yuan-仁宗-1312"
+    ],
+    "startYear": 1312,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1313
+  },
+  {
+    "id": "yuan-延祐-1314",
+    "polityId": "yuan",
+    "name": "延祐",
+    "reignIds": [
+      "yuan-仁宗-1312"
+    ],
+    "startYear": 1314,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1320
+  },
+  {
+    "id": "yuan-至治-1321",
+    "polityId": "yuan",
+    "name": "至治",
+    "reignIds": [
+      "yuan-英宗-1321"
+    ],
+    "startYear": 1321,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1323
+  },
+  {
+    "id": "yuan-泰定-1324",
+    "polityId": "yuan",
+    "name": "泰定",
+    "reignIds": [
+      "yuan-泰定帝-1324"
+    ],
+    "startYear": 1324,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1328
+  },
+  {
+    "id": "yuan-致和-1328",
+    "polityId": "yuan",
+    "name": "致和",
+    "reignIds": [
+      "yuan-泰定帝-1324"
+    ],
+    "startYear": 1328,
+    "startMonth": 2,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1328
+  },
+  {
+    "id": "yuan-天顺-1328",
+    "polityId": "yuan",
+    "name": "天顺",
+    "reignIds": [
+      "yuan-天顺帝-1328"
+    ],
+    "startYear": 1328,
+    "startMonth": 9,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1328
+  },
+  {
+    "id": "yuan-天历-1328",
+    "polityId": "yuan",
+    "name": "天历",
+    "reignIds": [
+      "yuan-文宗-1328"
+    ],
+    "startYear": 1328,
+    "startMonth": 9,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1329
+  },
+  {
+    "id": "yuan-天历-1329",
+    "polityId": "yuan",
+    "name": "天历",
+    "reignIds": [
+      "yuan-明宗-1329"
+    ],
+    "startYear": 1329,
+    "startMonth": 1,
+    "note": "明宗于己巳正月即位, 以文宗为皇太子. 八月明宗暴死, 文宗复位.",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1330
+  },
+  {
+    "id": "yuan-至顺-1330",
+    "polityId": "yuan",
+    "name": "至顺",
+    "reignIds": [
+      "yuan-文宗-1330"
+    ],
+    "startYear": 1330,
+    "startMonth": 5,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1332
+  },
+  {
+    "id": "yuan-至顺-1332",
+    "polityId": "yuan",
+    "name": "至顺",
+    "reignIds": [
+      "yuan-宁宗-1332"
+    ],
+    "startYear": 1332,
+    "startMonth": 10,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1333
+  },
+  {
+    "id": "yuan-至顺-1333",
+    "polityId": "yuan",
+    "name": "至顺",
+    "reignIds": [
+      "yuan-顺帝-1333"
+    ],
+    "startYear": 1333,
+    "startMonth": 6,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1333
+  },
+  {
+    "id": "yuan-元统-1333",
+    "polityId": "yuan",
+    "name": "元统",
+    "reignIds": [
+      "yuan-顺帝-1333"
+    ],
+    "startYear": 1333,
+    "startMonth": 10,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1335
+  },
+  {
+    "id": "yuan-至元-1335",
+    "polityId": "yuan",
+    "name": "至元",
+    "reignIds": [
+      "yuan-顺帝-1333"
+    ],
+    "startYear": 1335,
+    "startMonth": 11,
+    "note": "原表作「(后)至元」",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1340
+  },
+  {
+    "id": "yuan-至正-1341",
+    "polityId": "yuan",
+    "name": "至正",
+    "reignIds": [
+      "yuan-顺帝-1333"
+    ],
+    "startYear": 1341,
+    "startMonth": 1,
+    "note": "元末农民战争",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1368
+  },
+  {
+    "id": "ming-洪武-1368",
+    "polityId": "ming",
+    "name": "洪武",
+    "reignIds": [
+      "ming-太祖-1368"
+    ],
+    "startYear": 1368,
+    "startMonth": 1,
+    "note": "明朝疆域",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1398
+  },
+  {
+    "id": "ming-建文-1399",
+    "polityId": "ming",
+    "name": "建文",
+    "reignIds": [
+      "ming-惠帝-1399"
+    ],
+    "startYear": 1399,
+    "startMonth": 1,
+    "note": "建文4年时成祖废除建文年号, 改为洪武35年.",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1402
+  },
+  {
+    "id": "ming-永乐-1403",
+    "polityId": "ming",
+    "name": "永乐",
+    "reignIds": [
+      "ming-成祖-1403"
+    ],
+    "startYear": 1403,
+    "startMonth": 1,
+    "note": "郑和下西洋 奴儿干都司形势;永宁寺附近 明北京城",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1424
+  },
+  {
+    "id": "ming-洪熙-1425",
+    "polityId": "ming",
+    "name": "洪熙",
+    "reignIds": [
+      "ming-仁宗-1425"
+    ],
+    "startYear": 1425,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1425
+  },
+  {
+    "id": "ming-宣德-1426",
+    "polityId": "ming",
+    "name": "宣德",
+    "reignIds": [
+      "ming-宣宗-1426"
+    ],
+    "startYear": 1426,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1435
+  },
+  {
+    "id": "ming-正统-1436",
+    "polityId": "ming",
+    "name": "正统",
+    "reignIds": [
+      "ming-英宗-1436"
+    ],
+    "startYear": 1436,
+    "startMonth": 1,
+    "note": "明朝长城",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1449
+  },
+  {
+    "id": "ming-景泰-1450",
+    "polityId": "ming",
+    "name": "景泰",
+    "reignIds": [
+      "ming-代宗(景帝)-1450"
+    ],
+    "startYear": 1450,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1457
+  },
+  {
+    "id": "ming-天顺-1457",
+    "polityId": "ming",
+    "name": "天顺",
+    "reignIds": [
+      "ming-英宗-1457"
+    ],
+    "startYear": 1457,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1464
+  },
+  {
+    "id": "ming-成化-1465",
+    "polityId": "ming",
+    "name": "成化",
+    "reignIds": [
+      "ming-宪宗-1465"
+    ],
+    "startYear": 1465,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1487
+  },
+  {
+    "id": "ming-弘治-1488",
+    "polityId": "ming",
+    "name": "弘治",
+    "reignIds": [
+      "ming-孝宗-1488"
+    ],
+    "startYear": 1488,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1505
+  },
+  {
+    "id": "ming-正德-1506",
+    "polityId": "ming",
+    "name": "正德",
+    "reignIds": [
+      "ming-武宗-1506"
+    ],
+    "startYear": 1506,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1521
+  },
+  {
+    "id": "ming-嘉靖-1522",
+    "polityId": "ming",
+    "name": "嘉靖",
+    "reignIds": [
+      "ming-世宗-1522"
+    ],
+    "startYear": 1522,
+    "startMonth": 1,
+    "note": "倭寇侵扰和援朝战争",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1566
+  },
+  {
+    "id": "ming-隆庆-1567",
+    "polityId": "ming",
+    "name": "隆庆",
+    "reignIds": [
+      "ming-穆宗-1567"
+    ],
+    "startYear": 1567,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1572
+  },
+  {
+    "id": "ming-万历-1573",
+    "polityId": "ming",
+    "name": "万历",
+    "reignIds": [
+      "ming-神宗-1573"
+    ],
+    "startYear": 1573,
+    "startMonth": 1,
+    "note": "明朝中后期工商业分布; 洪應明《菜根譚》",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1620
+  },
+  {
+    "id": "ming-泰昌-1620",
+    "polityId": "ming",
+    "name": "泰昌",
+    "reignIds": [
+      "ming-光宗-1620"
+    ],
+    "startYear": 1620,
+    "startMonth": 8,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1620
+  },
+  {
+    "id": "ming-天启-1621",
+    "polityId": "ming",
+    "name": "天启",
+    "reignIds": [
+      "ming-熹宗-1621"
+    ],
+    "startYear": 1621,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1627
+  },
+  {
+    "id": "ming-崇祯-1628",
+    "polityId": "ming",
+    "name": "崇祯",
+    "reignIds": [
+      "ming-思宗-1628"
+    ],
+    "startYear": 1628,
+    "startMonth": 1,
+    "note": "明末农民战争",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1644
+  },
+  {
+    "id": "qing-天命-1616",
+    "polityId": "qing",
+    "name": "天命",
+    "reignIds": [
+      "qing-太祖-1616"
+    ],
+    "startYear": 1616,
+    "startMonth": 1,
+    "note": "称后金 明初女真族分布;满族兴起",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1626
+  },
+  {
+    "id": "qing-天聪-1627",
+    "polityId": "qing",
+    "name": "天聪",
+    "reignIds": [
+      "qing-太宗-1627"
+    ],
+    "startYear": 1627,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1636
+  },
+  {
+    "id": "qing-崇德-1636",
+    "polityId": "qing",
+    "name": "崇德",
+    "reignIds": [
+      "qing-太宗-1627"
+    ],
+    "startYear": 1636,
+    "startMonth": 4,
+    "note": "始改国号为清",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1643
+  },
+  {
+    "id": "qing-顺治-1644",
+    "polityId": "qing",
+    "name": "顺治",
+    "reignIds": [
+      "qing-世祖-1644"
+    ],
+    "startYear": 1644,
+    "startMonth": 1,
+    "note": "入关 郑成功收复台湾",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1661
+  },
+  {
+    "id": "qing-康熙-1662",
+    "polityId": "qing",
+    "name": "康熙",
+    "reignIds": [
+      "qing-圣祖-1662"
+    ],
+    "startYear": 1662,
+    "startMonth": 1,
+    "note": "清朝疆域 清初抗击沙俄侵略;尼布楚条约 清前期巩固西北",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1722
+  },
+  {
+    "id": "qing-雍正-1723",
+    "polityId": "qing",
+    "name": "雍正",
+    "reignIds": [
+      "qing-世宗-1723"
+    ],
+    "startYear": 1723,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1735
+  },
+  {
+    "id": "qing-乾隆-1736",
+    "polityId": "qing",
+    "name": "乾隆",
+    "reignIds": [
+      "qing-高宗-1736"
+    ],
+    "startYear": 1736,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1795
+  },
+  {
+    "id": "qing-嘉庆-1796",
+    "polityId": "qing",
+    "name": "嘉庆",
+    "reignIds": [
+      "qing-仁宗-1796"
+    ],
+    "startYear": 1796,
+    "startMonth": 1,
+    "note": "清朝中期苗民起义和白莲教起义",
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1820
+  },
+  {
+    "id": "qing-道光-1821",
+    "polityId": "qing",
+    "name": "道光",
+    "reignIds": [
+      "qing-宣宗-1821"
+    ],
+    "startYear": 1821,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1850
+  },
+  {
+    "id": "qing-咸丰-1851",
+    "polityId": "qing",
+    "name": "咸丰",
+    "reignIds": [
+      "qing-文宗-1851"
+    ],
+    "startYear": 1851,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1861
+  },
+  {
+    "id": "qing-同治-1862",
+    "polityId": "qing",
+    "name": "同治",
+    "reignIds": [
+      "qing-穆宗-1862"
+    ],
+    "startYear": 1862,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1874
+  },
+  {
+    "id": "qing-光绪-1875",
+    "polityId": "qing",
+    "name": "光绪",
+    "reignIds": [
+      "qing-德宗-1875"
+    ],
+    "startYear": 1875,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1908
+  },
+  {
+    "id": "qing-宣统-1909",
+    "polityId": "qing",
+    "name": "宣统",
+    "reignIds": [
+      "qing-爱新觉罗溥仪-1909"
+    ],
+    "startYear": 1909,
+    "startMonth": 1,
+    "sources": [
+      "S3"
+    ],
+    "endYear": 1911
+  },
+  {
+    "id": "sm-hongguang",
+    "polityId": "southern-ming",
+    "name": "弘光",
+    "reignIds": [
+      "sm-anzong"
+    ],
+    "startYear": 1645,
+    "endYear": 1645,
+    "note": "元年乙酉；1644 年五月即位，次年改元。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "sm-longwu",
+    "polityId": "southern-ming",
+    "name": "隆武",
+    "reignIds": [
+      "sm-shaozong"
+    ],
+    "startYear": 1645,
+    "endYear": 1646,
+    "note": "唐王监国后即位福州。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "sm-shaowu",
+    "polityId": "southern-ming",
+    "name": "绍武",
+    "reignIds": [
+      "sm-shaowudi"
+    ],
+    "startYear": 1646,
+    "endYear": 1646,
+    "note": "仅一月余。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "sm-yongli",
+    "polityId": "southern-ming",
+    "name": "永历",
+    "reignIds": [
+      "sm-zhaozong"
+    ],
+    "startYear": 1647,
+    "endYear": 1661,
+    "disputed": true,
+    "note": "元年丁亥；通说 1647（一说 1646 即位改元）。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  }
+]

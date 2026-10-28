@@ -1,0 +1,332 @@
+[
+  {
+    "id": "song-xuanhe",
+    "polityId": "song",
+    "name": "宣和",
+    "reignIds": [
+      "song-huizong"
+    ],
+    "startYear": 1119,
+    "endYear": 1125,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "song-jingkang",
+    "polityId": "song",
+    "name": "靖康",
+    "reignIds": [
+      "song-qinzong"
+    ],
+    "startYear": 1126,
+    "endYear": 1127,
+    "endNote": "靖康二年三月汴京陷落后政局崩解，四月二帝北迁；本表记至 1127。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "song-jianyan",
+    "polityId": "song",
+    "name": "建炎",
+    "reignIds": [
+      "song-gaozong"
+    ],
+    "startYear": 1127,
+    "startMonth": 5,
+    "endYear": 1130,
+    "note": "元年五月即位改元，与靖康二年同年并存，非全年使用。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "song-shaoxing",
+    "polityId": "song",
+    "name": "绍兴",
+    "reignIds": [
+      "song-gaozong"
+    ],
+    "startYear": 1131,
+    "endYear": 1162,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "liao-tianqing",
+    "polityId": "liao",
+    "name": "天庆",
+    "reignIds": [
+      "liao-tianzuo"
+    ],
+    "startYear": 1111,
+    "endYear": 1120,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "liao-baoda",
+    "polityId": "liao",
+    "name": "保大",
+    "reignIds": [
+      "liao-tianzuo"
+    ],
+    "startYear": 1121,
+    "endYear": 1125,
+    "endNote": "五年二月天祚帝被俘，辽亡。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "kk-yanqing",
+    "polityId": "karakhitai",
+    "name": "延庆",
+    "reignIds": [
+      "kk-yelvdashi"
+    ],
+    "startYear": 1124,
+    "endYear": 1133,
+    "disputed": true,
+    "note": "起年有 1122 / 1123 / 1124 三说，本表取 1124（通说）。改元月份史无明文。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "kk-kangguo",
+    "polityId": "karakhitai",
+    "name": "康国",
+    "reignIds": [
+      "kk-yelvdashi"
+    ],
+    "startYear": 1134,
+    "endYear": 1143,
+    "disputed": true,
+    "note": "元年甲寅；一说 1132 / 1133 年起。约当 1134 年迁都虎思斡耳朵前后建元。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "jin-tianfu",
+    "polityId": "jin",
+    "name": "天辅",
+    "reignIds": [
+      "jin-taizu"
+    ],
+    "startYear": 1117,
+    "endYear": 1123,
+    "endNote": "七年八月太祖崩。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "jin-tianhui",
+    "polityId": "jin",
+    "name": "天会",
+    "reignIds": [
+      "jin-taizong",
+      "jin-xizong"
+    ],
+    "startYear": 1123,
+    "endYear": 1137,
+    "crossReign": true,
+    "note": "元年癸卯。太宗即位建元；1135 年熙宗即位沿用，行至十五年（1137），1138 年改元天眷。一个年号跨两朝的典型例证。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "xia-yuande",
+    "polityId": "xia",
+    "name": "元德",
+    "reignIds": [
+      "xia-chongzong"
+    ],
+    "startYear": 1119,
+    "endYear": 1126,
+    "disputed": true,
+    "note": "一说起于 1120。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "xia-zhengde",
+    "polityId": "xia",
+    "name": "正德",
+    "reignIds": [
+      "xia-chongzong"
+    ],
+    "startYear": 1127,
+    "endYear": 1134,
+    "note": "元年丁未。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "xia-dade",
+    "polityId": "xia",
+    "name": "大德",
+    "reignIds": [
+      "xia-chongzong"
+    ],
+    "startYear": 1135,
+    "endYear": 1139,
+    "note": "元年乙卯。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "dali-rixin",
+    "polityId": "dali",
+    "name": "日新",
+    "reignIds": [
+      "dali-duanzhengyan"
+    ],
+    "startYear": 1109,
+    "endYear": 1110,
+    "precision": "approx",
+    "note": "大理年号起讫均系碑刻与后世文献推定，学界考证不一，仅备一格。",
+    "sources": [
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-wenzhi",
+    "polityId": "dali",
+    "name": "文治",
+    "reignIds": [
+      "dali-duanzhengyan"
+    ],
+    "startYear": 1111,
+    "endYear": 1119,
+    "precision": "approx",
+    "sources": [
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-yongjia",
+    "polityId": "dali",
+    "name": "永嘉",
+    "reignIds": [
+      "dali-duanzhengyan"
+    ],
+    "startYear": 1120,
+    "endYear": 1127,
+    "precision": "approx",
+    "sources": [
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-baotian",
+    "polityId": "dali",
+    "name": "保天",
+    "reignIds": [
+      "dali-duanzhengyan"
+    ],
+    "startYear": 1128,
+    "endYear": 1137,
+    "precision": "approx",
+    "sources": [
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-guangyun",
+    "polityId": "dali",
+    "name": "广运",
+    "reignIds": [
+      "dali-duanzhengyan"
+    ],
+    "startYear": 1138,
+    "endYear": 1147,
+    "precision": "approx",
+    "sources": [
+      "S4"
+    ]
+  },
+  {
+    "id": "sm-hongguang",
+    "polityId": "southern-ming",
+    "name": "弘光",
+    "reignIds": [
+      "sm-anzong"
+    ],
+    "startYear": 1645,
+    "endYear": 1645,
+    "note": "元年乙酉；1644 年五月即位，次年改元。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "sm-longwu",
+    "polityId": "southern-ming",
+    "name": "隆武",
+    "reignIds": [
+      "sm-shaozong"
+    ],
+    "startYear": 1645,
+    "endYear": 1646,
+    "note": "唐王监国后即位福州。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "sm-shaowu",
+    "polityId": "southern-ming",
+    "name": "绍武",
+    "reignIds": [
+      "sm-shaowudi"
+    ],
+    "startYear": 1646,
+    "endYear": 1646,
+    "note": "仅一月余。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "sm-yongli",
+    "polityId": "southern-ming",
+    "name": "永历",
+    "reignIds": [
+      "sm-zhaozong"
+    ],
+    "startYear": 1647,
+    "endYear": 1661,
+    "disputed": true,
+    "note": "元年丁亥；通说 1647（一说 1646 即位改元）。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  }
+]

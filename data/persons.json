@@ -1,0 +1,848 @@
+[
+  {
+    "id": "p-confucius",
+    "name": "孔子",
+    "birth": -550,
+    "death": -478,
+    "polityIds": [],
+    "field": "思想",
+    "summary": "儒家学派创始人，修订六经、开私学之风，其言行由弟子辑为《论语》。"
+  },
+  {
+    "id": "p-mencius",
+    "name": "孟子",
+    "birth": -371,
+    "death": -290,
+    "polityIds": [],
+    "field": "思想",
+    "summary": "战国儒家代表，倡「仁政」「性善」，与弟子著《孟子》七篇。"
+  },
+  {
+    "id": "p-zhuangzi",
+    "name": "庄子",
+    "birth": -368,
+    "death": -287,
+    "polityIds": [],
+    "field": "思想",
+    "summary": "道家宗师，主张逍遥齐物，文章汪洋恣肆，著《庄子》。"
+  },
+  {
+    "id": "p-quyuan",
+    "name": "屈原",
+    "birth": -339,
+    "death": -277,
+    "polityIds": [],
+    "field": "文学",
+    "summary": "楚国大夫，中国浪漫主义诗歌之祖，作《离骚》《天问》，投汨罗江而逝。"
+  },
+  {
+    "id": "p-xunzi",
+    "name": "荀子",
+    "birth": null,
+    "death": -237,
+    "polityIds": [],
+    "field": "思想",
+    "summary": "战国末儒家宗师，主「性恶」与礼法并重，韩非、李斯出其门下。"
+  },
+  {
+    "id": "p-qinshihuang",
+    "name": "秦始皇",
+    "birth": -258,
+    "death": -209,
+    "polityIds": [
+      "qin"
+    ],
+    "field": "政治",
+    "summary": "扫灭六国、首创皇帝制度，行郡县、书同文、车同轨，筑长城、修驰道。"
+  },
+  {
+    "id": "p-lisi",
+    "name": "李斯",
+    "birth": -283,
+    "death": -207,
+    "polityIds": [
+      "qin"
+    ],
+    "field": "政治",
+    "summary": "秦丞相，辅佐始皇统一文字度量衡，定郡县之制，后死于赵高之手。"
+  },
+  {
+    "id": "p-xiangyu",
+    "name": "项羽",
+    "birth": -231,
+    "death": -201,
+    "polityIds": [],
+    "field": "军事",
+    "summary": "巨鹿之战破秦军主力，自封西楚霸王，楚汉相争败于垓下，自刎乌江。"
+  },
+  {
+    "id": "p-liubang",
+    "name": "刘邦",
+    "birth": -255,
+    "death": -194,
+    "polityIds": [
+      "western-han"
+    ],
+    "field": "政治",
+    "summary": "起于泗水亭长，亡秦灭楚立汉朝，约法三章、休养生息，开汉家四百年基业。"
+  },
+  {
+    "id": "p-hanxin",
+    "name": "韩信",
+    "birth": -230,
+    "death": -195,
+    "polityIds": [
+      "western-han"
+    ],
+    "field": "军事",
+    "summary": "汉初三杰之一，明修栈道暗度陈仓，背水一战定赵代，兵围垓下亡楚。"
+  },
+  {
+    "id": "p-dongzhongshu",
+    "name": "董仲舒",
+    "birth": -178,
+    "death": -103,
+    "polityIds": [
+      "western-han"
+    ],
+    "field": "思想",
+    "summary": "提出「罢黜百家，独尊儒术」，倡天人感应，奠定两千年儒学正统地位。"
+  },
+  {
+    "id": "p-simaqian",
+    "name": "司马迁",
+    "birth": -144,
+    "death": -85,
+    "polityIds": [
+      "western-han"
+    ],
+    "field": "史学",
+    "summary": "忍辱著《史记》百三十篇，首创纪传体通史，「究天人之际，通古今之变」。"
+  },
+  {
+    "id": "p-zhangqian",
+    "name": "张骞",
+    "birth": null,
+    "death": -113,
+    "polityIds": [
+      "western-han"
+    ],
+    "field": "外交",
+    "summary": "两使西域，凿空丝绸之路，开中原与中亚交流之先河。"
+  },
+  {
+    "id": "p-wangmang",
+    "name": "王莽",
+    "birth": -44,
+    "death": 23,
+    "polityIds": [
+      "xin"
+    ],
+    "field": "政治",
+    "summary": "代汉建新，托古改制，币制田制屡变致天下大乱，身死渐台。"
+  },
+  {
+    "id": "p-bangu",
+    "name": "班固",
+    "birth": 32,
+    "death": 92,
+    "polityIds": [
+      "eastern-han"
+    ],
+    "field": "史学",
+    "summary": "著《汉书》，开创断代纪传体史书体例，兼擅辞赋。"
+  },
+  {
+    "id": "p-banchao",
+    "name": "班超",
+    "birth": 32,
+    "death": 102,
+    "polityIds": [
+      "eastern-han"
+    ],
+    "field": "军事",
+    "summary": "投笔从戎，经营西域三十一年，「不入虎穴，焉得虎子」，封定远侯。"
+  },
+  {
+    "id": "p-cailun",
+    "name": "蔡伦",
+    "birth": 63,
+    "death": 121,
+    "polityIds": [
+      "eastern-han"
+    ],
+    "field": "科技",
+    "summary": "改进造纸术，以树皮麻头造「蔡侯纸」，推动书写材料革命。"
+  },
+  {
+    "id": "p-zhangheng",
+    "name": "张衡",
+    "birth": 78,
+    "death": 139,
+    "polityIds": [
+      "eastern-han"
+    ],
+    "field": "科技",
+    "summary": "制浑天仪、地动仪，著《灵宪》，集天文学、文学于一身。"
+  },
+  {
+    "id": "p-huatuo",
+    "name": "华佗",
+    "birth": null,
+    "death": 208,
+    "polityIds": [
+      "eastern-han"
+    ],
+    "field": "医学",
+    "summary": "外科圣手，发明麻沸散行手术，创五禽戏导引养生，为曹操所杀。"
+  },
+  {
+    "id": "p-caocao",
+    "name": "曹操",
+    "birth": 155,
+    "death": 220,
+    "polityIds": [
+      "wei"
+    ],
+    "field": "政治",
+    "summary": "挟天子以令诸侯，官渡破袁绍统一北方，尚刑名、兴屯田，也是建安文学领袖。"
+  },
+  {
+    "id": "p-liubei",
+    "name": "刘备",
+    "birth": 161,
+    "death": 223,
+    "polityIds": [
+      "shu-han"
+    ],
+    "field": "政治",
+    "summary": "织席贩履起兵，三顾茅庐得诸葛亮辅佐，取益州称帝续汉统。"
+  },
+  {
+    "id": "p-sunquan",
+    "name": "孙权",
+    "birth": 182,
+    "death": 252,
+    "polityIds": [
+      "wu"
+    ],
+    "field": "政治",
+    "summary": "据江东立吴国，赤壁联刘抗曹，开发江南，遣卫温浮海至夷洲。"
+  },
+  {
+    "id": "p-zhugeLiang",
+    "name": "诸葛亮",
+    "birth": 181,
+    "death": 234,
+    "polityIds": [
+      "shu-han"
+    ],
+    "field": "政治",
+    "summary": "隆中定三分之策，辅佐两朝治蜀，五次北伐，鞠躬尽瘁死而后已。"
+  },
+  {
+    "id": "p-caozhi",
+    "name": "曹植",
+    "birth": 192,
+    "death": 232,
+    "polityIds": [
+      "wei"
+    ],
+    "field": "文学",
+    "summary": "建安文学之冠，才高八斗，《洛神赋》《七步诗》传世。"
+  },
+  {
+    "id": "p-simayi",
+    "name": "司马懿",
+    "birth": 179,
+    "death": 251,
+    "polityIds": [
+      "wei"
+    ],
+    "field": "军事",
+    "summary": "抵御诸葛亮北伐，平辽东，高平陵之变掌魏政，为晋室奠基。"
+  },
+  {
+    "id": "p-wangxizhi",
+    "name": "王羲之",
+    "birth": 303,
+    "death": 361,
+    "polityIds": [
+      "eastern-jin"
+    ],
+    "field": "艺术",
+    "summary": "书圣，兰亭雅集作《兰亭序》，行书冠绝古今。"
+  },
+  {
+    "id": "p-gukaizhi",
+    "name": "顾恺之",
+    "birth": 348,
+    "death": 409,
+    "polityIds": [
+      "eastern-jin"
+    ],
+    "field": "艺术",
+    "summary": "画家三绝「才绝、画绝、痴绝」，《洛神赋图》传世。"
+  },
+  {
+    "id": "p-taoyuanming",
+    "name": "陶渊明",
+    "birth": 365,
+    "death": 427,
+    "polityIds": [
+      "eastern-jin"
+    ],
+    "field": "文学",
+    "summary": "不为五斗米折腰，归隐田园，《桃花源记》《归去来兮辞》开田园诗派。"
+  },
+  {
+    "id": "p-zuchongzhi",
+    "name": "祖冲之",
+    "birth": 429,
+    "death": 500,
+    "polityIds": [
+      "liu-song"
+    ],
+    "field": "科技",
+    "summary": "将圆周率精算至小数点后七位，制大明历，造千里船、指南车。"
+  },
+  {
+    "id": "p-lidaoyuan",
+    "name": "郦道元",
+    "birth": null,
+    "death": 527,
+    "polityIds": [
+      "northern-wei"
+    ],
+    "field": "史学",
+    "summary": "著《水经注》四十卷，综合地理巨著，兼为山水散文之祖。"
+  },
+  {
+    "id": "p-yangjian",
+    "name": "隋文帝·杨坚",
+    "birth": 541,
+    "death": 604,
+    "polityIds": [
+      "sui"
+    ],
+    "field": "政治",
+    "summary": "代周建隋、灭陈统一天下，创三省六部与科举雏形，开皇之治。"
+  },
+  {
+    "id": "p-lishimin",
+    "name": "唐太宗·李世民",
+    "birth": 598,
+    "death": 649,
+    "polityIds": [
+      "tang"
+    ],
+    "field": "政治",
+    "summary": "玄武门之变登基，贞观之治为唐代盛世奠基，被尊「天可汗」。"
+  },
+  {
+    "id": "p-xuanzang",
+    "name": "玄奘",
+    "birth": 602,
+    "death": 664,
+    "polityIds": [
+      "tang"
+    ],
+    "field": "宗教",
+    "summary": "西行五万里取经天竺，译经七十五部，口述《大唐西域记》。"
+  },
+  {
+    "id": "p-wuzetian",
+    "name": "武则天",
+    "birth": 624,
+    "death": 705,
+    "polityIds": [
+      "tang"
+    ],
+    "field": "政治",
+    "summary": "中国唯一正统女皇帝，建周，发展科举殿试与武举，政启开元。"
+  },
+  {
+    "id": "p-jianzhen",
+    "name": "鉴真",
+    "birth": 688,
+    "death": 763,
+    "polityIds": [
+      "tang"
+    ],
+    "field": "宗教",
+    "summary": "六次东渡终抵日本，传戒律、建唐招提寺，为中日文化交流巨擘。"
+  },
+  {
+    "id": "p-libai",
+    "name": "李白",
+    "birth": 701,
+    "death": 762,
+    "polityIds": [
+      "tang"
+    ],
+    "field": "文学",
+    "summary": "诗仙，盛唐浪漫主义巅峰，《将进酒》《蜀道难》雄奇飘逸。"
+  },
+  {
+    "id": "p-dufu",
+    "name": "杜甫",
+    "birth": 712,
+    "death": 770,
+    "polityIds": [
+      "tang"
+    ],
+    "field": "文学",
+    "summary": "诗圣，诗史，「三吏三别」纪安史之乱，沉郁顿挫忧民忧国。"
+  },
+  {
+    "id": "p-hanyu",
+    "name": "韩愈",
+    "birth": 768,
+    "death": 824,
+    "polityIds": [
+      "tang"
+    ],
+    "field": "文学",
+    "summary": "古文运动领袖，文起八代之衰，倡「文以载道」，唐宋八大家之首。"
+  },
+  {
+    "id": "p-baijuyi",
+    "name": "白居易",
+    "birth": 772,
+    "death": 846,
+    "polityIds": [
+      "tang"
+    ],
+    "field": "文学",
+    "summary": "新乐府运动倡导者，《长恨歌》《琵琶行》妇孺能诵。"
+  },
+  {
+    "id": "p-liuzongyuan",
+    "name": "柳宗元",
+    "birth": 773,
+    "death": 819,
+    "polityIds": [
+      "tang"
+    ],
+    "field": "文学",
+    "summary": "古文大家，《永州八记》开山水游记典范，与韩愈并称「韩柳」。"
+  },
+  {
+    "id": "p-dumu",
+    "name": "杜牧",
+    "birth": 803,
+    "death": 852,
+    "polityIds": [
+      "tang"
+    ],
+    "field": "文学",
+    "summary": "晚唐俊才，《阿房宫赋》《泊秦淮》咏史绝伦，与李商隐并称「小李杜」。"
+  },
+  {
+    "id": "p-lishangyin",
+    "name": "李商隐",
+    "birth": 813,
+    "death": 858,
+    "polityIds": [
+      "tang"
+    ],
+    "field": "文学",
+    "summary": "晚唐朦胧诗宗，无题诗深情绵邈，「春蚕到死丝方尽」千古传诵。"
+  },
+  {
+    "id": "p-zhaokuangyin",
+    "name": "宋太祖·赵匡胤",
+    "birth": 927,
+    "death": 976,
+    "polityIds": [
+      "song"
+    ],
+    "field": "政治",
+    "summary": "陈桥兵变黄袍加身，杯酒释兵权，重文抑武定宋朝三百年格局。"
+  },
+  {
+    "id": "p-bisheng",
+    "name": "毕昇",
+    "birth": null,
+    "death": 1050,
+    "polityIds": [
+      "song"
+    ],
+    "field": "科技",
+    "summary": "发明活字印刷术，泥活字排版开印刷革命，比古腾堡早四百年。"
+  },
+  {
+    "id": "p-fanzhongyan",
+    "name": "范仲淹",
+    "birth": 989,
+    "death": 1052,
+    "polityIds": [
+      "song"
+    ],
+    "field": "政治",
+    "summary": "「先天下之忧而忧」，庆历新政主持者，戍边御夏，谥文正。"
+  },
+  {
+    "id": "p-ouyangxiu",
+    "name": "欧阳修",
+    "birth": 1007,
+    "death": 1072,
+    "polityIds": [
+      "song"
+    ],
+    "field": "文学",
+    "summary": "文坛盟主，领衔修《新唐书》《新五代史》，提携三苏曾王。"
+  },
+  {
+    "id": "p-simaguang",
+    "name": "司马光",
+    "birth": 1019,
+    "death": 1086,
+    "polityIds": [
+      "song"
+    ],
+    "field": "史学",
+    "summary": "主编《资治通鉴》二百九十四卷，编年体巨著；晚年罢新法。"
+  },
+  {
+    "id": "p-wanganshi",
+    "name": "王安石",
+    "birth": 1021,
+    "death": 1086,
+    "polityIds": [
+      "song"
+    ],
+    "field": "政治",
+    "summary": "熙宁变法主持者，青苗、募役、保甲诸法图强，「天变不足畏」。"
+  },
+  {
+    "id": "p-shenkuo",
+    "name": "沈括",
+    "birth": 1031,
+    "death": 1095,
+    "polityIds": [
+      "song"
+    ],
+    "field": "科技",
+    "summary": "著《梦溪笔谈》，记活字印刷、磁偏角、石油诸发现，通百科。"
+  },
+  {
+    "id": "p-sushi",
+    "name": "苏轼",
+    "birth": 1037,
+    "death": 1101,
+    "polityIds": [
+      "song"
+    ],
+    "field": "文学",
+    "summary": "东坡居士，诗书画文皆绝，《赤壁赋》《水调歌头》旷达千古。"
+  },
+  {
+    "id": "p-liqingzhao",
+    "name": "李清照",
+    "birth": 1084,
+    "death": 1155,
+    "polityIds": [
+      "song"
+    ],
+    "field": "文学",
+    "summary": "婉约词宗，「人比黄花瘦」「生当作人杰」，乱世漂流词风转深沉。"
+  },
+  {
+    "id": "p-yuefei",
+    "name": "岳飞",
+    "birth": 1103,
+    "death": 1142,
+    "polityIds": [
+      "song"
+    ],
+    "field": "军事",
+    "summary": "抗金名将，岳家军「撼山易，撼岳家军难」，朱仙镇大捷后被十二道金牌召回，冤死风波亭。"
+  },
+  {
+    "id": "p-luyou",
+    "name": "陆游",
+    "birth": 1125,
+    "death": 1209,
+    "polityIds": [
+      "song"
+    ],
+    "field": "文学",
+    "summary": "存诗九千余首第一，「王师北定中原日」念念恢复，亦工词。"
+  },
+  {
+    "id": "p-zhuxi",
+    "name": "朱熹",
+    "birth": 1130,
+    "death": 1200,
+    "polityIds": [
+      "song"
+    ],
+    "field": "思想",
+    "summary": "理学集大成者，编《四书章句集注》，格物致知影响东亚六百年。"
+  },
+  {
+    "id": "p-xinqiji",
+    "name": "辛弃疾",
+    "birth": 1140,
+    "death": 1207,
+    "polityIds": [
+      "song"
+    ],
+    "field": "文学",
+    "summary": "词坛飞将，曾率五十骑闯金营擒叛将，《稼轩词》豪放悲壮。"
+  },
+  {
+    "id": "p-hubilai",
+    "name": "元世祖·忽必烈",
+    "birth": 1215,
+    "death": 1294,
+    "polityIds": [
+      "yuan"
+    ],
+    "field": "政治",
+    "summary": "建元朝、定都大都，行省制度垂范后世，统一全国结束分裂。"
+  },
+  {
+    "id": "p-guoshoujing",
+    "name": "郭守敬",
+    "birth": 1231,
+    "death": 1316,
+    "polityIds": [
+      "yuan"
+    ],
+    "field": "科技",
+    "summary": "编《授时历》以 365.2425 日为岁实，与今公历同精度早三百年；通惠河工程主持者。"
+  },
+  {
+    "id": "p-zhaomengfu",
+    "name": "赵孟頫",
+    "birth": 1254,
+    "death": 1322,
+    "polityIds": [
+      "yuan"
+    ],
+    "field": "艺术",
+    "summary": "宋宗室仕元，书画双绝，赵体楷书与「元人冠冕」画名并垂。"
+  },
+  {
+    "id": "p-zhuyuanzhang",
+    "name": "明太祖·朱元璋",
+    "birth": 1328,
+    "death": 1398,
+    "polityIds": [
+      "ming"
+    ],
+    "field": "政治",
+    "summary": "布衣出身驱除胡元，废丞相、设锦衣卫，铁腕治吏休养生息。"
+  },
+  {
+    "id": "p-zhenghe",
+    "name": "郑和",
+    "birth": 1371,
+    "death": 1433,
+    "polityIds": [
+      "ming"
+    ],
+    "field": "外交",
+    "summary": "七下西洋，宝船队远达非洲东岸，航海壮举先于大航海时代。"
+  },
+  {
+    "id": "p-yuqian",
+    "name": "于谦",
+    "birth": 1398,
+    "death": 1457,
+    "polityIds": [
+      "ming"
+    ],
+    "field": "军事",
+    "summary": "土木之变后力排南迁，北京保卫战再造明朝，后蒙冤而死。「粉骨碎身浑不怕」。"
+  },
+  {
+    "id": "p-tangyin",
+    "name": "唐寅",
+    "birth": 1470,
+    "death": 1524,
+    "polityIds": [
+      "ming"
+    ],
+    "field": "艺术",
+    "summary": "江南第一风流才子，诗书画三绝，《落花诗册》与山水仕女名世。"
+  },
+  {
+    "id": "p-wangyangming",
+    "name": "王阳明",
+    "birth": 1472,
+    "death": 1528,
+    "polityIds": [
+      "ming"
+    ],
+    "field": "思想",
+    "summary": "心学宗师，龙场悟道倡「知行合一」「致良知」，兼平宸濠之乱。"
+  },
+  {
+    "id": "p-lishizhen",
+    "name": "李时珍",
+    "birth": 1518,
+    "death": 1593,
+    "polityIds": [
+      "ming"
+    ],
+    "field": "医学",
+    "summary": "历时二十七载著《本草纲目》五十二卷，集本草学大成。"
+  },
+  {
+    "id": "p-qijiguang",
+    "name": "戚继光",
+    "birth": 1528,
+    "death": 1587,
+    "polityIds": [
+      "ming"
+    ],
+    "field": "军事",
+    "summary": "抗倭名将，戚家军鸳鸯阵荡平东南倭患，北御蒙古，著《纪效新书》。"
+  },
+  {
+    "id": "p-zhangjuzheng",
+    "name": "张居正",
+    "birth": 1525,
+    "death": 1582,
+    "polityIds": [
+      "ming"
+    ],
+    "field": "政治",
+    "summary": "万历首辅，行一条鞭法与考成法，十年新政续命明朝。"
+  },
+  {
+    "id": "p-tangxianzu",
+    "name": "汤显祖",
+    "birth": 1550,
+    "death": 1616,
+    "polityIds": [
+      "ming"
+    ],
+    "field": "文学",
+    "summary": "「东方莎士比亚」，《牡丹亭》至情之作，临川四梦传世。"
+  },
+  {
+    "id": "p-xuguangqi",
+    "name": "徐光启",
+    "birth": 1562,
+    "death": 1633,
+    "polityIds": [
+      "ming"
+    ],
+    "field": "科技",
+    "summary": "与利玛窦合译《几何原本》，著《农政全书》，开中西会通之先。"
+  },
+  {
+    "id": "p-xuxiake",
+    "name": "徐霞客",
+    "birth": 1587,
+    "death": 1641,
+    "polityIds": [
+      "ming"
+    ],
+    "field": "史学",
+    "summary": "三十年遍历名山大川，《徐霞客游记》详考喀斯特地貌。"
+  },
+  {
+    "id": "p-kangxi",
+    "name": "清圣祖·康熙",
+    "birth": 1654,
+    "death": 1722,
+    "polityIds": [
+      "qing"
+    ],
+    "field": "政治",
+    "summary": "八岁登基，擒鳌拜、平三藩、收台湾、亲征噶尔丹，在位六十一年。"
+  },
+  {
+    "id": "p-caoxueqin",
+    "name": "曹雪芹",
+    "birth": 1715,
+    "death": 1763,
+    "polityIds": [
+      "qing"
+    ],
+    "field": "文学",
+    "summary": "十年辛苦不寻常，著《红楼梦》八十回，「字字看来皆是血」。"
+  },
+  {
+    "id": "p-qianlong",
+    "name": "清高宗·乾隆",
+    "birth": 1711,
+    "death": 1799,
+    "polityIds": [
+      "qing"
+    ],
+    "field": "政治",
+    "summary": "十全武功、四库全书，康乾盛世之巅，亦文字狱高峰。"
+  },
+  {
+    "id": "p-jiyun",
+    "name": "纪昀",
+    "birth": 1724,
+    "death": 1805,
+    "polityIds": [
+      "qing"
+    ],
+    "field": "文学",
+    "summary": "总纂《四库全书》，笔记小说《阅微草堂笔记》与才情敏捷名世。"
+  },
+  {
+    "id": "p-linzexu",
+    "name": "林则徐",
+    "birth": 1785,
+    "death": 1849,
+    "polityIds": [
+      "qing"
+    ],
+    "field": "政治",
+    "summary": "虎门销烟抗英，「开眼看世界第一人」，谪戍伊犁仍兴修水利。"
+  },
+  {
+    "id": "p-zengguofan",
+    "name": "曾国藩",
+    "birth": 1811,
+    "death": 1872,
+    "polityIds": [
+      "qing"
+    ],
+    "field": "政治",
+    "summary": "创建湘军平太平天国，倡洋务自强，立德立功立言称晚清第一人。"
+  },
+  {
+    "id": "p-zuozongtang",
+    "name": "左宗棠",
+    "birth": 1812,
+    "death": 1885,
+    "polityIds": [
+      "qing"
+    ],
+    "field": "军事",
+    "summary": "抬棺西征收复新疆百六十万平方公里，福州船政创办者。"
+  },
+  {
+    "id": "p-lihongzhang",
+    "name": "李鸿章",
+    "birth": 1823,
+    "death": 1900,
+    "polityIds": [
+      "qing"
+    ],
+    "field": "政治",
+    "summary": "淮军与北洋水师缔造者，洋务运动主持者，一生代表清廷签约周旋列强。"
+  },
+  {
+    "id": "p-zhangzhidong",
+    "name": "张之洞",
+    "birth": 1837,
+    "death": 1908,
+    "polityIds": [
+      "qing"
+    ],
+    "field": "政治",
+    "summary": "「中体西用」倡导者，办汉阳铁厂、芦汉铁路，清末新政重臣。"
+  }
+]

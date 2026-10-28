@@ -1,0 +1,1951 @@
+[
+  {
+    "id": "qin-昭襄王--305",
+    "polityId": "qin",
+    "title": "昭襄王",
+    "name": "嬴则/稷",
+    "startYear": -305,
+    "endYear": -250
+  },
+  {
+    "id": "qin-孝文王--249",
+    "polityId": "qin",
+    "title": "孝文王",
+    "name": "嬴柱",
+    "startYear": -249,
+    "endYear": -249
+  },
+  {
+    "id": "qin-庄襄王--248",
+    "polityId": "qin",
+    "title": "庄襄王",
+    "name": "嬴子楚",
+    "startYear": -248,
+    "endYear": -246
+  },
+  {
+    "id": "qin-始皇帝--245",
+    "polityId": "qin",
+    "title": "始皇帝",
+    "name": "嬴政",
+    "startYear": -245,
+    "endYear": -209
+  },
+  {
+    "id": "qin-二世皇帝--208",
+    "polityId": "qin",
+    "title": "二世皇帝",
+    "name": "嬴胡亥",
+    "startYear": -208,
+    "endYear": -206
+  },
+  {
+    "id": "western-han-高帝--205",
+    "polityId": "western-han",
+    "title": "高帝",
+    "name": "刘邦",
+    "startYear": -205,
+    "endYear": -194
+  },
+  {
+    "id": "western-han-惠帝--193",
+    "polityId": "western-han",
+    "title": "惠帝",
+    "name": "刘盈",
+    "startYear": -193,
+    "endYear": -187
+  },
+  {
+    "id": "western-han-高后--186",
+    "polityId": "western-han",
+    "title": "高后",
+    "name": "吕雉",
+    "startYear": -186,
+    "endYear": -179
+  },
+  {
+    "id": "western-han-文帝--178",
+    "polityId": "western-han",
+    "title": "文帝",
+    "name": "刘恒",
+    "startYear": -178,
+    "endYear": -156
+  },
+  {
+    "id": "western-han-景帝--155",
+    "polityId": "western-han",
+    "title": "景帝",
+    "name": "刘启",
+    "startYear": -155,
+    "endYear": -140
+  },
+  {
+    "id": "western-han-武帝--139",
+    "polityId": "western-han",
+    "title": "武帝",
+    "name": "刘彻",
+    "startYear": -139,
+    "endYear": -86
+  },
+  {
+    "id": "western-han-昭帝--85",
+    "polityId": "western-han",
+    "title": "昭帝",
+    "name": "刘弗陵",
+    "startYear": -85,
+    "endYear": -73
+  },
+  {
+    "id": "western-han-宣帝--72",
+    "polityId": "western-han",
+    "title": "宣帝",
+    "name": "刘询",
+    "startYear": -72,
+    "endYear": -48
+  },
+  {
+    "id": "western-han-元帝--47",
+    "polityId": "western-han",
+    "title": "元帝",
+    "name": "刘奭",
+    "startYear": -47,
+    "endYear": -32
+  },
+  {
+    "id": "western-han-成帝--31",
+    "polityId": "western-han",
+    "title": "成帝",
+    "name": "刘骜",
+    "startYear": -31,
+    "endYear": -5
+  },
+  {
+    "id": "western-han-哀帝--5",
+    "polityId": "western-han",
+    "title": "哀帝",
+    "name": "刘欣",
+    "startYear": -5,
+    "endYear": 0
+  },
+  {
+    "id": "western-han-平帝-1",
+    "polityId": "western-han",
+    "title": "平帝",
+    "name": "刘衎",
+    "startYear": 1,
+    "endYear": 5
+  },
+  {
+    "id": "western-han-孺子婴-6",
+    "polityId": "western-han",
+    "title": "孺子婴",
+    "name": "—",
+    "startYear": 6,
+    "endYear": 8
+  },
+  {
+    "id": "xin-王莽-9",
+    "polityId": "xin",
+    "title": "王莽",
+    "name": "—",
+    "startYear": 9,
+    "endYear": 23
+  },
+  {
+    "id": "gengshi-更始帝-23",
+    "polityId": "gengshi",
+    "title": "更始帝",
+    "name": "刘玄",
+    "startYear": 23,
+    "endYear": 25
+  },
+  {
+    "id": "eastern-han-光武帝-25",
+    "polityId": "eastern-han",
+    "title": "光武帝",
+    "name": "刘秀",
+    "startYear": 25,
+    "endYear": 57
+  },
+  {
+    "id": "eastern-han-明帝-58",
+    "polityId": "eastern-han",
+    "title": "明帝",
+    "name": "刘庄",
+    "startYear": 58,
+    "endYear": 75
+  },
+  {
+    "id": "eastern-han-章帝-76",
+    "polityId": "eastern-han",
+    "title": "章帝",
+    "name": "刘炟",
+    "startYear": 76,
+    "endYear": 88
+  },
+  {
+    "id": "eastern-han-和帝-89",
+    "polityId": "eastern-han",
+    "title": "和帝",
+    "name": "刘肇",
+    "startYear": 89,
+    "endYear": 105
+  },
+  {
+    "id": "eastern-han-殇帝-106",
+    "polityId": "eastern-han",
+    "title": "殇帝",
+    "name": "刘隆",
+    "startYear": 106,
+    "endYear": 106
+  },
+  {
+    "id": "eastern-han-安帝-107",
+    "polityId": "eastern-han",
+    "title": "安帝",
+    "name": "刘祜",
+    "startYear": 107,
+    "endYear": 125
+  },
+  {
+    "id": "eastern-han-顺帝-126",
+    "polityId": "eastern-han",
+    "title": "顺帝",
+    "name": "刘保",
+    "startYear": 126,
+    "endYear": 144
+  },
+  {
+    "id": "eastern-han-冲帝-145",
+    "polityId": "eastern-han",
+    "title": "冲帝",
+    "name": "刘炳",
+    "startYear": 145,
+    "endYear": 145
+  },
+  {
+    "id": "eastern-han-质帝-146",
+    "polityId": "eastern-han",
+    "title": "质帝",
+    "name": "刘缵",
+    "startYear": 146,
+    "endYear": 146
+  },
+  {
+    "id": "eastern-han-桓帝-147",
+    "polityId": "eastern-han",
+    "title": "桓帝",
+    "name": "刘志",
+    "startYear": 147,
+    "endYear": 167
+  },
+  {
+    "id": "eastern-han-灵帝-168",
+    "polityId": "eastern-han",
+    "title": "灵帝",
+    "name": "刘宏",
+    "startYear": 168,
+    "endYear": 189
+  },
+  {
+    "id": "eastern-han-献帝-190",
+    "polityId": "eastern-han",
+    "title": "献帝",
+    "name": "刘协",
+    "startYear": 190,
+    "endYear": 220
+  },
+  {
+    "id": "wei-文帝-220",
+    "polityId": "wei",
+    "title": "文帝",
+    "name": "曹丕",
+    "startYear": 220,
+    "endYear": 226
+  },
+  {
+    "id": "wei-明帝-227",
+    "polityId": "wei",
+    "title": "明帝",
+    "name": "曹叡",
+    "startYear": 227,
+    "endYear": 239
+  },
+  {
+    "id": "wei-齐王-240",
+    "polityId": "wei",
+    "title": "齐王",
+    "name": "曹芳",
+    "startYear": 240,
+    "endYear": 254
+  },
+  {
+    "id": "wei-高贵乡公-254",
+    "polityId": "wei",
+    "title": "高贵乡公",
+    "name": "曹髦",
+    "startYear": 254,
+    "endYear": 260
+  },
+  {
+    "id": "wei-元帝(陈留王)-260",
+    "polityId": "wei",
+    "title": "元帝(陈留王)",
+    "name": "曹奂",
+    "startYear": 260,
+    "endYear": 265
+  },
+  {
+    "id": "shu-han-昭烈帝-221",
+    "polityId": "shu-han",
+    "title": "昭烈帝",
+    "name": "刘备",
+    "startYear": 221,
+    "endYear": 223
+  },
+  {
+    "id": "shu-han-后主-223",
+    "polityId": "shu-han",
+    "title": "后主",
+    "name": "刘禅",
+    "startYear": 223,
+    "endYear": 263
+  },
+  {
+    "id": "wu-大帝-222",
+    "polityId": "wu",
+    "title": "大帝",
+    "name": "孙权",
+    "startYear": 222,
+    "endYear": 252
+  },
+  {
+    "id": "wu-会稽王-252",
+    "polityId": "wu",
+    "title": "会稽王",
+    "name": "孙亮",
+    "startYear": 252,
+    "endYear": 258
+  },
+  {
+    "id": "wu-景帝-258",
+    "polityId": "wu",
+    "title": "景帝",
+    "name": "孙休",
+    "startYear": 258,
+    "endYear": 264
+  },
+  {
+    "id": "wu-乌程侯-264",
+    "polityId": "wu",
+    "title": "乌程侯",
+    "name": "孙皓",
+    "startYear": 264,
+    "endYear": 280
+  },
+  {
+    "id": "western-jin-武帝-265",
+    "polityId": "western-jin",
+    "title": "武帝",
+    "name": "司马炎",
+    "startYear": 265,
+    "endYear": 290
+  },
+  {
+    "id": "western-jin-惠帝-290",
+    "polityId": "western-jin",
+    "title": "惠帝",
+    "name": "司马衷",
+    "startYear": 290,
+    "endYear": 306
+  },
+  {
+    "id": "western-jin-怀帝-307",
+    "polityId": "western-jin",
+    "title": "怀帝",
+    "name": "司马炽",
+    "startYear": 307,
+    "endYear": 313
+  },
+  {
+    "id": "western-jin-愍帝-313",
+    "polityId": "western-jin",
+    "title": "愍帝",
+    "name": "司马邺",
+    "startYear": 313,
+    "endYear": 317
+  },
+  {
+    "id": "eastern-jin-元帝-317",
+    "polityId": "eastern-jin",
+    "title": "元帝",
+    "name": "司马睿",
+    "startYear": 317,
+    "endYear": 322
+  },
+  {
+    "id": "eastern-jin-明帝-322",
+    "polityId": "eastern-jin",
+    "title": "明帝",
+    "name": "司马绍",
+    "startYear": 322,
+    "endYear": 325
+  },
+  {
+    "id": "eastern-jin-成帝-325",
+    "polityId": "eastern-jin",
+    "title": "成帝",
+    "name": "司马衍",
+    "startYear": 325,
+    "endYear": 342
+  },
+  {
+    "id": "eastern-jin-康帝-343",
+    "polityId": "eastern-jin",
+    "title": "康帝",
+    "name": "司马岳",
+    "startYear": 343,
+    "endYear": 344
+  },
+  {
+    "id": "eastern-jin-穆帝-345",
+    "polityId": "eastern-jin",
+    "title": "穆帝",
+    "name": "司马聃",
+    "startYear": 345,
+    "endYear": 361
+  },
+  {
+    "id": "eastern-jin-哀帝-362",
+    "polityId": "eastern-jin",
+    "title": "哀帝",
+    "name": "司马丕",
+    "startYear": 362,
+    "endYear": 365
+  },
+  {
+    "id": "eastern-jin-海西公-366",
+    "polityId": "eastern-jin",
+    "title": "海西公",
+    "name": "司马奕",
+    "startYear": 366,
+    "endYear": 371
+  },
+  {
+    "id": "eastern-jin-简文帝-371",
+    "polityId": "eastern-jin",
+    "title": "简文帝",
+    "name": "司马昱",
+    "startYear": 371,
+    "endYear": 372
+  },
+  {
+    "id": "eastern-jin-孝武帝-373",
+    "polityId": "eastern-jin",
+    "title": "孝武帝",
+    "name": "司马曜",
+    "startYear": 373,
+    "endYear": 396
+  },
+  {
+    "id": "eastern-jin-安帝-397",
+    "polityId": "eastern-jin",
+    "title": "安帝",
+    "name": "司马德宗",
+    "startYear": 397,
+    "endYear": 418
+  },
+  {
+    "id": "eastern-jin-恭帝-419",
+    "polityId": "eastern-jin",
+    "title": "恭帝",
+    "name": "司马德文",
+    "startYear": 419,
+    "endYear": 420
+  },
+  {
+    "id": "northern-wei-道武帝-386",
+    "polityId": "northern-wei",
+    "title": "道武帝",
+    "name": "拓跋珪",
+    "startYear": 386,
+    "endYear": 409
+  },
+  {
+    "id": "northern-wei-明元帝-409",
+    "polityId": "northern-wei",
+    "title": "明元帝",
+    "name": "拓跋嗣",
+    "startYear": 409,
+    "endYear": 423
+  },
+  {
+    "id": "northern-wei-太武帝-424",
+    "polityId": "northern-wei",
+    "title": "太武帝",
+    "name": "拓跋焘",
+    "startYear": 424,
+    "endYear": 452
+  },
+  {
+    "id": "northern-wei-南安王-452",
+    "polityId": "northern-wei",
+    "title": "南安王",
+    "name": "拓跋余",
+    "startYear": 452,
+    "endYear": 452
+  },
+  {
+    "id": "northern-wei-文成帝-452",
+    "polityId": "northern-wei",
+    "title": "文成帝",
+    "name": "拓跋濬",
+    "startYear": 452,
+    "endYear": 465
+  },
+  {
+    "id": "northern-wei-献文帝-466",
+    "polityId": "northern-wei",
+    "title": "献文帝",
+    "name": "拓跋弘",
+    "startYear": 466,
+    "endYear": 471
+  },
+  {
+    "id": "northern-wei-孝文帝-471",
+    "polityId": "northern-wei",
+    "title": "孝文帝",
+    "name": "元宏",
+    "startYear": 471,
+    "endYear": 499
+  },
+  {
+    "id": "northern-wei-宣武帝-500",
+    "polityId": "northern-wei",
+    "title": "宣武帝",
+    "name": "元恪",
+    "startYear": 500,
+    "endYear": 515
+  },
+  {
+    "id": "northern-wei-孝明帝-516",
+    "polityId": "northern-wei",
+    "title": "孝明帝",
+    "name": "元诩",
+    "startYear": 516,
+    "endYear": 528
+  },
+  {
+    "id": "northern-wei-孝庄帝-528",
+    "polityId": "northern-wei",
+    "title": "孝庄帝",
+    "name": "元子攸",
+    "startYear": 528,
+    "endYear": 530
+  },
+  {
+    "id": "northern-wei-长广王-530",
+    "polityId": "northern-wei",
+    "title": "长广王",
+    "name": "元晔",
+    "startYear": 530,
+    "endYear": 531
+  },
+  {
+    "id": "northern-wei-节闵帝-531",
+    "polityId": "northern-wei",
+    "title": "节闵帝",
+    "name": "元恭",
+    "startYear": 531,
+    "endYear": 531
+  },
+  {
+    "id": "northern-wei-安定王-531",
+    "polityId": "northern-wei",
+    "title": "安定王",
+    "name": "元朗",
+    "startYear": 531,
+    "endYear": 532
+  },
+  {
+    "id": "northern-wei-孝武帝-532",
+    "polityId": "northern-wei",
+    "title": "孝武帝",
+    "name": "元脩",
+    "startYear": 532,
+    "endYear": 534
+  },
+  {
+    "id": "liu-song-武帝-420",
+    "polityId": "liu-song",
+    "title": "武帝",
+    "name": "刘裕",
+    "startYear": 420,
+    "endYear": 422
+  },
+  {
+    "id": "liu-song-少帝-423",
+    "polityId": "liu-song",
+    "title": "少帝",
+    "name": "刘义符",
+    "startYear": 423,
+    "endYear": 424
+  },
+  {
+    "id": "liu-song-文帝-424",
+    "polityId": "liu-song",
+    "title": "文帝",
+    "name": "刘义隆",
+    "startYear": 424,
+    "endYear": 453
+  },
+  {
+    "id": "liu-song-孝武帝-454",
+    "polityId": "liu-song",
+    "title": "孝武帝",
+    "name": "刘骏",
+    "startYear": 454,
+    "endYear": 464
+  },
+  {
+    "id": "liu-song-前废帝-465",
+    "polityId": "liu-song",
+    "title": "前废帝",
+    "name": "刘子业",
+    "startYear": 465,
+    "endYear": 465
+  },
+  {
+    "id": "liu-song-明帝-465",
+    "polityId": "liu-song",
+    "title": "明帝",
+    "name": "刘彧",
+    "startYear": 465,
+    "endYear": 472
+  },
+  {
+    "id": "liu-song-后废帝(苍梧王)-473",
+    "polityId": "liu-song",
+    "title": "后废帝(苍梧王)",
+    "name": "刘昱",
+    "startYear": 473,
+    "endYear": 477
+  },
+  {
+    "id": "liu-song-顺帝-477",
+    "polityId": "liu-song",
+    "title": "顺帝",
+    "name": "刘凖",
+    "startYear": 477,
+    "endYear": 479
+  },
+  {
+    "id": "southern-qi-高帝-479",
+    "polityId": "southern-qi",
+    "title": "高帝",
+    "name": "萧道成",
+    "startYear": 479,
+    "endYear": 482
+  },
+  {
+    "id": "southern-qi-武帝-483",
+    "polityId": "southern-qi",
+    "title": "武帝",
+    "name": "萧赜",
+    "startYear": 483,
+    "endYear": 493
+  },
+  {
+    "id": "southern-qi-欎林王-494",
+    "polityId": "southern-qi",
+    "title": "欎林王",
+    "name": "萧昭业",
+    "startYear": 494,
+    "endYear": 494
+  },
+  {
+    "id": "southern-qi-海陵王-494",
+    "polityId": "southern-qi",
+    "title": "海陵王",
+    "name": "萧昭文",
+    "startYear": 494,
+    "endYear": 494
+  },
+  {
+    "id": "southern-qi-明帝-494",
+    "polityId": "southern-qi",
+    "title": "明帝",
+    "name": "萧鸾",
+    "startYear": 494,
+    "endYear": 498
+  },
+  {
+    "id": "southern-qi-东昏侯-499",
+    "polityId": "southern-qi",
+    "title": "东昏侯",
+    "name": "萧宝卷",
+    "startYear": 499,
+    "endYear": 501
+  },
+  {
+    "id": "southern-qi-和帝-501",
+    "polityId": "southern-qi",
+    "title": "和帝",
+    "name": "萧宝融",
+    "startYear": 501,
+    "endYear": 502
+  },
+  {
+    "id": "liang-武帝-502",
+    "polityId": "liang",
+    "title": "武帝",
+    "name": "萧衍",
+    "startYear": 502,
+    "endYear": 549
+  },
+  {
+    "id": "liang-简文帝-550",
+    "polityId": "liang",
+    "title": "简文帝",
+    "name": "萧纲",
+    "startYear": 550,
+    "endYear": 551
+  },
+  {
+    "id": "liang-元帝-552",
+    "polityId": "liang",
+    "title": "元帝",
+    "name": "萧绎",
+    "startYear": 552,
+    "endYear": 555
+  },
+  {
+    "id": "liang-敬帝-555",
+    "polityId": "liang",
+    "title": "敬帝",
+    "name": "萧方智",
+    "startYear": 555,
+    "endYear": 557
+  },
+  {
+    "id": "eastern-wei-孝静帝-534",
+    "polityId": "eastern-wei",
+    "title": "孝静帝",
+    "name": "元善见",
+    "startYear": 534,
+    "endYear": 550
+  },
+  {
+    "id": "western-wei-文帝-535",
+    "polityId": "western-wei",
+    "title": "文帝",
+    "name": "元宝炬",
+    "startYear": 535,
+    "endYear": 551
+  },
+  {
+    "id": "western-wei-废帝-552",
+    "polityId": "western-wei",
+    "title": "废帝",
+    "name": "元钦",
+    "startYear": 552,
+    "endYear": 554
+  },
+  {
+    "id": "western-wei-恭帝-554",
+    "polityId": "western-wei",
+    "title": "恭帝",
+    "name": "元廓",
+    "startYear": 554,
+    "endYear": 556
+  },
+  {
+    "id": "northern-qi-文宣帝-550",
+    "polityId": "northern-qi",
+    "title": "文宣帝",
+    "name": "高洋",
+    "startYear": 550,
+    "endYear": 559
+  },
+  {
+    "id": "northern-qi-废帝-560",
+    "polityId": "northern-qi",
+    "title": "废帝",
+    "name": "高殷",
+    "startYear": 560,
+    "endYear": 560
+  },
+  {
+    "id": "northern-qi-孝昭帝-560",
+    "polityId": "northern-qi",
+    "title": "孝昭帝",
+    "name": "高演",
+    "startYear": 560,
+    "endYear": 561
+  },
+  {
+    "id": "northern-qi-武成帝-561",
+    "polityId": "northern-qi",
+    "title": "武成帝",
+    "name": "高湛",
+    "startYear": 561,
+    "endYear": 565
+  },
+  {
+    "id": "northern-qi-后主-565",
+    "polityId": "northern-qi",
+    "title": "后主",
+    "name": "高纬",
+    "startYear": 565,
+    "endYear": 576
+  },
+  {
+    "id": "northern-qi-幼主-577",
+    "polityId": "northern-qi",
+    "title": "幼主",
+    "name": "高恒",
+    "startYear": 577,
+    "endYear": 577
+  },
+  {
+    "id": "chen-武帝-557",
+    "polityId": "chen",
+    "title": "武帝",
+    "name": "陈霸先",
+    "startYear": 557,
+    "endYear": 559
+  },
+  {
+    "id": "chen-文帝-560",
+    "polityId": "chen",
+    "title": "文帝",
+    "name": "陈蒨",
+    "startYear": 560,
+    "endYear": 566
+  },
+  {
+    "id": "chen-废帝(临海王)-567",
+    "polityId": "chen",
+    "title": "废帝(临海王)",
+    "name": "陈伯宗",
+    "startYear": 567,
+    "endYear": 568
+  },
+  {
+    "id": "chen-宣帝-569",
+    "polityId": "chen",
+    "title": "宣帝",
+    "name": "陈顼",
+    "startYear": 569,
+    "endYear": 582
+  },
+  {
+    "id": "chen-后主-583",
+    "polityId": "chen",
+    "title": "后主",
+    "name": "陈叔宝",
+    "startYear": 583,
+    "endYear": 589
+  },
+  {
+    "id": "northern-zhou-孝闵帝-557",
+    "polityId": "northern-zhou",
+    "title": "孝闵帝",
+    "name": "宇文觉",
+    "startYear": 557,
+    "endYear": 557
+  },
+  {
+    "id": "northern-zhou-明帝-557",
+    "polityId": "northern-zhou",
+    "title": "明帝",
+    "name": "宇文毓",
+    "startYear": 557,
+    "endYear": 560
+  },
+  {
+    "id": "northern-zhou-武帝-561",
+    "polityId": "northern-zhou",
+    "title": "武帝",
+    "name": "宇文邕",
+    "startYear": 561,
+    "endYear": 578
+  },
+  {
+    "id": "northern-zhou-宣帝-579",
+    "polityId": "northern-zhou",
+    "title": "宣帝",
+    "name": "宇文赟",
+    "startYear": 579,
+    "endYear": 579
+  },
+  {
+    "id": "northern-zhou-静帝-579",
+    "polityId": "northern-zhou",
+    "title": "静帝",
+    "name": "宇文阐",
+    "startYear": 579,
+    "endYear": 581
+  },
+  {
+    "id": "sui-文帝-581",
+    "polityId": "sui",
+    "title": "文帝",
+    "name": "杨坚",
+    "startYear": 581,
+    "endYear": 604
+  },
+  {
+    "id": "sui-炀帝-605",
+    "polityId": "sui",
+    "title": "炀帝",
+    "name": "杨广",
+    "startYear": 605,
+    "endYear": 617
+  },
+  {
+    "id": "sui-恭帝-617",
+    "polityId": "sui",
+    "title": "恭帝",
+    "name": "杨侑",
+    "startYear": 617,
+    "endYear": 618
+  },
+  {
+    "id": "tang-高祖-618",
+    "polityId": "tang",
+    "title": "高祖",
+    "name": "李渊",
+    "startYear": 618,
+    "endYear": 626
+  },
+  {
+    "id": "tang-太宗-627",
+    "polityId": "tang",
+    "title": "太宗",
+    "name": "李世民",
+    "startYear": 627,
+    "endYear": 649
+  },
+  {
+    "id": "tang-高宗-650",
+    "polityId": "tang",
+    "title": "高宗",
+    "name": "李治",
+    "startYear": 650,
+    "endYear": 683
+  },
+  {
+    "id": "tang-中宗-684",
+    "polityId": "tang",
+    "title": "中宗",
+    "name": "李显/哲",
+    "startYear": 684,
+    "endYear": 684
+  },
+  {
+    "id": "tang-睿宗-684",
+    "polityId": "tang",
+    "title": "睿宗",
+    "name": "李旦",
+    "startYear": 684,
+    "endYear": 684
+  },
+  {
+    "id": "tang-武后-684",
+    "polityId": "tang",
+    "title": "武后",
+    "name": "武曌",
+    "startYear": 684,
+    "endYear": 704
+  },
+  {
+    "id": "tang-中宗-705",
+    "polityId": "tang",
+    "title": "中宗",
+    "name": "李显(又名哲)",
+    "startYear": 705,
+    "endYear": 710
+  },
+  {
+    "id": "tang-睿宗-710",
+    "polityId": "tang",
+    "title": "睿宗",
+    "name": "李旦",
+    "startYear": 710,
+    "endYear": 712
+  },
+  {
+    "id": "tang-玄宗-712",
+    "polityId": "tang",
+    "title": "玄宗",
+    "name": "李隆基",
+    "startYear": 712,
+    "endYear": 756
+  },
+  {
+    "id": "tang-肃宗-756",
+    "polityId": "tang",
+    "title": "肃宗",
+    "name": "李亨",
+    "startYear": 756,
+    "endYear": 761
+  },
+  {
+    "id": "tang-代宗-762",
+    "polityId": "tang",
+    "title": "代宗",
+    "name": "李豫",
+    "startYear": 762,
+    "endYear": 779
+  },
+  {
+    "id": "tang-德宗-780",
+    "polityId": "tang",
+    "title": "德宗",
+    "name": "李适",
+    "startYear": 780,
+    "endYear": 805
+  },
+  {
+    "id": "tang-顺宗-805",
+    "polityId": "tang",
+    "title": "顺宗",
+    "name": "李诵",
+    "startYear": 805,
+    "endYear": 805
+  },
+  {
+    "id": "tang-宪宗-806",
+    "polityId": "tang",
+    "title": "宪宗",
+    "name": "李纯",
+    "startYear": 806,
+    "endYear": 820
+  },
+  {
+    "id": "tang-穆宗-821",
+    "polityId": "tang",
+    "title": "穆宗",
+    "name": "李恒",
+    "startYear": 821,
+    "endYear": 824
+  },
+  {
+    "id": "tang-敬宗-825",
+    "polityId": "tang",
+    "title": "敬宗",
+    "name": "李湛",
+    "startYear": 825,
+    "endYear": 826
+  },
+  {
+    "id": "tang-文宗-826",
+    "polityId": "tang",
+    "title": "文宗",
+    "name": "李昂",
+    "startYear": 826,
+    "endYear": 840
+  },
+  {
+    "id": "tang-武宗-841",
+    "polityId": "tang",
+    "title": "武宗",
+    "name": "李炎",
+    "startYear": 841,
+    "endYear": 846
+  },
+  {
+    "id": "tang-宣宗-847",
+    "polityId": "tang",
+    "title": "宣宗",
+    "name": "李忱",
+    "startYear": 847,
+    "endYear": 859
+  },
+  {
+    "id": "tang-懿宗-859",
+    "polityId": "tang",
+    "title": "懿宗",
+    "name": "李漼",
+    "startYear": 859,
+    "endYear": 873
+  },
+  {
+    "id": "tang-僖宗-873",
+    "polityId": "tang",
+    "title": "僖宗",
+    "name": "李儇",
+    "startYear": 873,
+    "endYear": 888
+  },
+  {
+    "id": "tang-昭宗-889",
+    "polityId": "tang",
+    "title": "昭宗",
+    "name": "李晔",
+    "startYear": 889,
+    "endYear": 904
+  },
+  {
+    "id": "tang-哀帝-904",
+    "polityId": "tang",
+    "title": "哀帝",
+    "name": "李拀",
+    "startYear": 904,
+    "endYear": 907
+  },
+  {
+    "id": "later-liang-太祖-907",
+    "polityId": "later-liang",
+    "title": "太祖",
+    "name": "朱晃(又名温、全忠)",
+    "startYear": 907,
+    "endYear": 913
+  },
+  {
+    "id": "later-liang-末帝-913",
+    "polityId": "later-liang",
+    "title": "末帝",
+    "name": "朱瑱",
+    "startYear": 913,
+    "endYear": 923
+  },
+  {
+    "id": "liao-太祖-907",
+    "polityId": "liao",
+    "title": "太祖",
+    "name": "耶律阿保机",
+    "startYear": 907,
+    "endYear": 927
+  },
+  {
+    "id": "liao-太宗-927",
+    "polityId": "liao",
+    "title": "太宗",
+    "name": "耶律德光",
+    "startYear": 927,
+    "endYear": 947
+  },
+  {
+    "id": "liao-世宗-947",
+    "polityId": "liao",
+    "title": "世宗",
+    "name": "耶律阮",
+    "startYear": 947,
+    "endYear": 951
+  },
+  {
+    "id": "liao-穆宗-951",
+    "polityId": "liao",
+    "title": "穆宗",
+    "name": "耶律璟",
+    "startYear": 951,
+    "endYear": 969
+  },
+  {
+    "id": "liao-景宗-969",
+    "polityId": "liao",
+    "title": "景宗",
+    "name": "耶律贤",
+    "startYear": 969,
+    "endYear": 982
+  },
+  {
+    "id": "liao-圣宗-982",
+    "polityId": "liao",
+    "title": "圣宗",
+    "name": "耶律隆绪",
+    "startYear": 982,
+    "endYear": 1031
+  },
+  {
+    "id": "liao-兴宗-1031",
+    "polityId": "liao",
+    "title": "兴宗",
+    "name": "耶律宗真",
+    "startYear": 1031,
+    "endYear": 1055
+  },
+  {
+    "id": "liao-道宗-1055",
+    "polityId": "liao",
+    "title": "道宗",
+    "name": "耶律洪基",
+    "startYear": 1055,
+    "endYear": 1101
+  },
+  {
+    "id": "liao-天祚帝-1101",
+    "polityId": "liao",
+    "title": "天祚帝",
+    "name": "耶律延禧",
+    "startYear": 1101,
+    "endYear": 1125,
+    "note": "保大五年二月被金军俘于应州，辽亡。"
+  },
+  {
+    "id": "later-tang-庄宗-923",
+    "polityId": "later-tang",
+    "title": "庄宗",
+    "name": "李存勖",
+    "startYear": 923,
+    "endYear": 926
+  },
+  {
+    "id": "later-tang-明宗-926",
+    "polityId": "later-tang",
+    "title": "明宗",
+    "name": "李亶",
+    "startYear": 926,
+    "endYear": 933
+  },
+  {
+    "id": "later-tang-闵帝-934",
+    "polityId": "later-tang",
+    "title": "闵帝",
+    "name": "李从厚",
+    "startYear": 934,
+    "endYear": 934
+  },
+  {
+    "id": "later-tang-末帝-934",
+    "polityId": "later-tang",
+    "title": "末帝",
+    "name": "李从珂",
+    "startYear": 934,
+    "endYear": 936
+  },
+  {
+    "id": "later-jin-高祖-936",
+    "polityId": "later-jin",
+    "title": "高祖",
+    "name": "石敬瑭",
+    "startYear": 936,
+    "endYear": 942
+  },
+  {
+    "id": "later-jin-出帝-942",
+    "polityId": "later-jin",
+    "title": "出帝",
+    "name": "石重贵",
+    "startYear": 942,
+    "endYear": 947
+  },
+  {
+    "id": "dali-duanzhengyan",
+    "polityId": "dali",
+    "title": "宪宗",
+    "name": "段正严（段和誉）",
+    "startYear": 1108,
+    "endYear": 1147,
+    "precision": "approx",
+    "note": "庙号系后世追记；在位三十九年，晚年避位为僧；大理纪年为后世追记，年份系约数。"
+  },
+  {
+    "id": "later-han-高祖-947",
+    "polityId": "later-han",
+    "title": "高祖",
+    "name": "刘暠(本名知远)",
+    "startYear": 947,
+    "endYear": 948
+  },
+  {
+    "id": "later-han-隐帝-948",
+    "polityId": "later-han",
+    "title": "隐帝",
+    "name": "刘承祐",
+    "startYear": 948,
+    "endYear": 950
+  },
+  {
+    "id": "later-zhou-太祖-951",
+    "polityId": "later-zhou",
+    "title": "太祖",
+    "name": "郭威",
+    "startYear": 951,
+    "endYear": 954
+  },
+  {
+    "id": "later-zhou-世宗-954",
+    "polityId": "later-zhou",
+    "title": "世宗",
+    "name": "柴荣",
+    "startYear": 954,
+    "endYear": 959
+  },
+  {
+    "id": "later-zhou-恭帝-959",
+    "polityId": "later-zhou",
+    "title": "恭帝",
+    "name": "柴宗训",
+    "startYear": 959,
+    "endYear": 965
+  },
+  {
+    "id": "song-太祖-960",
+    "polityId": "song",
+    "title": "太祖",
+    "name": "赵匡胤",
+    "startYear": 960,
+    "endYear": 976
+  },
+  {
+    "id": "song-太宗-976",
+    "polityId": "song",
+    "title": "太宗",
+    "name": "赵炅(本名匡义,又名光义)",
+    "startYear": 976,
+    "endYear": 997
+  },
+  {
+    "id": "song-真宗-998",
+    "polityId": "song",
+    "title": "真宗",
+    "name": "赵恒",
+    "startYear": 998,
+    "endYear": 1022
+  },
+  {
+    "id": "song-仁宗-1023",
+    "polityId": "song",
+    "title": "仁宗",
+    "name": "赵祯",
+    "startYear": 1023,
+    "endYear": 1063
+  },
+  {
+    "id": "song-英宗-1064",
+    "polityId": "song",
+    "title": "英宗",
+    "name": "赵曙",
+    "startYear": 1064,
+    "endYear": 1067
+  },
+  {
+    "id": "song-神宗-1068",
+    "polityId": "song",
+    "title": "神宗",
+    "name": "赵顼",
+    "startYear": 1068,
+    "endYear": 1085
+  },
+  {
+    "id": "song-哲宗-1086",
+    "polityId": "song",
+    "title": "哲宗",
+    "name": "赵煦",
+    "startYear": 1086,
+    "endYear": 1100
+  },
+  {
+    "id": "song-huizong",
+    "polityId": "song",
+    "title": "徽宗",
+    "name": "赵佶",
+    "startYear": 1100,
+    "endYear": 1125,
+    "note": "宣和七年十二月禅位于钦宗（该腊月大部已入公历 1126 年 1 月），按中国纪年记至 1125。"
+  },
+  {
+    "id": "song-徽宗-1101",
+    "polityId": "song",
+    "title": "徽宗",
+    "name": "赵佶",
+    "startYear": 1101,
+    "endYear": 1125
+  },
+  {
+    "id": "song-钦宗-1126",
+    "polityId": "song",
+    "title": "钦宗",
+    "name": "赵桓",
+    "startYear": 1126,
+    "endYear": 1127,
+    "note": "宣和七年十二月即位，次年正月改元靖康；1127 年被掳北迁。"
+  },
+  {
+    "id": "song-高宗-1127",
+    "polityId": "song",
+    "title": "高宗",
+    "name": "赵构",
+    "startYear": 1127,
+    "endYear": 1162,
+    "note": "建炎元年五月即位于南京应天府（今商丘），改元建炎。"
+  },
+  {
+    "id": "song-孝宗-1163",
+    "polityId": "song",
+    "title": "孝宗",
+    "name": "赵昚",
+    "startYear": 1163,
+    "endYear": 1189
+  },
+  {
+    "id": "song-光宗-1190",
+    "polityId": "song",
+    "title": "光宗",
+    "name": "赵惇",
+    "startYear": 1190,
+    "endYear": 1194
+  },
+  {
+    "id": "song-宁宗-1195",
+    "polityId": "song",
+    "title": "宁宗",
+    "name": "赵扩",
+    "startYear": 1195,
+    "endYear": 1224
+  },
+  {
+    "id": "song-理宗-1225",
+    "polityId": "song",
+    "title": "理宗",
+    "name": "赵昀",
+    "startYear": 1225,
+    "endYear": 1264
+  },
+  {
+    "id": "song-度宗-1265",
+    "polityId": "song",
+    "title": "度宗",
+    "name": "赵禥",
+    "startYear": 1265,
+    "endYear": 1274
+  },
+  {
+    "id": "song-恭帝-1275",
+    "polityId": "song",
+    "title": "恭帝",
+    "name": "赵㬎",
+    "startYear": 1275,
+    "endYear": 1276
+  },
+  {
+    "id": "song-端宗-1276",
+    "polityId": "song",
+    "title": "端宗",
+    "name": "赵昰",
+    "startYear": 1276,
+    "endYear": 1278
+  },
+  {
+    "id": "song-帝昺-1278",
+    "polityId": "song",
+    "title": "帝昺",
+    "name": "赵昺",
+    "startYear": 1278,
+    "endYear": 1279
+  },
+  {
+    "id": "xia-chongzong",
+    "polityId": "xia",
+    "title": "崇宗",
+    "name": "李乾顺",
+    "startYear": 1086,
+    "endYear": 1139
+  },
+  {
+    "id": "jin-太祖-1115",
+    "polityId": "jin",
+    "title": "太祖",
+    "name": "完颜旻（阿骨打）",
+    "startYear": 1115,
+    "endYear": 1123,
+    "note": "天辅七年八月（公历 1123 年 9 月）崩于返上京途中。"
+  },
+  {
+    "id": "jin-太宗-1123",
+    "polityId": "jin",
+    "title": "太宗",
+    "name": "完颜晟",
+    "startYear": 1123,
+    "endYear": 1135,
+    "note": "太祖崩后即位；天会十三年正月（1135）卒。"
+  },
+  {
+    "id": "jin-熙宗-1135",
+    "polityId": "jin",
+    "title": "熙宗",
+    "name": "完颜亶",
+    "startYear": 1135,
+    "endYear": 1149,
+    "note": "即位后沿用「天会」年号至 1137 年，1138 年始改元天眷——在位区间与年号区间分离的关键例证。"
+  },
+  {
+    "id": "jin-海陵王-1149",
+    "polityId": "jin",
+    "title": "海陵王",
+    "name": "完颜亮",
+    "startYear": 1149,
+    "endYear": 1161
+  },
+  {
+    "id": "jin-世宗-1161",
+    "polityId": "jin",
+    "title": "世宗",
+    "name": "完颜雍",
+    "startYear": 1161,
+    "endYear": 1189
+  },
+  {
+    "id": "jin-章宗-1190",
+    "polityId": "jin",
+    "title": "章宗",
+    "name": "完颜璟",
+    "startYear": 1190,
+    "endYear": 1208
+  },
+  {
+    "id": "jin-卫绍王-1209",
+    "polityId": "jin",
+    "title": "卫绍王",
+    "name": "完颜永济",
+    "startYear": 1209,
+    "endYear": 1213
+  },
+  {
+    "id": "jin-宣宗-1213",
+    "polityId": "jin",
+    "title": "宣宗",
+    "name": "完颜珣",
+    "startYear": 1213,
+    "endYear": 1223
+  },
+  {
+    "id": "jin-哀宗-1224",
+    "polityId": "jin",
+    "title": "哀宗",
+    "name": "完颜守绪",
+    "startYear": 1224,
+    "endYear": 1234
+  },
+  {
+    "id": "kk-yelvdashi",
+    "polityId": "karakhitai",
+    "title": "德宗",
+    "name": "耶律大石",
+    "startYear": 1124,
+    "endYear": 1143,
+    "note": "1124 年于可敦城自立为王（异说：1122 / 1123）；约 1132 年称菊儿汗（异说：1134）。纪年取通说。"
+  },
+  {
+    "id": "yuan-太祖-1206",
+    "polityId": "yuan",
+    "title": "太祖",
+    "name": "孛儿只斤铁木真(成吉思汗)",
+    "startYear": 1206,
+    "endYear": 1227
+  },
+  {
+    "id": "yuan-拖雷-1228",
+    "polityId": "yuan",
+    "title": "拖雷",
+    "name": "监国",
+    "startYear": 1228,
+    "endYear": 1228
+  },
+  {
+    "id": "yuan-太宗-1229",
+    "polityId": "yuan",
+    "title": "太宗",
+    "name": "孛儿只斤窝阔台",
+    "startYear": 1229,
+    "endYear": 1241
+  },
+  {
+    "id": "yuan-乃马真后-1242",
+    "polityId": "yuan",
+    "title": "乃马真后",
+    "name": "称制",
+    "startYear": 1242,
+    "endYear": 1246
+  },
+  {
+    "id": "yuan-定宗-1246",
+    "polityId": "yuan",
+    "title": "定宗",
+    "name": "孛儿只斤贵由",
+    "startYear": 1246,
+    "endYear": 1248
+  },
+  {
+    "id": "yuan-海迷失后-1249",
+    "polityId": "yuan",
+    "title": "海迷失后",
+    "name": "称制",
+    "startYear": 1249,
+    "endYear": 1251
+  },
+  {
+    "id": "yuan-宪宗-1251",
+    "polityId": "yuan",
+    "title": "宪宗",
+    "name": "孛儿只斤蒙哥",
+    "startYear": 1251,
+    "endYear": 1259
+  },
+  {
+    "id": "yuan-世祖-1260",
+    "polityId": "yuan",
+    "title": "世祖",
+    "name": "孛儿只斤忽必烈",
+    "startYear": 1260,
+    "endYear": 1294
+  },
+  {
+    "id": "yuan-成宗-1295",
+    "polityId": "yuan",
+    "title": "成宗",
+    "name": "孛儿只斤铁穆耳",
+    "startYear": 1295,
+    "endYear": 1307
+  },
+  {
+    "id": "yuan-武宗-1308",
+    "polityId": "yuan",
+    "title": "武宗",
+    "name": "孛儿只斤海山",
+    "startYear": 1308,
+    "endYear": 1311
+  },
+  {
+    "id": "yuan-仁宗-1312",
+    "polityId": "yuan",
+    "title": "仁宗",
+    "name": "孛儿只斤爱力育黎拔力八达",
+    "startYear": 1312,
+    "endYear": 1320
+  },
+  {
+    "id": "yuan-英宗-1321",
+    "polityId": "yuan",
+    "title": "英宗",
+    "name": "孛儿只斤硕德八剌",
+    "startYear": 1321,
+    "endYear": 1323
+  },
+  {
+    "id": "yuan-泰定帝-1324",
+    "polityId": "yuan",
+    "title": "泰定帝",
+    "name": "孛儿只斤也孙铁木儿",
+    "startYear": 1324,
+    "endYear": 1328
+  },
+  {
+    "id": "yuan-天顺帝-1328",
+    "polityId": "yuan",
+    "title": "天顺帝",
+    "name": "孛儿只斤阿速吉八",
+    "startYear": 1328,
+    "endYear": 1328
+  },
+  {
+    "id": "yuan-文宗-1328",
+    "polityId": "yuan",
+    "title": "文宗",
+    "name": "孛儿只斤图帖睦尔",
+    "startYear": 1328,
+    "endYear": 1329
+  },
+  {
+    "id": "yuan-明宗-1329",
+    "polityId": "yuan",
+    "title": "明宗",
+    "name": "孛儿只斤和世喇",
+    "startYear": 1329,
+    "endYear": 1330
+  },
+  {
+    "id": "yuan-文宗-1330",
+    "polityId": "yuan",
+    "title": "文宗",
+    "name": "孛儿只斤图帖睦尔",
+    "startYear": 1330,
+    "endYear": 1332
+  },
+  {
+    "id": "yuan-宁宗-1332",
+    "polityId": "yuan",
+    "title": "宁宗",
+    "name": "孛儿只斤懿璘质班",
+    "startYear": 1332,
+    "endYear": 1333
+  },
+  {
+    "id": "yuan-顺帝-1333",
+    "polityId": "yuan",
+    "title": "顺帝",
+    "name": "孛儿只斤妥懽帖睦尔",
+    "startYear": 1333,
+    "endYear": 1368
+  },
+  {
+    "id": "ming-太祖-1368",
+    "polityId": "ming",
+    "title": "太祖",
+    "name": "朱元璋",
+    "startYear": 1368,
+    "endYear": 1398
+  },
+  {
+    "id": "ming-惠帝-1399",
+    "polityId": "ming",
+    "title": "惠帝",
+    "name": "朱允炆",
+    "startYear": 1399,
+    "endYear": 1402
+  },
+  {
+    "id": "ming-成祖-1403",
+    "polityId": "ming",
+    "title": "成祖",
+    "name": "朱棣",
+    "startYear": 1403,
+    "endYear": 1424
+  },
+  {
+    "id": "ming-仁宗-1425",
+    "polityId": "ming",
+    "title": "仁宗",
+    "name": "朱高炽",
+    "startYear": 1425,
+    "endYear": 1425
+  },
+  {
+    "id": "ming-宣宗-1426",
+    "polityId": "ming",
+    "title": "宣宗",
+    "name": "朱瞻基",
+    "startYear": 1426,
+    "endYear": 1435
+  },
+  {
+    "id": "ming-英宗-1436",
+    "polityId": "ming",
+    "title": "英宗",
+    "name": "朱祁镇",
+    "startYear": 1436,
+    "endYear": 1449
+  },
+  {
+    "id": "ming-代宗(景帝)-1450",
+    "polityId": "ming",
+    "title": "代宗(景帝)",
+    "name": "朱祁钰",
+    "startYear": 1450,
+    "endYear": 1457
+  },
+  {
+    "id": "ming-英宗-1457",
+    "polityId": "ming",
+    "title": "英宗",
+    "name": "朱祁镇",
+    "startYear": 1457,
+    "endYear": 1464
+  },
+  {
+    "id": "ming-宪宗-1465",
+    "polityId": "ming",
+    "title": "宪宗",
+    "name": "朱见深",
+    "startYear": 1465,
+    "endYear": 1487
+  },
+  {
+    "id": "ming-孝宗-1488",
+    "polityId": "ming",
+    "title": "孝宗",
+    "name": "朱祐樘",
+    "startYear": 1488,
+    "endYear": 1505
+  },
+  {
+    "id": "ming-武宗-1506",
+    "polityId": "ming",
+    "title": "武宗",
+    "name": "朱厚燳",
+    "startYear": 1506,
+    "endYear": 1521
+  },
+  {
+    "id": "ming-世宗-1522",
+    "polityId": "ming",
+    "title": "世宗",
+    "name": "朱厚熜",
+    "startYear": 1522,
+    "endYear": 1566
+  },
+  {
+    "id": "ming-穆宗-1567",
+    "polityId": "ming",
+    "title": "穆宗",
+    "name": "朱载垕",
+    "startYear": 1567,
+    "endYear": 1572
+  },
+  {
+    "id": "ming-神宗-1573",
+    "polityId": "ming",
+    "title": "神宗",
+    "name": "朱翊钧",
+    "startYear": 1573,
+    "endYear": 1620
+  },
+  {
+    "id": "ming-光宗-1620",
+    "polityId": "ming",
+    "title": "光宗",
+    "name": "朱常洛",
+    "startYear": 1620,
+    "endYear": 1620
+  },
+  {
+    "id": "ming-熹宗-1621",
+    "polityId": "ming",
+    "title": "熹宗",
+    "name": "朱由校",
+    "startYear": 1621,
+    "endYear": 1627
+  },
+  {
+    "id": "ming-思宗-1628",
+    "polityId": "ming",
+    "title": "思宗",
+    "name": "朱由检",
+    "startYear": 1628,
+    "endYear": 1644
+  },
+  {
+    "id": "qing-太祖-1616",
+    "polityId": "qing",
+    "title": "太祖",
+    "name": "爱新觉罗努尔哈赤",
+    "startYear": 1616,
+    "endYear": 1626
+  },
+  {
+    "id": "qing-太宗-1627",
+    "polityId": "qing",
+    "title": "太宗",
+    "name": "爱新觉罗皇太极",
+    "startYear": 1627,
+    "endYear": 1643
+  },
+  {
+    "id": "qing-世祖-1644",
+    "polityId": "qing",
+    "title": "世祖",
+    "name": "爱新觉罗福临",
+    "startYear": 1644,
+    "endYear": 1661
+  },
+  {
+    "id": "qing-圣祖-1662",
+    "polityId": "qing",
+    "title": "圣祖",
+    "name": "爱新觉罗玄烨",
+    "startYear": 1662,
+    "endYear": 1722
+  },
+  {
+    "id": "qing-世宗-1723",
+    "polityId": "qing",
+    "title": "世宗",
+    "name": "爱新觉罗胤禛",
+    "startYear": 1723,
+    "endYear": 1735
+  },
+  {
+    "id": "qing-高宗-1736",
+    "polityId": "qing",
+    "title": "高宗",
+    "name": "爱新觉罗弘历",
+    "startYear": 1736,
+    "endYear": 1795
+  },
+  {
+    "id": "qing-仁宗-1796",
+    "polityId": "qing",
+    "title": "仁宗",
+    "name": "爱新觉罗颙琰",
+    "startYear": 1796,
+    "endYear": 1820
+  },
+  {
+    "id": "qing-宣宗-1821",
+    "polityId": "qing",
+    "title": "宣宗",
+    "name": "爱新觉罗旻宁",
+    "startYear": 1821,
+    "endYear": 1850
+  },
+  {
+    "id": "qing-文宗-1851",
+    "polityId": "qing",
+    "title": "文宗",
+    "name": "爱新觉罗奕詝",
+    "startYear": 1851,
+    "endYear": 1861
+  },
+  {
+    "id": "qing-穆宗-1862",
+    "polityId": "qing",
+    "title": "穆宗",
+    "name": "爱新觉罗载淳",
+    "startYear": 1862,
+    "endYear": 1874
+  },
+  {
+    "id": "qing-德宗-1875",
+    "polityId": "qing",
+    "title": "德宗",
+    "name": "爱新觉罗载湉",
+    "startYear": 1875,
+    "endYear": 1908
+  },
+  {
+    "id": "qing-爱新觉罗溥仪-1909",
+    "polityId": "qing",
+    "title": "爱新觉罗溥仪",
+    "name": "—",
+    "startYear": 1909,
+    "endYear": 1911
+  },
+  {
+    "id": "sm-anzong",
+    "polityId": "southern-ming",
+    "title": "安宗",
+    "name": "朱由崧",
+    "startYear": 1644,
+    "endYear": 1645,
+    "note": "1644 年五月即位于南京，次年五月被俘。"
+  },
+  {
+    "id": "sm-shaozong",
+    "polityId": "southern-ming",
+    "title": "绍宗",
+    "name": "朱聿键",
+    "startYear": 1645,
+    "endYear": 1646
+  },
+  {
+    "id": "sm-shaowudi",
+    "polityId": "southern-ming",
+    "title": "绍武帝",
+    "name": "朱聿鐭",
+    "startYear": 1646,
+    "endYear": 1646,
+    "note": "在广州即位，仅四十余日，与永历政权并立。"
+  },
+  {
+    "id": "sm-zhaozong",
+    "polityId": "southern-ming",
+    "title": "昭宗",
+    "name": "朱由榔",
+    "startYear": 1646,
+    "endYear": 1661,
+    "note": "永历朝至 1662 年终（缅甸交出、昆明遇害），本表记至 1661。"
+  }
+]

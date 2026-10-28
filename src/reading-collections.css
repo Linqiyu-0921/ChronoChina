@@ -1,0 +1,228 @@
+ :root { --paper:#faf7ef; --binding:#eee5e3; --text-main:#312f2a; --text-secondary:#68675f; --text-muted:#777267; --gold:#8b6940; --gold-bright:#8b6940; --seal:#9f6259; --relation:#526b67; --rule:#ddd7cb; --shadow:#312f2a15; }
+:root[data-theme=dark] { --paper:#141310; --binding:#1c1913; --text-main:#fff3dc; --text-secondary:#e0d2b9; --text-muted:#c8b99d; --gold:#c6a465; --gold-bright:#f3d79a; --seal:#d18d77; --relation:#a9b9a5; --rule:#443a29; --shadow:#0006; }
+.yearbook{ position:relative; display:grid; grid-template-columns:72px minmax(0,1fr); min-height:calc(100dvh - 88px); margin-top:16px; background:#faf7ef; border:1px solid #e1d9cd; box-shadow:4px 4px 0 #eee7e1,6px 6px 0 #d9d0c4; }
+.book-binding{ border-right:1px solid #d5cbc0; display:flex; flex-direction:column; align-items:center; padding:36px 0; background:#eee5e3; gap:28px; }
+.book-binding>span,.book-binding small{ writing-mode:vertical-rl; font:24px/1.6 var(--serif); letter-spacing:.3em; }
+.book-binding small{ font-size:12px; color:#676b64; }
+.book-binding i{ margin-top:auto; font:18px/1.3 var(--serif); font-style:normal; color:#9f6259; border:1px solid #9f6259; padding:7px 5px; }
+.yearbook-leaf{ padding:32px clamp(24px,4vw,64px); animation:page-ink 240ms ease-out; }
+@keyframes page-ink{ from{opacity:.45;transform:translateY(7px)} to{opacity:1;transform:translateY(0)} }
+.yearbook-date{ position:relative; padding-bottom:30px; border-bottom:1px solid #ddd7cb; }
+.yearbook-date>p{ font:11px/1.5 var(--sans); letter-spacing:.18em; color:#71877b; margin:0 0 14px; }
+.yearbook-year{ font:400 clamp(48px,6vw,84px)/1.3 var(--serif); letter-spacing:.14em; color:#394e4c; background:none; border:0; padding:0; }
+.yearbook-date-caption{ display:flex; gap:24px; margin-top:16px; color:#68675f; font:14px/1.5 var(--serif); letter-spacing:.1em; }
+.yearbook-paging{ position:absolute; right:0; top:20px; display:flex; flex-direction:column; align-items:center; gap:16px; color:#8b867e; font:12px var(--sans); }
+.yearbook-paging button{ background:none; border:0; color:#526b67; padding:8px; }
+.book-section-label{ display:flex; justify-content:space-between; color:#526b67; font:13px/1.6 var(--serif); letter-spacing:.12em; }
+.book-section-label small{ color:#8b867e; font-size:11px; }
+.yearbook-contemporaries{ padding:22px 0; }
+.yearbook-polities{ display:flex; overflow-x:auto; scroll-snap-type:x proximity; margin-top:22px; padding-bottom:16px; gap:0; }
+.polity-leaf{ flex:1 0 180px; padding:0 24px; border-left:1px solid #e2dbcf; scroll-snap-align:start; min-width:0; }
+.polity-leaf:first-child{ padding-left:0; border-left:0; }
+.polity-leaf-title{ width:100%; display:flex; justify-content:space-between; background:none; border:0; padding:0; color:#526b67; font:16px/1.6 var(--serif); letter-spacing:.15em; }
+.polity-leaf-title span{ color:#9f6259; font-size:12px; }
+.book-era h2{ margin:18px 0 10px; font:30px/1.4 var(--serif); letter-spacing:.12em; }
+.book-era h2 small{ display:block; font-size:14px; margin-top:8px; color:#8b6940; }
+.book-era>p,.book-era-note{ font:13px/1.8 var(--serif); color:#68675f; }
+.book-era-note{ margin-top:16px; }
+.book-era-note p{ margin:8px 0; }
+.book-data-note{ font:11px/1.6 var(--sans); color:#817b72; }
+.yearbook-story{ border-top:1px solid #ddd7cb; padding-top:24px; display:grid; grid-template-columns:40px minmax(0,1fr); gap:24px; max-width:900px; }
+.story-index{ font:22px/1.5 var(--serif); color:#9f6259; border:1px solid #bc9a90; padding:8px; align-self:start; }
+.yearbook-story button{ border:0; background:none; padding:0; text-align:left; color:#312f2a; font:20px/1.6 var(--serif); }
+.yearbook-story p{ color:#68675f; font:14px/1.8 var(--serif); margin:0 0 10px; }
+.yearbook-story .book-read-more{ color:#8b6940; font-size:13px; margin-top:8px; }
+.reading-archive{ position:fixed; z-index:30; top:16px; bottom:16px; right:16px; width:min(440px,calc(100vw - 32px)); background:#faf7ef; border:1px solid #d5cbc0; box-shadow:-12px 0 40px #312f2a15; overflow:auto; padding:24px; }
+.reading-archive>header{ display:flex; justify-content:space-between; position:sticky; top:-24px; background:#faf7ef; padding:16px 0; z-index:1; }
+.reading-archive>header button{ background:none; border:0; color:#9f6259; }
+@media(max-width:650px){.yearbook{ grid-template-columns:30px minmax(0,1fr); margin-top:8px; min-height:calc(100dvh - 80px); }
+.book-binding{ padding:24px 0; gap:24px; }
+.book-binding>span{ font-size:15px; }
+.book-binding small{font-size:10px;}
+.book-binding i{font-size:12px;padding:4px;}
+.yearbook-leaf{padding:24px 18px;}
+.yearbook-year{font-size:42px;letter-spacing:.08em;}
+.yearbook-date-caption{gap:10px;flex-wrap:wrap;font-size:12px;}
+.yearbook-paging{position:static;flex-direction:row;justify-content:space-between;margin-top:20px;gap:8px;}
+.yearbook-date{padding-bottom:16px;}
+.book-section-label small{display:none;}
+.polity-leaf{flex-basis:170px;padding:0 20px;}
+.yearbook-story{grid-template-columns:28px minmax(0,1fr);gap:14px;}
+.story-index{font-size:16px;padding:4px;}
+.yearbook-story button{font-size:18px;}
+.yearbook-story p{font-size:13px;}
+}
+@media(prefers-reduced-motion:reduce){.yearbook-leaf{animation:none;}
+}
+.yearbook-date{ touch-action:pan-x; }
+@media(max-width:650px){.yearbook-contemporaries .book-section-label small{display:block;font-size:10px;letter-spacing:0;}
+.polity-leaf{flex-basis:100%;box-sizing:border-box;padding:0 16px;}
+.yearbook-date{padding-top:0;}
+.yearbook-story{padding-bottom:20px;}
+}
+.reading-archive .yearpanel.card{ background:transparent; border:0; border-radius:0; padding:0; box-shadow:none; font-family:var(--serif); }
+.reading-archive .yp-year{ font:28px/1.5 var(--serif); }
+.reading-archive .year-era-row{ border-color:#ddd7cb; }
+.reading-archive .ghost-chip{ color:#526b67!important; border:0; padding-left:0; }
+.yearbook{ margin-top:8px; grid-template-columns:44px minmax(0,1fr); min-height:calc(100dvh - 78px); }
+.book-binding{ padding:22px 0; gap:20px; }
+.book-binding>span{ font-size:18px; }
+.book-binding small{ font-size:11px; }
+.yearbook-leaf{ padding:20px clamp(20px,2.4vw,36px); }
+.yearbook-date{ padding-bottom:18px; }
+.yearbook-date>p{ margin-bottom:8px; }
+.yearbook-year{ font-size:clamp(40px,4.7vw,64px); line-height:1.2; }
+.yearbook-date-caption{ margin-top:10px; }
+.yearbook-paging{ top:0; gap:6px; }
+.yearbook-contemporaries{ padding:16px 0 12px; }
+.yearbook-polities{ margin-top:14px; padding-bottom:10px; }
+.polity-leaf{ padding:0 18px; flex-basis:150px; }
+.book-era h2{ margin:12px 0 6px; font-size:28px; }
+.book-era h2 small{ margin-top:4px; }
+.book-era>p{ margin:6px 0; }
+.book-data-note{ margin:6px 0; }
+.yearbook-story{ padding-top:16px; gap:16px; max-width:none; }
+.yearbook-story p{ margin-bottom:6px; }
+@media(max-width:650px){.yearbook{grid-template-columns:26px minmax(0,1fr);margin-top:6px;}
+.yearbook-leaf{padding:14px 14px;}
+.book-binding{padding:18px 0;}
+.book-binding>span{font-size:14px;}
+.book-binding small{font-size:10px;}
+.yearbook-date>p{font-size:9px;}
+.yearbook-year{font-size:38px;}
+.yearbook-date-caption{font-size:11px;gap:8px;}
+.yearbook-paging{margin-top:8px;}
+.yearbook-date{padding-bottom:10px;}
+.yearbook-contemporaries{padding:12px 0 8px;}
+.yearbook-polities{margin-top:10px;}
+.polity-leaf{flex-basis:100%;}
+.book-era h2{font-size:26px;}
+.book-era h2 small{display:inline;margin-left:12px;}
+.book-era>p{font-size:12px;}
+.yearbook-story{padding-top:12px;gap:12px;}
+}
+.collection-page{ background:#faf7ef; border:1px solid #ddd4c8; padding:24px; box-shadow:3px 3px 0 #eee5e3; }
+.collection-page[hidden]{ display:none; }
+.collection-head{ display:flex; gap:20px; align-items:center; padding-bottom:22px; border-bottom:1px solid #ddd7cb; }
+.collection-seal{ writing-mode:vertical-rl; padding:10px 8px; color:#9f6259; border:1px solid #b99187; font:22px/1.3 var(--serif); letter-spacing:.2em; }
+.collection-head h2{ margin:6px 0 10px; font:30px/1.4 var(--serif); letter-spacing:.12em; }
+.collection-head p{ margin:0; font:13px/1.7 var(--serif); color:#68675f; }
+.collection-head p:first-child{ font:10px/1.6 var(--sans); letter-spacing:.12em; color:#71877b; }
+.collection-head>small{ margin-left:auto; color:#8b6940; font:12px/1.5 var(--sans); }
+.collection-note{ font:12px/1.8 var(--sans); color:#68675f; margin:20px 0 0; }
+.collection-page .eratable.card,.collection-page .sites-toolbar.card{ background:none; border:0; border-radius:0; padding:0; box-shadow:none; }
+.collection-page .et-toolbar,.collection-page .sites-toolbar{ display:flex; flex-wrap:wrap; gap:12px; padding:20px 0; margin:0; border-bottom:1px solid #ddd7cb; }
+.collection-page input,.collection-page select{ background:#f7f4ec; border:1px solid #d5cbc0; padding:10px 12px; color:#312f2a; border-radius:2px; min-width:0; font:13px var(--sans); max-width:100%; }
+.collection-page .et-scroll{ background:none; max-height:calc(100dvh - 300px); }
+.collection-page table{ background:none; }
+.collection-page thead{ background:#eee5e3; }
+.collection-page td,.collection-page th{ border-color:#e5ded3; padding:14px 12px; }
+.collection-page td .chip{ background:transparent!important; color:#526b67; padding:0; }
+.era-record-link{ background:none; border:0; color:#8b6940; font:17px var(--serif); white-space:nowrap; padding:0; }
+.table-empty{ text-align:center; padding:32px!important; }
+.collection-page .sites-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr)); gap:0; margin-top:8px; }
+.collection-page .site-card{ background:none; border:0; border-bottom:1px solid #ddd7cb; border-radius:0; box-shadow:none; padding:24px 20px; display:flex; flex-direction:column; }
+.collection-page .site-card:nth-child(even){ background:#eee5e333; }
+.collection-page .site-card h3{ font:24px/1.5 var(--serif); letter-spacing:.06em; }
+.collection-page .site-card header{ align-items:center; }
+.collection-page .site-note{ font:14px/1.9 var(--serif); }
+.collection-page .site-foot{ margin-top:auto; padding-top:16px; gap:10px; }
+.collection-page .site-foot button{ background:none; border:0; border-bottom:1px solid #b99187; color:#8b6940; border-radius:0; padding:6px 0; }
+.collection-page .ghost-chip{ color:#526b67!important; border:0; background:none; padding-left:0; }
+.collection-page .whs{ background:#eee5e3; color:#9f6259; }
+@media(max-width:650px){.collection-page{padding:16px;}
+.collection-head{gap:12px;flex-wrap:wrap;}
+.collection-head h2{font-size:26px;}
+.collection-head>small{margin-left:0;width:100%;}
+.collection-page .et-scroll{max-height:65dvh;}
+.collection-page .sites-toolbar>*{flex:1 1 140px;}
+.collection-page .site-card{padding:20px 4px;}
+}
+.collection-page .site-card header{ display:flex; flex-wrap:wrap; justify-content:flex-start; gap:8px; }
+.collection-page .site-card header h3{ flex-basis:100%; margin:0 0 6px; }
+.collection-page .site-foot{ display:flex; flex-direction:column; align-items:flex-start; }
+.collection-page .site-foot span{ font-size:12px; }
+.book-binding i,.story-index,.collection-seal{ color:var(--seal); border-color:var(--seal); }
+.yearbook,.collection-page{ background:var(--paper); border-color:var(--rule); box-shadow:3px 3px 0 var(--binding),5px 5px 0 var(--rule); }
+.book-binding{ background:var(--binding); border-color:var(--rule); }
+.book-binding small,.yearbook-date-caption,.yearbook-paging,.book-era>p,.book-era-note,.book-data-note,.yearbook-story p,.collection-head p,.collection-note{ color:var(--text-secondary); }
+.yearbook-date>p,.book-section-label,.polity-leaf-title,.yearbook-paging button,.collection-head p:first-child{ color:var(--relation); }
+.yearbook-year{ color:var(--gold-bright); }
+:root[data-theme=dark] .yearbook-year{ text-shadow:0 1px 0 #f3ddb333,0 8px 24px #0008; }
+.yearbook-date,.polity-leaf,.yearbook-story,.collection-head,.collection-page .et-toolbar,.collection-page .sites-toolbar{ border-color:var(--rule); }
+.book-section-label small{ color:var(--text-muted); }
+.polity-leaf-title span{ color:var(--gold); }
+.book-era h2{ color:var(--text-main); }
+.book-era h2 small{ color:var(--gold); }
+.yearbook-story button{ color:var(--text-main); }
+.yearbook-story .book-read-more,.book-read-more,.era-record-link,.collection-head>small{ color:var(--gold-bright); }
+.reading-archive,.reading-archive>header{ background:var(--paper); border-color:var(--rule); box-shadow:-12px 0 40px var(--shadow); }
+.reading-archive>header button{ color:var(--gold); }
+.reading-archive .ghost-chip,.collection-page .ghost-chip{ color:var(--relation)!important; }
+.reading-archive .year-era-row{ border-color:var(--rule); }
+.collection-page input,.collection-page select{ background:var(--page-ground); color:var(--text-main); border-color:var(--rule-strong); }
+.collection-page table,.collection-page .et-scroll{ background:var(--paper); color:var(--text-main); }
+.collection-page thead{ background:var(--binding); }
+.collection-page td,.collection-page th,.collection-page .site-card{ border-color:var(--rule); }
+.collection-page td .chip{ color:var(--relation); }
+.collection-page .site-card:nth-child(even){ background:var(--page-ground); }
+.collection-page .whs{ background:var(--surface-raised); color:var(--seal); }
+.collection-page .site-foot button{ color:var(--gold-bright); border-color:var(--rule-strong); }
+@media(prefers-reduced-motion:no-preference){.yearbook,.book-binding,.reading-archive,.collection-page{ transition:background-color 200ms ease,color 200ms ease,border-color 200ms ease; }
+}
+.exhibit-year-number{ display:none; }
+:root[data-theme=dark] .yearbook{ display:block; border:0; box-shadow:none; background:none; min-height:calc(100dvh - 66px); }
+:root[data-theme=dark] .book-binding{ display:none; }
+:root[data-theme=dark] .yearbook-leaf{ display:grid; grid-template-columns:230px minmax(0,1fr); column-gap:32px; padding:24px 12px 16px; }
+:root[data-theme=dark] .yearbook-date{ grid-row:1 / 3; border:0; border-right:1px solid var(--rule); padding:0 24px 0 0; display:flex; flex-direction:column; align-items:flex-start; }
+:root[data-theme=dark] .yearbook-date>p{ font-size:10px; letter-spacing:.18em; color:var(--gold); margin-bottom:24px; }
+:root[data-theme=dark] .year-glyphs{ display:none; }
+:root[data-theme=dark] .exhibit-year-number{ display:block; font:400 92px/1 var(--serif); letter-spacing:-.055em; color:#f3d79a; text-shadow:0 2px 0 #8a7240,0 12px 30px #000; }
+:root[data-theme=dark] .yearbook-year{ max-width:100%; text-align:left; letter-spacing:0; padding:0 0 20px; }
+:root[data-theme=dark] .yearbook-date-caption{ flex-direction:column; gap:10px; font:14px/1.6 var(--serif); margin-top:0; }
+:root[data-theme=dark] .yearbook-date-caption span:nth-child(2){ font-size:24px; color:var(--text-main); }
+:root[data-theme=dark] .yearbook-paging{ position:static; margin-top:auto; padding-top:32px; align-items:flex-start; gap:4px; }
+.yearbook-paging button:disabled{opacity:.4;}
+:root[data-theme=dark] .yearbook-contemporaries{ padding:0 0 16px; }
+:root[data-theme=dark] .yearbook-polities{ margin-top:16px; padding-bottom:12px; gap:12px; align-items:stretch; }
+:root[data-theme=dark] .polity-leaf{ flex:1 0 170px; background:#1e1b14; border:1px solid #4e412e; border-top:2px solid #ae8854; padding:16px; box-sizing:border-box; scroll-snap-align:start; }
+:root[data-theme=dark] .polity-leaf-title{ font:15px/1.6 var(--serif); color:#f3d79a; }
+:root[data-theme=dark] .book-era h2{ font:32px/1.3 var(--serif); margin:20px 0 10px; color:#fff3dc; }
+:root[data-theme=dark] .book-era h2 small{ display:block; font-size:19px; color:#f3d79a; margin:6px 0 0; }
+:root[data-theme=dark] .book-era>p{ font:14px/1.8 var(--serif); color:#e0d2b9; }
+:root[data-theme=dark] .yearbook-story{ grid-column:2; margin-top:8px; padding:18px 0 0; border-top:1px solid #907647; }
+:root[data-theme=dark] .yearbook-story button{ font-size:23px; color:#fff3dc; }
+:root[data-theme=dark] .yearbook-story p{ font-size:14px; color:#e0d2b9; }
+:root[data-theme=dark] .yearbook-story .book-read-more{ font-size:13px; color:#f3d79a; }
+@media(max-width:900px){:root[data-theme=dark] .yearbook-leaf{grid-template-columns:1fr;padding:14px 8px;gap:0;}
+:root[data-theme=dark] .yearbook-date{grid-row:auto;display:grid;grid-template-columns:1fr 1fr;column-gap:20px;border:0;border-bottom:1px solid var(--rule);padding:0 0 16px;}
+:root[data-theme=dark] .yearbook-date>p{grid-column:1/-1;margin-bottom:12px;}
+:root[data-theme=dark] .exhibit-year-number{font-size:80px;}
+:root[data-theme=dark] .yearbook-date-caption{align-self:center;gap:4px;}
+:root[data-theme=dark] .yearbook-paging{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;padding-top:8px;margin:0;width:100%;}
+:root[data-theme=dark] .yearbook-year{padding:0;}
+:root[data-theme=dark] .yearbook-contemporaries{padding-top:16px;}
+:root[data-theme=dark] .yearbook-story{grid-column:1;}
+}
+@media(max-width:650px){:root[data-theme=dark] .exhibit-year-number{font-size:70px;}
+:root[data-theme=dark] .polity-leaf{flex-basis:100%;padding:12px 16px;}
+:root[data-theme=dark] .book-era h2{margin:12px 0 6px;font-size:28px;}
+:root[data-theme=dark] .book-era h2 small{display:inline;font-size:17px;margin-left:12px;}
+:root[data-theme=dark] .yearbook-story button{font-size:20px;}
+}
+:root[data-theme=dark] .yearbook-leaf>*{ min-width:0; }
+:root[data-theme=dark] .book-era h2{ margin:12px 0 6px;font-size:30px; }
+:root[data-theme=dark] .book-era h2 small{ margin-top:4px;font-size:17px; }
+:root[data-theme=dark] .book-era>p{ margin:6px 0;font-size:13px; }
+@media(max-width:900px){:root[data-theme=dark] .yearbook-leaf{grid-template-columns:minmax(0,1fr);}
+:root[data-theme=dark] .yearbook-date{grid-template-columns:minmax(0,1fr) minmax(0,1fr);padding-bottom:10px;}
+:root[data-theme=dark] .yearbook-date>p{margin-bottom:8px;}
+:root[data-theme=dark] .exhibit-year-number{font-size:66px;}
+:root[data-theme=dark] .yearbook-date-caption{font-size:12px;}
+:root[data-theme=dark] .yearbook-date-caption span:nth-child(2){font-size:20px;}
+:root[data-theme=dark] .yearbook-paging{padding-top:4px;}
+:root[data-theme=dark] .yearbook-contemporaries{padding-top:12px;}
+:root[data-theme=dark] .yearbook-polities{margin-top:10px;}
+:root[data-theme=dark] .polity-leaf{padding:12px;}
+:root[data-theme=dark] .yearbook-story{padding-top:12px;margin-top:0;}
+}

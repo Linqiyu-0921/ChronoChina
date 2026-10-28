@@ -1,0 +1,127 @@
+[
+  {
+    "id": "song-huizong",
+    "polityId": "song",
+    "title": "徽宗",
+    "name": "赵佶",
+    "startYear": 1100,
+    "endYear": 1125,
+    "note": "宣和七年十二月禅位于钦宗（该腊月大部已入公历 1126 年 1 月），按中国纪年记至 1125。"
+  },
+  {
+    "id": "song-qinzong",
+    "polityId": "song",
+    "title": "钦宗",
+    "name": "赵桓",
+    "startYear": 1126,
+    "endYear": 1127,
+    "note": "宣和七年十二月即位，次年正月改元靖康；1127 年被掳北迁。"
+  },
+  {
+    "id": "song-gaozong",
+    "polityId": "song",
+    "title": "高宗",
+    "name": "赵构",
+    "startYear": 1127,
+    "endYear": 1162,
+    "note": "建炎元年五月即位于南京应天府（今商丘），改元建炎。"
+  },
+  {
+    "id": "liao-tianzuo",
+    "polityId": "liao",
+    "title": "天祚帝",
+    "name": "耶律延禧",
+    "startYear": 1101,
+    "endYear": 1125,
+    "note": "保大五年二月被金军俘于应州，辽亡。"
+  },
+  {
+    "id": "kk-yelvdashi",
+    "polityId": "karakhitai",
+    "title": "德宗",
+    "name": "耶律大石",
+    "startYear": 1124,
+    "endYear": 1143,
+    "note": "1124 年于可敦城自立为王（异说：1122 / 1123）；约 1132 年称菊儿汗（异说：1134）。纪年取通说。"
+  },
+  {
+    "id": "jin-taizu",
+    "polityId": "jin",
+    "title": "太祖",
+    "name": "完颜旻（阿骨打）",
+    "startYear": 1115,
+    "endYear": 1123,
+    "note": "天辅七年八月（公历 1123 年 9 月）崩于返上京途中。"
+  },
+  {
+    "id": "jin-taizong",
+    "polityId": "jin",
+    "title": "太宗",
+    "name": "完颜晟",
+    "startYear": 1123,
+    "endYear": 1135,
+    "note": "太祖崩后即位；天会十三年正月（1135）卒。"
+  },
+  {
+    "id": "jin-xizong",
+    "polityId": "jin",
+    "title": "熙宗",
+    "name": "完颜亶",
+    "startYear": 1135,
+    "endYear": 1149,
+    "note": "即位后沿用「天会」年号至 1137 年，1138 年始改元天眷——在位区间与年号区间分离的关键例证。"
+  },
+  {
+    "id": "xia-chongzong",
+    "polityId": "xia",
+    "title": "崇宗",
+    "name": "李乾顺",
+    "startYear": 1086,
+    "endYear": 1139
+  },
+  {
+    "id": "dali-duanzhengyan",
+    "polityId": "dali",
+    "title": "宪宗",
+    "name": "段正严（段和誉）",
+    "startYear": 1108,
+    "endYear": 1147,
+    "precision": "approx",
+    "note": "庙号系后世追记；在位三十九年，晚年避位为僧；大理纪年为后世追记，年份系约数。"
+  },
+  {
+    "id": "sm-anzong",
+    "polityId": "southern-ming",
+    "title": "安宗",
+    "name": "朱由崧",
+    "startYear": 1644,
+    "endYear": 1645,
+    "note": "1644 年五月即位于南京，次年五月被俘。"
+  },
+  {
+    "id": "sm-shaozong",
+    "polityId": "southern-ming",
+    "title": "绍宗",
+    "name": "朱聿键",
+    "startYear": 1645,
+    "endYear": 1646
+  },
+  {
+    "id": "sm-shaowudi",
+    "polityId": "southern-ming",
+    "title": "绍武帝",
+    "name": "朱聿鐭",
+    "startYear": 1646,
+    "endYear": 1646,
+    "note": "在广州即位，仅四十余日，与永历政权并立。"
+  },
+  {
+    "id": "sm-zhaozong",
+    "polityId": "southern-ming",
+    "title": "昭宗",
+    "name": "朱由榔",
+    "startYear": 1646,
+    "endYear": 1661,
+    "note": "永历朝至 1662 年终（缅甸交出、昆明遇害），本表记至 1661。"
+  }
+]

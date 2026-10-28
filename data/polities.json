@@ -1,0 +1,385 @@
+[
+  {
+    "id": "qin",
+    "name": "秦",
+    "startYear": -305,
+    "endYear": -206,
+    "color": "#7a3b2e",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "western-han",
+    "name": "西汉",
+    "startYear": -205,
+    "endYear": 8,
+    "color": "#5d7391",
+    "note": "汉武帝建元（前 140）以前无年号，前期纪年以在位纪年追记。",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "xin",
+    "name": "新",
+    "startYear": 9,
+    "endYear": 23,
+    "color": "#a86e32",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "gengshi",
+    "name": "更始",
+    "startYear": 23,
+    "endYear": 25,
+    "color": "#8d6a8a",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "eastern-han",
+    "name": "东汉",
+    "startYear": 25,
+    "endYear": 220,
+    "color": "#3d5a80",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "wei",
+    "name": "魏",
+    "fullName": "魏（曹魏）",
+    "startYear": 220,
+    "endYear": 265,
+    "color": "#9a4a3f",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "shu-han",
+    "name": "蜀汉",
+    "startYear": 221,
+    "endYear": 263,
+    "color": "#5d7391",
+    "note": "自承汉统，色系与汉同族。",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "wu",
+    "name": "吴",
+    "fullName": "吴（孙吴）",
+    "startYear": 222,
+    "endYear": 280,
+    "color": "#46707a",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "western-jin",
+    "name": "西晋",
+    "startYear": 265,
+    "endYear": 317,
+    "color": "#7f8a5a",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "eastern-jin",
+    "name": "东晋",
+    "startYear": 317,
+    "endYear": 420,
+    "color": "#93a06b",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "northern-wei",
+    "name": "北魏",
+    "startYear": 386,
+    "endYear": 534,
+    "color": "#8a5a3c",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "liu-song",
+    "name": "宋",
+    "fullName": "南朝宋",
+    "startYear": 420,
+    "endYear": 479,
+    "color": "#6f5480",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "southern-qi",
+    "name": "齐",
+    "fullName": "南朝齐",
+    "startYear": 479,
+    "endYear": 502,
+    "color": "#87639c",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "liang",
+    "name": "梁",
+    "fullName": "南朝梁",
+    "startYear": 502,
+    "endYear": 557,
+    "color": "#9c74ae",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "eastern-wei",
+    "name": "东魏",
+    "startYear": 534,
+    "endYear": 550,
+    "color": "#a06a44",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "western-wei",
+    "name": "西魏",
+    "startYear": 535,
+    "endYear": 556,
+    "color": "#7d5033",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "northern-qi",
+    "name": "北齐",
+    "startYear": 550,
+    "endYear": 577,
+    "color": "#b47c50",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "chen",
+    "name": "陈",
+    "fullName": "南朝陈",
+    "startYear": 557,
+    "endYear": 589,
+    "color": "#b08cc0",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "northern-zhou",
+    "name": "北周",
+    "startYear": 557,
+    "endYear": 581,
+    "color": "#96613d",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "sui",
+    "name": "隋",
+    "startYear": 581,
+    "endYear": 618,
+    "color": "#b03a3a",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "tang",
+    "name": "唐",
+    "startYear": 618,
+    "endYear": 907,
+    "color": "#b0722f",
+    "note": "690–705 武周（武后称帝改国号周）之年号本表系于唐纪之下，见天授条备注。",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "later-liang",
+    "name": "后梁",
+    "startYear": 907,
+    "endYear": 923,
+    "color": "#5a7d5a",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "liao",
+    "name": "辽",
+    "startYear": 907,
+    "endYear": 1125,
+    "color": "#7c4f31",
+    "sources": [
+      "S3"
+    ],
+    "fullName": "辽（契丹）",
+    "family": "khitan",
+    "note": "907 年阿保机称汗建契丹，916 年建元神册、后改国号辽；1125 年保大五年二月天祚帝被金军所俘，辽亡。本表自 907 年起纪。"
+  },
+  {
+    "id": "later-tang",
+    "name": "后唐",
+    "startYear": 923,
+    "endYear": 936,
+    "color": "#6b8a63",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "later-jin",
+    "name": "后晋",
+    "startYear": 936,
+    "endYear": 947,
+    "color": "#7c9a6b",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "dali",
+    "name": "大理",
+    "fullName": "大理（段氏）",
+    "startYear": 937,
+    "endYear": 1254,
+    "color": "#6d7a56",
+    "family": "dali",
+    "precision": "approx",
+    "note": "大理君主庙号与年号纪年多系后世追记与碑刻推定，本数据集年份均为约数。"
+  },
+  {
+    "id": "later-han",
+    "name": "后汉",
+    "startYear": 947,
+    "endYear": 950,
+    "color": "#8fae7a",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "later-zhou",
+    "name": "后周",
+    "startYear": 951,
+    "endYear": 965,
+    "color": "#a2bf88",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "song",
+    "name": "宋",
+    "fullName": "北宋 → 南宋",
+    "startYear": 960,
+    "endYear": 1279,
+    "color": "#3d5a80",
+    "sources": [
+      "S3"
+    ],
+    "family": "song",
+    "note": "1127 年靖康之变后北宋亡，赵构即位建南宋；本数据集内两期连续，故合并为一轨。"
+  },
+  {
+    "id": "xia",
+    "name": "西夏",
+    "fullName": "西夏（党项）",
+    "startYear": 1038,
+    "endYear": 1227,
+    "color": "#7a5a7f",
+    "family": "xia"
+  },
+  {
+    "id": "jin",
+    "name": "金",
+    "startYear": 1115,
+    "endYear": 1234,
+    "color": "#44707c",
+    "sources": [
+      "S3"
+    ],
+    "fullName": "金（女真）",
+    "family": "jin"
+  },
+  {
+    "id": "karakhitai",
+    "name": "西辽",
+    "fullName": "西辽（喀喇契丹）",
+    "startYear": 1124,
+    "endYear": 1218,
+    "color": "#c29a76",
+    "family": "khitan",
+    "precision": "approx",
+    "note": "耶律大石所建，与辽同出契丹一脉，图上用同族浅赭色；开国纪年存在异说，见年号备注。"
+  },
+  {
+    "id": "yuan",
+    "name": "元",
+    "startYear": 1206,
+    "endYear": 1368,
+    "color": "#5a5f8a",
+    "note": "1206 成吉思汗建蒙古汗国（无年号纪年），1271 忽必烈定国号大元。",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "ming",
+    "name": "明",
+    "startYear": 1368,
+    "endYear": 1644,
+    "color": "#b03d30",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "qing",
+    "name": "清",
+    "fullName": "清（含后金）",
+    "startYear": 1616,
+    "endYear": 1911,
+    "color": "#3e7c82",
+    "note": "1616 努尔哈赤称汗建后金，1636 皇太极改国号为清。",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": "southern-ming",
+    "name": "南明",
+    "startYear": 1644,
+    "endYear": 1661,
+    "color": "#c25e52",
+    "sources": [
+      "S3"
+    ],
+    "family": "ming",
+    "note": "清军入关后明朝宗室在南方所建政权统称；通表未收，本站据通说补录（弘光、隆武、绍武、永历）。"
+  }
+]
