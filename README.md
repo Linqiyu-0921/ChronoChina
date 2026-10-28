@@ -100,3 +100,17 @@ npm run preview    # 预览构建产物
 
 - 项目规则见 [`AGENTS.md`](AGENTS.md)（数据准确性优先，改数据必校验）；
 - 交接手册见 [`docs/HANDOFF.md`](docs/HANDOFF.md)（数据流程、验收基线、历史迭代）。
+
+---
+
+## 许可
+
+| 部分 | 协议 |
+|---|---|
+| 代码（`src/`、`scripts/`、`index.html` 等） | **MIT**，见 [`LICENSE`](LICENSE) |
+| 数据（`data/*.json`、`data/curated/`） | **CC BY-SA 4.0**，见 [`LICENSE-DATA.md`](LICENSE-DATA.md) |
+| 图标与描金线稿（`public/assets/icons/`） | **CC BY 4.0** |
+| 字体（`public/fonts/`） | 第三方字体，不随本仓库授权 |
+
+转载或改编请保留署名：**此年 · ChronoChina（Linqiyu）** 与仓库链接；使用数据或事件时，另需保留维基百科《中国历史年表》（CC BY-SA 4.0）的来源署名。
+
