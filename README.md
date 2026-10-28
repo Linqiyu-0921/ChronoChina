@@ -18,10 +18,9 @@
 
 ## 项目名称
 
-**网站名称**：此年 · ChronoChina（ChronoChina = Chronology + China）
-**Slogan**：此年，山河同阅。
-**Logo**：印章式「此年」朱文方印，见 `public/favicon-art.png`。
-
+- **网站名称**：此年 · ChronoChina（ChronoChina = Chronology + China）
+- **Slogan**：此年，山河同阅。
+- **Logo**：印章式「此年」朱文方印，见 `public/favicon-art.png`。
 ## 项目简介
 
 中国历史时序图谱。它建立一个统一的历史时间坐标系：任何一年，都能同时看到公元年、干支、同期并立的政权、各自行用的年号与当年发生的事。
@@ -95,17 +94,17 @@ npm test           # 日期、换算、搜索与档案布局回归测试
 
 ```
 ChronoChina/
-├── data/            # 静态数据：政权、君主、年号、事件、人物、遗产、来源
-│   └── curated/     # 手工校订覆盖层（优先级最高）
-├── scripts/         # 数据导入、校验与回归测试脚本
-├── public/          # 字体、图标原稿与站点图标
-├── src/
-│   ├── views/       # 阅年、并世、纪年资料库、历史遗产
-│   ├── components/  # 搜索浮层、年档案、年份面板、图标
-│   ├── lib/         # 数据访问、时间与干支、搜索、换算
-│   └── styles.css   # 版式与明暗配色
-├── docs/preview/    # README 界面预览图
-└── index.html
+├─ data/               # 静态数据：政权、君主、年号、事件、人物、遗产、来源
+│  └─ curated/         # 手工校订覆盖层，优先级最高
+├─ scripts/            # 数据导入、校验与回归测试
+├─ public/             # 字体、图标原稿、站点图标
+├─ src/                # 源码（React + TypeScript）
+│  ├─ views/           # 阅年、并世、纪年资料库、历史遗产
+│  ├─ components/      # 搜索浮层、年档案、年份面板、图标
+│  ├─ lib/             # 数据访问、时间与干支、搜索、换算
+│  └─ styles.css       # 版式与明暗配色
+├─ docs/preview/       # README 界面预览图
+└─ index.html
 ```
 
 ## 开发计划
