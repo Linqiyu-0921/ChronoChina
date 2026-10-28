@@ -1,10 +1,8 @@
-<p><img src="public/favicon-art.png" width="64" alt="此年 ChronoChina logo" align="left" hspace="12" vspace="4"></p>
+<p><img src="public/favicon-art.png" width="64" alt="此年 ChronoChina logo" align="left"></p>
 
 # 此年 · ChronoChina
 
 **此年，山河同阅。** —— 以统一年份比较同时代政权、帝王、年号与史事。
-
-<br clear="left">
 
 ## 创作初衷
 
