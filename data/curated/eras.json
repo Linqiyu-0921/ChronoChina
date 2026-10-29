@@ -156,7 +156,7 @@
     "polityId": "xia",
     "name": "元德",
     "reignIds": [
-      "xia-chongzong"
+      "xia-chongzong-1086"
     ],
     "startYear": 1119,
     "endYear": 1126,
@@ -164,7 +164,7 @@
     "note": "一说起于 1120。",
     "sources": [
       "S2",
-      "S3"
+      "S4"
     ]
   },
   {
@@ -172,14 +172,14 @@
     "polityId": "xia",
     "name": "正德",
     "reignIds": [
-      "xia-chongzong"
+      "xia-chongzong-1086"
     ],
     "startYear": 1127,
     "endYear": 1134,
     "note": "元年丁未。",
     "sources": [
       "S2",
-      "S3"
+      "S4"
     ]
   },
   {
@@ -187,14 +187,14 @@
     "polityId": "xia",
     "name": "大德",
     "reignIds": [
-      "xia-chongzong"
+      "xia-chongzong-1086"
     ],
     "startYear": 1135,
     "endYear": 1139,
-    "note": "元年乙卯。",
+    "note": "崇宗 1139 年卒，仁宗即位沿用至年末。",
     "sources": [
       "S2",
-      "S3"
+      "S4"
     ]
   },
   {
@@ -209,6 +209,7 @@
     "precision": "approx",
     "note": "大理年号起讫均系碑刻与后世文献推定，学界考证不一，仅备一格。",
     "sources": [
+      "S2",
       "S4"
     ]
   },
@@ -223,6 +224,7 @@
     "endYear": 1119,
     "precision": "approx",
     "sources": [
+      "S2",
       "S4"
     ]
   },
@@ -237,6 +239,7 @@
     "endYear": 1127,
     "precision": "approx",
     "sources": [
+      "S2",
       "S4"
     ]
   },
@@ -251,6 +254,7 @@
     "endYear": 1137,
     "precision": "approx",
     "sources": [
+      "S2",
       "S4"
     ]
   },
@@ -265,6 +269,7 @@
     "endYear": 1147,
     "precision": "approx",
     "sources": [
+      "S2",
       "S4"
     ]
   },
@@ -324,6 +329,3573 @@
     "endYear": 1661,
     "disputed": true,
     "note": "元年丁亥；通说 1647（一说 1646 即位改元）。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "cheng-han-建初-303",
+    "polityId": "cheng-han",
+    "name": "建初",
+    "reignIds": [
+      "cheng-han-李特-303",
+      "cheng-han-李流-303",
+      "cheng-han-李雄-304"
+    ],
+    "startYear": 303,
+    "startMonth": 1,
+    "endYear": 304,
+    "note": "李特303年正月建元，李雄304年沿用至九月",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "cheng-han-建兴-304",
+    "polityId": "cheng-han",
+    "name": "建兴",
+    "reignIds": [
+      "cheng-han-李雄-304"
+    ],
+    "startYear": 304,
+    "startMonth": 10,
+    "endYear": 306,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "cheng-han-晏平-306",
+    "polityId": "cheng-han",
+    "name": "晏平",
+    "reignIds": [
+      "cheng-han-李雄-304"
+    ],
+    "startYear": 306,
+    "startMonth": 6,
+    "endYear": 310,
+    "note": "或作宣平",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "cheng-han-玉衡-311",
+    "polityId": "cheng-han",
+    "name": "玉衡",
+    "reignIds": [
+      "cheng-han-李雄-304",
+      "cheng-han-李班-334",
+      "cheng-han-李期-334"
+    ],
+    "startYear": 311,
+    "endYear": 334,
+    "note": "李雄改元，李班、李期继位沿用至334年末",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "cheng-han-玉恒-335",
+    "polityId": "cheng-han",
+    "name": "玉恒",
+    "reignIds": [
+      "cheng-han-李期-334"
+    ],
+    "startYear": 335,
+    "startMonth": 1,
+    "endYear": 338,
+    "note": "《华阳国志》疑玉衡、玉恒记载有误，此从《资治通鉴》",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "cheng-han-汉兴-338",
+    "polityId": "cheng-han",
+    "name": "汉兴",
+    "reignIds": [
+      "cheng-han-李寿-338"
+    ],
+    "startYear": 338,
+    "startMonth": 4,
+    "endYear": 343,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "cheng-han-太和-344",
+    "polityId": "cheng-han",
+    "name": "太和",
+    "reignIds": [
+      "cheng-han-李势-343"
+    ],
+    "startYear": 344,
+    "startMonth": 1,
+    "endYear": 346,
+    "disputed": true,
+    "note": "《华阳国志》作343年改元，此从《资治通鉴》344年",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "cheng-han-嘉宁-346",
+    "polityId": "cheng-han",
+    "name": "嘉宁",
+    "reignIds": [
+      "cheng-han-李势-343"
+    ],
+    "startYear": 346,
+    "startMonth": 10,
+    "endYear": 347,
+    "note": "347年三月成汉亡，范贲等沿用至349年",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "han-zhao-元熙-304",
+    "polityId": "han-zhao",
+    "name": "元熙",
+    "reignIds": [
+      "han-zhao-刘渊-304"
+    ],
+    "startYear": 304,
+    "startMonth": 10,
+    "endYear": 308,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "han-zhao-永凤-308",
+    "polityId": "han-zhao",
+    "name": "永凤",
+    "reignIds": [
+      "han-zhao-刘渊-304"
+    ],
+    "startYear": 308,
+    "startMonth": 10,
+    "endYear": 309,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "han-zhao-河瑞-309",
+    "polityId": "han-zhao",
+    "name": "河瑞",
+    "reignIds": [
+      "han-zhao-刘渊-304"
+    ],
+    "startYear": 309,
+    "startMonth": 5,
+    "endYear": 310,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "han-zhao-光兴-310",
+    "polityId": "han-zhao",
+    "name": "光兴",
+    "reignIds": [
+      "han-zhao-刘聪-310"
+    ],
+    "startYear": 310,
+    "startMonth": 7,
+    "endYear": 311,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "han-zhao-嘉平-311",
+    "polityId": "han-zhao",
+    "name": "嘉平",
+    "reignIds": [
+      "han-zhao-刘聪-310"
+    ],
+    "startYear": 311,
+    "startMonth": 6,
+    "endYear": 315,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "han-zhao-建元-315",
+    "polityId": "han-zhao",
+    "name": "建元",
+    "reignIds": [
+      "han-zhao-刘聪-310"
+    ],
+    "startYear": 315,
+    "startMonth": 3,
+    "endYear": 316,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "han-zhao-麟嘉-316",
+    "polityId": "han-zhao",
+    "name": "麟嘉",
+    "reignIds": [
+      "han-zhao-刘聪-310"
+    ],
+    "startYear": 316,
+    "startMonth": 11,
+    "endYear": 318,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "han-zhao-汉昌-318",
+    "polityId": "han-zhao",
+    "name": "汉昌",
+    "reignIds": [
+      "han-zhao-刘粲-318"
+    ],
+    "startYear": 318,
+    "startMonth": 7,
+    "endYear": 318,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "han-zhao-光初-318",
+    "polityId": "han-zhao",
+    "name": "光初",
+    "reignIds": [
+      "han-zhao-刘曜-318"
+    ],
+    "startYear": 318,
+    "startMonth": 10,
+    "endYear": 329,
+    "note": "329年刘曜被擒，刘熙据长安至同年九月",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-zhao-无年号-319",
+    "polityId": "hou-zhao",
+    "name": "无年号",
+    "reignIds": [
+      "hou-zhao-石勒-319"
+    ],
+    "startYear": 319,
+    "endYear": 327,
+    "note": "石勒319年十一月称赵王，未建年号，纪年沿用东晋太兴、永昌、太宁、咸和年号",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-zhao-太和-328",
+    "polityId": "hou-zhao",
+    "name": "太和",
+    "reignIds": [
+      "hou-zhao-石勒-319"
+    ],
+    "startYear": 328,
+    "startMonth": 2,
+    "endYear": 330,
+    "note": "《魏书》误系刘曜，实为石勒年号",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-zhao-建平-330",
+    "polityId": "hou-zhao",
+    "name": "建平",
+    "reignIds": [
+      "hou-zhao-石勒-319",
+      "hou-zhao-石弘-333"
+    ],
+    "startYear": 330,
+    "startMonth": 9,
+    "endYear": 333,
+    "note": "石勒333年七月卒，石弘继位沿用",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-zhao-延熙-334",
+    "polityId": "hou-zhao",
+    "name": "延熙",
+    "reignIds": [
+      "hou-zhao-石弘-333"
+    ],
+    "startYear": 334,
+    "startMonth": 1,
+    "endYear": 334,
+    "note": "石弘334年正月改元，十一月被废",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-zhao-建武-335",
+    "polityId": "hou-zhao",
+    "name": "建武",
+    "reignIds": [
+      "hou-zhao-石虎-334"
+    ],
+    "startYear": 335,
+    "endYear": 348,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-zhao-太宁-349",
+    "polityId": "hou-zhao",
+    "name": "太宁",
+    "reignIds": [
+      "hou-zhao-石虎-334",
+      "hou-zhao-石世-349",
+      "hou-zhao-石遵-349",
+      "hou-zhao-石鉴-349"
+    ],
+    "startYear": 349,
+    "startMonth": 1,
+    "endYear": 349,
+    "note": "或作泰宁；石世、石遵、石鉴相继沿用",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-zhao-青龙-350",
+    "polityId": "hou-zhao",
+    "name": "青龙",
+    "reignIds": [
+      "hou-zhao-石鉴-349"
+    ],
+    "startYear": 350,
+    "startMonth": 1,
+    "endYear": 350,
+    "note": "350年正月改元，闰二月石鉴被杀",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-zhao-永宁-350",
+    "polityId": "hou-zhao",
+    "name": "永宁",
+    "reignIds": [
+      "hou-zhao-石祗-350"
+    ],
+    "startYear": 350,
+    "startMonth": 3,
+    "endYear": 351,
+    "note": "石祗350年三月于襄国称帝改元，351年四月被杀",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-liang-建兴-317",
+    "polityId": "qian-liang",
+    "name": "建兴",
+    "reignIds": [
+      "qian-liang-张寔-317",
+      "qian-liang-张茂-320",
+      "qian-liang-张骏-324",
+      "qian-liang-张重华-346",
+      "qian-liang-张曜灵-353"
+    ],
+    "startYear": 317,
+    "endYear": 353,
+    "note": "奉西晋愍帝建兴年号，境内纪年至建兴四十一年",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-liang-和平-354",
+    "polityId": "qian-liang",
+    "name": "和平",
+    "reignIds": [
+      "qian-liang-张祚-353"
+    ],
+    "startYear": 354,
+    "startMonth": 1,
+    "endYear": 355,
+    "note": "张祚354年称帝改元，355年九月被杀",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-liang-建兴-355",
+    "polityId": "qian-liang",
+    "name": "建兴（复）",
+    "reignIds": [
+      "qian-liang-张玄靓-355"
+    ],
+    "startYear": 355,
+    "startMonth": 9,
+    "endYear": 361,
+    "note": "张玄靓复位后复称建兴四十三年；与建兴年号同名，因中间隔「和平」而单列",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-liang-升平-361",
+    "polityId": "qian-liang",
+    "name": "升平",
+    "reignIds": [
+      "qian-liang-张玄靓-355",
+      "qian-liang-张天锡-363"
+    ],
+    "startYear": 361,
+    "startMonth": 12,
+    "endYear": 376,
+    "note": "用东晋穆帝升平年号，张天锡沿用至376年前秦灭凉",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-yan-无年号-337",
+    "polityId": "qian-yan",
+    "name": "无年号",
+    "reignIds": [
+      "qian-yan-慕容皝-337",
+      "qian-yan-慕容儁-348"
+    ],
+    "startYear": 337,
+    "startMonth": 11,
+    "endYear": 351,
+    "note": "慕容皝称燕王，奉东晋正朔，行用咸康、建元、永和年号；慕容儁继位沿用",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-yan-元玺-352",
+    "polityId": "qian-yan",
+    "name": "元玺",
+    "reignIds": [
+      "qian-yan-慕容儁-348"
+    ],
+    "startYear": 352,
+    "startMonth": 11,
+    "endYear": 357,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-yan-光寿-357",
+    "polityId": "qian-yan",
+    "name": "光寿",
+    "reignIds": [
+      "qian-yan-慕容儁-348"
+    ],
+    "startYear": 357,
+    "startMonth": 2,
+    "endYear": 360,
+    "note": "360年正月慕容儁卒，慕容暐即位改元",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-yan-建熙-360",
+    "polityId": "qian-yan",
+    "name": "建熙",
+    "reignIds": [
+      "qian-yan-慕容暐-360"
+    ],
+    "startYear": 360,
+    "startMonth": 1,
+    "endYear": 370,
+    "note": "370年十一月前秦灭燕",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-yan-燕元-384",
+    "polityId": "hou-yan",
+    "name": "燕元",
+    "reignIds": [
+      "hou-yan-慕容垂-384"
+    ],
+    "startYear": 384,
+    "startMonth": 1,
+    "endYear": 386,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-yan-建兴-386",
+    "polityId": "hou-yan",
+    "name": "建兴",
+    "reignIds": [
+      "hou-yan-慕容垂-384"
+    ],
+    "startYear": 386,
+    "startMonth": 2,
+    "endYear": 396,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-yan-永康-396",
+    "polityId": "hou-yan",
+    "name": "永康",
+    "reignIds": [
+      "hou-yan-慕容宝-396"
+    ],
+    "startYear": 396,
+    "startMonth": 4,
+    "endYear": 398,
+    "note": "398年四月慕容宝被杀，慕容盛先改元建平",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-yan-建平-398",
+    "polityId": "hou-yan",
+    "name": "建平",
+    "reignIds": [
+      "hou-yan-慕容盛-398"
+    ],
+    "startYear": 398,
+    "startMonth": 10,
+    "endYear": 398,
+    "note": "慕容盛398年十月即位改元，次年正月改元长乐",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-yan-长乐-399",
+    "polityId": "hou-yan",
+    "name": "长乐",
+    "reignIds": [
+      "hou-yan-慕容盛-398"
+    ],
+    "startYear": 399,
+    "startMonth": 1,
+    "endYear": 401,
+    "note": "401年七月慕容盛被杀",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-yan-光始-401",
+    "polityId": "hou-yan",
+    "name": "光始",
+    "reignIds": [
+      "hou-yan-慕容熙-401"
+    ],
+    "startYear": 401,
+    "startMonth": 8,
+    "endYear": 406,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-yan-建始-407",
+    "polityId": "hou-yan",
+    "name": "建始",
+    "reignIds": [
+      "hou-yan-慕容熙-401"
+    ],
+    "startYear": 407,
+    "startMonth": 1,
+    "endYear": 407,
+    "note": "407年七月慕容熙被杀，后燕亡",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "nan-yan-无年号-398",
+    "polityId": "nan-yan",
+    "name": "无年号",
+    "reignIds": [
+      "nan-yan-慕容德-398"
+    ],
+    "startYear": 398,
+    "endYear": 399,
+    "note": "398年称燕王，奉东晋正朔；一说曾改元燕平，诸书未载，存疑不取",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "nan-yan-建平-400",
+    "polityId": "nan-yan",
+    "name": "建平",
+    "reignIds": [
+      "nan-yan-慕容德-398"
+    ],
+    "startYear": 400,
+    "startMonth": 1,
+    "endYear": 405,
+    "note": "400年正月称帝改元，405年九月慕容德卒",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "nan-yan-太上-405",
+    "polityId": "nan-yan",
+    "name": "太上",
+    "reignIds": [
+      "nan-yan-慕容超-405"
+    ],
+    "startYear": 405,
+    "startMonth": 9,
+    "endYear": 410,
+    "note": "410年二月广固陷落，南燕亡",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "bei-yan-正始-407",
+    "polityId": "bei-yan",
+    "name": "正始",
+    "reignIds": [
+      "bei-yan-高云-407"
+    ],
+    "startYear": 407,
+    "startMonth": 7,
+    "endYear": 409,
+    "note": "409年十月高云被杀",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "bei-yan-太平-409",
+    "polityId": "bei-yan",
+    "name": "太平",
+    "reignIds": [
+      "bei-yan-冯跋-409",
+      "bei-yan-冯弘-430"
+    ],
+    "startYear": 409,
+    "startMonth": 10,
+    "endYear": 430,
+    "note": "430年九月冯跋卒，冯弘沿用至年末",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "bei-yan-太兴-431",
+    "polityId": "bei-yan",
+    "name": "太兴",
+    "reignIds": [
+      "bei-yan-冯弘-430"
+    ],
+    "startYear": 431,
+    "startMonth": 1,
+    "endYear": 436,
+    "note": "436年五月北燕亡",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-qin-无年号-350",
+    "polityId": "qian-qin",
+    "name": "无年号",
+    "reignIds": [
+      "qian-qin-苻洪-350",
+      "qian-qin-苻健-350"
+    ],
+    "startYear": 350,
+    "endYear": 350,
+    "note": "苻洪称三秦王未建年号，苻健入长安后仍用东晋永和年号",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-qin-皇始-351",
+    "polityId": "qian-qin",
+    "name": "皇始",
+    "reignIds": [
+      "qian-qin-苻健-350"
+    ],
+    "startYear": 351,
+    "startMonth": 1,
+    "endYear": 355,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-qin-寿光-355",
+    "polityId": "qian-qin",
+    "name": "寿光",
+    "reignIds": [
+      "qian-qin-苻生-355"
+    ],
+    "startYear": 355,
+    "startMonth": 6,
+    "endYear": 357,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-qin-永兴-357",
+    "polityId": "qian-qin",
+    "name": "永兴",
+    "reignIds": [
+      "qian-qin-苻坚-357"
+    ],
+    "startYear": 357,
+    "startMonth": 6,
+    "endYear": 359,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-qin-甘露-359",
+    "polityId": "qian-qin",
+    "name": "甘露",
+    "reignIds": [
+      "qian-qin-苻坚-357"
+    ],
+    "startYear": 359,
+    "startMonth": 6,
+    "endYear": 364,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-qin-建元-365",
+    "polityId": "qian-qin",
+    "name": "建元",
+    "reignIds": [
+      "qian-qin-苻坚-357"
+    ],
+    "startYear": 365,
+    "endYear": 385,
+    "note": "385年八月苻坚被姚苌所杀",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-qin-太安-385",
+    "polityId": "qian-qin",
+    "name": "太安",
+    "reignIds": [
+      "qian-qin-苻丕-385"
+    ],
+    "startYear": 385,
+    "startMonth": 8,
+    "endYear": 386,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-qin-太初-386",
+    "polityId": "qian-qin",
+    "name": "太初",
+    "reignIds": [
+      "qian-qin-苻登-386"
+    ],
+    "startYear": 386,
+    "startMonth": 11,
+    "endYear": 394,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-qin-延初-394",
+    "polityId": "qian-qin",
+    "name": "延初",
+    "reignIds": [
+      "qian-qin-苻崇-394"
+    ],
+    "startYear": 394,
+    "startMonth": 7,
+    "endYear": 394,
+    "note": "394年十月苻崇被杀，前秦亡",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-qin-白雀-384",
+    "polityId": "hou-qin",
+    "name": "白雀",
+    "reignIds": [
+      "hou-qin-姚苌-384"
+    ],
+    "startYear": 384,
+    "startMonth": 4,
+    "endYear": 386,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-qin-建初-386",
+    "polityId": "hou-qin",
+    "name": "建初",
+    "reignIds": [
+      "hou-qin-姚苌-384"
+    ],
+    "startYear": 386,
+    "startMonth": 5,
+    "endYear": 394,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-qin-皇初-394",
+    "polityId": "hou-qin",
+    "name": "皇初",
+    "reignIds": [
+      "hou-qin-姚兴-393"
+    ],
+    "startYear": 394,
+    "startMonth": 5,
+    "endYear": 399,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-qin-弘始-399",
+    "polityId": "hou-qin",
+    "name": "弘始",
+    "reignIds": [
+      "hou-qin-姚兴-393"
+    ],
+    "startYear": 399,
+    "startMonth": 9,
+    "endYear": 416,
+    "note": "或作洪始",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-qin-永和-416",
+    "polityId": "hou-qin",
+    "name": "永和",
+    "reignIds": [
+      "hou-qin-姚泓-416"
+    ],
+    "startYear": 416,
+    "startMonth": 2,
+    "endYear": 417,
+    "note": "417年八月姚泓降东晋，后秦亡",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "xi-qin-建义-385",
+    "polityId": "xi-qin",
+    "name": "建义",
+    "reignIds": [
+      "xi-qin-乞伏国仁-385"
+    ],
+    "startYear": 385,
+    "startMonth": 9,
+    "endYear": 388,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "xi-qin-太初-388",
+    "polityId": "xi-qin",
+    "name": "太初",
+    "reignIds": [
+      "xi-qin-乞伏乾归-388"
+    ],
+    "startYear": 388,
+    "startMonth": 6,
+    "endYear": 400,
+    "note": "400年七月败于后秦，西秦亡国",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "xi-qin-无年号-400",
+    "polityId": "xi-qin",
+    "name": "无年号",
+    "reignIds": [
+      "xi-qin-乞伏乾归-388"
+    ],
+    "startYear": 400,
+    "startMonth": 7,
+    "endYear": 408,
+    "note": "降附后秦，行用后秦弘始年号；409年七月复国改元更始",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "xi-qin-更始-409",
+    "polityId": "xi-qin",
+    "name": "更始",
+    "reignIds": [
+      "xi-qin-乞伏乾归-409"
+    ],
+    "startYear": 409,
+    "startMonth": 7,
+    "endYear": 412,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "xi-qin-永康-412",
+    "polityId": "xi-qin",
+    "name": "永康",
+    "reignIds": [
+      "xi-qin-乞伏炽磐-412"
+    ],
+    "startYear": 412,
+    "startMonth": 8,
+    "endYear": 419,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "xi-qin-建弘-420",
+    "polityId": "xi-qin",
+    "name": "建弘",
+    "reignIds": [
+      "xi-qin-乞伏炽磐-412"
+    ],
+    "startYear": 420,
+    "startMonth": 1,
+    "endYear": 428,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "xi-qin-永弘-428",
+    "polityId": "xi-qin",
+    "name": "永弘",
+    "reignIds": [
+      "xi-qin-乞伏暮末-428"
+    ],
+    "startYear": 428,
+    "startMonth": 5,
+    "endYear": 431,
+    "note": "431年正月降夏，西秦亡",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-liang-太安-386",
+    "polityId": "hou-liang",
+    "name": "太安",
+    "reignIds": [
+      "hou-liang-吕光-386"
+    ],
+    "startYear": 386,
+    "startMonth": 10,
+    "endYear": 389,
+    "note": "或作大安",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-liang-麟嘉-389",
+    "polityId": "hou-liang",
+    "name": "麟嘉",
+    "reignIds": [
+      "hou-liang-吕光-386"
+    ],
+    "startYear": 389,
+    "startMonth": 2,
+    "endYear": 396,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-liang-龙飞-396",
+    "polityId": "hou-liang",
+    "name": "龙飞",
+    "reignIds": [
+      "hou-liang-吕光-386",
+      "hou-liang-吕绍-399"
+    ],
+    "startYear": 396,
+    "startMonth": 6,
+    "endYear": 399,
+    "note": "399年十二月吕绍继位沿用，同月吕纂改元咸宁",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-liang-咸宁-399",
+    "polityId": "hou-liang",
+    "name": "咸宁",
+    "reignIds": [
+      "hou-liang-吕纂-399"
+    ],
+    "startYear": 399,
+    "startMonth": 12,
+    "endYear": 401,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-liang-神鼎-401",
+    "polityId": "hou-liang",
+    "name": "神鼎",
+    "reignIds": [
+      "hou-liang-吕隆-401"
+    ],
+    "startYear": 401,
+    "startMonth": 2,
+    "endYear": 403,
+    "note": "403年八月吕隆降后秦，后凉亡",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "nan-liang-太初-397",
+    "polityId": "nan-liang",
+    "name": "太初",
+    "reignIds": [
+      "nan-liang-秃发乌孤-397"
+    ],
+    "startYear": 397,
+    "endYear": 399,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "nan-liang-建和-400",
+    "polityId": "nan-liang",
+    "name": "建和",
+    "reignIds": [
+      "nan-liang-秃发利鹿孤-399"
+    ],
+    "startYear": 400,
+    "endYear": 402,
+    "note": "利鹿孤399年即位，400年改元",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "nan-liang-弘昌-402",
+    "polityId": "nan-liang",
+    "name": "弘昌",
+    "reignIds": [
+      "nan-liang-秃发傉檀-402"
+    ],
+    "startYear": 402,
+    "startMonth": 3,
+    "endYear": 404,
+    "note": "或作宏昌；404年二月去年号",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "nan-liang-无年号-404",
+    "polityId": "nan-liang",
+    "name": "无年号",
+    "reignIds": [
+      "nan-liang-秃发傉檀-402"
+    ],
+    "startYear": 404,
+    "startMonth": 2,
+    "endYear": 408,
+    "note": "去年号称臣后秦，行用后秦弘始年号；408年十一月复称凉王改元嘉平",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "nan-liang-嘉平-408",
+    "polityId": "nan-liang",
+    "name": "嘉平",
+    "reignIds": [
+      "nan-liang-秃发傉檀-402"
+    ],
+    "startYear": 408,
+    "startMonth": 11,
+    "endYear": 414,
+    "note": "414年七月西秦灭南凉",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "bei-liang-神玺-397",
+    "polityId": "bei-liang",
+    "name": "神玺",
+    "reignIds": [
+      "bei-liang-段业-397"
+    ],
+    "startYear": 397,
+    "startMonth": 5,
+    "endYear": 399,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "bei-liang-天玺-399",
+    "polityId": "bei-liang",
+    "name": "天玺",
+    "reignIds": [
+      "bei-liang-段业-397"
+    ],
+    "startYear": 399,
+    "startMonth": 2,
+    "endYear": 401,
+    "note": "或作六玺",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "bei-liang-永安-401",
+    "polityId": "bei-liang",
+    "name": "永安",
+    "reignIds": [
+      "bei-liang-沮渠蒙逊-401"
+    ],
+    "startYear": 401,
+    "startMonth": 6,
+    "endYear": 412,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "bei-liang-玄始-412",
+    "polityId": "bei-liang",
+    "name": "玄始",
+    "reignIds": [
+      "bei-liang-沮渠蒙逊-401"
+    ],
+    "startYear": 412,
+    "startMonth": 11,
+    "endYear": 428,
+    "note": "或作元始",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "bei-liang-承玄-428",
+    "polityId": "bei-liang",
+    "name": "承玄",
+    "reignIds": [
+      "bei-liang-沮渠蒙逊-401"
+    ],
+    "startYear": 428,
+    "startMonth": 6,
+    "endYear": 431,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "bei-liang-义和-431",
+    "polityId": "bei-liang",
+    "name": "义和",
+    "reignIds": [
+      "bei-liang-沮渠蒙逊-401"
+    ],
+    "startYear": 431,
+    "startMonth": 6,
+    "endYear": 433,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "bei-liang-承和-433",
+    "polityId": "bei-liang",
+    "name": "承和",
+    "reignIds": [
+      "bei-liang-沮渠牧犍-433"
+    ],
+    "startYear": 433,
+    "startMonth": 4,
+    "endYear": 439,
+    "note": "或作永和；439年九月降北魏",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "xi-liang-庚子-400",
+    "polityId": "xi-liang",
+    "name": "庚子",
+    "reignIds": [
+      "xi-liang-李暠-400"
+    ],
+    "startYear": 400,
+    "startMonth": 11,
+    "endYear": 404,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "xi-liang-建初-405",
+    "polityId": "xi-liang",
+    "name": "建初",
+    "reignIds": [
+      "xi-liang-李暠-400"
+    ],
+    "startYear": 405,
+    "endYear": 417,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "xi-liang-嘉兴-417",
+    "polityId": "xi-liang",
+    "name": "嘉兴",
+    "reignIds": [
+      "xi-liang-李歆-417"
+    ],
+    "startYear": 417,
+    "startMonth": 2,
+    "endYear": 420,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "xi-liang-永建-420",
+    "polityId": "xi-liang",
+    "name": "永建",
+    "reignIds": [
+      "xi-liang-李恂-420"
+    ],
+    "startYear": 420,
+    "startMonth": 10,
+    "endYear": 421,
+    "note": "421年三月北凉灭西凉",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "helian-xia-龙升-407",
+    "polityId": "helian-xia",
+    "name": "龙升",
+    "reignIds": [
+      "helian-xia-赫连勃勃-407"
+    ],
+    "startYear": 407,
+    "startMonth": 6,
+    "endYear": 413,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "helian-xia-凤翔-413",
+    "polityId": "helian-xia",
+    "name": "凤翔",
+    "reignIds": [
+      "helian-xia-赫连勃勃-407"
+    ],
+    "startYear": 413,
+    "startMonth": 3,
+    "endYear": 418,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "helian-xia-昌武-418",
+    "polityId": "helian-xia",
+    "name": "昌武",
+    "reignIds": [
+      "helian-xia-赫连勃勃-407"
+    ],
+    "startYear": 418,
+    "startMonth": 11,
+    "endYear": 419,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "helian-xia-真兴-419",
+    "polityId": "helian-xia",
+    "name": "真兴",
+    "reignIds": [
+      "helian-xia-赫连勃勃-407"
+    ],
+    "startYear": 419,
+    "startMonth": 2,
+    "endYear": 425,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "helian-xia-承光-425",
+    "polityId": "helian-xia",
+    "name": "承光",
+    "reignIds": [
+      "helian-xia-赫连昌-425"
+    ],
+    "startYear": 425,
+    "startMonth": 8,
+    "endYear": 428,
+    "note": "或作承阳、永光",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "helian-xia-胜光-428",
+    "polityId": "helian-xia",
+    "name": "胜光",
+    "reignIds": [
+      "helian-xia-赫连定-428"
+    ],
+    "startYear": 428,
+    "startMonth": 2,
+    "endYear": 431,
+    "note": "431年六月赫连定为吐谷浑所擒，夏亡",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "yang-wu-无年号-902",
+    "polityId": "yang-wu",
+    "name": "无年号",
+    "reignIds": [
+      "yang-wu-太祖-902"
+    ],
+    "startYear": 902,
+    "startMonth": 3,
+    "endYear": 919,
+    "note": "奉唐正朔，行天复（902–904）、天祐（904–919）年号；907 年唐亡后仍称天祐。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "yang-wu-武义-919",
+    "polityId": "yang-wu",
+    "name": "武义",
+    "reignIds": [
+      "yang-wu-高祖-908",
+      "yang-wu-睿帝-920"
+    ],
+    "startYear": 919,
+    "startMonth": 4,
+    "endYear": 921,
+    "note": "杨隆演称吴国王后始用；二年杨溥即位沿用。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "yang-wu-顺义-921",
+    "polityId": "yang-wu",
+    "name": "顺义",
+    "reignIds": [
+      "yang-wu-睿帝-920"
+    ],
+    "startYear": 921,
+    "startMonth": 2,
+    "endYear": 927,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "yang-wu-乾贞-927",
+    "polityId": "yang-wu",
+    "name": "乾贞",
+    "reignIds": [
+      "yang-wu-睿帝-920"
+    ],
+    "startYear": 927,
+    "startMonth": 11,
+    "endYear": 929,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "yang-wu-大和-929",
+    "polityId": "yang-wu",
+    "name": "大和",
+    "reignIds": [
+      "yang-wu-睿帝-920"
+    ],
+    "startYear": 929,
+    "startMonth": 11,
+    "endYear": 935,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "yang-wu-天祚-935",
+    "polityId": "yang-wu",
+    "name": "天祚",
+    "reignIds": [
+      "yang-wu-睿帝-920"
+    ],
+    "startYear": 935,
+    "startMonth": 9,
+    "endYear": 937,
+    "note": "三年十月禅位李昪，吴亡。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "nan-tang-昇元-937",
+    "polityId": "nan-tang",
+    "name": "昇元",
+    "reignIds": [
+      "nan-tang-烈祖-937"
+    ],
+    "startYear": 937,
+    "startMonth": 10,
+    "endYear": 943,
+    "note": "或作升元。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "nan-tang-保大-943",
+    "polityId": "nan-tang",
+    "name": "保大",
+    "reignIds": [
+      "nan-tang-元宗-943"
+    ],
+    "startYear": 943,
+    "startMonth": 3,
+    "endYear": 957,
+    "note": "楚马希萼亦曾奉用。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "nan-tang-中兴-958",
+    "polityId": "nan-tang",
+    "name": "中兴",
+    "reignIds": [
+      "nan-tang-元宗-943"
+    ],
+    "startYear": 958,
+    "startMonth": 1,
+    "endYear": 958,
+    "note": "仅行二月。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "nan-tang-交泰-958",
+    "polityId": "nan-tang",
+    "name": "交泰",
+    "reignIds": [
+      "nan-tang-元宗-943"
+    ],
+    "startYear": 958,
+    "startMonth": 3,
+    "endYear": 958,
+    "note": "仅行三月；同年五月去帝号，奉后周显德正朔。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "nan-tang-无年号-958",
+    "polityId": "nan-tang",
+    "name": "无年号",
+    "reignIds": [
+      "nan-tang-元宗-943",
+      "nan-tang-后主-961"
+    ],
+    "startYear": 958,
+    "startMonth": 5,
+    "endYear": 975,
+    "note": "奉后周显德（958–960），入宋后奉建隆、乾德、开宝正朔。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "wu-yue-无年号-907",
+    "polityId": "wu-yue",
+    "name": "无年号",
+    "reignIds": [
+      "wu-yue-武肃王-907"
+    ],
+    "startYear": 907,
+    "startMonth": 5,
+    "endYear": 907,
+    "note": "奉唐天祐年号。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "wu-yue-天宝-908",
+    "polityId": "wu-yue",
+    "name": "天宝",
+    "reignIds": [
+      "wu-yue-武肃王-907"
+    ],
+    "startYear": 908,
+    "startMonth": 1,
+    "endYear": 912,
+    "disputed": true,
+    "note": "吴越自建年号，起讫诸说不一（912 / 923 年止），此取 908–912。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "wu-yue-无年号-913",
+    "polityId": "wu-yue",
+    "name": "无年号（913）",
+    "reignIds": [
+      "wu-yue-武肃王-907"
+    ],
+    "startYear": 913,
+    "startMonth": 1,
+    "endYear": 923,
+    "note": "奉后梁凤历、乾化、贞明、龙德年号。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "wu-yue-宝大-924",
+    "polityId": "wu-yue",
+    "name": "宝大",
+    "reignIds": [
+      "wu-yue-武肃王-907"
+    ],
+    "startYear": 924,
+    "startMonth": 1,
+    "endYear": 925,
+    "note": "或作宝太。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "wu-yue-宝正-926",
+    "polityId": "wu-yue",
+    "name": "宝正",
+    "reignIds": [
+      "wu-yue-武肃王-907"
+    ],
+    "startYear": 926,
+    "endYear": 931,
+    "note": "或作宝贞、保贞。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "wu-yue-无年号-932",
+    "polityId": "wu-yue",
+    "name": "无年号（932）",
+    "reignIds": [
+      "wu-yue-文穆王-932",
+      "wu-yue-忠献王-941",
+      "wu-yue-忠逊王-947",
+      "wu-yue-忠懿王-947"
+    ],
+    "startYear": 932,
+    "startMonth": 4,
+    "endYear": 978,
+    "note": "奉后唐长兴、应顺、清泰，后晋天福、开运，后汉乾祐，后周广顺、显德，宋建隆、乾德、开宝、太平兴国年号。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "min-无年号-909",
+    "polityId": "min",
+    "name": "无年号",
+    "reignIds": [
+      "min-太祖-909",
+      "min-嗣王-925",
+      "min-惠宗-927"
+    ],
+    "startYear": 909,
+    "startMonth": 4,
+    "endYear": 932,
+    "note": "奉后梁开平、乾化、贞明、龙德与后唐同光、天成、长兴年号。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "min-龙启-933",
+    "polityId": "min",
+    "name": "龙启",
+    "reignIds": [
+      "min-惠宗-927"
+    ],
+    "startYear": 933,
+    "endYear": 934,
+    "note": "王延钧称帝，国号大闽。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "min-永和-935",
+    "polityId": "min",
+    "name": "永和",
+    "reignIds": [
+      "min-惠宗-927",
+      "min-康宗-935"
+    ],
+    "startYear": 935,
+    "startMonth": 1,
+    "endYear": 936,
+    "note": "二年二月改元通文。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "min-通文-936",
+    "polityId": "min",
+    "name": "通文",
+    "reignIds": [
+      "min-康宗-935"
+    ],
+    "startYear": 936,
+    "startMonth": 3,
+    "endYear": 939,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "min-永隆-939",
+    "polityId": "min",
+    "name": "永隆",
+    "reignIds": [
+      "min-景宗-939"
+    ],
+    "startYear": 939,
+    "startMonth": 7,
+    "endYear": 943,
+    "disputed": true,
+    "note": "永隆六年（944）正月王延羲被杀；天德元年（943）二月王延政已称帝于建州，两号并立，本表以 943 年为界。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "min-天德-943",
+    "polityId": "min",
+    "name": "天德",
+    "reignIds": [
+      "min-天德帝-943"
+    ],
+    "startYear": 943,
+    "startMonth": 2,
+    "endYear": 945,
+    "note": "王延政在建州称帝，国号殷，旋改闽；945 年八月为南唐所灭。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "chu-无年号-907",
+    "polityId": "chu",
+    "name": "无年号",
+    "reignIds": [
+      "chu-武穆王-907",
+      "chu-衡阳王-930",
+      "chu-文昭王-932",
+      "chu-废王-947",
+      "chu-恭孝王-950",
+      "chu-末主-951"
+    ],
+    "startYear": 907,
+    "endYear": 951,
+    "note": "奉后梁、后唐、后晋、后汉、后周年号；马希萼、马希崇时改奉南唐保大。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "nan-han-乾亨-917",
+    "polityId": "nan-han",
+    "name": "乾亨",
+    "reignIds": [
+      "nan-han-高祖-917"
+    ],
+    "startYear": 917,
+    "startMonth": 7,
+    "endYear": 925,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "nan-han-白龙-925",
+    "polityId": "nan-han",
+    "name": "白龙",
+    "reignIds": [
+      "nan-han-高祖-917"
+    ],
+    "startYear": 925,
+    "startMonth": 12,
+    "endYear": 928,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "nan-han-大有-928",
+    "polityId": "nan-han",
+    "name": "大有",
+    "reignIds": [
+      "nan-han-高祖-917"
+    ],
+    "startYear": 928,
+    "startMonth": 3,
+    "endYear": 942,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "nan-han-光天-942",
+    "polityId": "nan-han",
+    "name": "光天",
+    "reignIds": [
+      "nan-han-殇帝-942"
+    ],
+    "startYear": 942,
+    "startMonth": 4,
+    "endYear": 943,
+    "note": "二年二月刘玢被杀。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "nan-han-应乾-943",
+    "polityId": "nan-han",
+    "name": "应乾",
+    "reignIds": [
+      "nan-han-中宗-943"
+    ],
+    "startYear": 943,
+    "startMonth": 3,
+    "endYear": 943,
+    "note": "仅行八月。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "nan-han-乾和-943",
+    "polityId": "nan-han",
+    "name": "乾和",
+    "reignIds": [
+      "nan-han-中宗-943"
+    ],
+    "startYear": 943,
+    "startMonth": 11,
+    "endYear": 958,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "nan-han-大宝-958",
+    "polityId": "nan-han",
+    "name": "大宝",
+    "reignIds": [
+      "nan-han-后主-958"
+    ],
+    "startYear": 958,
+    "startMonth": 8,
+    "endYear": 971,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-shu-无年号-907",
+    "polityId": "qian-shu",
+    "name": "无年号",
+    "reignIds": [
+      "qian-shu-高祖-907"
+    ],
+    "startYear": 907,
+    "startMonth": 9,
+    "endYear": 907,
+    "note": "奉唐天复年号；907 年九月王建称帝后仍称天复。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-shu-武成-908",
+    "polityId": "qian-shu",
+    "name": "武成",
+    "reignIds": [
+      "qian-shu-高祖-907"
+    ],
+    "startYear": 908,
+    "endYear": 910,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-shu-永平-911",
+    "polityId": "qian-shu",
+    "name": "永平",
+    "reignIds": [
+      "qian-shu-高祖-907"
+    ],
+    "startYear": 911,
+    "endYear": 915,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-shu-通正-916",
+    "polityId": "qian-shu",
+    "name": "通正",
+    "reignIds": [
+      "qian-shu-高祖-907"
+    ],
+    "startYear": 916,
+    "startMonth": 1,
+    "endYear": 916,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-shu-天汉-917",
+    "polityId": "qian-shu",
+    "name": "天汉",
+    "reignIds": [
+      "qian-shu-高祖-907"
+    ],
+    "startYear": 917,
+    "startMonth": 1,
+    "endYear": 917,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-shu-光天-918",
+    "polityId": "qian-shu",
+    "name": "光天",
+    "reignIds": [
+      "qian-shu-高祖-907",
+      "qian-shu-后主-918"
+    ],
+    "startYear": 918,
+    "startMonth": 1,
+    "endYear": 918,
+    "note": "或作光大、广大；六月王衍即位沿用。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-shu-乾德-919",
+    "polityId": "qian-shu",
+    "name": "乾德",
+    "reignIds": [
+      "qian-shu-后主-918"
+    ],
+    "startYear": 919,
+    "startMonth": 1,
+    "endYear": 924,
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "qian-shu-咸康-925",
+    "polityId": "qian-shu",
+    "name": "咸康",
+    "reignIds": [
+      "qian-shu-后主-918"
+    ],
+    "startYear": 925,
+    "startMonth": 1,
+    "endYear": 925,
+    "note": "十一月降后唐。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-shu-明德-934",
+    "polityId": "hou-shu",
+    "name": "明德",
+    "reignIds": [
+      "hou-shu-高祖-934",
+      "hou-shu-后主-934"
+    ],
+    "startYear": 934,
+    "startMonth": 4,
+    "endYear": 937,
+    "note": "七月孟昶即位沿用。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "hou-shu-广政-938",
+    "polityId": "hou-shu",
+    "name": "广政",
+    "reignIds": [
+      "hou-shu-后主-934"
+    ],
+    "startYear": 938,
+    "startMonth": 1,
+    "endYear": 965,
+    "note": "二十八年正月孟昶降宋。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "jing-nan-无年号-924",
+    "polityId": "jing-nan",
+    "name": "无年号",
+    "reignIds": [
+      "jing-nan-武信王-924",
+      "jing-nan-文献王-929",
+      "jing-nan-贞懿王-948",
+      "jing-nan-贞安王-960",
+      "jing-nan-德仁王-962"
+    ],
+    "startYear": 924,
+    "startMonth": 3,
+    "endYear": 963,
+    "note": "奉后唐同光、天成、长兴，后晋天福、开运，后汉乾祐，后周广顺、显德与宋建隆、乾德年号；928–929 曾短暂奉吴乾贞。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "bei-han-无年号-951",
+    "polityId": "bei-han",
+    "name": "无年号",
+    "reignIds": [
+      "bei-han-世祖-951",
+      "bei-han-睿宗-954"
+    ],
+    "startYear": 951,
+    "endYear": 956,
+    "note": "奉后汉乾祐年号（乾祐四年至九年）。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "bei-han-天会-957",
+    "polityId": "bei-han",
+    "name": "天会",
+    "reignIds": [
+      "bei-han-睿宗-954",
+      "bei-han-少主-968",
+      "bei-han-英武帝-968"
+    ],
+    "startYear": 957,
+    "endYear": 973,
+    "note": "睿宗天会元年（957）改元；刘继恩、刘继元即位沿用。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "bei-han-广运-974",
+    "polityId": "bei-han",
+    "name": "广运",
+    "reignIds": [
+      "bei-han-英武帝-968"
+    ],
+    "startYear": 974,
+    "endYear": 979,
+    "note": "六年五月刘继元降宋。",
+    "sources": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "id": "dali-wende-937",
+    "polityId": "dali",
+    "name": "文德",
+    "reignIds": [
+      "dali-duansiping-937"
+    ],
+    "startYear": 937,
+    "endYear": 941,
+    "precision": "approx",
+    "note": "大理纪年多出后世追记；段思平 937 年灭大义宁即建号，本表自 937 年起计以免断档。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-shenwu-941",
+    "polityId": "dali",
+    "name": "神武",
+    "reignIds": [
+      "dali-duansiping-937"
+    ],
+    "startYear": 941,
+    "endYear": 944,
+    "precision": "approx",
+    "note": "仅见沈德符《正闰考》，起讫无确证，依段思平在位末年推定。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-wenjing-945",
+    "polityId": "dali",
+    "name": "文经",
+    "reignIds": [
+      "dali-duanshengying-944"
+    ],
+    "startYear": 945,
+    "endYear": 945,
+    "precision": "approx",
+    "note": "《纪元编》误作「文经武略」，实为段思英谥号。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-zhizhi-946",
+    "polityId": "dali",
+    "name": "至治",
+    "reignIds": [
+      "dali-duansiliang-946"
+    ],
+    "startYear": 946,
+    "endYear": 951,
+    "precision": "approx",
+    "note": "或作致治，《云南志略》误作主治。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-mingde-952",
+    "polityId": "dali",
+    "name": "明德",
+    "reignIds": [
+      "dali-duansicong-952"
+    ],
+    "startYear": 952,
+    "endYear": 959,
+    "precision": "approx",
+    "note": "段思聪即位当年未改元，明德元年系于 952 年；讫年无确证。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-guangde-960",
+    "polityId": "dali",
+    "name": "广德",
+    "reignIds": [
+      "dali-duansicong-952"
+    ],
+    "startYear": 960,
+    "endYear": 967,
+    "precision": "approx",
+    "note": "起讫无确证，按段思聪在位年数推定。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-shunde-968",
+    "polityId": "dali",
+    "name": "顺德",
+    "reignIds": [
+      "dali-duansicong-952"
+    ],
+    "startYear": 968,
+    "endYear": 968,
+    "precision": "approx",
+    "note": "或作圣德，仅行一年。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-mingzheng-969",
+    "polityId": "dali",
+    "name": "明政",
+    "reignIds": [
+      "dali-duansushun-969"
+    ],
+    "startYear": 969,
+    "endYear": 985,
+    "precision": "approx",
+    "note": "或作明正。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-guangming-986",
+    "polityId": "dali",
+    "name": "广明",
+    "reignIds": [
+      "dali-duansuying-986"
+    ],
+    "startYear": 986,
+    "endYear": 1000,
+    "precision": "approx",
+    "note": "段素英一朝年号数诸书不一，本表取广明、明应、明统、明圣、明治、明法、广德、明运八号；仅广明元年（986）与明运末年（1009）有据，其余起讫按次序连续推定。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-mingying-1001",
+    "polityId": "dali",
+    "name": "明应",
+    "reignIds": [
+      "dali-duansuying-986"
+    ],
+    "startYear": 1001,
+    "endYear": 1002,
+    "precision": "approx",
+    "note": "起讫无确证，依年号次序推定。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-mingtong-1003",
+    "polityId": "dali",
+    "name": "明统",
+    "reignIds": [
+      "dali-duansuying-986"
+    ],
+    "startYear": 1003,
+    "endYear": 1003,
+    "precision": "approx",
+    "note": "起讫无确证，依年号次序推定。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-mingsheng-1004",
+    "polityId": "dali",
+    "name": "明圣",
+    "reignIds": [
+      "dali-duansuying-986"
+    ],
+    "startYear": 1004,
+    "endYear": 1004,
+    "precision": "approx",
+    "note": "起讫无确证，依年号次序推定。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-mingzhi-1005",
+    "polityId": "dali",
+    "name": "明治",
+    "reignIds": [
+      "dali-duansuying-986"
+    ],
+    "startYear": 1005,
+    "endYear": 1005,
+    "precision": "approx",
+    "note": "起讫无确证，依年号次序推定。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-mingfa-1006",
+    "polityId": "dali",
+    "name": "明法",
+    "reignIds": [
+      "dali-duansuying-986"
+    ],
+    "startYear": 1006,
+    "endYear": 1006,
+    "precision": "approx",
+    "note": "仅见李兆洛《纪元编》，起讫无确证。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-guangde-1007",
+    "polityId": "dali",
+    "name": "广德（复）",
+    "reignIds": [
+      "dali-duansuying-986"
+    ],
+    "startYear": 1007,
+    "endYear": 1008,
+    "precision": "approx",
+    "note": "与段思聪之广德同名同号，仅见《纪元编》，起讫无确证。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-mingyun-1009",
+    "polityId": "dali",
+    "name": "明运",
+    "reignIds": [
+      "dali-duansuying-986"
+    ],
+    "startYear": 1009,
+    "endYear": 1009,
+    "precision": "approx",
+    "note": "段素英末号，讫于 1009 年。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-mingqi-1010",
+    "polityId": "dali",
+    "name": "明启",
+    "reignIds": [
+      "dali-duansulian-1010"
+    ],
+    "startYear": 1010,
+    "endYear": 1022,
+    "precision": "approx",
+    "note": "或作启明天圣；《滇载记》另载「乾兴」，实为宋真宗年号误植，不取。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-mingtong-1023",
+    "polityId": "dali",
+    "name": "明通",
+    "reignIds": [
+      "dali-duansulong-1022"
+    ],
+    "startYear": 1023,
+    "endYear": 1026,
+    "precision": "approx",
+    "note": "《纪元编》作「明通天圣」；段素隆 1022 年即位，次年改元。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-zhengzhi-1027",
+    "polityId": "dali",
+    "name": "正治",
+    "reignIds": [
+      "dali-duansuzhen-1026"
+    ],
+    "startYear": 1027,
+    "endYear": 1041,
+    "precision": "approx",
+    "note": "段素真 1026 年即位，次年改元。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-shengming-1042",
+    "polityId": "dali",
+    "name": "圣明",
+    "reignIds": [
+      "dali-duansuxing-1041"
+    ],
+    "startYear": 1042,
+    "endYear": 1043,
+    "precision": "approx",
+    "note": "起讫无确证，按段素兴在位年数推定。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-tianming-1044",
+    "polityId": "dali",
+    "name": "天明",
+    "reignIds": [
+      "dali-duansuxing-1041"
+    ],
+    "startYear": 1044,
+    "endYear": 1044,
+    "precision": "approx",
+    "note": "段素兴 1044 年被废，天明行至其年。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-baoan-1045",
+    "polityId": "dali",
+    "name": "保安",
+    "reignIds": [
+      "dali-duansilian-1044"
+    ],
+    "startYear": 1045,
+    "endYear": 1052,
+    "precision": "approx",
+    "note": "段思廉 1044 年即位，次年改元。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-zhengan-1053",
+    "polityId": "dali",
+    "name": "正安",
+    "reignIds": [
+      "dali-duansilian-1044"
+    ],
+    "startYear": 1053,
+    "endYear": 1058,
+    "precision": "approx",
+    "note": "或作政安；起讫无确证。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-zhengde-1059",
+    "polityId": "dali",
+    "name": "正德",
+    "reignIds": [
+      "dali-duansilian-1044"
+    ],
+    "startYear": 1059,
+    "endYear": 1064,
+    "precision": "approx",
+    "note": "或作政德；起讫无确证。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-baode-1065",
+    "polityId": "dali",
+    "name": "保德",
+    "reignIds": [
+      "dali-duansilian-1044"
+    ],
+    "startYear": 1065,
+    "endYear": 1074,
+    "precision": "approx",
+    "note": "《云南志略》另列「太安」一号，他书不载，未取。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-minghou-1075",
+    "polityId": "dali",
+    "name": "明侯",
+    "reignIds": [
+      "dali-duansilian-1044"
+    ],
+    "startYear": 1075,
+    "endYear": 1075,
+    "precision": "approx",
+    "note": "仅见《纪元编》，段思廉末号。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-shangde-1076",
+    "polityId": "dali",
+    "name": "上德",
+    "reignIds": [
+      "dali-duanlianyi-1075"
+    ],
+    "startYear": 1076,
+    "endYear": 1076,
+    "precision": "approx",
+    "note": "段廉义 1075 年即位，次年改元。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-guangan-1077",
+    "polityId": "dali",
+    "name": "广安",
+    "reignIds": [
+      "dali-duanlianyi-1075"
+    ],
+    "startYear": 1077,
+    "endYear": 1080,
+    "precision": "approx",
+    "note": "至 1080 年杨义贞篡位止。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-dean-1080",
+    "polityId": "dali",
+    "name": "德安",
+    "reignIds": [
+      "dali-yangyizhen-1080"
+    ],
+    "startYear": 1080,
+    "endYear": 1080,
+    "precision": "approx",
+    "note": "杨义贞弑段廉义自立，改元德安，四个月后为高升泰所灭。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-shangming-1081",
+    "polityId": "dali",
+    "name": "上明",
+    "reignIds": [
+      "dali-duanshouhui-1080"
+    ],
+    "startYear": 1081,
+    "endYear": 1081,
+    "precision": "approx",
+    "note": "段寿辉 1080 年即位，次年改元，在位仅一年。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-baoli-1082",
+    "polityId": "dali",
+    "name": "保立",
+    "reignIds": [
+      "dali-duanzhengming-1081"
+    ],
+    "startYear": 1082,
+    "endYear": 1087,
+    "precision": "approx",
+    "note": "胡氏《野史》作「保定」，李家瑞谓系误以谥号为年号；与建安、天祐之分割系推定。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-jianan-1088",
+    "polityId": "dali",
+    "name": "建安",
+    "reignIds": [
+      "dali-duanzhengming-1081"
+    ],
+    "startYear": 1088,
+    "endYear": 1091,
+    "precision": "approx",
+    "note": "起讫无确证，与保立、天祐分割系推定。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-tianyou-1092",
+    "polityId": "dali",
+    "name": "天祐",
+    "reignIds": [
+      "dali-duanzhengming-1081"
+    ],
+    "startYear": 1092,
+    "endYear": 1094,
+    "precision": "approx",
+    "note": "至 1094 年段正明被废。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-shangzhi-1095",
+    "polityId": "dali",
+    "name": "上治",
+    "reignIds": [
+      "dali-gaoshengtai-1094"
+    ],
+    "startYear": 1095,
+    "endYear": 1096,
+    "precision": "approx",
+    "note": "高升泰建大中国。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-tianshou-1096",
+    "polityId": "dali",
+    "name": "天授",
+    "reignIds": [
+      "dali-duanzhengchun-1096"
+    ],
+    "startYear": 1096,
+    "endYear": 1096,
+    "precision": "approx",
+    "note": "还政段氏当年改元，与上治同年交接。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-kaiming-1097",
+    "polityId": "dali",
+    "name": "开明",
+    "reignIds": [
+      "dali-duanzhengchun-1096"
+    ],
+    "startYear": 1097,
+    "endYear": 1102,
+    "precision": "approx",
+    "note": "或作明开。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-tianzheng-1103",
+    "polityId": "dali",
+    "name": "天政",
+    "reignIds": [
+      "dali-duanzhengchun-1096"
+    ],
+    "startYear": 1103,
+    "endYear": 1104,
+    "precision": "approx",
+    "note": "或作天正；《滇载记》《纪元编》不载，此从胡氏《野史》。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-wenan-1105",
+    "polityId": "dali",
+    "name": "文安",
+    "reignIds": [
+      "dali-duanzhengchun-1096"
+    ],
+    "startYear": 1105,
+    "endYear": 1108,
+    "precision": "approx",
+    "note": "段正淳 1108 年禅位，文安行至其年。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-yongzhen-1148",
+    "polityId": "dali",
+    "name": "永贞",
+    "reignIds": [
+      "dali-duanzhengxing-1147"
+    ],
+    "startYear": 1148,
+    "endYear": 1148,
+    "precision": "approx",
+    "note": "段正兴 1147 年即位，翌年改元。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-dabao-1149",
+    "polityId": "dali",
+    "name": "大宝",
+    "reignIds": [
+      "dali-duanzhengxing-1147"
+    ],
+    "startYear": 1149,
+    "endYear": 1155,
+    "precision": "approx",
+    "note": "或作太宝、天宝。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-longxing-1156",
+    "polityId": "dali",
+    "name": "龙兴",
+    "reignIds": [
+      "dali-duanzhengxing-1147"
+    ],
+    "startYear": 1156,
+    "endYear": 1161,
+    "precision": "approx",
+    "note": "阮氏《野史》系于 1155 年，《滇云历年传》作 1156 年；本表自 1156 年起计。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-shengming-1162",
+    "polityId": "dali",
+    "name": "盛明",
+    "reignIds": [
+      "dali-duanzhengxing-1147"
+    ],
+    "startYear": 1162,
+    "endYear": 1162,
+    "precision": "approx",
+    "note": "仅一年；《纪元编》谓盛明一作建德。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-jiande-1163",
+    "polityId": "dali",
+    "name": "建德",
+    "reignIds": [
+      "dali-duanzhengxing-1147"
+    ],
+    "startYear": 1163,
+    "endYear": 1171,
+    "precision": "approx",
+    "note": "《滇载记》不载此号；至 1171 年段正兴禅位。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-lizhen-1172",
+    "polityId": "dali",
+    "name": "利贞",
+    "reignIds": [
+      "dali-duanzhixing-1172"
+    ],
+    "startYear": 1172,
+    "endYear": 1175,
+    "precision": "approx",
+    "note": "《桂海虞衡志》载「利正二年」，可证 1172 年即位当年改元。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-shengde-1176",
+    "polityId": "dali",
+    "name": "盛德",
+    "reignIds": [
+      "dali-duanzhixing-1172"
+    ],
+    "startYear": 1176,
+    "endYear": 1180,
+    "precision": "approx",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-jiahui-1181",
+    "polityId": "dali",
+    "name": "嘉会",
+    "reignIds": [
+      "dali-duanzhixing-1172"
+    ],
+    "startYear": 1181,
+    "endYear": 1184,
+    "precision": "approx",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-yuanheng-1185",
+    "polityId": "dali",
+    "name": "元亨",
+    "reignIds": [
+      "dali-duanzhixing-1172"
+    ],
+    "startYear": 1185,
+    "endYear": 1195,
+    "precision": "approx",
+    "note": "误作亨利；讫年无确证，按《南诏野史》系年至 1195 年。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-anding-1196",
+    "polityId": "dali",
+    "name": "安定",
+    "reignIds": [
+      "dali-duanzhixing-1172"
+    ],
+    "startYear": 1196,
+    "endYear": 1200,
+    "precision": "approx",
+    "note": "讫于段智兴卒年；《纪元编》于安定后另列「亨时」，他书不载，未取。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-fengli-1200",
+    "polityId": "dali",
+    "name": "凤历",
+    "reignIds": [
+      "dali-duanzhilian-1200"
+    ],
+    "startYear": 1200,
+    "startMonth": 8,
+    "endYear": 1202,
+    "precision": "approx",
+    "note": "段智廉 1200 年八月即位即改元，与安定同年交接。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-yuanshou-1203",
+    "polityId": "dali",
+    "name": "元寿",
+    "reignIds": [
+      "dali-duanzhilian-1200"
+    ],
+    "startYear": 1203,
+    "endYear": 1204,
+    "precision": "approx",
+    "note": "仅见《云南志略》、胡氏《野史》与《纪元编》；起讫无确证。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-tiankai-1205",
+    "polityId": "dali",
+    "name": "天开",
+    "reignIds": [
+      "dali-duanzhixiang-1204"
+    ],
+    "startYear": 1205,
+    "endYear": 1225,
+    "precision": "approx",
+    "note": "段智祥 1204 年即位，次年改元；《纪元编》误连作「天开元寿」。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-tianfu-1226",
+    "polityId": "dali",
+    "name": "天辅",
+    "reignIds": [
+      "dali-duanzhixiang-1204"
+    ],
+    "startYear": 1226,
+    "endYear": 1226,
+    "precision": "approx",
+    "note": "1964 年出土《元故赵相副墓碑》有「天辅元年丙戌」，即 1226 年。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-renshou-1227",
+    "polityId": "dali",
+    "name": "仁寿",
+    "reignIds": [
+      "dali-duanzhixiang-1204"
+    ],
+    "startYear": 1227,
+    "endYear": 1238,
+    "precision": "approx",
+    "note": "至 1238 年段智祥禅位。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-daolong-1239",
+    "polityId": "dali",
+    "name": "道隆",
+    "reignIds": [
+      "dali-duanxiangxing-1239"
+    ],
+    "startYear": 1239,
+    "endYear": 1251,
+    "precision": "approx",
+    "note": "段祥兴 1239 年即位改元，行至 1251 年。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "dali-tianding-1252",
+    "polityId": "dali",
+    "name": "天定",
+    "reignIds": [
+      "dali-duanxingzhi-1251"
+    ],
+    "startYear": 1252,
+    "endYear": 1254,
+    "precision": "approx",
+    "note": "李崇智据碑刻谓段兴智仅用天定一号，此从之；1254 年大理亡。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-xiandao-1032",
+    "polityId": "xia",
+    "name": "显道",
+    "reignIds": [
+      "xia-jingzong-1032"
+    ],
+    "startYear": 1032,
+    "endYear": 1034,
+    "note": "1032 年李元昊继夏王位，避父李德明讳改宋「明道」为显道。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-kaiyun-1034",
+    "polityId": "xia",
+    "name": "开运",
+    "reignIds": [
+      "xia-jingzong-1032"
+    ],
+    "startYear": 1034,
+    "startMonth": 7,
+    "endYear": 1034,
+    "note": "仅行一月，因与后晋年号同而改元。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-guangyun-1034",
+    "polityId": "xia",
+    "name": "广运",
+    "reignIds": [
+      "xia-jingzong-1032"
+    ],
+    "startYear": 1034,
+    "startMonth": 8,
+    "endYear": 1036,
+    "note": "开运元年八月改元，与开运同年交接。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-daqing-1036",
+    "polityId": "xia",
+    "name": "大庆",
+    "reignIds": [
+      "xia-jingzong-1032"
+    ],
+    "startYear": 1036,
+    "startMonth": 12,
+    "endYear": 1038,
+    "note": "十二月改元；1038 年十月称帝改元天授礼法延祚。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-tianshou-1038",
+    "polityId": "xia",
+    "name": "天授礼法延祚",
+    "reignIds": [
+      "xia-jingzong-1032"
+    ],
+    "startYear": 1038,
+    "startMonth": 10,
+    "endYear": 1048,
+    "note": "1038 年十月称帝建大夏；六字年号。毅宗 1048 年正月即位沿用至年末。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-yansiningguo-1049",
+    "polityId": "xia",
+    "name": "延嗣宁国",
+    "reignIds": [
+      "xia-yizong-1048"
+    ],
+    "startYear": 1049,
+    "endYear": 1049,
+    "note": "或作宁国，仅一年。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-tianyouchuisheng-1050",
+    "polityId": "xia",
+    "name": "天祐垂圣",
+    "reignIds": [
+      "xia-yizong-1048"
+    ],
+    "startYear": 1050,
+    "endYear": 1052,
+    "note": "或作垂圣。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-fushengchengdao-1053",
+    "polityId": "xia",
+    "name": "福圣承道",
+    "reignIds": [
+      "xia-yizong-1048"
+    ],
+    "startYear": 1053,
+    "endYear": 1056,
+    "note": "或作福圣、承道。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-dandu-1057",
+    "polityId": "xia",
+    "name": "奲都",
+    "reignIds": [
+      "xia-yizong-1048"
+    ],
+    "startYear": 1057,
+    "endYear": 1062,
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-gonghua-1063",
+    "polityId": "xia",
+    "name": "拱化",
+    "reignIds": [
+      "xia-yizong-1048"
+    ],
+    "startYear": 1063,
+    "endYear": 1067,
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-qiandao-1067",
+    "polityId": "xia",
+    "name": "乾道",
+    "reignIds": [
+      "xia-huizong-1067"
+    ],
+    "startYear": 1067,
+    "endYear": 1068,
+    "disputed": true,
+    "note": "《西夏纪》《西夏书事》等以 1068 年为乾道元年；本表从即位当年改元说。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-tiancilisheng-1069",
+    "polityId": "xia",
+    "name": "天赐礼盛国庆",
+    "reignIds": [
+      "xia-huizong-1067"
+    ],
+    "startYear": 1069,
+    "endYear": 1074,
+    "disputed": true,
+    "note": "六字年号，或作天赐国庆；一说 1070 年为元年。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-daan-1075",
+    "polityId": "xia",
+    "name": "大安",
+    "reignIds": [
+      "xia-huizong-1067"
+    ],
+    "startYear": 1075,
+    "endYear": 1085,
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-tiananliding-1086",
+    "polityId": "xia",
+    "name": "天安礼定",
+    "reignIds": [
+      "xia-huizong-1067"
+    ],
+    "startYear": 1086,
+    "startMonth": 1,
+    "endYear": 1086,
+    "note": "正月改元，七月惠宗卒、崇宗即位改元天仪治平，同年交接。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-tianyizhiping-1086",
+    "polityId": "xia",
+    "name": "天仪治平",
+    "reignIds": [
+      "xia-chongzong-1086"
+    ],
+    "startYear": 1086,
+    "startMonth": 7,
+    "endYear": 1089,
+    "note": "崇宗七月即位改元。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-tianyouminan-1090",
+    "polityId": "xia",
+    "name": "天祐民安",
+    "reignIds": [
+      "xia-chongzong-1086"
+    ],
+    "startYear": 1090,
+    "endYear": 1097,
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-yongan-1098",
+    "polityId": "xia",
+    "name": "永安",
+    "reignIds": [
+      "xia-chongzong-1086"
+    ],
+    "startYear": 1098,
+    "endYear": 1100,
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-zhenguan-1101",
+    "polityId": "xia",
+    "name": "贞观",
+    "reignIds": [
+      "xia-chongzong-1086"
+    ],
+    "startYear": 1101,
+    "endYear": 1113,
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-yongning-1114",
+    "polityId": "xia",
+    "name": "雍宁",
+    "reignIds": [
+      "xia-chongzong-1086"
+    ],
+    "startYear": 1114,
+    "endYear": 1118,
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-daqing-1140",
+    "polityId": "xia",
+    "name": "大庆（复）",
+    "reignIds": [
+      "xia-renzong-1139"
+    ],
+    "startYear": 1140,
+    "endYear": 1143,
+    "note": "与景宗 1036 年之大庆同名，仁宗 1139 年即位，次年改元。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-renqing-1144",
+    "polityId": "xia",
+    "name": "人庆",
+    "reignIds": [
+      "xia-renzong-1139"
+    ],
+    "startYear": 1144,
+    "endYear": 1148,
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-tiansheng-1149",
+    "polityId": "xia",
+    "name": "天盛",
+    "reignIds": [
+      "xia-renzong-1139"
+    ],
+    "startYear": 1149,
+    "endYear": 1169,
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-qianyou-1170",
+    "polityId": "xia",
+    "name": "乾祐",
+    "reignIds": [
+      "xia-renzong-1139"
+    ],
+    "startYear": 1170,
+    "endYear": 1193,
+    "note": "西夏行用最久的年号，凡二十四年。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-tianqing-1194",
+    "polityId": "xia",
+    "name": "天庆",
+    "reignIds": [
+      "xia-huanzong-1193"
+    ],
+    "startYear": 1194,
+    "endYear": 1205,
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-yingtian-1206",
+    "polityId": "xia",
+    "name": "应天",
+    "reignIds": [
+      "xia-xiangzong-1206"
+    ],
+    "startYear": 1206,
+    "endYear": 1209,
+    "note": "襄宗废桓宗自立当年改元。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-huangjian-1210",
+    "polityId": "xia",
+    "name": "皇建",
+    "reignIds": [
+      "xia-xiangzong-1206"
+    ],
+    "startYear": 1210,
+    "endYear": 1211,
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-guangding-1211",
+    "polityId": "xia",
+    "name": "光定",
+    "reignIds": [
+      "xia-shenzong-1211"
+    ],
+    "startYear": 1211,
+    "endYear": 1223,
+    "note": "神宗 1211 年废襄宗自立，与皇建同年交接。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-qianding-1223",
+    "polityId": "xia",
+    "name": "乾定",
+    "reignIds": [
+      "xia-xianzong-1223"
+    ],
+    "startYear": 1223,
+    "endYear": 1226,
+    "note": "献宗 1223 年即位当年改元，与光定同年交接。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "xia-baoyi-1226",
+    "polityId": "xia",
+    "name": "宝义",
+    "reignIds": [
+      "xia-mozhu-1226"
+    ],
+    "startYear": 1226,
+    "endYear": 1227,
+    "note": "末帝 1226 年即位改元；1227 年西夏亡。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "kk-xianqing-1144",
+    "polityId": "karakhitai",
+    "name": "咸清",
+    "reignIds": [
+      "kk-xiaotabuyan-1143"
+    ],
+    "startYear": 1144,
+    "endYear": 1150,
+    "disputed": true,
+    "note": "感天后 1143 年称制，翌年改元；一说 1136–1142 年，未取。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "kk-shaoxing-1151",
+    "polityId": "karakhitai",
+    "name": "绍兴",
+    "reignIds": [
+      "kk-yelvyilie-1150"
+    ],
+    "startYear": 1151,
+    "endYear": 1163,
+    "disputed": true,
+    "note": "仁宗 1150 年即位，翌年改元；一说 1142–1154 年。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "kk-chongfu-1164",
+    "polityId": "karakhitai",
+    "name": "崇福",
+    "reignIds": [
+      "kk-yelvpusuwan-1163"
+    ],
+    "startYear": 1164,
+    "endYear": 1177,
+    "disputed": true,
+    "note": "承天后 1163 年称制，翌年改元；一说 1154–1168 年。",
+    "sources": [
+      "S2",
+      "S4"
+    ]
+  },
+  {
+    "id": "kk-tianxi-1178",
+    "polityId": "karakhitai",
+    "name": "天禧",
+    "reignIds": [
+      "kk-zhilugu-1178",
+      "kk-quchulv-1211"
+    ],
+    "startYear": 1178,
+    "endYear": 1218,
+    "note": "直鲁古 1178 年即位改元；屈出律篡位后沿用不改元，故记至 1218 年西辽亡。",
     "sources": [
       "S2",
       "S4"

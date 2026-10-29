@@ -121,14 +121,15 @@ npm test           # regression tests for dates, conversion, search, and dossier
 
 **Done**
 
-- full era import (36 polities / 242 rulers / 540 era names), with ganzhi cross-checked entry by entry;
+- full era import (62 polities / 390 rulers / 767 era names), with ganzhi cross-checked entry by entry;
 - a full event base (753 entries across 555 years) linked to 78 people's birth and death;
+- the Sixteen Kingdoms and Ten States, plus complete era chains for Dali, Western Xia, and Qara Khitai;
 - vertical timeline, almanac-style reading page, chronology reference, heritage, glass search, annual dossier;
 - the dynasty browser folded into the search palette, matching light and dark layouts, data validation and regression tests.
 
 **Planned**
 
-- fill in the Sixteen Kingdoms, Ten Kingdoms, and Qara Khitai eras after 1143;
+- add the minor Sixteen Kingdoms states (Ran Wei, Western Yan, Zhai Wei, Dai) and other regional regimes;
 - event categories and ruler profile pages;
 - linking history to place: a heritage map plus deep links into the timeline, without drawing borders of our own;
 - expanding the heritage list toward the full national key heritage register.

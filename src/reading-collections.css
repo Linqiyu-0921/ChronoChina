@@ -239,3 +239,5 @@
 /* 移除「返回编年」后，保留页面与页头之间的呼吸距离 */
 main > section.collection-page,
 main > section.about-intro { margin-top: 18px; }
+.book-era h2.era-none{ font-size:15px; letter-spacing:.3em; color:var(--text-muted); margin:20px 0 10px; }
+@media(max-width:900px){ .book-era h2.era-none{ margin:14px 0 6px; } }

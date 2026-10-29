@@ -18,7 +18,7 @@ assert.equal(parseQuery('前221').year, -220);
 assert.equal(parseQuery('0').kind, 'none');
 assert.equal(parseQuery('前0').kind, 'none');
 assert.equal(parseQuery('-220').kind, 'none');
-assert.equal(parseQuery('天会十三年').matches[0].year, 1135);
+assert.deepEqual(parseQuery('天会十三年').matches.map(m => m.year).sort((a, b) => a - b), [969, 1135]);
 assert.equal(parseQuery('靖康九十九年').kind, 'none');
 assert.ok(parseQuery('天祐').matches.length >= 2);
 assert.ok(parseQuery('丁未').years.length > 12);

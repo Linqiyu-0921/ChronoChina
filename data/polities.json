@@ -94,6 +94,24 @@
     ]
   },
   {
+    "id": "cheng-han",
+    "name": "成汉",
+    "fullName": "成（338年改国号为汉）",
+    "startYear": 303,
+    "endYear": 347,
+    "color": "#7a6a3d",
+    "note": "巴氐李氏所建，都成都；303年李特建元建初，304年李雄称成都王，347年为东晋所灭"
+  },
+  {
+    "id": "han-zhao",
+    "name": "前赵",
+    "fullName": "汉（318年刘曜改国号为赵）",
+    "startYear": 304,
+    "endYear": 329,
+    "color": "#5e4430",
+    "note": "匈奴刘氏所建，初国号汉，都平阳，后迁长安"
+  },
+  {
     "id": "eastern-jin",
     "name": "东晋",
     "startYear": 317,
@@ -104,6 +122,69 @@
     ]
   },
   {
+    "id": "qian-liang",
+    "name": "前凉",
+    "fullName": "凉",
+    "startYear": 317,
+    "endYear": 376,
+    "color": "#6d7a4a",
+    "note": "汉族张氏据凉州，长期奉晋正朔，376年为前秦所灭"
+  },
+  {
+    "id": "hou-zhao",
+    "name": "后赵",
+    "fullName": "赵",
+    "startYear": 319,
+    "endYear": 351,
+    "color": "#a3783f",
+    "note": "羯族石勒所建，都襄国，后迁邺"
+  },
+  {
+    "id": "qian-yan",
+    "name": "前燕",
+    "fullName": "燕",
+    "startYear": 337,
+    "endYear": 370,
+    "color": "#8c7a3a",
+    "note": "鲜卑慕容皝所建，都龙城，后迁蓟、邺"
+  },
+  {
+    "id": "qian-qin",
+    "name": "前秦",
+    "fullName": "秦",
+    "startYear": 350,
+    "endYear": 394,
+    "color": "#a3823c",
+    "note": "氐族苻氏所建，都长安，394年为后秦所灭"
+  },
+  {
+    "id": "hou-yan",
+    "name": "后燕",
+    "fullName": "燕",
+    "startYear": 384,
+    "endYear": 407,
+    "color": "#5f6b45",
+    "note": "慕容垂复国，都中山，后迁龙城，407年为北燕所代"
+  },
+  {
+    "id": "hou-qin",
+    "name": "后秦",
+    "fullName": "秦",
+    "startYear": 384,
+    "endYear": 417,
+    "color": "#6a5a3f",
+    "note": "羌族姚氏所建，都长安，417年为东晋所灭"
+  },
+  {
+    "id": "xi-qin",
+    "name": "西秦",
+    "fullName": "秦",
+    "startYear": 385,
+    "endYear": 431,
+    "color": "#7f6b4f",
+    "note": "鲜卑乞伏氏据苑川、枹罕，400年亡于后秦，409年复国，431年为夏所灭"
+  },
+  {
     "id": "northern-wei",
     "name": "北魏",
     "startYear": 386,
@@ -112,6 +193,69 @@
     "sources": [
       "S3"
     ]
+  },
+  {
+    "id": "hou-liang",
+    "name": "后凉",
+    "fullName": "凉",
+    "startYear": 386,
+    "endYear": 403,
+    "color": "#9c7a4a",
+    "note": "氐族吕光据姑臧，403年降后秦"
+  },
+  {
+    "id": "nan-liang",
+    "name": "南凉",
+    "fullName": "凉",
+    "startYear": 397,
+    "endYear": 414,
+    "color": "#6f7a3f",
+    "note": "鲜卑秃发氏据乐都，414年为西秦所灭"
+  },
+  {
+    "id": "bei-liang",
+    "name": "北凉",
+    "fullName": "凉",
+    "startYear": 397,
+    "endYear": 439,
+    "color": "#5a4a35",
+    "note": "卢水胡沮渠氏，初拥段业，后都张掖、姑臧，439年为北魏所灭"
+  },
+  {
+    "id": "nan-yan",
+    "name": "南燕",
+    "fullName": "燕",
+    "startYear": 398,
+    "endYear": 410,
+    "color": "#8a7a55",
+    "note": "慕容德据滑台、广固，410年为东晋刘裕所灭"
+  },
+  {
+    "id": "xi-liang",
+    "name": "西凉",
+    "fullName": "凉",
+    "startYear": 400,
+    "endYear": 421,
+    "color": "#8f7a5a",
+    "note": "汉族李氏据敦煌、酒泉，421年为北凉所灭"
+  },
+  {
+    "id": "bei-yan",
+    "name": "北燕",
+    "fullName": "燕",
+    "startYear": 407,
+    "endYear": 436,
+    "color": "#4e5f3a",
+    "note": "高云、冯跋相继，都龙城，436年为北魏所灭"
+  },
+  {
+    "id": "helian-xia",
+    "name": "夏",
+    "fullName": "夏（胡夏）",
+    "startYear": 407,
+    "endYear": 431,
+    "color": "#6f4f2a",
+    "note": "匈奴赫连勃勃所建，都统万城，431年为吐谷浑所擒而亡"
   },
   {
     "id": "liu-song",
@@ -219,6 +363,15 @@
     ]
   },
   {
+    "id": "yang-wu",
+    "name": "吴",
+    "fullName": "吴（杨吴）",
+    "startYear": 902,
+    "endYear": 937,
+    "color": "#4f7d78",
+    "note": "902 年杨行密受唐封吴王；919 年杨隆演称吴国王，开始建年号；937 年为南唐所代。"
+  },
+  {
     "id": "later-liang",
     "name": "后梁",
     "startYear": 907,
@@ -242,6 +395,51 @@
     "note": "907 年阿保机称汗建契丹，916 年建元神册、后改国号辽；1125 年保大五年二月天祚帝被金军所俘，辽亡。本表自 907 年起纪。"
   },
   {
+    "id": "wu-yue",
+    "name": "吴越",
+    "fullName": "吴越（钱氏）",
+    "startYear": 907,
+    "endYear": 978,
+    "color": "#6d9086",
+    "note": "907 年钱镠受封吴越王；978 年钱俶纳土归宋。"
+  },
+  {
+    "id": "chu",
+    "name": "楚",
+    "fullName": "楚（马楚）",
+    "startYear": 907,
+    "endYear": 951,
+    "color": "#567a6f",
+    "note": "907 年马殷受封楚王，927 年进封楚国王；951 年为南唐所灭。"
+  },
+  {
+    "id": "qian-shu",
+    "name": "前蜀",
+    "fullName": "前蜀（王氏）",
+    "startYear": 907,
+    "endYear": 925,
+    "color": "#7b8f9e",
+    "note": "907 年王建称帝，国号大蜀；925 年为后唐所灭。"
+  },
+  {
+    "id": "min",
+    "name": "闽",
+    "fullName": "闽（王氏）",
+    "startYear": 909,
+    "endYear": 945,
+    "color": "#7d8fa6",
+    "note": "909 年王审知受封闽王；933 年王延钧称帝；943 年王延政在建州称帝，国号殷，旋改闽；945 年为南唐所灭。"
+  },
+  {
+    "id": "nan-han",
+    "name": "南汉",
+    "fullName": "南汉（刘氏）",
+    "startYear": 917,
+    "endYear": 971,
+    "color": "#3f6b73",
+    "note": "917 年刘龑称帝，国号大越，次年改国号为汉；971 年降宋。"
+  },
+  {
     "id": "later-tang",
     "name": "后唐",
     "startYear": 923,
@@ -250,6 +448,24 @@
     "sources": [
       "S3"
     ]
+  },
+  {
+    "id": "jing-nan",
+    "name": "荆南",
+    "fullName": "荆南（南平）",
+    "startYear": 924,
+    "endYear": 963,
+    "color": "#63857b",
+    "note": "924 年高季兴受后唐封为南平王；963 年高继冲纳土归宋。"
+  },
+  {
+    "id": "hou-shu",
+    "name": "后蜀",
+    "fullName": "后蜀（孟氏）",
+    "startYear": 934,
+    "endYear": 965,
+    "color": "#8a7a9a",
+    "note": "934 年孟知祥称帝，国号蜀；965 年孟昶降宋。"
   },
   {
     "id": "later-jin",
@@ -273,6 +489,15 @@
     "note": "大理君主庙号与年号纪年多系后世追记与碑刻推定，本数据集年份均为约数。"
   },
   {
+    "id": "nan-tang",
+    "name": "南唐",
+    "fullName": "南唐（李氏）",
+    "startYear": 937,
+    "endYear": 975,
+    "color": "#5b7f96",
+    "note": "937 年李昪代吴称帝，初国号齐，939 年复李姓、改国号唐；975 年金陵破，李煜降宋。"
+  },
+  {
     "id": "later-han",
     "name": "后汉",
     "startYear": 947,
@@ -293,6 +518,15 @@
     ]
   },
   {
+    "id": "bei-han",
+    "name": "北汉",
+    "fullName": "北汉（刘氏）",
+    "startYear": 951,
+    "endYear": 979,
+    "color": "#586a8c",
+    "note": "951 年刘旻称帝，都太原；979 年宋太宗灭北汉。"
+  },
+  {
     "id": "song",
     "name": "宋",
     "fullName": "北宋 → 南宋",
@@ -309,10 +543,11 @@
     "id": "xia",
     "name": "西夏",
     "fullName": "西夏（党项）",
-    "startYear": 1038,
+    "startYear": 1032,
     "endYear": 1227,
     "color": "#7a5a7f",
-    "family": "xia"
+    "family": "xia",
+    "note": "1032 年李元昊继夏王位即建元显道，1038 年称帝建大夏；本表起讫含开国前六年纪年。"
   },
   {
     "id": "jin",
