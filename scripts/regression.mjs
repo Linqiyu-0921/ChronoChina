@@ -22,6 +22,7 @@ assert.deepEqual(parseQuery('天会十三年').matches.map(m => m.year).sort((a,
 assert.equal(parseQuery('靖康九十九年').kind, 'none');
 assert.ok(parseQuery('天祐').matches.length >= 2);
 assert.equal(time.eraDisplayName('建兴（复）'), '建兴');
+assert.equal(time.eraDisplayName('无年号（932）'), '无年号');
 assert.ok(parseQuery('建兴二年').matches.length >= 2, '去重后缀的年号应能按本名检索');
 assert.equal(parseQuery('无年号').kind, 'none');
 assert.ok(parseQuery('丁未').years.length > 12);

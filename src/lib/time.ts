@@ -12,10 +12,10 @@ export function ganzhiOf(year: number): string {
   return STEMS[s] + BRANCHES[b];
 }
 
-/** 天文纪年 → 展示文本：1127 → "1127"，-220 → "前221" */
-/** 数据里为区分同名年号加了「（复）」，显示时还原为年号本名 */
-export const eraDisplayName = (name: string) => name.replace(/（复）$/, '');
+/** 数据里为区分同名年号加了「（复）」，无年号占位带年份，显示时还原为年号本名 */
+export const eraDisplayName = (name: string) => name.replace(/（复）$/, '').replace(/^无年号（\d+）$/, '无年号');
 
+/** 天文纪年 → 展示文本：1127 → "1127"，-220 → "前221" */
 export function formatYear(year: number): string {
   return year > 0 ? String(year) : `前${1 - year}`;
 }
