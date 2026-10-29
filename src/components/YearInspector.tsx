@@ -1,78 +1,64 @@
-import { useEffect, useRef, useState, type CSSProperties } from 'react';
-import { fitPanel, resizePanel, type PanelRect } from '../lib/panelGeometry';
+import { useEffect, useRef, useState } from 'react';
 import YearPanel from './YearPanel';
-import { eventsByYear } from '../lib/data';
+import { eraRowsAtYear, eventsByYear } from '../lib/data';
+import { eraYearLabel, formatYearFull, ganzhiOf } from '../lib/time';
+
 interface Props { year: number; anchor: number; height: number; width: number; anchorX: number; }
-export default function YearInspector({ year, anchor, height, anchorX }: Props) {
-  const eventCount = eventsByYear.get(year)?.length ?? 0;
-  const [open, setOpen] = useState(false);
-  const [pinned, setPinned] = useState(false);
-  const [closing, setClosing] = useState(false);
-  const [opacity, setOpacity] = useState(86);
-  const [size, setSize] = useState({ width: 380, height: 460 });
-  const resizing = useRef<{ pointer: number; edge: string; x: number; y: number; rect: PanelRect } | null>(null);
-  const [position, setPosition] = useState({ x: 16, y: 88 });
+export default function YearInspector({ year, anchor, anchorX }: Props) {
+  const [mode, setMode] = useState<'closed' | 'short' | 'long' | 'pinned'>('closed');
+  const [pinnedYear, setPinnedYear] = useState(year);
+  const [position, setPosition] = useState({ left: 12, top: 80 });
+  const [link, setLink] = useState({ x: 0, from: 0, to: 0 });
   const trigger = useRef<HTMLButtonElement>(null);
   const panel = useRef<HTMLElement>(null);
   const closeButton = useRef<HTMLButtonElement>(null);
-  const timer = useRef<ReturnType<typeof setTimeout>>();
-  const drag = useRef<{ pointer: number; x: number; y: number; left: number; top: number } | null>(null);
-  const cardHeight = Math.min(460, Math.max(260, height - 40));
-  const constrain = (x: number, y: number) => ({ x: Math.max(12, Math.min(x, window.innerWidth - (panel.current?.offsetWidth ?? Math.min(380, window.innerWidth - 24)) - 12)), y: Math.max(12, Math.min(y, window.innerHeight - (panel.current?.offsetHeight ?? cardHeight) - 12)) });
-  const place = () => {
-    const r = trigger.current?.getBoundingClientRect();
-    if (!r) return;
-    const y = r.bottom + cardHeight + 12 < window.innerHeight ? r.bottom + 12 : Math.max(88, r.top - cardHeight - 12);
-    const box = fitPanel({ x: r.right - size.width, y, ...size }, window.innerWidth, window.innerHeight);
-    setPosition({ x: box.x, y: box.y }); setSize({ width: box.width, height: box.height });
-  };
-  const close = () => { clearTimeout(timer.current); setClosing(true); timer.current = setTimeout(() => { setOpen(false); setClosing(false); setPinned(false); trigger.current?.focus(); }, 180); };
-  useEffect(() => () => clearTimeout(timer.current), []);
+  const open = mode !== 'closed';
+  const readingYear = mode === 'pinned' ? pinnedYear : year;
+  const rows = eraRowsAtYear(readingYear);
+  const events = eventsByYear.get(readingYear) ?? [];
+  const close = () => { setMode('closed'); trigger.current?.focus({ preventScroll: true }); };
   useEffect(() => {
     if (!open) return;
     closeButton.current?.focus({ preventScroll: true });
-    const escape = (e: KeyboardEvent) => { if (e.key === 'Escape' && !document.querySelector('dialog[open]')) { e.preventDefault(); close(); } };
-    const resize = () => {
-      const r = panel.current?.getBoundingClientRect();
-      if (!r) return;
-      const box = fitPanel({ x: r.x, y: r.y, width: r.width, height: r.height }, window.innerWidth, window.innerHeight);
-      setPosition({ x: box.x, y: box.y }); setSize({ width: box.width, height: box.height });
-    };
-    const observer = new ResizeObserver(resize);
-    if (panel.current) observer.observe(panel.current);
-    window.addEventListener('resize', resize);
+    const escape = (e: KeyboardEvent) => { if (e.key === 'Escape' && !document.querySelector('dialog[open]')) { setMode('closed'); trigger.current?.focus({ preventScroll: true }); } };
     window.addEventListener('keydown', escape);
-    return () => { observer.disconnect(); window.removeEventListener('resize', resize); window.removeEventListener('keydown', escape); };
+    return () => window.removeEventListener('keydown', escape);
   }, [open]);
+  useEffect(() => {
+    if (!open) return;
+    const place = () => {
+      const r = trigger.current?.getBoundingClientRect();
+      const card = panel.current;
+      if (!r || !card) return;
+      const left = Math.max(12, Math.min(r.right - card.offsetWidth, window.innerWidth - card.offsetWidth - 12));
+      const below = r.bottom + 14;
+      const top = below + card.offsetHeight <= window.innerHeight - 12 ? below : Math.max(12, r.top - card.offsetHeight - 14);
+      setPosition({ left, top });
+      setLink({ x: Math.min(r.left + 18, left + card.offsetWidth - 16), from: r.top + r.height / 2, to: top > r.top ? top : top + card.offsetHeight });
+    };
+    place();
+    const observer = new ResizeObserver(place);
+    if (panel.current) observer.observe(panel.current);
+    window.addEventListener('resize', place);
+    return () => { observer.disconnect(); window.removeEventListener('resize', place); };
+  }, [open, mode, anchor, anchorX, year]);
   return <>
-    <button ref={trigger} className="year-inspector-toggle" style={{ top: anchor, left: anchorX }} aria-expanded={open} aria-controls="year-inspector" onClick={() => { if (open) close(); else { place(); setOpen(true); } }}>年档案{eventCount > 0 && <small> · {eventCount} 条纪事</small>} <span>{open ? '−' : '+'}</span></button>
-    {open && <section ref={panel} id="year-inspector" role="region" aria-label="年份笺注" className={`year-inspector glass-inspector ${pinned ? 'is-pinned' : ''} ${closing ? 'is-closing' : ''}`} style={{ left: position.x, top: position.y, width: size.width, height: size.height, maxHeight: 'calc(100dvh - 24px)', '--inspector-opacity': opacity / 100 } as CSSProperties}>
-      {(['n', 'e', 's', 'w', 'ne', 'se', 'sw', 'nw'] as const).map(edge => <div key={edge} className={`inspector-resize resize-${edge}`} role="separator" tabIndex={0} aria-label={`调整档案${({ n: '上边', e: '右边', s: '下边', w: '左边', ne: '右上角', se: '右下角', sw: '左下角', nw: '左上角' })[edge]}尺寸`} onPointerDown={e => {
-        if (e.button !== 0) return;
-        e.preventDefault(); e.currentTarget.setPointerCapture(e.pointerId);
-        resizing.current = { pointer: e.pointerId, edge, x: e.clientX, y: e.clientY, rect: { ...position, ...size } };
-      }} onPointerMove={e => {
-        const r = resizing.current; if (!r || r.pointer !== e.pointerId) return;
-        const b = resizePanel(r.rect, r.edge, e.clientX - r.x, e.clientY - r.y, window.innerWidth, window.innerHeight);
-        setPosition({ x: b.x, y: b.y }); setSize({ width: b.width, height: b.height });
-      }} onPointerUp={e => { resizing.current = null; if (e.currentTarget.hasPointerCapture(e.pointerId)) e.currentTarget.releasePointerCapture(e.pointerId); }} onPointerCancel={() => { resizing.current = null; }} onKeyDown={e => {
-        if (!['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].includes(e.key)) return;
-        e.preventDefault(); e.stopPropagation();
-        const step = e.shiftKey ? 30 : 10;
-        const b = resizePanel({ ...position, ...size }, edge, e.key === 'ArrowLeft' ? -step : e.key === 'ArrowRight' ? step : 0, e.key === 'ArrowUp' ? -step : e.key === 'ArrowDown' ? step : 0, window.innerWidth, window.innerHeight);
-        setPosition({ x: b.x, y: b.y }); setSize({ width: b.width, height: b.height });
-      }} />)}
-      <header className="inspector-tools"><button className="inspector-drag" aria-label="拖动年份档案，或使用方向键移动" title="拖动摆放 · 方向键微调" onPointerDown={e => {
-        if (e.button !== 0) return;
-        e.preventDefault(); e.currentTarget.focus(); e.currentTarget.setPointerCapture(e.pointerId);
-        drag.current = { pointer: e.pointerId, x: e.clientX, y: e.clientY, left: position.x, top: position.y };
-      }} onPointerMove={e => { const d = drag.current; if (d && d.pointer === e.pointerId) setPosition(constrain(d.left + e.clientX - d.x, d.top + e.clientY - d.y)); }} onPointerUp={e => { drag.current = null; if (e.currentTarget.hasPointerCapture(e.pointerId)) e.currentTarget.releasePointerCapture(e.pointerId); }} onPointerCancel={() => { drag.current = null; }} onKeyDown={e => {
-        if (!['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].includes(e.key)) return;
-        e.preventDefault(); const step = e.shiftKey ? 30 : 10;
-        setPosition(p => constrain(p.x + (e.key === 'ArrowLeft' ? -step : e.key === 'ArrowRight' ? step : 0), p.y + (e.key === 'ArrowUp' ? -step : e.key === 'ArrowDown' ? step : 0)));
-      }}>{pinned ? '完整档案' : '年份笺注'} <span>⠿</span></button><button onClick={() => { if (!pinned) { const b = fitPanel({ x: window.innerWidth - 404, y: 64, width: size.width, height: window.innerHeight - 88 }, window.innerWidth, window.innerHeight); setPosition({ x: b.x, y: b.y }); setSize({ width: b.width, height: b.height }); } else place(); setPinned(v => !v); }}>{pinned ? '回到笺注' : '固定到侧边'}</button><button ref={closeButton} onClick={close} aria-label="收起年份档案">×</button></header>
-      <div className="inspector-settings"><label>纸面不透明度 <input aria-label="档案纸面不透明度" type="range" min="45" max="100" value={opacity} onChange={e => setOpacity(Number(e.target.value))} /><output>{opacity}%</output></label><button onClick={place}>归位</button></div>
-      <div className="inspector-scroll"><YearPanel year={year} compact={!pinned} /></div>
+    <button ref={trigger} className="year-inspector-toggle suijian-trigger" style={{ top: anchor, left: anchorX }} aria-expanded={open} aria-controls="year-inspector" onClick={() => open ? close() : setMode('short')}>
+      <span aria-hidden="true">◇</span> 岁笺 {mode === 'pinned' ? <small>已固定 · {formatYearFull(pinnedYear)}</small> : <small>{(eventsByYear.get(year)?.length ?? 0) > 0 ? `${eventsByYear.get(year)!.length} 条纪事` : '阅此年'}</small>}
+    </button>
+    {open && mode !== 'pinned' && <svg className="suijian-link" aria-hidden="true"><path d={`M${link.x} ${link.from}V${link.to}`} /></svg>}
+    {open && <section ref={panel} id="year-inspector" aria-label={`${formatYearFull(readingYear)}岁笺`} className={`suijian-paper suijian-${mode}`} style={mode === 'pinned' ? undefined : position}>
+      <header className="suijian-tools"><span>{mode === 'pinned' ? '岁笺 · 侧页' : '岁笺'}</span><div>
+        <button aria-label={mode === 'pinned' ? '取消固定' : '固定为侧页'} title={mode === 'pinned' ? '取消固定' : '固定为侧页'} onClick={() => { if (mode === 'pinned') setMode('long'); else { setPinnedYear(year); setMode('pinned'); } }}><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.3" aria-hidden="true"><path d="M8 3h8l-1 7 4 4H5l4-4-1-7ZM12 14v7"/></svg></button>
+        <button ref={closeButton} aria-label="收起岁笺" title="收起岁笺" onClick={close}><svg width="16" height="16" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.3" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button>
+      </div></header>
+      <div className="suijian-body">
+        {mode === 'short' ? <><h2>{formatYearFull(readingYear)}</h2><p className="suijian-subtitle">{ganzhiOf(readingYear)}年 · {new Set(rows.map(r => r.polity.id)).size} 政权纪年已录</p>
+          <div className="suijian-eras">{rows.slice(0, 4).map(row => <p key={row.era.id}><span>{row.polity.name}</span><strong>{row.era.name}{eraYearLabel(row.eraYearNo)}</strong></p>)}{!rows.length && <p>本年纪年尚待补录。</p>}{rows.length > 4 && <small>另有 {rows.length - 4} 条纪年，详见本年档。</small>}</div>
+          <div className="suijian-excerpt"><h3>这一年</h3>{events.length ? <><p>{events[0].title}</p><p>{events[0].summary}</p></> : <p>本年尚未收录纪事，亦可展开查阅同期纪年与人物。</p>}</div>
+        </> : <YearPanel year={readingYear} />}
+      </div>
+      <footer className="suijian-footer">{mode === 'short' ? <button onClick={() => setMode('long')}>展开本年档 <span aria-hidden="true">↗</span></button> : mode === 'long' ? <button onClick={() => setMode('short')}>收为短笺</button> : <span>已留存此年 · 可继续滚动对照</span>}</footer>
     </section>}
   </>;
 }
