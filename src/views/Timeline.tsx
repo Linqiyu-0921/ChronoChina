@@ -13,6 +13,7 @@ interface Props {
 const MIN = eraCoverage.min, MAX = eraCoverage.max;
 const bound = (y: number) => Math.max(MIN, Math.min(MAX, y));
 export default function Timeline({ target, domain, year, onNavigateYear, onOpenRecord }: Props) {
+  const [inspectorPinned, setInspectorPinned] = useState(false);
   const viewport = useRef<HTMLDivElement>(null);
   const scroller = useRef<HTMLDivElement>(null);
   const columns = useRef<HTMLDivElement>(null);
@@ -62,7 +63,7 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
     window.addEventListener('resize', measure);
     observer.observe(element);
     const wheel = (event: WheelEvent) => {
-      if ((event.target as HTMLElement).closest('.year-inspector')) return;
+      if ((event.target as HTMLElement).closest('.year-inspector, .suijian-paper')) return;
       if (event.ctrlKey || event.metaKey) {
         event.preventDefault();
         setPixelsPerYear(p => Math.max(.25, Math.min(100, p * (event.deltaY > 0 ? .85 : 1 / .85))));
@@ -109,7 +110,7 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
       scrollTo(y); onNavigateYear(y); setEditingYear(false); setYearError('');
     } else setYearError('请输入年份，如 1127 或前221');
   };
-  return <section className="vertical-atlas" aria-label="纵向历史比较">
+  return <section className={`vertical-atlas ${inspectorPinned ? 'has-sidepage' : ''}`} aria-label="纵向历史比较">
     <div ref={viewport} className="vertical-viewport">
       <div className="vertical-date-lane" aria-hidden="true"><span className="date-heading">公元纪年<small>年 / Year</small></span>{ticks.filter(y => position(y) > 84 && Math.abs(position(y) - pointerOffset) > 30).map(y => <div key={y} className={`vertical-tick ${(y > 0 ? y : 1 - y) % 5 === 0 ? 'major-tick' : 'minor-tick'}`} style={{ top: position(y) }}>{formatYear(y)}</div>)}</div>
       <div ref={columns} onScroll={e => setLanePage(Math.round(e.currentTarget.scrollLeft / columnWidth))} className="vertical-columns" tabIndex={0} aria-label="同期政权，横向滚动查看更多" style={{ gridTemplateColumns: `repeat(${Math.max(1, lanes.length)}, ${columnWidth}px)` }}>
@@ -178,7 +179,7 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
       <div className="fixed-year-pointer" style={{ top: pointerOffset }}>
         {editingYear ? <form onSubmit={go} className="pointer-edit"><input ref={yearInput} aria-label="直达年代" value={input} onChange={e => setInput(e.target.value)} onKeyDown={e => { if (e.key === 'Escape') { setEditingYear(false); setYearError(''); } }} /><button aria-label="前往年份">↵</button>{yearError && <span role="alert">{yearError}</span>}</form> : <button className="pointer-year" onClick={() => { setInput(formatYear(selectedYear)); setEditingYear(true); }} title="点击输入年份" aria-label={`当前 ${formatYear(selectedYear)} 年，点击修改`}><span>{formatYear(selectedYear)}</span><small>{ganzhiOf(selectedYear)}年</small></button>}
       </div>
-      <YearInspector year={selectedYear} anchor={pointerOffset + (archiveX === 20 ? 92 : 0)} height={height} width={width} anchorX={archiveX} />
+      <YearInspector onPinChange={setInspectorPinned} year={selectedYear} anchor={pointerOffset + (archiveX === 20 ? 92 : 0)} height={height} width={width} anchorX={archiveX} />
       <div ref={scroller} className="year-scroll-surface" tabIndex={0} aria-label="上下滚动选择历史年份" onKeyDown={e => {
         if (['ArrowUp', 'ArrowDown', 'PageUp', 'PageDown', 'Home', 'End'].includes(e.key)) {
           e.preventDefault(); const next = e.key === 'Home' ? MIN : e.key === 'End' ? MAX : bound(center + (e.key.endsWith('Up') ? -1 : 1) * (e.key.startsWith('Page') ? Math.max(1, visibleSpan / 2) : 1));

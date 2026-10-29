@@ -197,8 +197,24 @@
 [data-theme="dark"] .suijian-paper { background:#292923; color:#eee9dd; border-color:#615b4e; box-shadow:0 8px 30px #0003; }
 [data-theme="dark"] .suijian-paper :is(.suijian-subtitle,.suijian-tools,.suijian-eras p>span,.suijian-excerpt h3,.suijian-excerpt p:last-child,.suijian-footer) { color:#bcb5a5; }
 @keyframes suijian-enter { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:translateY(0); } }
-@media(max-width:600px) { .suijian-paper { left:8px!important; top:auto!important; bottom:8px; right:8px; width:auto; max-width:none; max-height:70dvh; } .suijian-pinned { height:70dvh; } }
+@media(max-width:600px) { .suijian-paper { left:8px; top:auto; bottom:8px; right:8px; width:auto; max-width:none; max-height:70dvh; } .suijian-pinned { height:70dvh; } }
 @media(prefers-reduced-motion:reduce) { .suijian-paper { animation:none; } }
 
 .suijian-link { position:fixed; inset:0; width:100vw; height:100dvh; pointer-events:none; z-index:84; fill:none; stroke:#b6aa98; stroke-width:1; }
 @media(max-width:600px) { .suijian-link { display:none; } }
+
+.book-timeline .vertical-atlas { width:100%; transition:width 360ms cubic-bezier(.22,1,.36,1); }
+.book-timeline .vertical-atlas.has-sidepage { width:calc(100% - 382px); }
+.suijian-paper .inspector-resize { z-index:5; touch-action:none; }
+.suijian-paper:not(.suijian-pinned) .suijian-tools { cursor:grab; touch-action:none; }
+.suijian-paper:not(.suijian-pinned) .suijian-tools:active { cursor:grabbing; }
+.suijian-body { min-height:0; flex:1; }
+.suijian-pinned { animation:suijian-enter 360ms cubic-bezier(.22,1,.36,1); }
+@media(max-width:700px) {
+ .book-timeline .vertical-atlas.has-sidepage { width:100%; height:48dvh; flex:0 0 48dvh; }
+ .suijian-pinned { top:auto!important; bottom:8px; height:38dvh; max-height:38dvh; }
+ .suijian-paper.is-positioned:not(.suijian-pinned) {  bottom:auto; right:auto; max-height:calc(100dvh - 24px); }
+}
+@media(prefers-reduced-motion:reduce) { .book-timeline .vertical-atlas { transition:none; } }
+@media(max-width:600px) { .suijian-paper:not(.is-positioned):not(.suijian-pinned) { left:8px!important; top:auto!important; } }
+.suijian-paper .inspector-resize:focus-visible { outline:1px solid var(--accent); }
