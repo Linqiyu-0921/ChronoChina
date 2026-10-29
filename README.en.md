@@ -38,7 +38,7 @@ Open it as is, or run it locally (see [Getting started](#getting-started)) if yo
 
 ## Screenshots
 
-**Reading (阅年), dark**: one year per page, laid out like an almanac. The year leads and the ganzhi follows; contemporary regimes are numbered 01—05 by founding order, and a one-line epigraph states the year's shape.
+**Reading (阅年), dark**: one year per page, laid out like an almanac. The year leads and the ganzhi follows; contemporary regimes are numbered 01—05 from south to north by the latitude of their capital, and a one-line epigraph states the year's shape.
 
 ![Reading view (dark)](docs/preview/01-reading-dark.png)
 
@@ -64,8 +64,8 @@ Open it as is, or run it locally (see [Getting started](#getting-started)) if yo
 
 ## Features
 
-- **Reading (阅年)** — one year per page: the year, its ganzhi, and how many regimes stood at once; the epigraph is generated from that year's era changes ("丁未之年，五政权并立；赵宋改元建炎，西夏改元正德。"); regimes are numbered by founding order and split into two columns when five coexist; expand one to see its era name, ruler, span, and month of change; turn pages with the wheel / `↑ ↓` / swipe. Each page opens an "annual dossier" gathering the year's events, contemporary eras, and people alive.
-- **Timeline (并世)** — vertical multi-year comparison: Gregorian years on the left, a vermilion line at the current year; each surviving regime gets a column with an exhibition label, era names are drawn as duration bars at their true extent, and regimes crossing the current year open their era, ruler, and month of change; disputed and approximate dates are marked; `Ctrl / ⌘ + wheel` changes time density, `‹ ›` pages through regime groups.
+- **Reading (阅年)** — one year per page: the year, its ganzhi, and how many regimes stood at once; the epigraph is generated from that year's era changes ("丁未之年，五政权并立；赵宋改元建炎，西夏改元正德。"); regimes run south to north by the latitude of their capital and split into two columns when five coexist; expand one to see its era name, ruler, span, and month of change; turn pages with the wheel / `↑ ↓` / swipe. Each page opens an "annual dossier" gathering the year's events, contemporary eras, and people alive.
+- **Timeline (并世)** — vertical multi-year comparison: Gregorian years on the left, a vermilion line at the current year; each surviving regime gets a column with an exhibition label, ordered south to north, era names are drawn as duration bars at their true extent, and regimes crossing the current year open their era, ruler, and month of change; disputed and approximate dates are marked; `Ctrl / ⌘ + wheel` changes time density, `‹ ›` pages through regime groups.
 - **Search** — `Ctrl / ⌘ + K`: empty means browse by period and regime, and a click jumps to the founding year with the comparison window kept; typing searches years (`1127`, `前221`), era names (`建炎元年`, `绍兴`), ganzhi (`丁未`), person aliases (`秦始皇`), and regime pinyin (`donghan`).
 - **Annual dossier** — a floating record you can drag, resize on all eight handles, fade, or dock to the side; it follows the current year.
 - **Chronology reference** — polities, rulers, era names, spans, ganzhi, months of change, disputes, and sources in one table, filterable and exportable to CSV.

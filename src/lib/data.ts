@@ -3,6 +3,7 @@
  * 类型即契约：数据结构的说明见 README「数据模型」一节。
  */
 import { formatYear } from './time';
+import { bySouthToNorth } from './geography';
 import politiesJson from '../../data/polities.json';
 import reignsJson from '../../data/reigns.json';
 import erasJson from '../../data/eras.json';
@@ -219,7 +220,7 @@ export function eraRowsAtYear(year: number): YearEraRow[] {
       }
     }
   }
-  return rows;
+  return rows.sort((a, b) => bySouthToNorth(a.polity, b.polity));
 }
 
 export function sourceShort(ids?: string[]): string[] {

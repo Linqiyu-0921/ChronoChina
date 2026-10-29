@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { eraCoverage, eraRowsAtYear, eventsByYear, polities } from '../lib/data';
+import { orderBySouthToNorth } from '../lib/geography';
 import { eraDisplayName, eraYearLabel, formatYear, formatYearFull, ganzhiOf } from '../lib/time';
 import YearPanel from '../components/YearPanel';
 
@@ -32,7 +33,7 @@ export default function YearBook({year,onYear,blocked}:{year:number;onYear:(year
  },[archive]);
  const active=polities.filter(p=>p.startYear<=year&&p.endYear>=year);
  const rows=eraRowsAtYear(year), stories=eventsByYear.get(year)??[];
- const ordered=[...active].sort((a,b)=>a.startYear-b.startYear);
+ const ordered=orderBySouthToNorth(active);
  const changes=rows.filter(r=>r.era.startYear===year&&!r.era.name.includes('无年号')).slice(0,3).map(r=>`${r.polity.name}改元${eraDisplayName(r.era.name)}`);
  const cn=(n:number)=>n<=10?'〇一二三四五六七八九十'[n]:String(n);
  const tail=changes.length?`；${changes.join('，')}`:'';

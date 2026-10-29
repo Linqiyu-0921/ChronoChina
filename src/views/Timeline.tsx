@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { eraRowsAtYear, eraCoverage, polities, erasByPolity, reignById } from '../lib/data';
 import YearInspector from '../components/YearInspector';
 import { eraDisplayName, eraYearLabel, ganzhiOf, formatYear } from '../lib/time';
+import { orderBySouthToNorth } from '../lib/geography';
 
 interface Props {
   target?: { polityId?: string; eraId?: string; key: number };
@@ -34,7 +35,7 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
   const [yearError, setYearError] = useState('');
   const yearInput = useRef<HTMLInputElement>(null);
   useEffect(() => { if (editingYear) yearInput.current?.select(); }, [editingYear]);
-  const lanes = useMemo(() => polities.filter(p => p.startYear <= Math.round(center) && p.endYear >= Math.round(center)), [Math.round(center)]);
+  const lanes = useMemo(() => orderBySouthToNorth(polities.filter(p => p.startYear <= Math.round(center) && p.endYear >= Math.round(center))), [Math.round(center)]);
   const top = center - pointerOffset / pixelsPerYear;
   const position = (y: number) => (y - top) * pixelsPerYear;
   const scrollTo = (y: number) => {
