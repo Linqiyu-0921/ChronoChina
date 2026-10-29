@@ -3,7 +3,7 @@
  */
 import { useState } from 'react';
 import { erasByPolity, polities, reignById, sourceShort, type EraUse } from '../lib/data';
-import { chineseNum, formatYear, ganzhiOf } from '../lib/time';
+import { chineseNum, eraDisplayName, formatYear, ganzhiOf } from '../lib/time';
 
 export default function EraTable({onJumpToYear}:{onJumpToYear:(year:number)=>void}) {
   const [filter, setFilter] = useState<string>('all');
@@ -27,7 +27,7 @@ export default function EraTable({onJumpToYear}:{onJumpToYear:(year:number)=>voi
       return [
         p.name,
         rulers,
-        e.name,
+        eraDisplayName(e.name),
         formatYear(e.startYear),
         ganzhiOf(e.startYear),
         formatYear(e.endYear),
@@ -105,7 +105,7 @@ export default function EraTable({onJumpToYear}:{onJumpToYear:(year:number)=>voi
                     </span>
                   </td>
                   <td>{rulers}</td>
-                  <td className="strong"><button className="era-record-link" title={`定位至${formatYear(e.startYear)}年`} onClick={()=>onJumpToYear(e.startYear)}>{e.name} ↗</button></td>
+                  <td className="strong"><button className="era-record-link" title={`定位至${formatYear(e.startYear)}年`} onClick={()=>onJumpToYear(e.startYear)}>{eraDisplayName(e.name)} ↗</button></td>
                   <td className="mono">{formatYear(e.startYear)}</td>
                   <td className="mono">{ganzhiOf(e.startYear)}</td>
                   <td className="mono">{formatYear(e.endYear)}</td>

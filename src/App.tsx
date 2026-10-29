@@ -8,7 +8,7 @@ import type { SearchHit } from './lib/search';
 import EraTable from './views/EraTable';
 import Sites from './views/Sites';
 import { eraCoverage, meta, sources, persons, events, sites, reigns, polities, eras } from './lib/data';
-import { formatYear, formatYearFull } from './lib/time';
+import { eraDisplayName, formatYear, formatYearFull } from './lib/time';
 
 type View = 'reading' | 'timeline' | 'table' | 'sites' | 'about';
 const readState = () => {
@@ -98,7 +98,7 @@ export default function App() {
         <Timeline target={target} onNavigateYear={setYear} year={year} domain={domain} onOpenRecord={(kind, id) => {
           if (kind === 'polity') { const p = polities.find(p => p.id === id)!; setDetail({ title: p.name, text: `${formatYearFull(p.startYear)}—${formatYearFull(p.endYear)}。${p.note ?? '政权存续范围依据当前纪元资料整理。'} 年号收录与政权存续分别表达；具体出处见来源目录。`, year: p.startYear }); }
           if (kind === 'reign') { const r = reigns.find(r => r.id === id)!; setDetail({ title: `${r.title} · ${r.name}`, text: `${formatYearFull(r.startYear)}—${formatYearFull(r.endYear)}。${r.note ?? '在位区间按当前资料整理，待条目级复核。'}`, year: r.startYear }); }
-          if (kind === 'era') { const e = eras.find(e => e.id === id)!; setDetail({ title: `${polities.find(p => p.id === e.polityId)?.name} · ${e.name}`, text: `${formatYearFull(e.startYear)}—${formatYearFull(e.endYear)}。${e.startMonth ? e.startMonth + '月改元。' : ''}${e.note ?? ''}${e.disputed ? '本条存在异说。' : ''} 来源：${e.sources?.map(id => sources.find(s => s.id === id)?.name).join('、')}`, year: e.startYear }); }
+          if (kind === 'era') { const e = eras.find(e => e.id === id)!; setDetail({ title: `${polities.find(p => p.id === e.polityId)?.name} · ${eraDisplayName(e.name)}`, text: `${formatYearFull(e.startYear)}—${formatYearFull(e.endYear)}。${e.startMonth ? e.startMonth + '月改元。' : ''}${e.note ?? ''}${e.disputed ? '本条存在异说。' : ''} 来源：${e.sources?.map(id => sources.find(s => s.id === id)?.name).join('、')}`, year: e.startYear }); }
         }} />
       </>}
       {<section className="collection-page" hidden={view !== 'table'}><header className="collection-head"><span className="collection-seal">纪元</span><div><p>CHRONOCHINA / CHRONOLOGY</p><h2>纪年资料库</h2><p>循年号，识君主，核对每一段历史的起讫。</p></div><small>{polities.length} 政权 · {eras.length} 条纪年</small></header><EraTable onJumpToYear={jumpToYear}/><p className="collection-note">起讫包含末年；涉及年份数不等于实际持续时长。点击年号，回到该纪年的起年。</p></section>}

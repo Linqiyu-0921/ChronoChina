@@ -1,6 +1,6 @@
 import { polities, reigns, eras, persons, events, sites, eraCoverage } from './data';
 import { parseQuery } from './convert';
-import { formatYear } from './time';
+import { eraDisplayName, formatYear } from './time';
 import { PERIOD_GROUPS, POLITY_ALIASES } from './navigation';
 export interface SearchHit { id: string; title: string; category: string; subtitle: string; year: number; polityId?: string; eraId?: string; aliases?: string[]; score?: number; }
 const inScope = (year: number) => year >= eraCoverage.min && year <= eraCoverage.max;
@@ -9,7 +9,7 @@ const index: SearchHit[] = [
   ...polities.map(p => ({ id: p.id, title: p.name, category: '政权', subtitle: `${formatYear(p.startYear)}—${formatYear(p.endYear)}`, year: p.startYear, polityId: p.id, aliases: POLITY_ALIASES[p.id] ?? [] })),
   ...PERIOD_GROUPS.map(p => ({ id: `period-${p.name}`, title: p.name, category: '时期', subtitle: `${formatYear(p.start)}—${formatYear(p.end)}`, year: p.start, aliases: p.name === '三国两晋' ? ['三国', 'sanguo'] : [] })),
   ...reigns.map(r => ({ id: r.id, title: `${r.title} · ${r.name}`, category: '帝王', subtitle: `${polities.find(p => p.id === r.polityId)?.name} · ${formatYear(r.startYear)}—${formatYear(r.endYear)}`, year: r.startYear, polityId: r.polityId, aliases: [r.name, r.title, ...(r.name.includes('嬴政') ? ['秦始皇', 'yingzheng', 'qinshihuang'] : [])] })),
-  ...eras.map(e => ({ id: e.id, title: e.name, category: '年号', subtitle: `${polities.find(p => p.id === e.polityId)?.name} · ${formatYear(e.startYear)}—${formatYear(e.endYear)}`, year: e.startYear, polityId: e.polityId, eraId: e.id })),
+  ...eras.filter(e => !e.name.includes('无年号')).map(e => ({ id: e.id, title: eraDisplayName(e.name), category: '年号', subtitle: `${polities.find(p => p.id === e.polityId)?.name} · ${formatYear(e.startYear)}—${formatYear(e.endYear)}`, year: e.startYear, polityId: e.polityId, eraId: e.id })),
   ...persons.filter(p => p.birth !== null).map(p => ({ id: p.id, title: p.name, category: '人物', subtitle: `${p.field} · 生年 ${formatYear(p.birth!)}`, year: p.birth! })),
   ...events.map(e => ({ id: e.id, title: e.title, category: '事件', subtitle: `${formatYear(e.year)}年`, year: e.year })),
   ...sites.map(s => ({ id: s.id, title: s.name, category: '遗产', subtitle: s.place, year: s.builtYear ?? s.builtRange?.[0] ?? NaN })),

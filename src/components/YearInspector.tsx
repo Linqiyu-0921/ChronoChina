@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import YearPanel from './YearPanel';
 import { eraRowsAtYear, eventsByYear } from '../lib/data';
-import { eraYearLabel, formatYearFull, ganzhiOf } from '../lib/time';
+import { eraDisplayName, eraYearLabel, formatYearFull, ganzhiOf } from '../lib/time';
 
 interface Props { year: number; anchor: number; height: number; width: number; anchorX: number; }
 export default function YearInspector({ year, anchor, anchorX }: Props) {
@@ -54,7 +54,7 @@ export default function YearInspector({ year, anchor, anchorX }: Props) {
       </div></header>
       <div className="suijian-body">
         {mode === 'short' ? <><h2>{formatYearFull(readingYear)}</h2><p className="suijian-subtitle">{ganzhiOf(readingYear)}年 · {new Set(rows.map(r => r.polity.id)).size} 政权纪年已录</p>
-          <div className="suijian-eras">{rows.slice(0, 4).map(row => <p key={row.era.id}><span>{row.polity.name}</span><strong>{row.era.name}{eraYearLabel(row.eraYearNo)}</strong></p>)}{!rows.length && <p>本年纪年尚待补录。</p>}{rows.length > 4 && <small>另有 {rows.length - 4} 条纪年，详见本年档。</small>}</div>
+          <div className="suijian-eras">{rows.slice(0, 4).map(row => <p key={row.era.id}><span>{row.polity.name}</span><strong>{eraDisplayName(row.era.name)}{eraYearLabel(row.eraYearNo)}</strong></p>)}{!rows.length && <p>本年纪年尚待补录。</p>}{rows.length > 4 && <small>另有 {rows.length - 4} 条纪年，详见本年档。</small>}</div>
           <div className="suijian-excerpt"><h3>这一年</h3>{events.length ? <><p>{events[0].title}</p><p>{events[0].summary}</p></> : <p>本年尚未收录纪事，亦可展开查阅同期纪年与人物。</p>}</div>
         </> : <YearPanel year={readingYear} />}
       </div>

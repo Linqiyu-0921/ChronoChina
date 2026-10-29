@@ -4,7 +4,7 @@
 import { useState } from 'react';
 import { parseQuery, type EraMatch } from '../lib/convert';
 import { eraByIdWithPolity, sourceShort } from '../lib/queryHelpers';
-import { eraYearLabel, formatYear, formatYearFull, ganzhiOf } from '../lib/time';
+import { eraDisplayName, eraYearLabel, formatYear, formatYearFull, ganzhiOf } from '../lib/time';
 import YearPanel from '../components/YearPanel';
 
 interface Props {
@@ -93,7 +93,7 @@ function EraCard({ match, onJumpToYear }: { match: EraMatch; onJumpToYear: (y: n
             {polity.name}
           </span>
           {polity.id === era.polityId ? '' : ''}
-          {era.name}
+          {eraDisplayName(era.name)}
           {match.yearNo ? eraYearLabel(match.yearNo) : `（${formatYear(era.startYear)}—${formatYear(era.endYear)}）`}
         </h3>
         <table className="kv">

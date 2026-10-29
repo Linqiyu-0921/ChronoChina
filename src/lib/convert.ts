@@ -3,7 +3,7 @@
  * 输入形态：公元年（1127 / 前221）、干支（丁未）、年号纪年（靖康二年 / 建炎元年 / 天会13年）。
  */
 import { eras, eraCoverage } from './data';
-import { ganzhiYears, parseChineseNum, STEMS, BRANCHES } from './time';
+import { eraDisplayName, ganzhiYears, parseChineseNum, STEMS, BRANCHES } from './time';
 
 export interface EraMatch {
   eraId: string;
@@ -18,11 +18,12 @@ export type Query =
   | { kind: 'era'; matches: EraMatch[] }
   | { kind: 'none'; hint: string };
 
-const eraNames = [...new Set(eras.map((e) => e.name))].sort((a, b) => b.length - a.length);
+const eraNames = [...new Set(eras.filter((e) => !e.name.includes('无年号')).map((e) => eraDisplayName(e.name)))].sort((a, b) => b.length - a.length);
 
 export function parseQuery(raw: string): Query {
   const q = raw.trim().replace(/\s+/g, '').replace(/［［］〕（）]/g, '');
   if (!q) return { kind: 'none', hint: '输入年份、年号或干支' };
+  if (q.includes('无年号')) return { kind: 'none', hint: '「无年号」表示该时段未建年号，可直接输入年份查询。' };
 
   // 1. 公元年：1127 / 1127年 / 前221 / 公元前221 / -220（天文纪年）
   let m = q.match(/^(?:公元)?(\d{1,4})年?$/);
@@ -55,7 +56,7 @@ export function parseQuery(raw: string): Query {
       yearNo = n;
     }
     const matches = eras
-      .filter((e) => e.name === name)
+      .filter((e) => eraDisplayName(e.name) === name)
       .filter(e => yearNo === undefined || e.startYear + yearNo - 1 <= e.endYear)
       .map((e) => ({
         eraId: e.id,

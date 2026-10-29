@@ -12,7 +12,7 @@ import {
   sourceById,
   type YearEraRow,
 } from '../lib/data';
-import { chineseNum, eraYearLabel, formatYearFull, ganzhiOf } from '../lib/time';
+import { chineseNum, eraDisplayName, eraYearLabel, formatYearFull, ganzhiOf } from '../lib/time';
 
 interface Props {
   year: number | null;
@@ -32,7 +32,7 @@ function EraRow({ row }: { row: YearEraRow }) {
       : '';
   return (
     <article className="year-era-row">
-      <div><span className="ghost-chip" style={{ color: p.color }}>{p.name}</span> <strong>{era.name}{eraYearLabel(row.eraYearNo)}</strong></div>
+      <div><span className="ghost-chip" style={{ color: p.color }}>{p.name}</span> <strong>{eraDisplayName(era.name)}{eraYearLabel(row.eraYearNo)}</strong></div>
       <p>{ruler ? `${ruler.title} · ${ruler.name.split('（')[0]}` : '君主待补录'} {monthHint}{transition}</p>
       <details><summary>纪年说明与来源{era.disputed || p.precision ? ' · 有异说或约数' : ''}</summary>
         <p>{endHint || era.note || '当前按所列来源整理，尚需条目级复核。'}</p>
@@ -67,7 +67,7 @@ export default function YearPanel({ year, selectedEvent, onSelectEvent, compact 
   if (compact) return <div className="year-summary">
     <header><h3>{formatYearFull(year)}</h3><span>{ganzhiOf(year)}年 · 年度笺注</span></header>
     <section><h4>事件 · {evs.length}</h4>{evs.length ? evs.slice(0, 3).map(ev => <p className="summary-event" key={ev.id}><small>{ev.month ? `${ev.month}月` : '月不详'}</small>{ev.title}</p>) : <p className="summary-note">本年尚未收录事件。</p>}{evs.length > 3 && <p className="summary-note">另有 {evs.length - 3} 条，固定到侧边查看完整记录。</p>}</section>
-    <section><h4>同期纪年</h4>{rows.length ? rows.map(row => <p className="summary-era" key={row.era.id}><span>{row.polity.name}</span><strong>{row.era.name}{eraYearLabel(row.eraYearNo)}</strong><small>{row.ruler?.title} {row.ruler?.name.split('（')[0]}{row.isStart && row.era.startMonth ? ` · ${row.era.startMonth}月改元` : ''}</small></p>) : <p>本年纪年尚未收录。</p>}
+    <section><h4>同期纪年</h4>{rows.length ? rows.map(row => <p className="summary-era" key={row.era.id}><span>{row.polity.name}</span><strong>{eraDisplayName(row.era.name)}{eraYearLabel(row.eraYearNo)}</strong><small>{row.ruler?.title} {row.ruler?.name.split('（')[0]}{row.isStart && row.era.startMonth ? ` · ${row.era.startMonth}月改元` : ''}</small></p>) : <p>本年纪年尚未收录。</p>}
       {multiPerPolity.size > 0 && <p className="summary-note">同年多条纪年含年中改元，并非全年同时使用。</p>}
     </section>
     <section><h4>已收录人物</h4><p>{[...born, ...died, ...alive].slice(0, 6).map(p => `${p.name}${p.birth === year ? '（生）' : p.death === year ? '（卒）' : ''}`).join('、') || '本年尚未收录人物。'}</p></section>
