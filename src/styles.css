@@ -655,7 +655,7 @@ main:focus { outline: none; }
   .segment-ruler { font-size: 12px; }
   .is-current .segment-name { font-size: 21px; }
   .book-bottom { gap: 6px; }
-  .book-gesture { max-width: 100px; font-size: 10px; }
+  .book-gesture { font-size: 10px; white-space: nowrap; }
   .book-zoom { margin-left: 0; gap: 0; }
   .dynasty-menu { top: auto; }
   .inspector-tools { padding: 10px 12px; gap: 8px; }
@@ -731,7 +731,11 @@ h2 { font-size: 30px; }
   .book-nav button svg.nav-icon { width: 24px; height: 24px; }
 
   .book-menu { top: 52px; }
-  .vertical-viewport { height: calc(100dvh - 96px); }
+  /* 窄屏页头会折成两行，高度随字号浮动，整页改为纵向铺满，免得底栏被切 */
+  .app.book-timeline { height: 100dvh; display: flex; flex-direction: column; overflow: hidden; }
+  .book-timeline main { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; }
+  .book-timeline .vertical-atlas { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; }
+  .book-timeline .vertical-viewport { flex: 1 1 auto; height: auto; min-height: 0; }
   .pointer-year { font-size: 26px; padding-right: 5px; }
   .pointer-year small { font-size: 10px; }
   .vertical-tick { font-size: 14px; }
