@@ -4098,5 +4098,289 @@
   ],
   "field": "科技",
   "summary": "明末科学家，著《天工开物》，系统记述农业与手工业技术。"
+ },
+ {
+  "id": "px-yanliben",
+  "name": "阎立本",
+  "birth": 601,
+  "death": 673,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "艺术",
+  "summary": "工人物车马，作《步辇图》《历代帝王图》，官至右相，以画名世。"
+ },
+ {
+  "id": "px-wudaozi",
+  "name": "吴道子",
+  "birth": 685,
+  "death": 758,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "艺术",
+  "summary": "画史称「画圣」，长于佛道人物，笔势圆转，有「吴带当风」之誉。"
+ },
+ {
+  "id": "px-zhuangzhen",
+  "name": "张择端",
+  "birth": 1085,
+  "death": 1145,
+  "polityIds": [
+   "song"
+  ],
+  "field": "艺术",
+  "summary": "供职翰林图画院，绘《清明上河图》状汴京市井之盛。"
+ },
+ {
+  "id": "px-shangyang",
+  "name": "商鞅",
+  "birth": null,
+  "death": -337,
+  "polityIds": [
+   "qin"
+  ],
+  "field": "政治",
+  "summary": "变法废井田、开阡陌、行连坐，秦以富强，终遭车裂。"
+ },
+ {
+  "id": "px-wuqi",
+  "name": "吴起",
+  "birth": null,
+  "death": -380,
+  "polityIds": [],
+  "field": "军事",
+  "summary": "历仕鲁魏楚，与士卒同甘苦，著《吴子》，楚悼王死后被杀。"
+ },
+ {
+  "id": "px-lvbuwei",
+  "name": "吕不韦",
+  "birth": -291,
+  "death": -234,
+  "polityIds": [
+   "qin"
+  ],
+  "field": "政治",
+  "summary": "以商贾相秦，集门客著《吕氏春秋》，后坐嫪毐事免相自杀。"
+ },
+ {
+  "id": "px-guanghanqing",
+  "name": "关汉卿",
+  "birth": 1234,
+  "death": 1300,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "文学",
+  "summary": "元杂剧大家，作《窦娥冤》《救风尘》，为元曲四大家之首。"
+ },
+ {
+  "id": "px-mazhiyuan",
+  "name": "马致远",
+  "birth": 1250,
+  "death": 1321,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "文学",
+  "summary": "元曲四大家之一，作《汉宫秋》，小令《天净沙·秋思》传诵。"
+ },
+ {
+  "id": "px-wangshifu",
+  "name": "王实甫",
+  "birth": 1260,
+  "death": 1336,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "文学",
+  "summary": "作《西厢记》，文辞绮丽，为元杂剧压卷之作。"
+ },
+ {
+  "id": "px-huangdaopo",
+  "name": "黄道婆",
+  "birth": 1245,
+  "death": 1330,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "科技",
+  "summary": "自崖州归松江，传纺织之术，改良捍弹纺织之具，松江布甲天下。"
+ },
+ {
+  "id": "px-shinaian",
+  "name": "施耐庵",
+  "birth": 1296,
+  "death": 1370,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "文学",
+  "summary": "旧题《水浒传》作者，写梁山一百八人，为章回小说之祖。"
+ },
+ {
+  "id": "px-luoguanzhong",
+  "name": "罗贯中",
+  "birth": 1330,
+  "death": 1400,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "文学",
+  "summary": "撰《三国志通俗演义》，开历史演义一体。"
+ },
+ {
+  "id": "px-wuchengen",
+  "name": "吴承恩",
+  "birth": 1506,
+  "death": 1582,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "文学",
+  "summary": "著《西游记》，以神魔写世情，为四大名著之一。"
+ },
+ {
+  "id": "px-zhuzaiyu",
+  "name": "朱载堉",
+  "birth": 1536,
+  "death": 1611,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "科技",
+  "summary": "创十二平均律，著《乐律全书》，兼精历算。"
+ },
+ {
+  "id": "px-fengmenglong",
+  "name": "冯梦龙",
+  "birth": 1574,
+  "death": 1646,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "文学",
+  "summary": "编「三言」，辑民歌时调，为通俗文学大家。"
+ },
+ {
+  "id": "px-jinshengtan",
+  "name": "金圣叹",
+  "birth": 1608,
+  "death": 1661,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "文学",
+  "summary": "批点《水浒》《西厢》，以「六才子书」标举小说戏曲。"
+ },
+ {
+  "id": "px-fangyizhi",
+  "name": "方以智",
+  "birth": 1611,
+  "death": 1671,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "思想",
+  "summary": "著《物理小识》，兼综中西，明亡后出家为僧。"
+ },
+ {
+  "id": "px-wangxichan",
+  "name": "王锡阐",
+  "birth": 1628,
+  "death": 1682,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "科技",
+  "summary": "精历算，著《晓庵新法》，独立推求日月食法。"
+ },
+ {
+  "id": "px-guzuyu",
+  "name": "顾祖禹",
+  "birth": 1631,
+  "death": 1692,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "史学",
+  "summary": "著《读史方舆纪要》，以地理论历代攻守形势。"
+ },
+ {
+  "id": "px-hongsheng",
+  "name": "洪昇",
+  "birth": 1645,
+  "death": 1704,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "文学",
+  "summary": "作传奇《长生殿》，演唐明皇与杨贵妃故事。"
+ },
+ {
+  "id": "px-kongshangren",
+  "name": "孔尚任",
+  "birth": 1648,
+  "death": 1718,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "文学",
+  "summary": "作《桃花扇》，借侯方域李香君写南明兴亡。"
+ },
+ {
+  "id": "px-wujingzi",
+  "name": "吴敬梓",
+  "birth": 1701,
+  "death": 1754,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "文学",
+  "summary": "著《儒林外史》，以讽刺笔法写士林百态。"
+ },
+ {
+  "id": "px-qianxian",
+  "name": "钱大昕",
+  "birth": 1728,
+  "death": 1804,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "史学",
+  "summary": "乾嘉考据大家，精音韵、金石与元史，著《廿二史考异》。"
+ },
+ {
+  "id": "px-duanyucai",
+  "name": "段玉裁",
+  "birth": 1735,
+  "death": 1815,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "史学",
+  "summary": "著《说文解字注》，为清代小学集大成之作。"
+ },
+ {
+  "id": "px-zhangxuecheng",
+  "name": "章学诚",
+  "birth": 1738,
+  "death": 1801,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "史学",
+  "summary": "倡「六经皆史」，著《文史通义》，主方志之学。"
+ },
+ {
+  "id": "px-ruanyuan",
+  "name": "阮元",
+  "birth": 1764,
+  "death": 1849,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "政治",
+  "summary": "历官两广云贵，主持编刻《十三经注疏》《皇清经解》。"
  }
 ]

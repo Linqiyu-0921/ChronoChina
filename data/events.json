@@ -15,6 +15,52 @@
   ]
  },
  {
+  "id": "x--294-01",
+  "year": -294,
+  "title": "沙丘宫变，赵武灵王饿死",
+  "categories": [
+   "政治",
+   "军事"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "武灵王传位惠文王后欲分赵为二，被围沙丘宫三月，饿死宫中。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "x--292-02",
+  "year": -292,
+  "title": "伊阙之战，白起斩首二十四万",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "白起破韩魏联军于伊阙，公孙喜被俘，韩魏精锐尽失。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-lvbuwei-birth",
+  "year": -291,
+  "title": "吕不韦出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "以商贾相秦，集门客著《吕氏春秋》，后坐嫪毐事免相自杀。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "p-p-mencius-death",
   "year": -290,
   "title": "孟子去世",
@@ -23,6 +69,22 @@
   ],
   "polityIds": [],
   "summary": "战国儒家代表，倡「仁政」「性善」，与弟子著《孟子》七篇。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "x--289-03",
+  "year": -289,
+  "title": "魏献河东四百里予秦",
+  "categories": [
+   "外交",
+   "政治"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "秦得魏之河东地，势力直抵太行，山东诸国震恐。",
   "sources": [
    "S4"
   ]
@@ -204,6 +266,37 @@
   ]
  },
  {
+  "id": "x--272-08",
+  "year": -272,
+  "title": "华阳之战，秦破赵魏",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "白起、魏冉救韩，大破赵魏联军于华阳，斩首十五万。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "x--271-09",
+  "year": -271,
+  "title": "秦灭义渠，置陇西、北地",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "宣太后诱杀义渠王于甘泉，秦尽并其地，西北边患遂息。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "w--270-01",
   "year": -270,
   "title": "范雎向秦昭王献“远交近攻”之策",
@@ -216,6 +309,52 @@
   "summary": "范雎向秦昭王献“远交近攻”之策。",
   "sources": [
    "S1"
+  ]
+ },
+ {
+  "id": "x--269-10",
+  "year": -269,
+  "title": "阏与之战，赵奢破秦",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "赵奢急行两日一夜至阏与，据北山先据地形，大败秦军。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "x--265-11",
+  "year": -265,
+  "title": "范雎相秦，献远交近攻",
+  "categories": [
+   "政治",
+   "外交"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "范雎说昭王废穰侯、逐四贵，以远交近攻定东进之策。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "x--263-12",
+  "year": -263,
+  "title": "白起攻韩陉城，拔五城",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "秦军循太行南下，韩之上党与本土隔绝，长平之战前奏。",
+  "sources": [
+   "S4"
   ]
  },
  {
@@ -355,6 +494,21 @@
   ]
  },
  {
+  "id": "x--245-18",
+  "year": -245,
+  "title": "郑国渠开凿，关中成沃野",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "秦用水工郑国凿渠引泾，灌溉四万余顷，关中富庶。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "w--240-01",
   "year": -240,
   "title": "韩、魏、赵、卫、楚五国联兵击秦，秦国反击",
@@ -393,6 +547,36 @@
   ],
   "polityIds": [],
   "summary": "战国末儒家宗师，主「性恶」与礼法并重，韩非、李斯出其门下。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-lvbuwei-death",
+  "year": -234,
+  "title": "吕不韦去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "以商贾相秦，集门客著《吕氏春秋》，后坐嫪毐事免相自杀。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "x--232-20",
+  "year": -232,
+  "title": "韩非入秦，死于狱中",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "韩非使秦献书，李斯、姚贾谮之，下狱自杀，《韩非子》传世。",
   "sources": [
    "S4"
   ]
@@ -2276,6 +2460,21 @@
   ]
  },
  {
+  "id": "x--89-29",
+  "year": -89,
+  "title": "李广利降匈奴",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "贰师将军兵败燕然山，降匈奴后为单于所杀。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "w--88-01",
   "year": -88,
   "title": "汉武帝下轮台罪己诏",
@@ -2702,6 +2901,21 @@
   ]
  },
  {
+  "id": "x--6-39",
+  "year": -6,
+  "title": "成帝崩，哀帝即位",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "成帝暴崩于未央宫，赵氏外戚失势，王莽复起。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "p-px-liuxiang-death",
   "year": -5,
   "title": "刘向去世",
@@ -2788,6 +3002,21 @@
    "western-han"
   ],
   "summary": "受宰衡之号，位上公，为学者筑舍万区；又起明堂、辟雍、灵台，收揽士人之心。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "x-5-41",
+  "year": 5,
+  "title": "平帝崩，王莽居摄",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "xin"
+  ],
+  "summary": "王莽立两岁孺子婴，自称假皇帝，汉祚名存实亡。",
   "sources": [
    "S4"
   ]
@@ -12608,6 +12837,21 @@
   ]
  },
  {
+  "id": "p-px-yanliben-birth",
+  "year": 601,
+  "title": "阎立本出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "工人物车马，作《步辇图》《历代帝王图》，官至右相，以画名世。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "w-602-01",
   "year": 602,
   "title": "隋征服越南前李朝，北越南地区纳入版图",
@@ -14073,6 +14317,21 @@
   ]
  },
  {
+  "id": "p-px-yanliben-death",
+  "year": 673,
+  "title": "阎立本去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "工人物车马，作《步辇图》《历代帝王图》，官至右相，以画名世。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "x-675-01",
   "year": 675,
   "title": "太子李弘暴卒",
@@ -14220,6 +14479,21 @@
    "tang"
   ],
   "summary": "在位四十四年，前期开元之治，后期宠信安禄山，酿成安史之乱。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-wudaozi-birth",
+  "year": 685,
+  "title": "吴道子出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "画史称「画圣」，长于佛道人物，笔势圆转，有「吴带当风」之誉。",
   "sources": [
    "S4"
   ]
@@ -14708,6 +14982,21 @@
   ]
  },
  {
+  "id": "x-723-77",
+  "year": 723,
+  "title": "政事堂改称中书门下",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "张说改政事堂为中书门下，宰相合议之制渐定。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "x-725-01",
   "year": 725,
   "month": 11,
@@ -14765,6 +15054,22 @@
    "tang"
   ],
   "summary": "德宗朝宰相，建议废租庸调行两税法，后因专权构陷刘晏而被赐死。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "x-732-78",
+  "year": 732,
+  "title": "《大唐开元礼》成",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "集前代礼制一百五十卷，为唐礼之总汇。",
   "sources": [
    "S4"
   ]
@@ -15098,6 +15403,21 @@
    "tang"
   ],
   "summary": "安史之乱中守睢阳，以数千人拒十万叛军十月，城破被俘遇害。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-wudaozi-death",
+  "year": 758,
+  "title": "吴道子去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "画史称「画圣」，长于佛道人物，笔势圆转，有「吴带当风」之誉。",
   "sources": [
    "S4"
   ]
@@ -16361,6 +16681,21 @@
    "tang"
   ],
   "summary": "黄巢南下攻占广州，岭南大震，旋因疫疠与部众思归而北还。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "x-880-88",
+  "year": 880,
+  "title": "黄巢入长安称帝",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "国号大齐，唐僖宗奔蜀，长安再遭焚掠。",
   "sources": [
    "S4"
   ]
@@ -19933,6 +20268,21 @@
   ]
  },
  {
+  "id": "p-px-zhuangzhen-birth",
+  "year": 1085,
+  "title": "张择端出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "song"
+  ],
+  "summary": "供职翰林图画院，绘《清明上河图》状汴京市井之盛。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "p-p-simaguang-death",
   "year": 1086,
   "title": "司马光去世",
@@ -21715,6 +22065,21 @@
   ]
  },
  {
+  "id": "p-px-zhuangzhen-death",
+  "year": 1145,
+  "title": "张择端去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "song"
+  ],
+  "summary": "供职翰林图画院，绘《清明上河图》状汴京市井之盛。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "x-1146-01",
   "year": 1146,
   "title": "西夏尊孔子为文宣帝",
@@ -23232,6 +23597,21 @@
   ]
  },
  {
+  "id": "p-px-guanghanqing-birth",
+  "year": 1234,
+  "title": "关汉卿出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "元杂剧大家，作《窦娥冤》《救风尘》，为元曲四大家之首。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "x-1235-01",
   "year": 1235,
   "title": "蒙古筑哈拉和林城",
@@ -23433,6 +23813,21 @@
   ]
  },
  {
+  "id": "p-px-huangdaopo-birth",
+  "year": 1245,
+  "title": "黄道婆出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "自崖州归松江，传纺织之术，改良捍弹纺织之具，松江布甲天下。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "x-1246-01",
   "year": 1246,
   "title": "贵由即大汗位",
@@ -23536,6 +23931,21 @@
    "song"
   ],
   "summary": "四任提刑，据办案经验撰《洗冤集录》，奠定中国古代法医学的体系。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-mazhiyuan-birth",
+  "year": 1250,
+  "title": "马致远出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "元曲四大家之一，作《汉宫秋》，小令《天净沙·秋思》传诵。",
   "sources": [
    "S4"
   ]
@@ -23759,6 +24169,21 @@
   "summary": "蒙古迁都开平。",
   "sources": [
    "S1"
+  ]
+ },
+ {
+  "id": "p-px-wangshifu-birth",
+  "year": 1260,
+  "title": "王实甫出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "作《西厢记》，文辞绮丽，为元杂剧压卷之作。",
+  "sources": [
+   "S4"
   ]
  },
  {
@@ -24385,6 +24810,36 @@
   ]
  },
  {
+  "id": "p-px-shinaian-birth",
+  "year": 1296,
+  "title": "施耐庵出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "旧题《水浒传》作者，写梁山一百八人，为章回小说之祖。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-guanghanqing-death",
+  "year": 1300,
+  "title": "关汉卿去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "元杂剧大家，作《窦娥冤》《救风尘》，为元曲四大家之首。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "p-px-nizan-birth",
   "year": 1301,
   "title": "倪瓒出生",
@@ -24625,6 +25080,21 @@
   ]
  },
  {
+  "id": "p-px-mazhiyuan-death",
+  "year": 1321,
+  "title": "马致远去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "元曲四大家之一，作《汉宫秋》，小令《天净沙·秋思》传诵。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "w-1322-01",
   "year": 1322,
   "title": "《大元圣政国朝典章》（《元典章》）修成",
@@ -24746,6 +25216,36 @@
   ]
  },
  {
+  "id": "p-px-huangdaopo-death",
+  "year": 1330,
+  "title": "黄道婆去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "自崖州归松江，传纺织之术，改良捍弹纺织之具，松江布甲天下。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-luoguanzhong-birth",
+  "year": 1330,
+  "title": "罗贯中出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "撰《三国志通俗演义》，开历史演义一体。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "w-1331-01",
   "year": 1331,
   "title": "《经世大典》修成",
@@ -24816,6 +25316,21 @@
    "ming"
   ],
   "summary": "僧人，法名道衍，佐燕王起兵靖难，永乐朝官至少师。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-wangshifu-death",
+  "year": 1336,
+  "title": "王实甫去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "作《西厢记》，文辞绮丽，为元杂剧压卷之作。",
   "sources": [
    "S4"
   ]
@@ -25334,6 +25849,21 @@
   ]
  },
  {
+  "id": "p-px-shinaian-death",
+  "year": 1370,
+  "title": "施耐庵去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "旧题《水浒传》作者，写梁山一百八人，为章回小说之祖。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "p-p-zhenghe-birth",
   "year": 1371,
   "title": "郑和出生",
@@ -25661,6 +26191,21 @@
    "ming"
   ],
   "summary": "李景隆合南军六十万北上，于白沟河为燕军所破，弃师南遁。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-luoguanzhong-death",
+  "year": 1400,
+  "title": "罗贯中去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "撰《三国志通俗演义》，开历史演义一体。",
   "sources": [
    "S4"
   ]
@@ -26313,6 +26858,21 @@
   ]
  },
  {
+  "id": "p-px-wuchengen-birth",
+  "year": 1506,
+  "title": "吴承恩出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "著《西游记》，以神魔写世情，为四大名著之一。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "x-1510-01",
   "year": 1510,
   "title": "刘瑾伏诛",
@@ -26503,6 +27063,21 @@
    "ming"
   ],
   "summary": "抗倭名将，戚家军鸳鸯阵荡平东南倭患，北御蒙古，著《纪效新书》。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-zhuzaiyu-birth",
+  "year": 1536,
+  "title": "朱载堉出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "创十二平均律，著《乐律全书》，兼精历算。",
   "sources": [
    "S4"
   ]
@@ -26824,6 +27399,21 @@
   ]
  },
  {
+  "id": "p-px-fengmenglong-birth",
+  "year": 1574,
+  "title": "冯梦龙出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "编「三言」，辑民歌时调，为通俗文学大家。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "w-1578-01",
   "year": 1578,
   "title": "李时珍《本草纲目》问世",
@@ -26879,6 +27469,21 @@
    "ming"
   ],
   "summary": "万历首辅，行一条鞭法与考成法，十年新政续命明朝。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-wuchengen-death",
+  "year": 1582,
+  "title": "吴承恩去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "著《西游记》，以神魔写世情，为四大名著之一。",
   "sources": [
    "S4"
   ]
@@ -27171,6 +27776,21 @@
   ]
  },
  {
+  "id": "p-px-jinshengtan-birth",
+  "year": 1608,
+  "title": "金圣叹出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "批点《水浒》《西厢》，以「六才子书」标举小说戏曲。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "x-1610-01",
   "year": 1610,
   "title": "利玛窦卒于北京",
@@ -27212,6 +27832,36 @@
    "ming"
   ],
   "summary": "意大利耶稣会士，入华后以历算舆图交结士大夫，译介西学。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-zhuzaiyu-death",
+  "year": 1611,
+  "title": "朱载堉去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "创十二平均律，著《乐律全书》，兼精历算。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-fangyizhi-birth",
+  "year": 1611,
+  "title": "方以智出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "著《物理小识》，兼综中西，明亡后出家为僧。",
   "sources": [
    "S4"
   ]
@@ -27583,6 +28233,21 @@
   ]
  },
  {
+  "id": "p-px-wangxichan-birth",
+  "year": 1628,
+  "title": "王锡阐出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "精历算，著《晓庵新法》，独立推求日月食法。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "w-1629-01",
   "year": 1629,
   "title": "己巳之变",
@@ -27655,6 +28320,21 @@
    "ming"
   ],
   "summary": "后金围大凌河城，祖大寿粮尽援绝出降，关外明军精锐再受重创。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-guzuyu-birth",
+  "year": 1631,
+  "title": "顾祖禹出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "著《读史方舆纪要》，以地理论历代攻守形势。",
   "sources": [
    "S4"
   ]
@@ -28036,6 +28716,21 @@
   ]
  },
  {
+  "id": "p-px-hongsheng-birth",
+  "year": 1645,
+  "title": "洪昇出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "作传奇《长生殿》，演唐明皇与杨贵妃故事。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "x-1646-01",
   "year": 1646,
   "title": "隆武帝败走汀州遇害",
@@ -28084,6 +28779,21 @@
   ]
  },
  {
+  "id": "p-px-fengmenglong-death",
+  "year": 1646,
+  "title": "冯梦龙去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "编「三言」，辑民歌时调，为通俗文学大家。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "x-1647-01",
   "year": 1647,
   "title": "张献忠殁于西充凤凰山",
@@ -28111,6 +28821,21 @@
    "southern-ming"
   ],
   "summary": "江西、广东两镇先后反清，永历朝一度收复大片失地，次年被清军分路击破。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-kongshangren-birth",
+  "year": 1648,
+  "title": "孔尚任出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "作《桃花扇》，借侯方域李香君写南明兴亡。",
   "sources": [
    "S4"
   ]
@@ -28353,6 +29078,21 @@
   ]
  },
  {
+  "id": "p-px-jinshengtan-death",
+  "year": 1661,
+  "title": "金圣叹去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "批点《水浒》《西厢》，以「六才子书」标举小说戏曲。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "x-1662-01",
   "year": 1662,
   "title": "郑成功病逝，郑经嗣位",
@@ -28521,6 +29261,21 @@
   ]
  },
  {
+  "id": "p-px-fangyizhi-death",
+  "year": 1671,
+  "title": "方以智去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "著《物理小识》，兼综中西，明亡后出家为僧。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "w-1673-01",
   "year": 1673,
   "title": "三藩之乱起",
@@ -28653,6 +29408,21 @@
    "qing"
   ],
   "summary": "倡经世致用，著《日知录》《天下郡国利病书》，「天下兴亡，匹夫有责」即本其意。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-wangxichan-death",
+  "year": 1682,
+  "title": "王锡阐去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "精历算，著《晓庵新法》，独立推求日月食法。",
   "sources": [
    "S4"
   ]
@@ -28827,6 +29597,21 @@
   ]
  },
  {
+  "id": "p-px-guzuyu-death",
+  "year": 1692,
+  "title": "顾祖禹去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "著《读史方舆纪要》，以地理论历代攻守形势。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "p-px-zhengxie-birth",
   "year": 1693,
   "title": "郑燮出生",
@@ -28913,6 +29698,36 @@
    "qing"
   ],
   "summary": "部众离散、归降者众，噶尔丹在科布多服毒而死，漠北诸部尽入清廷控制。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-wujingzi-birth",
+  "year": 1701,
+  "title": "吴敬梓出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "著《儒林外史》，以讽刺笔法写士林百态。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-hongsheng-death",
+  "year": 1704,
+  "title": "洪昇去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "作传奇《长生殿》，演唐明皇与杨贵妃故事。",
   "sources": [
    "S4"
   ]
@@ -29081,6 +29896,21 @@
   "summary": "甘肃通渭发生7.5级地震，死亡4万余人，伤3万余人。",
   "sources": [
    "S1"
+  ]
+ },
+ {
+  "id": "p-px-kongshangren-death",
+  "year": 1718,
+  "title": "孔尚任去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "作《桃花扇》，借侯方域李香君写南明兴亡。",
+  "sources": [
+   "S4"
   ]
  },
  {
@@ -29266,6 +30096,21 @@
   ]
  },
  {
+  "id": "p-px-qianxian-birth",
+  "year": 1728,
+  "title": "钱大昕出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "乾嘉考据大家，精音韵、金石与元史，著《廿二史考异》。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "x-1729-01",
   "year": 1729,
   "title": "雍正设军机处",
@@ -29337,6 +30182,36 @@
    "qing"
   ],
   "summary": "名胤禛，储位之争中继统，设军机处、行摊丁入亩，以严猛整饬吏治。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-duanyucai-birth",
+  "year": 1735,
+  "title": "段玉裁出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "著《说文解字注》，为清代小学集大成之作。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-zhangxuecheng-birth",
+  "year": 1738,
+  "title": "章学诚出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "倡「六经皆史」，著《文史通义》，主方志之学。",
   "sources": [
    "S4"
   ]
@@ -29417,6 +30292,21 @@
   ]
  },
  {
+  "id": "p-px-wujingzi-death",
+  "year": 1754,
+  "title": "吴敬梓去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "著《儒林外史》，以讽刺笔法写士林百态。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "x-1755-01",
   "year": 1755,
   "title": "清军平定准噶尔",
@@ -29473,6 +30363,21 @@
    "qing"
   ],
   "summary": "十年辛苦不寻常，著《红楼梦》八十回，「字字看来皆是血」。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-ruanyuan-birth",
+  "year": 1764,
+  "title": "阮元出生",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "历官两广云贵，主持编刻《十三经注疏》《皇清经解》。",
   "sources": [
    "S4"
   ]
@@ -29826,6 +30731,36 @@
   ]
  },
  {
+  "id": "p-px-zhangxuecheng-death",
+  "year": 1801,
+  "title": "章学诚去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "倡「六经皆史」，著《文史通义》，主方志之学。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-qianxian-death",
+  "year": 1804,
+  "title": "钱大昕去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "乾嘉考据大家，精音韵、金石与元史，著《廿二史考异》。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "p-p-jiyun-death",
   "year": 1805,
   "title": "纪昀去世",
@@ -29974,6 +30909,21 @@
   "summary": "禁鸦片。",
   "sources": [
    "S1"
+  ]
+ },
+ {
+  "id": "p-px-duanyucai-death",
+  "year": 1815,
+  "title": "段玉裁去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "著《说文解字注》，为清代小学集大成之作。",
+  "sources": [
+   "S4"
   ]
  },
  {
@@ -30173,6 +31123,22 @@
   ]
  },
  {
+  "id": "x-1840-106",
+  "year": 1840,
+  "title": "鸦片战争起",
+  "categories": [
+   "军事",
+   "外交"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "英军封锁珠江口，攻定海，清廷仓促应战。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
   "id": "x-1841-01",
   "year": 1841,
   "month": 5,
@@ -30261,6 +31227,21 @@
    "qing"
   ],
   "summary": "虎门销烟抗英，「开眼看世界第一人」，谪戍伊犁仍兴修水利。",
+  "sources": [
+   "S4"
+  ]
+ },
+ {
+  "id": "p-px-ruanyuan-death",
+  "year": 1849,
+  "title": "阮元去世",
+  "categories": [
+   "人物"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "历官两广云贵，主持编刻《十三经注疏》《皇清经解》。",
   "sources": [
    "S4"
   ]
