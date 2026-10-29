@@ -2,7 +2,7 @@ English · [简体中文](README.md)
 
 <p><img src="public/favicon-art.png" width="64" alt="此年 ChronoChina logo" align="left"></p>
 
-# 此年 · ChronoChina
+# ChronoChina · 此年
 
 **此年，山河同阅。** — *One year, many realms; read them side by side.*
 
@@ -32,46 +32,54 @@ It is for anyone who wants to know how many regimes existed in a given year and 
 
 ## Live demo
 
-> Not deployed yet. Run it locally (see [Getting started](#getting-started)), or host `dist/` on GitHub Pages / Cloudflare Pages / Vercel — the build is fully static, and `base: './'` works from a subpath.
+> Being deployed to Cloudflare Pages. Until then, run it locally (see [Getting started](#getting-started)) or host `dist/` on any static service — the build is fully static, and `base: './'` works from a subpath.
 
 ## Screenshots
 
-**Chronological view, dark** — a vertical time canvas: fixed year pointer, contemporary regimes side by side.
+**Reading (阅年), dark**: one year per page, laid out like an almanac. The year leads and the ganzhi follows; contemporary regimes are numbered 01—05 by founding order, and a one-line epigraph states the year's shape.
 
-![Chronological view (dark)](docs/preview/01-home-dark.png)
+![Reading view (dark)](docs/preview/01-reading-dark.png)
 
-**Chronological view, light** — same layout in paper white and ink, with the current year in cinnabar.
+**Reading (阅年), light**: the same page on paper white — vermilion and gold only on the year, the seals, and the rules.
 
-![Chronological view (light)](docs/preview/02-home-light.png)
+![Reading view (light)](docs/preview/02-reading-light.png)
 
-**Reading** — one page per year: the year in Chinese numerals, ganzhi, panels for each coexisting regime, and the events of that year.
+**Timeline (并世), dark**: a vertical time canvas. Gregorian years on the left, a vermilion line at the current year, and one exhibition label per surviving regime, with era names drawn as duration bars at their true start and end.
 
-![Reading view](docs/preview/03-reading-dark.png)
+![Timeline view (dark)](docs/preview/03-timeline-dark.png)
 
-**Search** — `Ctrl / ⌘ + K` opens a centered glass palette for years, era names, ganzhi, people and pinyin.
+**Timeline (并世), light**: the same ruler, a different paper.
 
-![Search palette](docs/preview/04-search-dark.png)
+![Timeline view (light)](docs/preview/04-timeline-light.png)
 
-## Core features
+**Search, browse**: `Ctrl / ⌘ + K`. With an empty box it is a table of contents — six periods and their regimes.
 
-- **Reading (阅年)** — one page per year: the year written out in Chinese numerals, ganzhi, and the number of coexisting regimes. Scroll, `↑ ↓` or swipe to page through years; expand a regime panel for its era name, ruler and change-of-era month; the year dossier collects events, contemporary era names, and people alive or born/died that year.
-- **Chronological view (并世)** — the cinnabar year in the middle *is* the current year: scroll to move, click to type a year. Each regime alive that year gets a column; scroll sideways or use `‹ ›` to jump a screen. Era brackets follow real start/end years, short spans pull their labels out with connector lines, disputed or approximate dates are dashed. `Ctrl / ⌘ + wheel` changes time density.
-- **Year dossier** — a floating record you can drag, resize from eight handles, adjust paper opacity, and pin to the side; it follows the current year.
-- **Dynasty menu** — six periods from Qin–Han to Ming–Qing; any regime jumps straight to its founding year and sets the comparison window.
-- **Era database** — regime, ruler, era name, start/end, ganzhi, change-of-era month, disputes and sources in one table, with filters and CSV export.
-- **Heritage** — 82 selected sites, filterable by category, dynasty and keyword, each able to jump back to its founding era.
-- **Search** — years (`1127`, `221 BC`), era names (`Jianyan 1`, `Shaoxing`), ganzhi (`丁未`), people and aliases (`Qin Shi Huang`), regime pinyin (`donghan`), and fuzzy fragments.
-- **Light / dark** — paper white or ink-and-gold, remembered across visits; both themes share one layout.
+![Search (browse)](docs/preview/05-search-browse-dark.png)
 
-## Tech stack
+**Search, query**: type an era name, year, ganzhi, person, or pinyin, press Enter, and land on that year.
+
+![Search (results)](docs/preview/06-search-result-dark.png)
+
+## Features
+
+- **Reading (阅年)** — one year per page: the year, its ganzhi, and how many regimes stood at once; the epigraph is generated from that year's era changes ("丁未之年，五政权并立；赵宋改元建炎，西夏改元正德。"); regimes are numbered by founding order and split into two columns when five coexist; expand one to see its era name, ruler, span, and month of change; turn pages with the wheel / `↑ ↓` / swipe. Each page opens an "annual dossier" gathering the year's events, contemporary eras, and people alive.
+- **Timeline (并世)** — vertical multi-year comparison: Gregorian years on the left, a vermilion line at the current year; each surviving regime gets a column with an exhibition label, era names are drawn as duration bars at their true extent, and regimes crossing the current year open their era, ruler, and month of change; disputed and approximate dates are marked; `Ctrl / ⌘ + wheel` changes time density, `‹ ›` pages through regime groups.
+- **Search** — `Ctrl / ⌘ + K`: empty means browse by period and regime, and a click jumps to the founding year with the comparison window kept; typing searches years (`1127`, `前221`), era names (`建炎元年`, `绍兴`), ganzhi (`丁未`), person aliases (`秦始皇`), and regime pinyin (`donghan`).
+- **Annual dossier** — a floating record you can drag, resize on all eight handles, fade, or dock to the side; it follows the current year.
+- **Chronology reference** — polities, rulers, era names, spans, ganzhi, months of change, disputes, and sources in one table, filterable and exportable to CSV.
+- **Heritage** — 82 selected sites, filterable by category / dynasty / keyword, each linking back to its founding year.
+- **Themes** — paper white and ink-black with gold share a single layout; only the paper changes, never the grid. Your choice is remembered.
+- **Keyboard and accessibility** — a "skip to content" link leads straight to the main view; `Esc` closes the search or the dossier and returns focus; search is a `combobox` navigable with arrow keys.
+
+## Stack
 
 | Layer | Choice |
 |---|---|
 | Frontend | React 18, TypeScript (strict), plain CSS with custom properties |
 | Build | Vite 5 |
-| Time mapping | d3-scale (years ↔ pixels) |
-| Data | Static JSON imported at build time; no backend, no database |
-| Data tooling | Node ESM + cheerio (import and validation scripts only) |
+| Time mapping | d3-scale (year ↔ pixels) |
+| Data | static JSON, read at build time, no backend, no database |
+| Data scripts | Node ESM + cheerio (dev-time import and validation only) |
 
 ## Getting started
 
@@ -80,53 +88,54 @@ Requires Node.js 18+.
 ```bash
 npm install
 npm run dev        # dev server at http://localhost:5173
-npm run build      # type-check + data validation + build to dist/
-npm run preview    # preview the production build
+npm run build      # type check + data validation + build to dist/
+npm run preview    # preview the build
 ```
 
-Data-related commands:
+Data commands:
 
 ```bash
-npm run validate   # data checks (required after editing data/*.json; build runs it too)
-npm test           # regression tests for dates, conversion, search and dossier layout
+npm run validate   # data validation (required after editing data/*.json; build runs it too)
+npm test           # regression tests for dates, conversion, search, and dossier layout
 ```
 
 ## Project structure
 
 | Path | Purpose |
 |---|---|
-| `data/` | Static data: regimes, rulers, era names, events, people, sites, sources |
-| `data/curated/` | Hand-curated overrides, highest priority |
-| `scripts/` | Data import, validation and regression scripts |
-| `public/` | Fonts, original icon artwork, site icons |
-| `src/views/` | Reading, chronological view, era database, heritage |
-| `src/components/` | Search palette, year dossier, year panel, icons |
-| `src/lib/` | Data access, time and ganzhi, search, conversion |
-| `src/styles.css` | Layout and light/dark theming |
-| `docs/preview/` | README screenshots |
-| `index.html` | Entry page |
+| `data/` | static data: polities, rulers, eras, events, people, heritage, sources |
+| `data/curated/` | hand-curated overlays, highest priority |
+| `scripts/` | data import, validation, regression tests |
+| `public/` | fonts, icon originals, site icons |
+| `src/views/` | reading, timeline, chronology reference, heritage |
+| `src/components/` | search palette, annual dossier, year panel, icons |
+| `src/lib/` | data access, time and ganzhi, search, conversion |
+| `src/styles.css` | time canvas, search palette, global layout |
+| `src/reading-collections.css` | reading page, reference and heritage styling |
+| `docs/preview/` | screenshots used in the README |
+| `index.html` | entry point |
 
 ## Roadmap
 
-**Shipped**
+**Done**
 
-- Full era-name import (36 regimes / 242 rulers / 540 era names), with ganzhi cross-checked against the algorithm entry by entry;
-- Event library of 753 entries across 555 years, linked with 78 people's birth and death years;
-- Chronological view, reading view, era database, heritage, glass search and year dossier;
-- Dual themes sharing one layout; data validation and regression tests.
+- full era import (36 polities / 242 rulers / 540 era names), with ganzhi cross-checked entry by entry;
+- a full event base (753 entries across 555 years) linked to 78 people's birth and death;
+- vertical timeline, almanac-style reading page, chronology reference, heritage, glass search, annual dossier;
+- the dynasty browser folded into the search palette, matching light and dark layouts, data validation and regression tests.
 
 **Planned**
 
-- Fill in the Sixteen Kingdoms, Ten Kingdoms, and Qara Khitai era names after 1143;
-- Event category filters and individual ruler pages;
-- History–geography link: a site map plus deep links to an external historical map, rather than building a boundary map here;
-- Expand heritage from a curated set toward the full national protection list.
+- fill in the Sixteen Kingdoms, Ten Kingdoms, and Qara Khitai eras after 1143;
+- event categories and ruler profile pages;
+- linking history to place: a heritage map plus deep links into the timeline, without drawing borders of our own;
+- expanding the heritage list toward the full national key heritage register.
 
 ## Contributing
 
-- **Report an issue**: open an [issue](https://github.com/Linqiyu-0921/ChronoChina/issues) with what you saw, your browser and the steps; for historical questions, include sources.
-- **Send a change**: fork, branch, keep the change focused. If you touch `data/*.json`, run `npm run validate` first, and run `npm run build` and `npm test` before opening a PR.
-- **Historical accuracy**: unsourced date changes are not accepted; disputed readings must be marked `disputed` with their evidence; do not auto-convert lunar dates to Gregorian days.
+- **Report a problem**: open an [issue](https://github.com/Linqiyu-0921/ChronoChina/issues) with the symptom, browser, and steps; attach sources for historical corrections.
+- **Send a change**: fork, branch, keep each change focused; run `npm run validate` before touching `data/*.json`, and run `npm run build` and `npm test` before opening a PR.
+- **Historical standards**: no undated sources, no silent edits; disputes must set `disputed` with the reasoning; lunar dates are never converted to Gregorian days automatically.
 
 ## License
 
@@ -134,16 +143,16 @@ npm test           # regression tests for dates, conversion, search and dossier 
 |---|---|
 | Code | [MIT](LICENSE) |
 | Data (`data/`) | [CC BY-SA 4.0](LICENSE-DATA.md) |
-| Icons and gold line artwork (`public/assets/icons/`) | CC BY 4.0 |
-| Fonts (`public/fonts/`) | Third-party fonts, not covered by this repository's licenses |
+| Icons and gold line art (`public/assets/icons/`) | CC BY 4.0 |
+| Fonts (`public/fonts/`) | third-party fonts, not licensed with this repository |
 
-When reusing or adapting, keep the credit **此年 · ChronoChina (Linqiyu)**; if you use the data, also keep the Wikipedia *Timeline of Chinese History* (CC BY-SA 4.0) attribution.
+Please keep the attribution **此年 · ChronoChina (Linqiyu)** when reposting or adapting; data also requires attribution to the Wikipedia source listed below.
 
 ## Credits
 
-- Event chronology referenced from [Wikipedia: Timeline of Chinese history](https://zh.wikipedia.org/wiki/中国历史年表) (CC BY-SA 4.0; all event text independently rewritten);
-- Era start/end and disputed readings cross-checked against [Y. T. Liu's Chinese calendar tables](https://ytliu0.github.io/ChineseCalendar/era_names_simp.html);
-- Era data imported from the [Chinese dynastic era table](https://home.olemiss.edu/~gg/lidaijiy.htm);
-- Heritage entries reference the UNESCO World Heritage list and China's national protection lists;
-- Open-source dependencies: [React](https://react.dev/), [Vite](https://vite.dev/), [d3-scale](https://github.com/d3/d3-scale);
-- The site typeface is a Song-style face (simplified and traditional), bundled with the project — confirm its license before redistributing.
+- event chronology follows [Wikipedia: 中国历史年表](https://zh.wikipedia.org/wiki/中国历史年表) (CC BY-SA 4.0; all text independently rewritten);
+- era spans and disputed dates checked against [Y. T. Liu's Chinese chronology tables](https://ytliu0.github.io/ChineseCalendar/era_names_simp.html);
+- era data imported from [中国历代纪元表](https://home.olemiss.edu/~gg/lidaijiy.htm);
+- heritage entries draw on the UNESCO World Heritage list and the public national key heritage register;
+- open-source dependencies: [React](https://react.dev/), [Vite](https://vite.dev/), [d3-scale](https://github.com/d3/d3-scale);
+- the typography uses a Song-dynasty style face (simplified / traditional) bundled with the site; check its license before redistributing.
