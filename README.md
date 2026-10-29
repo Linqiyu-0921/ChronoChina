@@ -32,7 +32,7 @@
 
 ## 在线预览
 
-**<https://chronochina.pages.dev>** —— 由 Cloudflare Pages 托管。
+**<https://cinian.laneqiyu.cn>** —— 由 Cloudflare Pages 托管（备用地址 <https://chronochina.pages.dev>）。
 
 不想装环境也可以直接看；要改代码，就按[本地运行](#本地运行)起一个开发服务器。构建产物为纯静态，`base: './'` 也适配任意子路径。
 

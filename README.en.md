@@ -32,7 +32,7 @@ It is for anyone who wants to know how many regimes existed in a given year and 
 
 ## Live demo
 
-**<https://chronochina.pages.dev>** — hosted on Cloudflare Pages.
+**<https://cinian.laneqiyu.cn>** — hosted on Cloudflare Pages (mirror: <https://chronochina.pages.dev>).
 
 Open it as is, or run it locally (see [Getting started](#getting-started)) if you want to change something. The build is fully static, and `base: './'` works from any subpath.
 
