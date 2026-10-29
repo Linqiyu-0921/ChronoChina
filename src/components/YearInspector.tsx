@@ -1,8 +1,10 @@
 import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import { fitPanel, resizePanel, type PanelRect } from '../lib/panelGeometry';
 import YearPanel from './YearPanel';
+import { eventsByYear } from '../lib/data';
 interface Props { year: number; anchor: number; height: number; width: number; anchorX: number; }
 export default function YearInspector({ year, anchor, height, anchorX }: Props) {
+  const eventCount = eventsByYear.get(year)?.length ?? 0;
   const [open, setOpen] = useState(false);
   const [pinned, setPinned] = useState(false);
   const [closing, setClosing] = useState(false);
@@ -43,7 +45,7 @@ export default function YearInspector({ year, anchor, height, anchorX }: Props) 
     return () => { observer.disconnect(); window.removeEventListener('resize', resize); window.removeEventListener('keydown', escape); };
   }, [open]);
   return <>
-    <button ref={trigger} className="year-inspector-toggle" style={{ top: anchor, left: anchorX }} aria-expanded={open} aria-controls="year-inspector" onClick={() => { if (open) close(); else { place(); setOpen(true); } }}>年档案 <span>{open ? '−' : '+'}</span></button>
+    <button ref={trigger} className="year-inspector-toggle" style={{ top: anchor, left: anchorX }} aria-expanded={open} aria-controls="year-inspector" onClick={() => { if (open) close(); else { place(); setOpen(true); } }}>年档案{eventCount > 0 && <small> · {eventCount} 条纪事</small>} <span>{open ? '−' : '+'}</span></button>
     {open && <section ref={panel} id="year-inspector" role="region" aria-label="年份笺注" className={`year-inspector glass-inspector ${pinned ? 'is-pinned' : ''} ${closing ? 'is-closing' : ''}`} style={{ left: position.x, top: position.y, width: size.width, height: size.height, maxHeight: 'calc(100dvh - 24px)', '--inspector-opacity': opacity / 100 } as CSSProperties}>
       {(['n', 'e', 's', 'w', 'ne', 'se', 'sw', 'nw'] as const).map(edge => <div key={edge} className={`inspector-resize resize-${edge}`} role="separator" tabIndex={0} aria-label={`调整档案${({ n: '上边', e: '右边', s: '下边', w: '左边', ne: '右上角', se: '右下角', sw: '左下角', nw: '左上角' })[edge]}尺寸`} onPointerDown={e => {
         if (e.button !== 0) return;

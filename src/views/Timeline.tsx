@@ -53,8 +53,8 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
       setHeight(element.clientHeight);
       setWidth(element.clientWidth);
       const available = element.clientWidth - (window.innerWidth <= 650 ? 88 : 112) - 12;
-      setColumnWidth(available / Math.max(1, Math.min(lanes.length, Math.floor(available / 264))));
-      setArchiveX(element.clientWidth - 100);
+      setColumnWidth(Math.min(320, Math.max(280, available / Math.max(1, Math.floor(available / 280)))));
+      setArchiveX(Math.max(8, element.clientWidth - 190));
       setPointerOffset(Math.max(90, Math.min(element.clientHeight - 60, element.clientHeight / 2)));
     };
     const observer = new ResizeObserver(measure);
@@ -111,11 +111,16 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
   };
   return <section className="vertical-atlas" aria-label="纵向历史比较">
     <div ref={viewport} className="vertical-viewport">
-      <div className="vertical-date-lane" aria-hidden="true"><span className="date-heading">公元纪年<small>年 / Year</small></span>{ticks.filter(y => position(y) > 84 && Math.abs(position(y) - pointerOffset) > 30).map(y => <div key={y} className="vertical-tick" style={{ top: position(y) }}>{formatYear(y)}</div>)}</div>
+      <div className="vertical-date-lane" aria-hidden="true"><span className="date-heading">公元纪年<small>年 / Year</small></span>{ticks.filter(y => position(y) > 84 && Math.abs(position(y) - pointerOffset) > 30).map(y => <div key={y} className={`vertical-tick ${(y > 0 ? y : 1 - y) % 5 === 0 ? 'major-tick' : 'minor-tick'}`} style={{ top: position(y) }}>{formatYear(y)}</div>)}</div>
       <div ref={columns} onScroll={e => setLanePage(Math.round(e.currentTarget.scrollLeft / columnWidth))} className="vertical-columns" tabIndex={0} aria-label="同期政权，横向滚动查看更多" style={{ gridTemplateColumns: `repeat(${Math.max(1, lanes.length)}, ${columnWidth}px)` }}>
         {lanes.map(p => {
           const es = (erasByPolity.get(p.id) ?? []).filter(e => e.startYear <= top + visibleSpan + 140 / pixelsPerYear && e.endYear >= top - 140 / pixelsPerYear);
           const rows = currentRows.filter(r => r.polity.id === p.id).sort((a, b) => a.era.startYear - b.era.startYear || (a.era.startMonth ?? 0) - (b.era.startMonth ?? 0) || a.era.id.localeCompare(b.era.id));
+          const nearestEra = rows.length ? undefined : (erasByPolity.get(p.id) ?? []).reduce<(typeof es)[number] | undefined>((nearest, era) => {
+            const distance = Math.min(Math.abs(era.startYear - selectedYear), Math.abs(era.endYear - selectedYear));
+            const best = nearest ? Math.min(Math.abs(nearest.startYear - selectedYear), Math.abs(nearest.endYear - selectedYear)) : Infinity;
+            return distance < best ? era : nearest;
+          }, undefined);
           const occupied: { top: number; bottom: number }[] = [];
           const placements = new Map<string, number>();
           rows.forEach((row, index) => {
@@ -165,7 +170,7 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
                 </>}
               </div>;
             })}
-            {rows.length === 0 && <p className="missing-era" style={{ top: pointerOffset + 12 }}>本年纪年待补录</p>}
+            {rows.length === 0 && <div className="missing-era" style={{ top: pointerOffset + 16 }}><span>纪年待补录</span>{nearestEra && <button onClick={() => { const destination = selectedYear < nearestEra.startYear ? nearestEra.startYear : nearestEra.endYear; scrollTo(destination); onNavigateYear(destination); }}>最近收录 · {nearestEra.name}<small>{formatYear(nearestEra.startYear)}—{formatYear(nearestEra.endYear)} ↗</small></button>}</div>}
           </div>;
         })}
         {lanes.length === 0 && <p className="empty-period">本年尚未收录政权纪年</p>}
