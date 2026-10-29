@@ -1,5 +1,5 @@
- :root { --paper:#faf7ef; --binding:#eee5e3; --text-main:#312f2a; --text-secondary:#68675f; --text-muted:#777267; --gold:#8b6940; --gold-bright:#8b6940; --seal:#9f6259; --relation:#526b67; --rule:#ddd7cb; --shadow:#312f2a15; }
-:root[data-theme=dark] { --paper:#141310; --binding:#1c1913; --text-main:#fff3dc; --text-secondary:#e0d2b9; --text-muted:#c8b99d; --gold:#c6a465; --gold-bright:#f3d79a; --seal:#d18d77; --relation:#a9b9a5; --rule:#443a29; --shadow:#0006; }
+ :root { --paper:#faf7ef; --binding:#eee5e3; --text-main:#312f2a; --text-secondary:#68675f; --text-muted:#777267; --gold:#8b6940; --gold-bright:#8b6940; --seal:#9f6259; --relation:#526b67; --rule:#ddd7cb; --shadow:#312f2a15; --exhibit-rule:#ddd7cb; --exhibit-year-shadow:#e6d7b6; --exhibit-year-glow:#312f2a14; }
+:root[data-theme=dark] { --paper:#141310; --binding:#1c1913; --text-main:#fff3dc; --text-secondary:#e0d2b9; --text-muted:#c8b99d; --gold:#c6a465; --gold-bright:#f3d79a; --seal:#d18d77; --relation:#a9b9a5; --rule:#443a29; --shadow:#0006; --exhibit-rule:#907647; --exhibit-year-shadow:#8a7240; --exhibit-year-glow:#000; }
 .yearbook{ position:relative; display:grid; grid-template-columns:72px minmax(0,1fr); min-height:calc(100dvh - 88px); margin-top:16px; background:#faf7ef; border:1px solid #e1d9cd; box-shadow:4px 4px 0 #eee7e1,6px 6px 0 #d9d0c4; }
 .book-binding{ border-right:1px solid #d5cbc0; display:flex; flex-direction:column; align-items:center; padding:36px 0; background:#eee5e3; gap:28px; }
 .book-binding>span,.book-binding small{ writing-mode:vertical-rl; font:24px/1.6 var(--serif); letter-spacing:.3em; }
@@ -10,7 +10,6 @@
 .yearbook-date{ position:relative; padding-bottom:30px; border-bottom:1px solid #ddd7cb; }
 .yearbook-date>p{ font:11px/1.5 var(--sans); letter-spacing:.18em; color:#71877b; margin:0 0 14px; }
 .yearbook-year{ font:400 clamp(48px,6vw,84px)/1.3 var(--serif); letter-spacing:.14em; color:#394e4c; background:none; border:0; padding:0; }
-.yearbook-date-caption{ display:flex; gap:24px; margin-top:16px; color:#68675f; font:14px/1.5 var(--serif); letter-spacing:.1em; }
 .yearbook-paging{ position:absolute; right:0; top:20px; display:flex; flex-direction:column; align-items:center; gap:16px; color:#8b867e; font:12px var(--sans); }
 .yearbook-paging button{ background:none; border:0; color:#526b67; padding:8px; }
 .book-section-label{ display:flex; justify-content:space-between; color:#526b67; font:13px/1.6 var(--serif); letter-spacing:.12em; }
@@ -33,8 +32,8 @@
 .yearbook-story p{ color:#68675f; font:14px/1.8 var(--serif); margin:0 0 10px; }
 .yearbook-story .book-read-more{ color:#8b6940; font-size:13px; margin-top:8px; }
 .reading-archive{ position:fixed; z-index:30; top:16px; bottom:16px; right:16px; width:min(440px,calc(100vw - 32px)); background:#faf7ef; border:1px solid #d5cbc0; box-shadow:-12px 0 40px #312f2a15; overflow:auto; padding:24px; }
-.reading-archive>header{ display:flex; justify-content:space-between; position:sticky; top:-24px; background:#faf7ef; padding:16px 0; z-index:1; }
-.reading-archive>header button{ background:none; border:0; color:#9f6259; }
+.archive-close{ position:absolute; top:12px; right:12px; width:30px; height:30px; display:flex; align-items:center; justify-content:center; background:none; border:0; color:var(--gold); font:20px/1 var(--serif); cursor:pointer; }
+.archive-close:hover{ color:var(--seal); }
 @media(max-width:650px){.yearbook{ grid-template-columns:30px minmax(0,1fr); margin-top:8px; min-height:calc(100dvh - 80px); }
 .book-binding{ padding:24px 0; gap:24px; }
 .book-binding>span{ font-size:15px; }
@@ -42,7 +41,6 @@
 .book-binding i{font-size:12px;padding:4px;}
 .yearbook-leaf{padding:24px 18px;}
 .yearbook-year{font-size:42px;letter-spacing:.08em;}
-.yearbook-date-caption{gap:10px;flex-wrap:wrap;font-size:12px;}
 .yearbook-paging{position:static;flex-direction:row;justify-content:space-between;margin-top:20px;gap:8px;}
 .yearbook-date{padding-bottom:16px;}
 .book-section-label small{display:none;}
@@ -72,7 +70,6 @@
 .yearbook-date{ padding-bottom:18px; }
 .yearbook-date>p{ margin-bottom:8px; }
 .yearbook-year{ font-size:clamp(40px,4.7vw,64px); line-height:1.2; }
-.yearbook-date-caption{ margin-top:10px; }
 .yearbook-paging{ top:0; gap:6px; }
 .yearbook-contemporaries{ padding:16px 0 12px; }
 .yearbook-polities{ margin-top:14px; padding-bottom:10px; }
@@ -90,7 +87,6 @@
 .book-binding small{font-size:10px;}
 .yearbook-date>p{font-size:9px;}
 .yearbook-year{font-size:38px;}
-.yearbook-date-caption{font-size:11px;gap:8px;}
 .yearbook-paging{margin-top:8px;}
 .yearbook-date{padding-bottom:10px;}
 .yearbook-contemporaries{padding:12px 0 8px;}
@@ -145,7 +141,7 @@
 .book-binding i,.story-index,.collection-seal{ color:var(--seal); border-color:var(--seal); }
 .yearbook,.collection-page{ background:var(--paper); border-color:var(--rule); box-shadow:3px 3px 0 var(--binding),5px 5px 0 var(--rule); }
 .book-binding{ background:var(--binding); border-color:var(--rule); }
-.book-binding small,.yearbook-date-caption,.yearbook-paging,.book-era>p,.book-era-note,.book-data-note,.yearbook-story p,.collection-head p,.collection-note{ color:var(--text-secondary); }
+.book-binding small,.yearbook-paging,.book-era>p,.book-era-note,.book-data-note,.yearbook-story p,.collection-head p,.collection-note{ color:var(--text-secondary); }
 .yearbook-date>p,.book-section-label,.polity-leaf-title,.yearbook-paging button,.collection-head p:first-child{ color:var(--relation); }
 .yearbook-year{ color:var(--gold-bright); }
 :root[data-theme=dark] .yearbook-year{ text-shadow:0 1px 0 #f3ddb333,0 8px 24px #0008; }
@@ -156,8 +152,7 @@
 .book-era h2 small{ color:var(--gold); }
 .yearbook-story button{ color:var(--text-main); }
 .yearbook-story .book-read-more,.book-read-more,.era-record-link,.collection-head>small{ color:var(--gold-bright); }
-.reading-archive,.reading-archive>header{ background:var(--paper); border-color:var(--rule); box-shadow:-12px 0 40px var(--shadow); }
-.reading-archive>header button{ color:var(--gold); }
+.reading-archive{ background:var(--paper); border-color:var(--rule); box-shadow:-12px 0 40px var(--shadow); }
 .reading-archive .ghost-chip,.collection-page .ghost-chip{ color:var(--relation)!important; }
 .reading-archive .year-era-row{ border-color:var(--rule); }
 .collection-page input,.collection-page select{ background:var(--page-ground); color:var(--text-main); border-color:var(--rule-strong); }
@@ -170,59 +165,77 @@
 .collection-page .site-foot button{ color:var(--gold-bright); border-color:var(--rule-strong); }
 @media(prefers-reduced-motion:no-preference){.yearbook,.book-binding,.reading-archive,.collection-page{ transition:background-color 200ms ease,color 200ms ease,border-color 200ms ease; }
 }
-.exhibit-year-number{ display:none; }
-:root[data-theme=dark] .yearbook{ display:block; border:0; box-shadow:none; background:none; min-height:calc(100dvh - 66px); }
-:root[data-theme=dark] .book-binding{ display:none; }
-:root[data-theme=dark] .yearbook-leaf{ display:grid; grid-template-columns:230px minmax(0,1fr); column-gap:32px; padding:24px 12px 16px; }
-:root[data-theme=dark] .yearbook-date{ grid-row:1 / 3; border:0; border-right:1px solid var(--rule); padding:0 24px 0 0; display:flex; flex-direction:column; align-items:flex-start; }
-:root[data-theme=dark] .yearbook-date>p{ font-size:10px; letter-spacing:.18em; color:var(--gold); margin-bottom:24px; }
-:root[data-theme=dark] .year-glyphs{ display:none; }
-:root[data-theme=dark] .exhibit-year-number{ display:block; font:400 92px/1 var(--serif); letter-spacing:-.055em; color:#f3d79a; text-shadow:0 2px 0 #8a7240,0 12px 30px #000; }
-:root[data-theme=dark] .yearbook-year{ max-width:100%; text-align:left; letter-spacing:0; padding:0 0 20px; }
-:root[data-theme=dark] .yearbook-date-caption{ flex-direction:column; gap:10px; font:14px/1.6 var(--serif); margin-top:0; }
-:root[data-theme=dark] .yearbook-date-caption span:nth-child(2){ font-size:24px; color:var(--text-main); }
-:root[data-theme=dark] .yearbook-paging{ position:static; margin-top:auto; padding-top:32px; align-items:flex-start; gap:4px; }
+/* 阅年：书脊 + 历书式版式（明暗同版式，仅配色不同） */
+.yearbook{ display:grid; grid-template-columns:44px minmax(0,1fr); border:0; box-shadow:none; background:none; min-height:calc(100dvh - 66px); }
+.book-binding{ background:var(--binding); border-right:1px solid var(--rule); }
+.book-binding small{ color:var(--text-secondary); }
+.book-binding i{ color:var(--seal); border-color:var(--seal); }
+.yearbook-leaf{ display:grid; align-self:start; grid-template-columns:230px minmax(0,1fr); column-gap:32px; padding:24px 12px 16px; }
+.yearbook-date{ grid-row:1 / 3; border:0; border-right:1px solid var(--rule); padding:0 24px 0 0; display:flex; flex-direction:column; align-items:flex-start; }
+.yearbook-date>p{ font-size:10px; letter-spacing:.18em; color:var(--gold); margin-bottom:22px; }
+.yearbook-year{ display:flex; flex-direction:column; align-items:flex-start; gap:8px; max-width:100%; padding:0 0 18px; text-align:left; letter-spacing:0; }
+.year-ce{ font:400 64px/1.05 var(--serif); letter-spacing:-.01em; color:var(--gold); text-shadow:0 2px 0 var(--exhibit-year-shadow),0 10px 26px var(--exhibit-year-glow); }
+.year-ganzhi{ font:400 15px/1.4 var(--serif); letter-spacing:.14em; color:var(--text-secondary); }
+.yearbook-paging{ position:static; margin-top:auto; padding-top:32px; align-items:flex-start; gap:4px; }
 .yearbook-paging button:disabled{opacity:.4;}
-:root[data-theme=dark] .yearbook-contemporaries{ padding:0 0 16px; }
-:root[data-theme=dark] .yearbook-polities{ margin-top:16px; padding-bottom:12px; gap:12px; align-items:stretch; }
-:root[data-theme=dark] .polity-leaf{ flex:1 0 170px; background:#1e1b14; border:1px solid #4e412e; border-top:2px solid #ae8854; padding:16px; box-sizing:border-box; scroll-snap-align:start; }
-:root[data-theme=dark] .polity-leaf-title{ font:15px/1.6 var(--serif); color:#f3d79a; }
-:root[data-theme=dark] .book-era h2{ font:32px/1.3 var(--serif); margin:20px 0 10px; color:#fff3dc; }
-:root[data-theme=dark] .book-era h2 small{ display:block; font-size:19px; color:#f3d79a; margin:6px 0 0; }
-:root[data-theme=dark] .book-era>p{ font:14px/1.8 var(--serif); color:#e0d2b9; }
-:root[data-theme=dark] .yearbook-story{ grid-column:2; margin-top:8px; padding:18px 0 0; border-top:1px solid #907647; }
-:root[data-theme=dark] .yearbook-story button{ font-size:23px; color:#fff3dc; }
-:root[data-theme=dark] .yearbook-story p{ font-size:14px; color:#e0d2b9; }
-:root[data-theme=dark] .yearbook-story .book-read-more{ font-size:13px; color:#f3d79a; }
-@media(max-width:900px){:root[data-theme=dark] .yearbook-leaf{grid-template-columns:1fr;padding:14px 8px;gap:0;}
-:root[data-theme=dark] .yearbook-date{grid-row:auto;display:grid;grid-template-columns:1fr 1fr;column-gap:20px;border:0;border-bottom:1px solid var(--rule);padding:0 0 16px;}
-:root[data-theme=dark] .yearbook-date>p{grid-column:1/-1;margin-bottom:12px;}
-:root[data-theme=dark] .exhibit-year-number{font-size:80px;}
-:root[data-theme=dark] .yearbook-date-caption{align-self:center;gap:4px;}
-:root[data-theme=dark] .yearbook-paging{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;padding-top:8px;margin:0;width:100%;}
-:root[data-theme=dark] .yearbook-year{padding:0;}
-:root[data-theme=dark] .yearbook-contemporaries{padding-top:16px;}
-:root[data-theme=dark] .yearbook-story{grid-column:1;}
+.year-epigraph{ margin:0 0 16px; font:15px/1.85 var(--serif); letter-spacing:.04em; color:var(--text-secondary); }
+.yearbook-contemporaries{ padding:0 0 10px; }
+.yearbook-polities{ display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:0 36px; margin-top:14px; padding-bottom:0; overflow:visible; scroll-snap-type:none; align-items:start; }
+.yearbook-polities.is-pair{ display:block; column-count:2; column-gap:36px; }
+.yearbook-polities.is-pair>.polity-leaf{ break-inside:avoid; }
+.polity-leaf{ display:grid; grid-template-columns:26px minmax(0,1fr); align-items:start; background:none; border:0; border-top:1px solid var(--rule); padding:12px 0 18px; scroll-snap-align:none; }
+.polity-index{ font:10px/1.5 var(--sans); letter-spacing:.14em; color:var(--text-muted); padding-top:4px; }
+.yearbook-polities>.polity-leaf:only-child{ grid-column:1 / -1; }
+.polity-leaf-title{ display:flex; justify-content:space-between; align-items:baseline; width:100%; font:14px/1.6 var(--serif); letter-spacing:.16em; color:var(--text-main); }
+.polity-leaf-title span{ color:var(--seal); font-size:12px; letter-spacing:0; }
+.book-era{ margin-top:8px; }
+.book-era h2{ display:flex; align-items:baseline; gap:8px; margin:0; font:400 22px/1.4 var(--serif); letter-spacing:.08em; color:var(--text-main); }
+.book-era h2 small{ font:11px/1.4 var(--sans); letter-spacing:.06em; color:var(--gold-bright); }
+.era-meta{ display:flex; justify-content:space-between; gap:8px; margin:2px 0 0; font:11px/1.7 var(--sans); color:var(--text-secondary); }
+.era-span{ color:var(--text-muted); white-space:nowrap; }
+.book-era-note{ margin-top:8px; border-top:1px dashed var(--rule); padding-top:8px; font:11px/1.8 var(--sans); color:var(--text-secondary); }
+.book-era-note p{ margin:4px 0 0; }
+.yearbook-story{ grid-column:2; margin-top:12px; padding:16px 0 0; border-top:1px solid var(--exhibit-rule); display:grid; grid-template-columns:30px minmax(0,1fr); gap:18px; max-width:880px; }
+.story-index{ width:30px; box-sizing:border-box; text-align:center; font:12px/1.4 var(--serif); letter-spacing:0; color:var(--seal); border:1px solid var(--seal); padding:3px 0; align-self:start; }
+.yearbook-story .book-section-label{ display:block; font:10px/1.8 var(--sans); letter-spacing:.18em; color:var(--gold); }
+.yearbook-story button{ font:16px/1.7 var(--serif); color:var(--text-main); }
+.yearbook-story p{ font:13px/1.9 var(--serif); color:var(--text-secondary); }
+.yearbook-story .book-read-more{ font-size:12px; color:var(--gold); }
+@media(max-width:1100px){.yearbook-polities{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 30px;}}
+@media(max-width:900px){.yearbook-leaf{grid-template-columns:1fr;padding:14px 8px;gap:0;}
+.yearbook-date{grid-row:auto;display:grid;grid-template-columns:1fr 1fr;column-gap:20px;border:0;border-bottom:1px solid var(--rule);padding:0 0 14px;}
+.yearbook-date>p{grid-column:1/-1;margin-bottom:10px;}
+.year-ce{font-size:52px;}
+.yearbook-paging{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;padding-top:8px;margin:0;width:100%;}
+.yearbook-year{padding:0;}
+.yearbook-contemporaries{padding-top:14px;}
+.yearbook-story{grid-column:1;}
 }
-@media(max-width:650px){:root[data-theme=dark] .exhibit-year-number{font-size:70px;}
-:root[data-theme=dark] .polity-leaf{flex-basis:100%;padding:12px 16px;}
-:root[data-theme=dark] .book-era h2{margin:12px 0 6px;font-size:28px;}
-:root[data-theme=dark] .book-era h2 small{display:inline;font-size:17px;margin-left:12px;}
-:root[data-theme=dark] .yearbook-story button{font-size:20px;}
+@media(max-width:650px){.yearbook{grid-template-columns:26px minmax(0,1fr);}
+.year-ce{font-size:44px;}
+.yearbook-polities,.yearbook-polities.is-pair{grid-template-columns:minmax(0,1fr);gap:0;}
+.yearbook-polities.is-pair{display:block;column-count:1;}
+.polity-leaf{padding:12px 0;}
+.book-era h2{font-size:20px;}
+.yearbook-story button{font-size:15px;}
 }
-:root[data-theme=dark] .yearbook-leaf>*{ min-width:0; }
-:root[data-theme=dark] .book-era h2{ margin:12px 0 6px;font-size:30px; }
-:root[data-theme=dark] .book-era h2 small{ margin-top:4px;font-size:17px; }
-:root[data-theme=dark] .book-era>p{ margin:6px 0;font-size:13px; }
-@media(max-width:900px){:root[data-theme=dark] .yearbook-leaf{grid-template-columns:minmax(0,1fr);}
-:root[data-theme=dark] .yearbook-date{grid-template-columns:minmax(0,1fr) minmax(0,1fr);padding-bottom:10px;}
-:root[data-theme=dark] .yearbook-date>p{margin-bottom:8px;}
-:root[data-theme=dark] .exhibit-year-number{font-size:66px;}
-:root[data-theme=dark] .yearbook-date-caption{font-size:12px;}
-:root[data-theme=dark] .yearbook-date-caption span:nth-child(2){font-size:20px;}
-:root[data-theme=dark] .yearbook-paging{padding-top:4px;}
-:root[data-theme=dark] .yearbook-contemporaries{padding-top:12px;}
-:root[data-theme=dark] .yearbook-polities{margin-top:10px;}
-:root[data-theme=dark] .polity-leaf{padding:12px;}
-:root[data-theme=dark] .yearbook-story{padding-top:12px;margin-top:0;}
+.yearbook-leaf>*{ min-width:0; }
+
+/* ── 关于本站：引言 + 依据（两段式）────────────── */
+.sources-page.about-intro,
+.sources-page.about-evidence { max-width: 1100px; margin-left: auto; margin-right: auto; padding: 28px; background: var(--paper); border: 1px solid var(--rule); box-shadow: 3px 3px 0 var(--binding); }
+.sources-page.about-intro { border-left: 5px solid var(--seal); }
+.sources-page.about-evidence { margin-top: 20px; scroll-margin-top: 20px; }
+.about-evidence > .eyebrow,
+.about-evidence > .brand-motto { display: none; }
+.brand-motto { margin: 6px 0 16px; font: 16px/1.7 var(--serif); color: var(--text-secondary); letter-spacing: .04em; }
+.book-read-more { display: inline-block; margin-top: 6px; font-size: 13px; text-decoration: none; }
+.book-read-more:hover { text-decoration: underline; }
+@media (max-width: 650px) {
+  .sources-page.about-intro,
+  .sources-page.about-evidence { padding: 20px; }
 }
+
+/* 移除「返回编年」后，保留页面与页头之间的呼吸距离 */
+main > section.collection-page,
+main > section.about-intro { margin-top: 18px; }

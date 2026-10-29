@@ -1,13 +1,8 @@
-type IconName = 'reading' | 'timeline' | 'dynasty' | 'chronology' | 'heritage' | 'search' | 'about' | 'sun' | 'moon';
+type IconName = 'reading' | 'timeline' | 'chronology' | 'heritage' | 'search' | 'about' | 'sun' | 'moon';
 
 const paths: Record<IconName, string[]> = {
  reading: ['M12 5Q7 2 3 4V20Q7 18 12 21Q17 18 21 20V4Q17 2 12 5V21', 'M6 8H9M6 12H9M15 8H18M15 12H18'],
  timeline: ['M5 3V21M12 3V21M19 3V21M3 8H7M10 15H14M17 10H21'],
-  dynasty: [
-    'M5 8Q8 7 12 3Q16 7 19 8M6 8H18M8 8V11M16 8V11',
-    'M3 13Q7 12 12 10Q17 12 21 13M4 13H20',
-    'M6 13V20M18 13V20M10 20V16H14V20M4 20H20',
-  ],
   chronology: [
     'M5 4H19V18H7M5 4a2 2 0 0 0-2 2v12a2 2 0 0 0 4 0V6a2 2 0 0 0-2-2Z',
     'M7 18a2 2 0 0 1-2 2H19a2 2 0 0 0 2-2V16H19',

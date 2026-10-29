@@ -17,7 +17,7 @@ const readState = () => {
   const start = Math.max(eraCoverage.min, valid('from', eraCoverage.min));
   const end = Math.min(eraCoverage.max, valid('to', eraCoverage.max));
   const raw = p.get('view') === 'sources' ? 'about' : p.get('view');
-  return { view: (['reading', 'timeline', 'table', 'sites', 'about'].includes(raw ?? '') ? raw : 'timeline') as View, year: Math.max(eraCoverage.min, Math.min(eraCoverage.max, Math.round(valid('year', 1127)))), domain: (end - start >= 3 ? [start, end] : [eraCoverage.min, eraCoverage.max]) as [number, number], q: p.get('q') ?? '', event: p.get('event') };
+  return { view: (['reading', 'timeline', 'table', 'sites', 'about'].includes(raw ?? '') ? raw : 'reading') as View, year: Math.max(eraCoverage.min, Math.min(eraCoverage.max, Math.round(valid('year', 1127)))), domain: (end - start >= 3 ? [start, end] : [eraCoverage.min, eraCoverage.max]) as [number, number], q: p.get('q') ?? '', event: p.get('event') };
 };
 
 export default function App() {
@@ -30,16 +30,9 @@ export default function App() {
   const [q, setQ] = useState(initial.q);
   const [selectedEvent, setSelectedEvent] = useState<string | null>(initial.event);
   const [searchOpen, setSearchOpen] = useState(new URLSearchParams(location.search).get('view') === 'convert');
-  const [menu, setMenu] = useState<'periods' | null>(null);
+  const [paletteSeed, setPaletteSeed] = useState('');
+  const [paletteNonce, setPaletteNonce] = useState(0);
   const [coverageJump, setCoverageJump] = useState(0);
-  const headRef = useRef<HTMLElement>(null);
-  useEffect(() => {
-    const dismiss = (e: PointerEvent) => { if (!headRef.current?.contains(e.target as Node)) setMenu(null); };
-    const escape = (e: KeyboardEvent) => { if (e.key === 'Escape') setMenu(null); };
-    document.addEventListener('pointerdown', dismiss);
-    document.addEventListener('keydown', escape);
-    return () => { document.removeEventListener('pointerdown', dismiss); document.removeEventListener('keydown', escape); };
-  }, []);
   const [detail, setDetail] = useState<{ title: string; text: string; year: number | null } | null>(null);
   const dialogRef = useRef<HTMLDialogElement>(null);
   useEffect(() => {
@@ -51,8 +44,7 @@ export default function App() {
   const [target, setTarget] = useState<{ polityId?: string; eraId?: string; key: number }>({ key: 0 });
   const jumpToYear = (y: number, polityId?: string, eraId?: string) => {
     setTarget(t => ({ polityId, eraId, key: t.key + 1 }));
-    setSearchOpen(false); setMenu(null);
-    setYear(y); setSelectedEvent(null); setView(view === 'reading' ? 'reading' : 'timeline');
+    setSearchOpen(false); setYear(y); setSelectedEvent(null); setView(view === 'timeline' ? 'timeline' : 'reading');
     setDomain([Math.max(eraCoverage.min, y - 25), Math.min(eraCoverage.max, y + 25)]);
   };
   useEffect(() => {
@@ -64,7 +56,7 @@ export default function App() {
   useEffect(() => {
     const onPop = () => { const s = readState(); setView(s.view); setYear(s.year); setDomain(s.domain); setQ(s.q); setSelectedEvent(s.event); };
     const onKey = (e: KeyboardEvent) => {
-      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); setMenu(null); setSearchOpen(v => !v); return; }
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); if (searchOpen) setSearchOpen(false); else openPalette(q); return; }
       if (e.key === 'Escape') { setDetail(null); }
       if (view !== 'timeline' || detail || searchOpen || /INPUT|SELECT|TEXTAREA|BUTTON|SUMMARY/.test((e.target as HTMLElement).tagName) || !['ArrowLeft', 'ArrowRight'].includes(e.key)) return;
       e.preventDefault(); const next = Math.max(eraCoverage.min, Math.min(eraCoverage.max, year + (e.shiftKey ? 10 : 1) * (e.key === 'ArrowLeft' ? -1 : 1)));
@@ -74,29 +66,33 @@ export default function App() {
     window.addEventListener('keydown', onKey); window.addEventListener('popstate', onPop);
     return () => { window.removeEventListener('keydown', onKey); window.removeEventListener('popstate', onPop); };
   }, [view, year, domain, detail, searchOpen]);
-  const selectHit = (hit: SearchHit) => { setQ(hit.title); jumpToYear(hit.year, hit.polityId, hit.eraId); };
+  const openPalette = (seed: string) => { setPaletteSeed(seed); setPaletteNonce(n => n + 1); setSearchOpen(true); };
+  const selectHit = (hit: SearchHit) => {
+    setQ(hit.title); jumpToYear(hit.year, hit.polityId, hit.eraId);
+    if (hit.category === '政权') { const p = polities.find(p => p.id === hit.polityId); if (p) setDomain([p.startYear, p.endYear]); }
+    else if (hit.category === '时期') { const g = PERIOD_GROUPS.find(g => `period-${g.name}` === hit.id); if (g) setDomain([g.start, g.end]); }
+  };
   useEffect(() => { if (coverageJump) document.getElementById('source-coverage')?.scrollIntoView(); }, [coverageJump]);
   const openCoverage = () => { setView('about'); setCoverageJump(n => n + 1); };
   return <div className={`app book-app ${view === 'timeline' ? 'book-timeline' : view === 'reading' ? 'book-reading' : ''}`}>
-    <header ref={headRef} className="site-head book-head">
-      <div className="brand"><h1><button aria-label="此年 ChronoChina · 返回首页" onClick={() => { setView('timeline'); setSearchOpen(false); setMenu(null); }}><img className="brand-mark" src="/favicon-art.png" alt="" /><span className="book-english">ChronoChina</span></button></h1></div>
+    <a className="skip-content" href="#chronicle-content">跳到正文</a>
+    <header className="site-head book-head">
+      <div className="brand"><h1><button aria-label="此年 ChronoChina · 返回阅年" onClick={() => { setView('reading'); setSearchOpen(false); }}><img className="brand-mark" src="/favicon-art.png" alt="" /><span className="book-english">ChronoChina</span></button></h1></div>
       <nav className="book-nav" aria-label="主导航">
-        <button title="阅年 · 一年一页" aria-label="阅年" aria-current={view === 'reading' ? 'page' : undefined} onClick={() => { setView('reading'); setMenu(null); setSearchOpen(false); }}><NavIcon name="reading" /></button>
-        <button title="并世 · 同期对照" aria-label="并世" aria-current={view === 'timeline' ? 'page' : undefined} onClick={() => { setView('timeline'); setMenu(null); setSearchOpen(false); }}><NavIcon name="timeline" /></button>
-        <button className="nav-entry" title="朝代 · 历史时期与政权" aria-label="朝代" aria-expanded={menu === 'periods'} aria-controls="period-menu" onClick={() => { setSearchOpen(false); setMenu(menu === 'periods' ? null : 'periods'); }}><NavIcon name="dynasty" /></button>
-        <button className="nav-entry" title="纪年资料库" aria-label="纪年资料库" aria-current={view === 'table' ? 'page' : undefined} onClick={() => { setSearchOpen(false); setMenu(null); setView('table'); }}><NavIcon name="chronology" /></button>
-        <button className="nav-entry" title="历史遗产" aria-label="历史遗产" aria-current={view === 'sites' ? 'page' : undefined} onClick={() => { setSearchOpen(false); setMenu(null); setView('sites'); }}><NavIcon name="heritage" /></button>
-        <button className="nav-entry" title="搜索 · Ctrl / ⌘ K" aria-label="搜索" aria-expanded={searchOpen} onClick={() => { setMenu(null); setSearchOpen(v => !v); }}><NavIcon name="search" /></button>
-        <button className="nav-entry" title="关于本站" aria-label="关于本站" aria-current={view === 'about' ? 'page' : undefined} onClick={() => { setSearchOpen(false); setMenu(null); setView('about'); }}><NavIcon name="about" /></button>
-        <button className="theme-toggle" title={theme === 'dark' ? '切换浅色' : '切换暗色'} aria-label={theme === 'dark' ? '切换浅色' : '切换暗色'} onClick={() => setTheme(t => t === 'dark' ? 'light' : 'dark')}><NavIcon name={theme === 'dark' ? 'sun' : 'moon'} /></button>
+        <button title="阅年 · 一年一页" aria-label="阅年" aria-current={view === 'reading' ? 'page' : undefined} onClick={() => { setView('reading'); setSearchOpen(false); }}><NavIcon name="reading" /></button>
+        <button title="并世 · 同期对照" aria-label="并世" aria-current={view === 'timeline' ? 'page' : undefined} onClick={() => { setView('timeline'); setSearchOpen(false); }}><NavIcon name="timeline" /></button>
+        <button className="nav-entry" title="纪年资料库" aria-label="纪年资料库" aria-current={view === 'table' ? 'page' : undefined} onClick={() => { setSearchOpen(false); setView('table'); }}><NavIcon name="chronology" /></button>
+        <button className="nav-entry" title="历史遗产" aria-label="历史遗产" aria-current={view === 'sites' ? 'page' : undefined} onClick={() => { setSearchOpen(false); setView('sites'); }}><NavIcon name="heritage" /></button>
+        <button className="nav-entry" title="搜索 · Ctrl / ⌘ K" aria-label="搜索" aria-expanded={searchOpen} aria-haspopup="dialog" onClick={() => { if (searchOpen) setSearchOpen(false); else openPalette(q); }}><NavIcon name="search" /></button>
+        <button className="nav-entry" title="关于本站" aria-label="关于本站" aria-current={view === 'about' ? 'page' : undefined} onClick={() => { setSearchOpen(false); setView('about'); }}><NavIcon name="about" /></button>
+        <button className="theme-toggle" title={theme === 'dark' ? '切换浅色册页' : '切换暗色展厅'} aria-label={theme === 'dark' ? '切换浅色册页' : '切换暗色展厅'} onClick={() => setTheme(t => t === 'dark' ? 'light' : 'dark')}><NavIcon name={theme === 'dark' ? 'sun' : 'moon'} /></button>
       </nav>
-      {menu === 'periods' && <div className="book-menu dynasty-menu" id="period-menu" aria-label="选择朝代"><div className="menu-caption">历史时期与政权 <span>点击直达 · 保留同期比较</span></div><div className="dynasty-groups">{PERIOD_GROUPS.map(group => <section key={group.name}><button className="period-heading" onClick={() => { jumpToYear(group.start); setDomain([group.start, group.end]); }}>{group.name}<small>{formatYear(group.start)}—{formatYear(group.end)}</small></button><div>{group.ids.map(id => { const p = polities.find(p => p.id === id)!; return <button key={id} className={target.polityId === id ? 'selected' : ''} onClick={() => { jumpToYear(p.startYear, id); setDomain([p.startYear, p.endYear]); }}>{p.name}</button>; })}</div></section>)}</div></div>}
     </header>
-    {searchOpen && <SearchPalette initialQuery={q} onClose={() => setSearchOpen(false)} onSelect={selectHit} />}
-    <main>
-      {view === 'reading' && <YearBook year={year} onYear={setYear} blocked={searchOpen || !!menu || !!detail} />}
-      {view !== 'timeline' && view !== 'reading' && <button className="back-to-timeline" onClick={() => setView('timeline')}>← 返回编年</button>}
-      {view === 'about' && <section className="sources-page"><p className="eyebrow">此年 · ChronoChina</p><h2>此年，山河同阅。</h2><p>以统一年份比较同时代政权、帝王与年号，按需查阅历史资料。</p><h3>如何阅读</h3><p>上下滚动选年，Ctrl / Command + 滚轮缩放时段；横向滑动比较同期政权。点击朱红年份可输入具体年代。</p><p>朝代菜单直达开朝年；搜索支持年份、年号、姓名片段及政权拼音，也可按 Ctrl / Command + K 打开。</p><p>区间端点按年标示且包含末年。同年改元可能出现重合，月份沿用原记载，并不等于精确公历日期。</p><p>年档案可拖动标题栏摆放，调节纸面透明度，也可固定到侧边查阅完整资料。</p><h2 id="source-coverage">每一次定位，都应知道依据与缺口。</h2><div className="coverage-grid"><article className="card"><h3>主要政权纪年</h3><p>{formatYear(eraCoverage.min)}—{formatYear(eraCoverage.max)} 年，36 个政权。十六国、十国尚未录入；西辽 1143 年之后纪年待补录。</p></article><article className="card"><h3>事件、人物与遗产</h3><p>{events.length} 条事件、{persons.length} 位精选人物、{sites.length} 处遗产。空白年份表示尚未收录；事件参与政权、人物事迹及遗产年代仍需条目级复核。</p></article><article className="card"><h3>时间与复核规则</h3><p>界面使用公元／公元前，无公元 0 年。改元月份按原记载，不自动换算公历。计算校验通过不等于史实审定；异说、约数与复核状态分别说明。</p></article></div><h3>当前来源目录</h3>{sources.map(s => <article className="source-row" key={s.id}><h3>{s.url ? <a href={s.url} target="_blank" rel="noreferrer">{s.name}</a> : s.name}</h3><p>{s.license} · {s.note || '汇总来源，具体条目出处待逐步完善。'}</p></article>)}</section>}
+    {searchOpen && <SearchPalette key={paletteNonce} initialQuery={paletteSeed} year={year} onClose={() => setSearchOpen(false)} onSelect={selectHit} onPickDynasty={p => { jumpToYear(p.startYear, p.id); setDomain([p.startYear, p.endYear]); }} onPickPeriod={g => { jumpToYear(g.start); setDomain([g.start, g.end]); }} />}
+    <main id="chronicle-content" tabIndex={-1}>
+      {view === 'reading' && <YearBook year={year} onYear={setYear} blocked={searchOpen || !!detail} />}
+      {view === 'about' && <section className="sources-page about-intro"><p className="eyebrow">关于本站 · ChronoChina</p><h2>岁月同流，山河异纪。</h2><p>以统一年份比较同时代政权、帝王与年号，按需查阅历史资料。</p><h3>如何阅读</h3><p>「阅年」一年一页，上下翻阅年份，横向阅读同期政权；点击年份或纪事，展开年度档案。「并世」保留连续时间轴，可上下滚动选年，Ctrl / Command + 滚轮缩放时段，点击当前年份输入年代。两种模式共用当前年份。</p><p>搜索窗口留空时列出历史时期与政权，点击直达开朝年并保留同期比较；输入年份、年号、姓名片段或政权拼音则转为检索，也可按 Ctrl / Command + K 打开。</p><p>区间端点按年标示且包含末年。同年改元可能出现重合，月份沿用原记载，并不等于精确公历日期。</p><p>阅年档案在侧边展开，合上后回到原页；并世中的年档案支持拖动、八向缩放、透明度调节和固定到侧边。</p><a className="book-read-more" href="#source-coverage">阅读来源与覆盖 ↓</a></section>}
+      {view === 'about' && <section id="source-coverage" className="sources-page about-evidence"><p className="eyebrow">此年 · ChronoChina</p><p className="brand-motto">岁月同流，山河异纪。</p><h2>每一次定位，都应知道依据与缺口。</h2><div className="coverage-grid"><article className="card"><h3>主要政权纪年</h3><p>{formatYear(eraCoverage.min)}—{formatYear(eraCoverage.max)} 年，36 个政权。十六国、十国尚未录入；西辽 1143 年之后纪年待补录。</p></article><article className="card"><h3>事件、人物与遗产</h3><p>{events.length} 条事件、{persons.length} 位精选人物、{sites.length} 处遗产。空白年份表示尚未收录；事件参与政权、人物事迹及遗产年代仍需条目级复核。</p></article><article className="card"><h3>时间与复核规则</h3><p>界面使用公元／公元前，无公元 0 年。改元月份按原记载，不自动换算公历。计算校验通过不等于史实审定；异说、约数与复核状态分别说明。</p></article></div><h3>当前来源目录</h3>{sources.map(s => <article className="source-row" key={s.id}><h3>{s.url ? <a href={s.url} target="_blank" rel="noreferrer">{s.name}</a> : s.name}</h3><p>{s.license} · {s.note || '汇总来源，具体条目出处待逐步完善。'}</p></article>)}</section>}
 
       {view === 'timeline' && <>
         <Timeline target={target} onNavigateYear={setYear} year={year} domain={domain} onOpenRecord={(kind, id) => {
