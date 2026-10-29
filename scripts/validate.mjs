@@ -143,7 +143,8 @@ for (const p of persons) {
   if (!p.summary) err(`person ${p.id} 缺少 summary`);
   if (p.birth !== null && p.death !== null && p.birth > p.death) err(`person ${p.id} 生卒倒置 ${p.birth} > ${p.death}`);
   if (p.birth !== null && (p.birth < -600 || p.birth > 1911)) err(`person ${p.id} birth ${p.birth} 异常`);
-  if (p.death !== null && (p.death < -600 || p.death > 1911)) err(`person ${p.id} death ${p.death} 异常`);
+  // 清末人物多卒于民国，生卒允许略越出纪元表覆盖终点
+  if (p.death !== null && (p.death < -600 || p.death > 1949)) err(`person ${p.id} death ${p.death} 异常`);
   for (const pid of p.polityIds ?? []) if (!polityIds.has(pid)) err(`person ${p.id} 引用不存在的政权 ${pid}`);
 }
 
