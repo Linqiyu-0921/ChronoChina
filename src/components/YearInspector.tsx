@@ -7,7 +7,6 @@ import { eraDisplayName, eraYearLabel, formatYearFull, ganzhiOf } from '../lib/t
 interface Props { year: number; anchor: number; height: number; width: number; anchorX: number; onPinChange: (pinned: boolean) => void; }
 export default function YearInspector({ year, anchor, anchorX, onPinChange }: Props) {
   const [mode, setMode] = useState<'closed' | 'short' | 'long' | 'pinned'>('closed');
-  const [pinnedYear, setPinnedYear] = useState(year);
   const [position, setPosition] = useState({ left: 12, top: 80 });
   const [link, setLink] = useState({ x: 0, from: 0, to: 0 });
   const [floating, setFloating] = useState<PanelRect | null>(null);
@@ -23,7 +22,7 @@ export default function YearInspector({ year, anchor, anchorX, onPinChange }: Pr
   const panel = useRef<HTMLElement>(null);
   const closeButton = useRef<HTMLButtonElement>(null);
   const open = mode !== 'closed';
-  const readingYear = mode === 'pinned' ? pinnedYear : year;
+  const readingYear = year;
   const rows = eraRowsAtYear(readingYear);
   const events = eventsByYear.get(readingYear) ?? [];
   const story = events[0];
@@ -59,7 +58,6 @@ export default function YearInspector({ year, anchor, anchorX, onPinChange }: Pr
       ? { rect: fromRect.current, mode: mode === 'short' ? 'short' : 'long' }
       : null;
     settle();
-    setPinnedYear(year);
     setMode('pinned');
   };
   useEffect(() => {
@@ -114,7 +112,7 @@ export default function YearInspector({ year, anchor, anchorX, onPinChange }: Pr
           <div className="suijian-excerpt"><h3>这一年</h3>{story ? <><p>{story.title}</p>{storyBody && <p>{storyBody}</p>}</> : <p>本年尚未收录纪事，亦可展开查阅同期纪年与人物。</p>}</div>
         </> : <YearPanel year={readingYear} />}
       </div>
-      <footer className="suijian-footer">{mode === 'short' ? <button onClick={() => setMode('long')}>展开本年档 <span aria-hidden="true">↗</span></button> : mode === 'long' ? <button onClick={() => setMode('short')}>收为短笺</button> : <span>已留存此年 · 可继续滚动对照</span>}</footer>
+      <footer className="suijian-footer">{mode === 'short' ? <button onClick={() => setMode('long')}>展开本年档 <span aria-hidden="true">↗</span></button> : mode === 'long' ? <button onClick={() => setMode('short')}>收为短笺</button> : <span>随阅年同步 · 可继续滚动对照</span>}</footer>
     </section>}
   </>;
 }
