@@ -13,3 +13,7 @@ data/raw/wiki-years/
 # 国学大师古籍分卷缓存（脚本可重抓，不入库）
 data/raw/zztj/
 data/raw/xzj/
+# 古籍分卷与站点数据缓存（脚本可重抓，不入库）
+data/raw/mingshi/
+data/raw/qsg/
+data/raw/atlas/

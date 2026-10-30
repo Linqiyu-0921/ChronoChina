@@ -17,8 +17,10 @@ const BOOK = (() => {
   const a = process.argv.indexOf('--book');
   const name = a >= 0 ? process.argv[a + 1] : 'zztj';
   return {
-    zztj: { index: 'https://www.guoxuedashi.com/a/54cxdt/', dir: 'zztj', prefix: 'tz', source: 'S6', gregorian: true, pattern: /\/a\/54cxdt\/\d+[a-z]\.html/g },
-    xzj: { index: 'https://www.guoxuedashi.com/a/56bivu/', dir: 'xzj', prefix: 'xz', source: 'S7', gregorian: false, pattern: /\/a\/56bivu\/\d+[a-z]\.html/g },
+    zztj: { index: 'https://www.guoxuedashi.com/a/54cxdt/', dir: 'zztj', prefix: 'tz', source: 'S6', mode: 'head', gregorian: true },
+    xzj: { index: 'https://www.guoxuedashi.com/a/56bivu/', dir: 'xzj', prefix: 'xz', source: 'S7', mode: 'head', gregorian: false },
+    mingshi: { index: 'https://www.gxdq.com/a/26l/', dir: 'mingshi', prefix: 'ms', source: 'S8', mode: 'lead', polity: 'ming', only: /本纪/ },
+    qsg: { index: 'https://www.gxdq.com/a/27p/', dir: 'qsg', prefix: 'qs', source: 'S9', mode: 'lead', polity: 'qing', only: /本纪/ },
   }[name];
 })();
 const INDEX = BOOK.index;
@@ -84,15 +86,75 @@ function eraToYear(header, lastYear) {
   return null;
 }
 const MONTH = /^(?:[春夏秋冬][，,]|[正一二三四五六七八九十冬腊]{1,2}月[，,])/;
-const STRONG = /战|伐|攻|围|破|败|克|陷|降|叛|杀|弑|立|废|薨|卒|崩|即位|称帝|称王|改元|变法|遣使|册|盟|和亲|大水|大旱|饥|蝗|地震|疫|都|迁|置|罢|免|赐死/;
+/** 本纪体段首：「十二年春二月」「洪武元年正月」「康熙元年壬寅春正月」 */
+const LEAD = /^([\u4e00-\u9fa5]{1,5}年)(?=(?:[甲乙丙丁戊己庚辛壬癸][子丑寅卯辰巳午未申酉戌亥])?[，,春夏秋冬正腊闰一二三四五六七八九十])/;
+const CN_NUM = /^(?:元|[一二三四五六七八九十]{1,3})$/;
+const erasOfPolity = (polityId) => erasJson.filter((e) => e.polityId === polityId);
+const eraNames = [...erasByName.keys()].sort((a, b) => b.length - a.length);
+/**
+ * 本纪体的「N年」：先看句首有没有年号；没有就沿用本章已出现的年号（纪传体一卷只叙一朝）；
+ * 章首即无年号时，只在本政权恰于上一年之后改元的情况下认定。
+ */
+function inferLeadYear(header, lastYear, polityId, curEra) {
+  const tok = header.match(LEAD);
+  if (!tok) return null;
+  const body = tok[1].slice(0, -1);
+  let era = null, numText = body;
+  for (const name of eraNames) {
+    if (body.startsWith(name) && CN_NUM.test(body.slice(name.length))) {
+      const list = erasByName.get(name);
+      // 同名年号取本政权的那个，实在没有再用第一个
+      era = list.find((e) => e.polityId === polityId) ?? list[0];
+      numText = body.slice(name.length);
+      break;
+    }
+  }
+  if (!CN_NUM.test(numText)) return null;
+  const n = numText === '元' ? 1 : cnNum(numText);
+  if (era) {
+    const y = era.startYear + n - 1;
+    return y <= era.endYear ? { year: y, era } : null;
+  }
+  if (curEra) {
+    const y = curEra.startYear + n - 1;
+    if (y <= curEra.endYear && y >= lastYear - 1) return { year: y, era: curEra };
+  }
+  // 章首无年号：取本政权年号里最接近上一年、且不早于它的解释
+  const cands = erasOfPolity(polityId)
+    .map((e) => ({ y: e.startYear + n - 1, era: e }))
+    .filter((c) => c.y <= c.era.endYear && c.y >= lastYear - 1 && c.y <= lastYear + 25)
+    .sort((a, b) => a.y - b.y);
+  if (cands.length) return { year: cands[0].y, era: cands[0].era };
+  if (n === 1) {
+    const next = erasOfPolity(polityId).filter((e) => e.startYear >= lastYear);
+    if (next.length === 1) return { year: next[0].startYear, era: next[0] };
+  }
+  return null;
+}
+const MILITARY = /战|伐|攻|围|破|败|克|陷|降|叛|杀|弑|薨|卒|崩|即位|称帝|称王|改元|起义|之役/;
+const INSTITUTION = /立|废|置|罢|免|诏|赐|迁|都|变法|遣使|册|盟|和亲|大水|大旱|饥|蝗|地震|疫/;
+const APPOINT = /^(?:以[\u4e00-\u9fa5]{1,12}(?:为|兼|署)|调[\u4e00-\u9fa5]{1,12}为|命[\u4e00-\u9fa5]{1,12}为)/;
 
 function cleanLine(s) {
-  return s
+  let out = s
     .replace(/\s+/g, '')
-    .replace(/^(?:[甲乙丙丁戊己庚辛壬癸][子丑寅卯辰巳午未申酉戌亥]|朔|晦)[，,]/, '')
-    .replace(/^[〇一二三四五六七八九十]{1,3}月[，,]?/, '')
-    .replace(/^(初|先是|至是|于是|会)[，,]/, '')
-    .trim();
+    .replace(/^[\u4e00-\u9fa5]{0,4}(?:元|[〇一二三四五六七八九十]{1,3})年[，,]?/, '');
+  // 年、干支、季、月的次序不固定（本色本作「元年壬寅春正月」），逐层剥
+  for (let i = 0; i < 4; i++) {
+    const before = out;
+    out = out
+      .replace(/^[，,、]+/, '')
+      .replace(/^[甲乙丙丁戊己庚辛壬癸][子丑寅卯辰巳午未申酉戌亥](?:[日朔晦])?[，,]?/, '')
+      .replace(/^[春夏秋冬](?=[，,]|闰?[正一二三四五六七八九十冬腊]{1,2}月)[，,]?/, '')
+      .replace(/^闰?[正一二三四五六七八九十冬腊]{1,2}月[，,]?/, '');
+    if (out === before) break;
+  }
+  return out.replace(/^(?:初|先是|至是|于是|会|及|既而|俄而)[，,]/, '').trim();
+}
+
+/** 长段落切成句，便于按句挑事，而不是总取段首那句日期话 */
+function sentences(line) {
+  return line.split(/(?<=[。！？])/).map((s) => s.trim()).filter(Boolean);
 }
 
 /** 去掉侧栏、章节导航等页面附属块（按 div 配平删除） */
@@ -133,20 +195,31 @@ function splitBlocks(html, lastYear) {
   const lines = text.split('\n').map((l) => l.trim()).filter(Boolean);
   const blocks = [];
   let cur = null;
+  let curEra = null;
   let prev = lastYear;
   for (const line of lines) {
+    if (line.startsWith('◎')) continue;
     const m = line.match(HEAD);
     let year = null;
+    let rest = '';
     if (m) {
       const y = cnNum(m[3]);
       year = m[2] ? 1 - y : y;
+    } else if (BOOK.mode === 'lead') {
+      const lead = inferLeadYear(line, prev, BOOK.polity, curEra);
+      if (lead) {
+        year = lead.year;
+        curEra = lead.era;
+        // 本纪体的纪年与记事同段，纪年之后的内容要留下
+        rest = line.slice(line.match(LEAD)[0].length);
+      }
     } else if (!BOOK.gregorian && HEAD_CN.test(line) && line.length <= 40) {
       const ad = line.match(HEAD_AD);
       const guess = ad ? Number([...ad[1]].map((c) => cnNum(c)).join('')) : eraToYear(line, prev);
       if (guess !== null && Number.isFinite(guess)) year = guess;
     }
     if (year !== null) {
-      cur = { year, lines: [] };
+      cur = { year, lines: rest ? [rest] : [] };
       blocks.push(cur);
       prev = year;
       continue;
@@ -160,20 +233,29 @@ function splitBlocks(html, lastYear) {
   return blocks;
 }
 
-/** 每年挑一条：先看关键词密度，再看长度 */
+/** 每年挑一条：把长段拆成句，按关键词与具体性打分，避开套语 */
 function pick(block) {
-  const NOISE = /^(臣光曰|太史公曰|论曰|或谓|初，|先是)|曰：\s*["“]|异父弟|同父弟|之同母弟|免责声明|本站|版权|广告|联系|举报|上一[章页]|下一[章页]|全站|收藏|[:：]\s*["“]/;
+  const NOISE = /^(臣光曰|太史公曰|论曰|史臣曰|或谓|初，|先是|至是|于是|是月|是岁|是时|是年|是日|明日|既而|俄而|会|异父弟|同父弟|之同母弟|免责声明|本站|版权|广告|联系|举报|上一[章页]|下一[章页]|全站|收藏)|曰：\s*["“]|[：:]\s*["“]/;
+  const DANGLING = /^(?:[”」』）】]|[，,、；;：:]|而|乃|遂|因|寻|俄|复|又|仍|却|大怒)/;
+  const balanced = (s) => ((s.match(/[“”]/g) ?? []).length % 2 === 0);
   const cands = block.lines
-    .filter((l) => l.length >= 10 && l.length <= 400 && !/^卷[〇一二三百十]/.test(l) && !NOISE.test(l))
-    .map((l) => ({ l, score: (STRONG.test(l) ? 4 : 0) + Math.min(2, l.length / 60) + (/[。]/.test(l) ? 1 : 0) }))
-    .sort((a, b) => b.score - a.score);
+    .flatMap(sentences)
+    .map((s) => cleanLine(s))
+    .filter((s) => s.length >= 10 && s.length <= 160 && !NOISE.test(s) && !DANGLING.test(s) && balanced(s) && !/^卷[〇一二三百十]/.test(s))
+    .map((s) => ({
+      s,
+      score: (MILITARY.test(s) ? 5 : 0)
+        + (INSTITUTION.test(s) ? 2 : 0)
+        - (APPOINT.test(s) ? 3 : 0)
+        + (/[，,].*[，,]/.test(s) ? 1 : 0)
+        + Math.min(2, s.length / 60)
+        + (/[。]$/.test(s) ? 1 : 0),
+    }))
+    .sort((a, b) => b.score - a.score || a.s.length - b.s.length);
   if (!cands.length) return null;
-  const raw = cands[0].l;
-  const sentence = raw.split('。')[0].trim();
-  const body = cleanLine(sentence);
-  if (body.length < 6) return null;
+  const body = cands[0].s.replace(/[。！？]$/, '');
+  const summary = body.length > 60 ? body.slice(0, 59) + '…' : body;
   const cut = body.length <= 24 ? body : (body.slice(0, 24).match(/^[\s\S]*[，,、：:；]/)?.[0].replace(/[，,、：:；]$/, '') ?? body.slice(0, 23) + '…');
-  const summary = sentence.length > 60 ? sentence.slice(0, 59) + '…' : sentence;
   return { title: cut, summary };
 }
 
@@ -197,9 +279,11 @@ const indexHtml = existsSync(join(CACHE, '_index.html')) && !refresh
       writeFileSync(join(CACHE, '_index.html'), h);
       return h;
     })();
-const chapterRe = new RegExp(`href="(${BOOK.index.replace('https://www.guoxuedashi.com', '').replace(/\//g, '\\/')}(?:\\d+)[a-z]\\.html)"[^>]*>([^<]+)</a>`, 'g');
+const bookPath = new URL(INDEX).pathname.replace(/\//g, '\\/');
+const chapterRe = new RegExp(`href="(${bookPath}\\d+[a-z]\\.html)"[^>]*>([^<]+)</a>`, 'g');
 const chapters = [...indexHtml.matchAll(chapterRe)]
-  .map((m) => ({ url: `https://www.guoxuedashi.com${m[1]}`, name: m[2] }));
+  .map((m) => ({ url: new URL(m[1], INDEX).href, name: m[2].trim() }))
+  .filter((c) => !BOOK.only || BOOK.only.test(c.name));
 console.log(`章目 ${chapters.length} 卷`);
 
 const byYear = new Map();
@@ -222,12 +306,12 @@ for (const [i, ch] of chapters.entries()) {
   }
   if (!html) { failed++; continue; }
   const blocks = parseChapter(html, lastYear);
-  if (process.env.DEBUG_PARSE && (i < 3 || blocks.length === 0)) console.log(`ch${i + 1} blocks=${blocks.length} years=${blocks.slice(0, 3).map((b) => b.year).join(',')}`);
+  if (process.env.DEBUG_PARSE) console.log(`ch${i + 1} ${ch.name} blocks=${blocks.length} years=${blocks.slice(0, 3).map((b) => b.year).join(',')}`);
   for (const block of blocks) {
     if (block.year < YEAR_MIN || block.year > YEAR_MAX) continue;
     if (byYear.has(block.year)) continue;
     const picked = pick(block);
-    if (!picked) continue;
+    if (!picked) { if (process.env.DEBUG_PICK) console.log('nopick', block.year, block.lines.length, (block.lines[0] ?? '').slice(0, 50)); continue; }
     lastYear = block.year;
     byYear.set(block.year, {
       id: `${BOOK.prefix}-${block.year}-01`,
@@ -247,7 +331,12 @@ const out = [...byYear.values()].sort((a, b) => a.year - b.year);
 const curatedPath = join(ROOT, 'data/curated/events.json');
 const eventsPath = join(ROOT, 'data/events.json');
 const curated = JSON.parse(readFileSync(curatedPath, 'utf8')).filter((e) => !String(e.id).startsWith(`${BOOK.prefix}-`));
-const covered = new Set(JSON.parse(readFileSync(eventsPath, 'utf8')).filter((e) => !String(e.id).startsWith(`${BOOK.prefix}-`)).map((e) => e.year));
+// 人物生卒（p-）只标年份，不算当年已有史事，仍可补一条
+const covered = new Set(
+  JSON.parse(readFileSync(eventsPath, 'utf8'))
+    .filter((e) => !String(e.id).startsWith(`${BOOK.prefix}-`) && !String(e.id).startsWith('p-'))
+    .map((e) => e.year),
+);
 const filled = out.filter((e) => !covered.has(e.year));
 const merged = [...curated, ...filled].sort((a, b) => a.year - b.year || (a.month ?? 13) - (b.month ?? 13));
 writeFileSync(curatedPath, JSON.stringify(merged, null, 1) + '\n');

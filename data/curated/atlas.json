@@ -1,0 +1,11069 @@
+[
+ {
+  "id": "at--300-01",
+  "year": -300,
+  "title": "燕将秦开大破东胡却地千里，筑北长城置燕北五郡",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "燕将秦开大破东胡却地千里，筑北长城置燕北五郡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--299-01",
+  "year": -299,
+  "title": "屈原极谏无果，楚怀王赴武关之会为秦所扣留",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "屈原极谏无果，楚怀王赴武关之会为秦所扣留，客死咸阳",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--298-01",
+  "year": -298,
+  "title": "齐孟尝君田文合韩、魏之师攻破函谷关",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "齐孟尝君田文合韩、魏之师攻破函谷关，迫秦昭襄王割城求和",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--296-01",
+  "year": -296,
+  "title": "赵惠文王彻底攻灭中山国",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "赵惠文王彻底攻灭中山国；齐、韩、魏三国合纵攻秦，败秦军于函谷关",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--293-01",
+  "year": -293,
+  "title": "伊阙之战：秦将白起避实击虚",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "伊阙之战：秦将白起避实击虚，斩首韩魏联军二十四万，拔五城",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--286-01",
+  "year": -286,
+  "title": "齐湣王灭宋，齐楚魏三分宋地（魏得商丘、楚得彭城",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "齐湣王灭宋，齐楚魏三分宋地（魏得商丘、楚得彭城、齐得定陶）",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--285-01",
+  "year": -285,
+  "title": "屈原流放沅湘行吟泽畔，作《九歌》《涉江》《天问》",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "屈原流放沅湘行吟泽畔，作《九歌》《涉江》《天问》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--284-01",
+  "year": -284,
+  "title": "燕昭王拜乐毅统五国联军破齐，连下七十余城",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "燕昭王拜乐毅统五国联军破齐，连下七十余城",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--279-01",
+  "year": -279,
+  "title": "即墨之战：齐将田单摆“火牛阵”大破燕军",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "即墨之战：齐将田单摆“火牛阵”大破燕军，收复七十余城",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--278-01",
+  "year": -278,
+  "title": "秦白起拔楚都郢，屈原投江",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "秦白起拔楚都郢，屈原投江；前279年田单复齐",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--273-01",
+  "year": -273,
+  "title": "华阳之战：白起急行军突袭赵魏联军，斩首十三万",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "华阳之战：白起急行军突袭赵魏联军，斩首十三万，沉赵卒二万于河",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--272-01",
+  "year": -272,
+  "title": "秦宣太后诱杀义渠戎王，起兵灭义渠国",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "秦宣太后诱杀义渠戎王，起兵灭义渠国，于陇东置北地郡筑长城",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--260-01",
+  "year": -260,
+  "title": "长平之战：白起坑杀赵卒四十万，六国难独抗秦",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "长平之战：白起坑杀赵卒四十万，六国难独抗秦",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--259-01",
+  "year": -259,
+  "title": "秦异人质赵，嬴政生于邯郸",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "秦异人质赵，嬴政生于邯郸；前247年年十三归咸阳即秦王位",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--257-01",
+  "year": -257,
+  "title": "邯郸之战：魏信陵君“窃符救赵”合楚春申君大破秦军",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "邯郸之战：魏信陵君“窃符救赵”合楚春申君大破秦军",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--256-01",
+  "year": -256,
+  "title": "秦灭西周国迁九鼎",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "秦灭西周国迁九鼎；蜀守李冰修筑都江堰",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--249-01",
+  "year": -249,
+  "title": "楚考烈王伐灭鲁国迁鲁顷公于莒",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "楚考烈王伐灭鲁国迁鲁顷公于莒；秦吕不韦灭东周置三川郡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--246-01",
+  "year": -246,
+  "title": "韩水工郑国入秦开凿三百里“郑国渠”",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "韩水工郑国入秦开凿三百里“郑国渠”，关中自此成沃野",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--244-01",
+  "year": -244,
+  "title": "赵将李牧久守雁门诱敌深入，单日大破匈奴十余万骑",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "赵将李牧久守雁门诱敌深入，单日大破匈奴十余万骑",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--241-01",
+  "year": -241,
+  "title": "五国最后合纵攻秦败于蕞",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "五国最后合纵攻秦败于蕞；楚畏秦自陈东迁寿春",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--238-01",
+  "year": -238,
+  "title": "秦王政亲政，平嫪毐、罢吕不韦，部署灭六国方略",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "秦王政亲政，平嫪毐、罢吕不韦，部署灭六国方略",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--237-01",
+  "year": -237,
+  "title": "秦下逐客令，李斯上《谏逐客书》“泰山不让土壤”",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "秦下逐客令，李斯上《谏逐客书》“泰山不让土壤”，秦王收回成命",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--236-01",
+  "year": -236,
+  "title": "王翦、桓齮攻赵邺城取九城，拉开秦灭六国序幕",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "王翦、桓齮攻赵邺城取九城，拉开秦灭六国序幕",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--233-01",
+  "year": -233,
+  "title": "肥之战：李牧统赵军奇袭秦大营",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "肥之战：李牧统赵军奇袭秦大营，大破秦将桓齮十万军，受封武安君",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--230-01",
+  "year": -230,
+  "title": "秦灭韩：内史腾急袭新郑俘韩王安，置颍川郡",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "秦灭韩：内史腾急袭新郑俘韩王安，置颍川郡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--229-01",
+  "year": -229,
+  "title": "秦王翦行反间计买通郭开，赵王迁冤杀名将李牧",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "秦王翦行反间计买通郭开，赵王迁冤杀名将李牧，数月后邯郸陷落",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--228-01",
+  "year": -228,
+  "title": "秦灭赵：王翦克邯郸俘赵王迁，公子嘉奔代自立",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "秦灭赵：王翦克邯郸俘赵王迁，公子嘉奔代自立",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--227-01",
+  "year": -227,
+  "title": "燕太子丹于易水白衣送别荆轲",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "燕太子丹于易水白衣送别荆轲，高渐离击筑歌“风萧萧兮易水寒”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--226-01",
+  "year": -226,
+  "title": "荆轲刺秦不中",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "荆轲刺秦不中；王翦破燕拔蓟城，燕王喜走辽东",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--225-01",
+  "year": -225,
+  "title": "秦灭魏：王贲引河沟水灌大梁，魏王假降，魏亡",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "秦灭魏：王贲引河沟水灌大梁，魏王假降，魏亡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--223-01",
+  "year": -223,
+  "title": "秦灭楚：王翦统军六十万斩项燕、克寿春俘楚王",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "秦灭楚：王翦统军六十万斩项燕、克寿春俘楚王",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--222-01",
+  "year": -222,
+  "title": "王贲灭燕与代，王翦定江南置会稽郡，唯余齐国",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "王贲灭燕与代，王翦定江南置会稽郡，唯余齐国",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--221-01",
+  "year": -221,
+  "title": "秦王嬴政统一六国，称“始皇帝”",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "秦王嬴政统一六国，称“始皇帝”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--219-01",
+  "year": -219,
+  "title": "秦始皇东巡登琅琊山，留三月",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "秦始皇东巡登琅琊山，留三月，徙三万户筑琅琊台立石颂秦德",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--218-01",
+  "year": -218,
+  "title": "韩贵族张良散尽家财求力士",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "韩贵族张良散尽家财求力士，于博浪沙狙击东巡秦始皇误中副车",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--215-01",
+  "year": -215,
+  "title": "蒙恬北击匈奴，收复河套，连接长城",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "蒙恬北击匈奴，收复河套，连接长城",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--214-01",
+  "year": -214,
+  "title": "开凿灵渠通湘漓，平定岭南置桂林、象、南海三郡",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "开凿灵渠通湘漓，平定岭南置桂林、象、南海三郡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--213-01",
+  "year": -213,
+  "title": "秦始皇采李斯议下“焚书令”",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "秦始皇采李斯议下“焚书令”，次年于咸阳坑杀方士儒生",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--212-01",
+  "year": -212,
+  "title": "命蒙恬修筑秦直道（咸阳至九原）",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "命蒙恬修筑秦直道（咸阳至九原）",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--210-01",
+  "year": -210,
+  "title": "沙丘政变：始皇崩于沙丘，赵高李斯矫诏杀扶苏立胡亥",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "沙丘政变：始皇崩于沙丘，赵高李斯矫诏杀扶苏立胡亥",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--209-01",
+  "year": -209,
+  "title": "陈胜吴广大泽乡起义",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "陈胜吴广大泽乡起义",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--208-01",
+  "year": -208,
+  "title": "秦将章邯大破张楚西进军",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "秦将章邯大破张楚西进军，陈胜退至下城父遭车夫庄贾背叛遇害，葬砀山",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--207-01",
+  "year": -207,
+  "title": "项羽巨鹿之战破釜沉舟",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "项羽巨鹿之战破釜沉舟；刘邦进逼咸阳",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--206-01",
+  "year": -206,
+  "title": "秦王子婴降，秦亡",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qin"
+  ],
+  "summary": "秦王子婴降，秦亡；鸿门宴后楚汉之争开启",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--205-01",
+  "year": -205,
+  "title": "彭城之战：项羽率三万精骑自齐南驰",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "彭城之战：项羽率三万精骑自齐南驰，一日大破刘邦五十六万联军于睢水",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--204-01",
+  "year": -204,
+  "title": "韩信于井陉背水一战灭赵，楚汉两军于荥阳",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "韩信于井陉背水一战灭赵，楚汉两军于荥阳、成皋持久相持",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--203-01",
+  "year": -203,
+  "title": "楚汉荥阳成皋相持，“鸿沟议和”中分天下旋追击项羽",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "楚汉荥阳成皋相持，“鸿沟议和”中分天下旋追击项羽",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--202-01",
+  "year": -202,
+  "title": "垓下之战十面埋伏灭项羽，汉高祖刘邦称帝定都长安",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "垓下之战十面埋伏灭项羽，汉高祖刘邦称帝定都长安",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--201-01",
+  "year": -201,
+  "title": "刘邦赞张良“运筹帷帐之中，决胜千里之外”",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "刘邦赞张良“运筹帷帐之中，决胜千里之外”，封为留侯",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--200-01",
+  "year": -200,
+  "title": "白登之围，汉初行和亲之策",
+  "categories": [
+   "军事",
+   "外交"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "白登之围，汉初行和亲之策",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--196-01",
+  "year": -196,
+  "title": "吕后与萧何设谋诱淮阴侯韩信入贺",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "吕后与萧何设谋诱淮阴侯韩信入贺，斩韩信于长乐宫钟室",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--195-01",
+  "year": -195,
+  "title": "汉高祖刘邦自淮南还过鲁，以太牢祠孔子",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "汉高祖刘邦自淮南还过鲁，以太牢祠孔子，开历代帝王亲祭孔子之始",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--180-01",
+  "year": -180,
+  "title": "周勃、陈平诛灭诸吕迎立汉文帝，开启休养生息之政",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "周勃、陈平诛灭诸吕迎立汉文帝，开启休养生息之政",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--167-01",
+  "year": -167,
+  "title": "汉文帝废除肉刑、免收全国田租",
+  "categories": [
+   "外交",
+   "制度"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "汉文帝废除肉刑、免收全国田租，与景帝轻徭薄赋共创“文景之治”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--166-01",
+  "year": -166,
+  "title": "匈奴老上单于率十四万骑破萧关",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "匈奴老上单于率十四万骑破萧关，汉文帝遣三将军屯细柳备胡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--158-01",
+  "year": -158,
+  "title": "匈奴寇边，汉文帝劳军细柳营按辔徐行",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "匈奴寇边，汉文帝劳军细柳营按辔徐行，赞周亚夫真将军",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--154-01",
+  "year": -154,
+  "title": "七国之乱，削藩后中央集权确立",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "七国之乱，削藩后中央集权确立",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--145-01",
+  "year": -145,
+  "title": "司马迁生于黄河龙门之阳，早年耕牧诵读承父太史遗志",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "司马迁生于黄河龙门之阳，早年耕牧诵读承父太史遗志",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--138-01",
+  "year": -138,
+  "title": "张骞出使西域，凿空丝绸之路",
+  "categories": [
+   "外交"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "张骞出使西域，凿空丝绸之路",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--134-01",
+  "year": -134,
+  "title": "汉武帝采董仲舒策罢黜百家、独尊儒术，兴太学置博士",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "汉武帝采董仲舒策罢黜百家、独尊儒术，兴太学置博士",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--133-01",
+  "year": -133,
+  "title": "马邑之谋，汉匈全面战争爆发",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "马邑之谋，汉匈全面战争爆发",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--127-01",
+  "year": -127,
+  "title": "卫青收复河套置朔方郡",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "卫青收复河套置朔方郡；主父偃献《推恩令》削弱诸侯",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--126-01",
+  "year": -126,
+  "title": "二十岁的司马迁南游江淮，上会稽探禹穴、窥九疑",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "二十岁的司马迁南游江淮，上会稽探禹穴、窥九疑、浮沅湘",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--124-01",
+  "year": -124,
+  "title": "卫青夜行六七百里突袭匈奴右贤王庭，俘获万五千人",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "卫青夜行六七百里突袭匈奴右贤王庭，俘获万五千人",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--123-01",
+  "year": -123,
+  "title": "年十八岁的霍去病率八百轻骑赴利，封冠军侯",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "年十八岁的霍去病率八百轻骑赴利，封冠军侯",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--121-01",
+  "year": -121,
+  "title": "霍去病两次河西之战受降浑邪王，初置武威、酒泉郡",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "霍去病两次河西之战受降浑邪王，初置武威、酒泉郡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--119-01",
+  "year": -119,
+  "title": "漠北之战，卫青破单于、霍去病封狼居胥",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "漠北之战，卫青破单于、霍去病封狼居胥",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--118-01",
+  "year": -118,
+  "title": "汉武帝罢三铢钱改铸五铢钱",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "汉武帝罢三铢钱改铸五铢钱，推行盐铁官营与算缗充实国库",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--117-01",
+  "year": -117,
+  "title": "二十四岁的冠军侯霍去病病逝长安",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "二十四岁的冠军侯霍去病病逝长安，武帝筑祁连山冢陪葬茂陵",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--111-01",
+  "year": -111,
+  "title": "路博德、杨仆平定南越设九郡",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "路博德、杨仆平定南越设九郡；分河西置张掖、敦煌郡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--110-01",
+  "year": -110,
+  "title": "汉武帝灭闽越国迁其民于江淮，并于海南岛置珠崖",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "汉武帝灭闽越国迁其民于江淮，并于海南岛置珠崖、儋耳二郡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--109-01",
+  "year": -109,
+  "title": "汉武帝发兵平西南夷，滇王降汉，置益州郡赐金印",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "汉武帝发兵平西南夷，滇王降汉，置益州郡赐金印",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--108-01",
+  "year": -108,
+  "title": "灭卫氏朝鲜，设乐浪等四郡",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "灭卫氏朝鲜，设乐浪等四郡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--106-01",
+  "year": -106,
+  "title": "汉武帝东巡海上至琅琊，登琅琊台礼祠四时主",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "汉武帝东巡海上至琅琊，登琅琊台礼祠四时主，遣方士入海求蓬莱",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--104-01",
+  "year": -104,
+  "title": "巴郡阆中天文学家落下闳入长安造《太初历》",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "巴郡阆中天文学家落下闳入长安造《太初历》，确立正月为岁首",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--102-01",
+  "year": -102,
+  "title": "汉武帝遣路博德筑居延遮虏障屯田戍边",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "汉武帝遣路博德筑居延遮虏障屯田戍边，遗存万枚居延汉简",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--100-01",
+  "year": -100,
+  "title": "贰师将军李广利伐大宛，丝路昆仑北路畅通",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "贰师将军李广利伐大宛，丝路昆仑北路畅通",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--99-01",
+  "year": -99,
+  "title": "司马迁为降匈奴的李陵辩护获罪",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "司马迁为降匈奴的李陵辩护获罪，受腐刑后发愤续撰《史记》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--91-01",
+  "year": -91,
+  "title": "巫蛊之祸太子刘据兵败湖县自尽",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "巫蛊之祸太子刘据兵败湖县自尽；太史令司马迁撰成《史记》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--89-01",
+  "year": -89,
+  "title": "武帝下轮台罪己诏，转向与民休息",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "武帝下轮台罪己诏，转向与民休息",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--81-01",
+  "year": -81,
+  "title": "苏武持节十九载白发归长安，拜典属国，汉节旄尽落",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "苏武持节十九载白发归长安，拜典属国，汉节旄尽落",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--74-01",
+  "year": -74,
+  "title": "大将军霍光废昌邑王刘贺，迎立汉宣帝开启昭宣中兴",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "大将军霍光废昌邑王刘贺，迎立汉宣帝开启昭宣中兴",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--61-01",
+  "year": -61,
+  "title": "赵充国率军平定河湟先零诸羌",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "赵充国率军平定河湟先零诸羌，首创河湟军屯并置破羌县",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--60-01",
+  "year": -60,
+  "title": "设西域都护府，西域正式纳入版图",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "设西域都护府，西域正式纳入版图",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--51-01",
+  "year": -51,
+  "title": "呼韩邪单于朝觐汉宣帝，画麒麟阁十一功臣",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "呼韩邪单于朝觐汉宣帝，画麒麟阁十一功臣",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--36-01",
+  "year": -36,
+  "title": "陈汤矫制发兵远征康居斩郅支单于",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "陈汤矫制发兵远征康居斩郅支单于，“犯强汉者虽远必诛”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--33-01",
+  "year": -33,
+  "title": "昭君出塞，呼韩邪单于入朝和亲",
+  "categories": [
+   "外交"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "昭君出塞，呼韩邪单于入朝和亲",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--25-01",
+  "year": -25,
+  "title": "西域都护段会宗复入乌孙平定内乱，安辑葱岭以西诸国",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "西域都护段会宗复入乌孙平定内乱，安辑葱岭以西诸国",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at--8-01",
+  "year": -8,
+  "title": "汉成帝改置三公",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "汉成帝改置三公；王莽任大司马，王氏外戚掌权",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-4-01",
+  "year": 4,
+  "title": "王莽于青海湖东岸置西海郡（治龙夷城）",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "王莽于青海湖东岸置西海郡（治龙夷城），汉代郡县首次推进至青海湖畔",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-8-01",
+  "year": 8,
+  "title": "王莽代汉，建国号新",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "western-han"
+  ],
+  "summary": "王莽代汉，建国号新",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-9-01",
+  "year": 9,
+  "title": "王莽废孺子婴代汉建“新”",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "xin"
+  ],
+  "summary": "王莽废孺子婴代汉建“新”，改王田奴婢币制并频改地名",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-11-01",
+  "year": 11,
+  "title": "黄河于魏郡元城决口，禹贡北流故道断绝泛滥兖豫",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "xin"
+  ],
+  "summary": "黄河于魏郡元城决口，禹贡北流故道断绝泛滥兖豫",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-18-01",
+  "year": 18,
+  "title": "琅琊人樊崇起兵反莽",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "xin"
+  ],
+  "summary": "琅琊人樊崇起兵反莽，义军以朱涂眉相别号“赤眉军”，终成覆莽主力",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-23-01",
+  "year": 23,
+  "title": "昆阳之战，新朝覆亡",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "xin",
+   "gengshi"
+  ],
+  "summary": "昆阳之战，新朝覆亡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-24-01",
+  "year": 24,
+  "title": "更始帝刘玄迁都长安",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "gengshi"
+  ],
+  "summary": "更始帝刘玄迁都长安；刘秀攻拔邯郸诛王郎，悉平河北诸部",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-25-01",
+  "year": 25,
+  "title": "刘秀称帝，定都洛阳",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "gengshi",
+   "eastern-han"
+  ],
+  "summary": "刘秀称帝，定都洛阳",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-32-01",
+  "year": 32,
+  "title": "汉光武帝刘秀亲征陇右至高平第一城（今平凉）",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "汉光武帝刘秀亲征陇右至高平第一城（今平凉），会窦融兵合围隗嚣",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-36-01",
+  "year": 36,
+  "title": "平公孙述，光武统一全国",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "平公孙述，光武统一全国",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-43-01",
+  "year": 43,
+  "title": "伏波将军马援南征交趾平二征起义，立铜柱定汉界",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "伏波将军马援南征交趾平二征起义，立铜柱定汉界",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-48-01",
+  "year": 48,
+  "title": "匈奴分裂，南匈奴内附",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "匈奴分裂，南匈奴内附",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-57-01",
+  "year": 57,
+  "title": "汉光武帝赐倭奴国使者“汉委奴国王”金印",
+  "categories": [
+   "外交"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "汉光武帝赐倭奴国使者“汉委奴国王”金印，开启中日信史交往",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-68-01",
+  "year": 68,
+  "title": "汉明帝建白马寺，佛教正式传入洛阳",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "汉明帝建白马寺，佛教正式传入洛阳",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-69-01",
+  "year": 69,
+  "title": "王景发卒数十万修渠治河，形成千年安流“王景故道”",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "王景发卒数十万修渠治河，形成千年安流“王景故道”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-73-01",
+  "year": 73,
+  "title": "班超出使西域，重开丝路",
+  "categories": [
+   "外交"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "班超出使西域，重开丝路",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-82-01",
+  "year": 82,
+  "title": "兰台令史班固历二十余载撰成中国第一部纪传体断代…",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "兰台令史班固历二十余载撰成中国第一部纪传体断代史《汉书》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-89-01",
+  "year": 89,
+  "title": "窦宪破北匈奴于稽落山，登燕然山勒石记功",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "窦宪破北匈奴于稽落山，登燕然山勒石记功",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-91-01",
+  "year": 91,
+  "title": "金微山之战：耿夔大破北匈奴，北单于西遁",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "金微山之战：耿夔大破北匈奴，北单于西遁",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-92-01",
+  "year": 92,
+  "title": "永元之隆：汉和帝联结郑众诛大将军窦宪，东汉达极盛",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "永元之隆：汉和帝联结郑众诛大将军窦宪，东汉达极盛",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-94-01",
+  "year": 94,
+  "title": "西域都护班超发龟兹鄯善等八国兵讨平焉耆",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "西域都护班超发龟兹鄯善等八国兵讨平焉耆，西域五十余国悉纳质内属",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-97-01",
+  "year": 97,
+  "title": "班超遣甘英出使大秦（罗马）",
+  "categories": [
+   "外交"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "班超遣甘英出使大秦（罗马）",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-100-01",
+  "year": 100,
+  "title": "经学家许慎博采篆文古籀",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "经学家许慎博采篆文古籀，撰成世界首部系统字书《说文解字》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-102-01",
+  "year": 102,
+  "title": "班超年逾七旬上疏“但愿生入玉门关”，召还洛阳病逝",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "班超年逾七旬上疏“但愿生入玉门关”，召还洛阳病逝",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-103-01",
+  "year": 103,
+  "title": "孟尝出任合浦太守革除滥采海珠弊政",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "孟尝出任合浦太守革除滥采海珠弊政，不出岁余“去珠复还”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-105-01",
+  "year": 105,
+  "title": "蔡伦奏进改进造纸术（蔡侯纸）",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "蔡伦奏进改进造纸术（蔡侯纸）",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-107-01",
+  "year": 107,
+  "title": "永初羌乱爆发席卷凉州，东汉罢西域都护",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "永初羌乱爆发席卷凉州，东汉罢西域都护",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-123-01",
+  "year": 123,
+  "title": "班勇任西域长史屯兵柳中破北匈奴，复通西域",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "班勇任西域长史屯兵柳中破北匈奴，复通西域",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-132-01",
+  "year": 132,
+  "title": "张衡造候风地动仪与浑天仪",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "张衡造候风地动仪与浑天仪",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-144-01",
+  "year": 144,
+  "title": "护羌校尉赵冲战殁，西羌大乱席卷关陇",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "护羌校尉赵冲战殁，西羌大乱席卷关陇；汉顺帝崩，梁冀专权",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-159-01",
+  "year": 159,
+  "title": "汉桓帝与单超等五宦官合谋诛灭梁冀外戚集团",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "汉桓帝与单超等五宦官合谋诛灭梁冀外戚集团；段颎于陇右破羌",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-166-01",
+  "year": 166,
+  "title": "党锢之祸：166、169 年两兴党狱",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "党锢之祸：166、169 年两兴党狱，清流名士遭禁锢诛戮",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-177-01",
+  "year": 177,
+  "title": "夏育、田晏、臧旻三路伐鲜卑大败，檀石槐称雄漠南",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "夏育、田晏、臧旻三路伐鲜卑大败，檀石槐称雄漠南",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-184-01",
+  "year": 184,
+  "title": "张角率太平道发起黄巾起义",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "张角率太平道发起黄巾起义",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-189-01",
+  "year": 189,
+  "title": "何进召外兵谋诛宦官遇害，董卓入洛废少帝立献帝",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "何进召外兵谋诛宦官遇害，董卓入洛废少帝立献帝，次年焚洛阳西迁长安",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-190-01",
+  "year": 190,
+  "title": "董卓焚洛阳挟汉献帝西迁长安",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "董卓焚洛阳挟汉献帝西迁长安",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-191-01",
+  "year": 191,
+  "title": "界桥之战",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "界桥之战：袁绍命麴义以八百先登强弩大破公孙瓒白马义从",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-192-01",
+  "year": 192,
+  "title": "曹操入主兖州击败青州黄巾百万众",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "曹操入主兖州击败青州黄巾百万众，收编精锐三十余万为“青州兵”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-195-01",
+  "year": 195,
+  "title": "孙策渡江创业平定江东",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "孙策渡江创业平定江东；汉献帝自长安东归洛阳",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-196-01",
+  "year": 196,
+  "title": "曹操迎汉献帝都许，挟天子以令诸侯",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "曹操迎汉献帝都许，挟天子以令诸侯；始兴屯田",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-198-01",
+  "year": 198,
+  "title": "下邳之战：曹操决泗、沂水灌城，擒杀吕布，尽取徐州",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "下邳之战：曹操决泗、沂水灌城，擒杀吕布，尽取徐州",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-199-01",
+  "year": 199,
+  "title": "袁绍掘地道攻破公孙瓒易京铁楼",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "袁绍掘地道攻破公孙瓒易京铁楼，尽并幽冀青并四州带甲百万",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-200-01",
+  "year": 200,
+  "title": "官渡之战：曹操奇袭乌巢焚粮，大破袁绍主力",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "官渡之战：曹操奇袭乌巢焚粮，大破袁绍主力；孙策遇刺，孙权继立",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-204-01",
+  "year": 204,
+  "title": "曹操引漳水围破邺城，定冀、青、幽、并四州",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "曹操引漳水围破邺城，定冀、青、幽、并四州，迁霸府于邺",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-205-01",
+  "year": 205,
+  "title": "南阳名医张仲景总结汉代临床方证",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "南阳名医张仲景总结汉代临床方证，撰成“医圣”经典《伤寒杂病论》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-207-01",
+  "year": 207,
+  "title": "刘备三顾茅庐诸葛亮，定《隆中对》跨有荆益之策",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "刘备三顾茅庐诸葛亮，定《隆中对》跨有荆益之策",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-208-01",
+  "year": 208,
+  "title": "赤壁之战，孙刘联军破曹，刘备据有荆州",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "赤壁之战，孙刘联军破曹，刘备据有荆州",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-209-01",
+  "year": 209,
+  "title": "江陵之战：周瑜浴血奋战岁余攻克曹仁据守之江陵",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "江陵之战：周瑜浴血奋战岁余攻克曹仁据守之江陵，出任南郡太守",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-210-01",
+  "year": 210,
+  "title": "东吴大都督周瑜西取巴蜀途中病逝巴丘",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "东吴大都督周瑜西取巴蜀途中病逝巴丘，临终荐鲁肃自代",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-211-01",
+  "year": 211,
+  "title": "潼关之战：曹操渡渭离间大破马超、韩遂，平定关陇",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "潼关之战：曹操渡渭离间大破马超、韩遂，平定关陇",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-212-01",
+  "year": 212,
+  "title": "刘备自葭萌挥师南下与刘璋决裂",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "刘备自葭萌挥师南下与刘璋决裂，夺取涪城开启益州之战",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-214-01",
+  "year": 214,
+  "title": "刘备入成都迫降刘璋，跨有荆、益二州",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "刘备入成都迫降刘璋，跨有荆、益二州",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-215-01",
+  "year": 215,
+  "title": "曹操平汉中张鲁",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "曹操平汉中张鲁；孙刘湘水划界分荆州；张辽威震逍遥津",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-217-01",
+  "year": 217,
+  "title": "濡须口之战：曹操率大军南攻濡须",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "濡须口之战：曹操率大军南攻濡须，孙权乘大船入曹营观军",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-219-01",
+  "year": 219,
+  "title": "刘备取汉中称王",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-han"
+  ],
+  "summary": "刘备取汉中称王；冬吕蒙白衣渡江袭荆州，关羽败亡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-220-01",
+  "year": 220,
+  "title": "曹丕代汉称帝，国号魏",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "eastern-han",
+   "wei"
+  ],
+  "summary": "曹丕代汉称帝，国号魏",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-221-01",
+  "year": 221,
+  "title": "刘备在成都称帝，国号汉",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "wei",
+   "shu-han"
+  ],
+  "summary": "刘备在成都称帝，国号汉",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-222-01",
+  "year": 222,
+  "title": "夷陵之战，陆逊火烧连营大破刘备",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "wei",
+   "shu-han",
+   "wu"
+  ],
+  "summary": "夷陵之战，陆逊火烧连营大破刘备",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-223-01",
+  "year": 223,
+  "title": "刘备病逝永安白帝城，临终托孤于丞相诸葛亮",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "wei",
+   "shu-han",
+   "wu"
+  ],
+  "summary": "刘备病逝永安白帝城，临终托孤于丞相诸葛亮",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-225-01",
+  "year": 225,
+  "title": "诸葛亮南征孟获，平定南中",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "wei",
+   "shu-han",
+   "wu"
+  ],
+  "summary": "诸葛亮南征孟获，平定南中",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-228-01",
+  "year": 228,
+  "title": "诸葛亮首次北伐，马谡失街亭",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "wei",
+   "shu-han",
+   "wu"
+  ],
+  "summary": "诸葛亮首次北伐，马谡失街亭",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-229-01",
+  "year": 229,
+  "title": "孙权称帝，迁都建业",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "wei",
+   "shu-han",
+   "wu"
+  ],
+  "summary": "孙权称帝，迁都建业",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-230-01",
+  "year": 230,
+  "title": "孙权遣卫温、诸葛直航海至夷洲（台湾）",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "wei",
+   "shu-han",
+   "wu"
+  ],
+  "summary": "孙权遣卫温、诸葛直航海至夷洲（台湾）",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-234-01",
+  "year": 234,
+  "title": "司马懿坚壁拒守百余日",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "wei",
+   "shu-han",
+   "wu"
+  ],
+  "summary": "司马懿坚壁拒守百余日；诸葛亮病逝五丈原，蜀军退回汉中",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-238-01",
+  "year": 238,
+  "title": "司马懿远征辽东斩公孙渊，收复辽东与乐浪、带方",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "wei",
+   "shu-han",
+   "wu"
+  ],
+  "summary": "司马懿远征辽东斩公孙渊，收复辽东与乐浪、带方",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-241-01",
+  "year": 241,
+  "title": "东吴四路攻魏",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "wei",
+   "shu-han",
+   "wu"
+  ],
+  "summary": "东吴四路攻魏，太尉司马懿亲率轻骑疾驰南下解樊城之围",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-243-01",
+  "year": 243,
+  "title": "邓艾著《济河论》，主持淮南屯田开广漕渠",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "wei",
+   "shu-han",
+   "wu"
+  ],
+  "summary": "邓艾著《济河论》，主持淮南屯田开广漕渠，积粮平吴灭蜀",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-244-01",
+  "year": 244,
+  "title": "兴势之战：王平据险拒退曹爽伐蜀大军",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "wei",
+   "shu-han",
+   "wu"
+  ],
+  "summary": "兴势之战：王平据险拒退曹爽伐蜀大军；毌丘俭东征高句丽克丸都",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-249-01",
+  "year": 249,
+  "title": "高平陵之变，司马懿控制曹魏朝政",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "wei",
+   "shu-han",
+   "wu"
+  ],
+  "summary": "高平陵之变，司马懿控制曹魏朝政",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-255-01",
+  "year": 255,
+  "title": "毌丘俭、文钦寿春起兵讨司马师败亡",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "wei",
+   "shu-han",
+   "wu"
+  ],
+  "summary": "毌丘俭、文钦寿春起兵讨司马师败亡；姜维北伐洮西大破王经",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-260-01",
+  "year": 260,
+  "title": "甘露之变：魏帝曹髦率宿卫讨司马昭，于南阙下遇弑",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "wei",
+   "shu-han",
+   "wu"
+  ],
+  "summary": "甘露之变：魏帝曹髦率宿卫讨司马昭，于南阙下遇弑",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-263-01",
+  "year": 263,
+  "title": "邓艾、钟会率魏军伐蜀，蜀汉亡",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "wei",
+   "shu-han",
+   "wu"
+  ],
+  "summary": "邓艾、钟会率魏军伐蜀，蜀汉亡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-264-01",
+  "year": 264,
+  "title": "钟会、姜维于成都构乱败亡",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "wei",
+   "wu"
+  ],
+  "summary": "钟会、姜维于成都构乱败亡；曹魏分益州置梁州，孙吴分交州置广州",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-265-01",
+  "year": 265,
+  "title": "司马炎代魏称帝，建立西晋",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "wei",
+   "wu",
+   "western-jin"
+  ],
+  "summary": "司马炎代魏称帝，建立西晋",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-268-01",
+  "year": 268,
+  "title": "晋武帝于洛阳筹议灭吴方略，倚重羊祜与杜预经略荆襄",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "wu",
+   "western-jin"
+  ],
+  "summary": "晋武帝于洛阳筹议灭吴方略，倚重羊祜与杜预经略荆襄",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-272-01",
+  "year": 272,
+  "title": "西陵之战：陆抗围城打援大破晋将羊祜、杨肇",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "wu",
+   "western-jin"
+  ],
+  "summary": "西陵之战：陆抗围城打援大破晋将羊祜、杨肇，斩叛将步阐",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-274-01",
+  "year": 274,
+  "title": "羊祜镇守襄阳垦田八百余顷",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "wu",
+   "western-jin"
+  ],
+  "summary": "羊祜镇守襄阳垦田八百余顷，与吴将陆抗对境推诚怀柔江汉",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-278-01",
+  "year": 278,
+  "title": "羊祜病笃举杜预自代",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "wu",
+   "western-jin"
+  ],
+  "summary": "羊祜病笃举杜预自代，卒后襄阳百姓于岘山立碑望之堕泪",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-279-01",
+  "year": 279,
+  "title": "晋军六路伐吴，王濬楼船下益州",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "wu",
+   "western-jin"
+  ],
+  "summary": "晋军六路伐吴，王濬楼船下益州",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-280-01",
+  "year": 280,
+  "title": "西晋灭吴，三国归晋",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "wu",
+   "western-jin"
+  ],
+  "summary": "西晋灭吴，三国归晋",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-282-01",
+  "year": 282,
+  "title": "“杜武库”杜预于洛阳撰成《春秋左氏经传集解》传世",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "western-jin"
+  ],
+  "summary": "“杜武库”杜预于洛阳撰成《春秋左氏经传集解》传世",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-289-01",
+  "year": 289,
+  "title": "太康末门阀骄奢斗富",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "western-jin"
+  ],
+  "summary": "太康末门阀骄奢斗富；武帝大封诸王出镇重兵，命刘渊领并州匈奴部",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-291-01",
+  "year": 291,
+  "title": "晋武帝崩后惠帝即位，贾南风诛杨骏与辅政宗王",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "western-jin"
+  ],
+  "summary": "晋武帝崩后惠帝即位，贾南风诛杨骏与辅政宗王，八王之乱爆发",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-296-01",
+  "year": 296,
+  "title": "卫尉石崇于洛阳金谷涧筑园雅集二十四友",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "western-jin"
+  ],
+  "summary": "卫尉石崇于洛阳金谷涧筑园雅集二十四友，与王恺斗富传世",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-298-01",
+  "year": 298,
+  "title": "祖逖与刘琨于洛阳共任司州主簿",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "western-jin"
+  ],
+  "summary": "祖逖与刘琨于洛阳共任司州主簿，中夜“闻鸡起舞”砺志匡世",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-299-01",
+  "year": 299,
+  "title": "关陇氐羌齐万年之乱引发大饥",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "western-jin"
+  ],
+  "summary": "关陇氐羌齐万年之乱引发大饥；江统著《徙戎论》警诫五胡内迁隐患",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-301-01",
+  "year": 301,
+  "title": "略阳氐帅李特率关陇六郡流民就食巴蜀",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "western-jin"
+  ],
+  "summary": "略阳氐帅李特率关陇六郡流民就食巴蜀，于绵竹起兵反晋",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-303-01",
+  "year": 303,
+  "title": "司马伦篡位引发诸王混战",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "western-jin",
+   "cheng-han"
+  ],
+  "summary": "司马伦篡位引发诸王混战；司马颖据邺城、司马颙据长安联兵攻洛阳",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-304-01",
+  "year": 304,
+  "title": "司马颖遣并州匈奴五部刘渊归离石发兵，刘渊称汉王",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "western-jin",
+   "cheng-han",
+   "han-zhao"
+  ],
+  "summary": "司马颖遣并州匈奴五部刘渊归离石发兵，刘渊称汉王、李雄称成都王",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-306-01",
+  "year": 306,
+  "title": "李雄称帝建立成汉",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "western-jin",
+   "cheng-han",
+   "han-zhao"
+  ],
+  "summary": "李雄称帝建立成汉；司马越立晋怀帝，八王之乱终结",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-307-01",
+  "year": 307,
+  "title": "司马睿用王导谋镇建邺，江东初定",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "western-jin",
+   "cheng-han",
+   "han-zhao"
+  ],
+  "summary": "司马睿用王导谋镇建邺，江东初定，王与马共天下之基立",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-311-01",
+  "year": 311,
+  "title": "永嘉之乱：汉赵刘曜攻陷洛阳，俘晋怀帝",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "western-jin",
+   "cheng-han",
+   "han-zhao"
+  ],
+  "summary": "永嘉之乱：汉赵刘曜攻陷洛阳，俘晋怀帝",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-313-01",
+  "year": 313,
+  "title": "晋愍帝在长安即位",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "western-jin",
+   "cheng-han",
+   "han-zhao"
+  ],
+  "summary": "晋愍帝在长安即位；祖逖中流击楫渡江北伐",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-314-01",
+  "year": 314,
+  "title": "大司马刘琨孤守晋阳抗击石勒",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "western-jin",
+   "cheng-han",
+   "han-zhao"
+  ],
+  "summary": "大司马刘琨孤守晋阳抗击石勒，慷慨陈志“吾枕戈待旦，志枭逆虏”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-316-01",
+  "year": 316,
+  "title": "汉赵刘曜攻陷长安，西晋亡",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "western-jin",
+   "cheng-han",
+   "han-zhao"
+  ],
+  "summary": "汉赵刘曜攻陷长安，西晋亡；张氏据凉州、拓跋据代北、慕容据辽东",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-317-01",
+  "year": 317,
+  "title": "司马睿在建康即晋王位建东晋",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "western-jin",
+   "cheng-han",
+   "han-zhao",
+   "eastern-jin",
+   "qian-liang"
+  ],
+  "summary": "司马睿在建康即晋王位建东晋；河西前凉、代北代国、辽东前燕并立",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-318-01",
+  "year": 318,
+  "title": "刘琨于幽州蓟城蒙冤系狱",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "cheng-han",
+   "han-zhao",
+   "eastern-jin",
+   "qian-liang"
+  ],
+  "summary": "刘琨于幽州蓟城蒙冤系狱，临终赋绝命诗“何意百炼钢，化为绕指柔”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-319-01",
+  "year": 319,
+  "title": "刘曜于长安改汉为前赵，石勒在襄国称赵王建后赵",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "cheng-han",
+   "han-zhao",
+   "eastern-jin",
+   "qian-liang",
+   "hou-zhao"
+  ],
+  "summary": "刘曜于长安改汉为前赵，石勒在襄国称赵王建后赵，汉赵分裂",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-320-01",
+  "year": 320,
+  "title": "祖逖进驻雍丘威震黄河两岸",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "cheng-han",
+   "han-zhao",
+   "eastern-jin",
+   "qian-liang",
+   "hou-zhao"
+  ],
+  "summary": "祖逖进驻雍丘威震黄河两岸，旋忧愤东晋内乱病卒于军中",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-322-01",
+  "year": 322,
+  "title": "王敦之乱：王敦自武昌举兵攻入建康，控制东晋朝政",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "cheng-han",
+   "han-zhao",
+   "eastern-jin",
+   "qian-liang",
+   "hou-zhao"
+  ],
+  "summary": "王敦之乱：王敦自武昌举兵攻入建康，控制东晋朝政",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-328-01",
+  "year": 328,
+  "title": "苏峻之乱：历阳内史苏峻反，攻陷建康台城，温峤",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "cheng-han",
+   "han-zhao",
+   "eastern-jin",
+   "qian-liang",
+   "hou-zhao"
+  ],
+  "summary": "苏峻之乱：历阳内史苏峻反，攻陷建康台城，温峤、陶侃起兵讨平",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-329-01",
+  "year": 329,
+  "title": "石勒灭前赵，后赵统一北方大部",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "cheng-han",
+   "han-zhao",
+   "eastern-jin",
+   "qian-liang",
+   "hou-zhao"
+  ],
+  "summary": "石勒灭前赵，后赵统一北方大部",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-335-01",
+  "year": 335,
+  "title": "石虎迁后赵都城至邺",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "cheng-han",
+   "eastern-jin",
+   "qian-liang",
+   "hou-zhao"
+  ],
+  "summary": "石虎迁后赵都城至邺；慕容皝于辽东棘城称燕王，正式建立前燕",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-347-01",
+  "year": 347,
+  "title": "桓温西征灭成汉，收复巴蜀",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "cheng-han",
+   "eastern-jin",
+   "qian-liang",
+   "hou-zhao",
+   "qian-yan"
+  ],
+  "summary": "桓温西征灭成汉，收复巴蜀",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-350-01",
+  "year": 350,
+  "title": "冉闵代后赵建立冉魏，颁杀胡令，北方大动荡",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "qian-liang",
+   "hou-zhao",
+   "qian-yan",
+   "qian-qin"
+  ],
+  "summary": "冉闵代后赵建立冉魏，颁杀胡令，北方大动荡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-351-01",
+  "year": 351,
+  "title": "苻健在长安称天王，建立前秦",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "qian-liang",
+   "hou-zhao",
+   "qian-yan",
+   "qian-qin"
+  ],
+  "summary": "苻健在长安称天王，建立前秦",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-352-01",
+  "year": 352,
+  "title": "前燕慕容儁大败冉闵灭冉魏，迁都邺城正式称帝",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "qian-liang",
+   "qian-yan",
+   "qian-qin"
+  ],
+  "summary": "前燕慕容儁大败冉闵灭冉魏，迁都邺城正式称帝",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-353-01",
+  "year": 353,
+  "title": "王羲之与谢安等雅集会稽山阴兰亭，作《兰亭集序》",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "qian-liang",
+   "qian-yan",
+   "qian-qin"
+  ],
+  "summary": "王羲之与谢安等雅集会稽山阴兰亭，作《兰亭集序》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-354-01",
+  "year": 354,
+  "title": "桓温首次北伐至灞上，王猛扪虱谈天下",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "qian-liang",
+   "qian-yan",
+   "qian-qin"
+  ],
+  "summary": "桓温首次北伐至灞上，王猛扪虱谈天下",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-355-01",
+  "year": 355,
+  "title": "王羲之誓墓辞官退居剡县金庭，遍游浙东山水安度晚年",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "qian-liang",
+   "qian-yan",
+   "qian-qin"
+  ],
+  "summary": "王羲之誓墓辞官退居剡县金庭，遍游浙东山水安度晚年",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-356-01",
+  "year": 356,
+  "title": "桓温第二次北伐大破姚襄，进据收复故都洛阳",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "qian-liang",
+   "qian-yan",
+   "qian-qin"
+  ],
+  "summary": "桓温第二次北伐大破姚襄，进据收复故都洛阳，修复先帝陵墓",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-357-01",
+  "year": 357,
+  "title": "苻坚于长安即前秦天王位，重用王猛变法图强",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "qian-liang",
+   "qian-yan",
+   "qian-qin"
+  ],
+  "summary": "苻坚于长安即前秦天王位，重用王猛变法图强",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-360-01",
+  "year": 360,
+  "title": "谢安隐居会稽东山四十余年屡辞征辟",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "qian-liang",
+   "qian-yan",
+   "qian-qin"
+  ],
+  "summary": "谢安隐居会稽东山四十余年屡辞征辟",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-366-01",
+  "year": 366,
+  "title": "沙门乐僔于敦煌鸣沙山东麓开凿莫高窟第一窟",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "qian-liang",
+   "qian-yan",
+   "qian-qin"
+  ],
+  "summary": "沙门乐僔于敦煌鸣沙山东麓开凿莫高窟第一窟",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-369-01",
+  "year": 369,
+  "title": "枋头之战：桓温北伐受挫，慕容垂大破晋军",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "qian-liang",
+   "qian-yan",
+   "qian-qin"
+  ],
+  "summary": "枋头之战：桓温北伐受挫，慕容垂大破晋军；垂遭忌投前秦",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-370-01",
+  "year": 370,
+  "title": "前秦苻坚遣王猛攻破邺城，灭前燕",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "qian-liang",
+   "qian-yan",
+   "qian-qin"
+  ],
+  "summary": "前秦苻坚遣王猛攻破邺城，灭前燕",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-376-01",
+  "year": 376,
+  "title": "前秦取东晋巴蜀，又灭前凉、代国，苻坚统一北方",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "qian-liang",
+   "qian-qin"
+  ],
+  "summary": "前秦取东晋巴蜀，又灭前凉、代国，苻坚统一北方",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-377-01",
+  "year": 377,
+  "title": "兖州刺史谢玄于广陵京口募北方流民劲卒组建“北府…",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "qian-qin"
+  ],
+  "summary": "兖州刺史谢玄于广陵京口募北方流民劲卒组建“北府兵”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-383-01",
+  "year": 383,
+  "title": "淝水之战：谢安、谢玄率八万北府兵大破苻坚大军",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "qian-qin"
+  ],
+  "summary": "淝水之战：谢安、谢玄率八万北府兵大破苻坚大军，前秦瓦解",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-384-01",
+  "year": 384,
+  "title": "慕容垂建后燕、姚苌建后秦，东晋收复巴蜀荆襄",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "qian-qin",
+   "hou-yan",
+   "hou-qin"
+  ],
+  "summary": "慕容垂建后燕、姚苌建后秦，东晋收复巴蜀荆襄",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-385-01",
+  "year": 385,
+  "title": "乞伏国仁在陇西建西秦",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "qian-qin",
+   "hou-yan",
+   "hou-qin",
+   "xi-qin"
+  ],
+  "summary": "乞伏国仁在陇西建西秦；吕光据凉州建后凉",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-386-01",
+  "year": 386,
+  "title": "拓跋珪复代称王，建立北魏",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "qian-qin",
+   "hou-yan",
+   "hou-qin",
+   "xi-qin",
+   "northern-wei",
+   "hou-liang"
+  ],
+  "summary": "拓跋珪复代称王，建立北魏",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-393-01",
+  "year": 393,
+  "title": "陶渊明归隐庐山栗里躬耕垄亩，赋“采菊东篱下",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "qian-qin",
+   "hou-yan",
+   "hou-qin",
+   "xi-qin",
+   "northern-wei",
+   "hou-liang"
+  ],
+  "summary": "陶渊明归隐庐山栗里躬耕垄亩，赋“采菊东篱下，悠然见南山”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-395-01",
+  "year": 395,
+  "title": "参合陂之战，北魏大破后燕主力，进据中原",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "hou-yan",
+   "hou-qin",
+   "xi-qin",
+   "northern-wei",
+   "hou-liang"
+  ],
+  "summary": "参合陂之战，北魏大破后燕主力，进据中原",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-397-01",
+  "year": 397,
+  "title": "河西秃发乌孤据乐都建南凉，段业",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "hou-yan",
+   "hou-qin",
+   "xi-qin",
+   "northern-wei",
+   "hou-liang",
+   "nan-liang",
+   "bei-liang"
+  ],
+  "summary": "河西秃发乌孤据乐都建南凉，段业、沮渠蒙逊据张掖建北凉",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-398-01",
+  "year": 398,
+  "title": "拓跋珪自盛乐迁都平城，正式称帝（北魏道武帝）",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "hou-yan",
+   "hou-qin",
+   "xi-qin",
+   "northern-wei",
+   "hou-liang",
+   "nan-liang",
+   "bei-liang",
+   "nan-yan"
+  ],
+  "summary": "拓跋珪自盛乐迁都平城，正式称帝（北魏道武帝）",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-399-01",
+  "year": 399,
+  "title": "慕容德建南燕都广固",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "hou-yan",
+   "hou-qin",
+   "xi-qin",
+   "northern-wei",
+   "hou-liang",
+   "nan-liang",
+   "bei-liang",
+   "nan-yan"
+  ],
+  "summary": "慕容德建南燕都广固；孙恩五斗米道起事席卷江东八郡，动摇门阀政治",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-404-01",
+  "year": 404,
+  "title": "桓玄篡晋建楚，刘裕自京口起兵复晋",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "hou-yan",
+   "hou-qin",
+   "xi-qin",
+   "northern-wei",
+   "nan-liang",
+   "bei-liang",
+   "nan-yan",
+   "xi-liang"
+  ],
+  "summary": "桓玄篡晋建楚，刘裕自京口起兵复晋；谯纵据成都建谯蜀",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-405-01",
+  "year": 405,
+  "title": "彭泽令陶渊明叹“吾不能为五斗米折腰”",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "hou-yan",
+   "hou-qin",
+   "xi-qin",
+   "northern-wei",
+   "nan-liang",
+   "bei-liang",
+   "nan-yan",
+   "xi-liang"
+  ],
+  "summary": "彭泽令陶渊明叹“吾不能为五斗米折腰”，解印辞官归隐浔阳南山",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-407-01",
+  "year": 407,
+  "title": "赫连勃勃在朔方建胡夏筑统万城",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "hou-yan",
+   "hou-qin",
+   "xi-qin",
+   "northern-wei",
+   "nan-liang",
+   "bei-liang",
+   "nan-yan",
+   "xi-liang",
+   "bei-yan",
+   "helian-xia"
+  ],
+  "summary": "赫连勃勃在朔方建胡夏筑统万城；冯跋、高云于龙城建北燕",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-410-01",
+  "year": 410,
+  "title": "刘裕北伐攻破广固，灭南燕",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "hou-qin",
+   "xi-qin",
+   "northern-wei",
+   "nan-liang",
+   "bei-liang",
+   "nan-yan",
+   "xi-liang",
+   "bei-yan",
+   "helian-xia"
+  ],
+  "summary": "刘裕北伐攻破广固，灭南燕",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-413-01",
+  "year": 413,
+  "title": "刘裕遣朱龄石西征平定谯蜀，收复巴蜀",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "hou-qin",
+   "xi-qin",
+   "northern-wei",
+   "nan-liang",
+   "bei-liang",
+   "xi-liang",
+   "bei-yan",
+   "helian-xia"
+  ],
+  "summary": "刘裕遣朱龄石西征平定谯蜀，收复巴蜀",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-414-01",
+  "year": 414,
+  "title": "高句丽长寿王于国都国内城立广开土境好太王碑",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "hou-qin",
+   "xi-qin",
+   "northern-wei",
+   "nan-liang",
+   "bei-liang",
+   "xi-liang",
+   "bei-yan",
+   "helian-xia"
+  ],
+  "summary": "高句丽长寿王于国都国内城立广开土境好太王碑，铭记开疆史事",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-417-01",
+  "year": 417,
+  "title": "刘裕北伐灭后秦，收复洛阳、长安",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "hou-qin",
+   "xi-qin",
+   "northern-wei",
+   "bei-liang",
+   "xi-liang",
+   "bei-yan",
+   "helian-xia"
+  ],
+  "summary": "刘裕北伐灭后秦，收复洛阳、长安",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-420-01",
+  "year": 420,
+  "title": "晋恭帝禅位于刘裕，东晋亡，宋齐梁陈南朝开启",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "eastern-jin",
+   "xi-qin",
+   "northern-wei",
+   "bei-liang",
+   "xi-liang",
+   "bei-yan",
+   "helian-xia",
+   "liu-song"
+  ],
+  "summary": "晋恭帝禅位于刘裕，东晋亡，宋齐梁陈南朝开启",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-421-01",
+  "year": 421,
+  "title": "刘裕代晋建宋后陶渊明隐居浔阳，著《桃花源记》寄志",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "xi-qin",
+   "northern-wei",
+   "bei-liang",
+   "xi-liang",
+   "bei-yan",
+   "helian-xia",
+   "liu-song"
+  ],
+  "summary": "刘裕代晋建宋后陶渊明隐居浔阳，著《桃花源记》寄志",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-422-01",
+  "year": 422,
+  "title": "谢灵运出任永嘉太守，遍游永嘉楠溪江山水",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "xi-qin",
+   "northern-wei",
+   "bei-liang",
+   "bei-yan",
+   "helian-xia",
+   "liu-song"
+  ],
+  "summary": "谢灵运出任永嘉太守，遍游永嘉楠溪江山水，开创中国古典山水诗派",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-427-01",
+  "year": 427,
+  "title": "北魏取河南关中，太武帝又袭克胡夏都城统万城",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "xi-qin",
+   "northern-wei",
+   "bei-liang",
+   "bei-yan",
+   "helian-xia",
+   "liu-song"
+  ],
+  "summary": "北魏取河南关中，太武帝又袭克胡夏都城统万城",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-431-01",
+  "year": 431,
+  "title": "赫连定灭西秦后被俘，北魏灭胡夏",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "xi-qin",
+   "northern-wei",
+   "bei-liang",
+   "bei-yan",
+   "helian-xia",
+   "liu-song"
+  ],
+  "summary": "赫连定灭西秦后被俘，北魏灭胡夏；宋文帝元嘉之治",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-436-01",
+  "year": 436,
+  "title": "北魏攻入龙城，北燕亡",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "northern-wei",
+   "bei-liang",
+   "bei-yan",
+   "liu-song"
+  ],
+  "summary": "北魏攻入龙城，北燕亡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-439-01",
+  "year": 439,
+  "title": "北魏太武帝灭北凉，统一北方，结束十六国",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "northern-wei",
+   "bei-liang",
+   "liu-song"
+  ],
+  "summary": "北魏太武帝灭北凉，统一北方，结束十六国",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-450-01",
+  "year": 450,
+  "title": "宋文帝元嘉北伐失利，北魏太武帝南征饮马长江",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "northern-wei",
+   "liu-song"
+  ],
+  "summary": "宋文帝元嘉北伐失利，北魏太武帝南征饮马长江",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-460-01",
+  "year": 460,
+  "title": "北魏文成帝命沙门昙曜于平城西武州山开凿云冈石窟…",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "northern-wei",
+   "liu-song"
+  ],
+  "summary": "北魏文成帝命沙门昙曜于平城西武州山开凿云冈石窟（昙曜五窟）",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-461-01",
+  "year": 461,
+  "title": "祖冲之任南徐州从事史驻京口",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "northern-wei",
+   "liu-song"
+  ],
+  "summary": "祖冲之任南徐州从事史驻京口，实测冬至晷影起草《大明历》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-462-01",
+  "year": 462,
+  "title": "祖冲之于建康推算圆周率至小数点后七位",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "northern-wei",
+   "liu-song"
+  ],
+  "summary": "祖冲之于建康推算圆周率至小数点后七位，创制《大明历》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-466-01",
+  "year": 466,
+  "title": "祖冲之出任吴郡娄县令勤政恤民",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "northern-wei",
+   "liu-song"
+  ],
+  "summary": "祖冲之出任吴郡娄县令勤政恤民，公务之暇潜心精研算学《缀术》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-469-01",
+  "year": 469,
+  "title": "北魏慕容白曜尽取刘宋淮北四州，南北分界南移淮水",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "northern-wei",
+   "liu-song"
+  ],
+  "summary": "北魏慕容白曜尽取刘宋淮北四州，南北分界南移淮水",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-479-01",
+  "year": 479,
+  "title": "萧道成代宋建南齐，南朝宋亡",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "northern-wei",
+   "liu-song",
+   "southern-qi"
+  ],
+  "summary": "萧道成代宋建南齐，南朝宋亡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-480-01",
+  "year": 480,
+  "title": "少年郦道元随父宦游青州",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "northern-wei",
+   "southern-qi"
+  ],
+  "summary": "少年郦道元随父宦游青州，踏勘齐鲁山川古迹启蒙地理之志",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-485-01",
+  "year": 485,
+  "title": "北魏冯太后与孝文帝颁行均田制与三长制",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "northern-wei",
+   "southern-qi"
+  ],
+  "summary": "北魏冯太后与孝文帝颁行均田制与三长制，奠定田制根基",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-493-01",
+  "year": 493,
+  "title": "北魏孝文帝自平城迁都洛阳，推行汉化并开凿龙门石窟",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "northern-wei",
+   "southern-qi"
+  ],
+  "summary": "北魏孝文帝自平城迁都洛阳，推行汉化并开凿龙门石窟",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-494-01",
+  "year": 494,
+  "title": "北魏孝文帝迁都洛阳，推行汉化改革",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "northern-wei",
+   "southern-qi"
+  ],
+  "summary": "北魏孝文帝迁都洛阳，推行汉化改革",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-495-01",
+  "year": 495,
+  "title": "迁都洛阳后，孝文帝开启伊阙龙门石窟营建",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "northern-wei",
+   "southern-qi"
+  ],
+  "summary": "迁都洛阳后，孝文帝开启伊阙龙门石窟营建",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-502-01",
+  "year": 502,
+  "title": "萧衍代齐建梁，开启天监之治",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "northern-wei",
+   "southern-qi",
+   "liang"
+  ],
+  "summary": "萧衍代齐建梁，开启天监之治",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-507-01",
+  "year": 507,
+  "title": "钟离之战：梁将韦睿",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "northern-wei",
+   "liang"
+  ],
+  "summary": "钟离之战：梁将韦睿、曹景宗火攻水淹大破北魏三十万大军",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-520-01",
+  "year": 520,
+  "title": "郦道元于洛阳博考群书参验实地",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "northern-wei",
+   "liang"
+  ],
+  "summary": "郦道元于洛阳博考群书参验实地，撰成地理名著《水经注》四十卷",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-523-01",
+  "year": 523,
+  "title": "六镇之乱：破六韩拔陵于沃野镇起兵，北魏边防崩解",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "northern-wei",
+   "liang"
+  ],
+  "summary": "六镇之乱：破六韩拔陵于沃野镇起兵，北魏边防崩解",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-527-01",
+  "year": 527,
+  "title": "关右大使郦道元奉命赴关中",
+  "categories": [
+   "军事",
+   "外交"
+  ],
+  "polityIds": [
+   "northern-wei",
+   "liang"
+  ],
+  "summary": "关右大使郦道元奉命赴关中，行至阴盘驿遭叛军围困嗔目殉职",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-528-01",
+  "year": 528,
+  "title": "河阴之变，北魏陷入内乱",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "northern-wei",
+   "liang"
+  ],
+  "summary": "河阴之变，北魏陷入内乱",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-529-01",
+  "year": 529,
+  "title": "梁将陈庆之率七千白袍军北伐连克三十二城，攻入洛阳",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "northern-wei",
+   "liang"
+  ],
+  "summary": "梁将陈庆之率七千白袍军北伐连克三十二城，攻入洛阳",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-534-01",
+  "year": 534,
+  "title": "北魏分裂为东魏、西魏",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "northern-wei",
+   "liang",
+   "eastern-wei"
+  ],
+  "summary": "北魏分裂为东魏、西魏",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-537-01",
+  "year": 537,
+  "title": "沙苑之战：宇文泰以少胜多破高欢，创西魏府兵制",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "liang",
+   "eastern-wei",
+   "western-wei"
+  ],
+  "summary": "沙苑之战：宇文泰以少胜多破高欢，创西魏府兵制",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-540-01",
+  "year": 540,
+  "title": "吐谷浑首领夸吕始自称可汗",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "liang",
+   "eastern-wei",
+   "western-wei"
+  ],
+  "summary": "吐谷浑首领夸吕始自称可汗，于青海湖西十五里营建王都伏俟城",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-546-01",
+  "year": 546,
+  "title": "玉壁之战：西魏韦孝宽坚守五十日，挫败东魏高欢大军",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "liang",
+   "eastern-wei",
+   "western-wei"
+  ],
+  "summary": "玉壁之战：西魏韦孝宽坚守五十日，挫败东魏高欢大军",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-548-01",
+  "year": 548,
+  "title": "侯景之乱攻陷建康台城，梁武帝萧衍饿死，江南残破",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "liang",
+   "eastern-wei",
+   "western-wei"
+  ],
+  "summary": "侯景之乱攻陷建康台城，梁武帝萧衍饿死，江南残破",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-549-01",
+  "year": 549,
+  "title": "侯景攻陷建康台城",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "liang",
+   "eastern-wei",
+   "western-wei"
+  ],
+  "summary": "侯景攻陷建康台城，八十六岁的梁武帝萧衍饥病交加饿死台城",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-550-01",
+  "year": 550,
+  "title": "高洋迫东魏孝静帝禅让，建立北齐",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "liang",
+   "eastern-wei",
+   "western-wei",
+   "northern-qi"
+  ],
+  "summary": "高洋迫东魏孝静帝禅让，建立北齐",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-552-01",
+  "year": 552,
+  "title": "突厥土门可汗大破柔然，建突厥汗国，称雄漠北",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "liang",
+   "western-wei",
+   "northern-qi"
+  ],
+  "summary": "突厥土门可汗大破柔然，建突厥汗国，称雄漠北",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-553-01",
+  "year": 553,
+  "title": "西魏尉迟迥伐蜀攻克成都，尽取萧梁巴蜀益州之地",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "liang",
+   "western-wei",
+   "northern-qi"
+  ],
+  "summary": "西魏尉迟迥伐蜀攻克成都，尽取萧梁巴蜀益州之地",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-554-01",
+  "year": 554,
+  "title": "西魏于谨攻陷江陵，立萧詧为西梁（后梁）主",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "liang",
+   "western-wei",
+   "northern-qi"
+  ],
+  "summary": "西魏于谨攻陷江陵，立萧詧为西梁（后梁）主",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-557-01",
+  "year": 557,
+  "title": "陈霸先建陈",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "liang",
+   "northern-qi",
+   "chen",
+   "northern-zhou"
+  ],
+  "summary": "陈霸先建陈；宇文觉建北周",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-564-01",
+  "year": 564,
+  "title": "邙山之战兰陵王高长恭率五百骑破周军解围",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "northern-qi",
+   "chen",
+   "northern-zhou"
+  ],
+  "summary": "邙山之战兰陵王高长恭率五百骑破周军解围，军中作《兰陵王入阵曲》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-573-01",
+  "year": 573,
+  "title": "太建北伐：陈将吴明彻大破北齐，尽复江北淮南之地",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "northern-qi",
+   "chen",
+   "northern-zhou"
+  ],
+  "summary": "太建北伐：陈将吴明彻大破北齐，尽复江北淮南之地",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-577-01",
+  "year": 577,
+  "title": "北周武帝灭北齐，北方再统一",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "northern-qi",
+   "chen",
+   "northern-zhou"
+  ],
+  "summary": "北周武帝灭北齐，北方再统一",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-580-01",
+  "year": 580,
+  "title": "杨坚以丞相辅政，韦孝宽平尉迟迥，焚毁邺城",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "chen",
+   "northern-zhou"
+  ],
+  "summary": "杨坚以丞相辅政，韦孝宽平尉迟迥，焚毁邺城",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-581-01",
+  "year": 581,
+  "title": "杨坚建隋，定都大兴",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "chen",
+   "northern-zhou",
+   "sui"
+  ],
+  "summary": "杨坚建隋，定都大兴",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-582-01",
+  "year": 582,
+  "title": "隋文帝诏宇文恺于龙首原南营建大兴城（唐长安前身）",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "chen",
+   "sui"
+  ],
+  "summary": "隋文帝诏宇文恺于龙首原南营建大兴城（唐长安前身）",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-584-01",
+  "year": 584,
+  "title": "隋文帝杨坚命宇文恺营建新都大兴城",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "chen",
+   "sui"
+  ],
+  "summary": "隋文帝杨坚命宇文恺营建新都大兴城，确立三省六部制、开皇律",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-587-01",
+  "year": 587,
+  "title": "隋文帝废西梁国，江陵并入隋境，大造战船备战伐陈",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "chen",
+   "sui"
+  ],
+  "summary": "隋文帝废西梁国，江陵并入隋境，大造战船备战伐陈",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-589-01",
+  "year": 589,
+  "title": "隋灭陈，统一全国",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "chen",
+   "sui"
+  ],
+  "summary": "隋灭陈，统一全国",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-599-01",
+  "year": 599,
+  "title": "东突厥启民可汗内附，隋于河套北筑大利城",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "sui"
+  ],
+  "summary": "东突厥启民可汗内附，隋于河套北筑大利城",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-605-01",
+  "year": 605,
+  "title": "隋炀帝营建东都洛阳、开通济渠",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "sui"
+  ],
+  "summary": "隋炀帝营建东都洛阳、开通济渠；始设进士科创立科举制",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-608-01",
+  "year": 608,
+  "title": "隋炀帝开凿永济渠，北通涿郡，南达黄河",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "sui"
+  ],
+  "summary": "隋炀帝开凿永济渠，北通涿郡，南达黄河",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-609-01",
+  "year": 609,
+  "title": "隋炀帝西巡张掖，破吐谷浑置西海、河源、鄯善",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "sui"
+  ],
+  "summary": "隋炀帝西巡张掖，破吐谷浑置西海、河源、鄯善、且末四郡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-610-01",
+  "year": 610,
+  "title": "隋炀帝开凿江南河，大运河贯通南北",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "sui"
+  ],
+  "summary": "隋炀帝开凿江南河，大运河贯通南北",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-612-01",
+  "year": 612,
+  "title": "隋炀帝征调百万大军东征高句丽，萨水失利",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "sui"
+  ],
+  "summary": "隋炀帝征调百万大军东征高句丽，萨水失利",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-615-01",
+  "year": 615,
+  "title": "隋炀帝雁门被突厥围困",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "sui"
+  ],
+  "summary": "隋炀帝雁门被突厥围困；次年瓦岗军克洛口仓群雄并起",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-617-01",
+  "year": 617,
+  "title": "李渊太原起兵，攻入大兴城",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "sui"
+  ],
+  "summary": "李渊太原起兵，攻入大兴城；瓦岗军据中原",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-618-01",
+  "year": 618,
+  "title": "宇文化及江都兵变弑隋炀帝，隋亡",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "sui",
+   "tang"
+  ],
+  "summary": "宇文化及江都兵变弑隋炀帝，隋亡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-621-01",
+  "year": 621,
+  "title": "虎牢之战李世民擒窦建德、降王世充",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "虎牢之战李世民擒窦建德、降王世充；李靖平萧铣",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-624-01",
+  "year": 624,
+  "title": "利州都督武士彟任上，武则天相传诞于利州嘉陵江畔",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "利州都督武士彟任上，武则天相传诞于利州嘉陵江畔",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-626-01",
+  "year": 626,
+  "title": "玄武门之变，李世民即位",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "玄武门之变，李世民即位",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-627-01",
+  "year": 627,
+  "title": "唐太宗李世民即位，开创贞观之治",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "唐太宗李世民即位，开创贞观之治",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-630-01",
+  "year": 630,
+  "title": "李靖灭东突厥，尊太宗为“天可汗”，置定襄",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "李靖灭东突厥，尊太宗为“天可汗”，置定襄、云中都督府",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-635-01",
+  "year": 635,
+  "title": "李靖分道远征吐谷浑抵黄河源柏海，伏允可汗降唐",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "李靖分道远征吐谷浑抵黄河源柏海，伏允可汗降唐",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-640-01",
+  "year": 640,
+  "title": "侯君集灭高昌，唐置安西都护府",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "侯君集灭高昌，唐置安西都护府",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-641-01",
+  "year": 641,
+  "title": "文成公主入藏，与吐蕃松赞干布联姻",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "文成公主入藏，与吐蕃松赞干布联姻",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-643-01",
+  "year": 643,
+  "title": "魏征病逝长安，唐太宗叹“以人为镜，可以明得失”",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "魏征病逝长安，唐太宗叹“以人为镜，可以明得失”，痛失一镜",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-644-01",
+  "year": 644,
+  "title": "吐蕃赞普松赞干布亲征灭象雄王国",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "吐蕃赞普松赞干布亲征灭象雄王国，将藏西阿里高原并入吐蕃版图",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-645-01",
+  "year": 645,
+  "title": "玄奘自天竺载经归长安译经",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "玄奘自天竺载经归长安译经；唐太宗亲征高句丽克辽东城",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-648-01",
+  "year": 648,
+  "title": "王玄策借吐蕃兵大破中天竺阿罗那顺，声威达南亚",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "王玄策借吐蕃兵大破中天竺阿罗那顺，声威达南亚",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-657-01",
+  "year": 657,
+  "title": "苏定方灭西突厥，置昆陵、濛池都护府，唐疆西极咸海",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "苏定方灭西突厥，置昆陵、濛池都护府，唐疆西极咸海",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-662-01",
+  "year": 662,
+  "title": "薛仁贵北征九姓铁勒“三箭定天山”",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "薛仁贵北征九姓铁勒“三箭定天山”，军中传唱长歌入汉关",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-663-01",
+  "year": 663,
+  "title": "白江口海战：刘仁轨大破日本、百济水军",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "白江口海战：刘仁轨大破日本、百济水军，奠定东亚格局",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-668-01",
+  "year": 668,
+  "title": "李勣攻克平壤灭高句丽，置安东都护府",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "李勣攻克平壤灭高句丽，置安东都护府",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-670-01",
+  "year": 670,
+  "title": "大非川之战：薛仁贵护送吐谷浑复国败于吐蕃",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "大非川之战：薛仁贵护送吐谷浑复国败于吐蕃，吐谷浑入吐蕃",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-675-01",
+  "year": 675,
+  "title": "唐廷于于阗置毗沙都督府，与龟兹、疏勒",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "唐廷于于阗置毗沙都督府，与龟兹、疏勒、碎叶并列安西四镇",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-676-01",
+  "year": 676,
+  "title": "安东都护府自平壤内迁辽东故城",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "安东都护府自平壤内迁辽东故城",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-677-01",
+  "year": 677,
+  "title": "禅宗六祖慧能驻锡韶州曹溪宝林寺弘法三十七年",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "禅宗六祖慧能驻锡韶州曹溪宝林寺弘法三十七年，口述《六祖坛经》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-679-01",
+  "year": 679,
+  "title": "调露元年改交州都督府为安南都护府",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "调露元年改交州都督府为安南都护府",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-684-01",
+  "year": 684,
+  "title": "徐敬业扬州起兵，骆宾王草檄讨武",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "徐敬业扬州起兵，骆宾王草檄讨武，武则天读檄叹宰相过",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-690-01",
+  "year": 690,
+  "title": "武则天改唐为周，定都神都洛阳",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "武则天改唐为周，定都神都洛阳",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-692-01",
+  "year": 692,
+  "title": "狄仁杰遭来俊臣诬陷下狱，以帛书申冤得免，贬彭泽令",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "狄仁杰遭来俊臣诬陷下狱，以帛书申冤得免，贬彭泽令",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-697-01",
+  "year": 697,
+  "title": "魏州刺史狄仁杰撤守归农安民，契丹闻风退去",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "魏州刺史狄仁杰撤守归农安民，契丹闻风退去，百姓立生祠",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-698-01",
+  "year": 698,
+  "title": "粟末靺鞨大祚荣于东牟山立震国",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "粟末靺鞨大祚荣于东牟山立震国，后受唐封渤海郡王建渤海国",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-700-01",
+  "year": 700,
+  "title": "狄仁杰卒于神都，生前荐张柬之、姚崇等",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "狄仁杰卒于神都，生前荐张柬之、姚崇等，武则天叹“朝堂空矣”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-702-01",
+  "year": 702,
+  "title": "武则天于庭州设北庭都护府，统辖天山北路",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "武则天于庭州设北庭都护府，统辖天山北路",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-705-01",
+  "year": 705,
+  "title": "神龙政变：张柬之等拥唐中宗于洛阳复辟，复唐国号",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "神龙政变：张柬之等拥唐中宗于洛阳复辟，复唐国号",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-707-01",
+  "year": 707,
+  "title": "景龙政变：太子李重俊发羽林兵诛武三思，兵败被杀",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "景龙政变：太子李重俊发羽林兵诛武三思，兵败被杀",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-710-01",
+  "year": 710,
+  "title": "唐隆政变：李隆基联结太平公主诛韦后，奉唐睿宗复位",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "唐隆政变：李隆基联结太平公主诛韦后，奉唐睿宗复位",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-713-01",
+  "year": 713,
+  "title": "先天政变：唐玄宗诛太平公主党开启开元盛世",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "先天政变：唐玄宗诛太平公主党开启开元盛世；封渤海郡王",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-714-01",
+  "year": 714,
+  "title": "唐廷于广州首设市舶使，总管南海番舶贸易",
+  "categories": [
+   "外交"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "唐廷于广州首设市舶使，总管南海番舶贸易",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-716-01",
+  "year": 716,
+  "title": "唐玄宗纳张九龄之议凿辟大庾岭梅关新路",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "唐玄宗纳张九龄之议凿辟大庾岭梅关新路，贯通赣粤南北商道",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-725-01",
+  "year": 725,
+  "title": "开元十三年国富兵强",
+  "categories": [
+   "军事",
+   "外交"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "开元十三年国富兵强，唐玄宗李隆基率百官与诸蕃使节东封泰山",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-727-01",
+  "year": 727,
+  "title": "王君㚟、信安王李祎反击吐蕃拔石堡城，固河西防线",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "王君㚟、信安王李祎反击吐蕃拔石堡城，固河西防线",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-733-01",
+  "year": 733,
+  "title": "唐玄宗分全国为开元十五道，置采访使定型道州监察制",
+  "categories": [
+   "外交",
+   "制度"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "唐玄宗分全国为开元十五道，置采访使定型道州监察制",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-736-01",
+  "year": 736,
+  "title": "青年杜甫壮游齐鲁仰望东岳",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "青年杜甫壮游齐鲁仰望东岳，豪吟《望岳》“会当凌绝顶，一览众山小”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-737-01",
+  "year": 737,
+  "title": "监察御史王维出塞途经居延泽，赋“大漠孤烟直",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "监察御史王维出塞途经居延泽，赋“大漠孤烟直，长河落日圆”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-738-01",
+  "year": 738,
+  "title": "唐册封皮逻阁为云南王，六诏合一建南诏迁都太和城",
+  "categories": [
+   "外交",
+   "制度"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "唐册封皮逻阁为云南王，六诏合一建南诏迁都太和城",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-742-01",
+  "year": 742,
+  "title": "改元天宝，沿边常设安西、范阳等十节度使，外重内轻",
+  "categories": [
+   "外交",
+   "制度"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "改元天宝，沿边常设安西、范阳等十节度使，外重内轻",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-744-01",
+  "year": 744,
+  "title": "骨力裴罗灭后突厥建回鹘汗国，受唐封为怀仁可汗",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "骨力裴罗灭后突厥建回鹘汗国，受唐封为怀仁可汗",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-747-01",
+  "year": 747,
+  "title": "高仙芝率军翻越帕米尔远征小勃律，西域震恐归附",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "高仙芝率军翻越帕米尔远征小勃律，西域震恐归附",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-748-01",
+  "year": 748,
+  "title": "王昌龄贬龙标（今怀化）尉筑芙蓉楼",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "王昌龄贬龙标（今怀化）尉筑芙蓉楼，李白寄诗“随君直到夜郎西”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-750-01",
+  "year": 750,
+  "title": "王维购得宋之问蓝田辋川别业",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "王维购得宋之问蓝田辋川别业，与裴迪泛舟弹琴赋《辋川集》二十首",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-751-01",
+  "year": 751,
+  "title": "怛罗斯之战，造纸术西传阿拉伯世界",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "怛罗斯之战，造纸术西传阿拉伯世界",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-753-01",
+  "year": 753,
+  "title": "鉴真和尚自扬州启航第六次东渡日本成功",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "鉴真和尚自扬州启航第六次东渡日本成功",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-755-01",
+  "year": 755,
+  "title": "安禄山、史思明于范阳起兵，安史之乱爆发",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "安禄山、史思明于范阳起兵，安史之乱爆发",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-756-01",
+  "year": 756,
+  "title": "马嵬驿兵变诛杨国忠、赐死杨贵妃",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "马嵬驿兵变诛杨国忠、赐死杨贵妃；唐肃宗灵武即位",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-757-01",
+  "year": 757,
+  "title": "郭子仪借回纥兵收复长安、洛阳两京，安庆绪退保邺城",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "郭子仪借回纥兵收复长安、洛阳两京，安庆绪退保邺城",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-758-01",
+  "year": 758,
+  "title": "颜真卿寻得殉国侄颜季明遗骸",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "颜真卿寻得殉国侄颜季明遗骸，悲愤挥毫草《祭侄文稿》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-759-01",
+  "year": 759,
+  "title": "邺城之战：九节度围安庆绪，史思明来援唐军溃散",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "邺城之战：九节度围安庆绪，史思明来援唐军溃散，遂杀安庆绪称帝再陷洛阳",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-760-01",
+  "year": 760,
+  "title": "杜甫避乱越秦岭入蜀",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "杜甫避乱越秦岭入蜀，得严武等资助于成都西郊浣花溪畔营建草堂",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-763-01",
+  "year": 763,
+  "title": "安史之乱平定，河朔三镇割据肇端",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "安史之乱平定，河朔三镇割据肇端；吐蕃一度攻入长安",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-764-01",
+  "year": 764,
+  "title": "凉州陷于吐蕃，河西走廊被截断，安西北庭孤悬坚守",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "凉州陷于吐蕃，河西走廊被截断，安西北庭孤悬坚守",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-765-01",
+  "year": 765,
+  "title": "仆固怀恩引回纥逼京",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "仆固怀恩引回纥逼京，郭子仪免胄单骑见虏说服回纥退兵",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-767-01",
+  "year": 767,
+  "title": "杜甫寓居夔州两年诗兴大发",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "杜甫寓居夔州两年诗兴大发，秋日登高赋千古七律《登高》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-770-01",
+  "year": 770,
+  "title": "杜甫出峡登岳阳楼凭轩涕泗，暮年漂泊湘江病逝舟中",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "杜甫出峡登岳阳楼凭轩涕泗，暮年漂泊湘江病逝舟中",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-779-01",
+  "year": 779,
+  "title": "赤松德赞迎莲花生与寂护于山南建成西藏首座佛法僧…",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "赤松德赞迎莲花生与寂护于山南建成西藏首座佛法僧俱全桑耶寺",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-780-01",
+  "year": 780,
+  "title": "杨炎推行两税法，赋税制度重大转型",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "杨炎推行两税法，赋税制度重大转型",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-785-01",
+  "year": 785,
+  "title": "七十七岁的太师颜真卿奉命孤身赴蔡州宣慰叛将李希…",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "七十七岁的太师颜真卿奉命孤身赴蔡州宣慰叛将李希烈，囚禁逾年凛然不屈",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-786-01",
+  "year": 786,
+  "title": "沙州（敦煌）陷于吐蕃，陇右河西尽失",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "沙州（敦煌）陷于吐蕃，陇右河西尽失",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-787-01",
+  "year": 787,
+  "title": "唐德宗遣浑瑊与吐蕃会盟于平凉川",
+  "categories": [
+   "军事",
+   "外交"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "唐德宗遣浑瑊与吐蕃会盟于平凉川，吐蕃伏兵劫盟史称平凉劫盟",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-790-01",
+  "year": 790,
+  "title": "北庭陷落，唐与西域隔绝",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "北庭陷落，唐与西域隔绝",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-805-01",
+  "year": 805,
+  "title": "永贞内禅：王叔文、柳宗元革新受挫",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "永贞内禅：王叔文、柳宗元革新受挫，俱文珍迫顺宗禅位",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-806-01",
+  "year": 806,
+  "title": "盩厔县尉白居易感玄宗贵妃往事",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "盩厔县尉白居易感玄宗贵妃往事，作长诗《长恨歌》传诵京师",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-815-01",
+  "year": 815,
+  "title": "元稹左迁通州（今达州）司马",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "元稹左迁通州（今达州）司马，与江州司马乐天千里寄诗唱和",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-816-01",
+  "year": 816,
+  "title": "江州司马白居易秋夜浔阳江头闻琵琶",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "江州司马白居易秋夜浔阳江头闻琵琶，作长诗《琵琶行》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-817-01",
+  "year": 817,
+  "title": "李愬雪夜入蔡州平淮西，史称元和中兴",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "李愬雪夜入蔡州平淮西，史称元和中兴",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-819-01",
+  "year": 819,
+  "title": "韩愈谏迎佛骨贬潮州，逾蓝田关赋“云横秦岭家何在",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "韩愈谏迎佛骨贬潮州，逾蓝田关赋“云横秦岭家何在，雪拥蓝关马不前”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-820-01",
+  "year": 820,
+  "title": "韩愈由潮州量移袁州（今宜春）刺史",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "韩愈由潮州量移袁州（今宜春）刺史，赎放质押奴婢七百余人兴学",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-822-01",
+  "year": 822,
+  "title": "白居易任杭州刺史主持疏浚西湖",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "白居易任杭州刺史主持疏浚西湖、修筑石函蓄水灌田千顷",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-824-01",
+  "year": 824,
+  "title": "和州刺史刘禹锡居斗室泰然处之，撰铭《陋室铭》传世",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "和州刺史刘禹锡居斗室泰然处之，撰铭《陋室铭》传世",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-826-01",
+  "year": 826,
+  "title": "刘禹锡扬州席上酬白居易，赋“沉舟侧畔千帆过",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "刘禹锡扬州席上酬白居易，赋“沉舟侧畔千帆过，病树前头万木春”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-832-01",
+  "year": 832,
+  "title": "白居易晚年定居洛阳履道里",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "白居易晚年定居洛阳履道里，重修龙门香山寺自号“香山居士”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-835-01",
+  "year": 835,
+  "title": "甘露之变：唐文宗与李训谋诛仇士良事败",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "甘露之变：唐文宗与李训谋诛仇士良事败，晚唐宦官专权",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-840-01",
+  "year": 840,
+  "title": "回鹘汗国崩溃",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "回鹘汗国崩溃；唐武宗与李德裕破回鹘、平泽潞（会昌中兴）",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-848-01",
+  "year": 848,
+  "title": "张议潮沙州起义，建归义军收复瓜沙甘肃等十一州归唐",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "张议潮沙州起义，建归义军收复瓜沙甘肃等十一州归唐",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-868-01",
+  "year": 868,
+  "title": "赴援安南之桂林戍卒由庞勋率领起义北攻徐州",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "赴援安南之桂林戍卒由庞勋率领起义北攻徐州，截断江淮漕运",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-875-01",
+  "year": 875,
+  "title": "王仙芝、黄巢于曹州发动唐末大起义",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "王仙芝、黄巢于曹州发动唐末大起义",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-879-01",
+  "year": 879,
+  "title": "黄巢转战岭南攻占广州，旋自桂州编筏沿湘江北进荆襄",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "黄巢转战岭南攻占广州，旋自桂州编筏沿湘江北进荆襄",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-881-01",
+  "year": 881,
+  "title": "黄巢破潼关入长安称帝建齐",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "黄巢破潼关入长安称帝建齐；唐僖宗奔蜀，唐室衰亡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-895-01",
+  "year": 895,
+  "title": "李克用入关中讨李茂贞，王建据蜀、杨行密据淮南",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "tang"
+  ],
+  "summary": "李克用入关中讨李茂贞，王建据蜀、杨行密据淮南，藩镇割据成型",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-907-01",
+  "year": 907,
+  "title": "朱温逼唐哀帝禅位建后梁，唐朝灭亡",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "tang",
+   "yang-wu",
+   "later-liang",
+   "liao",
+   "wu-yue",
+   "chu",
+   "qian-shu"
+  ],
+  "summary": "朱温逼唐哀帝禅位建后梁，唐朝灭亡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-909-01",
+  "year": 909,
+  "title": "后梁册封王审知为闽王，定都福州保境安民",
+  "categories": [
+   "外交",
+   "制度"
+  ],
+  "polityIds": [
+   "yang-wu",
+   "later-liang",
+   "liao",
+   "wu-yue",
+   "chu",
+   "qian-shu",
+   "min"
+  ],
+  "summary": "后梁册封王审知为闽王，定都福州保境安民",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-911-01",
+  "year": 911,
+  "title": "刘守光在幽州称大燕皇帝",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "yang-wu",
+   "later-liang",
+   "liao",
+   "wu-yue",
+   "chu",
+   "qian-shu",
+   "min"
+  ],
+  "summary": "刘守光在幽州称大燕皇帝，晋王李存勖兴兵讨燕（913年灭桀燕）",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-916-01",
+  "year": 916,
+  "title": "耶律阿保机建契丹国，称帝建元神册",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "yang-wu",
+   "later-liang",
+   "liao",
+   "wu-yue",
+   "chu",
+   "qian-shu",
+   "min"
+  ],
+  "summary": "耶律阿保机建契丹国，称帝建元神册",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-917-01",
+  "year": 917,
+  "title": "刘龑在番禺称帝建南汉，定都兴王府",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "yang-wu",
+   "later-liang",
+   "liao",
+   "wu-yue",
+   "chu",
+   "qian-shu",
+   "min",
+   "nan-han"
+  ],
+  "summary": "刘龑在番禺称帝建南汉，定都兴王府",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-923-01",
+  "year": 923,
+  "title": "李存勖灭后梁，建后唐",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "yang-wu",
+   "later-liang",
+   "liao",
+   "wu-yue",
+   "chu",
+   "qian-shu",
+   "min",
+   "nan-han",
+   "later-tang"
+  ],
+  "summary": "李存勖灭后梁，建后唐",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-925-01",
+  "year": 925,
+  "title": "后唐庄宗遣军灭前蜀并有巴蜀",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "yang-wu",
+   "liao",
+   "wu-yue",
+   "chu",
+   "qian-shu",
+   "min",
+   "nan-han",
+   "later-tang",
+   "jing-nan"
+  ],
+  "summary": "后唐庄宗遣军灭前蜀并有巴蜀；次年契丹灭渤海国",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-926-01",
+  "year": 926,
+  "title": "兴教门之变：郭从谦洛阳兵变弑后唐庄宗，李嗣源即位",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "yang-wu",
+   "liao",
+   "wu-yue",
+   "chu",
+   "min",
+   "nan-han",
+   "later-tang",
+   "jing-nan"
+  ],
+  "summary": "兴教门之变：郭从谦洛阳兵变弑后唐庄宗，李嗣源即位",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-927-01",
+  "year": 927,
+  "title": "后唐册封马殷为楚国王，马氏于潭州建南楚政权",
+  "categories": [
+   "外交"
+  ],
+  "polityIds": [
+   "yang-wu",
+   "liao",
+   "wu-yue",
+   "chu",
+   "min",
+   "nan-han",
+   "later-tang",
+   "jing-nan"
+  ],
+  "summary": "后唐册封马殷为楚国王，马氏于潭州建南楚政权，兴茶铸币保境安民",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-934-01",
+  "year": 934,
+  "title": "孟知祥在成都称帝，建立后蜀",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "yang-wu",
+   "liao",
+   "wu-yue",
+   "chu",
+   "min",
+   "nan-han",
+   "later-tang",
+   "jing-nan",
+   "hou-shu"
+  ],
+  "summary": "孟知祥在成都称帝，建立后蜀",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-936-01",
+  "year": 936,
+  "title": "石敬瑭割燕云十六州予契丹，建后晋",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "yang-wu",
+   "liao",
+   "wu-yue",
+   "chu",
+   "min",
+   "nan-han",
+   "later-tang",
+   "jing-nan",
+   "hou-shu",
+   "later-jin"
+  ],
+  "summary": "石敬瑭割燕云十六州予契丹，建后晋",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-937-01",
+  "year": 937,
+  "title": "徐知诰（李昪）代杨吴建南唐，定都金陵",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "yang-wu",
+   "liao",
+   "wu-yue",
+   "chu",
+   "min",
+   "nan-han",
+   "jing-nan",
+   "hou-shu",
+   "later-jin",
+   "dali",
+   "nan-tang"
+  ],
+  "summary": "徐知诰（李昪）代杨吴建南唐，定都金陵",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-938-01",
+  "year": 938,
+  "title": "后晋割燕云十六州，辽升幽州为南京析津府（陪都）",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "liao",
+   "wu-yue",
+   "chu",
+   "min",
+   "nan-han",
+   "jing-nan",
+   "hou-shu",
+   "later-jin",
+   "dali",
+   "nan-tang"
+  ],
+  "summary": "后晋割燕云十六州，辽升幽州为南京析津府（陪都）",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-939-01",
+  "year": 939,
+  "title": "吴权自立，安南脱离中原王朝",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "liao",
+   "wu-yue",
+   "chu",
+   "min",
+   "nan-han",
+   "jing-nan",
+   "hou-shu",
+   "later-jin",
+   "dali",
+   "nan-tang"
+  ],
+  "summary": "吴权自立，安南脱离中原王朝",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-945-01",
+  "year": 945,
+  "title": "南唐攻灭闽国，与吴越分其地",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "liao",
+   "wu-yue",
+   "chu",
+   "min",
+   "nan-han",
+   "jing-nan",
+   "hou-shu",
+   "later-jin",
+   "dali",
+   "nan-tang"
+  ],
+  "summary": "南唐攻灭闽国，与吴越分其地",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-947-01",
+  "year": 947,
+  "title": "契丹灭后晋，改国号辽",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "liao",
+   "wu-yue",
+   "chu",
+   "nan-han",
+   "jing-nan",
+   "hou-shu",
+   "later-jin",
+   "dali",
+   "nan-tang",
+   "later-han"
+  ],
+  "summary": "契丹灭后晋，改国号辽；刘知远建后汉",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-951-01",
+  "year": 951,
+  "title": "郭威建后周，刘崇在太原建北汉",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "liao",
+   "wu-yue",
+   "chu",
+   "nan-han",
+   "jing-nan",
+   "hou-shu",
+   "dali",
+   "nan-tang",
+   "later-zhou",
+   "bei-han"
+  ],
+  "summary": "郭威建后周，刘崇在太原建北汉；同年南唐发兵攻灭马楚",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-952-01",
+  "year": 952,
+  "title": "后周太祖郭威平兖州后幸曲阜谒孔庙",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "liao",
+   "wu-yue",
+   "nan-han",
+   "jing-nan",
+   "hou-shu",
+   "dali",
+   "nan-tang",
+   "later-zhou",
+   "bei-han"
+  ],
+  "summary": "后周太祖郭威平兖州后幸曲阜谒孔庙，称孔子“百世帝王之师”并亲行拜礼",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-954-01",
+  "year": 954,
+  "title": "高平之战：周世宗柴荣亲征",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "liao",
+   "wu-yue",
+   "nan-han",
+   "jing-nan",
+   "hou-shu",
+   "dali",
+   "nan-tang",
+   "later-zhou",
+   "bei-han"
+  ],
+  "summary": "高平之战：周世宗柴荣亲征，赵匡胤死战大破北汉与辽联军",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-955-01",
+  "year": 955,
+  "title": "周世宗西征后蜀收复秦、凤、成、阶四州",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "liao",
+   "wu-yue",
+   "nan-han",
+   "jing-nan",
+   "hou-shu",
+   "dali",
+   "nan-tang",
+   "later-zhou",
+   "bei-han"
+  ],
+  "summary": "周世宗西征后蜀收复秦、凤、成、阶四州，同年冬南征淮南",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-958-01",
+  "year": 958,
+  "title": "周世宗三征南唐功成：李璟去帝号献江北淮南十四州",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "liao",
+   "wu-yue",
+   "nan-han",
+   "jing-nan",
+   "hou-shu",
+   "dali",
+   "nan-tang",
+   "later-zhou",
+   "bei-han"
+  ],
+  "summary": "周世宗三征南唐功成：李璟去帝号献江北淮南十四州",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-959-01",
+  "year": 959,
+  "title": "周世宗北伐辽国，收复瀛、莫、易三州与三关",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "liao",
+   "wu-yue",
+   "nan-han",
+   "jing-nan",
+   "hou-shu",
+   "dali",
+   "nan-tang",
+   "later-zhou",
+   "bei-han"
+  ],
+  "summary": "周世宗北伐辽国，收复瀛、莫、易三州与三关",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-960-01",
+  "year": 960,
+  "title": "陈桥兵变，赵匡胤建宋",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "liao",
+   "wu-yue",
+   "nan-han",
+   "jing-nan",
+   "hou-shu",
+   "dali",
+   "nan-tang",
+   "later-zhou",
+   "bei-han",
+   "song"
+  ],
+  "summary": "陈桥兵变，赵匡胤建宋",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-961-01",
+  "year": 961,
+  "title": "杯酒释兵权，确立重文轻武国策",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "liao",
+   "wu-yue",
+   "nan-han",
+   "jing-nan",
+   "hou-shu",
+   "dali",
+   "nan-tang",
+   "later-zhou",
+   "bei-han",
+   "song"
+  ],
+  "summary": "杯酒释兵权，确立重文轻武国策",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-963-01",
+  "year": 963,
+  "title": "慕容延钊假道灭虢，北宋平定荆南与湖南",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "liao",
+   "wu-yue",
+   "nan-han",
+   "jing-nan",
+   "hou-shu",
+   "dali",
+   "nan-tang",
+   "later-zhou",
+   "bei-han",
+   "song"
+  ],
+  "summary": "慕容延钊假道灭虢，北宋平定荆南与湖南",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-965-01",
+  "year": 965,
+  "title": "王全斌攻入成都灭后蜀孟昶降，花蕊夫人赋诗叹亡国",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "liao",
+   "wu-yue",
+   "nan-han",
+   "hou-shu",
+   "dali",
+   "nan-tang",
+   "later-zhou",
+   "bei-han",
+   "song"
+  ],
+  "summary": "王全斌攻入成都灭后蜀孟昶降，花蕊夫人赋诗叹亡国",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-971-01",
+  "year": 971,
+  "title": "潘美率宋军克广州，刘鋹降，南汉亡",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "liao",
+   "wu-yue",
+   "nan-han",
+   "dali",
+   "nan-tang",
+   "bei-han",
+   "song"
+  ],
+  "summary": "潘美率宋军克广州，刘鋹降，南汉亡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-975-01",
+  "year": 975,
+  "title": "曹彬率宋军攻克金陵，李煜降，南唐亡",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "liao",
+   "wu-yue",
+   "dali",
+   "nan-tang",
+   "bei-han",
+   "song"
+  ],
+  "summary": "曹彬率宋军攻克金陵，李煜降，南唐亡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-976-01",
+  "year": 976,
+  "title": "斧声烛影：宋太祖万岁殿夜饮暴崩，晋王赵光义即位",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "liao",
+   "wu-yue",
+   "dali",
+   "bei-han",
+   "song"
+  ],
+  "summary": "斧声烛影：宋太祖万岁殿夜饮暴崩，晋王赵光义即位",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-978-01",
+  "year": 978,
+  "title": "吴越王钱俶纳土归宋，江南和平统一",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "liao",
+   "wu-yue",
+   "dali",
+   "bei-han",
+   "song"
+  ],
+  "summary": "吴越王钱俶纳土归宋，江南和平统一",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-979-01",
+  "year": 979,
+  "title": "宋太宗灭北汉结束十国分裂",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "bei-han",
+   "song"
+  ],
+  "summary": "宋太宗灭北汉结束十国分裂；高梁河之战北伐失利",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-980-01",
+  "year": 980,
+  "title": "雁门之战：杨业率骑自西陉出雁门关背奇袭",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song"
+  ],
+  "summary": "雁门之战：杨业率骑自西陉出雁门关背奇袭，大破辽军斩萧咄李",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-986-01",
+  "year": 986,
+  "title": "雍熙北伐失利，杨业于陈家谷力战殉国",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song"
+  ],
+  "summary": "雍熙北伐失利，杨业于陈家谷力战殉国",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-997-01",
+  "year": 997,
+  "title": "宋太宗分全国为至道十五路，定型“路—州—县”体制",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song"
+  ],
+  "summary": "宋太宗分全国为至道十五路，定型“路—州—县”体制",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1002-01",
+  "year": 1002,
+  "title": "李继迁攻陷北宋灵州改西平府，党项尽据河套平原",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song"
+  ],
+  "summary": "李继迁攻陷北宋灵州改西平府，党项尽据河套平原",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1004-01",
+  "year": 1004,
+  "title": "澶渊之盟，宋辽百年和平",
+  "categories": [
+   "外交"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song"
+  ],
+  "summary": "澶渊之盟，宋辽百年和平",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1007-01",
+  "year": 1007,
+  "title": "辽圣宗营建中京大定府",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song"
+  ],
+  "summary": "辽圣宗营建中京大定府；宋辽沿边广设榷场互市",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1008-01",
+  "year": 1008,
+  "title": "宋真宗东封泰山毕亲幸曲阜谒孔庙",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song"
+  ],
+  "summary": "宋真宗东封泰山毕亲幸曲阜谒孔庙，追谥孔子为玄圣文宣王",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1014-01",
+  "year": 1014,
+  "title": "宋真宗升应天府（商丘）为南京陪都",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song"
+  ],
+  "summary": "宋真宗升应天府（商丘）为南京陪都",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1021-01",
+  "year": 1021,
+  "title": "王安石诞于抚州临川",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song"
+  ],
+  "summary": "王安石诞于抚州临川，与同郡南丰曾巩双双名列“唐宋八大家”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1023-01",
+  "year": 1023,
+  "title": "成都设益州交子务，发行世界最早官方纸币“交子”",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song"
+  ],
+  "summary": "成都设益州交子务，发行世界最早官方纸币“交子”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1024-01",
+  "year": 1024,
+  "title": "范仲淹任西溪盐官倡议重修海堰",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song"
+  ],
+  "summary": "范仲淹任西溪盐官倡议重修海堰，筑百里范公堤护淮南盐场良田",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1026-01",
+  "year": 1026,
+  "title": "少年司马光于庭院击破大瓮救出溺水幼童",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song"
+  ],
+  "summary": "少年司马光于庭院击破大瓮救出溺水幼童，“司马光砸缸”机智沉着传为美谈",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1032-01",
+  "year": 1032,
+  "title": "吐蕃唃厮啰部迁都青唐城（今西宁）",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "吐蕃唃厮啰部迁都青唐城（今西宁），建青唐政权并扼丝路青海道要冲",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1037-01",
+  "year": 1037,
+  "title": "苏轼生于眉州眉山纱縠行，与苏洵",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "苏轼生于眉州眉山纱縠行，与苏洵、苏辙同出眉山并列唐宋八大家",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1038-01",
+  "year": 1038,
+  "title": "元昊于兴庆府称帝建大夏（西夏）",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "元昊于兴庆府称帝建大夏（西夏）",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1040-01",
+  "year": 1040,
+  "title": "西夏元昊大举犯边，范仲淹自请知延州筑大顺城固防",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "西夏元昊大举犯边，范仲淹自请知延州筑大顺城固防",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1041-01",
+  "year": 1041,
+  "title": "好水川之战：西夏元昊设伏歼灭任福主力，震动宋廷",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "好水川之战：西夏元昊设伏歼灭任福主力，震动宋廷",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1042-01",
+  "year": 1042,
+  "title": "重熙增币",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "重熙增币；建大名府为北京陪都以备御辽",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1043-01",
+  "year": 1043,
+  "title": "范仲淹、富弼主持推行“庆历新政”",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "范仲淹、富弼主持推行“庆历新政”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1044-01",
+  "year": 1044,
+  "title": "庆历和议（宋夏）",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "庆历和议（宋夏）",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1046-01",
+  "year": 1046,
+  "title": "范仲淹贬邓州作《岳阳楼记》",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "范仲淹贬邓州作《岳阳楼记》，铸就“先天下之忧而忧”名篇",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1047-01",
+  "year": 1047,
+  "title": "二十七岁的王安石知鄞县，亲自踏勘浚湖筑堤",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "二十七岁的王安石知鄞县，亲自踏勘浚湖筑堤、青黄不接贷官谷于民",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1048-01",
+  "year": 1048,
+  "title": "黄河于澶州商胡埽决口北流，东汉以来王景故道废弃",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "黄河于澶州商胡埽决口北流，东汉以来王景故道废弃",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1053-01",
+  "year": 1053,
+  "title": "枢密副使狄青元宵夜袭昆仑关，于归仁铺大破侬智高",
+  "categories": [
+   "军事",
+   "外交"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "枢密副使狄青元宵夜袭昆仑关，于归仁铺大破侬智高，平定广南西路",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1057-01",
+  "year": 1057,
+  "title": "欧阳修主持嘉祐二年贡举，苏轼、苏辙、曾巩、张载",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "欧阳修主持嘉祐二年贡举，苏轼、苏辙、曾巩、张载、程颢同榜登科",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1061-01",
+  "year": 1061,
+  "title": "包拯拜枢密副使，立朝刚毅，贵戚宦官为之敛手",
+  "categories": [
+   "外交",
+   "制度"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "包拯拜枢密副使，立朝刚毅，贵戚宦官为之敛手",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1063-01",
+  "year": 1063,
+  "title": "钱塘沈括于东京登嘉祐八年进士第",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "钱塘沈括于东京登嘉祐八年进士第，旋入馆阁编校昭文书籍",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1069-01",
+  "year": 1069,
+  "title": "宋神宗任用王安石推行熙宁变法",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "宋神宗任用王安石推行熙宁变法",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1070-01",
+  "year": 1070,
+  "title": "翰林学士司马光与故友王安石三致长书激辩青苗新法…",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "翰林学士司马光与故友王安石三致长书激辩青苗新法利弊",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1071-01",
+  "year": 1071,
+  "title": "欧阳修致仕退居颍州西湖畔",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "欧阳修致仕退居颍州西湖畔，合藏书金石琴棋酒鹤自号六一居士",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1072-01",
+  "year": 1072,
+  "title": "王韶熙河开边，收复熙、河、洮、岷等六州",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "王韶熙河开边，收复熙、河、洮、岷等六州，新置熙河路",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1075-01",
+  "year": 1075,
+  "title": "沈括奉使契丹抵辽上京据理折冲",
+  "categories": [
+   "外交",
+   "文化"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "沈括奉使契丹抵辽上京据理折冲，沿途聚米山川绘《使契丹图抄》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1076-01",
+  "year": 1076,
+  "title": "苏轼知密州筑超然台",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "苏轼知密州筑超然台，丙辰中秋欢饮达旦赋《水调歌头》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1081-01",
+  "year": 1081,
+  "title": "鄜延路经略使沈括镇守延州抗夏",
+  "categories": [
+   "外交",
+   "文化"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "鄜延路经略使沈括镇守延州抗夏，首记陕北“石油”并命名传世",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1083-01",
+  "year": 1083,
+  "title": "莆田木兰陂历三代接力合龙建成",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "莆田木兰陂历三代接力合龙建成，拒咸蓄淡灌溉兴化平原万顷良田",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1084-01",
+  "year": 1084,
+  "title": "司马光退居洛阳独乐园十五载",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "司马光退居洛阳独乐园十五载，主编成《资治通鉴》二百九十四卷",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1085-01",
+  "year": 1085,
+  "title": "高太后垂帘起用司马光尽废新法（元祐更化）",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "高太后垂帘起用司马光尽废新法（元祐更化），党争激化",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1088-01",
+  "year": 1088,
+  "title": "沈括晚年退居润州梦溪园",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "沈括晚年退居润州梦溪园，撰成科学笔记巨著《梦溪笔谈》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1101-01",
+  "year": 1101,
+  "title": "李清照于汴京嫁赵明诚，夫妇典衣购碑、共治金石",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "李清照于汴京嫁赵明诚，夫妇典衣购碑、共治金石，词名初动京师",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1104-01",
+  "year": 1104,
+  "title": "王厚、童贯发起“河湟开边”，收复青唐置西宁州",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "王厚、童贯发起“河湟开边”，收复青唐置西宁州",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1114-01",
+  "year": 1114,
+  "title": "宋政和四年改戎州为叙州",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia"
+  ],
+  "summary": "宋政和四年改戎州为叙州，控扼金沙江与岷江汇合万里长江第一城",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1115-01",
+  "year": 1115,
+  "title": "完颜阿骨打在会宁称帝建金，攻取辽东与上京",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia",
+   "jin"
+  ],
+  "summary": "完颜阿骨打在会宁称帝建金，攻取辽东与上京",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1118-01",
+  "year": 1118,
+  "title": "宋徽宗以潜邸端王升端州为肇庆府",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia",
+   "jin"
+  ],
+  "summary": "宋徽宗以潜邸端王升端州为肇庆府，亲书“肇庆府”御匾赐之",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1119-01",
+  "year": 1119,
+  "title": "宋江等三十六人于河朔京东起义横行十郡",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia",
+   "jin"
+  ],
+  "summary": "宋江等三十六人于河朔京东起义横行十郡，成《水浒传》原型",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1120-01",
+  "year": 1120,
+  "title": "宋金海上之盟，约攻辽",
+  "categories": [
+   "军事",
+   "外交"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia",
+   "jin"
+  ],
+  "summary": "宋金海上之盟，约攻辽",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1121-01",
+  "year": 1121,
+  "title": "方腊江南起义攻陷杭州震动东南",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia",
+   "jin"
+  ],
+  "summary": "方腊江南起义攻陷杭州震动东南，童贯率北伐军南下讨平",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1122-01",
+  "year": 1122,
+  "title": "二十岁的农家子岳飞自相州汤阴应募从军",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia",
+   "jin"
+  ],
+  "summary": "二十岁的农家子岳飞自相州汤阴应募从军，母勉以尽忠报国",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1123-01",
+  "year": 1123,
+  "title": "金依海上之盟交割燕京六州空城，北宋置燕山府路",
+  "categories": [
+   "外交",
+   "制度"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia",
+   "jin"
+  ],
+  "summary": "金依海上之盟交割燕京六州空城，北宋置燕山府路",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1125-01",
+  "year": 1125,
+  "title": "完颜娄室俘辽天祚帝，金朝灭辽",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "liao",
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "完颜娄室俘辽天祚帝，金朝灭辽",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1127-01",
+  "year": 1127,
+  "title": "靖康之变，北宋亡",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "靖康之变，北宋亡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1128-01",
+  "year": 1128,
+  "title": "靖康乱后李清照南渡过乌江，赋“生当作人杰",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "靖康乱后李清照南渡过乌江，赋“生当作人杰，死亦为鬼雄”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1129-01",
+  "year": 1129,
+  "title": "苗刘兵变：苗傅、刘正彦于杭州逼高宗禅位",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "苗刘兵变：苗傅、刘正彦于杭州逼高宗禅位，韩世忠平叛",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1130-01",
+  "year": 1130,
+  "title": "韩世忠黄天荡阻击金兀术水军",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "韩世忠黄天荡阻击金兀术水军",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1133-01",
+  "year": 1133,
+  "title": "岳飞奉诏平定吉虔盗乱",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "岳飞奉诏平定吉虔盗乱，力谏高宗勿屠虔州保全全城百姓",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1134-01",
+  "year": 1134,
+  "title": "岳飞挥师北伐收复襄阳、随、郢、唐、邓、信阳六郡",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "岳飞挥师北伐收复襄阳、随、郢、唐、邓、信阳六郡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1135-01",
+  "year": 1135,
+  "title": "韩世忠与梁红玉屯兵楚州筑城抚民",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "韩世忠与梁红玉屯兵楚州筑城抚民，扼守淮东门户十余年屏卫南宋",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1136-01",
+  "year": 1136,
+  "title": "岳飞自鄂州孤军北伐连克伊阳商州",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "岳飞自鄂州孤军北伐连克伊阳商州，愤孤军无援矢志收复河山",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1138-01",
+  "year": 1138,
+  "title": "宋高宗正式定行在于临安府",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "宋高宗正式定行在于临安府",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1140-01",
+  "year": 1140,
+  "title": "岳飞北伐，郾城、颍昌大捷，进兵朱仙镇",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "岳飞北伐，郾城、颍昌大捷，进兵朱仙镇",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1141-01",
+  "year": 1141,
+  "title": "绍兴和议，以淮河—大散关为界",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "绍兴和议，以淮河—大散关为界",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1142-01",
+  "year": 1142,
+  "title": "绍兴和议达成，岳飞于临安风波亭遇害",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "绍兴和议达成，岳飞于临安风波亭遇害",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1153-01",
+  "year": 1153,
+  "title": "金海陵王完颜亮自上京迁都燕京，改名中都大兴府",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "金海陵王完颜亮自上京迁都燕京，改名中都大兴府",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1155-01",
+  "year": 1155,
+  "title": "陆游春日重游绍兴沈园偶遇唐琬",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "陆游春日重游绍兴沈园偶遇唐琬，题词《钗头凤》凄婉千古",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1161-01",
+  "year": 1161,
+  "title": "金海陵王南侵，虞允文采石矶大捷",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "金海陵王南侵，虞允文采石矶大捷",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1162-01",
+  "year": 1162,
+  "title": "二十三岁的辛弃疾率五十骑夜突金军五万大营生擒叛…",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "二十三岁的辛弃疾率五十骑夜突金军五万大营生擒叛徒张安国",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1163-01",
+  "year": 1163,
+  "title": "宋孝宗隆兴北伐，次年订立隆兴和议",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "宋孝宗隆兴北伐，次年订立隆兴和议",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1172-01",
+  "year": 1172,
+  "title": "陆游应四川宣抚使王炎幕亲临汉中南郑抗金前线射虎…",
+  "categories": [
+   "军事",
+   "外交"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "陆游应四川宣抚使王炎幕亲临汉中南郑抗金前线射虎观兵",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1173-01",
+  "year": 1173,
+  "title": "陆游权知嘉州、通判蜀州纵览巴蜀奇山异水",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "陆游权知嘉州、通判蜀州纵览巴蜀奇山异水，诗风雄放自号“放翁”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1175-01",
+  "year": 1175,
+  "title": "南宋乾淳之治与金大定之治对峙",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "南宋乾淳之治与金大定之治对峙；朱熹陆九渊鹅湖之会",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1179-01",
+  "year": 1179,
+  "title": "朱熹知南康军重兴庐山白鹿洞书院",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "朱熹知南康军重兴庐山白鹿洞书院，手订《白鹿洞书院揭示》垂范学林",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1180-01",
+  "year": 1180,
+  "title": "辛弃疾知潭州兼湖南安抚使",
+  "categories": [
+   "军事",
+   "外交"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "辛弃疾知潭州兼湖南安抚使，创建精锐“飞虎军”雄镇荆湖",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1188-01",
+  "year": 1188,
+  "title": "辛弃疾与思想家陈亮于江西铅山鹅湖十日纵论恢复大略",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "辛弃疾与思想家陈亮于江西铅山鹅湖十日纵论恢复大略",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1194-01",
+  "year": 1194,
+  "title": "绍熙内禅赵汝愚拥立宋宁宗",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "绍熙内禅赵汝愚拥立宋宁宗；同年黄河阳武决口夺泗入淮",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1196-01",
+  "year": 1196,
+  "title": "辛弃疾罢官隐居信州上饶带湖与瓢泉",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "辛弃疾罢官隐居信州上饶带湖与瓢泉，赋豪放词抒恢复中原之志",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1205-01",
+  "year": 1205,
+  "title": "辛弃疾知镇江府整军备战",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai"
+  ],
+  "summary": "辛弃疾知镇江府整军备战，登北固亭赋《永遇乐·京口北固亭怀古》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1206-01",
+  "year": 1206,
+  "title": "铁木真统一蒙古，称成吉思汗",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai",
+   "yuan"
+  ],
+  "summary": "铁木真统一蒙古，称成吉思汗",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1207-01",
+  "year": 1207,
+  "title": "韩侂胄“开禧北伐”失利被诛",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai",
+   "yuan"
+  ],
+  "summary": "韩侂胄“开禧北伐”失利被诛，次年宋金订立《嘉定和议》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1210-01",
+  "year": 1210,
+  "title": "八十六岁的陆游病逝山阴故里",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai",
+   "yuan"
+  ],
+  "summary": "八十六岁的陆游病逝山阴故里，遗绝笔《示儿》盼王师北定中原",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1211-01",
+  "year": 1211,
+  "title": "野狐岭之战：成吉思汗集中铁骑冲阵",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai",
+   "yuan"
+  ],
+  "summary": "野狐岭之战：成吉思汗集中铁骑冲阵，歼灭金军四十万主力",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1214-01",
+  "year": 1214,
+  "title": "金宣宗避蒙古兵锋，自中都南迁都城至汴京",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai",
+   "yuan"
+  ],
+  "summary": "金宣宗避蒙古兵锋，自中都南迁都城至汴京",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1215-01",
+  "year": 1215,
+  "title": "蒙古攻陷金中都，金迁都汴京",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai",
+   "yuan"
+  ],
+  "summary": "蒙古攻陷金中都，金迁都汴京，黄河以北与辽东被蒙古吞并",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1218-01",
+  "year": 1218,
+  "title": "成吉思汗于漠北召见辽宗室耶律楚材",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "karakhitai",
+   "yuan"
+  ],
+  "summary": "成吉思汗于漠北召见辽宗室耶律楚材，赞誉“吾图撒合里”留赞军国",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1221-01",
+  "year": 1221,
+  "title": "耶律楚材随成吉思汗西征驻撒马尔罕",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "yuan"
+  ],
+  "summary": "耶律楚材随成吉思汗西征驻撒马尔罕，观测月食创制《西征庚午元历》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1225-01",
+  "year": 1225,
+  "title": "宋理宗赵昀即位改元宝庆，以潜邸升邵州为宝庆府",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "yuan"
+  ],
+  "summary": "宋理宗赵昀即位改元宝庆，以潜邸升邵州为宝庆府，控扼湘西南",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1226-01",
+  "year": 1226,
+  "title": "成吉思汗末次亲征西夏首克黑水城",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "yuan"
+  ],
+  "summary": "成吉思汗末次亲征西夏首克黑水城，后元朝于此置亦集乃路",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1227-01",
+  "year": 1227,
+  "title": "成吉思汗六盘山病逝，蒙古灭西夏",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "xia",
+   "jin",
+   "yuan"
+  ],
+  "summary": "成吉思汗六盘山病逝，蒙古灭西夏",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1233-01",
+  "year": 1233,
+  "title": "蒙古军围攻金汴京欲屠城",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "jin",
+   "yuan"
+  ],
+  "summary": "蒙古军围攻金汴京欲屠城，中书令耶律楚材力谏窝阔台汗保全百万生灵",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1234-01",
+  "year": 1234,
+  "title": "宋蒙联军蔡州灭金",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "jin",
+   "yuan"
+  ],
+  "summary": "宋蒙联军蔡州灭金；宋军“端平入洛”溃败，宋蒙战争爆发",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1235-01",
+  "year": 1235,
+  "title": "窝阔台汗分兵三路全面伐宋，川陕、荆襄",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "yuan"
+  ],
+  "summary": "窝阔台汗分兵三路全面伐宋，川陕、荆襄、江淮战火延烧",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1236-01",
+  "year": 1236,
+  "title": "耶律楚材于哈拉和林定赋税立制度",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "yuan"
+  ],
+  "summary": "耶律楚材于哈拉和林定赋税立制度，倡行戊戌选试拔擢中原儒士",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1243-01",
+  "year": 1243,
+  "title": "余玠筑泸州神臂城扼守长江上游",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "yuan"
+  ],
+  "summary": "余玠筑泸州神臂城扼守长江上游，军民拉锯坚守抗蒙长达三十四年",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1247-01",
+  "year": 1247,
+  "title": "凉州会盟：萨迦班智达与蒙古阔端会谈，吐蕃正式归附",
+  "categories": [
+   "外交"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "yuan"
+  ],
+  "summary": "凉州会盟：萨迦班智达与蒙古阔端会谈，吐蕃正式归附",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1253-01",
+  "year": 1253,
+  "title": "忽必烈率蒙军渡金沙江平定大理国",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "dali",
+   "song",
+   "yuan"
+  ],
+  "summary": "忽必烈率蒙军渡金沙江平定大理国",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1256-01",
+  "year": 1256,
+  "title": "二十岁的文天祥于临安殿试对策万言",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "song",
+   "yuan"
+  ],
+  "summary": "二十岁的文天祥于临安殿试对策万言，宋理宗亲拔为第一状元",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1259-01",
+  "year": 1259,
+  "title": "钓鱼城之战，蒙哥汗战死城下",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "song",
+   "yuan"
+  ],
+  "summary": "钓鱼城之战，蒙哥汗战死城下",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1260-01",
+  "year": 1260,
+  "title": "忽必烈于滦河上游开平即大汗位建元中统",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "song",
+   "yuan"
+  ],
+  "summary": "忽必烈于滦河上游开平即大汗位建元中统，旋升开平府为上都",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1264-01",
+  "year": 1264,
+  "title": "忽必烈设总制院（后改宣政院），统辖吐蕃政教事务",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "song",
+   "yuan"
+  ],
+  "summary": "忽必烈设总制院（后改宣政院），统辖吐蕃政教事务",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1271-01",
+  "year": 1271,
+  "title": "忽必烈定国号“大元”",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "song",
+   "yuan"
+  ],
+  "summary": "忽必烈定国号“大元”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1272-01",
+  "year": 1272,
+  "title": "忽必烈营建元大都成，定为元朝国都",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "song",
+   "yuan"
+  ],
+  "summary": "忽必烈营建元大都成，定为元朝国都，积水潭万艘漕船云集",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1273-01",
+  "year": 1273,
+  "title": "吕文焕力竭降元，襄阳苦守六年陷落",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "song",
+   "yuan"
+  ],
+  "summary": "吕文焕力竭降元，襄阳苦守六年陷落",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1274-01",
+  "year": 1274,
+  "title": "马可·波罗父子越葱岭抵河西沙州",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "song",
+   "yuan"
+  ],
+  "summary": "马可·波罗父子越葱岭抵河西沙州，沿丝绸之路东赴元廷",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1275-01",
+  "year": 1275,
+  "title": "马可·波罗抵达大都",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "song",
+   "yuan"
+  ],
+  "summary": "马可·波罗抵达大都",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1276-01",
+  "year": 1276,
+  "title": "伯颜率元军入临安，恭帝出降",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "song",
+   "yuan"
+  ],
+  "summary": "伯颜率元军入临安，恭帝出降；元置云南行中书省于中庆（昆明）",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1279-01",
+  "year": 1279,
+  "title": "崖山海战，南宋亡",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "song",
+   "yuan"
+  ],
+  "summary": "崖山海战，南宋亡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1281-01",
+  "year": 1281,
+  "title": "置澎湖巡检司管辖澎湖与琉球",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "置澎湖巡检司管辖澎湖与琉球；第二次东征日本",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1282-01",
+  "year": 1282,
+  "title": "马可·波罗旅居运河枢纽扬州",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "马可·波罗旅居运河枢纽扬州，惊叹东南漕运百工与临安繁华",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1283-01",
+  "year": 1283,
+  "title": "文天祥囚元大都土室四年作《正气歌》",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "文天祥囚元大都土室四年作《正气歌》，于柴市口南向再拜从容就义",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1287-01",
+  "year": 1287,
+  "title": "忽必烈亲征平定辽东乃颜之乱，设辽阳行省",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "忽必烈亲征平定辽东乃颜之乱，设辽阳行省",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1288-01",
+  "year": 1288,
+  "title": "元廷设宣政院掌佛教与吐蕃事务，西藏纳入中央管辖",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "元廷设宣政院掌佛教与吐蕃事务，西藏纳入中央管辖",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1291-01",
+  "year": 1291,
+  "title": "元曲大家关汉卿于大都创作杂剧代表作《感天动地窦…",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "元曲大家关汉卿于大都创作杂剧代表作《感天动地窦娥冤》流传千古",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1293-01",
+  "year": 1293,
+  "title": "京杭大运河全线贯通",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "京杭大运河全线贯通",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1295-01",
+  "year": 1295,
+  "title": "黄道婆自崖州水南村习得黎族棉纺织绝技返松江",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "黄道婆自崖州水南村习得黎族棉纺织绝技返松江，革新江南棉纺",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1296-01",
+  "year": 1296,
+  "title": "黄道婆归故里松江乌泥泾传授捍弹纺织新法",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "黄道婆归故里松江乌泥泾传授捍弹纺织新法，松江布遂“衣被天下”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1307-01",
+  "year": 1307,
+  "title": "元武宗置和林行省（后改岭北行省）",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "元武宗置和林行省（后改岭北行省），中书省与诸行省行政格局定型",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1313-01",
+  "year": 1313,
+  "title": "元仁宗诏复科举，以程朱理学取士，延续至清末",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "元仁宗诏复科举，以程朱理学取士，延续至清末",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1323-01",
+  "year": 1323,
+  "title": "南坡之变：铁失于上都南坡行帐弑元英宗与丞相拜住",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "南坡之变：铁失于上都南坡行帐弑元英宗与丞相拜住",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1328-01",
+  "year": 1328,
+  "title": "两都之战（天历之变）",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "两都之战（天历之变）：燕铁木儿拥元文宗击败上都天顺帝",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1344-01",
+  "year": 1344,
+  "title": "黄河于曹县白茅堤大决口泛滥",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "黄河于曹县白茅堤大决口泛滥，元廷命贾鲁治河征发民夫",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1346-01",
+  "year": 1346,
+  "title": "摩洛哥旅行家伊本·白图泰抵刺桐港",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "摩洛哥旅行家伊本·白图泰抵刺桐港，盛赞其为世界最大港口之一",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1350-01",
+  "year": 1350,
+  "title": "八十二岁的“元四家”之首黄公望结庐富春江",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "八十二岁的“元四家”之首黄公望结庐富春江，绘成旷世《富春山居图》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1351-01",
+  "year": 1351,
+  "title": "韩山童、刘福通于颍州发动红巾军起义",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "韩山童、刘福通于颍州发动红巾军起义，徐寿辉于蕲水称帝建天完",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1352-01",
+  "year": 1352,
+  "title": "朱元璋自皇觉寺投濠州郭子兴红巾军，娶马氏",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "朱元璋自皇觉寺投濠州郭子兴红巾军，娶马氏，起于行伍",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1354-01",
+  "year": 1354,
+  "title": "高邮之战：脱脱围张士诚，临阵被罢，元军百万溃散",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "高邮之战：脱脱围张士诚，临阵被罢，元军百万溃散",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1355-01",
+  "year": 1355,
+  "title": "刘福通迎韩林儿于亳州称帝，建国号大宋（改元龙凤）",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "刘福通迎韩林儿于亳州称帝，建国号大宋（改元龙凤）",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1356-01",
+  "year": 1356,
+  "title": "朱元璋攻克集庆（南京），改置应天府",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "朱元璋攻克集庆（南京），改置应天府；张士诚渡江定都平江（苏州）",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1357-01",
+  "year": 1357,
+  "title": "朱元璋克徽州访休宁名儒朱升，获“高筑墙、广积粮",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "朱元璋克徽州访休宁名儒朱升，获“高筑墙、广积粮、缓称王”国策",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1358-01",
+  "year": 1358,
+  "title": "红巾军三路北伐，中路关先生攻破上都，焚毁宫阙",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "红巾军三路北伐，中路关先生攻破上都，焚毁宫阙",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1359-01",
+  "year": 1359,
+  "title": "朱元璋遣使入处州青田山中礼聘刘基（刘伯温）出山…",
+  "categories": [
+   "外交",
+   "文化"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "朱元璋遣使入处州青田山中礼聘刘基（刘伯温）出山辅佐定天下",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1360-01",
+  "year": 1360,
+  "title": "陈友谅于采石杀徐寿辉称帝，建国号汉",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "陈友谅于采石杀徐寿辉称帝，建国号汉，率水师东攻应天败于龙湾",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1363-01",
+  "year": 1363,
+  "title": "鄱阳湖水战朱元璋大败陈友谅",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "鄱阳湖水战朱元璋大败陈友谅；张士诚称吴王、明玉珍于重庆称帝建夏",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1367-01",
+  "year": 1367,
+  "title": "朱元璋攻灭张士诚统一江南，命徐达、常遇春誓师北伐",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "yuan"
+  ],
+  "summary": "朱元璋攻灭张士诚统一江南，命徐达、常遇春誓师北伐",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1368-01",
+  "year": 1368,
+  "title": "明大将军徐达、常遇春攻克大都，元顺帝北走上都",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "yuan",
+   "ming"
+  ],
+  "summary": "明大将军徐达、常遇春攻克大都，元顺帝北走上都，元亡",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1369-01",
+  "year": 1369,
+  "title": "常遇春克元上都，徐达定陕西，北元退居漠北",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "常遇春克元上都，徐达定陕西，北元退居漠北",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1371-01",
+  "year": 1371,
+  "title": "汤和、傅友德分道伐蜀，灭明夏政权平定四川",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "汤和、傅友德分道伐蜀，灭明夏政权平定四川",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1372-01",
+  "year": 1372,
+  "title": "明将冯胜平定河西，于祁连峡谷最窄处筑嘉峪关",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "明将冯胜平定河西，于祁连峡谷最窄处筑嘉峪关，成明长城西端",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1373-01",
+  "year": 1373,
+  "title": "明太祖设乌思藏、朵甘二都司",
+  "categories": [
+   "外交",
+   "制度"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "明太祖设乌思藏、朵甘二都司，以茶马互市与册封维系藏地",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1380-01",
+  "year": 1380,
+  "title": "胡惟庸案，废丞相",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "胡惟庸案，废丞相",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1382-01",
+  "year": 1382,
+  "title": "傅友德、蓝玉、沐英率军平定云南元梁王与大理段氏",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "傅友德、蓝玉、沐英率军平定云南元梁王与大理段氏",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1388-01",
+  "year": 1388,
+  "title": "冯胜北征金山降纳哈出（1387）",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "冯胜北征金山降纳哈出（1387）；蓝玉捕鱼儿海破北元",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1392-01",
+  "year": 1392,
+  "title": "蓝玉平建昌卫月鲁帖木儿之乱",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "蓝玉平建昌卫月鲁帖木儿之乱，明置四川行都司驻节建昌统川西南",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1393-01",
+  "year": 1393,
+  "title": "蓝玉案株连一万五千人，明初开国功臣宿将殆尽",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "蓝玉案株连一万五千人，明初开国功臣宿将殆尽",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1399-01",
+  "year": 1399,
+  "title": "燕王朱棣于北平起兵发动“靖难之役”",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "燕王朱棣于北平起兵发动“靖难之役”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1402-01",
+  "year": 1402,
+  "title": "靖难军破南京金川门，建文帝不知所踪，燕王朱棣即位",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "靖难军破南京金川门，建文帝不知所踪，燕王朱棣即位",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1405-01",
+  "year": 1405,
+  "title": "郑和率宝船队自刘家港首次下西洋",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "郑和率宝船队自刘家港首次下西洋",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1406-01",
+  "year": 1406,
+  "title": "明征夷将军张辅率军自广西太平府凭祥度坡垒关（镇…",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "明征夷将军张辅率军自广西太平府凭祥度坡垒关（镇南关）南征",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1407-01",
+  "year": 1407,
+  "title": "设交趾布政司",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "设交趾布政司；1409 年设奴儿干都司",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1411-01",
+  "year": 1411,
+  "title": "郑和船队立满剌加官厂中转，于锡兰山立三体文字碑",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "郑和船队立满剌加官厂中转，于锡兰山立三体文字碑",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1412-01",
+  "year": 1412,
+  "title": "明成祖敕调军民三十万大修均州武当山",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "明成祖敕调军民三十万大修均州武当山，历十二年建成太和宫道场",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1413-01",
+  "year": 1413,
+  "title": "明成祖废思州、思南宣慰司",
+  "categories": [
+   "外交",
+   "制度"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "明成祖废思州、思南宣慰司，置贵州承宣布政使司定十三行省",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1421-01",
+  "year": 1421,
+  "title": "明成祖朱棣正式迁都北京，以南京为留都",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "明成祖朱棣正式迁都北京，以南京为留都",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1424-01",
+  "year": 1424,
+  "title": "六十五岁的明成祖朱棣第五次亲征漠北阿鲁台班师途…",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "六十五岁的明成祖朱棣第五次亲征漠北阿鲁台班师途中，病逝于塞外榆木川",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1427-01",
+  "year": 1427,
+  "title": "明宣宗罢交趾布政使司撤军弃安南，黎利旋建后黎朝",
+  "categories": [
+   "军事",
+   "外交"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "明宣宗罢交趾布政使司撤军弃安南，黎利旋建后黎朝",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1430-01",
+  "year": 1430,
+  "title": "于谦巡抚河南山西十九载，平反冤狱赈济灾黎",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "于谦巡抚河南山西十九载，平反冤狱赈济灾黎，赋诗“两袖清风”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1433-01",
+  "year": 1433,
+  "title": "郑和末次下西洋，此后海禁",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "郑和末次下西洋，此后海禁",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1442-01",
+  "year": 1442,
+  "title": "明廷始筑辽东边墙，防御朵颜三卫与女真",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "明廷始筑辽东边墙，防御朵颜三卫与女真",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1449-01",
+  "year": 1449,
+  "title": "土木堡之变：瓦剌也先大破明军，俘明英宗",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "土木堡之变：瓦剌也先大破明军，俘明英宗",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1451-01",
+  "year": 1451,
+  "title": "明廷设漕运总督驻节淮安府城",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "明廷设漕运总督驻节淮安府城，统辖南北大运河四百万石漕粮北运",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1457-01",
+  "year": 1457,
+  "title": "夺门之变：石亨、徐有贞迎明英宗自南宫复辟",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "夺门之变：石亨、徐有贞迎明英宗自南宫复辟，于谦遇害",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1470-01",
+  "year": 1470,
+  "title": "明廷于梧州设两广总督府与总镇府",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "明廷于梧州设两广总督府与总镇府，统摄广东广西军政百余年",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1474-01",
+  "year": 1474,
+  "title": "余子俊奏筑延绥边墙，明代九边长城防线成型",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "余子俊奏筑延绥边墙，明代九边长城防线成型",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1476-01",
+  "year": 1476,
+  "title": "都御史原杰抚治荆襄流民",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "都御史原杰抚治荆襄流民，于秦鄂豫交界置郧阳府并设郧阳抚治",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1479-01",
+  "year": 1479,
+  "title": "汪直、朱永会同朝鲜征建州女真，史称“成化犁庭”",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "汪直、朱永会同朝鲜征建州女真，史称“成化犁庭”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1494-01",
+  "year": 1494,
+  "title": "刘大夏于黄陵岗塞河筑太行堤",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "刘大夏于黄陵岗塞河筑太行堤，断黄河北流成“河夺淮”定局",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1508-01",
+  "year": 1508,
+  "title": "王守仁贬谪贵州修文“龙场悟道”，创立知行合一心学",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "王守仁贬谪贵州修文“龙场悟道”，创立知行合一心学",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1513-01",
+  "year": 1513,
+  "title": "吐鲁番满速儿攻占哈密卫，关西诸卫渐次内迁",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "吐鲁番满速儿攻占哈密卫，关西诸卫渐次内迁",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1519-01",
+  "year": 1519,
+  "title": "王阳明督兵三十五日平定江西南昌宁王朱宸濠之乱",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "王阳明督兵三十五日平定江西南昌宁王朱宸濠之乱",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1524-01",
+  "year": 1524,
+  "title": "大礼议之争：嘉靖帝于左顺门廷杖百官，皇权压倒内阁",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "大礼议之争：嘉靖帝于左顺门廷杖百官，皇权压倒内阁",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1525-01",
+  "year": 1525,
+  "title": "张居正生于湖广江陵",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "张居正生于湖广江陵，十二岁考中秀才荆州知府李士翱奇之赐名“居正”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1542-01",
+  "year": 1542,
+  "title": "壬寅宫变：杨金英等宫女谋缢嘉靖帝未遂，帝移居西苑",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "壬寅宫变：杨金英等宫女谋缢嘉靖帝未遂，帝移居西苑",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1550-01",
+  "year": 1550,
+  "title": "庚戌之变，俺答汗兵临北京",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "庚戌之变，俺答汗兵临北京",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1553-01",
+  "year": 1553,
+  "title": "葡萄牙商船借口曝晒水渍贡物获准租居澳门",
+  "categories": [
+   "外交"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "葡萄牙商船借口曝晒水渍贡物获准租居澳门，开启中西海贸门户",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1555-01",
+  "year": 1555,
+  "title": "张经、卢镗与俞大猷统兵于嘉兴王江泾大破倭寇",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "张经、卢镗与俞大猷统兵于嘉兴王江泾大破倭寇，获抗倭首捷",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1561-01",
+  "year": 1561,
+  "title": "戚继光率戚家军九战九捷，平定台州倭患",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "戚继光率戚家军九战九捷，平定台州倭患",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1562-01",
+  "year": 1562,
+  "title": "戚继光率军疾驰入闽，连破横屿",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "戚继光率军疾驰入闽，连破横屿、林墩与平海卫倭巢收复莆田",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1563-01",
+  "year": 1563,
+  "title": "戚继光与俞大猷会师福建攻克平海卫倭巢斩首二千余",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "戚继光与俞大猷会师福建攻克平海卫倭巢斩首二千余",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1567-01",
+  "year": 1567,
+  "title": "隆庆开关，于福建漳州月港开放海外贸易",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "隆庆开关，于福建漳州月港开放海外贸易",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1569-01",
+  "year": 1569,
+  "title": "戚继光镇守蓟镇北方十六年，增筑空心敌台重修明长城",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "戚继光镇守蓟镇北方十六年，增筑空心敌台重修明长城",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1571-01",
+  "year": 1571,
+  "title": "隆庆和议：封俺答汗，于大同得胜堡开互市",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "隆庆和议：封俺答汗，于大同得胜堡开互市",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1573-01",
+  "year": 1573,
+  "title": "内阁首辅张居正辅十岁万历帝颁行“考成法”综核名实",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "内阁首辅张居正辅十岁万历帝颁行“考成法”综核名实",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1578-01",
+  "year": 1578,
+  "title": "李时珍历二十七载三易其稿",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "李时珍历二十七载三易其稿，于蕲州撰成药物学巨著《本草纲目》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1581-01",
+  "year": 1581,
+  "title": "张居正清丈全国田亩，推行“一条鞭法”",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "张居正清丈全国田亩，推行“一条鞭法”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1582-01",
+  "year": 1582,
+  "title": "首辅张居正病逝归葬江陵，两年后遭清算抄家削谥",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "首辅张居正病逝归葬江陵，两年后遭清算抄家削谥",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1583-01",
+  "year": 1583,
+  "title": "利玛窦获准入驻两广总督驻地肇庆",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "利玛窦获准入驻两广总督驻地肇庆，绘成中文世界地图《山海舆地全图》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1592-01",
+  "year": 1592,
+  "title": "万历朝鲜之役：明军入朝抗击丰臣秀吉日军",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "万历朝鲜之役：明军入朝抗击丰臣秀吉日军",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1598-01",
+  "year": 1598,
+  "title": "汤显祖于抚州临川玉茗堂写成《牡丹亭》",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "汤显祖于抚州临川玉茗堂写成《牡丹亭》，“临川四梦”冠绝明代剧坛",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1600-01",
+  "year": 1600,
+  "title": "李化龙平定播州杨应龙之乱，“改土归流”分置遵义",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "李化龙平定播州杨应龙之乱，“改土归流”分置遵义、平越二府",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1604-01",
+  "year": 1604,
+  "title": "顾宪成、高攀龙于无锡重修东林书院讲学议政",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "顾宪成、高攀龙于无锡重修东林书院讲学议政，撰“风声雨声”名联",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1613-01",
+  "year": 1613,
+  "title": "徐霞客游天台山写下游记开篇",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming"
+  ],
+  "summary": "徐霞客游天台山写下游记开篇，首日五月十九日今为中国旅游日",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1616-01",
+  "year": 1616,
+  "title": "努尔哈赤于赫图阿拉称汗，建立后金",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "ming",
+   "qing"
+  ],
+  "summary": "努尔哈赤于赫图阿拉称汗，建立后金",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1618-01",
+  "year": 1618,
+  "title": "徐霞客再游黄山，攀登天都、莲花二峰",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "ming",
+   "qing"
+  ],
+  "summary": "徐霞客再游黄山，攀登天都、莲花二峰，作《游黄山日后记》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1619-01",
+  "year": 1619,
+  "title": "萨尔浒之战：努尔哈赤各个击破明军四路大军",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "ming",
+   "qing"
+  ],
+  "summary": "萨尔浒之战：努尔哈赤各个击破明军四路大军",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1621-01",
+  "year": 1621,
+  "title": "沈辽之战：努尔哈赤连克沈阳、辽阳，后金迁都辽阳",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "ming",
+   "qing"
+  ],
+  "summary": "沈辽之战：努尔哈赤连克沈阳、辽阳，后金迁都辽阳",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1626-01",
+  "year": 1626,
+  "title": "宁远大捷：袁崇焕凭孤城红夷大炮重创后金努尔哈赤",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming",
+   "qing"
+  ],
+  "summary": "宁远大捷：袁崇焕凭孤城红夷大炮重创后金努尔哈赤",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1627-01",
+  "year": 1627,
+  "title": "澄城王二起事，陕北民变揭开明末农民战争序幕",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "ming",
+   "qing"
+  ],
+  "summary": "澄城王二起事，陕北民变揭开明末农民战争序幕",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1629-01",
+  "year": 1629,
+  "title": "己巳之变：皇太极绕道破喜峰口逼北京",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "ming",
+   "qing"
+  ],
+  "summary": "己巳之变：皇太极绕道破喜峰口逼北京，袁崇焕驰援广渠门",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1630-01",
+  "year": 1630,
+  "title": "崇祯帝中皇太极反间计",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming",
+   "qing"
+  ],
+  "summary": "崇祯帝中皇太极反间计，于北京西市磔杀督师袁崇焕自毁长城",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1636-01",
+  "year": 1636,
+  "title": "皇太极在盛京称帝，改国号“大清”",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming",
+   "qing"
+  ],
+  "summary": "皇太极在盛京称帝，改国号“大清”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1637-01",
+  "year": 1637,
+  "title": "宋应星任袁州府分宜教谕期间刊印《天工开物》",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "ming",
+   "qing"
+  ],
+  "summary": "宋应星任袁州府分宜教谕期间刊印《天工开物》，总结百工技艺",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1639-01",
+  "year": 1639,
+  "title": "徐霞客万里遐征西抵腾越，考察打鹰山火山与热泉",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming",
+   "qing"
+  ],
+  "summary": "徐霞客万里遐征西抵腾越，考察打鹰山火山与热泉",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1641-01",
+  "year": 1641,
+  "title": "徐霞客病足归江阴故里而卒，遗游记六十余万字",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "ming",
+   "qing"
+  ],
+  "summary": "徐霞客病足归江阴故里而卒，遗游记六十余万字",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1642-01",
+  "year": 1642,
+  "title": "李自成三围开封，黄河决口灌城，古城尽没于泥沙",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "ming",
+   "qing"
+  ],
+  "summary": "李自成三围开封，黄河决口灌城，古城尽没于泥沙",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1643-01",
+  "year": 1643,
+  "title": "李自成破潼关入西安，张献忠据武昌称大西王",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "ming",
+   "qing"
+  ],
+  "summary": "李自成破潼关入西安，张献忠据武昌称大西王",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1644-01",
+  "year": 1644,
+  "title": "李自成破北京，明亡",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "ming",
+   "qing",
+   "southern-ming"
+  ],
+  "summary": "李自成破北京，明亡；清军入关",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1645-01",
+  "year": 1645,
+  "title": "清军破扬州、南京，弘光政权覆灭",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qing",
+   "southern-ming"
+  ],
+  "summary": "清军破扬州、南京，弘光政权覆灭；颁剃发令，江南抗清",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1646-01",
+  "year": 1646,
+  "title": "桂王朱由榔于广东肇庆称帝改元永历",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "qing",
+   "southern-ming"
+  ],
+  "summary": "桂王朱由榔于广东肇庆称帝改元永历，以肇庆为南明抗清中枢",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1650-01",
+  "year": 1650,
+  "title": "郑成功夺取厦门与金门并改厦门为“思明州”",
+  "categories": [
+   "军事",
+   "外交"
+  ],
+  "polityIds": [
+   "qing",
+   "southern-ming"
+  ],
+  "summary": "郑成功夺取厦门与金门并改厦门为“思明州”，整编五军水师与东西洋通商",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1658-01",
+  "year": 1658,
+  "title": "顺治丁酉科场案发，江南才子吴兆骞等流徙宁古塔",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "qing",
+   "southern-ming"
+  ],
+  "summary": "顺治丁酉科场案发，江南才子吴兆骞等流徙宁古塔，塞外苦寒渐兴文教",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1659-01",
+  "year": 1659,
+  "title": "延平王郑成功统十余万水陆大军自厦门北伐溯长江而上",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qing",
+   "southern-ming"
+  ],
+  "summary": "延平王郑成功统十余万水陆大军自厦门北伐溯长江而上",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1661-01",
+  "year": 1661,
+  "title": "郑成功横渡鹿耳门驱逐荷兰殖民者，收复台湾设承天府",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qing",
+   "southern-ming"
+  ],
+  "summary": "郑成功横渡鹿耳门驱逐荷兰殖民者，收复台湾设承天府",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1662-01",
+  "year": 1662,
+  "title": "吴三桂于昆明杀南明永历帝，李定国病逝",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "吴三桂于昆明杀南明永历帝，李定国病逝，南明大陆抗清终结",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1669-01",
+  "year": 1669,
+  "title": "少年康熙帝于武英殿智擒专权辅臣鳌拜，正式亲政",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "少年康熙帝于武英殿智擒专权辅臣鳌拜，正式亲政",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1673-01",
+  "year": 1673,
+  "title": "康熙帝下旨撤藩，吴三桂于云南起兵反清",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "康熙帝下旨撤藩，吴三桂于云南起兵反清，三藩之乱爆发",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1678-01",
+  "year": 1678,
+  "title": "吴三桂于湖南衡州称帝建国号大周，旋即病卒",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "吴三桂于湖南衡州称帝建国号大周，旋即病卒，清军随即反攻收复湖南",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1681-01",
+  "year": 1681,
+  "title": "清军攻克昆明，康熙帝彻底平定三藩之乱",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "清军攻克昆明，康熙帝彻底平定三藩之乱",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1683-01",
+  "year": 1683,
+  "title": "施琅收台湾，设台湾府",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "施琅收台湾，设台湾府",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1684-01",
+  "year": 1684,
+  "title": "康熙帝南巡回銮亲幸曲阜孔庙",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "康熙帝南巡回銮亲幸曲阜孔庙，行三跪九叩大礼并御书“万世师表”匾额",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1685-01",
+  "year": 1685,
+  "title": "康熙命彭春、萨布素发起雅克萨之战，痛击沙俄侵略军",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "康熙命彭春、萨布素发起雅克萨之战，痛击沙俄侵略军",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1689-01",
+  "year": 1689,
+  "title": "《尼布楚条约》划定东段边界",
+  "categories": [
+   "外交",
+   "文化"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "《尼布楚条约》划定东段边界",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1691-01",
+  "year": 1691,
+  "title": "多伦会盟，喀尔喀蒙古内附",
+  "categories": [
+   "外交"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "多伦会盟，喀尔喀蒙古内附",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1696-01",
+  "year": 1696,
+  "title": "康熙帝三次亲征漠北",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "康熙帝三次亲征漠北，昭莫多之战大破准噶尔部噶尔丹主力",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1718-01",
+  "year": 1718,
+  "title": "康熙帝历时十年组织全国经纬实测",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "康熙帝历时十年组织全国经纬实测，绘成巨制《皇舆全览图》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1720-01",
+  "year": 1720,
+  "title": "清军驱逐准噶尔军，护送七世达赖入藏，西藏定局",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "清军驱逐准噶尔军，护送七世达赖入藏，西藏定局",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1722-01",
+  "year": 1722,
+  "title": "康熙帝卒，雍正帝即位，开启摊丁入亩与西南改土归流",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "康熙帝卒，雍正帝即位，开启摊丁入亩与西南改土归流",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1724-01",
+  "year": 1724,
+  "title": "年羹尧平青海罗卜藏丹津",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "年羹尧平青海罗卜藏丹津",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1726-01",
+  "year": 1726,
+  "title": "雍正帝重用鄂尔泰于西南大规模推行“改土归流”",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "雍正帝重用鄂尔泰于西南大规模推行“改土归流”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1727-01",
+  "year": 1727,
+  "title": "设驻藏大臣",
+  "categories": [
+   "军事",
+   "外交"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "设驻藏大臣；《恰克图条约》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1729-01",
+  "year": 1729,
+  "title": "雍正帝设军机房（后称军机处），皇权空前集中",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "雍正帝设军机房（后称军机处），皇权空前集中",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1735-01",
+  "year": 1735,
+  "title": "乾隆帝即位，设办理苗疆事务、经略西北准部",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "乾隆帝即位，设办理苗疆事务、经略西北准部",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1755-01",
+  "year": 1755,
+  "title": "清军两路出师西域直抵伊犁",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "清军两路出师西域直抵伊犁，攻灭准噶尔汗国并俘获达瓦齐",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1757-01",
+  "year": 1757,
+  "title": "乾隆帝限令西洋商船只许广州一口通商，十三行专营",
+  "categories": [
+   "外交"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "乾隆帝限令西洋商船只许广州一口通商，十三行专营",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1759-01",
+  "year": 1759,
+  "title": "平定准噶尔、回部，设伊犁将军",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "平定准噶尔、回部，设伊犁将军",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1763-01",
+  "year": 1763,
+  "title": "曹雪芹于北京西山贫病交加中逝世",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "曹雪芹于北京西山贫病交加中逝世，遗千古文学巅峰《红楼梦》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1771-01",
+  "year": 1771,
+  "title": "渥巴锡率土尔扈特部自伏尔加河万里东归",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "渥巴锡率土尔扈特部自伏尔加河万里东归",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1776-01",
+  "year": 1776,
+  "title": "阿桂历五年平定大小金川，废土司设屯置厅，改土归流",
+  "categories": [
+   "制度",
+   "文化"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "阿桂历五年平定大小金川，废土司设屯置厅，改土归流",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1787-01",
+  "year": 1787,
+  "title": "福康安率军渡海平定台湾林爽文起义",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "福康安率军渡海平定台湾林爽文起义，乾隆赐改诸罗县为“嘉义”",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1792-01",
+  "year": 1792,
+  "title": "福康安击退廓尔喀",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "福康安击退廓尔喀，颁《钦定藏内善后章程》与金瓶掣签制",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1793-01",
+  "year": 1793,
+  "title": "英使马戛尔尼于承德觐见乾隆帝请开商埠遭拒",
+  "categories": [
+   "外交"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "英使马戛尔尼于承德觐见乾隆帝请开商埠遭拒",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1796-01",
+  "year": 1796,
+  "title": "太上皇乾隆禅位嘉庆帝",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "太上皇乾隆禅位嘉庆帝；川楚白莲教起义爆发",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1799-01",
+  "year": 1799,
+  "title": "太上皇乾隆崩，嘉庆帝迅雷赐死权臣和珅",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "太上皇乾隆崩，嘉庆帝迅雷赐死权臣和珅，清廷由盛转衰",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1813-01",
+  "year": 1813,
+  "title": "癸酉之变：天理教林清攻入紫禁城隆宗门",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "癸酉之变：天理教林清攻入紫禁城隆宗门，皇子绵宁御敌",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1826-01",
+  "year": 1826,
+  "title": "张格尔之乱攻陷喀什噶尔，长龄率军西征平定",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "张格尔之乱攻陷喀什噶尔，长龄率军西征平定",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1839-01",
+  "year": 1839,
+  "title": "林则徐于广东虎门海滩当众销毁鸦片两万余箱",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "林则徐于广东虎门海滩当众销毁鸦片两万余箱，虎门销烟",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1840-01",
+  "year": 1840,
+  "title": "英军封锁珠江口北犯，第一次鸦片战争爆发",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "英军封锁珠江口北犯，第一次鸦片战争爆发",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1842-01",
+  "year": 1842,
+  "title": "《南京条约》签订：割让香港岛，开五口通商",
+  "categories": [
+   "外交",
+   "文化"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "《南京条约》签订：割让香港岛，开五口通商",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1847-01",
+  "year": 1847,
+  "title": "林则徐任云贵总督平定滇西纷争整顿边防",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "林则徐任云贵总督平定滇西纷争整顿边防，旋奉诏督师卒于普宁",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1851-01",
+  "year": 1851,
+  "title": "太平天国金田起义（1853 年定都天京",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "太平天国金田起义（1853 年定都天京，据长江中下游）",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1852-01",
+  "year": 1852,
+  "title": "四十岁的湘阴举人左宗棠出山入幕长沙",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "四十岁的湘阴举人左宗棠出山入幕长沙，运筹死守孤城退太平军",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1853-01",
+  "year": 1853,
+  "title": "太平天国攻占江宁，改名天京并定都十一年",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "太平天国攻占江宁，改名天京并定都十一年",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1854-01",
+  "year": 1854,
+  "title": "曾国藩于湖南衡州创办湘军水陆师颁《讨粤匪檄》",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "曾国藩于湖南衡州创办湘军水陆师颁《讨粤匪檄》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1855-01",
+  "year": 1855,
+  "title": "黄河于兰阳铜瓦厢决口夺大清河入渤海，奠定现代走向",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "黄河于兰阳铜瓦厢决口夺大清河入渤海，奠定现代走向",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1856-01",
+  "year": 1856,
+  "title": "天京事变：杨韦内讧血洗天京，石达开出走",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "天京事变：杨韦内讧血洗天京，石达开出走，太平天国转衰",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1858-01",
+  "year": 1858,
+  "title": "沙俄迫签《瑷珲条约》，割占黑龙江以北外兴安岭以南",
+  "categories": [
+   "外交",
+   "文化"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "沙俄迫签《瑷珲条约》，割占黑龙江以北外兴安岭以南",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1860-01",
+  "year": 1860,
+  "title": "英法联军攻占北京、火烧圆明园",
+  "categories": [
+   "军事",
+   "外交"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "英法联军攻占北京、火烧圆明园；签《北京条约》割外东北",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1861-01",
+  "year": 1861,
+  "title": "辛酉政变：慈禧",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "辛酉政变：慈禧、慈安联结恭亲王奕訢诛肃顺等八大臣垂帘",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1863-01",
+  "year": 1863,
+  "title": "太平天国翼王石达开抢渡大渡河遇山洪绝境",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "太平天国翼王石达开抢渡大渡河遇山洪绝境，舍生保部众就义",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1864-01",
+  "year": 1864,
+  "title": "湘军攻陷天京，太平天国覆灭",
+  "categories": [
+   "军事",
+   "文化"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "湘军攻陷天京，太平天国覆灭；沙俄迫签《勘分西北界约记》",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1865-01",
+  "year": 1865,
+  "title": "曾国藩、李鸿章创办江南制造总局，洋务运动兴起",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "曾国藩、李鸿章创办江南制造总局，洋务运动兴起",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1866-01",
+  "year": 1866,
+  "title": "闽浙总督左宗棠奏设福州船政局与求是堂艺局（船政…",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "闽浙总督左宗棠奏设福州船政局与求是堂艺局（船政学堂）",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1872-01",
+  "year": 1872,
+  "title": "李鸿章于上海创办轮船招商局",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "李鸿章于上海创办轮船招商局，开中国近代民族航运企业先河",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1873-01",
+  "year": 1873,
+  "title": "陕甘总督左宗棠攻克肃州肃清关内",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "陕甘总督左宗棠攻克肃州肃清关内，沿驿道绵延千里广植左公柳",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1876-01",
+  "year": 1876,
+  "title": "左宗棠抬棺西征平定阿古柏",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "左宗棠抬棺西征平定阿古柏，收复新疆（1884 年建省）",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1878-01",
+  "year": 1878,
+  "title": "左宗棠督师南征克复喀什噶尔",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "左宗棠督师南征克复喀什噶尔，天山南北除伊犁外尽数收复",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1880-01",
+  "year": 1880,
+  "title": "六十八岁的左宗棠再舁榇进驻哈密备战",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "六十八岁的左宗棠再舁榇进驻哈密备战，助曾纪泽争回伊犁九城",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1881-01",
+  "year": 1881,
+  "title": "曾纪泽使俄订立《中俄伊犁条约》，收复伊犁九城大部",
+  "categories": [
+   "外交",
+   "制度"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "曾纪泽使俄订立《中俄伊犁条约》，收复伊犁九城大部",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1884-01",
+  "year": 1884,
+  "title": "中法马江海战：法舰突袭马尾，福建水师覆没",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "中法马江海战：法舰突袭马尾，福建水师覆没，船政局遭炮毁",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1885-01",
+  "year": 1885,
+  "title": "老将冯子材率军于镇南关大捷重创法军并克谅山",
+  "categories": [
+   "军事",
+   "制度"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "老将冯子材率军于镇南关大捷重创法军并克谅山，扭转中法战局",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1887-01",
+  "year": 1887,
+  "title": "台湾正式建省，刘铭传任首任巡抚，筑铁路、设电报",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "台湾正式建省，刘铭传任首任巡抚，筑铁路、设电报",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1894-01",
+  "year": 1894,
+  "title": "甲午战争爆发",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "甲午战争爆发；黄海海战邓世昌驾“致远”舰壮烈殉国",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1895-01",
+  "year": 1895,
+  "title": "甲午战败，被迫签订《马关条约》割让台湾、澎湖",
+  "categories": [
+   "军事",
+   "外交"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "甲午战败，被迫签订《马关条约》割让台湾、澎湖",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1898-01",
+  "year": 1898,
+  "title": "百日维新与戊戌政变慈禧囚光绪",
+  "categories": [
+   "外交"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "百日维新与戊戌政变慈禧囚光绪；列强强租胶州湾、旅大与新界",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1899-01",
+  "year": 1899,
+  "title": "状元张謇于通州唐闸建成大生纱厂投产",
+  "categories": [
+   "文化"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "状元张謇于通州唐闸建成大生纱厂投产，兴办实业学堂开近代南通",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1900-01",
+  "year": 1900,
+  "title": "八国联军占北京，慈禧挟光绪奔西安",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "八国联军占北京，慈禧挟光绪奔西安；东南督抚行东南互保",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1905-01",
+  "year": 1905,
+  "title": "清廷废除科举，延续一千三百年的取士制度终结",
+  "categories": [
+   "制度"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "清廷废除科举，延续一千三百年的取士制度终结",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1909-01",
+  "year": 1909,
+  "title": "詹天佑主持建成中国人自建首条干线京张铁路",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "詹天佑主持建成中国人自建首条干线京张铁路，创八达岭人字形线",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "at-1911-01",
+  "year": 1911,
+  "title": "武昌起义爆发，各省响应开启辛亥革命",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "qing"
+  ],
+  "summary": "武昌起义爆发，各省响应开启辛亥革命",
+  "sources": [
+   "S10"
+  ]
+ }
+]

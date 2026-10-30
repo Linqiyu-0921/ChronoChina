@@ -122,7 +122,7 @@ npm test           # regression tests for dates, conversion, search, and dossier
 **Done**
 
 - full era import (62 polities / 390 rulers / 767 era names), with ganzhi cross-checked entry by entry;
-- a full event base (2,707 entries across 1,954 years, including the birth and death of 399 people);
+- a full event base (3,209 entries across 2,200 years, including the birth and death of 399 people);
 - the Sixteen Kingdoms and Ten States, plus complete era chains for Dali, Western Xia, and Qara Khitai;
 - vertical timeline, almanac-style reading page, chronology reference, heritage, glass search, annual dossier;
 - the dynasty browser folded into the search palette, matching light and dark layouts, data validation and regression tests.
@@ -155,6 +155,8 @@ Please keep the attribution **此年 · ChronoChina (Linqiyu)** when reposting o
 
 - event chronology follows [Wikipedia: 中国历史年表](https://zh.wikipedia.org/wiki/中国历史年表) (CC BY-SA 4.0; all text independently rewritten);
 - year-by-year entries from pre-Qin to the Yuan are extracted from the classical texts [Zizhi Tongjian and Xu Zizhi Tongjian at guoxuedashi](https://www.guoxuedashi.com/a/54cxdt/) (public domain; excerpts quoted); Gregorian years come from the source headers or are derived from this site's era table;
+- Ming and Qing entries are extracted from the [Basic Annals of Mingshi and Qingshigao](https://www.gxdq.com/24shi/) (public domain; excerpts quoted);
+- a few years with no classical entry draw on the datelines of [Jiangshan Historical Atlas](https://deanchen.me/jiangshan-map/), quoted briefly with attribution and not each reverified against primary sources;
 - era spans and disputed dates checked against [Y. T. Liu's Chinese chronology tables](https://ytliu0.github.io/ChineseCalendar/era_names_simp.html);
 - era data imported from [中国历代纪元表](https://home.olemiss.edu/~gg/lidaijiy.htm);
 - heritage entries draw on the UNESCO World Heritage list and the public national key heritage register;
