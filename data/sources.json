@@ -1,42 +1,58 @@
 [
-  {
-    "id": "S1",
-    "name": "维基百科·中国历史年表",
-    "url": "https://zh.wikipedia.org/wiki/中国历史年表",
-    "license": "CC BY-SA 4.0",
-    "short": "维基年表",
-    "note": "事件编年参照；本站事件文字为独立改写核对，非原文复制。"
-  },
-  {
-    "id": "S2",
-    "name": "中国历史纪年表（Y. T. Liu）",
-    "url": "https://ytliu0.github.io/ChineseCalendar/era_names_simp.html",
-    "license": "核对参照",
-    "short": "Y.T.Liu 纪年表",
-    "note": "年号起讫、改元月份、同名异写与正朔变更的主要核对来源。"
-  },
-  {
-    "id": "S3",
-    "name": "中国历代纪元表（密西西比大学托管页）",
-    "url": "https://home.olemiss.edu/~gg/lidaijiy.htm",
-    "license": "核对参照",
-    "short": "历代纪元表",
-    "note": "帝王名号、年号、干支与公元纪年对照参照；个人托管页面，非学术审定版本。"
-  },
-  {
-    "id": "S4",
-    "name": "编者综合整理（待复核）",
-    "url": "",
-    "license": "本站整理",
-    "short": "编者整理",
-    "note": "大理年号、西辽开国纪年等学界有异说的条目，本站采用通说并标注异说；正式发布前需对照专门研究逐条复核。"
-  },
-  {
-    "id": "S5",
-    "name": "UNESCO 世界遗产名录与全国重点文物保护单位公开名录（参照）",
-    "url": "https://whc.unesco.org/en/statesparties/cn",
-    "license": "事实性信息整理",
-    "short": "世遗/文保名录",
-    "note": "遗产的类别、年代与世遗年份为编者依公开名录整理；坐标为近似值，供示意与未来地图联动。"
-  }
+ {
+  "id": "S1",
+  "name": "维基百科·中国历史年表",
+  "url": "https://zh.wikipedia.org/wiki/中国历史年表",
+  "license": "CC BY-SA 4.0",
+  "short": "维基年表",
+  "note": "事件编年参照；本站事件文字为独立改写核对，非原文复制。"
+ },
+ {
+  "id": "S2",
+  "name": "中国历史纪年表（Y. T. Liu）",
+  "url": "https://ytliu0.github.io/ChineseCalendar/era_names_simp.html",
+  "license": "核对参照",
+  "short": "Y.T.Liu 纪年表",
+  "note": "年号起讫、改元月份、同名异写与正朔变更的主要核对来源。"
+ },
+ {
+  "id": "S3",
+  "name": "中国历代纪元表（密西西比大学托管页）",
+  "url": "https://home.olemiss.edu/~gg/lidaijiy.htm",
+  "license": "核对参照",
+  "short": "历代纪元表",
+  "note": "帝王名号、年号、干支与公元纪年对照参照；个人托管页面，非学术审定版本。"
+ },
+ {
+  "id": "S4",
+  "name": "编者综合整理（待复核）",
+  "url": "",
+  "license": "本站整理",
+  "short": "编者整理",
+  "note": "大理年号、西辽开国纪年等学界有异说的条目，本站采用通说并标注异说；正式发布前需对照专门研究逐条复核。"
+ },
+ {
+  "id": "S5",
+  "name": "UNESCO 世界遗产名录与全国重点文物保护单位公开名录（参照）",
+  "url": "https://whc.unesco.org/en/statesparties/cn",
+  "license": "事实性信息整理",
+  "short": "世遗/文保名录",
+  "note": "遗产的类别、年代与世遗年份为编者依公开名录整理；坐标为近似值，供示意与未来地图联动。"
+ },
+ {
+  "id": "S6",
+  "name": "《资治通鉴》（国学大师电子本）",
+  "url": "https://www.guoxuedashi.com/a/54cxdt/",
+  "license": "公有领域古籍（宋·司马光撰）",
+  "short": "资治通鉴",
+  "note": "按卷抽取年份头与当年首条大事，节引原文；公元年取自底本标注，未再换算。"
+ },
+ {
+  "id": "S7",
+  "name": "《续资治通鉴》（国学大师电子本）",
+  "url": "https://www.guoxuedashi.com/a/56bivu/",
+  "license": "公有领域古籍（清·毕沅撰）",
+  "short": "续资治通鉴",
+  "note": "按卷抽取年份头与当年首条大事，节引原文；底本只标年号（含辽、夏、金纪年），公元年按本站年号表反算并校以年序衔接。"
+ }
 ]

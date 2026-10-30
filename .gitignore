@@ -9,3 +9,7 @@ docs/HANDOFF.md
 
 # 维基年份页抓取缓存（tools 可重抓，不入库）
 data/raw/wiki-years/
+
+# 国学大师古籍分卷缓存（脚本可重抓，不入库）
+data/raw/zztj/
+data/raw/xzj/
