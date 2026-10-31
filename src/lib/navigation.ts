@@ -1,5 +1,5 @@
 export const PERIOD_GROUPS = [
-  { name: '春秋战国', start: -769, end: -221, ids: ['zhou', 'jin-guo', 'qi', 'chu-guo', 'yan', 'lu', 'song-guo', 'wei-state', 'zheng', 'wu-guo', 'yue', 'zhao', 'wei-ws', 'han-ws'] },
+  { name: '春秋战国', start: -769, end: -220, ids: ['zhou', 'jin-guo', 'qi', 'chu-guo', 'yan', 'lu', 'song-guo', 'wei-state', 'zheng', 'wu-guo', 'yue', 'zhao', 'wei-ws', 'han-ws'] },
   { name: '秦汉', start: -305, end: 220, ids: ['qin', 'western-han', 'xin', 'gengshi', 'eastern-han'] },
   { name: '三国两晋', start: 220, end: 420, ids: ['wei', 'shu-han', 'wu', 'western-jin', 'eastern-jin'] },
   { name: '南北朝', start: 386, end: 589, ids: ['northern-wei', 'liu-song', 'southern-qi', 'liang', 'chen', 'eastern-wei', 'western-wei', 'northern-qi', 'northern-zhou'] },
