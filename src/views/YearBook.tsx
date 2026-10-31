@@ -5,7 +5,7 @@ import { eraDisplayName, eraYearLabel, formatYear, formatYearFull, ganzhiOf, rei
 import YearPanel from '../components/YearPanel';
 import Han from '../components/Han';
 
-export default function YearBook({year,onYear,blocked,onOpenRuler}:{year:number;onYear:(year:number)=>void;blocked:boolean;onOpenRuler?:(reignId:string)=>void}) {
+export default function YearBook({year,onYear,blocked,onOpenRuler,selectedEvent,onSelectEvent}:{year:number;onYear:(year:number)=>void;blocked:boolean;onOpenRuler?:(reignId:string)=>void;selectedEvent?:string|null;onSelectEvent?:(id:string|null)=>void}) {
  const [archive,setArchive]=useState(false);
  const [selected,setSelected]=useState<string|null>(null);
  const leaf=useRef<HTMLElement>(null);
@@ -27,9 +27,10 @@ export default function YearBook({year,onYear,blocked,onOpenRuler}:{year:number;
   return()=>el.removeEventListener('wheel',wheel);
  },[year,blocked,archive]);
  useEffect(()=>{setSelected(null);},[year]);
+ useEffect(()=>{if(selectedEvent)setArchive(true);},[selectedEvent]);
  useEffect(()=>{
-  if(archive)archiveRef.current?.focus();
-  const key=(e:KeyboardEvent)=>{if(e.key==='Escape'&&archive){setArchive(false);yearButton.current?.focus();}};
+  if(archive)archiveRef.current?.focus({preventScroll:true});
+  const key=(e:KeyboardEvent)=>{if(e.key==='Escape'&&archive){setArchive(false);onSelectEvent?.(null);yearButton.current?.focus();}};
   window.addEventListener('keydown',key);return()=>window.removeEventListener('keydown',key);
  },[archive]);
  const active=polities.filter(p=>p.startYear<=year&&p.endYear>=year);
@@ -46,8 +47,8 @@ export default function YearBook({year,onYear,blocked,onOpenRuler}:{year:number;
   <div className="yearbook-leaf" key={year}>
    <div className="yearbook-date" onTouchStart={e=>{swipe.current=e.touches[0].clientY;}} onTouchEnd={e=>{if(swipe.current!==null&&!blocked&&!archive){const delta=swipe.current-e.changedTouches[0].clientY;if(Math.abs(delta)>60)turn(delta>0?1:-1);}swipe.current=null;}}><p>CHRONOCHINA · 年度册页</p><button ref={yearButton} className="yearbook-year" onClick={()=>setArchive(true)} aria-label={`${formatYearFull(year)}，打开年档案`}><span className="year-ce">{formatYear(year)}</span><span className="year-ganzhi">{year<0?'公元前':'公元'} · {ganzhiOf(year)}年</span></button><div className="yearbook-paging"><button aria-label="上一年" disabled={year<=eraCoverage.min} onClick={()=>turn(-1)}>↑ {formatYear(year-1)}</button><span>上下阅年</span><button aria-label="下一年" disabled={year>=eraCoverage.max} onClick={()=>turn(1)}>{formatYear(year+1)} ↓</button></div></div>
    <section className="yearbook-contemporaries" aria-label="同期政权"><p className="year-epigraph">{epigraph}</p><div className={`yearbook-polities${ordered.length===5?' is-pair':''}`}>{ordered.map((p,i)=><article key={p.id} className={`polity-leaf ${selected===p.id?'expanded':''}`}><span className="polity-index" aria-hidden="true">{String(i+1).padStart(2,'0')}</span><div className="polity-body"><button className="polity-leaf-title" aria-expanded={selected===p.id} onClick={()=>setSelected(selected===p.id?null:p.id)}><Han text={p.name}/><span>{selected===p.id?'−':'＋'}</span></button>{rows.filter(r=>r.polity.id===p.id).map(r=><div className="book-era" key={r.era.id}>{r.era.name.includes('无年号')?<h2 className="era-none">无年号</h2>:<h2><Han text={eraDisplayName(r.era.name)}/><small>{eraYearLabel(r.eraYearNo)}</small></h2>}<p className="era-meta"><span>{r.ruler && onOpenRuler ? <button type="button" className="reign-link" onClick={()=>onOpenRuler(r.ruler!.id)}><Han text={reignLabel(r.ruler)}/></button> : <Han text={reignLabel(r.ruler)}/>}</span><span className="era-span">{formatYear(r.era.startYear)}—{formatYear(r.era.endYear)}</span></p>{selected===p.id&&<div className="book-era-note">{r.era.startMonth?`${r.era.startMonth}月改元。`:''}{r.era.note??'起讫按年标示，包含末年。'}{r.era.disputed?' 本条存在异说。':''}</div>}</div>)}{!rows.some(r=>r.polity.id===p.id)&&<p className="era-meta"><span>纪年尚未收录</span></p>}</div></article>)}</div>{!ordered.length&&<p>本年政权资料尚未收录。</p>}{rows.length>ordered.length&&<p className="book-data-note">同年改元分别列出，不表示全年同时使用。</p>}</section>
-   <section className="yearbook-story"><span className="story-index">紀<br/>事</span><div><p className="book-section-label">这一年 · 历史纪事</p><button onClick={()=>setArchive(true)}><Han text={stories[0]?.title??'这一年的故事，尚待补录。'}/></button><p>{stories[0]?.summary??'可先阅读同期纪年；空白不表示这一年没有历史事件。'}</p><button className="book-read-more" onClick={()=>setArchive(true)}>阅此年档案 {stories.length>0?`· ${stories.length} 条纪事`:''} ↗</button></div></section>
+   <section className="yearbook-story"><span className="story-index">紀<br/>事</span><div><p className="book-section-label">这一年 · 历史纪事</p><button onClick={()=>{setArchive(true);if(stories[0])onSelectEvent?.(stories[0].id);}}><Han text={stories[0]?.title??'这一年的故事，尚待补录。'}/></button><p>{stories[0]?.summary??'可先阅读同期纪年；空白不表示这一年没有历史事件。'}</p><button className="book-read-more" onClick={()=>setArchive(true)}>阅此年档案 {stories.length>0?`· ${stories.length} 条纪事`:''} ↗</button></div></section>
   </div>
-  {archive&&<aside ref={archiveRef} tabIndex={-1} className="reading-archive" role="region" aria-label="年度阅读档案"><button className="archive-close" onClick={()=>{setArchive(false);yearButton.current?.focus();}} aria-label="合上年度档案">×</button><YearPanel year={year} onOpenRuler={onOpenRuler}/></aside>}
+  {archive&&<aside ref={archiveRef} tabIndex={-1} className="reading-archive" role="region" aria-label="年度阅读档案"><button className="archive-close" onClick={()=>{setArchive(false);onSelectEvent?.(null);yearButton.current?.focus();}} aria-label="合上年度档案">×</button><YearPanel year={year} selectedEvent={selectedEvent} onSelectEvent={onSelectEvent} onOpenRuler={onOpenRuler}/></aside>}
  </section>;
 }

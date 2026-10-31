@@ -2,7 +2,7 @@
  * 年份详情面板：公元 / 干支 / 各政权纪年 / 当年事件。
  * 被「时间轴侧栏」与「纪年检索」共用。
  */
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import {
   CAT_GLYPHS,
   eraRowsAtYear,
@@ -11,9 +11,13 @@ import {
   persons,
   polities,
   sourceById,
+  sources,
+  type HistEvent,
   type YearEraRow,
 } from '../lib/data';
 import { chineseNum, eraDisplayName, eraYearDisplay, formatYearFull, ganzhiOf, reignLabel } from '../lib/time';
+import { eventCitation, eventPermalink } from '../lib/citation';
+import { copyText } from '../lib/clipboard';
 import EventCategoryFilter from './EventCategoryFilter';
 import Han from './Han';
 
@@ -21,7 +25,7 @@ interface Props {
   year: number | null;
   compact?: boolean;
   selectedEvent?: string | null;
-  onSelectEvent?: (id: string) => void;
+  onSelectEvent?: (id: string | null) => void;
   onOpenRuler?: (reignId: string) => void;
 }
 
@@ -48,7 +52,21 @@ function EraRow({ row, onOpenRuler }: { row: YearEraRow; onOpenRuler?: (reignId:
 
 export default function YearPanel({ year, selectedEvent, onSelectEvent, onOpenRuler, compact = false }: Props) {
   const [cat, setCat] = useState<string | null>(null);
-  useEffect(() => setCat(null), [year]);
+  const [copied, setCopied] = useState<string | null>(null);
+  const eventList = useRef<HTMLUListElement>(null);
+  const copyTimer = useRef<number | null>(null);
+  useEffect(() => { setCat(null); setCopied(null); }, [year]);
+  useEffect(() => {
+    if (!selectedEvent || year === null) return;
+    const frame = requestAnimationFrame(() => {
+      const el = eventList.current?.querySelector<HTMLElement>(`#event-${selectedEvent}`);
+      if (!el) return;
+      el.scrollIntoView({ block: 'nearest' });
+      el.focus({ preventScroll: true });
+    });
+    return () => cancelAnimationFrame(frame);
+  }, [selectedEvent, year, cat]);
+  useEffect(() => () => { if (copyTimer.current) window.clearTimeout(copyTimer.current); }, []);
   if (year === null) {
     return (
       <aside className="yearpanel card">
@@ -71,9 +89,21 @@ export default function YearPanel({ year, selectedEvent, onSelectEvent, onOpenRu
     if (rows.filter((x) => x.polity.id === r.polity.id).length > 1) multiPerPolity.add(r.polity.id);
   });
 
+  const copyEvent = async (ev: HistEvent, kind: 'link' | 'cite') => {
+    const ok = await copyText(kind === 'link' ? eventPermalink(ev) : eventCitation(ev, sources));
+    setCopied(`${ev.id}:${kind}:${ok ? 'ok' : 'fail'}`);
+    if (copyTimer.current) window.clearTimeout(copyTimer.current);
+    copyTimer.current = window.setTimeout(() => setCopied(null), 1800);
+  };
+  const copyLabel = (ev: HistEvent, kind: 'link' | 'cite') => {
+    if (copied === `${ev.id}:${kind}:ok`) return kind === 'link' ? '已复制链接' : '已复制引用';
+    if (copied === `${ev.id}:${kind}:fail`) return '复制失败';
+    return kind === 'link' ? '复制链接' : '复制引用';
+  };
+
   if (compact) return <div className="year-summary">
     <header><h3>{formatYearFull(year)}</h3><span>{ganzhiOf(year)}年 · 年度笺注</span></header>
-    <section><h4>事件 · {evs.length}</h4>{evs.length ? evs.slice(0, 3).map(ev => <p className="summary-event" key={ev.id}><small>{ev.month ? `${ev.month}月` : '月不详'}</small><Han text={ev.title}/></p>) : <p className="summary-note">本年尚未收录事件。</p>}{evs.length > 3 && <p className="summary-note">另有 {evs.length - 3} 条，固定到侧边查看完整记录。</p>}</section>
+    <section><h4>事件 · {evs.length}</h4>{evs.length ? evs.slice(0, 3).map(ev => <p className="summary-event" id={`event-${ev.id}`} key={ev.id}><small>{ev.month ? `${ev.month}月` : '月不详'}</small><Han text={ev.title}/></p>) : <p className="summary-note">本年尚未收录事件。</p>}{evs.length > 3 && <p className="summary-note">另有 {evs.length - 3} 条，固定到侧边查看完整记录。</p>}</section>
     <section><h4>同期纪年</h4>{rows.length ? rows.map(row => <p className="summary-era" key={row.era.id}><span><Han text={row.polity.name}/></span><strong><Han text={eraDisplayName(row.era.name)}/>{eraYearDisplay(eraDisplayName(row.era.name), row.era.reignIds.length, row.eraYearNo)}</strong><small><Han text={reignLabel(row.ruler)}/>{row.isStart && row.era.startMonth ? ` · ${row.era.startMonth}月改元` : ''}</small></p>) : <p>本年纪年尚未收录。</p>}
       {multiPerPolity.size > 0 && <p className="summary-note">同年多条纪年含年中改元，并非全年同时使用。</p>}
     </section>
@@ -133,9 +163,10 @@ export default function YearPanel({ year, selectedEvent, onSelectEvent, onOpenRu
           <EventCategoryFilter events={evs} value={cat} onChange={setCat}/>
           {evs.length === 0 && <p className="dim">本年尚未收录事件。</p>}
           {evs.length > 0 && shownEvs.length === 0 && <p className="dim">本类暂无纪事，可切换「全部」。</p>}
-          <ul>
+          <ul ref={eventList}>
             {shownEvs.map((ev) => (
               <li
+                id={`event-${ev.id}`}
                 key={ev.id}
                 className={selectedEvent === ev.id ? 'ev-item active' : 'ev-item'}
                 tabIndex={0}
@@ -155,7 +186,11 @@ export default function YearPanel({ year, selectedEvent, onSelectEvent, onOpenRu
                   {ev.confidence === 'low' && <span className="badge low">存疑</span>}
                 </div>
                 <p className="ev-summary"><Han text={ev.summary}/></p>
-                <details><summary>来源与整理状态 · 待条目复核</summary><p className="ev-src">{ev.sources.map(id => { const s = sourceById.get(id); return s?.url ? <a key={id} href={s.url} target="_blank" rel="noreferrer">{s.name} </a> : <span key={id}>{s?.name}</span>; })}</p><p className="dim">参与政权尚待核对；同期存在不等于参与此事件。</p></details>
+                <div className="ev-actions">
+                  <button type="button" className="ev-copy" onClick={(e) => { e.stopPropagation(); copyEvent(ev, 'link'); }}>{copyLabel(ev, 'link')}</button>
+                  <button type="button" className="ev-copy" onClick={(e) => { e.stopPropagation(); copyEvent(ev, 'cite'); }}>{copyLabel(ev, 'cite')}</button>
+                </div>
+                <details><summary>来源、引用与整理状态 · 待条目复核</summary><p className="ev-src">{ev.sources.map(id => { const s = sourceById.get(id); return s?.url ? <a key={id} href={s.url} target="_blank" rel="noreferrer">{s.name} </a> : <span key={id}>{s?.name}</span>; })}</p><p className="dim">参与政权尚待核对；同期存在不等于参与此事件。</p><div className="ev-citation"><span>引用格式</span><code>{eventCitation(ev, sources)}</code></div></details>
               </li>
             ))}
           </ul>

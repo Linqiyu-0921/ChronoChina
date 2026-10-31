@@ -36,6 +36,18 @@ assert.equal(RARE_PINYIN['馺'], 'sà');
 assert.equal(RARE_PINYIN['啜'], 'chuò');
 assert.ok(parseQuery('丁未').years.length > 12);
 const events = read('events.json');
+assert.ok(events.every(e => /^[A-Za-z0-9_-]+$/.test(e.id)), '事件 id 必须可用于 URL 锚点');
+const citation = load('citation', { './time': time });
+assert.equal(citation.eventPath({ id: 'p-p-liuzongyuan-death', year: 819 }), '/?year=819&event=p-p-liuzongyuan-death');
+const cite = citation.eventCitation(
+  { id: 'p-p-liuzongyuan-death', year: 819, title: '柳宗元去世', categories: ['人物'], polityIds: ['tang'], summary: '', sources: ['S4'] },
+  read('sources.json'),
+  'https://cinian.laneqiyu.cn',
+);
+assert.ok(cite.includes('“柳宗元去世”'));
+assert.ok(cite.includes('公元 819 年'));
+assert.ok(cite.includes('https://cinian.laneqiyu.cn/?year=819&event=p-p-liuzongyuan-death'));
+assert.ok(cite.includes('编者综合整理'));
 assert.ok(!events.some(e => ['w-1127-02', 'w-1127-03'].includes(e.id)));
 assert.ok(events.some(e => e.id === 'ev-1127-01'));
 assert.ok(events.some(e => e.id === 'ev-1127-03'));

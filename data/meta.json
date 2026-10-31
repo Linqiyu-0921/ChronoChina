@@ -1,7 +1,7 @@
 {
  "name": "chronochina",
  "title": "同岁山河 · ChronoChina｜中国历史时序图谱",
- "version": "0.6.0",
+ "version": "0.7.0",
  "scope": {
   "startYear": -769,
   "endYear": 1911
