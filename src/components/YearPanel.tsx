@@ -16,7 +16,7 @@ import {
   type YearEraRow,
 } from '../lib/data';
 import { chineseNum, eraDisplayName, eraYearDisplay, formatYearFull, ganzhiOf, reignLabel } from '../lib/time';
-import { eventCitation, eventPermalink } from '../lib/citation';
+import { eventCitation, eventPermalink, type CitationFormat } from '../lib/citation';
 import { copyText } from '../lib/clipboard';
 import EventCategoryFilter from './EventCategoryFilter';
 import Han from './Han';
@@ -53,6 +53,14 @@ function EraRow({ row, onOpenRuler }: { row: YearEraRow; onOpenRuler?: (reignId:
 export default function YearPanel({ year, selectedEvent, onSelectEvent, onOpenRuler, compact = false }: Props) {
   const [cat, setCat] = useState<string | null>(null);
   const [copied, setCopied] = useState<string | null>(null);
+  const [citeFormat, setCiteFormat] = useState<CitationFormat>(() => {
+    try { return localStorage.getItem('chronochina-citation-format') === 'plain' ? 'plain' : 'gbt7714'; } catch { return 'gbt7714'; }
+  });
+  const chooseCiteFormat = (format: CitationFormat) => {
+    setCiteFormat(format);
+    setCopied(null);
+    try { localStorage.setItem('chronochina-citation-format', format); } catch {}
+  };
   const eventList = useRef<HTMLUListElement>(null);
   const copyTimer = useRef<number | null>(null);
   useEffect(() => { setCat(null); setCopied(null); }, [year]);
@@ -90,7 +98,7 @@ export default function YearPanel({ year, selectedEvent, onSelectEvent, onOpenRu
   });
 
   const copyEvent = async (ev: HistEvent, kind: 'link' | 'cite') => {
-    const ok = await copyText(kind === 'link' ? eventPermalink(ev) : eventCitation(ev, sources));
+    const ok = await copyText(kind === 'link' ? eventPermalink(ev) : eventCitation(ev, sources, undefined, citeFormat));
     setCopied(`${ev.id}:${kind}:${ok ? 'ok' : 'fail'}`);
     if (copyTimer.current) window.clearTimeout(copyTimer.current);
     copyTimer.current = window.setTimeout(() => setCopied(null), 1800);
@@ -161,6 +169,15 @@ export default function YearPanel({ year, selectedEvent, onSelectEvent, onOpenRu
         <section className="yp-events">
           <h4>当年事件{evs.length ? `（${evs.length}）` : ''}</h4>
           <EventCategoryFilter events={evs} value={cat} onChange={setCat}/>
+          <div className="ev-cite-bar">
+            <label>引用格式
+              <select value={citeFormat} onChange={(e) => chooseCiteFormat(e.target.value as CitationFormat)} aria-label="引用格式">
+                <option value="gbt7714">GB/T 7714</option>
+                <option value="plain">通用</option>
+              </select>
+            </label>
+            <small>复制引用时使用</small>
+          </div>
           {evs.length === 0 && <p className="dim">本年尚未收录事件。</p>}
           {evs.length > 0 && shownEvs.length === 0 && <p className="dim">本类暂无纪事，可切换「全部」。</p>}
           <ul ref={eventList}>
@@ -188,9 +205,9 @@ export default function YearPanel({ year, selectedEvent, onSelectEvent, onOpenRu
                 <p className="ev-summary"><Han text={ev.summary}/></p>
                 <div className="ev-actions">
                   <button type="button" className="ev-copy" onClick={(e) => { e.stopPropagation(); copyEvent(ev, 'link'); }}>{copyLabel(ev, 'link')}</button>
-                  <button type="button" className="ev-copy" onClick={(e) => { e.stopPropagation(); copyEvent(ev, 'cite'); }}>{copyLabel(ev, 'cite')}</button>
+                  <button type="button" className="ev-copy" title={citeFormat === 'gbt7714' ? '按 GB/T 7714 格式复制' : '按通用格式复制'} onClick={(e) => { e.stopPropagation(); copyEvent(ev, 'cite'); }}>{copyLabel(ev, 'cite')}</button>
                 </div>
-                <details><summary>来源、引用与整理状态 · 待条目复核</summary><p className="ev-src">{ev.sources.map(id => { const s = sourceById.get(id); return s?.url ? <a key={id} href={s.url} target="_blank" rel="noreferrer">{s.name} </a> : <span key={id}>{s?.name}</span>; })}</p><p className="dim">参与政权尚待核对；同期存在不等于参与此事件。</p><div className="ev-citation"><span>引用格式</span><code>{eventCitation(ev, sources)}</code></div></details>
+                <details><summary>来源、引用与整理状态 · 待条目复核</summary><p className="ev-src">{ev.sources.map(id => { const s = sourceById.get(id); return s?.url ? <a key={id} href={s.url} target="_blank" rel="noreferrer">{s.name} </a> : <span key={id}>{s?.name}</span>; })}</p><p className="dim">参与政权尚待核对；同期存在不等于参与此事件。</p><div className="ev-citation"><span>引用格式 · {citeFormat === 'gbt7714' ? 'GB/T 7714' : '通用'}</span><code>{eventCitation(ev, sources, undefined, citeFormat)}</code></div></details>
               </li>
             ))}
           </ul>

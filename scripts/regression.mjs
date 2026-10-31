@@ -48,6 +48,22 @@ assert.ok(cite.includes('“柳宗元去世”'));
 assert.ok(cite.includes('公元 819 年'));
 assert.ok(cite.includes('https://cinian.laneqiyu.cn/?year=819&event=p-p-liuzongyuan-death'));
 assert.ok(cite.includes('编者综合整理'));
+const gbt = citation.eventCitation(
+  { id: 'p-p-liuzongyuan-death', year: 819, title: '柳宗元去世', categories: ['人物'], polityIds: ['tang'], summary: '', sources: ['S4'] },
+  read('sources.json'),
+  'https://cinian.laneqiyu.cn',
+  'gbt7714',
+  '2026-10-31',
+);
+assert.ok(gbt.includes('此年 · ChronoChina. 柳宗元去世（公元819年）[EB/OL]. [2026-10-31]. https://cinian.laneqiyu.cn/?year=819&event=p-p-liuzongyuan-death.'));
+const gbtBce = citation.eventCitation(
+  { id: 'test-bce', year: -220, title: '测试', categories: ['政治'], polityIds: ['qin'], summary: '', sources: ['S4'] },
+  read('sources.json'),
+  'https://cinian.laneqiyu.cn',
+  'gbt7714',
+  '2026-10-31',
+);
+assert.ok(gbtBce.includes('（公元前221年）'));
 assert.ok(!events.some(e => ['w-1127-02', 'w-1127-03'].includes(e.id)));
 assert.ok(events.some(e => e.id === 'ev-1127-01'));
 assert.ok(events.some(e => e.id === 'ev-1127-03'));

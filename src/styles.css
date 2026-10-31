@@ -137,6 +137,10 @@ main { margin-top: 22px; }
 .ev-src { margin: 0; font-size: 11px; }
 .ev-item p { line-height: 1.5; }
 .ev-item:focus-visible { outline: 1px solid var(--accent); outline-offset: -1px; }
+.ev-cite-bar { display: flex; align-items: center; gap: 7px; margin: 4px 0 6px; font-family: var(--sans); font-size: 11px; color: var(--ink-3); }
+.ev-cite-bar label { display: inline-flex; align-items: center; gap: 5px; }
+.ev-cite-bar select { font: inherit; color: var(--ink-2); background: transparent; border: 1px solid var(--line); border-radius: 2px; padding: 1px 4px; }
+.ev-cite-bar select:focus-visible { outline: 1px solid var(--accent); outline-offset: 1px; }
 .ev-actions { display: flex; flex-wrap: wrap; gap: 6px; margin: 5px 0 3px; }
 .ev-copy { font-family: var(--sans); font-size: 11px; line-height: 1.5; color: var(--ink-2); background: transparent; border: 1px solid var(--line); border-radius: 2px; padding: 2px 7px; cursor: pointer; }
 .ev-copy:hover, .ev-copy:focus-visible { color: var(--accent); border-color: var(--accent); }
