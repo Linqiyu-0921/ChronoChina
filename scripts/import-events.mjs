@@ -132,7 +132,16 @@ for (const p of persons) {
 const curatedKeys = new Set(curated.map((e) => `${e.year}|${e.title.slice(0, 10)}`));
 const superseded = new Set(curated.flatMap(e => e.supersedes ?? []));
 const autoFiltered = events.filter((e) => !superseded.has(e.id) && !curatedKeys.has(`${e.year}|${e.title.slice(0, 10)}`));
-const all = [...curated, ...autoFiltered].sort((a, b) => a.year - b.year || (a.month ?? 13) - (b.month ?? 13));
+/** 同年同月内，编者条目优先，其次维基、江山地图，古籍逐句抽取与人物生卒靠后 */
+const sourceRank = (id) => {
+  const s = String(id);
+  if (s.startsWith('p-')) return 4;
+  if (s.startsWith('w-')) return 1;
+  if (s.startsWith('at-')) return 2;
+  if (/^(?:tz|xz|ms|qs)-/.test(s)) return 3;
+  return 0;
+};
+const all = [...curated, ...autoFiltered].sort((a, b) => a.year - b.year || (a.month ?? 13) - (b.month ?? 13) || sourceRank(a.id) - sourceRank(b.id));
 
 // 重复 ID 防护
 const seen = new Set();
