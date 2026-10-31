@@ -58,6 +58,12 @@ export const polityNorthings: Record<string, number> = {
   'northern-zhou': 34.3, // 长安
   sui: 34.5, // 大兴、洛阳
   tang: 34.3, // 长安
+  tubo: 29.7, // 逻些
+  nanzhao: 25.6, // 太和城、羊苴咩
+  huihu: 47.2, // 斡耳朵八里
+  bohai: 44.1, // 上京龙泉府
+  silla: 35.8, // 金城
+  khitan: 43.9, // 潢水、临潢
   'yang-wu': 32.4, // 扬州
   'later-liang': 34.8, // 开封
   liao: 43.9, // 上京临潢府

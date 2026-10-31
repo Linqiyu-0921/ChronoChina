@@ -6176,5 +6176,710 @@
   "startYear": 1014,
   "endYear": 1036,
   "note": "末代归义军节度使；1036 年沙州陷于西夏。"
+ },
+ {
+  "id": "tubo-赞普-松赞干布-629",
+  "polityId": "tubo",
+  "title": "赞普",
+  "name": "松赞干布",
+  "startYear": 629,
+  "endYear": 650,
+  "note": "统一青藏高原诸部，创制文字，迎娶文成公主。"
+ },
+ {
+  "id": "tubo-赞普-芒松芒赞-650",
+  "polityId": "tubo",
+  "title": "赞普",
+  "name": "芒松芒赞",
+  "startYear": 650,
+  "endYear": 676,
+  "note": "松赞干布之孙，在位期间吐蕃攻灭吐谷浑。"
+ },
+ {
+  "id": "tubo-赞普-都松芒波杰-676",
+  "polityId": "tubo",
+  "title": "赞普",
+  "name": "都松芒波杰",
+  "startYear": 676,
+  "endYear": 704,
+  "note": "与唐争夺安西四镇，势力进入西域。"
+ },
+ {
+  "id": "tubo-赞普-赤德祖赞-704",
+  "polityId": "tubo",
+  "title": "赞普",
+  "name": "赤德祖赞",
+  "startYear": 704,
+  "endYear": 755,
+  "note": "迎娶金城公主，唐蕃关系时战时和。"
+ },
+ {
+  "id": "tubo-赞普-赤松德赞-755",
+  "polityId": "tubo",
+  "title": "赞普",
+  "name": "赤松德赞",
+  "startYear": 755,
+  "endYear": 797,
+  "note": "吐蕃极盛，763 年一度攻入长安。"
+ },
+ {
+  "id": "tubo-赞普-牟尼赞普-797",
+  "polityId": "tubo",
+  "title": "赞普",
+  "name": "牟尼赞普",
+  "startYear": 797,
+  "endYear": 798,
+  "note": "赤松德赞之子，在位短暂。"
+ },
+ {
+  "id": "tubo-赞普-赤德松赞-798",
+  "polityId": "tubo",
+  "title": "赞普",
+  "name": "赤德松赞",
+  "startYear": 798,
+  "endYear": 815,
+  "note": "与唐修好，崇佛。"
+ },
+ {
+  "id": "tubo-赞普-赤祖德赞-815",
+  "polityId": "tubo",
+  "title": "赞普",
+  "name": "赤祖德赞",
+  "startYear": 815,
+  "endYear": 838,
+  "note": "与唐举行长庆会盟，823 年立会盟碑。"
+ },
+ {
+  "id": "tubo-赞普-朗达玛-838",
+  "polityId": "tubo",
+  "title": "赞普",
+  "name": "朗达玛",
+  "startYear": 838,
+  "endYear": 842,
+  "note": "灭佛，842 年遇刺，吐蕃分裂。"
+ },
+ {
+  "id": "nanzhao-诏主-细奴逻-649",
+  "polityId": "nanzhao",
+  "title": "诏主",
+  "name": "细奴逻",
+  "startYear": 649,
+  "endYear": 674,
+  "note": "蒙舍诏首领，居巍山。"
+ },
+ {
+  "id": "nanzhao-诏主-逻盛-674",
+  "polityId": "nanzhao",
+  "title": "诏主",
+  "name": "逻盛",
+  "startYear": 674,
+  "endYear": 712
+ },
+ {
+  "id": "nanzhao-诏主-盛逻皮-712",
+  "polityId": "nanzhao",
+  "title": "诏主",
+  "name": "盛逻皮",
+  "startYear": 712,
+  "endYear": 728
+ },
+ {
+  "id": "nanzhao-云南王-皮逻阁-728",
+  "polityId": "nanzhao",
+  "title": "云南王",
+  "name": "皮逻阁",
+  "startYear": 728,
+  "endYear": 748,
+  "note": "统一六诏，738 年受唐封云南王，迁都太和城。"
+ },
+ {
+  "id": "nanzhao-云南王-阁罗凤-748",
+  "polityId": "nanzhao",
+  "title": "云南王",
+  "name": "阁罗凤",
+  "startYear": 748,
+  "endYear": 779,
+  "note": "天宝年间叛唐，联合吐蕃，改元赞普钟。"
+ },
+ {
+  "id": "nanzhao-云南王-异牟寻-779",
+  "polityId": "nanzhao",
+  "title": "云南王",
+  "name": "异牟寻",
+  "startYear": 779,
+  "endYear": 808,
+  "note": "迁都羊苴咩，794 年复归唐。"
+ },
+ {
+  "id": "nanzhao-云南王-寻阁劝-808",
+  "polityId": "nanzhao",
+  "title": "云南王",
+  "name": "寻阁劝",
+  "startYear": 808,
+  "endYear": 809
+ },
+ {
+  "id": "nanzhao-云南王-劝龙晟-809",
+  "polityId": "nanzhao",
+  "title": "云南王",
+  "name": "劝龙晟",
+  "startYear": 809,
+  "endYear": 816,
+  "note": "为部下所杀。"
+ },
+ {
+  "id": "nanzhao-云南王-劝利晟-816",
+  "polityId": "nanzhao",
+  "title": "云南王",
+  "name": "劝利晟",
+  "startYear": 816,
+  "endYear": 823
+ },
+ {
+  "id": "nanzhao-云南王-劝丰祐-823",
+  "polityId": "nanzhao",
+  "title": "云南王",
+  "name": "劝丰祐",
+  "startYear": 823,
+  "endYear": 859,
+  "note": "在位期间与唐冲突加剧。"
+ },
+ {
+  "id": "nanzhao-皇帝-世隆-859",
+  "polityId": "nanzhao",
+  "title": "皇帝",
+  "name": "世隆",
+  "startYear": 859,
+  "endYear": 877,
+  "note": "自称皇帝，国号大礼，与唐长期战争。"
+ },
+ {
+  "id": "nanzhao-皇帝-隆舜-877",
+  "polityId": "nanzhao",
+  "title": "皇帝",
+  "name": "隆舜",
+  "startYear": 877,
+  "endYear": 897,
+  "note": "与唐和亲。"
+ },
+ {
+  "id": "nanzhao-皇帝-舜化贞-897",
+  "polityId": "nanzhao",
+  "title": "皇帝",
+  "name": "舜化贞",
+  "startYear": 897,
+  "endYear": 902,
+  "note": "末代南诏王，902 年为郑买嗣所篡。"
+ },
+ {
+  "id": "huihu-可汗-骨力裴罗-744",
+  "polityId": "huihu",
+  "title": "可汗",
+  "name": "骨力裴罗",
+  "startYear": 744,
+  "endYear": 747,
+  "note": "灭后突厥，建回纥汗国，受唐封怀仁可汗。"
+ },
+ {
+  "id": "huihu-可汗-磨延啜-747",
+  "polityId": "huihu",
+  "title": "可汗",
+  "name": "磨延啜",
+  "startYear": 747,
+  "endYear": 759,
+  "note": "助唐平安史之乱。"
+ },
+ {
+  "id": "huihu-可汗-移地健-759",
+  "polityId": "huihu",
+  "title": "可汗",
+  "name": "移地健",
+  "startYear": 759,
+  "endYear": 780,
+  "note": "牟羽可汗。"
+ },
+ {
+  "id": "huihu-可汗-顿莫贺-780",
+  "polityId": "huihu",
+  "title": "可汗",
+  "name": "顿莫贺",
+  "startYear": 780,
+  "endYear": 789,
+  "note": "与唐修好。"
+ },
+ {
+  "id": "huihu-可汗-多逻斯-789",
+  "polityId": "huihu",
+  "title": "可汗",
+  "name": "多逻斯",
+  "startYear": 789,
+  "endYear": 790
+ },
+ {
+  "id": "huihu-可汗-阿啜-790",
+  "polityId": "huihu",
+  "title": "可汗",
+  "name": "阿啜",
+  "startYear": 790,
+  "endYear": 795
+ },
+ {
+  "id": "huihu-可汗-骨咄禄-795",
+  "polityId": "huihu",
+  "title": "可汗",
+  "name": "骨咄禄",
+  "startYear": 795,
+  "endYear": 805,
+  "note": "怀信可汗。"
+ },
+ {
+  "id": "huihu-可汗-滕里野合-805",
+  "polityId": "huihu",
+  "title": "可汗",
+  "name": "滕里野合",
+  "startYear": 805,
+  "endYear": 808
+ },
+ {
+  "id": "huihu-可汗-保义可汗-808",
+  "polityId": "huihu",
+  "title": "可汗",
+  "name": "保义可汗",
+  "startYear": 808,
+  "endYear": 821
+ },
+ {
+  "id": "huihu-可汗-崇德可汗-821",
+  "polityId": "huihu",
+  "title": "可汗",
+  "name": "崇德可汗",
+  "startYear": 821,
+  "endYear": 824,
+  "note": "迎娶太和公主。"
+ },
+ {
+  "id": "huihu-可汗-昭礼可汗-824",
+  "polityId": "huihu",
+  "title": "可汗",
+  "name": "昭礼可汗",
+  "startYear": 824,
+  "endYear": 832
+ },
+ {
+  "id": "huihu-可汗-彰信可汗-832",
+  "polityId": "huihu",
+  "title": "可汗",
+  "name": "彰信可汗",
+  "startYear": 832,
+  "endYear": 839,
+  "note": "为部下所杀。"
+ },
+ {
+  "id": "huihu-可汗-㕎馺特勒-839",
+  "polityId": "huihu",
+  "title": "可汗",
+  "name": "㕎馺特勒",
+  "startYear": 839,
+  "endYear": 840,
+  "note": "末代可汗，840 年汗国崩溃。"
+ },
+ {
+  "id": "bohai-渤海王-大祚荣-698",
+  "polityId": "bohai",
+  "title": "渤海王",
+  "name": "大祚荣",
+  "startYear": 698,
+  "endYear": 719,
+  "note": "建震国，713 年受唐封渤海郡王。"
+ },
+ {
+  "id": "bohai-渤海王-大武艺-719",
+  "polityId": "bohai",
+  "title": "渤海王",
+  "name": "大武艺",
+  "startYear": 719,
+  "endYear": 737,
+  "note": "扩张疆域，与唐冲突。"
+ },
+ {
+  "id": "bohai-渤海王-大钦茂-737",
+  "polityId": "bohai",
+  "title": "渤海王",
+  "name": "大钦茂",
+  "startYear": 737,
+  "endYear": 793,
+  "note": "在位最久，全面引入唐制。"
+ },
+ {
+  "id": "bohai-渤海王-大元义-793",
+  "polityId": "bohai",
+  "title": "渤海王",
+  "name": "大元义",
+  "startYear": 793,
+  "endYear": 794,
+  "note": "大钦茂之孙，旋被杀。"
+ },
+ {
+  "id": "bohai-渤海王-大华屿-794",
+  "polityId": "bohai",
+  "title": "渤海王",
+  "name": "大华屿",
+  "startYear": 794,
+  "endYear": 794,
+  "note": "在位短暂。"
+ },
+ {
+  "id": "bohai-渤海王-大嵩璘-794",
+  "polityId": "bohai",
+  "title": "渤海王",
+  "name": "大嵩璘",
+  "startYear": 794,
+  "endYear": 808,
+  "note": "大钦茂之子。"
+ },
+ {
+  "id": "bohai-渤海王-大元瑜-808",
+  "polityId": "bohai",
+  "title": "渤海王",
+  "name": "大元瑜",
+  "startYear": 808,
+  "endYear": 812
+ },
+ {
+  "id": "bohai-渤海王-大言义-812",
+  "polityId": "bohai",
+  "title": "渤海王",
+  "name": "大言义",
+  "startYear": 812,
+  "endYear": 817
+ },
+ {
+  "id": "bohai-渤海王-大明忠-817",
+  "polityId": "bohai",
+  "title": "渤海王",
+  "name": "大明忠",
+  "startYear": 817,
+  "endYear": 818,
+  "note": "在位一岁。"
+ },
+ {
+  "id": "bohai-渤海王-大仁秀-818",
+  "polityId": "bohai",
+  "title": "渤海王",
+  "name": "大仁秀",
+  "startYear": 818,
+  "endYear": 830,
+  "note": "中兴之主。"
+ },
+ {
+  "id": "bohai-渤海王-大彝震-830",
+  "polityId": "bohai",
+  "title": "渤海王",
+  "name": "大彝震",
+  "startYear": 830,
+  "endYear": 857
+ },
+ {
+  "id": "bohai-渤海王-大虔晃-857",
+  "polityId": "bohai",
+  "title": "渤海王",
+  "name": "大虔晃",
+  "startYear": 857,
+  "endYear": 871
+ },
+ {
+  "id": "bohai-渤海王-大玄锡-871",
+  "polityId": "bohai",
+  "title": "渤海王",
+  "name": "大玄锡",
+  "startYear": 871,
+  "endYear": 893
+ },
+ {
+  "id": "bohai-渤海王-大玮瑎-893",
+  "polityId": "bohai",
+  "title": "渤海王",
+  "name": "大玮瑎",
+  "startYear": 893,
+  "endYear": 906
+ },
+ {
+  "id": "bohai-渤海王-大諲譔-906",
+  "polityId": "bohai",
+  "title": "渤海王",
+  "name": "大諲譔",
+  "startYear": 906,
+  "endYear": 926,
+  "note": "末代渤海王，926 年为契丹所灭。"
+ },
+ {
+  "id": "silla-新罗王-金春秋-654",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金春秋",
+  "startYear": 654,
+  "endYear": 661,
+  "note": "武烈王，与唐联合灭百济。"
+ },
+ {
+  "id": "silla-新罗王-金法敏-661",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金法敏",
+  "startYear": 661,
+  "endYear": 681,
+  "note": "文武王，676 年统一三国。"
+ },
+ {
+  "id": "silla-新罗王-金政明-681",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金政明",
+  "startYear": 681,
+  "endYear": 692,
+  "note": "神文王。"
+ },
+ {
+  "id": "silla-新罗王-金理洪-692",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金理洪",
+  "startYear": 692,
+  "endYear": 702,
+  "note": "孝昭王。"
+ },
+ {
+  "id": "silla-新罗王-金兴光-702",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金兴光",
+  "startYear": 702,
+  "endYear": 737,
+  "note": "圣德王。"
+ },
+ {
+  "id": "silla-新罗王-金承庆-737",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金承庆",
+  "startYear": 737,
+  "endYear": 742,
+  "note": "孝成王。"
+ },
+ {
+  "id": "silla-新罗王-金宪英-742",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金宪英",
+  "startYear": 742,
+  "endYear": 765,
+  "note": "景德王。"
+ },
+ {
+  "id": "silla-新罗王-金乾运-765",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金乾运",
+  "startYear": 765,
+  "endYear": 780,
+  "note": "惠恭王。"
+ },
+ {
+  "id": "silla-新罗王-金良相-780",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金良相",
+  "startYear": 780,
+  "endYear": 785,
+  "note": "宣德王。"
+ },
+ {
+  "id": "silla-新罗王-金敬信-785",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金敬信",
+  "startYear": 785,
+  "endYear": 798,
+  "note": "元圣王。"
+ },
+ {
+  "id": "silla-新罗王-金俊邕-798",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金俊邕",
+  "startYear": 798,
+  "endYear": 800,
+  "note": "昭圣王。"
+ },
+ {
+  "id": "silla-新罗王-金清明-800",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金清明",
+  "startYear": 800,
+  "endYear": 809,
+  "note": "哀庄王。"
+ },
+ {
+  "id": "silla-新罗王-金彦昇-809",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金彦昇",
+  "startYear": 809,
+  "endYear": 826,
+  "note": "宪德王。"
+ },
+ {
+  "id": "silla-新罗王-金秀宗-826",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金秀宗",
+  "startYear": 826,
+  "endYear": 836,
+  "note": "兴德王。"
+ },
+ {
+  "id": "silla-新罗王-金悌隆-836",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金悌隆",
+  "startYear": 836,
+  "endYear": 838,
+  "note": "僖康王。"
+ },
+ {
+  "id": "silla-新罗王-金明-838",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金明",
+  "startYear": 838,
+  "endYear": 839,
+  "note": "闵哀王。"
+ },
+ {
+  "id": "silla-新罗王-金祐征-839",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金祐征",
+  "startYear": 839,
+  "endYear": 839,
+  "note": "神武王。"
+ },
+ {
+  "id": "silla-新罗王-金庆膺-839",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金庆膺",
+  "startYear": 839,
+  "endYear": 857,
+  "note": "文圣王。"
+ },
+ {
+  "id": "silla-新罗王-金谊靖-857",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金谊靖",
+  "startYear": 857,
+  "endYear": 861,
+  "note": "宪安王。"
+ },
+ {
+  "id": "silla-新罗王-金膺廉-861",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金膺廉",
+  "startYear": 861,
+  "endYear": 875,
+  "note": "景文王。"
+ },
+ {
+  "id": "silla-新罗王-金晸-875",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金晸",
+  "startYear": 875,
+  "endYear": 886,
+  "note": "宪康王。"
+ },
+ {
+  "id": "silla-新罗王-金晃-886",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金晃",
+  "startYear": 886,
+  "endYear": 887,
+  "note": "定康王。"
+ },
+ {
+  "id": "silla-新罗王-金曼-887",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金曼",
+  "startYear": 887,
+  "endYear": 897,
+  "note": "真圣女王。"
+ },
+ {
+  "id": "silla-新罗王-金峣-897",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金峣",
+  "startYear": 897,
+  "endYear": 912,
+  "note": "孝恭王。"
+ },
+ {
+  "id": "silla-新罗王-朴景晖-912",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "朴景晖",
+  "startYear": 912,
+  "endYear": 917,
+  "note": "神德王。"
+ },
+ {
+  "id": "silla-新罗王-朴昇英-917",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "朴昇英",
+  "startYear": 917,
+  "endYear": 924,
+  "note": "景明王。"
+ },
+ {
+  "id": "silla-新罗王-朴魏膺-924",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "朴魏膺",
+  "startYear": 924,
+  "endYear": 927,
+  "note": "景哀王。"
+ },
+ {
+  "id": "silla-新罗王-金傅-927",
+  "polityId": "silla",
+  "title": "新罗王",
+  "name": "金傅",
+  "startYear": 927,
+  "endYear": 935,
+  "note": "敬顺王，935 年降高丽。"
+ },
+ {
+  "id": "khitan-可汗-大贺氏-648",
+  "polityId": "khitan",
+  "title": "可汗",
+  "name": "大贺氏",
+  "startYear": 648,
+  "endYear": 730,
+  "note": "契丹大贺氏联盟，唐置松漠都督府，赐姓李。"
+ },
+ {
+  "id": "khitan-可汗-遥辇氏-730",
+  "polityId": "khitan",
+  "title": "可汗",
+  "name": "遥辇氏",
+  "startYear": 730,
+  "endYear": 906,
+  "note": "遥辇氏联盟，世次多缺载；906 年耶律阿保机继任。"
  }
 ]

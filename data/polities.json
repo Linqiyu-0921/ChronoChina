@@ -904,5 +904,61 @@
   "endYear": 1036,
   "color": "#a8845a",
   "note": "张议潮收复敦煌后所建，历张、曹二氏；1036 年沙州陷于西夏。"
+ },
+ {
+  "id": "tubo",
+  "name": "吐蕃",
+  "fullName": "吐蕃",
+  "startYear": 629,
+  "endYear": 842,
+  "color": "#7b6f8e",
+  "precision": "approx",
+  "note": "松赞干布统一青藏高原诸部，都逻些；842 年朗达玛遇刺后分裂。"
+ },
+ {
+  "id": "nanzhao",
+  "name": "南诏",
+  "fullName": "南诏",
+  "startYear": 649,
+  "endYear": 902,
+  "color": "#8a6b4f",
+  "note": "蒙舍诏细奴逻起于巍山，皮逻阁统一六诏；902 年为郑买嗣所篡。"
+ },
+ {
+  "id": "huihu",
+  "name": "回鹘",
+  "fullName": "回纥（回鹘）",
+  "startYear": 744,
+  "endYear": 840,
+  "color": "#6f7d5a",
+  "note": "骨力裴罗建汗国于漠北，788 年改称回鹘；840 年为黠戛斯所破，部众西迁。"
+ },
+ {
+  "id": "bohai",
+  "name": "渤海",
+  "fullName": "渤海国",
+  "startYear": 698,
+  "endYear": 926,
+  "color": "#5f7a86",
+  "note": "大祚荣建震国，713 年受唐封渤海郡王；926 年为契丹所灭。"
+ },
+ {
+  "id": "silla",
+  "name": "新罗",
+  "fullName": "新罗",
+  "startYear": 654,
+  "endYear": 935,
+  "color": "#8a7f5c",
+  "note": "本表自 654 年武烈王即位起收录；935 年敬顺王降高丽。此前三国并立未单列。"
+ },
+ {
+  "id": "khitan",
+  "name": "契丹",
+  "fullName": "契丹（建国前）",
+  "startYear": 648,
+  "endYear": 906,
+  "color": "#7a6a58",
+  "precision": "approx",
+  "note": "唐置松漠都督府后，契丹以大贺氏、遥辇氏相继为联盟首领；916 年耶律阿保机建辽。"
  }
 ]

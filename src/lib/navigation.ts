@@ -5,6 +5,7 @@ export const PERIOD_GROUPS = [
   { name: '十六国', start: 303, end: 439, ids: ['cheng-han', 'han-zhao', 'qian-liang', 'hou-zhao', 'qian-yan', 'qian-qin', 'hou-qin', 'hou-yan', 'xi-qin', 'hou-liang', 'bei-liang', 'nan-liang', 'nan-yan', 'xi-liang', 'bei-yan', 'helian-xia', 'ran-wei', 'xi-yan', 'zhai-wei', 'dai', 'northern-wei'] },
   { name: '南北朝', start: 386, end: 589, ids: ['northern-wei', 'liu-song', 'southern-qi', 'liang', 'chen', 'eastern-wei', 'western-wei', 'northern-qi', 'northern-zhou'] },
   { name: '隋唐五代', start: 581, end: 960, ids: ['sui', 'tang', 'later-liang', 'later-tang', 'later-jin', 'later-han', 'later-zhou'] },
+  { name: '周边政权', start: 629, end: 935, ids: ['tubo', 'nanzhao', 'huihu', 'bohai', 'silla', 'khitan'] },
   { name: '十国', start: 902, end: 979, ids: ['yang-wu', 'chu', 'wu-yue', 'min', 'nan-han', 'qian-shu', 'jing-nan', 'hou-shu', 'nan-tang', 'bei-han', 'qi-qi', 'jie-yan', 'qingyuan', 'guiyi'] },
   { name: '宋辽金夏元', start: 907, end: 1368, ids: ['song', 'liao', 'xia', 'jin', 'dali', 'karakhitai', 'yuan'] },
   { name: '明清', start: 1368, end: 1911, ids: ['ming', 'southern-ming', 'qing'] },
@@ -17,5 +18,6 @@ export const POLITY_ALIASES: Record<string, string[]> = {
   'eastern-wei': ['dongwei'], 'western-wei': ['xiwei'], 'northern-qi': ['beiqi'], 'northern-zhou': ['beizhou'], sui: ['sui'], tang: ['tang'],
   'later-liang': ['houliang'], 'later-tang': ['houtang'], 'later-jin': ['houjin'], 'later-han': ['houhan'], 'later-zhou': ['houzhou'],
   'ran-wei': ['ranwei', '冉魏'], 'xi-yan': ['xiyan', '西燕'], 'zhai-wei': ['zhaiwei', '翟魏'], dai: ['dai', '代国', '拓跋代'], 'qi-qi': ['qiqi', '岐国', '凤翔', '李茂贞'], 'jie-yan': ['jieyan', '桀燕', '刘守光'], qingyuan: ['qingyuan', '清源军', '平海军', '泉漳'], guiyi: ['guiyi', '归义军', '敦煌'],
+  tubo: ['tubo', '吐蕃', '吐蕃国'], nanzhao: ['nanzhao', '南诏', '蒙舍诏'], huihu: ['huihu', '回鹘', '回纥'], bohai: ['bohai', '渤海', '渤海国', '震国'], silla: ['silla', '新罗'], khitan: ['khitan', '契丹', '契丹国'],
   song: ['song', 'zhaosong', '宋', '赵宋'], liao: ['liao'], xia: ['xixia'], jin: ['jin'], dali: ['dali'], karakhitai: ['xiliao'], yuan: ['yuan'], ming: ['ming'], qing: ['qing'], 'southern-ming': ['nanming'],
 };

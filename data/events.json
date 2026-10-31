@@ -33734,6 +33734,22 @@
   ]
  },
  {
+  "id": "ev-629-01",
+  "year": 629,
+  "title": "松赞干布即位，统一青藏高原诸部",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "tubo"
+  ],
+  "summary": "松赞干布继为吐蕃赞普，定都逻些，创制文字，逐步统一青藏高原诸部。",
+  "sources": [
+   "S15",
+   "S4"
+  ]
+ },
+ {
   "id": "w-630-01",
   "year": 630,
   "title": "北方各族入贡长安，诸民族尊称唐太宗为“天可汗”",
@@ -33864,7 +33880,8 @@
    "外交"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "tubo"
   ],
   "summary": "松赞干布遣使入贡并请婚，唐遣冯德遐随使入蕃，官方往来自此始。",
   "sources": [
@@ -34016,7 +34033,8 @@
    "军事"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "tubo"
   ],
   "summary": "求亲被拒后吐蕃进兵，都督韩威轻出败绩，唐命侯君集率军御之。",
   "sources": [
@@ -34124,7 +34142,8 @@
    "政治"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "tubo"
   ],
   "summary": "唐派文成公主与吐蕃赞普松赞干布通婚。",
   "sources": [
@@ -34423,6 +34442,24 @@
   ]
  },
  {
+  "id": "ev-648-01",
+  "year": 648,
+  "title": "契丹内属，唐置松漠都督府",
+  "categories": [
+   "政治",
+   "外交"
+  ],
+  "polityIds": [
+   "khitan",
+   "tang"
+  ],
+  "summary": "契丹大贺氏首领窟哥率部内属，唐置松漠都督府，赐姓李。",
+  "sources": [
+   "S17",
+   "S6"
+  ]
+ },
+ {
   "id": "tz-649-01",
   "year": 649,
   "title": "夜，地震，晋州尤甚，压杀五千馀人",
@@ -34490,7 +34527,8 @@
    "制度"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "tubo"
   ],
   "summary": "吐蕃赞普弄赞卒，其嫡子早死，立其孙为赞普",
   "sources": [
@@ -34659,7 +34697,8 @@
    "制度"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "silla"
   ],
   "summary": "新罗女王金真德卒，诏立其弟春秋为新罗王",
   "sources": [
@@ -35153,7 +35192,8 @@
    "制度"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "tubo"
   ],
   "summary": "生羌十二州为吐蕃所破，三月，戊寅，悉废之",
   "sources": [
@@ -35258,7 +35298,8 @@
    "政治"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "silla"
   ],
   "summary": "唐与新罗之间的战争爆发。",
   "sources": [
@@ -35425,7 +35466,8 @@
    "制度"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "silla"
   ],
   "summary": "时新罗王法敏既纳高丽叛众，又据百济故地，使人守之",
   "sources": [
@@ -35510,6 +35552,24 @@
   ]
  },
  {
+  "id": "ev-676-01",
+  "year": 676,
+  "title": "新罗统一三国",
+  "categories": [
+   "军事",
+   "政治"
+  ],
+  "polityIds": [
+   "silla",
+   "tang"
+  ],
+  "summary": "新罗文武王金法敏借唐军灭百济、高句丽之势，676 年统一朝鲜半岛中南部。",
+  "sources": [
+   "S16",
+   "S6"
+  ]
+ },
+ {
   "id": "w-677-01",
   "year": 677,
   "title": "高句丽旧地为新罗所占",
@@ -35517,7 +35577,8 @@
    "政治"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "silla"
   ],
   "summary": "高句丽旧地为新罗所占。",
   "sources": [
@@ -36149,7 +36210,8 @@
    "制度"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "silla"
   ],
   "summary": "新罗王政明卒，遣使立其子理洪为王",
   "sources": [
@@ -36241,7 +36303,8 @@
    "军事"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "khitan"
   ],
   "summary": "营州都督赵文翙苛待部众，李尽忠与孙万荣杀官据州，自称无上可汗。",
   "sources": [
@@ -36318,7 +36381,8 @@
    "制度"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "bohai"
   ],
   "summary": "粟末靺鞨大祚荣于东牟山立震国，后受唐封渤海郡王建渤海国",
   "sources": [
@@ -36364,7 +36428,8 @@
    "外交"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "bohai"
   ],
   "summary": "高句丽故将大祚荣据东牟山聚众，自号震国王，为渤海国前身。",
   "sources": [
@@ -36795,7 +36860,8 @@
    "政治"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "tubo"
   ],
   "summary": "金城公主嫁入吐蕃。",
   "sources": [
@@ -36963,7 +37029,8 @@
    "外交"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "bohai"
   ],
   "summary": "唐遣崔忻赴东北册封，大祚荣去震国号，专称渤海，为唐之藩属。",
   "sources": [
@@ -37162,7 +37229,8 @@
    "政治"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "khitan"
   ],
   "summary": "契丹王李失活卒，癸巳，以其弟娑固代之",
   "sources": [
@@ -37736,7 +37804,8 @@
    "外交"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "khitan"
   ],
   "summary": "幽州节度使张守珪大破契丹，遣使献捷",
   "sources": [
@@ -37797,7 +37866,8 @@
    "军事"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "khitan"
   ],
   "summary": "张守珪遣其出击，轻进致败，按律当斩，惜其骁勇送京，玄宗赦之。",
   "sources": [
@@ -37909,6 +37979,23 @@
   ],
   "summary": "酋长莫贺达干、都摩度两部最强，其部落又分为黄姓、黑姓，互相乖阻，于是莫贺达干勒兵夜袭苏禄，杀之",
   "sources": [
+   "S6"
+  ]
+ },
+ {
+  "id": "ev-738-01",
+  "year": 738,
+  "title": "皮逻阁统一六诏，受唐封云南王",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "nanzhao",
+   "tang"
+  ],
+  "summary": "蒙舍诏皮逻阁兼并五诏，统一洱海地区，唐册封为云南王。",
+  "sources": [
+   "S15",
    "S6"
   ]
  },
@@ -38103,7 +38190,8 @@
    "军事"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "huihu"
   ],
   "summary": "骨力裴罗破后突厥，自立为可汗，尽有漠北，唐随后册为怀仁可汗。",
   "sources": [
@@ -38269,7 +38357,8 @@
    "军事"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "nanzhao"
   ],
   "summary": "云南太守张虔陀勒索羞辱阁罗凤，南诏起兵杀之，连陷三十余州。",
   "sources": [
@@ -38346,7 +38435,9 @@
    "制度"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "nanzhao",
+   "tubo"
   ],
   "summary": "杨国忠奏吐蕃兵六十万救南诏，剑南兵击破之于云南，克敌隰州等三城，捕虏六千三百，以道远，简壮者千馀人及酋长降者献之",
   "sources": [
@@ -38758,7 +38849,8 @@
    "外交"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "tubo"
   ],
   "summary": "乘唐廷内乱深入，代宗奔陕州，吐蕃立李承宏为帝，旬日退去。",
   "sources": [
@@ -38834,7 +38926,8 @@
    "军事"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "huihu"
   ],
   "summary": "仆固怀恩死后吐蕃回纥合兵围泾阳，子仪卸甲往见，结盟共击吐蕃。",
   "sources": [
@@ -39737,7 +39830,8 @@
    "外交"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "huihu"
   ],
   "summary": "采李泌之策结好回纥以抗吐蕃，回纥请改称回鹘，唐许之。",
   "sources": [
@@ -39784,7 +39878,8 @@
    "外交"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "huihu"
   ],
   "summary": "闻回鹘天亲可汗薨，戊寅，遣鸿胪卿郭锋册命其子为登里罗没密施俱禄忠贞毗伽可汗",
   "sources": [
@@ -39937,7 +40032,8 @@
    "外交"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "nanzhao"
   ],
   "summary": "异牟寻与唐使会盟点苍山，破吐蕃于神川，唐册其为南诏王。",
   "sources": [
@@ -39967,7 +40063,8 @@
    "制度"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "huihu"
   ],
   "summary": "回鹘奉诚可汗卒，无子，国人立其相骨咄禄为可汗",
   "sources": [
@@ -39983,7 +40080,9 @@
    "制度"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "nanzhao",
+   "tubo"
   ],
   "summary": "南诏攻吐蕃昆明城，取之",
   "sources": [
@@ -40490,7 +40589,8 @@
    "制度"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "bohai"
   ],
   "summary": "渤海康王嵩璘卒，子元瑜立，改元永德",
   "sources": [
@@ -40689,7 +40789,8 @@
    "军事"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "huihu"
   ],
   "summary": "回鹘屡请婚，朝廷以公主出降，其费甚广，故未之许",
   "sources": [
@@ -40827,7 +40928,8 @@
    "制度"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "bohai"
   ],
   "summary": "渤海僖王言义卒，弟简王明忠立，改元太始；一岁卒，从父仁秀立，改元建兴",
   "sources": [
@@ -40994,7 +41096,8 @@
    "外交"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "tubo"
   ],
   "summary": "长庆会盟所立，碑文重申舅甥和好、各守疆界，至今存于大昭寺前。",
   "sources": [
@@ -41009,7 +41112,8 @@
    "制度"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "nanzhao"
   ],
   "summary": "南诏劝利卒，国人请立其弟丰祐",
   "sources": [
@@ -41563,7 +41667,8 @@
    "军事"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "huihu"
   ],
   "summary": "黠戛斯攻破牙帐，部众四散，一支南下附唐，一支西迁。",
   "sources": [
@@ -41640,7 +41745,8 @@
    "制度"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "tubo"
   ],
   "summary": "达磨卒，无子，佞相立其妃綝氏兄尚延力之子乞离胡为赞普，才三岁，佞相与妃共制国事，吐蕃老臣数十人皆不得预政事",
   "sources": [
@@ -43955,6 +44061,22 @@
   ]
  },
  {
+  "id": "ev-902-01",
+  "year": 902,
+  "title": "郑买嗣灭南诏，建大长和国",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "nanzhao"
+  ],
+  "summary": "南诏权臣郑买嗣废舜化贞，杀南诏王族，建大长和国，南诏亡。",
+  "sources": [
+   "S15",
+   "S4"
+  ]
+ },
+ {
   "id": "x-903-01",
   "year": 903,
   "title": "朱全忠尽诛宦官",
@@ -45193,7 +45315,8 @@
    "军事"
   ],
   "polityIds": [
-   "liao"
+   "liao",
+   "bohai"
   ],
   "summary": "末王大諲譔出降，契丹改其地为东丹国，以太子耶律倍为东丹王。",
   "sources": [
@@ -45733,6 +45856,22 @@
   "summary": "仿以闽主为必不起，冬，十月，己卯，使壮士数人持白梃击李可殷，杀之，中外震惊",
   "sources": [
    "S6"
+  ]
+ },
+ {
+  "id": "ev-935-01",
+  "year": 935,
+  "title": "敬顺王降高丽，新罗亡",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "silla"
+  ],
+  "summary": "新罗敬顺王金傅降高丽，新罗亡；高丽统一朝鲜半岛。",
+  "sources": [
+   "S16",
+   "S4"
   ]
  },
  {
