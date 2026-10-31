@@ -4,8 +4,9 @@
 import { useState } from 'react';
 import { erasByPolity, polities, reignById, sourceShort, type EraUse } from '../lib/data';
 import { chineseNum, eraDisplayName, formatYear, ganzhiOf, reignLabel } from '../lib/time';
+import Han from '../components/Han';
 
-export default function EraTable({onJumpToYear}:{onJumpToYear:(year:number)=>void}) {
+export default function EraTable({onJumpToYear,onOpenRuler}:{onJumpToYear:(year:number)=>void;onOpenRuler?:(reignId:string)=>void}) {
   const [filter, setFilter] = useState<string>('all');
   const [query, setQuery] = useState('');
   const shown = polities.filter((p) => filter === 'all' || p.id === filter);
@@ -84,11 +85,6 @@ export default function EraTable({onJumpToYear}:{onJumpToYear:(year:number)=>voi
           <tbody>
             {!rows.length && <tr><td colSpan={10} className="table-empty">没有匹配的纪年，试试更换关键词或政权。</td></tr>}
             {rows.map(({ p, e }) => {
-              const rulers = e.reignIds
-                .map((id) => reignById.get(id))
-                .filter(Boolean)
-                .map((r) => reignLabel(r!))
-                .join(' → ');
               const note = [
                 e.disputed ? `[异说] ${e.note ?? ''}` : e.note,
                 e.crossReign ? '跨君主沿用' : '',
@@ -101,11 +97,11 @@ export default function EraTable({onJumpToYear}:{onJumpToYear:(year:number)=>voi
                 <tr key={e.id}>
                   <td>
                     <span className="chip" style={{ background: p.color }}>
-                      {p.name}
+                      <Han text={p.name}/>
                     </span>
                   </td>
-                  <td>{rulers}</td>
-                  <td className="strong"><button className="era-record-link" title={`定位至${formatYear(e.startYear)}年`} onClick={()=>onJumpToYear(e.startYear)}>{eraDisplayName(e.name)} ↗</button></td>
+                  <td>{e.reignIds.map(id => reignById.get(id)).filter(Boolean).map((r, i) => <span key={r!.id}>{i > 0 ? " → " : ""}{onOpenRuler ? <button type="button" className="reign-link" onClick={() => onOpenRuler(r!.id)}><Han text={reignLabel(r)}/></button> : <Han text={reignLabel(r)}/>}</span>)}</td>
+                  <td className="strong"><button className="era-record-link" title={`定位至${formatYear(e.startYear)}年`} onClick={()=>onJumpToYear(e.startYear)}><Han text={eraDisplayName(e.name)}/> ↗</button></td>
                   <td className="mono">{formatYear(e.startYear)}</td>
                   <td className="mono">{ganzhiOf(e.startYear)}</td>
                   <td className="mono">{formatYear(e.endYear)}</td>

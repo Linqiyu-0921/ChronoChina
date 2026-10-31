@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { eraRowsAtYear, eraCoverage, polities, erasByPolity, reignById } from '../lib/data';
 import YearInspector from '../components/YearInspector';
-import { eraDisplayName, eraYearLabel, ganzhiOf, formatYear, reignLabel } from '../lib/time';
+import { eraDisplayName, eraYearDisplay, ganzhiOf, formatYear, reignLabel } from '../lib/time';
 import { orderBySouthToNorth } from '../lib/geography';
+import Han from '../components/Han';
 
 interface Props {
   target?: { polityId?: string; eraId?: string; key: number };
@@ -145,7 +146,7 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
             opacityByEra.set(e.id, opacity);
           }
           return <div className={`vertical-polity ${target?.polityId === p.id ? 'target-polity' : ''}`} key={p.id} data-polity={p.id} data-start={p.startYear}>
-            <button className="vertical-column-title" title={`跳转至${p.name}开朝：${formatYear(p.startYear)}年`} onClick={() => { scrollTo(p.startYear); onNavigateYear(p.startYear); }}><span className="column-caption">政权展签</span>{p.name}<small>{formatYear(p.startYear)}—{formatYear(p.endYear)}</small></button>
+            <button className="vertical-column-title" title={`跳转至${p.name}开朝：${formatYear(p.startYear)}年`} onClick={() => { scrollTo(p.startYear); onNavigateYear(p.startYear); }}><span className="column-caption">政权展签</span><Han text={p.name}/><small>{formatYear(p.startYear)}—{formatYear(p.endYear)}</small></button>
             <div className="polity-spine" style={{ top: Math.max(82, position(p.startYear)), height: Math.max(0, Math.min(height, position(p.endYear + 1)) - Math.max(82, position(p.startYear))) }} />
             {es.map(e => {
               const start = position(e.startYear), end = position(e.endYear + 1);
@@ -165,14 +166,14 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
                 {labelTop !== undefined && <>
                   <svg className="era-connector" aria-hidden="true" style={{ opacity: labelOpacity }}><path d={`M ${rail + 1} ${linkY} H 34 V ${labelTop + 30} H 38`} /></svg>
                   <div className="era-label" aria-hidden={labelOpacity < 0.05} style={{ top: labelTop, opacity: labelOpacity, pointerEvents: labelOpacity < 0.1 ? 'none' : undefined }}>
-                    {ruler && <button tabIndex={labelOpacity < 0.1 ? -1 : undefined} className="segment-ruler" onClick={() => onOpenRecord('reign', ruler.id)}>{reignLabel(ruler)}</button>}
-                    <button tabIndex={labelOpacity < 0.1 ? -1 : undefined} className="segment-name" onClick={() => onOpenRecord('era', e.id)}>{eraDisplayName(e.name)}{row && <span>{eraYearLabel(row.eraYearNo)}</span>}</button>
+                    {ruler && <button tabIndex={labelOpacity < 0.1 ? -1 : undefined} className="segment-ruler" onClick={() => onOpenRecord('reign', ruler.id)}><Han text={reignLabel(ruler)}/></button>}
+                    <button tabIndex={labelOpacity < 0.1 ? -1 : undefined} className="segment-name" onClick={() => onOpenRecord('era', e.id)}><Han text={eraDisplayName(e.name)}/>{row && <span>{eraYearDisplay(eraDisplayName(e.name), e.reignIds.length, row.eraYearNo)}</span>}</button>
                     <span className="segment-range">{formatYear(e.startYear)}—{formatYear(e.endYear)}{e.startMonth ? ` · ${e.startMonth}月改元` : ''}{e.disputed ? ' · 异说' : e.precision === 'approx' ? ' · 约年' : ''}</span>
                   </div>
                 </>}
               </div>;
             })}
-            {rows.length === 0 && <div className="missing-era" style={{ top: pointerOffset + 16 }}><span>纪年待补录</span>{nearestEra && <button onClick={() => { const destination = selectedYear < nearestEra.startYear ? nearestEra.startYear : nearestEra.endYear; scrollTo(destination); onNavigateYear(destination); }}>最近收录 · {nearestEra.name}<small>{formatYear(nearestEra.startYear)}—{formatYear(nearestEra.endYear)} ↗</small></button>}</div>}
+            {rows.length === 0 && <div className="missing-era" style={{ top: pointerOffset + 16 }}><span>纪年待补录</span>{nearestEra && <button onClick={() => { const destination = selectedYear < nearestEra.startYear ? nearestEra.startYear : nearestEra.endYear; scrollTo(destination); onNavigateYear(destination); }}>最近收录 · <Han text={nearestEra.name}/><small>{formatYear(nearestEra.startYear)}—{formatYear(nearestEra.endYear)} ↗</small></button>}</div>}
           </div>;
         })}
         {lanes.length === 0 && <p className="empty-period">本年尚未收录政权纪年</p>}
@@ -180,7 +181,7 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
       <div className="fixed-year-pointer" style={{ top: pointerOffset }}>
         {editingYear ? <form onSubmit={go} className="pointer-edit"><input ref={yearInput} aria-label="直达年代" value={input} onChange={e => setInput(e.target.value)} onKeyDown={e => { if (e.key === 'Escape') { setEditingYear(false); setYearError(''); } }} /><button aria-label="前往年份">↵</button>{yearError && <span role="alert">{yearError}</span>}</form> : <button className="pointer-year" onClick={() => { setInput(formatYear(selectedYear)); setEditingYear(true); }} title="点击输入年份" aria-label={`当前 ${formatYear(selectedYear)} 年，点击修改`}><span>{formatYear(selectedYear)}</span><small>{ganzhiOf(selectedYear)}年</small></button>}
       </div>
-      <YearInspector onPinChange={setInspectorPinned} year={selectedYear} anchor={pointerOffset + (archiveX === 20 ? 92 : 0)} height={height} width={width} anchorX={archiveX} />
+      <YearInspector onOpenRuler={(id) => onOpenRecord('reign', id)} onPinChange={setInspectorPinned} year={selectedYear} anchor={pointerOffset + (archiveX === 20 ? 92 : 0)} height={height} width={width} anchorX={archiveX} />
       <div ref={scroller} className="year-scroll-surface" tabIndex={0} aria-label="上下滚动选择历史年份" onKeyDown={e => {
         if (['ArrowUp', 'ArrowDown', 'PageUp', 'PageDown', 'Home', 'End'].includes(e.key)) {
           e.preventDefault(); const next = e.key === 'Home' ? MIN : e.key === 'End' ? MAX : bound(center + (e.key.endsWith('Up') ? -1 : 1) * (e.key.startsWith('Page') ? Math.max(1, visibleSpan / 2) : 1));

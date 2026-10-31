@@ -5843,5 +5843,338 @@
   "name": "—",
   "startYear": 1909,
   "endYear": 1911
+ },
+ {
+  "id": "ran-wei-武悼天王-冉闵-350",
+  "polityId": "ran-wei",
+  "title": "武悼天王",
+  "name": "冉闵",
+  "startYear": 350,
+  "endYear": 352,
+  "note": "350 年灭后赵称帝，改元永兴；352 年为前燕所擒杀。"
+ },
+ {
+  "id": "xi-yan-济北王-慕容泓-384",
+  "polityId": "xi-yan",
+  "title": "济北王",
+  "name": "慕容泓",
+  "startYear": 384,
+  "endYear": 384,
+  "note": "384 年据华阴起兵，改元燕兴，同年为部下所杀。"
+ },
+ {
+  "id": "xi-yan-威帝-慕容冲-384",
+  "polityId": "xi-yan",
+  "title": "威帝",
+  "name": "慕容冲",
+  "startYear": 384,
+  "endYear": 386,
+  "note": "384 年继领其众，385 年称帝改元更始；386 年为部下所杀。"
+ },
+ {
+  "id": "xi-yan-燕王-段随-386",
+  "polityId": "xi-yan",
+  "title": "燕王",
+  "name": "段随",
+  "startYear": 386,
+  "endYear": 386,
+  "note": "386 年二月被立，改元昌平，三月被杀。"
+ },
+ {
+  "id": "xi-yan-燕王-慕容顗-386",
+  "polityId": "xi-yan",
+  "title": "燕王",
+  "name": "慕容顗",
+  "startYear": 386,
+  "endYear": 386,
+  "note": "386 年三月被立，改元建明，旋被杀。"
+ },
+ {
+  "id": "xi-yan-燕王-慕容瑶-386",
+  "polityId": "xi-yan",
+  "title": "燕王",
+  "name": "慕容瑶",
+  "startYear": 386,
+  "endYear": 386,
+  "note": "386 年被立，改元建平，旋被杀。"
+ },
+ {
+  "id": "xi-yan-燕王-慕容忠-386",
+  "polityId": "xi-yan",
+  "title": "燕王",
+  "name": "慕容忠",
+  "startYear": 386,
+  "endYear": 386,
+  "note": "386 年被立，改元建武，旋被杀。"
+ },
+ {
+  "id": "xi-yan-燕帝-慕容永-386",
+  "polityId": "xi-yan",
+  "title": "燕帝",
+  "name": "慕容永",
+  "startYear": 386,
+  "endYear": 394,
+  "note": "386 年据长子称帝，改元中兴；394 年为后燕慕容垂所灭。"
+ },
+ {
+  "id": "zhai-wei-魏天王-翟辽-388",
+  "polityId": "zhai-wei",
+  "title": "魏天王",
+  "name": "翟辽",
+  "startYear": 388,
+  "endYear": 391,
+  "note": "388 年自称魏天王，改元建光，据滑台。"
+ },
+ {
+  "id": "zhai-wei-魏王-翟钊-391",
+  "polityId": "zhai-wei",
+  "title": "魏王",
+  "name": "翟钊",
+  "startYear": 391,
+  "endYear": 392,
+  "note": "391 年继位，改元定鼎；392 年为后燕所灭。"
+ },
+ {
+  "id": "dai-代王-拓跋猗卢-315",
+  "polityId": "dai",
+  "title": "代王",
+  "name": "拓跋猗卢",
+  "startYear": 315,
+  "endYear": 316,
+  "note": "315 年受晋封代王，总摄拓跋三部；316 年为子六修所杀。"
+ },
+ {
+  "id": "dai-代王-拓跋普根-316",
+  "polityId": "dai",
+  "title": "代王",
+  "name": "拓跋普根",
+  "startYear": 316,
+  "endYear": 316,
+  "note": "316 年平定六修之乱后即位，月余而卒。"
+ },
+ {
+  "id": "dai-平文帝-拓跋郁律-317",
+  "polityId": "dai",
+  "title": "平文帝",
+  "name": "拓跋郁律",
+  "startYear": 317,
+  "endYear": 321,
+  "note": "317 年即位，治兵讲武；321 年为桓帝后所害。"
+ },
+ {
+  "id": "dai-惠帝-拓跋贺傉-321",
+  "polityId": "dai",
+  "title": "惠帝",
+  "name": "拓跋贺傉",
+  "startYear": 321,
+  "endYear": 325,
+  "note": "321 年即位，太后临朝；325 年卒。"
+ },
+ {
+  "id": "dai-炀帝-拓跋纥那-325",
+  "polityId": "dai",
+  "title": "炀帝",
+  "name": "拓跋纥那",
+  "startYear": 325,
+  "endYear": 329,
+  "note": "325 年即位；329 年出居宇文部，诸部改立翳槐。"
+ },
+ {
+  "id": "dai-烈帝-拓跋翳槐-329",
+  "polityId": "dai",
+  "title": "烈帝",
+  "name": "拓跋翳槐",
+  "startYear": 329,
+  "endYear": 335,
+  "note": "329 年即位；335 年国人复奉纥那，出居邺。"
+ },
+ {
+  "id": "dai-炀帝-拓跋纥那-335",
+  "polityId": "dai",
+  "title": "炀帝",
+  "name": "拓跋纥那",
+  "startYear": 335,
+  "endYear": 337,
+  "note": "335 年自宇文部还，复立；337 年国人叛归翳槐。"
+ },
+ {
+  "id": "dai-烈帝-拓跋翳槐-337",
+  "polityId": "dai",
+  "title": "烈帝",
+  "name": "拓跋翳槐",
+  "startYear": 337,
+  "endYear": 338,
+  "note": "337 年复立，筑新盛乐城；338 年卒。"
+ },
+ {
+  "id": "dai-昭成帝-拓跋什翼犍-338",
+  "polityId": "dai",
+  "title": "昭成帝",
+  "name": "拓跋什翼犍",
+  "startYear": 338,
+  "endYear": 376,
+  "note": "338 年即代王位，称建国元年，置百官；376 年为前秦所灭。"
+ },
+ {
+  "id": "qi-qi-岐王-李茂贞-887",
+  "polityId": "qi-qi",
+  "title": "岐王",
+  "name": "李茂贞",
+  "startYear": 887,
+  "endYear": 923,
+  "note": "唐末据凤翔，封岐王；唐亡后仍奉天祐年号，923 年向后唐称臣，次年卒。"
+ },
+ {
+  "id": "jie-yan-燕帝-刘守光-911",
+  "polityId": "jie-yan",
+  "title": "燕帝",
+  "name": "刘守光",
+  "startYear": 911,
+  "endYear": 913,
+  "note": "911 年八月称帝，国号大燕，改元应天；913 年被晋王李存勖所俘杀。"
+ },
+ {
+  "id": "qingyuan-晋江王-留从效-949",
+  "polityId": "qingyuan",
+  "title": "晋江王",
+  "name": "留从效",
+  "startYear": 949,
+  "endYear": 962,
+  "note": "据泉州、漳州，受南唐封晋江王，行用南唐、后周年号；962 年卒。"
+ },
+ {
+  "id": "qingyuan-留后-留绍镃-962",
+  "polityId": "qingyuan",
+  "title": "留后",
+  "name": "留绍镃",
+  "startYear": 962,
+  "endYear": 962,
+  "note": "留从效之侄，继立未久即为陈洪进所废。"
+ },
+ {
+  "id": "qingyuan-平海节度使-陈洪进-962",
+  "polityId": "qingyuan",
+  "title": "平海节度使",
+  "name": "陈洪进",
+  "startYear": 962,
+  "endYear": 978,
+  "note": "962 年执掌泉漳，964 年改清源军为平海军；978 年纳土归宋。"
+ },
+ {
+  "id": "guiyi-归义军节度使-张议潮-848",
+  "polityId": "guiyi",
+  "title": "归义军节度使",
+  "name": "张议潮",
+  "startYear": 848,
+  "endYear": 867,
+  "note": "848 年收复沙州，851 年归唐；867 年入朝，后留居长安。"
+ },
+ {
+  "id": "guiyi-归义军节度使-张淮深-867",
+  "polityId": "guiyi",
+  "title": "归义军节度使",
+  "name": "张淮深",
+  "startYear": 867,
+  "endYear": 890,
+  "note": "张议潮之侄，守敦煌；890 年死于内乱。"
+ },
+ {
+  "id": "guiyi-归义军节度使-张淮鼎-890",
+  "polityId": "guiyi",
+  "title": "归义军节度使",
+  "name": "张淮鼎",
+  "startYear": 890,
+  "endYear": 892,
+  "note": "张淮深之后继立，在位短暂。"
+ },
+ {
+  "id": "guiyi-归义军节度使-索勋-892",
+  "polityId": "guiyi",
+  "title": "归义军节度使",
+  "name": "索勋",
+  "startYear": 892,
+  "endYear": 894,
+  "note": "以张氏姻亲执掌归义军，894 年为张承奉所取代。"
+ },
+ {
+  "id": "guiyi-归义军节度使-张承奉-894",
+  "polityId": "guiyi",
+  "title": "归义军节度使",
+  "name": "张承奉",
+  "startYear": 894,
+  "endYear": 914,
+  "note": "张议潮之孙；910 年建西汉金山国，914 年卒。"
+ },
+ {
+  "id": "guiyi-归义军节度使-曹议金-914",
+  "polityId": "guiyi",
+  "title": "归义军节度使",
+  "name": "曹议金",
+  "startYear": 914,
+  "endYear": 935,
+  "note": "曹氏归义军开创者，恢复与中原王朝朝贡；935 年卒。"
+ },
+ {
+  "id": "guiyi-归义军节度使-曹元德-935",
+  "polityId": "guiyi",
+  "title": "归义军节度使",
+  "name": "曹元德",
+  "startYear": 935,
+  "endYear": 939,
+  "note": "曹议金之子，继掌归义军。"
+ },
+ {
+  "id": "guiyi-归义军节度使-曹元深-939",
+  "polityId": "guiyi",
+  "title": "归义军节度使",
+  "name": "曹元深",
+  "startYear": 939,
+  "endYear": 944,
+  "note": "曹元德之弟，继立。"
+ },
+ {
+  "id": "guiyi-归义军节度使-曹元忠-944",
+  "polityId": "guiyi",
+  "title": "归义军节度使",
+  "name": "曹元忠",
+  "startYear": 944,
+  "endYear": 974,
+  "note": "在位三十年，归义军后期相对安定。"
+ },
+ {
+  "id": "guiyi-归义军节度使-曹延恭-974",
+  "polityId": "guiyi",
+  "title": "归义军节度使",
+  "name": "曹延恭",
+  "startYear": 974,
+  "endYear": 976,
+  "note": "曹元忠之侄，继立。"
+ },
+ {
+  "id": "guiyi-归义军节度使-曹延禄-976",
+  "polityId": "guiyi",
+  "title": "归义军节度使",
+  "name": "曹延禄",
+  "startYear": 976,
+  "endYear": 1002,
+  "note": "曹元忠之子；1002 年死于内乱。"
+ },
+ {
+  "id": "guiyi-归义军节度使-曹宗寿-1002",
+  "polityId": "guiyi",
+  "title": "归义军节度使",
+  "name": "曹宗寿",
+  "startYear": 1002,
+  "endYear": 1014,
+  "note": "取代曹延禄，遣使入贡宋朝。"
+ },
+ {
+  "id": "guiyi-归义军节度使-曹贤顺-1014",
+  "polityId": "guiyi",
+  "title": "归义军节度使",
+  "name": "曹贤顺",
+  "startYear": 1014,
+  "endYear": 1036,
+  "note": "末代归义军节度使；1036 年沙州陷于西夏。"
  }
 ]

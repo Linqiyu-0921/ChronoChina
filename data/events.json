@@ -20779,6 +20779,24 @@
   ]
  },
  {
+  "id": "ev-315-01",
+  "year": 315,
+  "title": "拓跋猗卢受晋封代王",
+  "categories": [
+   "政治",
+   "外交"
+  ],
+  "polityIds": [
+   "dai",
+   "western-jin"
+  ],
+  "summary": "西晋愍帝封拓跋猗卢为代王，拓跋部以代国立于盛乐，总摄三部。",
+  "sources": [
+   "S13",
+   "S6"
+  ]
+ },
+ {
   "id": "w-316-01",
   "year": 316,
   "title": "晋愍帝投降被杀，西晋灭亡",
@@ -22200,7 +22218,8 @@
    "qian-liang",
    "hou-zhao",
    "qian-yan",
-   "qian-qin"
+   "qian-qin",
+   "ran-wei"
   ],
   "summary": "同年冉闵夺后赵政权称帝，国号“魏”，建都邺，史称“冉魏”。",
   "sources": [
@@ -22257,7 +22276,8 @@
    "eastern-jin",
    "qian-liang",
    "qian-yan",
-   "qian-qin"
+   "qian-qin",
+   "ran-wei"
   ],
   "summary": "前燕杀冉闵，攻破邺都，冉魏亡。",
   "sources": [
@@ -23261,6 +23281,23 @@
   ]
  },
  {
+  "id": "ev-376-01",
+  "year": 376,
+  "title": "前秦灭代，什翼犍败死",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "dai",
+   "qian-qin"
+  ],
+  "summary": "苻坚遣军攻代，拓跋什翼犍败走云中，为其子所杀，代国亡。",
+  "sources": [
+   "S13",
+   "S6"
+  ]
+ },
+ {
   "id": "at-377-01",
   "year": 377,
   "title": "兖州刺史谢玄于广陵京口募北方流民劲卒组建“北府…",
@@ -23518,7 +23555,8 @@
    "eastern-jin",
    "qian-qin",
    "hou-yan",
-   "hou-qin"
+   "hou-qin",
+   "xi-yan"
   ],
   "summary": "北地长史慕容泓自称济北王，建立西燕；苻坚派子苻叡及羌人将领姚苌出兵讨伐西燕，大败。",
   "sources": [
@@ -23680,7 +23718,8 @@
    "hou-qin",
    "xi-qin",
    "northern-wei",
-   "hou-liang"
+   "hou-liang",
+   "xi-yan"
   ],
   "summary": "后燕、后秦、西燕皆先后称帝。",
   "sources": [
@@ -23782,7 +23821,8 @@
    "hou-qin",
    "xi-qin",
    "northern-wei",
-   "hou-liang"
+   "hou-liang",
+   "zhai-wei"
   ],
   "summary": "辽乃自称魏天王，改元建光，置百官",
   "sources": [
@@ -23976,6 +24016,23 @@
   ]
  },
  {
+  "id": "ev-392-01",
+  "year": 392,
+  "title": "后燕破滑台，翟魏亡",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "zhai-wei",
+   "hou-yan"
+  ],
+  "summary": "慕容垂遣慕容镇等攻滑台，翟钊败走，翟魏亡。",
+  "sources": [
+   "S12",
+   "S6"
+  ]
+ },
+ {
   "id": "at-393-01",
   "year": 393,
   "title": "陶渊明归隐庐山栗里躬耕垄亩，赋“采菊东篱下",
@@ -24027,7 +24084,8 @@
    "hou-qin",
    "xi-qin",
    "northern-wei",
-   "hou-liang"
+   "hou-liang",
+   "xi-yan"
   ],
   "summary": "后燕灭西燕。",
   "sources": [
@@ -41798,7 +41856,8 @@
    "军事"
   ],
   "polityIds": [
-   "tang"
+   "tang",
+   "guiyi"
   ],
   "summary": "张议潮沙州起义，建归义军收复瓜沙甘肃等十一州归唐",
   "sources": [
@@ -43283,6 +43342,24 @@
   ]
  },
  {
+  "id": "ev-887-01",
+  "year": 887,
+  "title": "李茂贞据凤翔",
+  "categories": [
+   "政治",
+   "军事"
+  ],
+  "polityIds": [
+   "qi-qi",
+   "tang"
+  ],
+  "summary": "李茂贞出任凤翔节度使，逐步割据关中西部，唐末封岐王。",
+  "sources": [
+   "S14",
+   "S6"
+  ]
+ },
+ {
   "id": "tz-888-01",
   "year": 888,
   "title": "朱全忠裹粮于宋州，将讨秦宗权，会乐从训来告急",
@@ -44293,7 +44370,8 @@
    "军事"
   ],
   "polityIds": [
-   "later-liang"
+   "later-liang",
+   "jie-yan"
   ],
   "summary": "幽州刘守光囚父杀兄后僭号称帝，两年即为晋军所俘，史称桀燕。",
   "sources": [
@@ -44408,6 +44486,22 @@
   ],
   "summary": "诸军十馀万大掠都市，百司逃散，中书侍郎、同平章事杜晓、侍讲学士李珽皆为乱兵所杀，门下侍郎、同平章事于兢、宣政使李振被伤",
   "sources": [
+   "S6"
+  ]
+ },
+ {
+  "id": "ev-913-01",
+  "year": 913,
+  "title": "晋军破幽州，桀燕亡",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "jie-yan"
+  ],
+  "summary": "晋王李存勖遣周德威攻幽州，刘守光被俘，桀燕亡。",
+  "sources": [
+   "S14",
    "S6"
   ]
  },
@@ -44948,6 +45042,23 @@
   "summary": "同年唐军攻入汴州，后梁亡。",
   "sources": [
    "S1"
+  ]
+ },
+ {
+  "id": "ev-923-01",
+  "year": 923,
+  "title": "李茂贞向后唐称臣，岐亡",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qi-qi",
+   "later-tang"
+  ],
+  "summary": "后唐灭后梁后，李茂贞上表称臣，岐国结束；次年李茂贞卒。",
+  "sources": [
+   "S14",
+   "S6"
   ]
  },
  {
@@ -46318,6 +46429,23 @@
   ],
   "summary": "\"刘彦瑫、李弘皋等固争以为不可，乃以岳州刺史王赟为都部署战棹指挥使，以彦瑫监其军",
   "sources": [
+   "S6"
+  ]
+ },
+ {
+  "id": "ev-949-01",
+  "year": 949,
+  "title": "留从效据泉漳，受南唐封",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qingyuan",
+   "nan-tang"
+  ],
+  "summary": "留从效据泉州、漳州，南唐授清源军节度使、封晋江王，泉漳自此自成一隅。",
+  "sources": [
+   "S14",
    "S6"
   ]
  },
@@ -47794,6 +47922,23 @@
   "summary": "南唐后主，词作凄婉开一代新境，国亡降宋，三年后卒于汴京。",
   "sources": [
    "S4"
+  ]
+ },
+ {
+  "id": "ev-978-01",
+  "year": 978,
+  "title": "陈洪进纳土归宋，清源军亡",
+  "categories": [
+   "政治"
+  ],
+  "polityIds": [
+   "qingyuan",
+   "song"
+  ],
+  "summary": "陈洪进献泉、漳二州图籍于宋，清源军（平海军）结束。",
+  "sources": [
+   "S14",
+   "S6"
   ]
  },
  {
@@ -50215,6 +50360,23 @@
   "summary": "将谋入寇，恐嘉勒斯赉拟其后，复举兵攻兰州诸羌，南侵至马衔山，筑城瓦川会，留兵镇守，绝吐蕃与中国相通路",
   "sources": [
    "S7"
+  ]
+ },
+ {
+  "id": "ev-1036-01",
+  "year": 1036,
+  "title": "西夏攻陷沙州，归义军亡",
+  "categories": [
+   "军事"
+  ],
+  "polityIds": [
+   "guiyi",
+   "xia"
+  ],
+  "summary": "西夏攻取沙州，曹氏归义军终结；敦煌此后处于西夏统治之下。",
+  "sources": [
+   "S15",
+   "S4"
   ]
  },
  {

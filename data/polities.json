@@ -832,5 +832,77 @@
   "family": "ming",
   "note": "清军入关后明朝宗室在南方所建政权统称；通表未收，本站据通说补录（弘光、隆武、绍武、永历）。",
   "fullName": "南明（弘光、隆武、永历等）"
+ },
+ {
+  "id": "ran-wei",
+  "name": "冉魏",
+  "fullName": "魏（冉魏）",
+  "startYear": 350,
+  "endYear": 352,
+  "color": "#8d6a8a",
+  "note": "冉闵灭后赵称帝，都邺；352 年为前燕所灭。"
+ },
+ {
+  "id": "xi-yan",
+  "name": "西燕",
+  "fullName": "燕（西燕）",
+  "startYear": 384,
+  "endYear": 394,
+  "color": "#8a7a55",
+  "note": "慕容泓、慕容冲等据关中、河东所建，都长子；394 年为后燕所灭。"
+ },
+ {
+  "id": "zhai-wei",
+  "name": "翟魏",
+  "fullName": "魏（翟魏）",
+  "startYear": 388,
+  "endYear": 392,
+  "color": "#7d6a7a",
+  "note": "丁零翟辽所建，据滑台；392 年为后燕所灭。"
+ },
+ {
+  "id": "dai",
+  "name": "代",
+  "fullName": "代（拓跋部）",
+  "startYear": 315,
+  "endYear": 376,
+  "color": "#7a6a4f",
+  "note": "拓跋猗卢受晋封代王，据盛乐；376 年为前秦所灭。北魏追述其世系。"
+ },
+ {
+  "id": "qi-qi",
+  "name": "岐",
+  "fullName": "岐（凤翔）",
+  "startYear": 887,
+  "endYear": 923,
+  "color": "#7c5a4a",
+  "note": "李茂贞据凤翔，唐末受封岐王；923 年向后唐称臣。"
+ },
+ {
+  "id": "jie-yan",
+  "name": "桀燕",
+  "fullName": "燕（桀燕）",
+  "startYear": 911,
+  "endYear": 913,
+  "color": "#9a6a4a",
+  "note": "刘守光据幽州称帝，国号大燕；913 年为晋王李存勖所灭，史称桀燕。"
+ },
+ {
+  "id": "qingyuan",
+  "name": "清源军",
+  "fullName": "清源军（平海军）",
+  "startYear": 949,
+  "endYear": 978,
+  "color": "#5a7d6a",
+  "note": "留从效、陈洪进据泉州、漳州，964 年改号平海军；978 年纳土归宋。"
+ },
+ {
+  "id": "guiyi",
+  "name": "归义军",
+  "fullName": "归义军（敦煌）",
+  "startYear": 848,
+  "endYear": 1036,
+  "color": "#a8845a",
+  "note": "张议潮收复敦煌后所建，历张、曹二氏；1036 年沙州陷于西夏。"
  }
 ]

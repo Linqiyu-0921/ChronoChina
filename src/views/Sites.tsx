@@ -1,4 +1,5 @@
 import { formatYear } from '../lib/time';
+import Han from '../components/Han';
 /**
  * 文化遗产视图：按类别/朝代/关键词筛选遗址卡片，可跳转时间轴定位始建年代。
  * 数据为世遗与国保精选（约 80 处），全量 5000+ 处文保为后续导入工程。
@@ -79,14 +80,14 @@ function SiteCard({ site, onJumpToYear }: { site: Site; onJumpToYear: (y: number
   return (
     <article className="card site-card">
       <header>
-        <h3>{site.name}</h3>
+        <h3><Han text={site.name}/></h3>
         <span className="ghost-chip cat-chip">{site.category}</span>
         {site.whs && <span className="badge whs">世遗 {site.whs}</span>}
       </header>
       <p className="site-meta">
         <b>{site.dynasty}</b> ｜ {sitePeriodLabel(site)}
       </p>
-      <p className="site-place">{site.place}</p>
+      <p className="site-place"><Han text={site.place}/></p>
       {site.polityIds.length > 0 && (
         <p className="site-polity">
           {site.polityIds
@@ -94,12 +95,12 @@ function SiteCard({ site, onJumpToYear }: { site: Site; onJumpToYear: (y: number
             .filter((x) => x.p)
             .map(({ pid, p }) => (
               <span key={pid} className="ghost-chip" style={{ color: p!.color }}>
-                {p!.name}
+                <Han text={p!.name}/>
               </span>
             ))}
         </p>
       )}
-      {site.note && <p className="site-note">{site.note}</p>}
+      {site.note && <p className="site-note"><Han text={site.note}/></p>}
       <footer className="site-foot">
         {site.coords && <span className="mono dim">{site.coords[0].toFixed(2)}, {site.coords[1].toFixed(2)}</span>}
         {jump !== null && jump >= -305 && jump <= 1911 ? (

@@ -2,10 +2,10 @@ import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { fitPanel, resizePanel, type PanelRect } from '../lib/panelGeometry';
 import YearPanel from './YearPanel';
 import { eraRowsAtYear, eventsByYear } from '../lib/data';
-import { eraDisplayName, eraYearLabel, formatYearFull, ganzhiOf } from '../lib/time';
+import { eraDisplayName, eraYearDisplay, formatYearFull, ganzhiOf } from '../lib/time';
 
-interface Props { year: number; anchor: number; height: number; width: number; anchorX: number; onPinChange: (pinned: boolean) => void; }
-export default function YearInspector({ year, anchor, anchorX, onPinChange }: Props) {
+interface Props { year: number; anchor: number; height: number; width: number; anchorX: number; onPinChange: (pinned: boolean) => void; onOpenRuler?: (reignId: string) => void; }
+export default function YearInspector({ year, anchor, anchorX, onPinChange, onOpenRuler }: Props) {
   const [mode, setMode] = useState<'closed' | 'short' | 'long' | 'pinned'>('closed');
   const [position, setPosition] = useState({ left: 12, top: 80 });
   const [link, setLink] = useState({ x: 0, from: 0, to: 0 });
@@ -108,9 +108,9 @@ export default function YearInspector({ year, anchor, anchorX, onPinChange }: Pr
       </div></header>
       <div className="suijian-body">
         {mode === 'short' ? <><h2>{formatYearFull(readingYear)}</h2><p className="suijian-subtitle">{ganzhiOf(readingYear)}年 · {new Set(rows.map(r => r.polity.id)).size} 政权纪年已录</p>
-          <div className="suijian-eras">{rows.slice(0, 4).map(row => <p key={row.era.id}><span>{row.polity.name}</span><strong>{eraDisplayName(row.era.name)}{eraYearLabel(row.eraYearNo)}</strong></p>)}{!rows.length && <p>本年纪年尚待补录。</p>}{rows.length > 4 && <small>另有 {rows.length - 4} 条纪年，详见本年档。</small>}</div>
+          <div className="suijian-eras">{rows.slice(0, 4).map(row => <p key={row.era.id}><span>{row.polity.name}</span><strong>{eraDisplayName(row.era.name)}{eraYearDisplay(eraDisplayName(row.era.name), row.era.reignIds.length, row.eraYearNo)}</strong></p>)}{!rows.length && <p>本年纪年尚待补录。</p>}{rows.length > 4 && <small>另有 {rows.length - 4} 条纪年，详见本年档。</small>}</div>
           <div className="suijian-excerpt"><h3>这一年</h3>{story ? <><p>{story.title}</p>{storyBody && <p>{storyBody}</p>}</> : <p>本年尚未收录纪事，亦可展开查阅同期纪年与人物。</p>}</div>
-        </> : <YearPanel year={readingYear} />}
+        </> : <YearPanel year={readingYear} onOpenRuler={onOpenRuler}/>}
       </div>
       <footer className="suijian-footer">{mode === 'short' ? <button onClick={() => setMode('long')}>展开本年档 <span aria-hidden="true">↗</span></button> : mode === 'long' ? <button onClick={() => setMode('short')}>收为短笺</button> : <span>随阅年同步 · 可继续滚动对照</span>}</footer>
     </section>}

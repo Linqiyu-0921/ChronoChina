@@ -54,7 +54,7 @@ Open it as is, or run it locally (see [Getting started](#getting-started)) if yo
 
 ![Timeline view (light)](docs/preview/04-timeline-light.png)
 
-**Search, browse**: `Ctrl / ⌘ + K`. With an empty box it is a table of contents — six periods and their regimes.
+**Search, browse**: `Ctrl / ⌘ + K`. With an empty box it is a table of contents — nine periods and their regimes.
 
 ![Search (browse)](docs/preview/05-search-browse-dark.png)
 
@@ -67,7 +67,9 @@ Open it as is, or run it locally (see [Getting started](#getting-started)) if yo
 - **Reading (阅年)** — one year per page: the year, its ganzhi, and how many regimes stood at once; the epigraph is generated from that year's era changes ("丁未之年，五政权并立；赵宋改元建炎，西夏改元正德。"); regimes run south to north by the latitude of their capital and split into two columns when five coexist; expand one to see its era name, ruler, span, and month of change; turn pages with the wheel / `↑ ↓` / swipe. Each page opens an "annual dossier" gathering the year's events, contemporary eras, and people alive.
 - **Timeline (并世)** — vertical multi-year comparison: Gregorian years on the left, a vermilion line at the current year; each surviving regime gets a column with an exhibition label, ordered south to north, era names are drawn as duration bars at their true extent, and regimes crossing the current year open their era, ruler, and month of change; disputed and approximate dates are marked; `Ctrl / ⌘ + wheel` changes time density, `‹ ›` pages through regime groups.
 - **Search** — `Ctrl / ⌘ + K`: empty means browse by period and regime, and a click jumps to the founding year with the comparison window kept; typing searches years (`1127`, `前221`), era names (`建炎元年`, `绍兴`), ganzhi (`丁未`), person aliases (`秦始皇`), and regime pinyin (`donghan`).
-- **Annual dossier** — a floating record you can drag, resize on all eight handles, fade, or dock to the side; it follows the current year.
+- **Annual dossier** — a floating record you can drag, resize on all eight handles, fade, or dock to the side; it follows the current year, and its events can be filtered by category.
+- **Ruler profiles** — click any ruler in the reading page or the chronology table to see the length of the reign, era names, dated events and the rulers who stood at the same time, with links onward to their profiles.
+- **Rare-character glosses** — pinyin follows rare characters such as 郢, 嬴, 亹 and 隗 in regime, ruler, era, event and heritage names.
 - **Chronology reference** — polities, rulers, era names, spans, ganzhi, months of change, disputes, and sources in one table, filterable and exportable to CSV.
 - **Heritage** — 162 selected sites, filterable by category / dynasty / keyword, each linking back to its founding year.
 - **Themes** — paper white and ink-black with gold share a single layout; only the paper changes, never the grid. Your choice is remembered.
@@ -121,17 +123,17 @@ npm test           # regression tests for dates, conversion, search, and dossier
 
 **Done**
 
-- full era import (76 polities / 708 rulers / 1,085 era names), with ganzhi cross-checked entry by entry;
+- full era import (84 polities / 745 rulers / 1,101 era names), with ganzhi cross-checked entry by entry;
 - ruler-year sequences for the fourteen Eastern Zhou states (Zhou, Jin, Qi, Chu, Yan, Lu, Song, Wei, Zheng, Wu, Yue, Zhao, Wei and Han) extended back to 770 BCE, with Qin likewise extended;
-- a full event base (5,330 entries across 2,200 years), 668 people and 162 heritage sites;
-- the Sixteen Kingdoms and Ten States, plus complete era chains for Dali, Western Xia, and Qara Khitai;
+- a full event base (5,339 entries across 2,200 years), 668 people and 162 heritage sites;
+- the Sixteen Kingdoms and their offshoots (Ran Wei, Western Yan, Zhai Wei, Dai) plus the Ten States and regional regimes outside them (Qi, Jie Yan, Qingyuan, Guiyi), with complete era chains for Dali, Western Xia, and Qara Khitai;
 - vertical timeline, almanac-style reading page, chronology reference, heritage, glass search, annual dossier;
+- events filterable by military, political, diplomatic, institutional, biographical and cultural categories; ruler profiles gathering reign, eras, events and contemporaries;
+- pinyin glosses after rare characters in regime, ruler, era, event and person names (e.g. 郢 yǐng);
 - the dynasty browser folded into the search palette, matching light and dark layouts, data validation and regression tests.
 
 **Planned**
 
-- add the minor Sixteen Kingdoms states (Ran Wei, Western Yan, Zhai Wei, Dai) and other regional regimes;
-- event categories and ruler profile pages;
 - linking history to place: a heritage map plus deep links into the timeline, without drawing borders of our own;
 - expanding the heritage list toward the full national key heritage register.
 

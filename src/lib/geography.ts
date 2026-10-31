@@ -43,6 +43,10 @@ export const polityNorthings: Record<string, number> = {
   'nan-yan': 36.7, // 广固
   'xi-liang': 40.1, // 敦煌
   'bei-yan': 41.6, // 龙城
+  'ran-wei': 36.3, // 邺
+  'xi-yan': 36.1, // 长子
+  'zhai-wei': 35.6, // 滑台
+  dai: 40.1, // 盛乐
   'helian-xia': 37.6, // 统万
   'liu-song': 32.0, // 建康
   'southern-qi': 32.0, // 建康
@@ -70,6 +74,10 @@ export const polityNorthings: Record<string, number> = {
   'nan-tang': 32.0, // 江宁
   'later-han': 34.8, // 开封
   'later-zhou': 34.8, // 开封
+  'qi-qi': 34.5, // 凤翔
+  'jie-yan': 39.9, // 幽州
+  qingyuan: 24.9, // 泉州
+  guiyi: 40.1, // 敦煌
   'bei-han': 37.9, // 太原
   song: 34.8, // 开封，南渡后临安
   xia: 38.5, // 兴庆

@@ -15382,5 +15382,266 @@
    "S3"
   ],
   "endYear": 1911
+ },
+ {
+  "id": "ran-wei-永兴-350",
+  "polityId": "ran-wei",
+  "name": "永兴",
+  "reignIds": [
+   "ran-wei-武悼天王-冉闵-350"
+  ],
+  "startYear": 350,
+  "endYear": 352,
+  "note": "350 年闰正月改元；352 年四月冉闵被擒，魏亡。",
+  "sources": [
+   "S12",
+   "S6"
+  ]
+ },
+ {
+  "id": "xi-yan-燕兴-384",
+  "polityId": "xi-yan",
+  "name": "燕兴",
+  "reignIds": [
+   "xi-yan-济北王-慕容泓-384"
+  ],
+  "startYear": 384,
+  "endYear": 384,
+  "note": "384 年慕容泓改元燕兴，同年被杀。",
+  "sources": [
+   "S12",
+   "S6"
+  ]
+ },
+ {
+  "id": "xi-yan-更始-385",
+  "polityId": "xi-yan",
+  "name": "更始",
+  "reignIds": [
+   "xi-yan-威帝-慕容冲-384"
+  ],
+  "startYear": 385,
+  "endYear": 386,
+  "note": "385 年慕容冲称帝改元；386 年被杀。",
+  "sources": [
+   "S12",
+   "S6"
+  ]
+ },
+ {
+  "id": "xi-yan-昌平-386",
+  "polityId": "xi-yan",
+  "name": "昌平",
+  "reignIds": [
+   "xi-yan-燕王-段随-386"
+  ],
+  "startYear": 386,
+  "endYear": 386,
+  "note": "段随 386 年二月改元，三月被杀。",
+  "sources": [
+   "S12",
+   "S6"
+  ]
+ },
+ {
+  "id": "xi-yan-建明-386",
+  "polityId": "xi-yan",
+  "name": "建明",
+  "reignIds": [
+   "xi-yan-燕王-慕容顗-386"
+  ],
+  "startYear": 386,
+  "endYear": 386,
+  "note": "慕容顗 386 年三月改元，旋被杀；与昌平同年交接。",
+  "sources": [
+   "S12",
+   "S6"
+  ]
+ },
+ {
+  "id": "xi-yan-建平-386",
+  "polityId": "xi-yan",
+  "name": "建平",
+  "reignIds": [
+   "xi-yan-燕王-慕容瑶-386"
+  ],
+  "startYear": 386,
+  "endYear": 386,
+  "note": "慕容瑶 386 年改元，旋被杀；与建明同年交接。",
+  "sources": [
+   "S12",
+   "S6"
+  ]
+ },
+ {
+  "id": "xi-yan-建武-386",
+  "polityId": "xi-yan",
+  "name": "建武",
+  "reignIds": [
+   "xi-yan-燕王-慕容忠-386"
+  ],
+  "startYear": 386,
+  "endYear": 386,
+  "note": "慕容忠 386 年改元，旋被杀；与建平同年交接。",
+  "sources": [
+   "S12",
+   "S6"
+  ]
+ },
+ {
+  "id": "xi-yan-中兴-386",
+  "polityId": "xi-yan",
+  "name": "中兴",
+  "reignIds": [
+   "xi-yan-燕帝-慕容永-386"
+  ],
+  "startYear": 386,
+  "endYear": 394,
+  "note": "慕容永 386 年据长子改元；394 年为后燕所灭。",
+  "sources": [
+   "S12",
+   "S6"
+  ]
+ },
+ {
+  "id": "zhai-wei-建光-388",
+  "polityId": "zhai-wei",
+  "name": "建光",
+  "reignIds": [
+   "zhai-wei-魏天王-翟辽-388"
+  ],
+  "startYear": 388,
+  "endYear": 391,
+  "note": "388 年翟辽改元建光。",
+  "sources": [
+   "S12",
+   "S6"
+  ]
+ },
+ {
+  "id": "zhai-wei-定鼎-391",
+  "polityId": "zhai-wei",
+  "name": "定鼎",
+  "reignIds": [
+   "zhai-wei-魏王-翟钊-391"
+  ],
+  "startYear": 391,
+  "endYear": 392,
+  "note": "391 年翟钊继位改元；392 年为后燕所灭。",
+  "sources": [
+   "S12",
+   "S6"
+  ]
+ },
+ {
+  "id": "dai-无年号-315",
+  "polityId": "dai",
+  "name": "无年号",
+  "reignIds": [
+   "dai-代王-拓跋猗卢-315",
+   "dai-代王-拓跋普根-316",
+   "dai-平文帝-拓跋郁律-317",
+   "dai-惠帝-拓跋贺傉-321",
+   "dai-炀帝-拓跋纥那-325",
+   "dai-烈帝-拓跋翳槐-329",
+   "dai-炀帝-拓跋纥那-335",
+   "dai-烈帝-拓跋翳槐-337"
+  ],
+  "startYear": 315,
+  "endYear": 337,
+  "note": "拓跋部前期奉晋正朔，未建年号；炀帝、烈帝各有复立。",
+  "sources": [
+   "S13",
+   "S6"
+  ]
+ },
+ {
+  "id": "dai-建国-338",
+  "polityId": "dai",
+  "name": "建国",
+  "reignIds": [
+   "dai-昭成帝-拓跋什翼犍-338"
+  ],
+  "startYear": 338,
+  "endYear": 376,
+  "note": "338 年什翼犍即位称建国元年；376 年前秦灭代，代亡。",
+  "sources": [
+   "S13",
+   "S6"
+  ]
+ },
+ {
+  "id": "qi-qi-无年号-887",
+  "polityId": "qi-qi",
+  "name": "无年号",
+  "reignIds": [
+   "qi-qi-岐王-李茂贞-887"
+  ],
+  "startYear": 887,
+  "endYear": 923,
+  "note": "奉唐正朔，唐亡后仍行天祐年号，未自建年号。",
+  "sources": [
+   "S14",
+   "S6"
+  ]
+ },
+ {
+  "id": "jie-yan-应天-911",
+  "polityId": "jie-yan",
+  "name": "应天",
+  "reignIds": [
+   "jie-yan-燕帝-刘守光-911"
+  ],
+  "startYear": 911,
+  "endYear": 913,
+  "note": "911 年八月刘守光称帝改元；913 年燕亡。",
+  "sources": [
+   "S14",
+   "S6"
+  ]
+ },
+ {
+  "id": "qingyuan-无年号-949",
+  "polityId": "qingyuan",
+  "name": "无年号",
+  "reignIds": [
+   "qingyuan-晋江王-留从效-949",
+   "qingyuan-留后-留绍镃-962",
+   "qingyuan-平海节度使-陈洪进-962"
+  ],
+  "startYear": 949,
+  "endYear": 978,
+  "note": "先后奉南唐、后周、宋正朔，未自建年号。",
+  "sources": [
+   "S14",
+   "S6"
+  ]
+ },
+ {
+  "id": "guiyi-无年号-848",
+  "polityId": "guiyi",
+  "name": "无年号",
+  "reignIds": [
+   "guiyi-归义军节度使-张议潮-848",
+   "guiyi-归义军节度使-张淮深-867",
+   "guiyi-归义军节度使-张淮鼎-890",
+   "guiyi-归义军节度使-索勋-892",
+   "guiyi-归义军节度使-张承奉-894",
+   "guiyi-归义军节度使-曹议金-914",
+   "guiyi-归义军节度使-曹元德-935",
+   "guiyi-归义军节度使-曹元深-939",
+   "guiyi-归义军节度使-曹元忠-944",
+   "guiyi-归义军节度使-曹延恭-974",
+   "guiyi-归义军节度使-曹延禄-976",
+   "guiyi-归义军节度使-曹宗寿-1002",
+   "guiyi-归义军节度使-曹贤顺-1014"
+  ],
+  "startYear": 848,
+  "endYear": 1036,
+  "note": "归义军长期奉唐、五代、宋正朔，未自建年号；张承奉一度建金山国。",
+  "sources": [
+   "S15",
+   "S4"
+  ]
  }
 ]

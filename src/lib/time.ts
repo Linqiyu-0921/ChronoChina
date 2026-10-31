@@ -59,6 +59,10 @@ export function eraYearLabel(n: number): string {
   return n === 1 ? '元年' : `${chineseNum(n)}年`;
 }
 
+/** 无年号跨多主时不以纪年起点计年；单主仍显示在位年数 */
+export const eraYearDisplay = (name: string, reignCount: number, n: number) =>
+  name.includes('无年号') && reignCount > 1 ? '' : eraYearLabel(n);
+
 /** 解析中文数字（一 ~ 九十九，含 十/廿/卅 组合）；不是中文数字返回 null */
 export function parseChineseNum(s: string): number | null {
   const t = s.trim();
