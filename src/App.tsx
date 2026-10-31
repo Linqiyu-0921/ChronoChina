@@ -75,6 +75,7 @@ export default function App() {
   const openPalette = (seed: string) => { setPaletteSeed(seed); setPaletteNonce(n => n + 1); setSearchOpen(true); };
   const selectHit = (hit: SearchHit) => {
     setQ(hit.title); jumpToYear(hit.year, hit.polityId, hit.eraId);
+    if (hit.category === '事件') setSelectedEvent(hit.id);
     if (hit.category === '帝王') { setDetail(null); setRulerId(hit.id); }
     if (hit.category === '政权') { const p = polities.find(p => p.id === hit.polityId); if (p) setDomain([p.startYear, p.endYear]); }
     else if (hit.category === '时期') { const g = PERIOD_GROUPS.find(g => `period-${g.name}` === hit.id); if (g) setDomain([g.start, g.end]); }
