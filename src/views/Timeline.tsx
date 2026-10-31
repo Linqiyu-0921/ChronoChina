@@ -19,6 +19,8 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
   const [inspectorPinned, setInspectorPinned] = useState(false);
   const viewport = useRef<HTMLDivElement>(null);
   const scroller = useRef<HTMLDivElement>(null);
+  const mobileSwipe=useRef<{x:number;y:number}|null>(null);
+  const suppressMobileClick=useRef(0);
   const columns = useRef<HTMLDivElement>(null);
   const programmatic = useRef(false);
   const [pixelsPerYear, setPixelsPerYear] = useState(24);
@@ -113,7 +115,11 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
       scrollTo(y); onNavigateYear(y); setEditingYear(false); setYearError('');
     } else setYearError(t('tl.inputError'));
   };
+  const turnMobile=(delta:number)=>{const next=bound(Math.round(centerRef.current)+delta);scrollTo(next);onNavigateYear(next);};
   return <section className={`vertical-atlas ${inspectorPinned ? 'has-sidepage' : ''}`} aria-label={t('tl.aria')}>
+    <div className="timeline-mobile-years" onClickCapture={e=>{if(performance.now()<suppressMobileClick.current){e.preventDefault();e.stopPropagation();}}} onTouchStart={e=>{mobileSwipe.current=e.touches.length===1?{x:e.touches[0].clientX,y:e.touches[0].clientY}:null;}} onTouchCancel={()=>{mobileSwipe.current=null;}} onTouchMove={e=>{if(!mobileSwipe.current)return;if(e.touches.length!==1||Math.abs(e.touches[0].clientY-mobileSwipe.current.y)>24)mobileSwipe.current=null;}} onTouchEnd={e=>{const start=mobileSwipe.current;mobileSwipe.current=null;if(!start)return;const dx=start.x-e.changedTouches[0].clientX;if(Math.abs(dx)>60){suppressMobileClick.current=performance.now()+400;turnMobile(dx>0?1:-1);}}}>
+      <button aria-label="上一年" disabled={selectedYear<=MIN} onClick={()=>turnMobile(-1)}>‹</button><span>{formatYear(selectedYear)}<small>左右滑动此处翻年</small></span><button aria-label="下一年" disabled={selectedYear>=MAX} onClick={()=>turnMobile(1)}>›</button>
+    </div>
     <div ref={viewport} className="vertical-viewport">
       <div className="vertical-date-lane" aria-hidden="true"><span className="date-heading">{t('tl.yearHead')}<small>{t('tl.yearUnit')}</small></span>{ticks.filter(y => position(y) > 84 && Math.abs(position(y) - pointerOffset) > 30).map(y => <div key={y} className={`vertical-tick ${(y > 0 ? y : 1 - y) % 5 === 0 ? 'major-tick' : 'minor-tick'}`} style={{ top: position(y) }}>{formatYear(y)}</div>)}</div>
       <div ref={columns} onScroll={e => setLanePage(Math.round(e.currentTarget.scrollLeft / columnWidth))} className="vertical-columns" tabIndex={0} aria-label={t('tl.columnsAria')} style={{ gridTemplateColumns: `repeat(${Math.max(1, lanes.length)}, ${columnWidth}px)` }}>

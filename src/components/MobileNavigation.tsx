@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import MobileYearPicker from './MobileYearPicker';
 import { t, type Lang, LANGS, LANG_LABEL } from '../lib/i18n';
 const iconFiles = { menu:'21-grid',reading:'06-topic',timeline:'02-chronology',chronology:'12-archive',heritage:'03-heritage',search:'04-search',about:'05-about',sun:'27-full-moon',moon:'24-moon-phase-1' } as const;
-function NavIcon({name}:{name:keyof typeof iconFiles}) { return <img className="nav-icon artifact-icon" src={`./assets/icons/gold-outline/${iconFiles[name]}.png`} alt="" aria-hidden="true" />; }
+function NavIcon({name}:{name:keyof typeof iconFiles}) { return <img className="nav-icon artifact-icon" src={`./assets/icons/mobile/${iconFiles[name]}.webp`} alt="" aria-hidden="true" />; }
 
 type View = 'reading' | 'timeline' | 'table' | 'sites' | 'about';
 const entries = [

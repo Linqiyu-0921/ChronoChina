@@ -232,3 +232,16 @@
  .book-reading .yearbook-leaf{overflow-anchor:none;animation:none}
  .mobile-year-picker form [role=alert]{min-height:44px}
 }
+.timeline-mobile-years{display:none}
+@media(max-width:650px){
+ .timeline-mobile-years{display:flex;justify-content:space-between;align-items:center;flex-shrink:0;padding:4px 0 12px;touch-action:pan-y;border-bottom:1px solid var(--rule);color:var(--gold)}
+ .timeline-mobile-years button{width:48px;height:48px;border:1px solid var(--rule);background:none;color:var(--gold);font-size:26px}
+ .timeline-mobile-years span{text-align:center;font:25px/1.3 var(--serif)}
+ .timeline-mobile-years small{display:block;font:11px/1.8 var(--sans);color:var(--text-muted)}
+ .book-timeline .vertical-columns{left:64px;right:12px}
+ .book-timeline .vertical-date-lane{width:64px}
+ .book-timeline .vertical-column-title{padding-left:12px;font-size:19px}
+ .book-timeline .vertical-column-title small{font-size:10px;white-space:normal}
+ .book-timeline .mobile-page-return{padding-bottom:0}
+ .mobile-year-picker>img{height:88px;min-height:88px;width:88px;flex-shrink:0;object-fit:contain}
+}

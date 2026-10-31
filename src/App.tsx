@@ -123,7 +123,7 @@ export default function App() {
         <button className="theme-toggle" title={theme === 'dark' ? t('nav.themeToLight') : t('nav.themeToDark')} aria-label={theme === 'dark' ? t('nav.themeToLight') : t('nav.themeToDark')} onClick={toggleTheme}><NavIcon name={theme === 'dark' ? 'sun' : 'moon'} /></button>
       </nav>
     </header>
-    <MobileNavigation year={year} onPickYear={y => { setYear(y); setSelectedEvent(null); setView('reading'); }} view={view} theme={theme} lang={lang} onLang={changeLang} onNavigate={next => { setView(next); setSearchOpen(false); window.scrollTo(0, 0); }} onSearch={() => openPalette('')} onTheme={toggleTheme} automaticTheme={automaticTheme} onAutomaticTheme={resetTheme} />
+    <MobileNavigation year={year} onPickYear={y => { setYear(y); setSelectedEvent(null); }} view={view} theme={theme} lang={lang} onLang={changeLang} onNavigate={next => { setView(next); setSearchOpen(false); window.scrollTo(0, 0); }} onSearch={() => openPalette('')} onTheme={toggleTheme} automaticTheme={automaticTheme} onAutomaticTheme={resetTheme} />
     {searchOpen && <SearchPalette key={paletteNonce} initialQuery={paletteSeed} year={year} onClose={() => setSearchOpen(false)} onSelect={selectHit} onPickDynasty={p => { jumpToYear(p.startYear, p.id); setDomain([p.startYear, p.endYear]); }} onPickPeriod={g => { jumpToYear(g.start); setDomain([g.start, g.end]); }} />}
     <main id="chronicle-content" tabIndex={-1}>
       {view === 'reading' && <YearBook year={year} onYear={(y) => { setYear(y); setSelectedEvent(null); }} blocked={searchOpen || !!detail || !!rulerId} onOpenRuler={setRulerId} selectedEvent={selectedEvent} onSelectEvent={setSelectedEvent}/>}

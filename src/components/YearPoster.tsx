@@ -16,7 +16,7 @@ export default function YearPoster({year,onClose}:{year:number;onClose:()=>void}
   let disposed=false,objectUrl='';
   const generate=async()=>{
    await document.fonts.ready;
-   const ornament=new Image();ornament.src='./assets/icons/gold-outline/08-compass.png';
+   const ornament=new Image();ornament.src='./assets/icons/mobile/08-compass.webp';
    await ornament.decode();
    const light=style==='light';
    const ink=light?'#40382b':'#eee1c6',goldColor=light?'#846538':'#d6bd8b',muted=light?'#756957':'#a99d87',rule=light?'#c9b997':'#655237';
