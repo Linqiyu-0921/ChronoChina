@@ -4,7 +4,7 @@
 import { useState } from 'react';
 import { parseQuery, type EraMatch } from '../lib/convert';
 import { eraByIdWithPolity, sourceShort } from '../lib/queryHelpers';
-import { eraDisplayName, eraYearLabel, formatYear, formatYearFull, ganzhiOf } from '../lib/time';
+import { eraDisplayName, eraYearLabel, formatYear, formatYearFull, ganzhiOf, reignLabel } from '../lib/time';
 import YearPanel from '../components/YearPanel';
 
 interface Props {
@@ -100,7 +100,7 @@ function EraCard({ match, onJumpToYear }: { match: EraMatch; onJumpToYear: (y: n
           <tbody>
             <tr>
               <td>君主</td>
-              <td>{reigns.map((r) => `${r.title} ${r.name.split('（')[0]}`).join(' → ')}</td>
+              <td>{reigns.map((r) => reignLabel(r)).join(' → ')}</td>
             </tr>
             <tr>
               <td>元年</td>

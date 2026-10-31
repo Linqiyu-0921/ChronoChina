@@ -4,6 +4,20 @@
  */
 export const polityNorthings: Record<string, number> = {
   qin: 34.3, // 咸阳
+  zhou: 34.6, // 洛邑
+  'jin-guo': 35.6, // 绛、新田
+  qi: 36.9, // 临淄
+  'chu-guo': 30.4, // 郢
+  yan: 39.9, // 蓟
+  lu: 35.6, // 曲阜
+  'song-guo': 34.4, // 商丘
+  'wei-state': 35.7, // 朝歌、濮阳
+  zheng: 34.4, // 新郑
+  'wu-guo': 31.3, // 姑苏
+  yue: 30.0, // 会稽
+  zhao: 36.6, // 邯郸
+  'wei-ws': 34.8, // 大梁
+  'han-ws': 34.4, // 新郑
   'western-han': 34.3, // 长安
   xin: 34.3, // 长安
   gengshi: 34.3, // 宛、长安

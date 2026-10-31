@@ -1,15 +1,183 @@
 [
  {
+  "id": "chu-guo",
+  "name": "楚",
+  "fullName": "楚（芈姓熊氏）",
+  "startYear": -769,
+  "endYear": -222,
+  "color": "#6d4047",
+  "note": "南方大国，春秋称王；前 223 年为秦将王翦所灭。",
+  "sources": [
+   "S11"
+  ]
+ },
+ {
+  "id": "jin-guo",
+  "name": "晋",
+  "fullName": "晋（姬姓）",
+  "startYear": -769,
+  "endYear": -375,
+  "color": "#7b5c3a",
+  "note": "春秋霸主之国，前 453 年三家分晋，前 376 年韩赵魏废晋静公，晋亡。",
+  "sources": [
+   "S11"
+  ]
+ },
+ {
+  "id": "lu",
+  "name": "鲁",
+  "fullName": "鲁（姬姓）",
+  "startYear": -769,
+  "endYear": -255,
+  "color": "#7d6a44",
+  "note": "周公之后，《春秋》所纪之国；前 256 年为楚所灭。",
+  "sources": [
+   "S11"
+  ]
+ },
+ {
+  "id": "qi",
+  "name": "齐",
+  "fullName": "齐（姜姓→田氏）",
+  "startYear": -769,
+  "endYear": -220,
+  "color": "#4f6b58",
+  "note": "姜齐至康公，前 386 年田和列为诸侯，田齐继之；前 221 年为秦所灭。",
+  "sources": [
+   "S11"
+  ]
+ },
+ {
   "id": "qin",
   "name": "秦",
-  "startYear": -305,
+  "fullName": "秦（嬴秦）",
+  "startYear": -769,
   "endYear": -206,
   "color": "#7a3b2e",
+  "note": "本表自秦襄公受封诸侯起纪；前 221 年嬴政并六国称皇帝，前 206 年子婴出降，秦亡。",
   "sources": [
-   "S3"
-  ],
-  "fullName": "秦（嬴秦）",
-  "note": "本表自昭襄王末年（前 306）起纪；前 221 年嬴政并六国称皇帝，前 206 年子婴出降，秦亡。"
+   "S11"
+  ]
+ },
+ {
+  "id": "song-guo",
+  "name": "宋",
+  "fullName": "宋（子姓）",
+  "startYear": -769,
+  "endYear": -285,
+  "color": "#5d5a72",
+  "note": "殷商之后，春秋襄公图霸；前 286 年为齐所灭。",
+  "sources": [
+   "S11"
+  ]
+ },
+ {
+  "id": "wei-state",
+  "name": "卫",
+  "fullName": "卫（姬姓）",
+  "startYear": -769,
+  "endYear": -208,
+  "color": "#6a5140",
+  "note": "存续至秦二世时，为诸侯中最后亡国者。",
+  "sources": [
+   "S11"
+  ]
+ },
+ {
+  "id": "yan",
+  "name": "燕",
+  "fullName": "燕（姬姓）",
+  "startYear": -769,
+  "endYear": -221,
+  "color": "#4a5c74",
+  "note": "北方诸侯，前 222 年为秦所灭。",
+  "sources": [
+   "S11"
+  ]
+ },
+ {
+  "id": "zheng",
+  "name": "郑",
+  "fullName": "郑（姬姓）",
+  "startYear": -769,
+  "endYear": -374,
+  "color": "#7a6a4f",
+  "note": "春秋初庄公小霸；前 375 年为韩所灭。",
+  "sources": [
+   "S11"
+  ]
+ },
+ {
+  "id": "zhou",
+  "name": "周",
+  "fullName": "周（东周王室）",
+  "startYear": -769,
+  "endYear": -255,
+  "color": "#6f5f4c",
+  "note": "平王东迁洛邑至赧王卒，周室仅存虚名；前 256 年为秦所灭。本表自东迁起纪，春秋战国诸侯并列于下。",
+  "sources": [
+   "S11"
+  ]
+ },
+ {
+  "id": "wu-guo",
+  "name": "吴",
+  "fullName": "吴（姬姓）",
+  "startYear": -584,
+  "endYear": -472,
+  "color": "#3f6b6b",
+  "note": "寿梦称王起纪；阖闾、夫差时争霸中原，前 473 年为越所灭。",
+  "sources": [
+   "S11"
+  ]
+ },
+ {
+  "id": "yue",
+  "name": "越",
+  "fullName": "越（姒姓）",
+  "startYear": -509,
+  "endYear": -305,
+  "color": "#4e6b45",
+  "note": "允常起纪；勾践灭吴称霸，前 306 年为楚所灭。",
+  "sources": [
+   "S11"
+  ]
+ },
+ {
+  "id": "han-ws",
+  "name": "韩",
+  "fullName": "韩（战国）",
+  "startYear": -402,
+  "endYear": -229,
+  "color": "#6b5a3e",
+  "note": "前 403 年列为诸侯；申不害相昭侯；前 230 年最先为秦所灭。",
+  "sources": [
+   "S11"
+  ]
+ },
+ {
+  "id": "wei-ws",
+  "name": "魏",
+  "fullName": "魏（战国）",
+  "startYear": -402,
+  "endYear": -224,
+  "color": "#4d5a6b",
+  "note": "前 403 年列为诸侯；文侯时李悝变法，惠王迁都大梁；前 225 年为秦所灭。",
+  "sources": [
+   "S11"
+  ]
+ },
+ {
+  "id": "zhao",
+  "name": "赵",
+  "fullName": "赵（嬴姓）",
+  "startYear": -402,
+  "endYear": -227,
+  "color": "#6b4d55",
+  "note": "前 403 年列为诸侯；武灵王胡服骑射；前 228 年为秦所灭。",
+  "sources": [
+   "S11"
+  ]
  },
  {
   "id": "western-han",
@@ -174,15 +342,6 @@
   "note": "氐族苻氏所建，都长安，394年为后秦所灭"
  },
  {
-  "id": "hou-yan",
-  "name": "后燕",
-  "fullName": "燕",
-  "startYear": 384,
-  "endYear": 407,
-  "color": "#5f6b45",
-  "note": "慕容垂复国，都中山，后迁龙城，407年为北燕所代"
- },
- {
   "id": "hou-qin",
   "name": "后秦",
   "fullName": "秦",
@@ -192,6 +351,15 @@
   "note": "羌族姚氏所建，都长安，417年为东晋所灭"
  },
  {
+  "id": "hou-yan",
+  "name": "后燕",
+  "fullName": "燕",
+  "startYear": 384,
+  "endYear": 407,
+  "color": "#5f6b45",
+  "note": "慕容垂复国，都中山，后迁龙城，407年为北燕所代"
+ },
+ {
   "id": "xi-qin",
   "name": "西秦",
   "fullName": "秦",
@@ -199,6 +367,15 @@
   "endYear": 431,
   "color": "#7f6b4f",
   "note": "鲜卑乞伏氏据苑川、枹罕，400年亡于后秦，409年复国，431年为夏所灭"
+ },
+ {
+  "id": "hou-liang",
+  "name": "后凉",
+  "fullName": "凉",
+  "startYear": 386,
+  "endYear": 403,
+  "color": "#9c7a4a",
+  "note": "氐族吕光据姑臧，403年降后秦"
  },
  {
   "id": "northern-wei",
@@ -213,13 +390,13 @@
   "note": "拓跋珪复代称魏，439 年统一北方，493 年孝文帝迁都洛阳并改姓元；534 年分裂为东西魏。"
  },
  {
-  "id": "hou-liang",
-  "name": "后凉",
+  "id": "bei-liang",
+  "name": "北凉",
   "fullName": "凉",
-  "startYear": 386,
-  "endYear": 403,
-  "color": "#9c7a4a",
-  "note": "氐族吕光据姑臧，403年降后秦"
+  "startYear": 397,
+  "endYear": 439,
+  "color": "#5a4a35",
+  "note": "卢水胡沮渠氏，初拥段业，后都张掖、姑臧，439年为北魏所灭"
  },
  {
   "id": "nan-liang",
@@ -229,15 +406,6 @@
   "endYear": 414,
   "color": "#6f7a3f",
   "note": "鲜卑秃发氏据乐都，414年为西秦所灭"
- },
- {
-  "id": "bei-liang",
-  "name": "北凉",
-  "fullName": "凉",
-  "startYear": 397,
-  "endYear": 439,
-  "color": "#5a4a35",
-  "note": "卢水胡沮渠氏，初拥段业，后都张掖、姑臧，439年为北魏所灭"
  },
  {
   "id": "nan-yan",
@@ -405,6 +573,15 @@
   "note": "902 年杨行密受唐封吴王；919 年杨隆演称吴国王，开始建年号；937 年为南唐所代。"
  },
  {
+  "id": "chu",
+  "name": "楚",
+  "fullName": "楚（马楚）",
+  "startYear": 907,
+  "endYear": 951,
+  "color": "#567a6f",
+  "note": "907 年马殷受封楚王，927 年进封楚国王；951 年为南唐所灭。"
+ },
+ {
   "id": "later-liang",
   "name": "后梁",
   "startYear": 907,
@@ -430,24 +607,6 @@
   "note": "907 年阿保机称汗建契丹，916 年建元神册、后改国号辽；1125 年保大五年二月天祚帝被金军所俘，辽亡。本表自 907 年起纪。"
  },
  {
-  "id": "wu-yue",
-  "name": "吴越",
-  "fullName": "吴越（钱氏）",
-  "startYear": 907,
-  "endYear": 978,
-  "color": "#6d9086",
-  "note": "907 年钱镠受封吴越王；978 年钱俶纳土归宋。"
- },
- {
-  "id": "chu",
-  "name": "楚",
-  "fullName": "楚（马楚）",
-  "startYear": 907,
-  "endYear": 951,
-  "color": "#567a6f",
-  "note": "907 年马殷受封楚王，927 年进封楚国王；951 年为南唐所灭。"
- },
- {
   "id": "qian-shu",
   "name": "前蜀",
   "fullName": "前蜀（王氏）",
@@ -455,6 +614,15 @@
   "endYear": 925,
   "color": "#7b8f9e",
   "note": "907 年王建称帝，国号大蜀；925 年为后唐所灭。"
+ },
+ {
+  "id": "wu-yue",
+  "name": "吴越",
+  "fullName": "吴越（钱氏）",
+  "startYear": 907,
+  "endYear": 978,
+  "color": "#6d9086",
+  "note": "907 年钱镠受封吴越王；978 年钱俶纳土归宋。"
  },
  {
   "id": "min",
@@ -549,6 +717,15 @@
   "fullName": "后汉（刘汉）"
  },
  {
+  "id": "bei-han",
+  "name": "北汉",
+  "fullName": "北汉（刘氏）",
+  "startYear": 951,
+  "endYear": 979,
+  "color": "#586a8c",
+  "note": "951 年刘旻称帝，都太原；979 年宋太宗灭北汉。"
+ },
+ {
   "id": "later-zhou",
   "name": "后周",
   "startYear": 951,
@@ -559,15 +736,6 @@
   ],
   "note": "郭威代汉建周，都开封，世宗柴荣整军经武；960 年赵匡胤陈桥兵变代周建宋。",
   "fullName": "后周（郭周）"
- },
- {
-  "id": "bei-han",
-  "name": "北汉",
-  "fullName": "北汉（刘氏）",
-  "startYear": 951,
-  "endYear": 979,
-  "color": "#586a8c",
-  "note": "951 年刘旻称帝，都太原；979 年宋太宗灭北汉。"
  },
  {
   "id": "song",

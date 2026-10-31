@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { eraRowsAtYear, eraCoverage, polities, erasByPolity, reignById } from '../lib/data';
 import YearInspector from '../components/YearInspector';
-import { eraDisplayName, eraYearLabel, ganzhiOf, formatYear } from '../lib/time';
+import { eraDisplayName, eraYearLabel, ganzhiOf, formatYear, reignLabel } from '../lib/time';
 import { orderBySouthToNorth } from '../lib/geography';
 
 interface Props {
@@ -165,7 +165,7 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
                 {labelTop !== undefined && <>
                   <svg className="era-connector" aria-hidden="true" style={{ opacity: labelOpacity }}><path d={`M ${rail + 1} ${linkY} H 34 V ${labelTop + 30} H 38`} /></svg>
                   <div className="era-label" aria-hidden={labelOpacity < 0.05} style={{ top: labelTop, opacity: labelOpacity, pointerEvents: labelOpacity < 0.1 ? 'none' : undefined }}>
-                    {ruler && <button tabIndex={labelOpacity < 0.1 ? -1 : undefined} className="segment-ruler" onClick={() => onOpenRecord('reign', ruler.id)}>{ruler.title} · {ruler.name.split('（')[0]}</button>}
+                    {ruler && <button tabIndex={labelOpacity < 0.1 ? -1 : undefined} className="segment-ruler" onClick={() => onOpenRecord('reign', ruler.id)}>{reignLabel(ruler)}</button>}
                     <button tabIndex={labelOpacity < 0.1 ? -1 : undefined} className="segment-name" onClick={() => onOpenRecord('era', e.id)}>{eraDisplayName(e.name)}{row && <span>{eraYearLabel(row.eraYearNo)}</span>}</button>
                     <span className="segment-range">{formatYear(e.startYear)}—{formatYear(e.endYear)}{e.startMonth ? ` · ${e.startMonth}月改元` : ''}{e.disputed ? ' · 异说' : e.precision === 'approx' ? ' · 约年' : ''}</span>
                   </div>

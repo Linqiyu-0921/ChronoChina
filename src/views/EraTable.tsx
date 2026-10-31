@@ -3,7 +3,7 @@
  */
 import { useState } from 'react';
 import { erasByPolity, polities, reignById, sourceShort, type EraUse } from '../lib/data';
-import { chineseNum, eraDisplayName, formatYear, ganzhiOf } from '../lib/time';
+import { chineseNum, eraDisplayName, formatYear, ganzhiOf, reignLabel } from '../lib/time';
 
 export default function EraTable({onJumpToYear}:{onJumpToYear:(year:number)=>void}) {
   const [filter, setFilter] = useState<string>('all');
@@ -21,7 +21,7 @@ export default function EraTable({onJumpToYear}:{onJumpToYear:(year:number)=>voi
       const rulers = e.reignIds
         .map((id) => reignById.get(id))
         .filter(Boolean)
-        .map((r) => `${r!.title} ${r!.name.split('（')[0]}`)
+        .map((r) => reignLabel(r!))
         .join(' → ');
       const note = [e.disputed ? '[异说] ' + (e.note ?? '') : e.note, e.endNote].filter(Boolean).join('；');
       return [
@@ -87,7 +87,7 @@ export default function EraTable({onJumpToYear}:{onJumpToYear:(year:number)=>voi
               const rulers = e.reignIds
                 .map((id) => reignById.get(id))
                 .filter(Boolean)
-                .map((r) => `${r!.title} ${r!.name.split('（')[0]}`)
+                .map((r) => reignLabel(r!))
                 .join(' → ');
               const note = [
                 e.disputed ? `[异说] ${e.note ?? ''}` : e.note,

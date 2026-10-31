@@ -121,7 +121,8 @@ npm test           # regression tests for dates, conversion, search, and dossier
 
 **Done**
 
-- full era import (62 polities / 390 rulers / 767 era names), with ganzhi cross-checked entry by entry;
+- full era import (76 polities / 708 rulers / 1,085 era names), with ganzhi cross-checked entry by entry;
+- ruler-year sequences for the fourteen Eastern Zhou states (Zhou, Jin, Qi, Chu, Yan, Lu, Song, Wei, Zheng, Wu, Yue, Zhao, Wei and Han) extended back to 770 BCE, with Qin likewise extended;
 - a full event base (5,330 entries across 2,200 years), 668 people and 162 heritage sites;
 - the Sixteen Kingdoms and Ten States, plus complete era chains for Dali, Western Xia, and Qara Khitai;
 - vertical timeline, almanac-style reading page, chronology reference, heritage, glass search, annual dossier;
@@ -158,6 +159,7 @@ Please keep the attribution **此年 · ChronoChina (Linqiyu)** when reposting o
 - Ming and Qing entries are extracted from the [Basic Annals of Mingshi and Qingshigao](https://www.gxdq.com/24shi/) (public domain; excerpts quoted);
 - a few years with no classical entry draw on the datelines of [Jiangshan Historical Atlas](https://deanchen.me/jiangshan-map/), quoted briefly with attribution and not each reverified against primary sources;
 - era spans and disputed dates checked against [Y. T. Liu's Chinese chronology tables](https://ytliu0.github.io/ChineseCalendar/era_names_simp.html);
+- Spring and Autumn and Warring States ruler years follow the [Shiji chronological tables](https://www.gxdq.com/a/1y/); a few final rulers have disputed spans;
 - era data imported from [中国历代纪元表](https://home.olemiss.edu/~gg/lidaijiy.htm);
 - heritage entries draw on the UNESCO World Heritage list and the public national key heritage register;
 - open-source dependencies: [React](https://react.dev/), [Vite](https://vite.dev/), [d3-scale](https://github.com/d3/d3-scale);
