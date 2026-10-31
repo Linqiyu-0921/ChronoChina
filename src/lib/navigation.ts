@@ -1,4 +1,5 @@
 export const PERIOD_GROUPS = [
+  { name: '春秋战国', start: -769, end: -221, ids: ['zhou', 'jin-guo', 'qi', 'chu-guo', 'yan', 'lu', 'song-guo', 'wei-state', 'zheng', 'wu-guo', 'yue', 'zhao', 'wei-ws', 'han-ws'] },
   { name: '秦汉', start: -305, end: 220, ids: ['qin', 'western-han', 'xin', 'gengshi', 'eastern-han'] },
   { name: '三国两晋', start: 220, end: 420, ids: ['wei', 'shu-han', 'wu', 'western-jin', 'eastern-jin'] },
   { name: '南北朝', start: 386, end: 589, ids: ['northern-wei', 'liu-song', 'southern-qi', 'liang', 'chen', 'eastern-wei', 'western-wei', 'northern-qi', 'northern-zhou'] },
@@ -7,6 +8,7 @@ export const PERIOD_GROUPS = [
   { name: '明清', start: 1368, end: 1911, ids: ['ming', 'southern-ming', 'qing'] },
 ];
 export const POLITY_ALIASES: Record<string, string[]> = {
+  zhou: ['zhou', '东周'], 'jin-guo': ['jinguo', '晋国'], qi: ['qiguo', '齐国'], 'chu-guo': ['chuguo', '楚国'], yan: ['yanguo', '燕国'], lu: ['luguo', '鲁国'], 'song-guo': ['songguo', '宋国'], 'wei-state': ['weiguo', '卫国'], zheng: ['zhengguo', '郑国'], 'wu-guo': ['wuguo', '吴国'], yue: ['yueguo', '越国'], zhao: ['zhaoguo', '赵国'], 'wei-ws': ['weiguo', '魏国'], 'han-ws': ['hanguo', '韩国'],
   qin: ['qin', '秦朝'], 'western-han': ['xihan'], xin: ['xin', '新朝'], gengshi: ['gengshi'], 'eastern-han': ['donghan'],
   wei: ['wei', '曹魏'], 'shu-han': ['shuhan', '蜀'], wu: ['wu', '东吴'], 'western-jin': ['xijin'], 'eastern-jin': ['dongjin'],
   'northern-wei': ['beiwei'], 'liu-song': ['liusong', '刘宋'], 'southern-qi': ['nanqi', '南齐'], liang: ['liang', '南梁'], chen: ['chen', '南陈'],

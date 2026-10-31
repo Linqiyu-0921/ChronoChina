@@ -117,7 +117,8 @@ export function sitePeriodLabel(s: Site): string {
   return s.period ?? '—';
 }
 
-export const polities = (politiesJson as unknown as Polity[]).map(p => ({ ...p, name: p.name === '宋' ? (p.startYear < 500 ? '刘宋' : '赵宋') : p.name }));
+const POLITY_ALIAS: Record<string, string> = { 'liu-song': '刘宋', song: '赵宋' };
+export const polities = (politiesJson as unknown as Polity[]).map(p => (POLITY_ALIAS[p.id] ? { ...p, name: POLITY_ALIAS[p.id] } : p));
 export const reigns = reignsJson as unknown as Reign[];
 export const eras = erasJson as unknown as EraUse[];
 export const events = [...(eventsJson as unknown as HistEvent[])].sort(
