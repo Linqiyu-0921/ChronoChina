@@ -1,620 +1,668 @@
 [
-  {
-    "id": "qin",
-    "name": "秦",
-    "startYear": -305,
-    "endYear": -206,
-    "color": "#7a3b2e",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "western-han",
-    "name": "西汉",
-    "startYear": -205,
-    "endYear": 8,
-    "color": "#5d7391",
-    "note": "汉武帝建元（前 140）以前无年号，前期纪年以在位纪年追记。",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "xin",
-    "name": "新",
-    "startYear": 9,
-    "endYear": 23,
-    "color": "#a86e32",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "gengshi",
-    "name": "更始",
-    "startYear": 23,
-    "endYear": 25,
-    "color": "#8d6a8a",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "eastern-han",
-    "name": "东汉",
-    "startYear": 25,
-    "endYear": 220,
-    "color": "#3d5a80",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "wei",
-    "name": "魏",
-    "fullName": "魏（曹魏）",
-    "startYear": 220,
-    "endYear": 265,
-    "color": "#9a4a3f",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "shu-han",
-    "name": "蜀汉",
-    "startYear": 221,
-    "endYear": 263,
-    "color": "#5d7391",
-    "note": "自承汉统，色系与汉同族。",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "wu",
-    "name": "吴",
-    "fullName": "吴（孙吴）",
-    "startYear": 222,
-    "endYear": 280,
-    "color": "#46707a",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "western-jin",
-    "name": "西晋",
-    "startYear": 265,
-    "endYear": 317,
-    "color": "#7f8a5a",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "cheng-han",
-    "name": "成汉",
-    "fullName": "成（338年改国号为汉）",
-    "startYear": 303,
-    "endYear": 347,
-    "color": "#7a6a3d",
-    "note": "巴氐李氏所建，都成都；303年李特建元建初，304年李雄称成都王，347年为东晋所灭"
-  },
-  {
-    "id": "han-zhao",
-    "name": "前赵",
-    "fullName": "汉（318年刘曜改国号为赵）",
-    "startYear": 304,
-    "endYear": 329,
-    "color": "#5e4430",
-    "note": "匈奴刘氏所建，初国号汉，都平阳，后迁长安"
-  },
-  {
-    "id": "eastern-jin",
-    "name": "东晋",
-    "startYear": 317,
-    "endYear": 420,
-    "color": "#93a06b",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "qian-liang",
-    "name": "前凉",
-    "fullName": "凉",
-    "startYear": 317,
-    "endYear": 376,
-    "color": "#6d7a4a",
-    "note": "汉族张氏据凉州，长期奉晋正朔，376年为前秦所灭"
-  },
-  {
-    "id": "hou-zhao",
-    "name": "后赵",
-    "fullName": "赵",
-    "startYear": 319,
-    "endYear": 351,
-    "color": "#a3783f",
-    "note": "羯族石勒所建，都襄国，后迁邺"
-  },
-  {
-    "id": "qian-yan",
-    "name": "前燕",
-    "fullName": "燕",
-    "startYear": 337,
-    "endYear": 370,
-    "color": "#8c7a3a",
-    "note": "鲜卑慕容皝所建，都龙城，后迁蓟、邺"
-  },
-  {
-    "id": "qian-qin",
-    "name": "前秦",
-    "fullName": "秦",
-    "startYear": 350,
-    "endYear": 394,
-    "color": "#a3823c",
-    "note": "氐族苻氏所建，都长安，394年为后秦所灭"
-  },
-  {
-    "id": "hou-yan",
-    "name": "后燕",
-    "fullName": "燕",
-    "startYear": 384,
-    "endYear": 407,
-    "color": "#5f6b45",
-    "note": "慕容垂复国，都中山，后迁龙城，407年为北燕所代"
-  },
-  {
-    "id": "hou-qin",
-    "name": "后秦",
-    "fullName": "秦",
-    "startYear": 384,
-    "endYear": 417,
-    "color": "#6a5a3f",
-    "note": "羌族姚氏所建，都长安，417年为东晋所灭"
-  },
-  {
-    "id": "xi-qin",
-    "name": "西秦",
-    "fullName": "秦",
-    "startYear": 385,
-    "endYear": 431,
-    "color": "#7f6b4f",
-    "note": "鲜卑乞伏氏据苑川、枹罕，400年亡于后秦，409年复国，431年为夏所灭"
-  },
-  {
-    "id": "northern-wei",
-    "name": "北魏",
-    "startYear": 386,
-    "endYear": 534,
-    "color": "#8a5a3c",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "hou-liang",
-    "name": "后凉",
-    "fullName": "凉",
-    "startYear": 386,
-    "endYear": 403,
-    "color": "#9c7a4a",
-    "note": "氐族吕光据姑臧，403年降后秦"
-  },
-  {
-    "id": "nan-liang",
-    "name": "南凉",
-    "fullName": "凉",
-    "startYear": 397,
-    "endYear": 414,
-    "color": "#6f7a3f",
-    "note": "鲜卑秃发氏据乐都，414年为西秦所灭"
-  },
-  {
-    "id": "bei-liang",
-    "name": "北凉",
-    "fullName": "凉",
-    "startYear": 397,
-    "endYear": 439,
-    "color": "#5a4a35",
-    "note": "卢水胡沮渠氏，初拥段业，后都张掖、姑臧，439年为北魏所灭"
-  },
-  {
-    "id": "nan-yan",
-    "name": "南燕",
-    "fullName": "燕",
-    "startYear": 398,
-    "endYear": 410,
-    "color": "#8a7a55",
-    "note": "慕容德据滑台、广固，410年为东晋刘裕所灭"
-  },
-  {
-    "id": "xi-liang",
-    "name": "西凉",
-    "fullName": "凉",
-    "startYear": 400,
-    "endYear": 421,
-    "color": "#8f7a5a",
-    "note": "汉族李氏据敦煌、酒泉，421年为北凉所灭"
-  },
-  {
-    "id": "bei-yan",
-    "name": "北燕",
-    "fullName": "燕",
-    "startYear": 407,
-    "endYear": 436,
-    "color": "#4e5f3a",
-    "note": "高云、冯跋相继，都龙城，436年为北魏所灭"
-  },
-  {
-    "id": "helian-xia",
-    "name": "夏",
-    "fullName": "夏（胡夏）",
-    "startYear": 407,
-    "endYear": 431,
-    "color": "#6f4f2a",
-    "note": "匈奴赫连勃勃所建，都统万城，431年为吐谷浑所擒而亡"
-  },
-  {
-    "id": "liu-song",
-    "name": "宋",
-    "fullName": "南朝宋",
-    "startYear": 420,
-    "endYear": 479,
-    "color": "#6f5480",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "southern-qi",
-    "name": "齐",
-    "fullName": "南朝齐",
-    "startYear": 479,
-    "endYear": 502,
-    "color": "#87639c",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "liang",
-    "name": "梁",
-    "fullName": "南朝梁",
-    "startYear": 502,
-    "endYear": 557,
-    "color": "#9c74ae",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "eastern-wei",
-    "name": "东魏",
-    "startYear": 534,
-    "endYear": 550,
-    "color": "#a06a44",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "western-wei",
-    "name": "西魏",
-    "startYear": 535,
-    "endYear": 556,
-    "color": "#7d5033",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "northern-qi",
-    "name": "北齐",
-    "startYear": 550,
-    "endYear": 577,
-    "color": "#b47c50",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "chen",
-    "name": "陈",
-    "fullName": "南朝陈",
-    "startYear": 557,
-    "endYear": 589,
-    "color": "#b08cc0",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "northern-zhou",
-    "name": "北周",
-    "startYear": 557,
-    "endYear": 581,
-    "color": "#96613d",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "sui",
-    "name": "隋",
-    "startYear": 581,
-    "endYear": 618,
-    "color": "#b03a3a",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "tang",
-    "name": "唐",
-    "startYear": 618,
-    "endYear": 907,
-    "color": "#b0722f",
-    "note": "690–705 武周（武后称帝改国号周）之年号本表系于唐纪之下，见天授条备注。",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "yang-wu",
-    "name": "吴",
-    "fullName": "吴（杨吴）",
-    "startYear": 902,
-    "endYear": 937,
-    "color": "#4f7d78",
-    "note": "902 年杨行密受唐封吴王；919 年杨隆演称吴国王，开始建年号；937 年为南唐所代。"
-  },
-  {
-    "id": "later-liang",
-    "name": "后梁",
-    "startYear": 907,
-    "endYear": 923,
-    "color": "#5a7d5a",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "liao",
-    "name": "辽",
-    "startYear": 907,
-    "endYear": 1125,
-    "color": "#7c4f31",
-    "sources": [
-      "S3"
-    ],
-    "fullName": "辽（契丹）",
-    "family": "khitan",
-    "note": "907 年阿保机称汗建契丹，916 年建元神册、后改国号辽；1125 年保大五年二月天祚帝被金军所俘，辽亡。本表自 907 年起纪。"
-  },
-  {
-    "id": "wu-yue",
-    "name": "吴越",
-    "fullName": "吴越（钱氏）",
-    "startYear": 907,
-    "endYear": 978,
-    "color": "#6d9086",
-    "note": "907 年钱镠受封吴越王；978 年钱俶纳土归宋。"
-  },
-  {
-    "id": "chu",
-    "name": "楚",
-    "fullName": "楚（马楚）",
-    "startYear": 907,
-    "endYear": 951,
-    "color": "#567a6f",
-    "note": "907 年马殷受封楚王，927 年进封楚国王；951 年为南唐所灭。"
-  },
-  {
-    "id": "qian-shu",
-    "name": "前蜀",
-    "fullName": "前蜀（王氏）",
-    "startYear": 907,
-    "endYear": 925,
-    "color": "#7b8f9e",
-    "note": "907 年王建称帝，国号大蜀；925 年为后唐所灭。"
-  },
-  {
-    "id": "min",
-    "name": "闽",
-    "fullName": "闽（王氏）",
-    "startYear": 909,
-    "endYear": 945,
-    "color": "#7d8fa6",
-    "note": "909 年王审知受封闽王；933 年王延钧称帝；943 年王延政在建州称帝，国号殷，旋改闽；945 年为南唐所灭。"
-  },
-  {
-    "id": "nan-han",
-    "name": "南汉",
-    "fullName": "南汉（刘氏）",
-    "startYear": 917,
-    "endYear": 971,
-    "color": "#3f6b73",
-    "note": "917 年刘龑称帝，国号大越，次年改国号为汉；971 年降宋。"
-  },
-  {
-    "id": "later-tang",
-    "name": "后唐",
-    "startYear": 923,
-    "endYear": 936,
-    "color": "#6b8a63",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "jing-nan",
-    "name": "荆南",
-    "fullName": "荆南（南平）",
-    "startYear": 924,
-    "endYear": 963,
-    "color": "#63857b",
-    "note": "924 年高季兴受后唐封为南平王；963 年高继冲纳土归宋。"
-  },
-  {
-    "id": "hou-shu",
-    "name": "后蜀",
-    "fullName": "后蜀（孟氏）",
-    "startYear": 934,
-    "endYear": 965,
-    "color": "#8a7a9a",
-    "note": "934 年孟知祥称帝，国号蜀；965 年孟昶降宋。"
-  },
-  {
-    "id": "later-jin",
-    "name": "后晋",
-    "startYear": 936,
-    "endYear": 947,
-    "color": "#7c9a6b",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "dali",
-    "name": "大理",
-    "fullName": "大理（段氏）",
-    "startYear": 937,
-    "endYear": 1254,
-    "color": "#6d7a56",
-    "family": "dali",
-    "precision": "approx",
-    "note": "大理君主庙号与年号纪年多系后世追记与碑刻推定，本数据集年份均为约数。"
-  },
-  {
-    "id": "nan-tang",
-    "name": "南唐",
-    "fullName": "南唐（李氏）",
-    "startYear": 937,
-    "endYear": 975,
-    "color": "#5b7f96",
-    "note": "937 年李昪代吴称帝，初国号齐，939 年复李姓、改国号唐；975 年金陵破，李煜降宋。"
-  },
-  {
-    "id": "later-han",
-    "name": "后汉",
-    "startYear": 947,
-    "endYear": 950,
-    "color": "#8fae7a",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "later-zhou",
-    "name": "后周",
-    "startYear": 951,
-    "endYear": 965,
-    "color": "#a2bf88",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "bei-han",
-    "name": "北汉",
-    "fullName": "北汉（刘氏）",
-    "startYear": 951,
-    "endYear": 979,
-    "color": "#586a8c",
-    "note": "951 年刘旻称帝，都太原；979 年宋太宗灭北汉。"
-  },
-  {
-    "id": "song",
-    "name": "宋",
-    "fullName": "北宋 → 南宋",
-    "startYear": 960,
-    "endYear": 1279,
-    "color": "#3d5a80",
-    "sources": [
-      "S3"
-    ],
-    "family": "song",
-    "note": "1127 年靖康之变后北宋亡，赵构即位建南宋；本数据集内两期连续，故合并为一轨。"
-  },
-  {
-    "id": "xia",
-    "name": "西夏",
-    "fullName": "西夏（党项）",
-    "startYear": 1032,
-    "endYear": 1227,
-    "color": "#7a5a7f",
-    "family": "xia",
-    "note": "1032 年李元昊继夏王位即建元显道，1038 年称帝建大夏；本表起讫含开国前六年纪年。"
-  },
-  {
-    "id": "jin",
-    "name": "金",
-    "startYear": 1115,
-    "endYear": 1234,
-    "color": "#44707c",
-    "sources": [
-      "S3"
-    ],
-    "fullName": "金（女真）",
-    "family": "jin"
-  },
-  {
-    "id": "karakhitai",
-    "name": "西辽",
-    "fullName": "西辽（喀喇契丹）",
-    "startYear": 1124,
-    "endYear": 1218,
-    "color": "#c29a76",
-    "family": "khitan",
-    "precision": "approx",
-    "note": "耶律大石所建，与辽同出契丹一脉，图上用同族浅赭色；开国纪年存在异说，见年号备注。"
-  },
-  {
-    "id": "yuan",
-    "name": "元",
-    "startYear": 1206,
-    "endYear": 1368,
-    "color": "#5a5f8a",
-    "note": "1206 成吉思汗建蒙古汗国（无年号纪年），1271 忽必烈定国号大元。",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "ming",
-    "name": "明",
-    "startYear": 1368,
-    "endYear": 1644,
-    "color": "#b03d30",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "qing",
-    "name": "清",
-    "fullName": "清（含后金）",
-    "startYear": 1616,
-    "endYear": 1911,
-    "color": "#3e7c82",
-    "note": "1616 努尔哈赤称汗建后金，1636 皇太极改国号为清。",
-    "sources": [
-      "S3"
-    ]
-  },
-  {
-    "id": "southern-ming",
-    "name": "南明",
-    "startYear": 1644,
-    "endYear": 1661,
-    "color": "#c25e52",
-    "sources": [
-      "S3"
-    ],
-    "family": "ming",
-    "note": "清军入关后明朝宗室在南方所建政权统称；通表未收，本站据通说补录（弘光、隆武、绍武、永历）。"
-  }
+ {
+  "id": "qin",
+  "name": "秦",
+  "startYear": -305,
+  "endYear": -206,
+  "color": "#7a3b2e",
+  "sources": [
+   "S3"
+  ],
+  "fullName": "秦（嬴秦）",
+  "note": "本表自昭襄王末年（前 306）起纪；前 221 年嬴政并六国称皇帝，前 206 年子婴出降，秦亡。"
+ },
+ {
+  "id": "western-han",
+  "name": "西汉",
+  "startYear": -205,
+  "endYear": 8,
+  "color": "#5d7391",
+  "note": "汉武帝建元（前 140）以前无年号，前期纪年以在位纪年追记。",
+  "sources": [
+   "S3"
+  ],
+  "fullName": "西汉（前汉）"
+ },
+ {
+  "id": "xin",
+  "name": "新",
+  "startYear": 9,
+  "endYear": 23,
+  "color": "#a86e32",
+  "sources": [
+   "S3"
+  ],
+  "fullName": "新（王莽）",
+  "note": "王莽代汉所建，都常安；年号始建国、天凤、地皇，23 年为绿林军所灭。"
+ },
+ {
+  "id": "gengshi",
+  "name": "更始",
+  "startYear": 23,
+  "endYear": 25,
+  "color": "#8d6a8a",
+  "sources": [
+   "S3"
+  ],
+  "fullName": "更始（刘玄）",
+  "note": "绿林军拥立刘玄为更始帝，初都宛、后迁长安；25 年为赤眉军所破。"
+ },
+ {
+  "id": "eastern-han",
+  "name": "东汉",
+  "startYear": 25,
+  "endYear": 220,
+  "color": "#3d5a80",
+  "sources": [
+   "S3"
+  ],
+  "fullName": "东汉（后汉）",
+  "note": "刘秀重建汉室，都洛阳；220 年曹丕受禅代汉。"
+ },
+ {
+  "id": "wei",
+  "name": "魏",
+  "fullName": "魏（曹魏）",
+  "startYear": 220,
+  "endYear": 265,
+  "color": "#9a4a3f",
+  "sources": [
+   "S3"
+  ],
+  "note": "曹丕受汉禅建魏，都洛阳；265 年司马炎代魏建晋。"
+ },
+ {
+  "id": "shu-han",
+  "name": "蜀汉",
+  "startYear": 221,
+  "endYear": 263,
+  "color": "#5d7391",
+  "note": "自承汉统，色系与汉同族。",
+  "sources": [
+   "S3"
+  ],
+  "fullName": "蜀汉（刘汉）"
+ },
+ {
+  "id": "wu",
+  "name": "吴",
+  "fullName": "吴（孙吴）",
+  "startYear": 222,
+  "endYear": 280,
+  "color": "#46707a",
+  "sources": [
+   "S3"
+  ],
+  "note": "孙权据江东，222 年称吴王、229 年称帝，都建业；280 年为西晋所灭。"
+ },
+ {
+  "id": "western-jin",
+  "name": "西晋",
+  "startYear": 265,
+  "endYear": 317,
+  "color": "#7f8a5a",
+  "sources": [
+   "S3"
+  ],
+  "fullName": "西晋（司马晋）",
+  "note": "司马炎代魏建晋，都洛阳；316 年长安陷落，次年在建康重建晋室，是为东晋。"
+ },
+ {
+  "id": "cheng-han",
+  "name": "成汉",
+  "fullName": "成（338年改国号为汉）",
+  "startYear": 303,
+  "endYear": 347,
+  "color": "#7a6a3d",
+  "note": "巴氐李氏所建，都成都；303年李特建元建初，304年李雄称成都王，347年为东晋所灭"
+ },
+ {
+  "id": "han-zhao",
+  "name": "前赵",
+  "fullName": "汉（318年刘曜改国号为赵）",
+  "startYear": 304,
+  "endYear": 329,
+  "color": "#5e4430",
+  "note": "匈奴刘氏所建，初国号汉，都平阳，后迁长安"
+ },
+ {
+  "id": "eastern-jin",
+  "name": "东晋",
+  "startYear": 317,
+  "endYear": 420,
+  "color": "#93a06b",
+  "sources": [
+   "S3"
+  ],
+  "fullName": "东晋",
+  "note": "司马睿于建康即位，偏安江左，与北方十六国并立；420 年刘裕受禅代晋。"
+ },
+ {
+  "id": "qian-liang",
+  "name": "前凉",
+  "fullName": "凉",
+  "startYear": 317,
+  "endYear": 376,
+  "color": "#6d7a4a",
+  "note": "汉族张氏据凉州，长期奉晋正朔，376年为前秦所灭"
+ },
+ {
+  "id": "hou-zhao",
+  "name": "后赵",
+  "fullName": "赵",
+  "startYear": 319,
+  "endYear": 351,
+  "color": "#a3783f",
+  "note": "羯族石勒所建，都襄国，后迁邺"
+ },
+ {
+  "id": "qian-yan",
+  "name": "前燕",
+  "fullName": "燕",
+  "startYear": 337,
+  "endYear": 370,
+  "color": "#8c7a3a",
+  "note": "鲜卑慕容皝所建，都龙城，后迁蓟、邺"
+ },
+ {
+  "id": "qian-qin",
+  "name": "前秦",
+  "fullName": "秦",
+  "startYear": 350,
+  "endYear": 394,
+  "color": "#a3823c",
+  "note": "氐族苻氏所建，都长安，394年为后秦所灭"
+ },
+ {
+  "id": "hou-yan",
+  "name": "后燕",
+  "fullName": "燕",
+  "startYear": 384,
+  "endYear": 407,
+  "color": "#5f6b45",
+  "note": "慕容垂复国，都中山，后迁龙城，407年为北燕所代"
+ },
+ {
+  "id": "hou-qin",
+  "name": "后秦",
+  "fullName": "秦",
+  "startYear": 384,
+  "endYear": 417,
+  "color": "#6a5a3f",
+  "note": "羌族姚氏所建，都长安，417年为东晋所灭"
+ },
+ {
+  "id": "xi-qin",
+  "name": "西秦",
+  "fullName": "秦",
+  "startYear": 385,
+  "endYear": 431,
+  "color": "#7f6b4f",
+  "note": "鲜卑乞伏氏据苑川、枹罕，400年亡于后秦，409年复国，431年为夏所灭"
+ },
+ {
+  "id": "northern-wei",
+  "name": "北魏",
+  "startYear": 386,
+  "endYear": 534,
+  "color": "#8a5a3c",
+  "sources": [
+   "S3"
+  ],
+  "fullName": "北魏（拓跋魏／元魏）",
+  "note": "拓跋珪复代称魏，439 年统一北方，493 年孝文帝迁都洛阳并改姓元；534 年分裂为东西魏。"
+ },
+ {
+  "id": "hou-liang",
+  "name": "后凉",
+  "fullName": "凉",
+  "startYear": 386,
+  "endYear": 403,
+  "color": "#9c7a4a",
+  "note": "氐族吕光据姑臧，403年降后秦"
+ },
+ {
+  "id": "nan-liang",
+  "name": "南凉",
+  "fullName": "凉",
+  "startYear": 397,
+  "endYear": 414,
+  "color": "#6f7a3f",
+  "note": "鲜卑秃发氏据乐都，414年为西秦所灭"
+ },
+ {
+  "id": "bei-liang",
+  "name": "北凉",
+  "fullName": "凉",
+  "startYear": 397,
+  "endYear": 439,
+  "color": "#5a4a35",
+  "note": "卢水胡沮渠氏，初拥段业，后都张掖、姑臧，439年为北魏所灭"
+ },
+ {
+  "id": "nan-yan",
+  "name": "南燕",
+  "fullName": "燕",
+  "startYear": 398,
+  "endYear": 410,
+  "color": "#8a7a55",
+  "note": "慕容德据滑台、广固，410年为东晋刘裕所灭"
+ },
+ {
+  "id": "xi-liang",
+  "name": "西凉",
+  "fullName": "凉",
+  "startYear": 400,
+  "endYear": 421,
+  "color": "#8f7a5a",
+  "note": "汉族李氏据敦煌、酒泉，421年为北凉所灭"
+ },
+ {
+  "id": "bei-yan",
+  "name": "北燕",
+  "fullName": "燕",
+  "startYear": 407,
+  "endYear": 436,
+  "color": "#4e5f3a",
+  "note": "高云、冯跋相继，都龙城，436年为北魏所灭"
+ },
+ {
+  "id": "helian-xia",
+  "name": "夏",
+  "fullName": "夏（胡夏）",
+  "startYear": 407,
+  "endYear": 431,
+  "color": "#6f4f2a",
+  "note": "匈奴赫连勃勃所建，都统万城，431年为吐谷浑所擒而亡"
+ },
+ {
+  "id": "liu-song",
+  "name": "宋",
+  "fullName": "南朝宋",
+  "startYear": 420,
+  "endYear": 479,
+  "color": "#6f5480",
+  "sources": [
+   "S3"
+  ],
+  "note": "刘裕代晋建宋，都建康，史称南朝宋（刘宋），与后来赵宋无涉；479 年为萧道成所代。"
+ },
+ {
+  "id": "southern-qi",
+  "name": "齐",
+  "fullName": "南朝齐",
+  "startYear": 479,
+  "endYear": 502,
+  "color": "#87639c",
+  "sources": [
+   "S3"
+  ],
+  "note": "萧道成代宋建齐，都建康；502 年萧衍起兵代齐建梁。"
+ },
+ {
+  "id": "liang",
+  "name": "梁",
+  "fullName": "南朝梁",
+  "startYear": 502,
+  "endYear": 557,
+  "color": "#9c74ae",
+  "sources": [
+   "S3"
+  ],
+  "note": "萧衍代齐建梁，都建康；侯景之乱后国势崩解，557 年为陈霸先所代。"
+ },
+ {
+  "id": "eastern-wei",
+  "name": "东魏",
+  "startYear": 534,
+  "endYear": 550,
+  "color": "#a06a44",
+  "sources": [
+   "S3"
+  ],
+  "fullName": "东魏（元氏）",
+  "note": "高欢拥立元善见，都邺，与关中的西魏对峙；550 年高洋代魏建北齐。"
+ },
+ {
+  "id": "western-wei",
+  "name": "西魏",
+  "startYear": 535,
+  "endYear": 556,
+  "color": "#7d5033",
+  "sources": [
+   "S3"
+  ],
+  "fullName": "西魏（元氏）",
+  "note": "宇文泰拥立元宝炬，都长安；557 年宇文觉代魏建北周。"
+ },
+ {
+  "id": "northern-qi",
+  "name": "北齐",
+  "startYear": 550,
+  "endYear": 577,
+  "color": "#b47c50",
+  "sources": [
+   "S3"
+  ],
+  "fullName": "北齐（高齐）",
+  "note": "高洋代东魏建齐，都邺；577 年为北周所灭。"
+ },
+ {
+  "id": "chen",
+  "name": "陈",
+  "fullName": "南朝陈",
+  "startYear": 557,
+  "endYear": 589,
+  "color": "#b08cc0",
+  "sources": [
+   "S3"
+  ],
+  "note": "陈霸先代梁建陈，都建康，为南朝最后一朝；589 年隋军渡江，陈亡，南北重归一统。"
+ },
+ {
+  "id": "northern-zhou",
+  "name": "北周",
+  "startYear": 557,
+  "endYear": 581,
+  "color": "#96613d",
+  "sources": [
+   "S3"
+  ],
+  "fullName": "北周（宇文周）",
+  "note": "宇文觉代西魏建周，都长安；577 年灭北齐，581 年杨坚受禅代周。"
+ },
+ {
+  "id": "sui",
+  "name": "隋",
+  "startYear": 581,
+  "endYear": 618,
+  "color": "#b03a3a",
+  "sources": [
+   "S3"
+  ],
+  "fullName": "隋（杨隋）",
+  "note": "杨坚代周建隋，589 年灭陈统一南北；618 年炀帝遇弑，隋亡。"
+ },
+ {
+  "id": "tang",
+  "name": "唐",
+  "startYear": 618,
+  "endYear": 907,
+  "color": "#b0722f",
+  "note": "690–705 武周（武后称帝改国号周）之年号本表系于唐纪之下，见天授条备注。",
+  "sources": [
+   "S3"
+  ],
+  "fullName": "唐（李唐）"
+ },
+ {
+  "id": "yang-wu",
+  "name": "吴",
+  "fullName": "吴（杨吴）",
+  "startYear": 902,
+  "endYear": 937,
+  "color": "#4f7d78",
+  "note": "902 年杨行密受唐封吴王；919 年杨隆演称吴国王，开始建年号；937 年为南唐所代。"
+ },
+ {
+  "id": "later-liang",
+  "name": "后梁",
+  "startYear": 907,
+  "endYear": 923,
+  "color": "#5a7d5a",
+  "sources": [
+   "S3"
+  ],
+  "note": "朱温代唐建梁，都开封，与河东李氏对峙；923 年为后唐所灭，五代自此更迭。",
+  "fullName": "后梁（朱梁）"
+ },
+ {
+  "id": "liao",
+  "name": "辽",
+  "startYear": 907,
+  "endYear": 1125,
+  "color": "#7c4f31",
+  "sources": [
+   "S3"
+  ],
+  "fullName": "辽（契丹）",
+  "family": "khitan",
+  "note": "907 年阿保机称汗建契丹，916 年建元神册、后改国号辽；1125 年保大五年二月天祚帝被金军所俘，辽亡。本表自 907 年起纪。"
+ },
+ {
+  "id": "wu-yue",
+  "name": "吴越",
+  "fullName": "吴越（钱氏）",
+  "startYear": 907,
+  "endYear": 978,
+  "color": "#6d9086",
+  "note": "907 年钱镠受封吴越王；978 年钱俶纳土归宋。"
+ },
+ {
+  "id": "chu",
+  "name": "楚",
+  "fullName": "楚（马楚）",
+  "startYear": 907,
+  "endYear": 951,
+  "color": "#567a6f",
+  "note": "907 年马殷受封楚王，927 年进封楚国王；951 年为南唐所灭。"
+ },
+ {
+  "id": "qian-shu",
+  "name": "前蜀",
+  "fullName": "前蜀（王氏）",
+  "startYear": 907,
+  "endYear": 925,
+  "color": "#7b8f9e",
+  "note": "907 年王建称帝，国号大蜀；925 年为后唐所灭。"
+ },
+ {
+  "id": "min",
+  "name": "闽",
+  "fullName": "闽（王氏）",
+  "startYear": 909,
+  "endYear": 945,
+  "color": "#7d8fa6",
+  "note": "909 年王审知受封闽王；933 年王延钧称帝；943 年王延政在建州称帝，国号殷，旋改闽；945 年为南唐所灭。"
+ },
+ {
+  "id": "nan-han",
+  "name": "南汉",
+  "fullName": "南汉（刘氏）",
+  "startYear": 917,
+  "endYear": 971,
+  "color": "#3f6b73",
+  "note": "917 年刘龑称帝，国号大越，次年改国号为汉；971 年降宋。"
+ },
+ {
+  "id": "later-tang",
+  "name": "后唐",
+  "startYear": 923,
+  "endYear": 936,
+  "color": "#6b8a63",
+  "sources": [
+   "S3"
+  ],
+  "note": "李存勖灭梁建唐，都洛阳；936 年石敬瑭借契丹兵南下，后唐亡。",
+  "fullName": "后唐（沙陀李氏）"
+ },
+ {
+  "id": "jing-nan",
+  "name": "荆南",
+  "fullName": "荆南（南平）",
+  "startYear": 924,
+  "endYear": 963,
+  "color": "#63857b",
+  "note": "924 年高季兴受后唐封为南平王；963 年高继冲纳土归宋。"
+ },
+ {
+  "id": "hou-shu",
+  "name": "后蜀",
+  "fullName": "后蜀（孟氏）",
+  "startYear": 934,
+  "endYear": 965,
+  "color": "#8a7a9a",
+  "note": "934 年孟知祥称帝，国号蜀；965 年孟昶降宋。"
+ },
+ {
+  "id": "later-jin",
+  "name": "后晋",
+  "startYear": 936,
+  "endYear": 947,
+  "color": "#7c9a6b",
+  "sources": [
+   "S3"
+  ],
+  "note": "石敬瑭以割燕云十六州、称儿皇帝为条件借契丹兵建晋，都开封；947 年为契丹所灭。",
+  "fullName": "后晋（石晋）"
+ },
+ {
+  "id": "dali",
+  "name": "大理",
+  "fullName": "大理（段氏）",
+  "startYear": 937,
+  "endYear": 1254,
+  "color": "#6d7a56",
+  "family": "dali",
+  "precision": "approx",
+  "note": "大理君主庙号与年号纪年多系后世追记与碑刻推定，本数据集年份均为约数。"
+ },
+ {
+  "id": "nan-tang",
+  "name": "南唐",
+  "fullName": "南唐（李氏）",
+  "startYear": 937,
+  "endYear": 975,
+  "color": "#5b7f96",
+  "note": "937 年李昪代吴称帝，初国号齐，939 年复李姓、改国号唐；975 年金陵破，李煜降宋。"
+ },
+ {
+  "id": "later-han",
+  "name": "后汉",
+  "startYear": 947,
+  "endYear": 950,
+  "color": "#8fae7a",
+  "sources": [
+   "S3"
+  ],
+  "note": "刘知远乘契丹北撤称帝建汉，都开封；950 年郭威兵变，次年代汉建周。",
+  "fullName": "后汉（刘汉）"
+ },
+ {
+  "id": "later-zhou",
+  "name": "后周",
+  "startYear": 951,
+  "endYear": 965,
+  "color": "#a2bf88",
+  "sources": [
+   "S3"
+  ],
+  "note": "郭威代汉建周，都开封，世宗柴荣整军经武；960 年赵匡胤陈桥兵变代周建宋。",
+  "fullName": "后周（郭周）"
+ },
+ {
+  "id": "bei-han",
+  "name": "北汉",
+  "fullName": "北汉（刘氏）",
+  "startYear": 951,
+  "endYear": 979,
+  "color": "#586a8c",
+  "note": "951 年刘旻称帝，都太原；979 年宋太宗灭北汉。"
+ },
+ {
+  "id": "song",
+  "name": "宋",
+  "fullName": "北宋 → 南宋",
+  "startYear": 960,
+  "endYear": 1279,
+  "color": "#3d5a80",
+  "sources": [
+   "S3"
+  ],
+  "family": "song",
+  "note": "1127 年靖康之变后北宋亡，赵构即位建南宋；本数据集内两期连续，故合并为一轨。"
+ },
+ {
+  "id": "xia",
+  "name": "西夏",
+  "fullName": "西夏（党项）",
+  "startYear": 1032,
+  "endYear": 1227,
+  "color": "#7a5a7f",
+  "family": "xia",
+  "note": "1032 年李元昊继夏王位即建元显道，1038 年称帝建大夏；本表起讫含开国前六年纪年。"
+ },
+ {
+  "id": "jin",
+  "name": "金",
+  "startYear": 1115,
+  "endYear": 1234,
+  "color": "#44707c",
+  "sources": [
+   "S3"
+  ],
+  "fullName": "金（女真）",
+  "family": "jin",
+  "note": "完颜阿骨打建金，1125 年灭辽、1127 年灭北宋，与南宋对峙；1234 年为蒙古与南宋联军所灭。"
+ },
+ {
+  "id": "karakhitai",
+  "name": "西辽",
+  "fullName": "西辽（喀喇契丹）",
+  "startYear": 1124,
+  "endYear": 1218,
+  "color": "#c29a76",
+  "family": "khitan",
+  "precision": "approx",
+  "note": "耶律大石所建，与辽同出契丹一脉，图上用同族浅赭色；开国纪年存在异说，见年号备注。"
+ },
+ {
+  "id": "yuan",
+  "name": "元",
+  "startYear": 1206,
+  "endYear": 1368,
+  "color": "#5a5f8a",
+  "note": "1206 成吉思汗建蒙古汗国（无年号纪年），1271 忽必烈定国号大元。",
+  "sources": [
+   "S3"
+  ],
+  "fullName": "元（蒙古）"
+ },
+ {
+  "id": "ming",
+  "name": "明",
+  "startYear": 1368,
+  "endYear": 1644,
+  "color": "#b03d30",
+  "sources": [
+   "S3"
+  ],
+  "fullName": "明（朱明）",
+  "note": "朱元璋应天称帝，1421 年成祖迁都北京；1644 年李自成破北京，崇祯帝自尽，明亡。"
+ },
+ {
+  "id": "qing",
+  "name": "清",
+  "fullName": "清（含后金）",
+  "startYear": 1616,
+  "endYear": 1911,
+  "color": "#3e7c82",
+  "note": "1616 努尔哈赤称汗建后金，1636 皇太极改国号为清。",
+  "sources": [
+   "S3"
+  ]
+ },
+ {
+  "id": "southern-ming",
+  "name": "南明",
+  "startYear": 1644,
+  "endYear": 1661,
+  "color": "#c25e52",
+  "sources": [
+   "S3"
+  ],
+  "family": "ming",
+  "note": "清军入关后明朝宗室在南方所建政权统称；通表未收，本站据通说补录（弘光、隆武、绍武、永历）。",
+  "fullName": "南明（弘光、隆武、永历等）"
+ }
 ]

@@ -69,7 +69,7 @@ Open it as is, or run it locally (see [Getting started](#getting-started)) if yo
 - **Search** — `Ctrl / ⌘ + K`: empty means browse by period and regime, and a click jumps to the founding year with the comparison window kept; typing searches years (`1127`, `前221`), era names (`建炎元年`, `绍兴`), ganzhi (`丁未`), person aliases (`秦始皇`), and regime pinyin (`donghan`).
 - **Annual dossier** — a floating record you can drag, resize on all eight handles, fade, or dock to the side; it follows the current year.
 - **Chronology reference** — polities, rulers, era names, spans, ganzhi, months of change, disputes, and sources in one table, filterable and exportable to CSV.
-- **Heritage** — 82 selected sites, filterable by category / dynasty / keyword, each linking back to its founding year.
+- **Heritage** — 162 selected sites, filterable by category / dynasty / keyword, each linking back to its founding year.
 - **Themes** — paper white and ink-black with gold share a single layout; only the paper changes, never the grid. Your choice is remembered.
 - **Keyboard and accessibility** — a "skip to content" link leads straight to the main view; `Esc` closes the search or the dossier and returns focus; search is a `combobox` navigable with arrow keys.
 
@@ -122,7 +122,7 @@ npm test           # regression tests for dates, conversion, search, and dossier
 **Done**
 
 - full era import (62 polities / 390 rulers / 767 era names), with ganzhi cross-checked entry by entry;
-- a full event base (3,209 entries across 2,200 years, including the birth and death of 399 people);
+- a full event base (5,330 entries across 2,200 years), 668 people and 162 heritage sites;
 - the Sixteen Kingdoms and Ten States, plus complete era chains for Dali, Western Xia, and Qara Khitai;
 - vertical timeline, almanac-style reading page, chronology reference, heritage, glass search, annual dossier;
 - the dynasty browser folded into the search palette, matching light and dark layouts, data validation and regression tests.

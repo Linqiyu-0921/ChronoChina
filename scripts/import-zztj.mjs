@@ -233,8 +233,8 @@ function splitBlocks(html, lastYear) {
   return blocks;
 }
 
-/** 每年挑一条：把长段拆成句，按关键词与具体性打分，避开套语 */
-function pick(block) {
+/** 每年挑两条：把长段拆成句，按关键词与具体性打分，避开套语与近重复 */
+function pickAll(block, max = 2) {
   const NOISE = /^(臣光曰|太史公曰|论曰|史臣曰|或谓|初，|先是|至是|于是|是月|是岁|是时|是年|是日|明日|既而|俄而|会|异父弟|同父弟|之同母弟|免责声明|本站|版权|广告|联系|举报|上一[章页]|下一[章页]|全站|收藏)|曰：\s*["“]|[：:]\s*["“]/;
   const DANGLING = /^(?:[”」』）】]|[，,、；;：:]|而|乃|遂|因|寻|俄|复|又|仍|却|大怒)/;
   const balanced = (s) => ((s.match(/[“”]/g) ?? []).length % 2 === 0);
@@ -252,11 +252,19 @@ function pick(block) {
         + (/[。]$/.test(s) ? 1 : 0),
     }))
     .sort((a, b) => b.score - a.score || a.s.length - b.s.length);
-  if (!cands.length) return null;
-  const body = cands[0].s.replace(/[。！？]$/, '');
-  const summary = body.length > 60 ? body.slice(0, 59) + '…' : body;
-  const cut = body.length <= 24 ? body : (body.slice(0, 24).match(/^[\s\S]*[，,、：:；]/)?.[0].replace(/[，,、：:；]$/, '') ?? body.slice(0, 23) + '…');
-  return { title: cut, summary };
+  const picked = [];
+  for (const { s, score } of cands) {
+    // 第二条只在有明显事项时补，避免凑数的日常奏议
+    if (picked.length && score < 3) continue;
+    const body = s.replace(/[。！？]$/, '');
+    // 同一件事常因分句被拆开，按前八字判重
+    if (picked.some((p) => p.body.slice(0, 8) === body.slice(0, 8))) continue;
+    const summary = body.length > 60 ? body.slice(0, 59) + '…' : body;
+    const cut = body.length <= 24 ? body : (body.slice(0, 24).match(/^[\s\S]*[，,、：:；]/)?.[0].replace(/[，,、：:；]$/, '') ?? body.slice(0, 23) + '…');
+    picked.push({ body, title: cut, summary });
+    if (picked.length >= max) break;
+  }
+  return picked;
 }
 
 const CATS = [
@@ -310,38 +318,45 @@ for (const [i, ch] of chapters.entries()) {
   for (const block of blocks) {
     if (block.year < YEAR_MIN || block.year > YEAR_MAX) continue;
     if (byYear.has(block.year)) continue;
-    const picked = pick(block);
-    if (!picked) { if (process.env.DEBUG_PICK) console.log('nopick', block.year, block.lines.length, (block.lines[0] ?? '').slice(0, 50)); continue; }
+    const picked = pickAll(block);
+    if (!picked.length) { if (process.env.DEBUG_PICK) console.log('nopick', block.year, block.lines.length, (block.lines[0] ?? '').slice(0, 50)); continue; }
     lastYear = block.year;
-    byYear.set(block.year, {
-      id: `${BOOK.prefix}-${block.year}-01`,
+    byYear.set(block.year, picked.map((p, index) => ({
+      id: `${BOOK.prefix}-${block.year}-${String(index + 1).padStart(2, '0')}`,
       year: block.year,
-      title: picked.title,
-      categories: classify(picked.summary),
+      title: p.title,
+      categories: classify(p.summary),
       polityIds: activeAt(block.year),
-      summary: picked.summary,
+      summary: p.summary,
       sources: [BOOK.source],
-    });
+    })));
   }
 }
 
-const out = [...byYear.values()].sort((a, b) => a.year - b.year);
+const out = [...byYear.values()].flat().sort((a, b) => a.year - b.year || a.id.localeCompare(b.id));
 
-// 合并进 curated/events.json：只补目前没有事件的年份，可重复执行
+// 合并进 curated/events.json：每年最多两条史事，可重复执行
 const curatedPath = join(ROOT, 'data/curated/events.json');
 const eventsPath = join(ROOT, 'data/events.json');
 const curated = JSON.parse(readFileSync(curatedPath, 'utf8')).filter((e) => !String(e.id).startsWith(`${BOOK.prefix}-`));
-// 人物生卒（p-）只标年份，不算当年已有史事，仍可补一条
-const covered = new Set(
-  JSON.parse(readFileSync(eventsPath, 'utf8'))
-    .filter((e) => !String(e.id).startsWith(`${BOOK.prefix}-`) && !String(e.id).startsWith('p-'))
-    .map((e) => e.year),
-);
-const filled = out.filter((e) => !covered.has(e.year));
+// 人物生卒（p-）只标年份，不算当年已有史事
+const counts = new Map();
+for (const e of JSON.parse(readFileSync(eventsPath, 'utf8'))) {
+  const id = String(e.id);
+  if (id.startsWith(`${BOOK.prefix}-`) || id.startsWith('p-')) continue;
+  counts.set(e.year, (counts.get(e.year) ?? 0) + 1);
+}
+const filled = [];
+for (const e of out) {
+  const c = counts.get(e.year) ?? 0;
+  if (c >= 2) continue;
+  filled.push(e);
+  counts.set(e.year, c + 1);
+}
 const merged = [...curated, ...filled].sort((a, b) => a.year - b.year || (a.month ?? 13) - (b.month ?? 13));
 writeFileSync(curatedPath, JSON.stringify(merged, null, 1) + '\n');
-console.log(`并入 curated：补空白年 ${filled.length} 条（原 ${curated.length} → ${merged.length}），其余年已有事件保持不动`);
+console.log(`并入 curated：补 ${filled.length} 条（原 ${curated.length} → ${merged.length}），每年最多两条`);
 writeFileSync(OUT, JSON.stringify(out, null, 1) + '\n');
 const years = out.map((e) => e.year);
 console.log(`抓取 ${crawled} 卷（缓存 ${cachedChapters}），失败 ${failed}，id 前缀 ${BOOK.prefix}`);
-console.log(`抽出 ${out.length} 年（${years.length ? `${years[0]}—${years[years.length - 1]}` : '空'}）→ data/curated/${BOOK.dir}.json`);
+console.log(`抽出 ${out.length} 条 / ${new Set(years).size} 年（${years.length ? `${years[0]}—${years[years.length - 1]}` : '空'}）→ data/curated/${BOOK.dir}.json`);

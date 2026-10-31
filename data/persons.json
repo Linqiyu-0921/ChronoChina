@@ -4382,5 +4382,2920 @@
   ],
   "field": "政治",
   "summary": "历官两广云贵，主持编刻《十三经注疏》《皇清经解》。"
+ },
+ {
+  "id": "p-baiqi",
+  "name": "白起",
+  "birth": -331,
+  "death": -256,
+  "polityIds": [
+   "qin"
+  ],
+  "field": "军事",
+  "summary": "秦国名将，伊阙、长平之战前后斩首数十万，后为秦昭王赐死。"
+ },
+ {
+  "id": "p-zouyan",
+  "name": "邹衍",
+  "birth": -323,
+  "death": -249,
+  "polityIds": [],
+  "field": "思想",
+  "summary": "阴阳家代表，倡五德终始说，深刻影响后世王朝更替论。"
+ },
+ {
+  "id": "p-hanfei",
+  "name": "韩非",
+  "birth": -279,
+  "death": -232,
+  "polityIds": [],
+  "field": "思想",
+  "summary": "法家集大成者，著《韩非子》，入秦后为李斯所害。"
+ },
+ {
+  "id": "p-fanzeng",
+  "name": "范增",
+  "birth": -277,
+  "death": -203,
+  "polityIds": [],
+  "field": "政治",
+  "summary": "项羽谋主，鸿门宴劝杀刘邦未果，后辞归途中病卒。"
+ },
+ {
+  "id": "p-jiaxu",
+  "name": "贾诩",
+  "birth": 147,
+  "death": 223,
+  "polityIds": [
+   "wei"
+  ],
+  "field": "政治",
+  "summary": "曹操谋士，善审时度势，人称毒士。"
+ },
+ {
+  "id": "p-zhangzhongjing",
+  "name": "张仲景",
+  "birth": 150,
+  "death": 219,
+  "polityIds": [
+   "eastern-han"
+  ],
+  "field": "医学",
+  "summary": "东汉医家，著《伤寒杂病论》，被尊为医圣。"
+ },
+ {
+  "id": "p-zhangzhao",
+  "name": "张昭",
+  "birth": 156,
+  "death": 236,
+  "polityIds": [
+   "wu"
+  ],
+  "field": "政治",
+  "summary": "东吴重臣，孙策托孤之臣。"
+ },
+ {
+  "id": "p-xunyou",
+  "name": "荀攸",
+  "birth": 157,
+  "death": 214,
+  "polityIds": [
+   "wei"
+  ],
+  "field": "政治",
+  "summary": "曹操谋主，官渡、白马诸战多出其谋。"
+ },
+ {
+  "id": "p-taishici",
+  "name": "太史慈",
+  "birth": 166,
+  "death": 206,
+  "polityIds": [
+   "wu"
+  ],
+  "field": "军事",
+  "summary": "东吴名将，弓马娴熟。"
+ },
+ {
+  "id": "p-zhangliao",
+  "name": "张辽",
+  "birth": 169,
+  "death": 222,
+  "polityIds": [
+   "wei"
+  ],
+  "field": "军事",
+  "summary": "曹魏名将，逍遥津之战以少破众。"
+ },
+ {
+  "id": "p-machao",
+  "name": "马超",
+  "birth": 176,
+  "death": 222,
+  "polityIds": [
+   "shu-han"
+  ],
+  "field": "军事",
+  "summary": "蜀汉名将，西凉起兵，后归刘备。"
+ },
+ {
+  "id": "p-fazheng",
+  "name": "法正",
+  "birth": 176,
+  "death": 220,
+  "polityIds": [
+   "shu-han"
+  ],
+  "field": "政治",
+  "summary": "刘备谋主，助取益州、汉中。"
+ },
+ {
+  "id": "p-pangtong",
+  "name": "庞统",
+  "birth": 179,
+  "death": 214,
+  "polityIds": [
+   "shu-han"
+  ],
+  "field": "政治",
+  "summary": "号凤雏，刘备入蜀谋主，中流矢卒。"
+ },
+ {
+  "id": "p-changqu",
+  "name": "常璩",
+  "birth": 291,
+  "death": 361,
+  "polityIds": [
+   "cheng-han"
+  ],
+  "field": "史学",
+  "summary": "东晋史家，著《华阳国志》。"
+ },
+ {
+  "id": "p-wangxianzhi",
+  "name": "王献之",
+  "birth": 344,
+  "death": 386,
+  "polityIds": [
+   "eastern-jin"
+  ],
+  "field": "艺术",
+  "summary": "王羲之之子，行草大家，与父并称二王。"
+ },
+ {
+  "id": "p-peisongzhi",
+  "name": "裴松之",
+  "birth": 372,
+  "death": 451,
+  "polityIds": [
+   "liu-song"
+  ],
+  "field": "史学",
+  "summary": "南朝宋史家，奉诏注《三国志》，补遗考异。"
+ },
+ {
+  "id": "p-jiangyan",
+  "name": "江淹",
+  "birth": 444,
+  "death": 505,
+  "polityIds": [
+   "liang"
+  ],
+  "field": "文学",
+  "summary": "南朝文学家，《恨赋》《别赋》作者，江郎才尽典故所本。"
+ },
+ {
+  "id": "p-fanzhen",
+  "name": "范缜",
+  "birth": 450,
+  "death": 515,
+  "polityIds": [
+   "liang"
+  ],
+  "field": "思想",
+  "summary": "南朝梁思想家，著《神灭论》，主张形神相即。"
+ },
+ {
+  "id": "p-xietiao",
+  "name": "谢朓",
+  "birth": 464,
+  "death": 499,
+  "polityIds": [
+   "southern-qi"
+  ],
+  "field": "文学",
+  "summary": "南齐诗人，山水诗名家，与谢灵运并称大小谢。"
+ },
+ {
+  "id": "p-heruobi",
+  "name": "贺若弼",
+  "birth": 544,
+  "death": 607,
+  "polityIds": [
+   "sui"
+  ],
+  "field": "军事",
+  "summary": "隋灭陈名将，献平陈十策。"
+ },
+ {
+  "id": "p-shiwansui",
+  "name": "史万岁",
+  "birth": 549,
+  "death": 600,
+  "polityIds": [
+   "sui"
+  ],
+  "field": "军事",
+  "summary": "隋朝名将，以勇武著称。"
+ },
+ {
+  "id": "p-doujiande",
+  "name": "窦建德",
+  "birth": 573,
+  "death": 621,
+  "polityIds": [],
+  "field": "政治",
+  "summary": "河北义军首领，建夏国，虎牢关兵败。"
+ },
+ {
+  "id": "p-limi",
+  "name": "李密",
+  "birth": 582,
+  "death": 619,
+  "polityIds": [],
+  "field": "政治",
+  "summary": "瓦岗军首领，一度拥众数十万。"
+ },
+ {
+  "id": "p-yuchigong",
+  "name": "尉迟恭",
+  "birth": 585,
+  "death": 658,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "军事",
+  "summary": "玄武门之变功臣，后世门神之一。"
+ },
+ {
+  "id": "p-liji",
+  "name": "李勣",
+  "birth": 594,
+  "death": 669,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "军事",
+  "summary": "本名徐世勣，唐初名将，灭东突厥、高句丽。"
+ },
+ {
+  "id": "p-daoxuan",
+  "name": "道宣",
+  "birth": 596,
+  "death": 667,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "宗教",
+  "summary": "唐代律宗高僧，著《续高僧传》。"
+ },
+ {
+  "id": "p-shandao",
+  "name": "善导",
+  "birth": 613,
+  "death": 681,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "宗教",
+  "summary": "唐代净土宗大师。"
+ },
+ {
+  "id": "p-xuerengui",
+  "name": "薛仁贵",
+  "birth": 614,
+  "death": 683,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "军事",
+  "summary": "唐初名将，三箭定天山。"
+ },
+ {
+  "id": "p-fazang",
+  "name": "法藏",
+  "birth": 643,
+  "death": 712,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "宗教",
+  "summary": "唐代华严宗三祖，为武则天讲《华严》。"
+ },
+ {
+  "id": "p-wangbo",
+  "name": "王勃",
+  "birth": 650,
+  "death": 676,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "文学",
+  "summary": "初唐四杰之首，《滕王阁序》作者。"
+ },
+ {
+  "id": "p-chenziang",
+  "name": "陈子昂",
+  "birth": 661,
+  "death": 702,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "文学",
+  "summary": "初唐诗人，倡汉魏风骨，《登幽州台歌》传世。"
+ },
+ {
+  "id": "p-wangtao-yi",
+  "name": "王焘",
+  "birth": 670,
+  "death": 755,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "医学",
+  "summary": "唐代医家，著《外台秘要》。"
+ },
+ {
+  "id": "p-menghaoran",
+  "name": "孟浩然",
+  "birth": 689,
+  "death": 740,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "文学",
+  "summary": "盛唐山水田园诗人。"
+ },
+ {
+  "id": "p-wangchangling",
+  "name": "王昌龄",
+  "birth": 698,
+  "death": 757,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "文学",
+  "summary": "盛唐边塞诗人，七绝圣手。"
+ },
+ {
+  "id": "p-gaoshi",
+  "name": "高适",
+  "birth": 704,
+  "death": 765,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "文学",
+  "summary": "盛唐边塞诗人，官至淮南、剑南节度使。"
+ },
+ {
+  "id": "p-zhanran",
+  "name": "湛然",
+  "birth": 711,
+  "death": 782,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "宗教",
+  "summary": "唐代天台宗九祖，中兴天台。"
+ },
+ {
+  "id": "p-cencan",
+  "name": "岑参",
+  "birth": 715,
+  "death": 770,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "文学",
+  "summary": "盛唐边塞诗人。"
+ },
+ {
+  "id": "p-lisheng",
+  "name": "李晟",
+  "birth": 727,
+  "death": 793,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "军事",
+  "summary": "唐代名将，平定朱泚之乱，收复长安。"
+ },
+ {
+  "id": "p-hunjian",
+  "name": "浑瑊",
+  "birth": 736,
+  "death": 800,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "军事",
+  "summary": "唐代名将，奉天保卫战。"
+ },
+ {
+  "id": "p-huaisu",
+  "name": "怀素",
+  "birth": 737,
+  "death": 799,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "艺术",
+  "summary": "唐代草书僧，以狂草名世。"
+ },
+ {
+  "id": "p-liugongquan",
+  "name": "柳公权",
+  "birth": 778,
+  "death": 865,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "艺术",
+  "summary": "唐代书法家，楷书骨力遒劲，与颜真卿并称颜筋柳骨。"
+ },
+ {
+  "id": "p-zongmi",
+  "name": "宗密",
+  "birth": 780,
+  "death": 841,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "宗教",
+  "summary": "唐代华严宗五祖，兼弘禅教一致。"
+ },
+ {
+  "id": "p-lihe",
+  "name": "李贺",
+  "birth": 790,
+  "death": 816,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "文学",
+  "summary": "中唐诗人，想象奇诡，号诗鬼。"
+ },
+ {
+  "id": "p-wentingyun",
+  "name": "温庭筠",
+  "birth": 812,
+  "death": 870,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "文学",
+  "summary": "晚唐词人，花间派鼻祖。"
+ },
+ {
+  "id": "p-luoyin",
+  "name": "罗隐",
+  "birth": 833,
+  "death": 909,
+  "polityIds": [
+   "wu-yue"
+  ],
+  "field": "文学",
+  "summary": "晚唐诗人，十上不第，投钱镠。"
+ },
+ {
+  "id": "p-weizhuang",
+  "name": "韦庄",
+  "birth": 836,
+  "death": 910,
+  "polityIds": [
+   "qian-shu"
+  ],
+  "field": "文学",
+  "summary": "晚唐五代词人，花间派代表。"
+ },
+ {
+  "id": "p-yangxingmi",
+  "name": "杨行密",
+  "birth": 852,
+  "death": 905,
+  "polityIds": [
+   "yang-wu"
+  ],
+  "field": "政治",
+  "summary": "杨吴奠基者，据淮南。"
+ },
+ {
+  "id": "p-gaoconghui",
+  "name": "高从诲",
+  "birth": 891,
+  "death": 948,
+  "polityIds": [
+   "jing-nan"
+  ],
+  "field": "政治",
+  "summary": "荆南（南平）君主，以事大求存。"
+ },
+ {
+  "id": "p-wangyan",
+  "name": "王衍",
+  "birth": 899,
+  "death": 926,
+  "polityIds": [
+   "qian-shu"
+  ],
+  "field": "政治",
+  "summary": "前蜀后主，荒嬉亡国。"
+ },
+ {
+  "id": "p-hanxizai",
+  "name": "韩熙载",
+  "birth": 902,
+  "death": 970,
+  "polityIds": [
+   "nan-tang"
+  ],
+  "field": "政治",
+  "summary": "南唐名臣，《韩熙载夜宴图》主角。"
+ },
+ {
+  "id": "p-fengyansi",
+  "name": "冯延巳",
+  "birth": 903,
+  "death": 960,
+  "polityIds": [
+   "nan-tang"
+  ],
+  "field": "文学",
+  "summary": "南唐词人，官至宰相，开北宋婉约先声。"
+ },
+ {
+  "id": "p-guowei",
+  "name": "郭威",
+  "birth": 904,
+  "death": 954,
+  "polityIds": [
+   "later-zhou"
+  ],
+  "field": "政治",
+  "summary": "后周太祖，代汉建周，革除积弊。"
+ },
+ {
+  "id": "p-lijing",
+  "name": "李璟",
+  "birth": 916,
+  "death": 961,
+  "polityIds": [
+   "nan-tang"
+  ],
+  "field": "文学",
+  "summary": "南唐中主，词人。"
+ },
+ {
+  "id": "p-licheng",
+  "name": "李成",
+  "birth": 919,
+  "death": 967,
+  "polityIds": [
+   "song"
+  ],
+  "field": "艺术",
+  "summary": "五代宋初山水画家，与关仝、范宽并称三家。"
+ },
+ {
+  "id": "p-mengchang",
+  "name": "孟昶",
+  "birth": 919,
+  "death": 965,
+  "polityIds": [
+   "hou-shu"
+  ],
+  "field": "政治",
+  "summary": "后蜀后主，降宋，花蕊夫人之夫。"
+ },
+ {
+  "id": "p-liucheng",
+  "name": "刘晟",
+  "birth": 920,
+  "death": 958,
+  "polityIds": [
+   "nan-han"
+  ],
+  "field": "政治",
+  "summary": "南汉中宗，据岭南称帝。"
+ },
+ {
+  "id": "p-qianhongchu",
+  "name": "钱弘俶",
+  "birth": 929,
+  "death": 988,
+  "polityIds": [
+   "wu-yue"
+  ],
+  "field": "政治",
+  "summary": "吴越末王，纳土归宋。"
+ },
+ {
+  "id": "p-yangyanzhao",
+  "name": "杨延昭",
+  "birth": 958,
+  "death": 1014,
+  "polityIds": [
+   "song"
+  ],
+  "field": "军事",
+  "summary": "杨业之子，镇守河北边关，人称杨六郎。"
+ },
+ {
+  "id": "p-zhangboduan",
+  "name": "张伯端",
+  "birth": 983,
+  "death": 1082,
+  "polityIds": [
+   "song"
+  ],
+  "field": "宗教",
+  "summary": "北宋道士，著《悟真篇》，金丹南宗始祖。"
+ },
+ {
+  "id": "p-liuyong",
+  "name": "柳永",
+  "birth": 987,
+  "death": 1053,
+  "polityIds": [
+   "song"
+  ],
+  "field": "文学",
+  "summary": "北宋词人，慢词开创者。"
+ },
+ {
+  "id": "p-wangweiyi",
+  "name": "王惟一",
+  "birth": 987,
+  "death": 1067,
+  "polityIds": [
+   "song"
+  ],
+  "field": "医学",
+  "summary": "北宋针灸学家，主持铸造针灸铜人。"
+ },
+ {
+  "id": "p-yanshu",
+  "name": "晏殊",
+  "birth": 991,
+  "death": 1055,
+  "polityIds": [
+   "song"
+  ],
+  "field": "文学",
+  "summary": "北宋词人，婉约派代表。"
+ },
+ {
+  "id": "p-shaoyong",
+  "name": "邵雍",
+  "birth": 1011,
+  "death": 1077,
+  "polityIds": [
+   "song"
+  ],
+  "field": "思想",
+  "summary": "北宋理学家，以先天象数学推演宇宙兴替。"
+ },
+ {
+  "id": "p-caixiang",
+  "name": "蔡襄",
+  "birth": 1012,
+  "death": 1067,
+  "polityIds": [
+   "song"
+  ],
+  "field": "艺术",
+  "summary": "北宋书法家，宋四家之一，主持建洛阳桥。"
+ },
+ {
+  "id": "p-zhangzai",
+  "name": "张载",
+  "birth": 1020,
+  "death": 1077,
+  "polityIds": [
+   "song"
+  ],
+  "field": "思想",
+  "summary": "北宋理学家，关学创始人，提出「为天地立心」四句。"
+ },
+ {
+  "id": "p-wangshao",
+  "name": "王韶",
+  "birth": 1030,
+  "death": 1081,
+  "polityIds": [
+   "song"
+  ],
+  "field": "军事",
+  "summary": "北宋名将，主持熙河开边。"
+ },
+ {
+  "id": "p-chenghao",
+  "name": "程颢",
+  "birth": 1032,
+  "death": 1085,
+  "polityIds": [
+   "song"
+  ],
+  "field": "思想",
+  "summary": "北宋理学家，与弟程颐并称二程，洛学奠基。"
+ },
+ {
+  "id": "p-yanjidao",
+  "name": "晏几道",
+  "birth": 1038,
+  "death": 1110,
+  "polityIds": [
+   "song"
+  ],
+  "field": "文学",
+  "summary": "北宋词人，晏殊之子，有《小山词》。"
+ },
+ {
+  "id": "p-huangtingjian",
+  "name": "黄庭坚",
+  "birth": 1045,
+  "death": 1105,
+  "polityIds": [
+   "song"
+  ],
+  "field": "艺术",
+  "summary": "北宋诗人、书法家，江西诗派开创者。"
+ },
+ {
+  "id": "p-ligonglin",
+  "name": "李公麟",
+  "birth": 1049,
+  "death": 1106,
+  "polityIds": [
+   "song"
+  ],
+  "field": "艺术",
+  "summary": "北宋画家，白描人物鞍马名家。"
+ },
+ {
+  "id": "p-qinguan",
+  "name": "秦观",
+  "birth": 1049,
+  "death": 1100,
+  "polityIds": [
+   "song"
+  ],
+  "field": "文学",
+  "summary": "北宋词人，苏门四学士之一。"
+ },
+ {
+  "id": "p-mifu",
+  "name": "米芾",
+  "birth": 1051,
+  "death": 1107,
+  "polityIds": [
+   "song"
+  ],
+  "field": "艺术",
+  "summary": "北宋书画家，与苏轼、黄庭坚、蔡襄并称宋四家。"
+ },
+ {
+  "id": "p-zhoubangyan",
+  "name": "周邦彦",
+  "birth": 1056,
+  "death": 1121,
+  "polityIds": [
+   "song"
+  ],
+  "field": "文学",
+  "summary": "北宋词人，格律派宗师。"
+ },
+ {
+  "id": "p-zongze",
+  "name": "宗泽",
+  "birth": 1060,
+  "death": 1128,
+  "polityIds": [
+   "song"
+  ],
+  "field": "军事",
+  "summary": "东京留守，力主抗金，临终三呼过河。"
+ },
+ {
+  "id": "p-hanqixian",
+  "name": "韩企先",
+  "birth": 1082,
+  "death": 1146,
+  "polityIds": [
+   "jin"
+  ],
+  "field": "政治",
+  "summary": "金初汉制改革主持者，官至丞相。"
+ },
+ {
+  "id": "p-zhangjun",
+  "name": "张俊",
+  "birth": 1086,
+  "death": 1154,
+  "polityIds": [
+   "song"
+  ],
+  "field": "军事",
+  "summary": "南宋中兴四将之一，后附和议。"
+ },
+ {
+  "id": "p-liuqi",
+  "name": "刘锜",
+  "birth": 1098,
+  "death": 1162,
+  "polityIds": [
+   "song"
+  ],
+  "field": "军事",
+  "summary": "南宋名将，顺昌之战大破金军。"
+ },
+ {
+  "id": "p-zhengqiao",
+  "name": "郑樵",
+  "birth": 1104,
+  "death": 1162,
+  "polityIds": [
+   "song"
+  ],
+  "field": "史学",
+  "summary": "南宋史家，著《通志》。"
+ },
+ {
+  "id": "p-lixianzhong",
+  "name": "李显忠",
+  "birth": 1109,
+  "death": 1177,
+  "polityIds": [
+   "song"
+  ],
+  "field": "军事",
+  "summary": "南宋名将，符离之战主将之一。"
+ },
+ {
+  "id": "p-liuwan-su",
+  "name": "刘完素",
+  "birth": 1110,
+  "death": 1200,
+  "polityIds": [
+   "jin"
+  ],
+  "field": "医学",
+  "summary": "金元四大家之一，寒凉派开创者。"
+ },
+ {
+  "id": "p-jiangkui",
+  "name": "姜夔",
+  "birth": 1155,
+  "death": 1221,
+  "polityIds": [
+   "song"
+  ],
+  "field": "文学",
+  "summary": "南宋词人、音乐家，自度曲名家。"
+ },
+ {
+  "id": "p-zhangcongzheng",
+  "name": "张从正",
+  "birth": 1156,
+  "death": 1228,
+  "polityIds": [
+   "jin"
+  ],
+  "field": "医学",
+  "summary": "金元四大家之一，攻邪派代表。"
+ },
+ {
+  "id": "p-ligao",
+  "name": "李杲",
+  "birth": 1180,
+  "death": 1251,
+  "polityIds": [
+   "jin"
+  ],
+  "field": "医学",
+  "summary": "金元四大家之一，补土派开创者。"
+ },
+ {
+  "id": "p-sakya",
+  "name": "萨迦班智达",
+  "birth": 1182,
+  "death": 1251,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "宗教",
+  "summary": "藏传佛教萨迦派高僧，主持凉州会谈。"
+ },
+ {
+  "id": "p-chenziming",
+  "name": "陈自明",
+  "birth": 1190,
+  "death": 1270,
+  "polityIds": [
+   "song"
+  ],
+  "field": "医学",
+  "summary": "南宋医家，著《妇人大全良方》。"
+ },
+ {
+  "id": "p-liye",
+  "name": "李冶",
+  "birth": 1192,
+  "death": 1279,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "科技",
+  "summary": "金元数学家，著《测圆海镜》。"
+ },
+ {
+  "id": "p-wanyanchenheshang",
+  "name": "完颜陈和尚",
+  "birth": 1192,
+  "death": 1232,
+  "polityIds": [
+   "jin"
+  ],
+  "field": "军事",
+  "summary": "金末名将，大昌原之战以少胜多。"
+ },
+ {
+  "id": "p-wangyinglin",
+  "name": "王应麟",
+  "birth": 1223,
+  "death": 1296,
+  "polityIds": [
+   "song"
+  ],
+  "field": "史学",
+  "summary": "南宋学者，著《困学纪闻》《玉海》。"
+ },
+ {
+  "id": "p-husansheng",
+  "name": "胡三省",
+  "birth": 1230,
+  "death": 1302,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "史学",
+  "summary": "宋元之际史家，注《资治通鉴》。"
+ },
+ {
+  "id": "p-zhushijie",
+  "name": "朱世杰",
+  "birth": 1249,
+  "death": 1314,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "科技",
+  "summary": "元代数学家，著《四元玉鉴》。"
+ },
+ {
+  "id": "p-maduanlin",
+  "name": "马端临",
+  "birth": 1254,
+  "death": 1323,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "史学",
+  "summary": "宋元之际史家，著《文献通考》。"
+ },
+ {
+  "id": "p-marcopolo",
+  "name": "马可·波罗",
+  "birth": 1254,
+  "death": 1324,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "外交",
+  "summary": "威尼斯商人，仕元十七年，口述《马可·波罗行纪》。"
+ },
+ {
+  "id": "p-wangzhen",
+  "name": "王祯",
+  "birth": 1271,
+  "death": 1368,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "科技",
+  "summary": "元代农学家，著《农书》。"
+ },
+ {
+  "id": "p-yuji",
+  "name": "虞集",
+  "birth": 1272,
+  "death": 1348,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "文学",
+  "summary": "元代文臣，元诗四大家之一。"
+ },
+ {
+  "id": "p-zhusiben",
+  "name": "朱思本",
+  "birth": 1273,
+  "death": 1333,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "科技",
+  "summary": "元代地理学家，绘《舆地图》。"
+ },
+ {
+  "id": "p-jiexisi",
+  "name": "揭傒斯",
+  "birth": 1274,
+  "death": 1344,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "文学",
+  "summary": "元代文臣，元诗四大家之一。"
+ },
+ {
+  "id": "p-wuzhen",
+  "name": "吴镇",
+  "birth": 1280,
+  "death": 1354,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "艺术",
+  "summary": "元四家之一，擅水墨山水与墨竹。"
+ },
+ {
+  "id": "p-zhuzhenheng",
+  "name": "朱震亨",
+  "birth": 1281,
+  "death": 1358,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "医学",
+  "summary": "金元四大家之一，滋阴派代表。"
+ },
+ {
+  "id": "p-ouyangxuan",
+  "name": "欧阳玄",
+  "birth": 1283,
+  "death": 1357,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "文学",
+  "summary": "元代文臣，总裁《宋史》《辽史》《金史》。"
+ },
+ {
+  "id": "p-sutiande",
+  "name": "苏天爵",
+  "birth": 1294,
+  "death": 1352,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "史学",
+  "summary": "元代史家，著《元朝名臣事略》。"
+ },
+ {
+  "id": "p-yangweizhen",
+  "name": "杨维桢",
+  "birth": 1296,
+  "death": 1370,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "文学",
+  "summary": "元末诗人，铁崖体名家。"
+ },
+ {
+  "id": "p-wangmeng",
+  "name": "王蒙",
+  "birth": 1308,
+  "death": 1385,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "艺术",
+  "summary": "元四家之一，山水繁密苍郁。"
+ },
+ {
+  "id": "p-wangdayuan",
+  "name": "汪大渊",
+  "birth": 1311,
+  "death": null,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "科技",
+  "summary": "元代航海家，著《岛夷志略》。"
+ },
+ {
+  "id": "p-yuanshundi",
+  "name": "元顺帝",
+  "birth": 1320,
+  "death": 1370,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "政治",
+  "summary": "元末帝妥懽帖睦尔，明军北伐后北走上都。"
+ },
+ {
+  "id": "p-changyuchun",
+  "name": "常遇春",
+  "birth": 1330,
+  "death": 1369,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "军事",
+  "summary": "明开国名将，冲锋陷阵，号称常十万。"
+ },
+ {
+  "id": "p-xuda",
+  "name": "徐达",
+  "birth": 1332,
+  "death": 1385,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "军事",
+  "summary": "明开国第一功臣，统军北伐灭元。"
+ },
+ {
+  "id": "p-gaoqi",
+  "name": "高启",
+  "birth": 1336,
+  "death": 1374,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "文学",
+  "summary": "明初诗人，明初诗坛魁首。"
+ },
+ {
+  "id": "p-zongkaba",
+  "name": "宗喀巴",
+  "birth": 1357,
+  "death": 1419,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "宗教",
+  "summary": "藏传佛教格鲁派创始人，建甘丹寺。"
+ },
+ {
+  "id": "p-chencheng",
+  "name": "陈诚",
+  "birth": 1365,
+  "death": 1457,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "外交",
+  "summary": "明代使节，五次出使西域。"
+ },
+ {
+  "id": "p-zhangfu",
+  "name": "张辅",
+  "birth": 1375,
+  "death": 1449,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "军事",
+  "summary": "明初名将，平定安南，土木之变中阵亡。"
+ },
+ {
+  "id": "p-shenzhou",
+  "name": "沈周",
+  "birth": 1427,
+  "death": 1509,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "艺术",
+  "summary": "明代吴门画派领袖。"
+ },
+ {
+  "id": "p-yangtinghe",
+  "name": "杨廷和",
+  "birth": 1459,
+  "death": 1529,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "政治",
+  "summary": "正德、嘉靖初内阁首辅，主持迎立世宗。"
+ },
+ {
+  "id": "p-wenzhengming",
+  "name": "文徵明",
+  "birth": 1470,
+  "death": 1559,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "艺术",
+  "summary": "明代吴门书画大家，与唐寅、沈周、仇英并称明四家。"
+ },
+ {
+  "id": "p-xiayan",
+  "name": "夏言",
+  "birth": 1482,
+  "death": 1548,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "政治",
+  "summary": "嘉靖朝首辅，支持收复河套，后为严嵩构陷。"
+ },
+ {
+  "id": "p-wanggen",
+  "name": "王艮",
+  "birth": 1483,
+  "death": 1541,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "思想",
+  "summary": "明代泰州学派创始人，倡百姓日用即道。"
+ },
+ {
+  "id": "p-yangshen",
+  "name": "杨慎",
+  "birth": 1488,
+  "death": 1559,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "文学",
+  "summary": "明代学者、词人，《临江仙》作者。"
+ },
+ {
+  "id": "p-xujie",
+  "name": "徐阶",
+  "birth": 1503,
+  "death": 1583,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "政治",
+  "summary": "嘉靖朝首辅，扳倒严嵩。"
+ },
+ {
+  "id": "p-guiyouguang",
+  "name": "归有光",
+  "birth": 1507,
+  "death": 1571,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "文学",
+  "summary": "明代散文家，唐宋派代表。"
+ },
+ {
+  "id": "p-gaogong",
+  "name": "高拱",
+  "birth": 1513,
+  "death": 1578,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "政治",
+  "summary": "隆庆朝首辅，力主改革边务。"
+ },
+ {
+  "id": "p-xuwei",
+  "name": "徐渭",
+  "birth": 1521,
+  "death": 1593,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "艺术",
+  "summary": "明代画家、文学家，大写意花鸟开创者。"
+ },
+ {
+  "id": "p-lichengliang",
+  "name": "李成梁",
+  "birth": 1526,
+  "death": 1615,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "军事",
+  "summary": "辽东总兵，镇辽三十年。"
+ },
+ {
+  "id": "p-shenshixing",
+  "name": "申时行",
+  "birth": 1535,
+  "death": 1614,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "政治",
+  "summary": "万历朝首辅，居中调护。"
+ },
+ {
+  "id": "p-dongqichang",
+  "name": "董其昌",
+  "birth": 1555,
+  "death": 1636,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "艺术",
+  "summary": "明代书画家、画论家，倡南北宗论。"
+ },
+ {
+  "id": "p-nurhaci",
+  "name": "努尔哈赤",
+  "birth": 1559,
+  "death": 1626,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "政治",
+  "summary": "后金建立者，创八旗制度，以十三副遗甲起兵。"
+ },
+ {
+  "id": "p-yuanhongdao",
+  "name": "袁宏道",
+  "birth": 1568,
+  "death": 1610,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "文学",
+  "summary": "明代文学家，公安派领袖。"
+ },
+ {
+  "id": "p-weizhongxian",
+  "name": "魏忠贤",
+  "birth": 1568,
+  "death": 1627,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "政治",
+  "summary": "天启朝权宦，遍置生祠，崇祯即位后自尽。"
+ },
+ {
+  "id": "p-xiongtingbi",
+  "name": "熊廷弼",
+  "birth": 1569,
+  "death": 1625,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "军事",
+  "summary": "辽东经略，主持辽沈防务，后冤死。"
+ },
+ {
+  "id": "p-maowenlong",
+  "name": "毛文龙",
+  "birth": 1576,
+  "death": 1629,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "军事",
+  "summary": "东江镇总兵，据皮岛牵制后金，为袁崇焕所斩。"
+ },
+ {
+  "id": "p-huangtaiji",
+  "name": "皇太极",
+  "birth": 1592,
+  "death": 1643,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "政治",
+  "summary": "改国号大清、定族名满洲，完善八旗与官制。"
+ },
+ {
+  "id": "p-tanqian",
+  "name": "谈迁",
+  "birth": 1594,
+  "death": 1658,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "史学",
+  "summary": "明末清初史家，著《国榷》。"
+ },
+ {
+  "id": "p-zhangdai",
+  "name": "张岱",
+  "birth": 1597,
+  "death": 1689,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "文学",
+  "summary": "明末清初散文家，著《陶庵梦忆》。"
+ },
+ {
+  "id": "p-suoni",
+  "name": "索尼",
+  "birth": 1601,
+  "death": 1667,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "政治",
+  "summary": "康熙初年四大辅政大臣之首。"
+ },
+ {
+  "id": "p-shangkexi",
+  "name": "尚可喜",
+  "birth": 1604,
+  "death": 1676,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "军事",
+  "summary": "三藩之一，据广东。"
+ },
+ {
+  "id": "p-lizicheng",
+  "name": "李自成",
+  "birth": 1606,
+  "death": 1645,
+  "polityIds": [],
+  "field": "军事",
+  "summary": "大顺军首领，攻破北京，明朝灭亡。"
+ },
+ {
+  "id": "p-fushan",
+  "name": "傅山",
+  "birth": 1607,
+  "death": 1684,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "医学",
+  "summary": "明末清初医家、书法家，著《傅青主女科》。"
+ },
+ {
+  "id": "p-zhanghuangyan",
+  "name": "张煌言",
+  "birth": 1620,
+  "death": 1664,
+  "polityIds": [
+   "southern-ming"
+  ],
+  "field": "军事",
+  "summary": "南明兵部尚书，据浙东抗清，后被捕就义。"
+ },
+ {
+  "id": "p-badashanren",
+  "name": "八大山人",
+  "birth": 1626,
+  "death": 1705,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "艺术",
+  "summary": "清初画家朱耷，写意花鸟冷逸孤高。"
+ },
+ {
+  "id": "p-xiawanchun",
+  "name": "夏完淳",
+  "birth": 1631,
+  "death": 1647,
+  "polityIds": [
+   "southern-ming"
+  ],
+  "field": "文学",
+  "summary": "南明少年诗人，抗清被俘殉国。"
+ },
+ {
+  "id": "p-yanyuan",
+  "name": "颜元",
+  "birth": 1635,
+  "death": 1704,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "思想",
+  "summary": "清初颜李学派创始人，倡实学、习行。"
+ },
+ {
+  "id": "p-mingzhu",
+  "name": "明珠",
+  "birth": 1635,
+  "death": 1708,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "政治",
+  "summary": "康熙朝权臣，支持撤藩。"
+ },
+ {
+  "id": "p-suoetu",
+  "name": "索额图",
+  "birth": 1636,
+  "death": 1703,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "政治",
+  "summary": "康熙朝权臣，参与《尼布楚条约》谈判。"
+ },
+ {
+  "id": "p-wansitong",
+  "name": "万斯同",
+  "birth": 1638,
+  "death": 1702,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "史学",
+  "summary": "清初史家，以布衣参修《明史》。"
+ },
+ {
+  "id": "p-shitao",
+  "name": "石涛",
+  "birth": 1642,
+  "death": 1708,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "艺术",
+  "summary": "清初画家，倡「笔墨当随时代」，四僧之一。"
+ },
+ {
+  "id": "p-nalanxingde",
+  "name": "纳兰性德",
+  "birth": 1655,
+  "death": 1685,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "文学",
+  "summary": "清初词人，有《饮水词》。"
+ },
+ {
+  "id": "p-yetianshi",
+  "name": "叶天士",
+  "birth": 1667,
+  "death": 1746,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "医学",
+  "summary": "清代温病学家，创卫气营血辨证。"
+ },
+ {
+  "id": "p-yuezhongqi",
+  "name": "岳钟琪",
+  "birth": 1686,
+  "death": 1754,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "军事",
+  "summary": "清代名将，平定青海、大小金川。"
+ },
+ {
+  "id": "p-langsining",
+  "name": "郎世宁",
+  "birth": 1688,
+  "death": 1766,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "艺术",
+  "summary": "意大利籍宫廷画师，融合中西画法。"
+ },
+ {
+  "id": "p-xudachun",
+  "name": "徐大椿",
+  "birth": 1693,
+  "death": 1771,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "医学",
+  "summary": "清代医家，著《医学源流论》。"
+ },
+ {
+  "id": "p-quanzuwang",
+  "name": "全祖望",
+  "birth": 1705,
+  "death": 1755,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "史学",
+  "summary": "清代史家，续修《宋元学案》。"
+ },
+ {
+  "id": "p-zhaohui",
+  "name": "兆惠",
+  "birth": 1708,
+  "death": 1764,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "军事",
+  "summary": "清代名将，平定准噶尔与大小和卓。"
+ },
+ {
+  "id": "p-agui",
+  "name": "阿桂",
+  "birth": 1717,
+  "death": 1797,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "军事",
+  "summary": "清代名将、大学士，平定大小金川。"
+ },
+ {
+  "id": "p-zhaoxuemin",
+  "name": "赵学敏",
+  "birth": 1719,
+  "death": 1805,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "医学",
+  "summary": "清代药学家，著《本草纲目拾遗》。"
+ },
+ {
+  "id": "p-wangmingsheng",
+  "name": "王鸣盛",
+  "birth": 1722,
+  "death": 1797,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "史学",
+  "summary": "清代史家，著《十七史商榷》。"
+ },
+ {
+  "id": "p-cuishu",
+  "name": "崔述",
+  "birth": 1740,
+  "death": 1816,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "史学",
+  "summary": "清代疑古辨伪学者，著《考信录》。"
+ },
+ {
+  "id": "p-hongliangji",
+  "name": "洪亮吉",
+  "birth": 1746,
+  "death": 1809,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "史学",
+  "summary": "清代学者，著《春秋左传诂》，其人口论早于马尔萨斯。"
+ },
+ {
+  "id": "p-heshen",
+  "name": "和珅",
+  "birth": 1750,
+  "death": 1799,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "政治",
+  "summary": "乾隆宠臣，权倾朝野，嘉庆即位后赐死。"
+ },
+ {
+  "id": "p-fukangan",
+  "name": "福康安",
+  "birth": 1754,
+  "death": 1796,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "军事",
+  "summary": "清代名将，平定台湾林爽文与廓尔喀。"
+ },
+ {
+  "id": "p-wutang",
+  "name": "吴瑭",
+  "birth": 1758,
+  "death": 1836,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "医学",
+  "summary": "清代温病学家，著《温病条辨》。"
+ },
+ {
+  "id": "p-jiaqing",
+  "name": "嘉庆帝",
+  "birth": 1760,
+  "death": 1820,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "政治",
+  "summary": "清仁宗，亲政后诛和珅，白莲教起事绵延。"
+ },
+ {
+  "id": "p-jiaoxun",
+  "name": "焦循",
+  "birth": 1763,
+  "death": 1820,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "思想",
+  "summary": "清代经学家、数学家，著《孟子正义》。"
+ },
+ {
+  "id": "p-daoguang",
+  "name": "道光帝",
+  "birth": 1782,
+  "death": 1850,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "政治",
+  "summary": "清宣宗，鸦片战争战败，签订《南京条约》。"
+ },
+ {
+  "id": "p-wangmengying",
+  "name": "王孟英",
+  "birth": 1808,
+  "death": 1868,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "医学",
+  "summary": "清代温病学家，著《温热经纬》。"
+ },
+ {
+  "id": "p-guosongtao",
+  "name": "郭嵩焘",
+  "birth": 1818,
+  "death": 1891,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "外交",
+  "summary": "清末首任驻英法公使，著《使西纪程》。"
+ },
+ {
+  "id": "p-fengzicai",
+  "name": "冯子材",
+  "birth": 1818,
+  "death": 1903,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "军事",
+  "summary": "清末老将，镇南关大捷。"
+ },
+ {
+  "id": "p-yangxiuqing",
+  "name": "杨秀清",
+  "birth": 1821,
+  "death": 1856,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "政治",
+  "summary": "太平天国东王，掌军政实权。"
+ },
+ {
+  "id": "p-lixiucheng",
+  "name": "李秀成",
+  "birth": 1823,
+  "death": 1864,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "军事",
+  "summary": "太平天国忠王，苏浙战场主将。"
+ },
+ {
+  "id": "p-wangtao",
+  "name": "王韬",
+  "birth": 1828,
+  "death": 1897,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "思想",
+  "summary": "晚清改良思想家，主办《循环日报》。"
+ },
+ {
+  "id": "p-ronghong",
+  "name": "容闳",
+  "birth": 1828,
+  "death": 1912,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "外交",
+  "summary": "中国首位留美学生，推动幼童留美计划。"
+ },
+ {
+  "id": "p-wengtonghe",
+  "name": "翁同龢",
+  "birth": 1830,
+  "death": 1904,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "政治",
+  "summary": "光绪帝师，支持戊戌变法。"
+ },
+ {
+  "id": "p-shidakai",
+  "name": "石达开",
+  "birth": 1831,
+  "death": 1863,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "军事",
+  "summary": "太平天国翼王，转战西南，兵败大渡河。"
+ },
+ {
+  "id": "p-xianfeng",
+  "name": "咸丰帝",
+  "birth": 1831,
+  "death": 1861,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "政治",
+  "summary": "清文宗，第二次鸦片战争，避居热河。"
+ },
+ {
+  "id": "p-dingruchang",
+  "name": "丁汝昌",
+  "birth": 1836,
+  "death": 1895,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "军事",
+  "summary": "北洋水师提督，威海卫之战中自尽。"
+ },
+ {
+  "id": "p-nieshicheng",
+  "name": "聂士成",
+  "birth": 1836,
+  "death": 1900,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "军事",
+  "summary": "清末名将，庚子之役战死八里台。"
+ },
+ {
+  "id": "p-ronglu",
+  "name": "荣禄",
+  "birth": 1836,
+  "death": 1903,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "政治",
+  "summary": "慈禧亲信，官至直隶总督、军机大臣。"
+ },
+ {
+  "id": "p-liuyongfu",
+  "name": "刘永福",
+  "birth": 1837,
+  "death": 1917,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "军事",
+  "summary": "黑旗军首领，先后抗法、抗日。"
+ },
+ {
+  "id": "p-chenyucheng",
+  "name": "陈玉成",
+  "birth": 1837,
+  "death": 1862,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "军事",
+  "summary": "太平天国英王，屡破清军。"
+ },
+ {
+  "id": "p-xuefucheng",
+  "name": "薛福成",
+  "birth": 1838,
+  "death": 1894,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "外交",
+  "summary": "清末外交家、改良思想家，出使英法义比。"
+ },
+ {
+  "id": "p-zengjize",
+  "name": "曾纪泽",
+  "birth": 1839,
+  "death": 1890,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "外交",
+  "summary": "曾国藩长子，赴俄谈判收回伊犁。"
+ },
+ {
+  "id": "p-zhengguanying",
+  "name": "郑观应",
+  "birth": 1842,
+  "death": 1922,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "思想",
+  "summary": "晚清实业家、思想家，著《盛世危言》。"
+ },
+ {
+  "id": "p-wutingfang",
+  "name": "伍廷芳",
+  "birth": 1842,
+  "death": 1922,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "外交",
+  "summary": "清末民初外交家，首任驻美公使。"
+ },
+ {
+  "id": "p-shengxuanhuai",
+  "name": "盛宣怀",
+  "birth": 1844,
+  "death": 1916,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "政治",
+  "summary": "晚清实业家，创办轮船招商局、电报局。"
+ },
+ {
+  "id": "p-huangzunxian",
+  "name": "黄遵宪",
+  "birth": 1848,
+  "death": 1905,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "文学",
+  "summary": "晚清诗人、外交家，倡诗界革命。"
+ },
+ {
+  "id": "p-dengshichang",
+  "name": "邓世昌",
+  "birth": 1849,
+  "death": 1894,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "军事",
+  "summary": "致远舰管带，黄海海战殉国。"
+ },
+ {
+  "id": "p-zhangjian",
+  "name": "张謇",
+  "birth": 1853,
+  "death": 1926,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "政治",
+  "summary": "状元实业家，创办南通大生纱厂。"
+ },
+ {
+  "id": "p-yanfu",
+  "name": "严复",
+  "birth": 1854,
+  "death": 1921,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "思想",
+  "summary": "译《天演论》，系统引入进化论与西学。"
+ },
+ {
+  "id": "p-tongzhi",
+  "name": "同治帝",
+  "birth": 1856,
+  "death": 1875,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "政治",
+  "summary": "清穆宗，在位期间洋务运动兴起。"
+ },
+ {
+  "id": "p-yuanshikail",
+  "name": "袁世凯",
+  "birth": 1859,
+  "death": 1916,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "政治",
+  "summary": "北洋新军统帅，民国大总统，一度洪宪称帝。"
+ },
+ {
+  "id": "p-zhangtaiyan",
+  "name": "章太炎",
+  "birth": 1869,
+  "death": 1936,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "思想",
+  "summary": "近代国学大师、革命家，光复会领袖。"
+ },
+ {
+  "id": "p-huangxing",
+  "name": "黄兴",
+  "birth": 1874,
+  "death": 1916,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "政治",
+  "summary": "同盟会创始人之一，辛亥革命元勋。"
+ },
+ {
+  "id": "p-songjiaoren",
+  "name": "宋教仁",
+  "birth": 1882,
+  "death": 1913,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "政治",
+  "summary": "民国初年政治家，主张责任内阁，遇刺身亡。"
+ },
+ {
+  "id": "p-caie",
+  "name": "蔡锷",
+  "birth": 1882,
+  "death": 1916,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "军事",
+  "summary": "护国战争主将，起兵讨袁。"
+ },
+ {
+  "id": "p-wangjian",
+  "name": "王翦",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "qin"
+  ],
+  "field": "军事",
+  "summary": "秦灭六国的主将，统六十万伐楚，与子王贲平燕、代、齐。"
+ },
+ {
+  "id": "p-lianpo",
+  "name": "廉颇",
+  "birth": null,
+  "death": null,
+  "polityIds": [],
+  "field": "军事",
+  "summary": "赵国名将，固守长平，后与蔺相如结将相之谊，老而思用。"
+ },
+ {
+  "id": "p-linxiangru",
+  "name": "蔺相如",
+  "birth": null,
+  "death": null,
+  "polityIds": [],
+  "field": "政治",
+  "summary": "赵国上卿，完璧归赵、渑池之会，与廉颇将相和。"
+ },
+ {
+  "id": "p-limu",
+  "name": "李牧",
+  "birth": null,
+  "death": -228,
+  "polityIds": [],
+  "field": "军事",
+  "summary": "赵国名将，北破匈奴、西却秦军，后中反间计被杀。"
+ },
+ {
+  "id": "p-fanju",
+  "name": "范雎",
+  "birth": null,
+  "death": -254,
+  "polityIds": [
+   "qin"
+  ],
+  "field": "政治",
+  "summary": "秦昭王相，献远交近攻之策，长平战后逼杀白起。"
+ },
+ {
+  "id": "p-gande",
+  "name": "甘德",
+  "birth": null,
+  "death": null,
+  "polityIds": [],
+  "field": "科技",
+  "summary": "战国天文学家，与石申测编星表，为世界最早的星表之一。"
+ },
+ {
+  "id": "p-shishen",
+  "name": "石申",
+  "birth": null,
+  "death": null,
+  "polityIds": [],
+  "field": "科技",
+  "summary": "战国天文学家，著《天文》，与甘德星表合称《甘石星经》。"
+ },
+ {
+  "id": "p-bianque",
+  "name": "扁鹊",
+  "birth": null,
+  "death": null,
+  "polityIds": [],
+  "field": "医学",
+  "summary": "战国名医，善切脉望诊，被后世尊为脉学之祖。"
+ },
+ {
+  "id": "p-sunbin",
+  "name": "孙膑",
+  "birth": null,
+  "death": null,
+  "polityIds": [],
+  "field": "军事",
+  "summary": "齐国军师，桂陵、马陵之战破魏，著《孙膑兵法》。"
+ },
+ {
+  "id": "p-suqin",
+  "name": "苏秦",
+  "birth": null,
+  "death": -283,
+  "polityIds": [],
+  "field": "外交",
+  "summary": "纵横家，倡合纵抗秦，佩六国相印。"
+ },
+ {
+  "id": "p-zhangyi",
+  "name": "张仪",
+  "birth": null,
+  "death": -308,
+  "polityIds": [
+   "qin"
+  ],
+  "field": "外交",
+  "summary": "纵横家，以连横破合纵，两度为秦相。"
+ },
+ {
+  "id": "p-mengchangjun",
+  "name": "孟尝君",
+  "birth": null,
+  "death": -278,
+  "polityIds": [],
+  "field": "政治",
+  "summary": "齐国公子田文，养士三千，鸡鸣狗盗出函谷关。"
+ },
+ {
+  "id": "p-pingyuanjun",
+  "name": "平原君",
+  "birth": null,
+  "death": -250,
+  "polityIds": [],
+  "field": "政治",
+  "summary": "赵国公子赵胜，毛遂自荐、邯郸解围。"
+ },
+ {
+  "id": "p-xinlingjun",
+  "name": "信陵君",
+  "birth": null,
+  "death": -242,
+  "polityIds": [],
+  "field": "军事",
+  "summary": "魏国公子魏无忌，窃符救赵，率五国联军破秦。"
+ },
+ {
+  "id": "p-chunshenjun",
+  "name": "春申君",
+  "birth": null,
+  "death": -237,
+  "polityIds": [],
+  "field": "政治",
+  "summary": "楚国令尹黄歇，战国四公子之一，后为李园所杀。"
+ },
+ {
+  "id": "p-yueyi",
+  "name": "乐毅",
+  "birth": null,
+  "death": null,
+  "polityIds": [],
+  "field": "军事",
+  "summary": "燕将，率五国联军下齐七十余城。"
+ },
+ {
+  "id": "p-tiandan",
+  "name": "田单",
+  "birth": null,
+  "death": null,
+  "polityIds": [],
+  "field": "军事",
+  "summary": "齐将，以火牛阵破燕复齐。"
+ },
+ {
+  "id": "p-fankuai",
+  "name": "樊哙",
+  "birth": null,
+  "death": -188,
+  "polityIds": [
+   "western-han"
+  ],
+  "field": "军事",
+  "summary": "刘邦部将，鸿门宴护主，汉初封舞阳侯。"
+ },
+ {
+  "id": "p-yingbu",
+  "name": "英布",
+  "birth": null,
+  "death": -194,
+  "polityIds": [
+   "western-han"
+  ],
+  "field": "军事",
+  "summary": "汉初异姓王，先属项羽后归汉，终以谋反被诛。"
+ },
+ {
+  "id": "p-pengyue",
+  "name": "彭越",
+  "birth": null,
+  "death": -195,
+  "polityIds": [
+   "western-han"
+  ],
+  "field": "军事",
+  "summary": "汉初梁王，以游击扰楚，后被吕后所杀。"
+ },
+ {
+  "id": "p-mengyi",
+  "name": "蒙毅",
+  "birth": null,
+  "death": -209,
+  "polityIds": [
+   "qin"
+  ],
+  "field": "政治",
+  "summary": "秦上卿，蒙恬之弟，二世即位后被杀。"
+ },
+ {
+  "id": "p-zhouyafu",
+  "name": "周亚夫",
+  "birth": null,
+  "death": -142,
+  "polityIds": [
+   "western-han"
+  ],
+  "field": "军事",
+  "summary": "汉景帝太尉，平七国之乱，后下狱绝食而死。"
+ },
+ {
+  "id": "p-chentang",
+  "name": "陈汤",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "western-han"
+  ],
+  "field": "军事",
+  "summary": "西汉西域副校尉，矫诏发兵斩郅支单于，留下「明犯强汉者虽远必诛」。"
+ },
+ {
+  "id": "p-douxian",
+  "name": "窦宪",
+  "birth": null,
+  "death": 92,
+  "polityIds": [
+   "eastern-han"
+  ],
+  "field": "军事",
+  "summary": "东汉外戚，破北匈奴于稽落山，勒石燕然。"
+ },
+ {
+  "id": "p-banyong",
+  "name": "班勇",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "eastern-han"
+  ],
+  "field": "军事",
+  "summary": "班超之子，继父志经营西域，著《西域记》。"
+ },
+ {
+  "id": "p-huangfusong",
+  "name": "皇甫嵩",
+  "birth": null,
+  "death": 195,
+  "polityIds": [
+   "eastern-han"
+  ],
+  "field": "军事",
+  "summary": "东汉名将，主持平定黄巾之乱。"
+ },
+ {
+  "id": "p-luzhi",
+  "name": "卢植",
+  "birth": null,
+  "death": 192,
+  "polityIds": [
+   "eastern-han"
+  ],
+  "field": "政治",
+  "summary": "东汉大儒，平黄巾，为刘备、公孙瓒之师。"
+ },
+ {
+  "id": "p-wangshuhe",
+  "name": "王叔和",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "wei"
+  ],
+  "field": "医学",
+  "summary": "魏晋医家，编次《伤寒论》，著《脉经》。"
+ },
+ {
+  "id": "p-liuhui",
+  "name": "刘徽",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "wei"
+  ],
+  "field": "科技",
+  "summary": "魏晋数学家，注《九章算术》，创割圆术求圆周率。"
+ },
+ {
+  "id": "p-zhaoshuang",
+  "name": "赵爽",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "wu"
+  ],
+  "field": "科技",
+  "summary": "三国数学家，注《周髀算经》，以弦图证勾股定理。"
+ },
+ {
+  "id": "p-jiasixie",
+  "name": "贾思勰",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "northern-wei"
+  ],
+  "field": "科技",
+  "summary": "北魏农学家，著《齐民要术》。"
+ },
+ {
+  "id": "p-liuxie",
+  "name": "刘勰",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "liang"
+  ],
+  "field": "文学",
+  "summary": "南朝梁文论家，著《文心雕龙》。"
+ },
+ {
+  "id": "p-zhongrong",
+  "name": "钟嵘",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "liang"
+  ],
+  "field": "文学",
+  "summary": "南朝梁诗论家，著《诗品》。"
+ },
+ {
+  "id": "p-baozhao",
+  "name": "鲍照",
+  "birth": null,
+  "death": 466,
+  "polityIds": [
+   "liu-song"
+  ],
+  "field": "文学",
+  "summary": "南朝宋诗人，乐府与七言歌行名家。"
+ },
+ {
+  "id": "p-zhanziqian",
+  "name": "展子虔",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "sui"
+  ],
+  "field": "艺术",
+  "summary": "隋代画家，传世《游春图》为最早山水画之一。"
+ },
+ {
+  "id": "p-zhangxu",
+  "name": "张旭",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "艺术",
+  "summary": "唐代草书大家，号张颠，与怀素并称颠张醉素。"
+ },
+ {
+  "id": "p-fankuan",
+  "name": "范宽",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "song"
+  ],
+  "field": "艺术",
+  "summary": "北宋山水画家，《溪山行旅图》作者。"
+ },
+ {
+  "id": "p-guoxi",
+  "name": "郭熙",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "song"
+  ],
+  "field": "艺术",
+  "summary": "北宋山水画家，著《林泉高致》。"
+ },
+ {
+  "id": "p-mayuan",
+  "name": "马远",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "song"
+  ],
+  "field": "艺术",
+  "summary": "南宋画家，与夏圭并称马一角、夏半边。"
+ },
+ {
+  "id": "p-xiagui",
+  "name": "夏圭",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "song"
+  ],
+  "field": "艺术",
+  "summary": "南宋山水画家，构图简括，与马远齐名。"
+ },
+ {
+  "id": "p-qiuying",
+  "name": "仇英",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "艺术",
+  "summary": "明代画家，工笔重彩人物与青绿山水。"
+ },
+ {
+  "id": "p-dongyuan",
+  "name": "董源",
+  "birth": null,
+  "death": 962,
+  "polityIds": [
+   "nan-tang"
+  ],
+  "field": "艺术",
+  "summary": "南唐画家，江南山水画派开山。"
+ },
+ {
+  "id": "p-juran",
+  "name": "巨然",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "nan-tang"
+  ],
+  "field": "艺术",
+  "summary": "五代宋初僧侣画家，师法董源。"
+ },
+ {
+  "id": "p-jinghao",
+  "name": "荆浩",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "later-liang"
+  ],
+  "field": "艺术",
+  "summary": "五代画家，著《笔法记》，北方山水画派之祖。"
+ },
+ {
+  "id": "p-guantong",
+  "name": "关仝",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "later-liang"
+  ],
+  "field": "艺术",
+  "summary": "五代画家，师荆浩，画风峭拔。"
+ },
+ {
+  "id": "p-guhongzhong",
+  "name": "顾闳中",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "nan-tang"
+  ],
+  "field": "艺术",
+  "summary": "南唐画家，《韩熙载夜宴图》作者。"
+ },
+ {
+  "id": "p-zhouwentu",
+  "name": "周文矩",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "nan-tang"
+  ],
+  "field": "艺术",
+  "summary": "南唐画家，工人物仕女。"
+ },
+ {
+  "id": "p-liyanshou",
+  "name": "李延寿",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "史学",
+  "summary": "唐史家，撰《南史》《北史》。"
+ },
+ {
+  "id": "p-songyu",
+  "name": "宋玉",
+  "birth": null,
+  "death": null,
+  "polityIds": [],
+  "field": "文学",
+  "summary": "战国楚辞作家，《九辩》作者。"
+ },
+ {
+  "id": "p-meicheng",
+  "name": "枚乘",
+  "birth": null,
+  "death": -139,
+  "polityIds": [
+   "western-han"
+  ],
+  "field": "文学",
+  "summary": "西汉辞赋家，《七发》开汉大赋先声。"
+ },
+ {
+  "id": "p-wuwengying",
+  "name": "吴文英",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "song"
+  ],
+  "field": "文学",
+  "summary": "南宋词人，号梦窗，词风密丽。"
+ },
+ {
+  "id": "p-huaruifuren",
+  "name": "花蕊夫人",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "hou-shu"
+  ],
+  "field": "文学",
+  "summary": "后蜀后主孟昶之妃，以宫词知名。"
+ },
+ {
+  "id": "p-chentuan",
+  "name": "陈抟",
+  "birth": null,
+  "death": 989,
+  "polityIds": [
+   "song"
+  ],
+  "field": "宗教",
+  "summary": "宋初道士，精易学与内丹，隐居华山。"
+ },
+ {
+  "id": "p-yanghui",
+  "name": "杨辉",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "song"
+  ],
+  "field": "科技",
+  "summary": "南宋数学家，著《详解九章算法》，载杨辉三角。"
+ },
+ {
+  "id": "p-chaoyuanfang",
+  "name": "巢元方",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "sui"
+  ],
+  "field": "医学",
+  "summary": "隋代医家，主编《诸病源候论》。"
+ },
+ {
+  "id": "p-wangxuance",
+  "name": "王玄策",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "外交",
+  "summary": "唐代使节，三次出使天竺，借吐蕃、泥婆罗兵平乱。"
+ },
+ {
+  "id": "p-peishiqing",
+  "name": "裴世清",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "sui"
+  ],
+  "field": "外交",
+  "summary": "隋代使节，出使倭国。"
+ },
+ {
+  "id": "p-lanyu",
+  "name": "蓝玉",
+  "birth": null,
+  "death": 1393,
+  "polityIds": [
+   "ming"
+  ],
+  "field": "军事",
+  "summary": "明初名将，捕鱼儿海大破北元，后以谋反被诛。"
+ },
+ {
+  "id": "p-lvbu",
+  "name": "吕布",
+  "birth": null,
+  "death": 199,
+  "polityIds": [
+   "eastern-han"
+  ],
+  "field": "军事",
+  "summary": "汉末名将，辕门射戟，后为曹操所杀。"
+ },
+ {
+  "id": "p-xuhuang",
+  "name": "徐晃",
+  "birth": null,
+  "death": 227,
+  "polityIds": [
+   "wei"
+  ],
+  "field": "军事",
+  "summary": "曹魏名将，治军严整，樊城解围。"
+ },
+ {
+  "id": "p-zhanghe",
+  "name": "张郃",
+  "birth": null,
+  "death": 231,
+  "polityIds": [
+   "wei"
+  ],
+  "field": "军事",
+  "summary": "曹魏名将，街亭破马谡。"
+ },
+ {
+  "id": "p-ganning",
+  "name": "甘宁",
+  "birth": null,
+  "death": null,
+  "polityIds": [
+   "wu"
+  ],
+  "field": "军事",
+  "summary": "东吴名将，以百骑劫魏营闻名。"
+ },
+ {
+  "id": "p-huangzhong",
+  "name": "黄忠",
+  "birth": null,
+  "death": 220,
+  "polityIds": [
+   "shu-han"
+  ],
+  "field": "军事",
+  "summary": "蜀汉名将，定军山斩夏侯渊。"
+ },
+ {
+  "id": "p-weiyan",
+  "name": "魏延",
+  "birth": null,
+  "death": 234,
+  "polityIds": [
+   "shu-han"
+  ],
+  "field": "军事",
+  "summary": "蜀汉名将，镇守汉中，献子午谷奇谋。"
+ },
+ {
+  "id": "p-qinqiong",
+  "name": "秦琼",
+  "birth": null,
+  "death": 638,
+  "polityIds": [
+   "tang"
+  ],
+  "field": "军事",
+  "summary": "唐初名将，后世门神之一。"
+ },
+ {
+  "id": "p-wangshichong",
+  "name": "王世充",
+  "birth": null,
+  "death": 621,
+  "polityIds": [],
+  "field": "政治",
+  "summary": "隋末据洛阳称帝，国号郑，后降唐被杀。"
+ },
+ {
+  "id": "p-yelvxiuge",
+  "name": "耶律休哥",
+  "birth": null,
+  "death": 998,
+  "polityIds": [
+   "liao"
+  ],
+  "field": "军事",
+  "summary": "辽名将，高梁河之战大败宋军。"
+ },
+ {
+  "id": "p-yelvxiezhen",
+  "name": "耶律斜轸",
+  "birth": null,
+  "death": 999,
+  "polityIds": [
+   "liao"
+  ],
+  "field": "军事",
+  "summary": "辽名将，陈家谷俘杨业。"
+ },
+ {
+  "id": "p-wanyanzongbi",
+  "name": "完颜宗弼",
+  "birth": null,
+  "death": 1148,
+  "polityIds": [
+   "jin"
+  ],
+  "field": "军事",
+  "summary": "金兀术，统兵南侵，与宋对峙。"
+ },
+ {
+  "id": "p-wangbaobao",
+  "name": "王保保",
+  "birth": null,
+  "death": 1375,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "军事",
+  "summary": "本名扩廓帖木儿，元末名将，屡挫明军。"
+ },
+ {
+  "id": "p-chahantiemuer",
+  "name": "察罕帖木儿",
+  "birth": null,
+  "death": 1362,
+  "polityIds": [
+   "yuan"
+  ],
+  "field": "军事",
+  "summary": "元末军阀，镇压红巾军。"
+ },
+ {
+  "id": "p-maitieshou",
+  "name": "麦铁杖",
+  "birth": null,
+  "death": 612,
+  "polityIds": [
+   "sui"
+  ],
+  "field": "军事",
+  "summary": "隋朝猛将，征高句丽战死。"
+ },
+ {
+  "id": "p-kongyoude",
+  "name": "孔有德",
+  "birth": null,
+  "death": 1652,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "军事",
+  "summary": "明末降清汉将，封定南王，后死于桂林。"
+ },
+ {
+  "id": "p-gengjingzhong",
+  "name": "耿精忠",
+  "birth": null,
+  "death": 1682,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "军事",
+  "summary": "三藩之一，据福建，后降清被诛。"
+ },
+ {
+  "id": "p-aobai",
+  "name": "鳌拜",
+  "birth": null,
+  "death": 1669,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "政治",
+  "summary": "康熙初年辅政大臣，专权，为康熙所擒。"
+ },
+ {
+  "id": "p-longkeduo",
+  "name": "隆科多",
+  "birth": null,
+  "death": 1728,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "政治",
+  "summary": "雍正初年权臣，后遭圈禁。"
+ },
+ {
+  "id": "p-niangengyao",
+  "name": "年羹尧",
+  "birth": null,
+  "death": 1726,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "军事",
+  "summary": "雍正朝川陕总督，平定青海，后赐死。"
+ },
+ {
+  "id": "p-hailancha",
+  "name": "海兰察",
+  "birth": null,
+  "death": 1793,
+  "polityIds": [
+   "qing"
+  ],
+  "field": "军事",
+  "summary": "索伦名将，乾隆朝屡立战功。"
  }
 ]

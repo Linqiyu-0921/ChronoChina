@@ -1,84 +1,3116 @@
 [
-  { "id": "site-zhoukoudian", "name": "周口店北京人遗址", "category": "聚落", "dynasty": "史前", "polityIds": [], "period": "距今约 70 万—20 万年", "place": "北京市房山区", "coords": [115.92, 39.67], "whs": 1987, "note": "「北京人」与「山顶洞人」化石地点。", "sources": ["S5"] },
-  { "id": "site-taosi", "name": "陶寺遗址", "category": "聚落", "dynasty": "史前", "polityIds": [], "period": "约前 2300—前 1900", "place": "山西省襄汾县", "coords": [111.5, 35.87], "note": "大型城址与观象台，学界有「尧都平阳」之说。", "sources": ["S5"] },
-  { "id": "site-liangzhu", "name": "良渚古城遗址", "category": "聚落", "dynasty": "史前", "polityIds": [], "period": "距今约 5300—4300 年", "place": "浙江省杭州市余杭区", "coords": [119.99, 30.38], "whs": 2019, "note": "水利系统与玉礼器体系实证早期国家形态。", "sources": ["S5"] },
-  { "id": "site-erlitou", "name": "二里头遗址", "category": "都城", "dynasty": "夏（存争议）", "polityIds": [], "period": "约前 1750—前 1520", "place": "河南省洛阳市偃师", "coords": [112.69, 34.7], "note": "二里头文化宫城与「绿松石龙」出土；学界多以为夏都斟寻，尚有争议。", "sources": ["S5"] },
-  { "id": "site-yinxu", "name": "殷墟", "category": "都城", "dynasty": "商", "polityIds": [], "period": "约前 1300—前 1046", "place": "河南省安阳市", "coords": [114.31, 36.12], "whs": 2006, "note": "盘庚迁殷后商都；甲骨文出土地。", "sources": ["S5"] },
-  { "id": "site-zhouyuan", "name": "周原遗址", "category": "都城", "dynasty": "周", "polityIds": [], "period": "约前 1100—前 771", "place": "陕西省扶风县、岐山县", "coords": [107.7, 34.53], "note": "周人发祥地，大量青铜器窖藏出土。", "sources": ["S5"] },
-  { "id": "site-fenghao", "name": "丰镐遗址", "category": "都城", "dynasty": "西周", "polityIds": [], "period": "约前 1046—前 771", "place": "陕西省西安市长安区", "coords": [108.71, 34.2], "note": "西周都城丰京、镐京。", "sources": ["S5"] },
-  { "id": "site-qinshihuang", "name": "秦始皇陵及兵马俑坑", "category": "陵墓", "dynasty": "秦", "polityIds": ["qin"], "builtRange": [-245, -208], "place": "陕西省西安市临潼区", "coords": [109.28, 34.38], "whs": 1987, "note": "始皇即位后营建，历时约三十八年。", "sources": ["S5"] },
-  { "id": "site-epanggong", "name": "阿房宫遗址", "category": "宫殿", "dynasty": "秦", "polityIds": ["qin"], "builtYear": -208, "place": "陕西省西安市", "coords": [108.86, 34.24], "note": "前 212 年始建，未成而秦亡；考古表明前殿基址未见大规模焚烧痕迹。", "sources": ["S5"] },
-  { "id": "site-dujiangyan", "name": "都江堰", "category": "工程", "dynasty": "秦", "polityIds": ["qin"], "builtRange": [-255, -251], "place": "四川省都江堰市", "coords": [103.61, 31.0], "whs": 2000, "note": "李冰父子主持修建的无坝引水工程（青城山—都江堰）。", "sources": ["S5"] },
-  { "id": "site-lingqu", "name": "灵渠", "category": "工程", "dynasty": "秦", "polityIds": ["qin"], "builtYear": -213, "place": "广西兴安县", "coords": [110.7, 25.62], "note": "沟通湘江与漓江；2018 年入选世界灌溉工程遗产。", "sources": ["S5"] },
-  { "id": "site-hanchangan", "name": "汉长安城遗址（未央宫）", "category": "都城", "dynasty": "西汉", "polityIds": ["western-han"], "builtYear": -200, "place": "陕西省西安市", "coords": [108.85, 34.3], "whs": 2014, "note": "丝绸之路「长安—天山廊道」起点。", "sources": ["S5"] },
-  { "id": "site-maoling", "name": "茂陵", "category": "陵墓", "dynasty": "西汉", "polityIds": ["western-han"], "builtYear": -138, "place": "陕西省兴平市", "coords": [108.85, 34.34], "note": "汉武帝陵，营建五十三年；霍去病墓石雕「马踏匈奴」在侧。", "sources": ["S5"] },
-  { "id": "site-mawangdui", "name": "马王堆汉墓", "category": "陵墓", "dynasty": "西汉", "polityIds": ["western-han"], "period": "前 2 世纪", "place": "湖南省长沙市", "coords": [113.0, 28.21], "note": "轪侯利苍家族墓，出土素纱单衣、帛书帛画。", "sources": ["S5"] },
-  { "id": "site-yumenguan", "name": "玉门关及汉长城遗址", "category": "军事", "dynasty": "汉", "polityIds": ["western-han"], "builtYear": -121, "place": "甘肃省敦煌市", "coords": [93.86, 40.35], "whs": 2014, "note": "丝绸之路门户；小方盘城与当谷燧汉长城。", "sources": ["S5"] },
-  { "id": "site-niya", "name": "尼雅遗址", "category": "聚落", "dynasty": "汉—晋", "polityIds": ["eastern-han", "western-jin"], "period": "约前 2 世纪—3 世纪", "place": "新疆民丰县", "coords": [82.7, 37.06], "whs": 2014, "note": "精绝故地，「五星出东方利中国」锦护臂出土处。", "sources": ["S5"] },
-  { "id": "site-yecheng", "name": "邺城遗址", "category": "都城", "dynasty": "曹魏—北齐", "polityIds": ["wei", "eastern-wei", "northern-qi"], "period": "3—6 世纪", "place": "河北省临漳县", "coords": [114.62, 36.34], "note": "曹魏邺城与东魏北齐邺南城；中轴规划影响后世都城。", "sources": ["S5"] },
-  { "id": "site-hanweiluoyang", "name": "汉魏洛阳城遗址", "category": "都城", "dynasty": "东汉—北魏", "polityIds": ["eastern-han", "northern-wei"], "period": "1—6 世纪", "place": "河南省洛阳市", "coords": [112.6, 34.68], "whs": 2014, "note": "含东汉、曹魏、西晋、北魏四朝都城遗址与永宁寺塔基。", "sources": ["S5"] },
-  { "id": "site-yungang", "name": "云冈石窟", "category": "石窟", "dynasty": "北魏", "polityIds": ["northern-wei"], "builtRange": [460, 524], "place": "山西省大同市", "coords": [113.14, 40.11], "whs": 2001, "note": "昙曜五窟开凿于平城时代。", "sources": ["S5"] },
-  { "id": "site-longmen", "name": "龙门石窟", "category": "石窟", "dynasty": "北魏—唐", "polityIds": ["northern-wei", "tang"], "builtYear": 493, "place": "河南省洛阳市", "coords": [112.47, 34.56], "whs": 2000, "note": "北魏迁都洛阳后续开，盛唐卢舍那大佛为代表。", "sources": ["S5"] },
-  { "id": "site-mogao", "name": "敦煌莫高窟", "category": "石窟", "dynasty": "十六国—元", "polityIds": ["yuan"], "builtYear": 366, "place": "甘肃省敦煌市", "coords": [94.66, 40.04], "whs": 1987, "note": "自前秦建元二年（366）起营造，历时千年；1900 年藏经洞发现。", "sources": ["S5"] },
-  { "id": "site-maijishan", "name": "麦积山石窟", "category": "石窟", "dynasty": "后秦—明清", "polityIds": [], "period": "约 384 年起", "place": "甘肃省天水市", "coords": [105.96, 34.35], "whs": 2014, "note": "「东方雕塑陈列馆」。", "sources": ["S5"] },
-  { "id": "site-xiangtangshan", "name": "响堂山石窟", "category": "石窟", "dynasty": "北齐", "polityIds": ["northern-qi"], "builtRange": [550, 577], "place": "河北省邯郸市峰峰矿区", "coords": [114.16, 36.6], "note": "北齐皇室开凿，邺都与晋阳之间。", "sources": ["S5"] },
-  { "id": "site-qixiashan", "name": "栖霞山千佛岩石窟", "category": "石窟", "dynasty": "南朝", "polityIds": ["liu-song", "liang"], "builtYear": 489, "place": "江苏省南京市", "coords": [118.91, 32.1], "note": "南方少见的中古石窟群，与云冈同期呼应。", "sources": ["S5"] },
-  { "id": "site-pingcheng", "name": "平城遗址（北魏都城）", "category": "都城", "dynasty": "北魏", "polityIds": ["northern-wei"], "builtYear": 398, "place": "山西省大同市", "coords": [113.3, 40.08], "note": "道武帝迁都平城至孝文帝迁洛（494）间都城。", "sources": ["S5"] },
-  { "id": "site-tongwancheng", "name": "统万城遗址", "category": "都城", "dynasty": "大夏（十六国）", "polityIds": [], "builtYear": 413, "place": "陕西省靖边县", "coords": [108.96, 37.99], "note": "赫连勃勃所建，夯土「白城子」。", "sources": ["S5"] },
-  { "id": "site-changan-sui-tang", "name": "隋大兴·唐长安城遗址", "category": "都城", "dynasty": "隋唐", "polityIds": ["sui", "tang"], "builtYear": 582, "place": "陕西省西安市", "coords": [108.95, 34.27], "note": "宇文恺规划的大兴城，唐承之，中世纪世界最大都城。", "sources": ["S5"] },
-  { "id": "site-daminggong", "name": "大明宫遗址", "category": "宫殿", "dynasty": "唐", "polityIds": ["tang"], "builtYear": 634, "place": "陕西省西安市", "coords": [108.96, 34.29], "whs": 2014, "note": "贞观八年始建，龙朔后为唐主要朝政中心。", "sources": ["S5"] },
-  { "id": "site-zhaozhou-bridge", "name": "赵州桥（安济桥）", "category": "工程", "dynasty": "隋", "polityIds": ["sui"], "builtRange": [595, 605], "place": "河北省赵县", "coords": [114.77, 37.74], "note": "李春设计，现存最古老的敞肩石拱桥。", "sources": ["S5"] },
-  { "id": "site-grand-canal", "name": "大运河", "category": "工程", "dynasty": "隋唐—明清", "polityIds": ["sui", "tang", "song", "yuan", "ming", "qing"], "builtYear": 605, "place": "跨北京、扬州、杭州等地", "coords": [119.41, 32.39], "whs": 2014, "note": "隋大业间贯通，元代裁弯取直；跨省线性遗产。", "sources": ["S5"] },
-  { "id": "site-qianling", "name": "乾陵", "category": "陵墓", "dynasty": "唐", "polityIds": ["tang"], "builtYear": 684, "place": "陕西省乾县", "coords": [108.47, 34.57], "note": "高宗与武则天合葬墓，「因山为陵」。", "sources": ["S5"] },
-  { "id": "site-famen", "name": "法门寺塔基与地宫", "category": "宗教", "dynasty": "东汉—唐", "polityIds": ["tang"], "period": "约 499 年始建，唐代为皇家寺院", "place": "陕西省扶风县", "coords": [107.89, 34.44], "note": "1987 年地宫出土佛指舍利与秘色瓷。", "sources": ["S5"] },
-  { "id": "site-foguangsi", "name": "佛光寺东大殿", "category": "宗教", "dynasty": "唐", "polityIds": ["tang"], "builtYear": 857, "place": "山西省五台县", "coords": [113.37, 38.72], "note": "梁思成、林徽因 1937 年调查确认的唐代木构。", "sources": ["S5"] },
-  { "id": "site-nanchansi", "name": "南禅寺大殿", "category": "宗教", "dynasty": "唐", "polityIds": ["tang"], "builtYear": 782, "place": "山西省五台县", "coords": [113.44, 38.75], "note": "现存最早木结构建筑。", "sources": ["S5"] },
-  { "id": "site-jiaohe", "name": "交河故城", "category": "都城", "dynasty": "车师—唐", "polityIds": ["tang"], "period": "约前 2 世纪—14 世纪", "place": "新疆吐鲁番市", "coords": [89.05, 42.95], "whs": 2014, "note": "崖上生土建筑城市，唐代安西都护府初驻此。", "sources": ["S5"] },
-  { "id": "site-gaochang", "name": "高昌故城", "category": "都城", "dynasty": "汉—元", "polityIds": ["tang", "yuan"], "period": "约前 1 世纪—14 世纪", "place": "新疆吐鲁番市", "coords": [89.19, 42.85], "whs": 2014, "note": "汉代屯戍所筑，麹氏高昌与回鹘高昌都城。", "sources": ["S5"] },
-  { "id": "site-shangjing-balhae", "name": "渤海国上京龙泉府遗址", "category": "都城", "dynasty": "唐（渤海国）", "polityIds": ["tang"], "period": "8 世纪中叶起", "place": "黑龙江省宁安市", "coords": [129.12, 44.32], "note": "仿长安规制；渤海为唐册封政权。", "sources": ["S5"] },
-  { "id": "site-taihe", "name": "太和城遗址（南诏）", "category": "都城", "dynasty": "唐（南诏）", "polityIds": ["tang"], "builtYear": 739, "place": "云南省大理市", "coords": [100.16, 25.68], "note": "南诏与唐、吐蕃并立期的都城，后接大理。", "sources": ["S5"] },
-  { "id": "site-zhouqiao", "name": "州桥及汴河遗址", "category": "都城", "dynasty": "北宋", "polityIds": ["song"], "period": "北宋", "place": "河南省开封市", "coords": [114.31, 34.79], "note": "2022 年考古发掘出土明代州桥与汴河河道、巨幅石雕。", "sources": ["S5"] },
-  { "id": "site-dongjing", "name": "北宋东京城遗址", "category": "都城", "dynasty": "北宋", "polityIds": ["song"], "period": "960—1127", "place": "河南省开封市", "coords": [114.32, 34.79], "note": "里城、外城与汴河漕运体系。", "sources": ["S5"] },
-  { "id": "site-lin-an", "name": "南宋临安城遗址", "category": "都城", "dynasty": "南宋", "polityIds": ["song"], "period": "1129—1278", "place": "浙江省杭州市", "coords": [120.16, 30.23], "note": "皇城遗址在南凤凰山东麓。", "sources": ["S5"] },
-  { "id": "site-yingxian-tower", "name": "应县木塔（佛宫寺释迦塔）", "category": "宗教", "dynasty": "辽", "polityIds": ["liao"], "builtYear": 1056, "place": "山西省应县", "coords": [113.19, 39.56], "note": "现存最古最高的木塔。", "sources": ["S5"] },
-  { "id": "site-huayansi", "name": "大同华严寺（薄伽教藏殿）", "category": "宗教", "dynasty": "辽金", "polityIds": ["liao", "jin"], "builtYear": 1038, "place": "山西省大同市", "coords": [113.3, 40.09], "note": "辽代壁藏「天宫楼阁」被梁思成称为海内孤品。", "sources": ["S5"] },
-  { "id": "site-dulesi", "name": "蓟州独乐寺（观音阁）", "category": "宗教", "dynasty": "辽", "polityIds": ["liao"], "builtYear": 984, "place": "天津市蓟州区", "coords": [117.41, 40.04], "note": "统和二年重建，辽代木构代表作。", "sources": ["S5"] },
-  { "id": "site-liao-shangjing", "name": "辽上京遗址", "category": "都城", "dynasty": "辽", "polityIds": ["liao"], "builtYear": 918, "place": "内蒙古巴林左旗", "coords": [119.28, 43.96], "note": "契丹皇都，汉制与草原规制并置。", "sources": ["S5"] },
-  { "id": "site-liao-zhongjing", "name": "辽中京遗址（大明塔）", "category": "都城", "dynasty": "辽", "polityIds": ["liao"], "builtYear": 1007, "place": "内蒙古宁城县", "coords": [119.32, 41.6], "note": "现存大明塔为辽塔之最。", "sources": ["S5"] },
-  { "id": "site-xixia-ling", "name": "西夏王陵", "category": "陵墓", "dynasty": "西夏", "polityIds": ["xia"], "period": "11—13 世纪", "place": "宁夏银川市", "coords": [106.0, 38.43], "note": "「东方金字塔」夯土陵台九座。", "sources": ["S5"] },
-  { "id": "site-heishuicheng", "name": "黑水城遗址", "category": "聚落", "dynasty": "西夏—元", "polityIds": ["xia", "yuan"], "period": "11—14 世纪", "place": "内蒙古额济纳旗", "coords": [101.14, 41.76], "note": "1908—1909 年出土大批西夏文文献。", "sources": ["S5"] },
-  { "id": "site-jin-shangjing", "name": "金上京会宁府遗址", "category": "都城", "dynasty": "金", "polityIds": ["jin"], "builtYear": 1115, "place": "黑龙江省哈尔滨市阿城区", "coords": [126.97, 45.52], "note": "金源故地，1153 迁都燕京。", "sources": ["S5"] },
-  { "id": "site-lugouqiao", "name": "卢沟桥", "category": "工程", "dynasty": "金", "polityIds": ["jin"], "builtRange": [1189, 1192], "place": "北京市丰台区", "coords": [116.21, 39.85], "note": "明昌三年建成；马可·波罗盛赞。", "sources": ["S5"] },
-  { "id": "site-quanzhou-kaiyuan", "name": "泉州开元寺及东西塔", "category": "宗教", "dynasty": "唐宋", "polityIds": ["song"], "period": "686 年始建，宋塔", "place": "福建省泉州市", "coords": [118.59, 24.91], "whs": 2021, "note": "宋元中国的世界海洋商贸中心（泉州系列遗产）。", "sources": ["S5"] },
-  { "id": "site-luoyang-bridge", "name": "泉州洛阳桥", "category": "工程", "dynasty": "北宋", "polityIds": ["song"], "builtRange": [1053, 1059], "place": "福建省泉州市", "coords": [118.68, 24.93], "whs": 2021, "note": "首创筏形基础与种蛎固基的跨海石桥。", "sources": ["S5"] },
-  { "id": "site-dingyao", "name": "定窑遗址", "category": "手工业", "dynasty": "唐宋", "polityIds": ["song"], "period": "唐宋", "place": "河北省曲阳县", "coords": [114.7, 38.62], "note": "白瓷名窑，覆烧工艺。", "sources": ["S5"] },
-  { "id": "site-junyao", "name": "钧窑遗址", "category": "手工业", "dynasty": "宋金", "polityIds": ["song", "jin"], "period": "宋金", "place": "河南省禹州市", "coords": [113.48, 34.14], "note": "窑变釉色著称。", "sources": ["S5"] },
-  { "id": "site-ruyao", "name": "汝窑遗址（清凉寺）", "category": "手工业", "dynasty": "北宋", "polityIds": ["song"], "period": "北宋", "place": "河南省宝丰县", "coords": [112.9, 33.9], "note": "1987 年确认窑址，「雨过天青」。", "sources": ["S5"] },
-  { "id": "site-longquan-yao", "name": "龙泉窑遗址（大窑）", "category": "手工业", "dynasty": "宋—明", "polityIds": ["song", "yuan", "ming"], "period": "宋—明", "place": "浙江省龙泉市", "coords": [118.98, 28.03], "note": "青瓷外销主产地。", "sources": ["S5"] },
-  { "id": "site-daduyicheng", "name": "元大都城垣遗址", "category": "都城", "dynasty": "元", "polityIds": ["yuan"], "builtYear": 1267, "place": "北京市", "coords": [116.39, 39.97], "note": "刘秉忠规划，明清北京城的基础。", "sources": ["S5"] },
-  { "id": "site-shangdu", "name": "元上都遗址", "category": "都城", "dynasty": "元", "polityIds": ["yuan"], "builtYear": 1256, "place": "内蒙古正蓝旗", "coords": [116.18, 42.29], "whs": 2012, "note": "开平府，忽必烈龙兴之地。", "sources": ["S5"] },
-  { "id": "site-yonglegong", "name": "永乐宫", "category": "宗教", "dynasty": "元", "polityIds": ["yuan"], "builtRange": [1247, 1358], "place": "山西省芮城县", "coords": [110.69, 34.69], "note": "原在永乐镇，1959 年因三门峡水库整体迁建；元代壁画巨制。", "sources": ["S5"] },
-  { "id": "site-yuntai", "name": "居庸关云台", "category": "宗教", "dynasty": "元", "polityIds": ["yuan"], "builtYear": 1345, "place": "北京市昌平区", "coords": [116.07, 40.29], "note": "过街塔座，六体文字石刻。", "sources": ["S5"] },
-  { "id": "site-gugong", "name": "北京故宫（紫禁城）", "category": "宫殿", "dynasty": "明清", "polityIds": ["ming", "qing"], "builtRange": [1406, 1420], "place": "北京市", "coords": [116.39, 39.92], "whs": 1987, "note": "明清两代二十四帝居所。", "sources": ["S5"] },
-  { "id": "site-tiantan", "name": "天坛", "category": "宗教", "dynasty": "明清", "polityIds": ["ming", "qing"], "builtYear": 1420, "place": "北京市", "coords": [116.41, 39.88], "whs": 1998, "note": "圜丘与祈年殿，郊祀体系核心。", "sources": ["S5"] },
-  { "id": "site-mingxiaoling", "name": "明孝陵", "category": "陵墓", "dynasty": "明", "polityIds": ["ming"], "builtRange": [1381, 1413], "place": "江苏省南京市", "coords": [118.84, 32.06], "whs": 2000, "note": "明清皇家陵寝之首，改方坟为圜丘形制之始。", "sources": ["S5"] },
-  { "id": "site-ming13", "name": "明十三陵", "category": "陵墓", "dynasty": "明", "polityIds": ["ming"], "builtYear": 1409, "place": "北京市昌平区", "coords": [116.22, 40.25], "whs": 2003, "note": "长陵（永乐）至思陵（崇祯）。", "sources": ["S5"] },
-  { "id": "site-badaling", "name": "八达岭长城", "category": "军事", "dynasty": "明", "polityIds": ["ming"], "period": "1505 年前后重建", "place": "北京市延庆区", "coords": [116.02, 40.36], "whs": 1987, "note": "长城 1987 年整体列入世遗；此处为明长城代表段。", "sources": ["S5"] },
-  { "id": "site-shanhaiguan", "name": "山海关", "category": "军事", "dynasty": "明", "polityIds": ["ming"], "builtYear": 1381, "place": "河北省秦皇岛市", "coords": [119.75, 40.01], "whs": 1987, "note": "「天下第一关」，长城与海交汇。", "sources": ["S5"] },
-  { "id": "site-jiayuguan", "name": "嘉峪关", "category": "军事", "dynasty": "明", "polityIds": ["ming"], "builtYear": 1372, "place": "甘肃省嘉峪关市", "coords": [98.23, 39.86], "whs": 1987, "note": "明长城西端关城。", "sources": ["S5"] },
-  { "id": "site-wudang", "name": "武当山古建筑群", "category": "宗教", "dynasty": "明", "polityIds": ["ming"], "builtYear": 1412, "place": "湖北省丹江口市", "coords": [111.0, 32.48], "whs": 1994, "note": "永乐年间敕建「北建故宫、南修武当」。", "sources": ["S5"] },
-  { "id": "site-kongmiao", "name": "曲阜孔庙孔府孔林", "category": "宗教", "dynasty": "春秋始建，历代扩建", "polityIds": [], "builtYear": -478, "place": "山东省曲阜市", "coords": [116.99, 35.6], "whs": 1994, "note": "孔子故宅基础上历代扩建的祀庙与家族墓地。", "sources": ["S5"] },
-  { "id": "site-pingyao", "name": "平遥城墙与古城", "category": "军事", "dynasty": "明", "polityIds": ["ming"], "builtYear": 1370, "place": "山西省平遥县", "coords": [112.18, 37.2], "whs": 1997, "note": "明洪武三年扩建成今制，票号之都。", "sources": ["S5"] },
-  { "id": "site-lijiang", "name": "丽江古城", "category": "聚落", "dynasty": "宋末—清", "polityIds": [], "period": "宋末元初—清", "place": "云南省丽江市", "coords": [100.23, 26.9], "whs": 1997, "note": "茶马古道重镇，无城墙古城。", "sources": ["S5"] },
-  { "id": "site-suzhou-gardens", "name": "苏州古典园林（拙政园等）", "category": "园林", "dynasty": "明清", "polityIds": ["ming", "qing"], "period": "16 世纪起", "place": "江苏省苏州市", "coords": [120.62, 31.32], "whs": 1997, "note": "拙政园（明）、留园等九处。", "sources": ["S5"] },
-  { "id": "site-yiheyuan", "name": "颐和园", "category": "园林", "dynasty": "清", "polityIds": ["qing"], "builtYear": 1750, "place": "北京市", "coords": [116.27, 39.99], "whs": 1998, "note": "乾隆清漪园基址上重建。", "sources": ["S5"] },
-  { "id": "site-chengde", "name": "避暑山庄及周围寺庙", "category": "园林", "dynasty": "清", "polityIds": ["qing"], "builtYear": 1703, "place": "河北省承德市", "coords": [117.95, 40.99], "whs": 1994, "note": "多民族帝国「秋狝木兰」政治空间。", "sources": ["S5"] },
-  { "id": "site-yuanmingyuan", "name": "圆明园遗址", "category": "宫殿", "dynasty": "清", "polityIds": ["qing"], "builtYear": 1709, "place": "北京市海淀区", "coords": [116.31, 40.01], "note": "1860 年遭英法联军焚掠；西洋楼残迹。", "sources": ["S5"] },
-  { "id": "site-shenyang-gugong", "name": "沈阳故宫", "category": "宫殿", "dynasty": "后金—清", "polityIds": ["qing"], "builtYear": 1625, "place": "辽宁省沈阳市", "coords": [123.46, 41.8], "whs": 2004, "note": "努尔哈赤迁沈阳后营建，2004 作为故宫扩展列入。", "sources": ["S5"] },
-  { "id": "site-potala", "name": "布达拉宫", "category": "宫殿", "dynasty": "吐蕃—清", "polityIds": ["qing"], "period": "7 世纪始建，1645 年重建", "place": "西藏拉萨市", "coords": [91.12, 29.66], "whs": 1994, "note": "松赞干布初建，五世达赖时期重建白宫、红宫。", "sources": ["S5"] },
-  { "id": "site-yonghegong", "name": "雍和宫", "category": "宗教", "dynasty": "清", "polityIds": ["qing"], "builtYear": 1694, "place": "北京市东城区", "coords": [116.42, 39.95], "note": "雍正潜邸改寺，蒙藏佛教寺院。", "sources": ["S5"] },
-  { "id": "site-dazu", "name": "大足石刻", "category": "石窟", "dynasty": "唐宋", "polityIds": ["tang", "song"], "period": "9—13 世纪", "place": "重庆市大足区", "coords": [105.7, 29.7], "whs": 1999, "note": "中国晚期石窟代表作，世俗化造像。", "sources": ["S5"] },
-  { "id": "site-westlake", "name": "杭州西湖文化景观", "category": "园林", "dynasty": "宋", "polityIds": ["song"], "period": "9—13 世纪成型", "place": "浙江省杭州市", "coords": [120.15, 30.24], "whs": 2011, "note": "南宋临安的城市湖山格局，「两堤三岛」。", "sources": ["S5"] },
-  { "id": "site-hongcun", "name": "皖南古村落（西递·宏村）", "category": "聚落", "dynasty": "明清", "polityIds": ["ming", "qing"], "period": "14—19 世纪", "place": "安徽省黟县", "coords": [117.98, 30.02], "whs": 2000, "note": "徽派民居与水系规划。", "sources": ["S5"] },
-  { "id": "site-tulou", "name": "福建土楼", "category": "聚落", "dynasty": "明清", "polityIds": ["ming", "qing"], "period": "15—20 世纪", "place": "福建省永定、南靖", "coords": [116.9, 24.75], "whs": 2008, "note": "夯土聚族而居的大型民居。", "sources": ["S5"] }
+ {
+  "id": "site-zhoukoudian",
+  "name": "周口店北京人遗址",
+  "category": "聚落",
+  "dynasty": "史前",
+  "polityIds": [],
+  "period": "距今约 70 万—20 万年",
+  "place": "北京市房山区",
+  "coords": [
+   115.92,
+   39.67
+  ],
+  "whs": 1987,
+  "note": "「北京人」与「山顶洞人」化石地点。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-taosi",
+  "name": "陶寺遗址",
+  "category": "聚落",
+  "dynasty": "史前",
+  "polityIds": [],
+  "period": "约前 2300—前 1900",
+  "place": "山西省襄汾县",
+  "coords": [
+   111.5,
+   35.87
+  ],
+  "note": "大型城址与观象台，学界有「尧都平阳」之说。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-liangzhu",
+  "name": "良渚古城遗址",
+  "category": "聚落",
+  "dynasty": "史前",
+  "polityIds": [],
+  "period": "距今约 5300—4300 年",
+  "place": "浙江省杭州市余杭区",
+  "coords": [
+   119.99,
+   30.38
+  ],
+  "whs": 2019,
+  "note": "水利系统与玉礼器体系实证早期国家形态。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-erlitou",
+  "name": "二里头遗址",
+  "category": "都城",
+  "dynasty": "夏（存争议）",
+  "polityIds": [],
+  "period": "约前 1750—前 1520",
+  "place": "河南省洛阳市偃师",
+  "coords": [
+   112.69,
+   34.7
+  ],
+  "note": "二里头文化宫城与「绿松石龙」出土；学界多以为夏都斟寻，尚有争议。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-yinxu",
+  "name": "殷墟",
+  "category": "都城",
+  "dynasty": "商",
+  "polityIds": [],
+  "period": "约前 1300—前 1046",
+  "place": "河南省安阳市",
+  "coords": [
+   114.31,
+   36.12
+  ],
+  "whs": 2006,
+  "note": "盘庚迁殷后商都；甲骨文出土地。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-zhouyuan",
+  "name": "周原遗址",
+  "category": "都城",
+  "dynasty": "周",
+  "polityIds": [],
+  "period": "约前 1100—前 771",
+  "place": "陕西省扶风县、岐山县",
+  "coords": [
+   107.7,
+   34.53
+  ],
+  "note": "周人发祥地，大量青铜器窖藏出土。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-fenghao",
+  "name": "丰镐遗址",
+  "category": "都城",
+  "dynasty": "西周",
+  "polityIds": [],
+  "period": "约前 1046—前 771",
+  "place": "陕西省西安市长安区",
+  "coords": [
+   108.71,
+   34.2
+  ],
+  "note": "西周都城丰京、镐京。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-qinshihuang",
+  "name": "秦始皇陵及兵马俑坑",
+  "category": "陵墓",
+  "dynasty": "秦",
+  "polityIds": [
+   "qin"
+  ],
+  "builtRange": [
+   -245,
+   -208
+  ],
+  "place": "陕西省西安市临潼区",
+  "coords": [
+   109.28,
+   34.38
+  ],
+  "whs": 1987,
+  "note": "始皇即位后营建，历时约三十八年。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-epanggong",
+  "name": "阿房宫遗址",
+  "category": "宫殿",
+  "dynasty": "秦",
+  "polityIds": [
+   "qin"
+  ],
+  "builtYear": -208,
+  "place": "陕西省西安市",
+  "coords": [
+   108.86,
+   34.24
+  ],
+  "note": "前 212 年始建，未成而秦亡；考古表明前殿基址未见大规模焚烧痕迹。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-dujiangyan",
+  "name": "都江堰",
+  "category": "工程",
+  "dynasty": "秦",
+  "polityIds": [
+   "qin"
+  ],
+  "builtRange": [
+   -255,
+   -251
+  ],
+  "place": "四川省都江堰市",
+  "coords": [
+   103.61,
+   31
+  ],
+  "whs": 2000,
+  "note": "李冰父子主持修建的无坝引水工程（青城山—都江堰）。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-lingqu",
+  "name": "灵渠",
+  "category": "工程",
+  "dynasty": "秦",
+  "polityIds": [
+   "qin"
+  ],
+  "builtYear": -213,
+  "place": "广西兴安县",
+  "coords": [
+   110.7,
+   25.62
+  ],
+  "note": "沟通湘江与漓江；2018 年入选世界灌溉工程遗产。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-hanchangan",
+  "name": "汉长安城遗址（未央宫）",
+  "category": "都城",
+  "dynasty": "西汉",
+  "polityIds": [
+   "western-han"
+  ],
+  "builtYear": -200,
+  "place": "陕西省西安市",
+  "coords": [
+   108.85,
+   34.3
+  ],
+  "whs": 2014,
+  "note": "丝绸之路「长安—天山廊道」起点。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-maoling",
+  "name": "茂陵",
+  "category": "陵墓",
+  "dynasty": "西汉",
+  "polityIds": [
+   "western-han"
+  ],
+  "builtYear": -138,
+  "place": "陕西省兴平市",
+  "coords": [
+   108.85,
+   34.34
+  ],
+  "note": "汉武帝陵，营建五十三年；霍去病墓石雕「马踏匈奴」在侧。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-mawangdui",
+  "name": "马王堆汉墓",
+  "category": "陵墓",
+  "dynasty": "西汉",
+  "polityIds": [
+   "western-han"
+  ],
+  "period": "前 2 世纪",
+  "place": "湖南省长沙市",
+  "coords": [
+   113,
+   28.21
+  ],
+  "note": "轪侯利苍家族墓，出土素纱单衣、帛书帛画。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-yumenguan",
+  "name": "玉门关及汉长城遗址",
+  "category": "军事",
+  "dynasty": "汉",
+  "polityIds": [
+   "western-han"
+  ],
+  "builtYear": -121,
+  "place": "甘肃省敦煌市",
+  "coords": [
+   93.86,
+   40.35
+  ],
+  "whs": 2014,
+  "note": "丝绸之路门户；小方盘城与当谷燧汉长城。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-niya",
+  "name": "尼雅遗址",
+  "category": "聚落",
+  "dynasty": "汉—晋",
+  "polityIds": [
+   "eastern-han",
+   "western-jin"
+  ],
+  "period": "约前 2 世纪—3 世纪",
+  "place": "新疆民丰县",
+  "coords": [
+   82.7,
+   37.06
+  ],
+  "whs": 2014,
+  "note": "精绝故地，「五星出东方利中国」锦护臂出土处。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-yecheng",
+  "name": "邺城遗址",
+  "category": "都城",
+  "dynasty": "曹魏—北齐",
+  "polityIds": [
+   "wei",
+   "eastern-wei",
+   "northern-qi"
+  ],
+  "period": "3—6 世纪",
+  "place": "河北省临漳县",
+  "coords": [
+   114.62,
+   36.34
+  ],
+  "note": "曹魏邺城与东魏北齐邺南城；中轴规划影响后世都城。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-hanweiluoyang",
+  "name": "汉魏洛阳城遗址",
+  "category": "都城",
+  "dynasty": "东汉—北魏",
+  "polityIds": [
+   "eastern-han",
+   "northern-wei"
+  ],
+  "period": "1—6 世纪",
+  "place": "河南省洛阳市",
+  "coords": [
+   112.6,
+   34.68
+  ],
+  "whs": 2014,
+  "note": "含东汉、曹魏、西晋、北魏四朝都城遗址与永宁寺塔基。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-yungang",
+  "name": "云冈石窟",
+  "category": "石窟",
+  "dynasty": "北魏",
+  "polityIds": [
+   "northern-wei"
+  ],
+  "builtRange": [
+   460,
+   524
+  ],
+  "place": "山西省大同市",
+  "coords": [
+   113.14,
+   40.11
+  ],
+  "whs": 2001,
+  "note": "昙曜五窟开凿于平城时代。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-longmen",
+  "name": "龙门石窟",
+  "category": "石窟",
+  "dynasty": "北魏—唐",
+  "polityIds": [
+   "northern-wei",
+   "tang"
+  ],
+  "builtYear": 493,
+  "place": "河南省洛阳市",
+  "coords": [
+   112.47,
+   34.56
+  ],
+  "whs": 2000,
+  "note": "北魏迁都洛阳后续开，盛唐卢舍那大佛为代表。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-mogao",
+  "name": "敦煌莫高窟",
+  "category": "石窟",
+  "dynasty": "十六国—元",
+  "polityIds": [
+   "yuan"
+  ],
+  "builtYear": 366,
+  "place": "甘肃省敦煌市",
+  "coords": [
+   94.66,
+   40.04
+  ],
+  "whs": 1987,
+  "note": "自前秦建元二年（366）起营造，历时千年；1900 年藏经洞发现。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-maijishan",
+  "name": "麦积山石窟",
+  "category": "石窟",
+  "dynasty": "后秦—明清",
+  "polityIds": [],
+  "period": "约 384 年起",
+  "place": "甘肃省天水市",
+  "coords": [
+   105.96,
+   34.35
+  ],
+  "whs": 2014,
+  "note": "「东方雕塑陈列馆」。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-xiangtangshan",
+  "name": "响堂山石窟",
+  "category": "石窟",
+  "dynasty": "北齐",
+  "polityIds": [
+   "northern-qi"
+  ],
+  "builtRange": [
+   550,
+   577
+  ],
+  "place": "河北省邯郸市峰峰矿区",
+  "coords": [
+   114.16,
+   36.6
+  ],
+  "note": "北齐皇室开凿，邺都与晋阳之间。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-qixiashan",
+  "name": "栖霞山千佛岩石窟",
+  "category": "石窟",
+  "dynasty": "南朝",
+  "polityIds": [
+   "liu-song",
+   "liang"
+  ],
+  "builtYear": 489,
+  "place": "江苏省南京市",
+  "coords": [
+   118.91,
+   32.1
+  ],
+  "note": "南方少见的中古石窟群，与云冈同期呼应。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-pingcheng",
+  "name": "平城遗址（北魏都城）",
+  "category": "都城",
+  "dynasty": "北魏",
+  "polityIds": [
+   "northern-wei"
+  ],
+  "builtYear": 398,
+  "place": "山西省大同市",
+  "coords": [
+   113.3,
+   40.08
+  ],
+  "note": "道武帝迁都平城至孝文帝迁洛（494）间都城。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-tongwancheng",
+  "name": "统万城遗址",
+  "category": "都城",
+  "dynasty": "大夏（十六国）",
+  "polityIds": [],
+  "builtYear": 413,
+  "place": "陕西省靖边县",
+  "coords": [
+   108.96,
+   37.99
+  ],
+  "note": "赫连勃勃所建，夯土「白城子」。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-changan-sui-tang",
+  "name": "隋大兴·唐长安城遗址",
+  "category": "都城",
+  "dynasty": "隋唐",
+  "polityIds": [
+   "sui",
+   "tang"
+  ],
+  "builtYear": 582,
+  "place": "陕西省西安市",
+  "coords": [
+   108.95,
+   34.27
+  ],
+  "note": "宇文恺规划的大兴城，唐承之，中世纪世界最大都城。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-daminggong",
+  "name": "大明宫遗址",
+  "category": "宫殿",
+  "dynasty": "唐",
+  "polityIds": [
+   "tang"
+  ],
+  "builtYear": 634,
+  "place": "陕西省西安市",
+  "coords": [
+   108.96,
+   34.29
+  ],
+  "whs": 2014,
+  "note": "贞观八年始建，龙朔后为唐主要朝政中心。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-zhaozhou-bridge",
+  "name": "赵州桥（安济桥）",
+  "category": "工程",
+  "dynasty": "隋",
+  "polityIds": [
+   "sui"
+  ],
+  "builtRange": [
+   595,
+   605
+  ],
+  "place": "河北省赵县",
+  "coords": [
+   114.77,
+   37.74
+  ],
+  "note": "李春设计，现存最古老的敞肩石拱桥。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-grand-canal",
+  "name": "大运河",
+  "category": "工程",
+  "dynasty": "隋唐—明清",
+  "polityIds": [
+   "sui",
+   "tang",
+   "song",
+   "yuan",
+   "ming",
+   "qing"
+  ],
+  "builtYear": 605,
+  "place": "跨北京、扬州、杭州等地",
+  "coords": [
+   119.41,
+   32.39
+  ],
+  "whs": 2014,
+  "note": "隋大业间贯通，元代裁弯取直；跨省线性遗产。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-qianling",
+  "name": "乾陵",
+  "category": "陵墓",
+  "dynasty": "唐",
+  "polityIds": [
+   "tang"
+  ],
+  "builtYear": 684,
+  "place": "陕西省乾县",
+  "coords": [
+   108.47,
+   34.57
+  ],
+  "note": "高宗与武则天合葬墓，「因山为陵」。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-famen",
+  "name": "法门寺塔基与地宫",
+  "category": "宗教",
+  "dynasty": "东汉—唐",
+  "polityIds": [
+   "tang"
+  ],
+  "period": "约 499 年始建，唐代为皇家寺院",
+  "place": "陕西省扶风县",
+  "coords": [
+   107.89,
+   34.44
+  ],
+  "note": "1987 年地宫出土佛指舍利与秘色瓷。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-foguangsi",
+  "name": "佛光寺东大殿",
+  "category": "宗教",
+  "dynasty": "唐",
+  "polityIds": [
+   "tang"
+  ],
+  "builtYear": 857,
+  "place": "山西省五台县",
+  "coords": [
+   113.37,
+   38.72
+  ],
+  "note": "梁思成、林徽因 1937 年调查确认的唐代木构。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-nanchansi",
+  "name": "南禅寺大殿",
+  "category": "宗教",
+  "dynasty": "唐",
+  "polityIds": [
+   "tang"
+  ],
+  "builtYear": 782,
+  "place": "山西省五台县",
+  "coords": [
+   113.44,
+   38.75
+  ],
+  "note": "现存最早木结构建筑。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-jiaohe",
+  "name": "交河故城",
+  "category": "都城",
+  "dynasty": "车师—唐",
+  "polityIds": [
+   "tang"
+  ],
+  "period": "约前 2 世纪—14 世纪",
+  "place": "新疆吐鲁番市",
+  "coords": [
+   89.05,
+   42.95
+  ],
+  "whs": 2014,
+  "note": "崖上生土建筑城市，唐代安西都护府初驻此。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-gaochang",
+  "name": "高昌故城",
+  "category": "都城",
+  "dynasty": "汉—元",
+  "polityIds": [
+   "tang",
+   "yuan"
+  ],
+  "period": "约前 1 世纪—14 世纪",
+  "place": "新疆吐鲁番市",
+  "coords": [
+   89.19,
+   42.85
+  ],
+  "whs": 2014,
+  "note": "汉代屯戍所筑，麹氏高昌与回鹘高昌都城。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-shangjing-balhae",
+  "name": "渤海国上京龙泉府遗址",
+  "category": "都城",
+  "dynasty": "唐（渤海国）",
+  "polityIds": [
+   "tang"
+  ],
+  "period": "8 世纪中叶起",
+  "place": "黑龙江省宁安市",
+  "coords": [
+   129.12,
+   44.32
+  ],
+  "note": "仿长安规制；渤海为唐册封政权。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-taihe",
+  "name": "太和城遗址（南诏）",
+  "category": "都城",
+  "dynasty": "唐（南诏）",
+  "polityIds": [
+   "tang"
+  ],
+  "builtYear": 739,
+  "place": "云南省大理市",
+  "coords": [
+   100.16,
+   25.68
+  ],
+  "note": "南诏与唐、吐蕃并立期的都城，后接大理。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-zhouqiao",
+  "name": "州桥及汴河遗址",
+  "category": "都城",
+  "dynasty": "北宋",
+  "polityIds": [
+   "song"
+  ],
+  "period": "北宋",
+  "place": "河南省开封市",
+  "coords": [
+   114.31,
+   34.79
+  ],
+  "note": "2022 年考古发掘出土明代州桥与汴河河道、巨幅石雕。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-dongjing",
+  "name": "北宋东京城遗址",
+  "category": "都城",
+  "dynasty": "北宋",
+  "polityIds": [
+   "song"
+  ],
+  "period": "960—1127",
+  "place": "河南省开封市",
+  "coords": [
+   114.32,
+   34.79
+  ],
+  "note": "里城、外城与汴河漕运体系。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-lin-an",
+  "name": "南宋临安城遗址",
+  "category": "都城",
+  "dynasty": "南宋",
+  "polityIds": [
+   "song"
+  ],
+  "period": "1129—1278",
+  "place": "浙江省杭州市",
+  "coords": [
+   120.16,
+   30.23
+  ],
+  "note": "皇城遗址在南凤凰山东麓。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-yingxian-tower",
+  "name": "应县木塔（佛宫寺释迦塔）",
+  "category": "宗教",
+  "dynasty": "辽",
+  "polityIds": [
+   "liao"
+  ],
+  "builtYear": 1056,
+  "place": "山西省应县",
+  "coords": [
+   113.19,
+   39.56
+  ],
+  "note": "现存最古最高的木塔。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-huayansi",
+  "name": "大同华严寺（薄伽教藏殿）",
+  "category": "宗教",
+  "dynasty": "辽金",
+  "polityIds": [
+   "liao",
+   "jin"
+  ],
+  "builtYear": 1038,
+  "place": "山西省大同市",
+  "coords": [
+   113.3,
+   40.09
+  ],
+  "note": "辽代壁藏「天宫楼阁」被梁思成称为海内孤品。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-dulesi",
+  "name": "蓟州独乐寺（观音阁）",
+  "category": "宗教",
+  "dynasty": "辽",
+  "polityIds": [
+   "liao"
+  ],
+  "builtYear": 984,
+  "place": "天津市蓟州区",
+  "coords": [
+   117.41,
+   40.04
+  ],
+  "note": "统和二年重建，辽代木构代表作。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-liao-shangjing",
+  "name": "辽上京遗址",
+  "category": "都城",
+  "dynasty": "辽",
+  "polityIds": [
+   "liao"
+  ],
+  "builtYear": 918,
+  "place": "内蒙古巴林左旗",
+  "coords": [
+   119.28,
+   43.96
+  ],
+  "note": "契丹皇都，汉制与草原规制并置。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-liao-zhongjing",
+  "name": "辽中京遗址（大明塔）",
+  "category": "都城",
+  "dynasty": "辽",
+  "polityIds": [
+   "liao"
+  ],
+  "builtYear": 1007,
+  "place": "内蒙古宁城县",
+  "coords": [
+   119.32,
+   41.6
+  ],
+  "note": "现存大明塔为辽塔之最。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-xixia-ling",
+  "name": "西夏王陵",
+  "category": "陵墓",
+  "dynasty": "西夏",
+  "polityIds": [
+   "xia"
+  ],
+  "period": "11—13 世纪",
+  "place": "宁夏银川市",
+  "coords": [
+   106,
+   38.43
+  ],
+  "note": "「东方金字塔」夯土陵台九座。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-heishuicheng",
+  "name": "黑水城遗址",
+  "category": "聚落",
+  "dynasty": "西夏—元",
+  "polityIds": [
+   "xia",
+   "yuan"
+  ],
+  "period": "11—14 世纪",
+  "place": "内蒙古额济纳旗",
+  "coords": [
+   101.14,
+   41.76
+  ],
+  "note": "1908—1909 年出土大批西夏文文献。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-jin-shangjing",
+  "name": "金上京会宁府遗址",
+  "category": "都城",
+  "dynasty": "金",
+  "polityIds": [
+   "jin"
+  ],
+  "builtYear": 1115,
+  "place": "黑龙江省哈尔滨市阿城区",
+  "coords": [
+   126.97,
+   45.52
+  ],
+  "note": "金源故地，1153 迁都燕京。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-lugouqiao",
+  "name": "卢沟桥",
+  "category": "工程",
+  "dynasty": "金",
+  "polityIds": [
+   "jin"
+  ],
+  "builtRange": [
+   1189,
+   1192
+  ],
+  "place": "北京市丰台区",
+  "coords": [
+   116.21,
+   39.85
+  ],
+  "note": "明昌三年建成；马可·波罗盛赞。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-quanzhou-kaiyuan",
+  "name": "泉州开元寺及东西塔",
+  "category": "宗教",
+  "dynasty": "唐宋",
+  "polityIds": [
+   "song"
+  ],
+  "period": "686 年始建，宋塔",
+  "place": "福建省泉州市",
+  "coords": [
+   118.59,
+   24.91
+  ],
+  "whs": 2021,
+  "note": "宋元中国的世界海洋商贸中心（泉州系列遗产）。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-luoyang-bridge",
+  "name": "泉州洛阳桥",
+  "category": "工程",
+  "dynasty": "北宋",
+  "polityIds": [
+   "song"
+  ],
+  "builtRange": [
+   1053,
+   1059
+  ],
+  "place": "福建省泉州市",
+  "coords": [
+   118.68,
+   24.93
+  ],
+  "whs": 2021,
+  "note": "首创筏形基础与种蛎固基的跨海石桥。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-dingyao",
+  "name": "定窑遗址",
+  "category": "手工业",
+  "dynasty": "唐宋",
+  "polityIds": [
+   "song"
+  ],
+  "period": "唐宋",
+  "place": "河北省曲阳县",
+  "coords": [
+   114.7,
+   38.62
+  ],
+  "note": "白瓷名窑，覆烧工艺。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-junyao",
+  "name": "钧窑遗址",
+  "category": "手工业",
+  "dynasty": "宋金",
+  "polityIds": [
+   "song",
+   "jin"
+  ],
+  "period": "宋金",
+  "place": "河南省禹州市",
+  "coords": [
+   113.48,
+   34.14
+  ],
+  "note": "窑变釉色著称。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-ruyao",
+  "name": "汝窑遗址（清凉寺）",
+  "category": "手工业",
+  "dynasty": "北宋",
+  "polityIds": [
+   "song"
+  ],
+  "period": "北宋",
+  "place": "河南省宝丰县",
+  "coords": [
+   112.9,
+   33.9
+  ],
+  "note": "1987 年确认窑址，「雨过天青」。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-longquan-yao",
+  "name": "龙泉窑遗址（大窑）",
+  "category": "手工业",
+  "dynasty": "宋—明",
+  "polityIds": [
+   "song",
+   "yuan",
+   "ming"
+  ],
+  "period": "宋—明",
+  "place": "浙江省龙泉市",
+  "coords": [
+   118.98,
+   28.03
+  ],
+  "note": "青瓷外销主产地。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-daduyicheng",
+  "name": "元大都城垣遗址",
+  "category": "都城",
+  "dynasty": "元",
+  "polityIds": [
+   "yuan"
+  ],
+  "builtYear": 1267,
+  "place": "北京市",
+  "coords": [
+   116.39,
+   39.97
+  ],
+  "note": "刘秉忠规划，明清北京城的基础。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-shangdu",
+  "name": "元上都遗址",
+  "category": "都城",
+  "dynasty": "元",
+  "polityIds": [
+   "yuan"
+  ],
+  "builtYear": 1256,
+  "place": "内蒙古正蓝旗",
+  "coords": [
+   116.18,
+   42.29
+  ],
+  "whs": 2012,
+  "note": "开平府，忽必烈龙兴之地。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-yonglegong",
+  "name": "永乐宫",
+  "category": "宗教",
+  "dynasty": "元",
+  "polityIds": [
+   "yuan"
+  ],
+  "builtRange": [
+   1247,
+   1358
+  ],
+  "place": "山西省芮城县",
+  "coords": [
+   110.69,
+   34.69
+  ],
+  "note": "原在永乐镇，1959 年因三门峡水库整体迁建；元代壁画巨制。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-yuntai",
+  "name": "居庸关云台",
+  "category": "宗教",
+  "dynasty": "元",
+  "polityIds": [
+   "yuan"
+  ],
+  "builtYear": 1345,
+  "place": "北京市昌平区",
+  "coords": [
+   116.07,
+   40.29
+  ],
+  "note": "过街塔座，六体文字石刻。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-gugong",
+  "name": "北京故宫（紫禁城）",
+  "category": "宫殿",
+  "dynasty": "明清",
+  "polityIds": [
+   "ming",
+   "qing"
+  ],
+  "builtRange": [
+   1406,
+   1420
+  ],
+  "place": "北京市",
+  "coords": [
+   116.39,
+   39.92
+  ],
+  "whs": 1987,
+  "note": "明清两代二十四帝居所。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-tiantan",
+  "name": "天坛",
+  "category": "宗教",
+  "dynasty": "明清",
+  "polityIds": [
+   "ming",
+   "qing"
+  ],
+  "builtYear": 1420,
+  "place": "北京市",
+  "coords": [
+   116.41,
+   39.88
+  ],
+  "whs": 1998,
+  "note": "圜丘与祈年殿，郊祀体系核心。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-mingxiaoling",
+  "name": "明孝陵",
+  "category": "陵墓",
+  "dynasty": "明",
+  "polityIds": [
+   "ming"
+  ],
+  "builtRange": [
+   1381,
+   1413
+  ],
+  "place": "江苏省南京市",
+  "coords": [
+   118.84,
+   32.06
+  ],
+  "whs": 2000,
+  "note": "明清皇家陵寝之首，改方坟为圜丘形制之始。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-ming13",
+  "name": "明十三陵",
+  "category": "陵墓",
+  "dynasty": "明",
+  "polityIds": [
+   "ming"
+  ],
+  "builtYear": 1409,
+  "place": "北京市昌平区",
+  "coords": [
+   116.22,
+   40.25
+  ],
+  "whs": 2003,
+  "note": "长陵（永乐）至思陵（崇祯）。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-badaling",
+  "name": "八达岭长城",
+  "category": "军事",
+  "dynasty": "明",
+  "polityIds": [
+   "ming"
+  ],
+  "period": "1505 年前后重建",
+  "place": "北京市延庆区",
+  "coords": [
+   116.02,
+   40.36
+  ],
+  "whs": 1987,
+  "note": "长城 1987 年整体列入世遗；此处为明长城代表段。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-shanhaiguan",
+  "name": "山海关",
+  "category": "军事",
+  "dynasty": "明",
+  "polityIds": [
+   "ming"
+  ],
+  "builtYear": 1381,
+  "place": "河北省秦皇岛市",
+  "coords": [
+   119.75,
+   40.01
+  ],
+  "whs": 1987,
+  "note": "「天下第一关」，长城与海交汇。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-jiayuguan",
+  "name": "嘉峪关",
+  "category": "军事",
+  "dynasty": "明",
+  "polityIds": [
+   "ming"
+  ],
+  "builtYear": 1372,
+  "place": "甘肃省嘉峪关市",
+  "coords": [
+   98.23,
+   39.86
+  ],
+  "whs": 1987,
+  "note": "明长城西端关城。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-wudang",
+  "name": "武当山古建筑群",
+  "category": "宗教",
+  "dynasty": "明",
+  "polityIds": [
+   "ming"
+  ],
+  "builtYear": 1412,
+  "place": "湖北省丹江口市",
+  "coords": [
+   111,
+   32.48
+  ],
+  "whs": 1994,
+  "note": "永乐年间敕建「北建故宫、南修武当」。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-kongmiao",
+  "name": "曲阜孔庙孔府孔林",
+  "category": "宗教",
+  "dynasty": "春秋始建，历代扩建",
+  "polityIds": [],
+  "builtYear": -478,
+  "place": "山东省曲阜市",
+  "coords": [
+   116.99,
+   35.6
+  ],
+  "whs": 1994,
+  "note": "孔子故宅基础上历代扩建的祀庙与家族墓地。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-pingyao",
+  "name": "平遥城墙与古城",
+  "category": "军事",
+  "dynasty": "明",
+  "polityIds": [
+   "ming"
+  ],
+  "builtYear": 1370,
+  "place": "山西省平遥县",
+  "coords": [
+   112.18,
+   37.2
+  ],
+  "whs": 1997,
+  "note": "明洪武三年扩建成今制，票号之都。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-lijiang",
+  "name": "丽江古城",
+  "category": "聚落",
+  "dynasty": "宋末—清",
+  "polityIds": [],
+  "period": "宋末元初—清",
+  "place": "云南省丽江市",
+  "coords": [
+   100.23,
+   26.9
+  ],
+  "whs": 1997,
+  "note": "茶马古道重镇，无城墙古城。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-suzhou-gardens",
+  "name": "苏州古典园林（拙政园等）",
+  "category": "园林",
+  "dynasty": "明清",
+  "polityIds": [
+   "ming",
+   "qing"
+  ],
+  "period": "16 世纪起",
+  "place": "江苏省苏州市",
+  "coords": [
+   120.62,
+   31.32
+  ],
+  "whs": 1997,
+  "note": "拙政园（明）、留园等九处。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-yiheyuan",
+  "name": "颐和园",
+  "category": "园林",
+  "dynasty": "清",
+  "polityIds": [
+   "qing"
+  ],
+  "builtYear": 1750,
+  "place": "北京市",
+  "coords": [
+   116.27,
+   39.99
+  ],
+  "whs": 1998,
+  "note": "乾隆清漪园基址上重建。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-chengde",
+  "name": "避暑山庄及周围寺庙",
+  "category": "园林",
+  "dynasty": "清",
+  "polityIds": [
+   "qing"
+  ],
+  "builtYear": 1703,
+  "place": "河北省承德市",
+  "coords": [
+   117.95,
+   40.99
+  ],
+  "whs": 1994,
+  "note": "多民族帝国「秋狝木兰」政治空间。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-yuanmingyuan",
+  "name": "圆明园遗址",
+  "category": "宫殿",
+  "dynasty": "清",
+  "polityIds": [
+   "qing"
+  ],
+  "builtYear": 1709,
+  "place": "北京市海淀区",
+  "coords": [
+   116.31,
+   40.01
+  ],
+  "note": "1860 年遭英法联军焚掠；西洋楼残迹。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-shenyang-gugong",
+  "name": "沈阳故宫",
+  "category": "宫殿",
+  "dynasty": "后金—清",
+  "polityIds": [
+   "qing"
+  ],
+  "builtYear": 1625,
+  "place": "辽宁省沈阳市",
+  "coords": [
+   123.46,
+   41.8
+  ],
+  "whs": 2004,
+  "note": "努尔哈赤迁沈阳后营建，2004 作为故宫扩展列入。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-potala",
+  "name": "布达拉宫",
+  "category": "宫殿",
+  "dynasty": "吐蕃—清",
+  "polityIds": [
+   "qing"
+  ],
+  "period": "7 世纪始建，1645 年重建",
+  "place": "西藏拉萨市",
+  "coords": [
+   91.12,
+   29.66
+  ],
+  "whs": 1994,
+  "note": "松赞干布初建，五世达赖时期重建白宫、红宫。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-yonghegong",
+  "name": "雍和宫",
+  "category": "宗教",
+  "dynasty": "清",
+  "polityIds": [
+   "qing"
+  ],
+  "builtYear": 1694,
+  "place": "北京市东城区",
+  "coords": [
+   116.42,
+   39.95
+  ],
+  "note": "雍正潜邸改寺，蒙藏佛教寺院。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-dazu",
+  "name": "大足石刻",
+  "category": "石窟",
+  "dynasty": "唐宋",
+  "polityIds": [
+   "tang",
+   "song"
+  ],
+  "period": "9—13 世纪",
+  "place": "重庆市大足区",
+  "coords": [
+   105.7,
+   29.7
+  ],
+  "whs": 1999,
+  "note": "中国晚期石窟代表作，世俗化造像。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-westlake",
+  "name": "杭州西湖文化景观",
+  "category": "园林",
+  "dynasty": "宋",
+  "polityIds": [
+   "song"
+  ],
+  "period": "9—13 世纪成型",
+  "place": "浙江省杭州市",
+  "coords": [
+   120.15,
+   30.24
+  ],
+  "whs": 2011,
+  "note": "南宋临安的城市湖山格局，「两堤三岛」。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-hongcun",
+  "name": "皖南古村落（西递·宏村）",
+  "category": "聚落",
+  "dynasty": "明清",
+  "polityIds": [
+   "ming",
+   "qing"
+  ],
+  "period": "14—19 世纪",
+  "place": "安徽省黟县",
+  "coords": [
+   117.98,
+   30.02
+  ],
+  "whs": 2000,
+  "note": "徽派民居与水系规划。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-tulou",
+  "name": "福建土楼",
+  "category": "聚落",
+  "dynasty": "明清",
+  "polityIds": [
+   "ming",
+   "qing"
+  ],
+  "period": "15—20 世纪",
+  "place": "福建省永定、南靖",
+  "coords": [
+   116.9,
+   24.75
+  ],
+  "whs": 2008,
+  "note": "夯土聚族而居的大型民居。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-niuheliang",
+  "name": "牛河梁遗址",
+  "category": "聚落",
+  "dynasty": "新石器时代",
+  "polityIds": [],
+  "period": "红山文化，距今约 5500—5000 年",
+  "place": "辽宁凌源、建平",
+  "coords": [
+   119.47,
+   41.32
+  ],
+  "note": "女神庙、积石冢与玉器群，红山文化祭祀中心。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-dawenkou",
+  "name": "大汶口遗址",
+  "category": "聚落",
+  "dynasty": "新石器时代",
+  "polityIds": [],
+  "period": "大汶口文化，距今约 6100—4600 年",
+  "place": "山东泰安",
+  "coords": [
+   117.1,
+   35.95
+  ],
+  "note": "大汶口文化命名地，墓葬与陶器序列完整。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-banpo",
+  "name": "半坡遗址",
+  "category": "聚落",
+  "dynasty": "新石器时代",
+  "polityIds": [],
+  "period": "仰韶文化，距今约 6700—6000 年",
+  "place": "陕西西安",
+  "coords": [
+   109.05,
+   34.27
+  ],
+  "note": "保存完整的母系氏族聚落，有环壕与房址群。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-sanxingdui",
+  "name": "三星堆遗址",
+  "category": "聚落",
+  "dynasty": "商周",
+  "polityIds": [],
+  "period": "约前 2800—前 800 年",
+  "place": "四川广汉",
+  "coords": [
+   104.2,
+   31
+  ],
+  "note": "古蜀文明中心，青铜神树、纵目面具出土。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-jinsha",
+  "name": "金沙遗址",
+  "category": "聚落",
+  "dynasty": "商周",
+  "polityIds": [],
+  "period": "约前 1200—前 650 年",
+  "place": "四川成都",
+  "coords": [
+   104.02,
+   30.68
+  ],
+  "note": "古蜀晚期都邑，太阳神鸟金饰出土。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-zhengzhou-shang",
+  "name": "郑州商城遗址",
+  "category": "都城",
+  "dynasty": "商",
+  "polityIds": [],
+  "period": "约前 1600—前 1300 年",
+  "place": "河南郑州",
+  "coords": [
+   113.67,
+   34.75
+  ],
+  "note": "商代早期都城，夯土城垣周长近七公里。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-yanshi-shang",
+  "name": "偃师商城遗址",
+  "category": "都城",
+  "dynasty": "商",
+  "polityIds": [],
+  "period": "约前 1600 年",
+  "place": "河南偃师",
+  "coords": [
+   112.78,
+   34.72
+  ],
+  "note": "商代早期城址，宫城与府库布局清晰。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-liulihe",
+  "name": "琉璃河遗址",
+  "category": "都城",
+  "dynasty": "西周",
+  "polityIds": [],
+  "period": "约前 1045—前 770 年",
+  "place": "北京房山",
+  "coords": [
+   116.05,
+   39.6
+  ],
+  "note": "燕国早期都邑，出土克罍、克盉。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-lu-gucheng",
+  "name": "曲阜鲁国故城",
+  "category": "都城",
+  "dynasty": "周",
+  "polityIds": [],
+  "period": "前 11 世纪—前 256 年",
+  "place": "山东曲阜",
+  "coords": [
+   116.99,
+   35.6
+  ],
+  "note": "鲁国都邑，城墙与宫殿区遗存完整。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-linzi-qi",
+  "name": "临淄齐国故城",
+  "category": "都城",
+  "dynasty": "周",
+  "polityIds": [],
+  "period": "前 859—前 221 年",
+  "place": "山东淄博",
+  "coords": [
+   118.35,
+   36.86
+  ],
+  "note": "齐国都城，大城与小城相套，有排水道口。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-houma-jin",
+  "name": "侯马晋国遗址",
+  "category": "都城",
+  "dynasty": "春秋",
+  "polityIds": [],
+  "period": "前 585—前 369 年",
+  "place": "山西侯马",
+  "coords": [
+   111.37,
+   35.62
+  ],
+  "note": "晋国晚期都邑新田，盟书与铸铜作坊出土。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-zhenghan",
+  "name": "郑韩故城",
+  "category": "都城",
+  "dynasty": "春秋战国",
+  "polityIds": [],
+  "period": "前 8 世纪—前 230 年",
+  "place": "河南新郑",
+  "coords": [
+   113.74,
+   34.4
+  ],
+  "note": "郑、韩两国都城，城垣与礼器窖藏并存。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-yongcheng",
+  "name": "雍城遗址",
+  "category": "都城",
+  "dynasty": "春秋",
+  "polityIds": [],
+  "period": "前 677—前 383 年",
+  "place": "陕西凤翔",
+  "coords": [
+   107.39,
+   34.52
+  ],
+  "note": "秦国早期都城，宗庙与陵区规模宏大。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-handan-zhao",
+  "name": "赵邯郸故城",
+  "category": "都城",
+  "dynasty": "战国",
+  "polityIds": [],
+  "period": "前 386—前 228 年",
+  "place": "河北邯郸",
+  "coords": [
+   114.48,
+   36.61
+  ],
+  "note": "赵国都城，宫城以夯土台基著称。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-yanxiadu",
+  "name": "燕下都遗址",
+  "category": "都城",
+  "dynasty": "战国",
+  "polityIds": [],
+  "period": "前 4 世纪—前 226 年",
+  "place": "河北易县",
+  "coords": [
+   115.5,
+   39.35
+  ],
+  "note": "燕国下都，出土大量燕国兵器与瓦当。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-jinan-chu",
+  "name": "楚纪南故城",
+  "category": "都城",
+  "dynasty": "战国",
+  "polityIds": [],
+  "period": "前 689—前 278 年",
+  "place": "湖北荆州",
+  "coords": [
+   112.18,
+   30.42
+  ],
+  "note": "楚国郢都，城垣周长约十六公里。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-zhongshan",
+  "name": "中山古城遗址",
+  "category": "都城",
+  "dynasty": "战国",
+  "polityIds": [],
+  "period": "前 5 世纪—前 296 年",
+  "place": "河北平山",
+  "coords": [
+   114.2,
+   38.25
+  ],
+  "note": "中山国灵寿城，出土中山王厝器与兆域图。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-xianyang-qin",
+  "name": "秦咸阳城遗址",
+  "category": "都城",
+  "dynasty": "秦",
+  "polityIds": [
+   "qin"
+  ],
+  "period": "前 350—前 206 年",
+  "place": "陕西咸阳",
+  "coords": [
+   108.7,
+   34.35
+  ],
+  "note": "秦国及秦朝都城，宫殿区沿渭北台地展开。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-liye",
+  "name": "里耶古城遗址",
+  "category": "聚落",
+  "dynasty": "秦",
+  "polityIds": [
+   "qin"
+  ],
+  "period": "战国—秦",
+  "place": "湖南龙山",
+  "coords": [
+   109.5,
+   28.8
+  ],
+  "note": "出土三万余枚秦简，保存迁陵县行政档案。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-hanyangling",
+  "name": "汉阳陵",
+  "category": "陵墓",
+  "dynasty": "西汉",
+  "polityIds": [
+   "western-han"
+  ],
+  "period": "前 153—前 126 年营建",
+  "place": "陕西咸阳",
+  "coords": [
+   108.94,
+   34.44
+  ],
+  "note": "汉景帝与王皇后合葬陵，帝陵外藏坑系统完整。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-duling",
+  "name": "汉杜陵",
+  "category": "陵墓",
+  "dynasty": "西汉",
+  "polityIds": [
+   "western-han"
+  ],
+  "period": "前 65 年营建",
+  "place": "陕西西安",
+  "coords": [
+   109.02,
+   34.18
+  ],
+  "note": "汉宣帝陵，陵邑与陪葬墓群保存较好。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-mancheng-han",
+  "name": "满城汉墓",
+  "category": "陵墓",
+  "dynasty": "西汉",
+  "polityIds": [
+   "western-han"
+  ],
+  "period": "前 113 年前后",
+  "place": "河北保定",
+  "coords": [
+   115.3,
+   38.95
+  ],
+  "note": "中山靖王刘胜及王后窦绾墓，金缕玉衣出土。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-shizishan",
+  "name": "狮子山楚王陵",
+  "category": "陵墓",
+  "dynasty": "西汉",
+  "polityIds": [
+   "western-han"
+  ],
+  "period": "前 2 世纪",
+  "place": "江苏徐州",
+  "coords": [
+   117.28,
+   34.25
+  ],
+  "note": "西汉楚王陵，兵马俑坑与金缕玉衣出土。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-baimasi",
+  "name": "洛阳白马寺",
+  "category": "宗教",
+  "dynasty": "东汉",
+  "polityIds": [
+   "eastern-han"
+  ],
+  "period": "始建 68 年",
+  "place": "河南洛阳",
+  "coords": [
+   112.6,
+   34.72
+  ],
+  "note": "汉地最早佛寺，被视为中国佛教祖庭。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-shaolin",
+  "name": "嵩山少林寺",
+  "category": "宗教",
+  "dynasty": "北魏",
+  "polityIds": [
+   "northern-wei"
+  ],
+  "period": "始建 495 年",
+  "place": "河南登封",
+  "coords": [
+   112.94,
+   34.51
+  ],
+  "note": "禅宗祖庭，塔林保存唐至清历代砖石墓塔。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-songyuesi",
+  "name": "嵩岳寺塔",
+  "category": "宗教",
+  "dynasty": "北魏",
+  "polityIds": [
+   "northern-wei"
+  ],
+  "period": "520 年建",
+  "place": "河南登封",
+  "coords": [
+   113,
+   34.5
+  ],
+  "note": "中国现存最早的密檐式砖塔。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-tianlongshan",
+  "name": "天龙山石窟",
+  "category": "石窟",
+  "dynasty": "东魏至唐",
+  "polityIds": [
+   "eastern-wei"
+  ],
+  "period": "6—8 世纪",
+  "place": "山西太原",
+  "coords": [
+   112.45,
+   37.72
+  ],
+  "note": "造像清秀圆润，近世多遭盗凿流散海外。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-gongxian",
+  "name": "巩县石窟",
+  "category": "石窟",
+  "dynasty": "北魏",
+  "polityIds": [
+   "northern-wei"
+  ],
+  "period": "6 世纪初",
+  "place": "河南巩义",
+  "coords": [
+   113,
+   34.8
+  ],
+  "note": "帝后礼佛图浮雕保存完好。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-zhaoling-tang",
+  "name": "唐昭陵",
+  "category": "陵墓",
+  "dynasty": "唐",
+  "polityIds": [
+   "tang"
+  ],
+  "period": "636—649 年营建",
+  "place": "陕西礼泉",
+  "coords": [
+   108.5,
+   34.6
+  ],
+  "note": "唐太宗陵，因山为陵，陪葬墓一百八十余座。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-dayanta",
+  "name": "大雁塔",
+  "category": "宗教",
+  "dynasty": "唐",
+  "polityIds": [
+   "tang"
+  ],
+  "period": "652 年始建",
+  "place": "陕西西安",
+  "coords": [
+   108.96,
+   34.22
+  ],
+  "note": "玄奘主持修建，藏经之所，唐代砖塔典范。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-xiaoyanta",
+  "name": "小雁塔",
+  "category": "宗教",
+  "dynasty": "唐",
+  "polityIds": [
+   "tang"
+  ],
+  "period": "707 年建",
+  "place": "陕西西安",
+  "coords": [
+   108.94,
+   34.24
+  ],
+  "note": "荐福寺塔，明代地震开裂而复合，称雁塔合拢。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-leshan-buddha",
+  "name": "乐山大佛",
+  "category": "石窟",
+  "dynasty": "唐",
+  "polityIds": [
+   "tang"
+  ],
+  "period": "713—803 年开凿",
+  "place": "四川乐山",
+  "coords": [
+   103.77,
+   29.55
+  ],
+  "note": "依凌云山崖凿成的弥勒坐像，通高约七十一米。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-binglingsi",
+  "name": "炳灵寺石窟",
+  "category": "石窟",
+  "dynasty": "西秦至明",
+  "polityIds": [
+   "xi-qin"
+  ],
+  "period": "4—17 世纪",
+  "place": "甘肃永靖",
+  "coords": [
+   103,
+   35.8
+  ],
+  "note": "169 窟存西秦建弘元年题记，为最早纪年窟。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-kizil",
+  "name": "克孜尔石窟",
+  "category": "石窟",
+  "dynasty": "唐",
+  "polityIds": [
+   "tang"
+  ],
+  "period": "3—9 世纪",
+  "place": "新疆拜城",
+  "coords": [
+   82.5,
+   41.8
+  ],
+  "note": "龟兹佛教艺术代表，菱格本生故事画著名。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-bezeklik",
+  "name": "柏孜克里克千佛洞",
+  "category": "石窟",
+  "dynasty": "唐",
+  "polityIds": [
+   "tang"
+  ],
+  "period": "5—14 世纪",
+  "place": "新疆吐鲁番",
+  "coords": [
+   89.5,
+   42.95
+  ],
+  "note": "高昌回鹘时期壁画丰富，多遭外流。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-huaqing",
+  "name": "华清宫遗址",
+  "category": "宫殿",
+  "dynasty": "唐",
+  "polityIds": [
+   "tang"
+  ],
+  "period": "7—8 世纪",
+  "place": "陕西西安临潼",
+  "coords": [
+   109.2,
+   34.36
+  ],
+  "note": "骊山温泉宫苑，唐代汤池遗址保存完整。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-qiaoling",
+  "name": "唐桥陵",
+  "category": "陵墓",
+  "dynasty": "唐",
+  "polityIds": [
+   "tang"
+  ],
+  "period": "716 年营建",
+  "place": "陕西蒲城",
+  "coords": [
+   109.6,
+   34.9
+  ],
+  "note": "唐睿宗陵，石刻仪仗保存完好。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-jinci",
+  "name": "晋祠",
+  "category": "宗教",
+  "dynasty": "北宋",
+  "polityIds": [
+   "song"
+  ],
+  "period": "始建北魏，现存圣母殿为 11 世纪",
+  "place": "山西太原",
+  "coords": [
+   112.44,
+   37.71
+  ],
+  "note": "宋代建筑、彩塑与难老泉合称三绝。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-kaifeng-tieta",
+  "name": "开封铁塔",
+  "category": "宗教",
+  "dynasty": "北宋",
+  "polityIds": [
+   "song"
+  ],
+  "period": "1049 年建",
+  "place": "河南开封",
+  "coords": [
+   114.35,
+   34.8
+  ],
+  "note": "开宝寺塔，以褐色琉璃砖砌筑，俗称铁塔。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-fanta",
+  "name": "繁塔",
+  "category": "宗教",
+  "dynasty": "北宋",
+  "polityIds": [
+   "song"
+  ],
+  "period": "974 年始建",
+  "place": "河南开封",
+  "coords": [
+   114.36,
+   34.78
+  ],
+  "note": "开封现存最早地面建筑，砖雕佛龛密布。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-baoguosi",
+  "name": "保国寺大殿",
+  "category": "宗教",
+  "dynasty": "北宋",
+  "polityIds": [
+   "song"
+  ],
+  "period": "1013 年重建",
+  "place": "浙江宁波",
+  "coords": [
+   121.52,
+   29.94
+  ],
+  "note": "江南现存最古老的木构建筑之一。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-qingjingsi",
+  "name": "泉州清净寺",
+  "category": "宗教",
+  "dynasty": "北宋",
+  "polityIds": [
+   "song"
+  ],
+  "period": "1009 年始建",
+  "place": "福建泉州",
+  "coords": [
+   118.59,
+   24.9
+  ],
+  "note": "中国现存最早的伊斯兰教寺之一。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-tianhougong",
+  "name": "泉州天后宫",
+  "category": "宗教",
+  "dynasty": "南宋",
+  "polityIds": [
+   "song"
+  ],
+  "period": "1196 年始建",
+  "place": "福建泉州",
+  "coords": [
+   118.58,
+   24.9
+  ],
+  "note": "现存规格最高的妈祖庙。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-caoan",
+  "name": "草庵摩尼教寺",
+  "category": "宗教",
+  "dynasty": "元",
+  "polityIds": [
+   "yuan"
+  ],
+  "period": "1339 年依崖刻像",
+  "place": "福建晋江",
+  "coords": [
+   118.4,
+   24.8
+  ],
+  "note": "世界现存唯一的摩尼教石雕光佛。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-guangshengsi",
+  "name": "广胜寺",
+  "category": "宗教",
+  "dynasty": "元",
+  "polityIds": [
+   "yuan"
+  ],
+  "period": "始建东汉，现存元明建筑",
+  "place": "山西洪洞",
+  "coords": [
+   111.7,
+   36.3
+  ],
+  "note": "飞虹塔为琉璃塔精品，下寺壁画著名。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-miaoying-tata",
+  "name": "妙应寺白塔",
+  "category": "宗教",
+  "dynasty": "元",
+  "polityIds": [
+   "yuan"
+  ],
+  "period": "1279 年建",
+  "place": "北京",
+  "coords": [
+   116.36,
+   39.92
+  ],
+  "note": "尼泊尔工匠阿尼哥设计，中国现存最早喇嘛塔。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-songliuling",
+  "name": "宋六陵",
+  "category": "陵墓",
+  "dynasty": "南宋",
+  "polityIds": [
+   "song"
+  ],
+  "period": "12—13 世纪",
+  "place": "浙江绍兴",
+  "coords": [
+   120.75,
+   29.95
+  ],
+  "note": "南宋六帝攒宫，元初遭杨琏真伽盗掘。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-nanjing-wall",
+  "name": "南京城墙",
+  "category": "军事",
+  "dynasty": "明",
+  "polityIds": [
+   "ming"
+  ],
+  "period": "1366—1393 年营建",
+  "place": "江苏南京",
+  "coords": [
+   118.78,
+   32.05
+  ],
+  "note": "现存世界最长的古代城垣，砖文可考烧造地。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-xian-wall",
+  "name": "西安城墙",
+  "category": "军事",
+  "dynasty": "明",
+  "polityIds": [
+   "ming"
+  ],
+  "period": "1370—1378 年扩建",
+  "place": "陕西西安",
+  "coords": [
+   108.94,
+   34.26
+  ],
+  "note": "在唐皇城基础上扩建，保存完整的明代城垣。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-xingcheng",
+  "name": "兴城古城",
+  "category": "军事",
+  "dynasty": "明",
+  "polityIds": [
+   "ming"
+  ],
+  "period": "1428—1624 年",
+  "place": "辽宁兴城",
+  "coords": [
+   120.72,
+   40.61
+  ],
+  "note": "明代宁远卫城，袁崇焕守城抗清之地。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-penglai",
+  "name": "蓬莱水城",
+  "category": "军事",
+  "dynasty": "明",
+  "polityIds": [
+   "ming"
+  ],
+  "period": "1376 年始建",
+  "place": "山东蓬莱",
+  "coords": [
+   120.76,
+   37.83
+  ],
+  "note": "明代海防军港，戚继光曾在此练水师。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-taimiao",
+  "name": "北京太庙",
+  "category": "宫殿",
+  "dynasty": "明",
+  "polityIds": [
+   "ming"
+  ],
+  "period": "1420 年建",
+  "place": "北京",
+  "coords": [
+   116.4,
+   39.91
+  ],
+  "note": "明清两代皇家祖庙，享殿为最高等级木构。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-qing-dongling",
+  "name": "清东陵",
+  "category": "陵墓",
+  "dynasty": "清",
+  "polityIds": [
+   "qing"
+  ],
+  "period": "1661—1908 年",
+  "place": "河北遵化",
+  "coords": [
+   117.65,
+   40.18
+  ],
+  "whs": 2000,
+  "note": "顺治、康熙、乾隆、咸丰、同治等帝后陵寝群。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-qing-xiling",
+  "name": "清西陵",
+  "category": "陵墓",
+  "dynasty": "清",
+  "polityIds": [
+   "qing"
+  ],
+  "period": "1730—1913 年",
+  "place": "河北易县",
+  "coords": [
+   115.35,
+   39.35
+  ],
+  "whs": 2000,
+  "note": "雍正、嘉庆、道光、光绪等帝陵所在。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-qing-fuling",
+  "name": "清福陵",
+  "category": "陵墓",
+  "dynasty": "清",
+  "polityIds": [
+   "qing"
+  ],
+  "period": "1629—1651 年",
+  "place": "辽宁沈阳",
+  "coords": [
+   123.58,
+   41.83
+  ],
+  "whs": 2004,
+  "note": "清太祖努尔哈赤陵，俗称东陵。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-qing-zhaoling",
+  "name": "清昭陵",
+  "category": "陵墓",
+  "dynasty": "清",
+  "polityIds": [
+   "qing"
+  ],
+  "period": "1643—1651 年",
+  "place": "辽宁沈阳",
+  "coords": [
+   123.42,
+   41.85
+  ],
+  "whs": 2004,
+  "note": "清太宗皇太极陵，俗称北陵。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-gongwangfu",
+  "name": "恭王府",
+  "category": "宫殿",
+  "dynasty": "清",
+  "polityIds": [
+   "qing"
+  ],
+  "period": "1776 年前后",
+  "place": "北京",
+  "coords": [
+   116.38,
+   39.94
+  ],
+  "note": "和珅旧宅，后为恭亲王府，花园保存完整。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-liuyuan",
+  "name": "留园",
+  "category": "园林",
+  "dynasty": "清",
+  "polityIds": [
+   "qing"
+  ],
+  "period": "1593 年始建",
+  "place": "江苏苏州",
+  "coords": [
+   120.6,
+   31.32
+  ],
+  "note": "中国四大名园之一，以建筑空间序列见长。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-wangshiyuan",
+  "name": "网师园",
+  "category": "园林",
+  "dynasty": "清",
+  "polityIds": [
+   "qing"
+  ],
+  "period": "1174 年始建，清乾隆时定名",
+  "place": "江苏苏州",
+  "coords": [
+   120.63,
+   31.3
+  ],
+  "note": "苏州小型古典园林代表作。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-geyuan",
+  "name": "个园",
+  "category": "园林",
+  "dynasty": "清",
+  "polityIds": [
+   "qing"
+  ],
+  "period": "1818 年",
+  "place": "江苏扬州",
+  "coords": [
+   119.44,
+   32.4
+  ],
+  "note": "以四季假山著称的盐商园林。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-heyuan",
+  "name": "何园",
+  "category": "园林",
+  "dynasty": "清",
+  "polityIds": [
+   "qing"
+  ],
+  "period": "1883 年",
+  "place": "江苏扬州",
+  "coords": [
+   119.45,
+   32.39
+  ],
+  "note": "晚清园林，复道回廊与片石山房著名。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-wangjia-dayuan",
+  "name": "王家大院",
+  "category": "聚落",
+  "dynasty": "清",
+  "polityIds": [
+   "qing"
+  ],
+  "period": "18—19 世纪",
+  "place": "山西灵石",
+  "coords": [
+   111.85,
+   36.9
+  ],
+  "note": "晋商宅院群，层楼叠院依山而建。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-qiaojia-dayuan",
+  "name": "乔家大院",
+  "category": "聚落",
+  "dynasty": "清",
+  "polityIds": [
+   "qing"
+  ],
+  "period": "1756 年前后",
+  "place": "山西祁县",
+  "coords": [
+   112.45,
+   37.35
+  ],
+  "note": "晋商乔氏宅院，双喜字格局。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-kaiping",
+  "name": "开平碉楼与村落",
+  "category": "聚落",
+  "dynasty": "民国",
+  "polityIds": [],
+  "period": "19—20 世纪",
+  "place": "广东开平",
+  "coords": [
+   112.6,
+   22.37
+  ],
+  "whs": 2007,
+  "note": "华侨所建防御性塔楼，中西合璧。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-macau",
+  "name": "澳门历史城区",
+  "category": "聚落",
+  "dynasty": "明至清",
+  "polityIds": [
+   "ming"
+  ],
+  "period": "16—19 世纪",
+  "place": "澳门",
+  "coords": [
+   113.54,
+   22.19
+  ],
+  "whs": 2005,
+  "note": "中西合璧的建筑群，妈阁庙至大三巴一线。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-gulangyu",
+  "name": "鼓浪屿历史国际社区",
+  "category": "聚落",
+  "dynasty": "清至民国",
+  "polityIds": [
+   "qing"
+  ],
+  "period": "19 世纪—20 世纪初",
+  "place": "福建厦门",
+  "coords": [
+   118.06,
+   24.44
+  ],
+  "whs": 2017,
+  "note": "多国风格建筑并存的近代国际社区。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-tusi-laosicheng",
+  "name": "老司城遗址",
+  "category": "聚落",
+  "dynasty": "明",
+  "polityIds": [
+   "ming"
+  ],
+  "period": "14—18 世纪",
+  "place": "湖南永顺",
+  "coords": [
+   109.9,
+   28.9
+  ],
+  "whs": 2015,
+  "note": "永顺彭氏土司治所，土司制度实物见证。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-huashan-rock",
+  "name": "左江花山岩画",
+  "category": "石窟",
+  "dynasty": "战国至汉",
+  "polityIds": [],
+  "period": "约前 5 世纪—2 世纪",
+  "place": "广西宁明",
+  "coords": [
+   107.1,
+   22.1
+  ],
+  "whs": 2016,
+  "note": "骆越先民在临江崖壁绘制的赭红色人物岩画。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-taishan",
+  "name": "泰山",
+  "category": "宗教",
+  "dynasty": "历代",
+  "polityIds": [],
+  "period": "历代封禅",
+  "place": "山东泰安",
+  "coords": [
+   117.1,
+   36.25
+  ],
+  "whs": 1987,
+  "note": "五岳之首，历代帝王封禅与石刻汇聚。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-emeishan",
+  "name": "峨眉山",
+  "category": "宗教",
+  "dynasty": "历代",
+  "polityIds": [],
+  "period": "佛教名山",
+  "place": "四川峨眉山",
+  "coords": [
+   103.33,
+   29.52
+  ],
+  "whs": 1996,
+  "note": "普贤道场，寺庙与自然景观相融。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-lushan",
+  "name": "庐山",
+  "category": "园林",
+  "dynasty": "历代",
+  "polityIds": [],
+  "period": "文化景观",
+  "place": "江西九江",
+  "coords": [
+   115.98,
+   29.55
+  ],
+  "whs": 1996,
+  "note": "山水诗画与书院、别墅群并存的文教名山。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-wutaishan",
+  "name": "五台山",
+  "category": "宗教",
+  "dynasty": "历代",
+  "polityIds": [],
+  "period": "佛教名山",
+  "place": "山西忻州",
+  "coords": [
+   113.6,
+   39
+  ],
+  "whs": 2009,
+  "note": "文殊道场，现存唐以来寺庙建筑群。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-qingchengshan",
+  "name": "青城山",
+  "category": "宗教",
+  "dynasty": "历代",
+  "polityIds": [],
+  "period": "道教名山",
+  "place": "四川都江堰",
+  "coords": [
+   103.57,
+   30.9
+  ],
+  "whs": 2000,
+  "note": "天师道发祥地之一，宫观依山而建。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-dazhaosi",
+  "name": "大昭寺",
+  "category": "宗教",
+  "dynasty": "唐",
+  "polityIds": [],
+  "period": "7 世纪始建",
+  "place": "西藏拉萨",
+  "coords": [
+   91.13,
+   29.65
+  ],
+  "whs": 2000,
+  "note": "藏传佛教圣地，供奉释迦牟尼十二岁等身像。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-norbulingka",
+  "name": "罗布林卡",
+  "category": "园林",
+  "dynasty": "清",
+  "polityIds": [],
+  "period": "18 世纪",
+  "place": "西藏拉萨",
+  "coords": [
+   91.1,
+   29.65
+  ],
+  "whs": 2001,
+  "note": "历代达赖喇嘛夏宫，藏式园林。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-tashilhunpo",
+  "name": "扎什伦布寺",
+  "category": "宗教",
+  "dynasty": "明",
+  "polityIds": [],
+  "period": "1447 年始建",
+  "place": "西藏日喀则",
+  "coords": [
+   88.86,
+   29.27
+  ],
+  "note": "班禅驻锡地，格鲁派六大寺之一。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-gaogouli",
+  "name": "高句丽王城、王陵及贵族墓葬",
+  "category": "陵墓",
+  "dynasty": "高句丽",
+  "polityIds": [],
+  "period": "前 1 世纪—7 世纪",
+  "place": "吉林集安、辽宁桓仁",
+  "coords": [
+   126.2,
+   41.1
+  ],
+  "whs": 2004,
+  "note": "国内城、丸都山城与好太王碑、将军坟。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-yuanyang",
+  "name": "红河哈尼梯田",
+  "category": "工程",
+  "dynasty": "元至清",
+  "polityIds": [
+   "yuan"
+  ],
+  "period": "13—20 世纪",
+  "place": "云南元阳",
+  "coords": [
+   102.8,
+   23.1
+  ],
+  "whs": 2013,
+  "note": "哈尼族依山开垦的梯田与沟渠体系。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-jingmai",
+  "name": "普洱景迈山古茶林",
+  "category": "聚落",
+  "dynasty": "清",
+  "polityIds": [
+   "qing"
+  ],
+  "period": "10—20 世纪",
+  "place": "云南澜沧",
+  "coords": [
+   99.9,
+   22.2
+  ],
+  "whs": 2023,
+  "note": "布朗族、傣族世居的古茶林与村寨。",
+  "sources": [
+   "S5"
+  ]
+ },
+ {
+  "id": "site-beijing-axis",
+  "name": "北京中轴线",
+  "category": "都城",
+  "dynasty": "明清",
+  "polityIds": [
+   "ming"
+  ],
+  "period": "13—21 世纪",
+  "place": "北京",
+  "coords": [
+   116.39,
+   39.91
+  ],
+  "whs": 2024,
+  "note": "钟鼓楼至永定门的城市轴线，都城中轴典范。",
+  "sources": [
+   "S5"
+  ]
+ }
 ]
