@@ -6,35 +6,37 @@ English · [简体中文](README.md)
 
 **此年，山河同阅。** — *One year, many realms; read them side by side.*
 
+![ChronoChina cover: a timeline laid over an ink-wash landscape, from Xia to the Republic](docs/assets/cover.jpg)
+
 ## Why I built this
 
-I mostly work with spatial data, so my first instinct is to put everything into a coordinate system: an origin, a scale, and only then does a position mean anything. Reading history, I kept missing the equivalent for time — dynasties are written volume by volume, and so they get read volume by volume.
+Reading history books, historical fiction, or the standard histories, these questions come up again and again:
 
-The first thing that tripped me up was a simple question: which era names were actually in use in 1127? The answer spans several volumes. The Song went from Jingkang to Jianyan, the Jin were already in Tianhui, Western Xia in Zhengde, Qara Khitai in Yanqing, Dali still in Yongjia. Different books, same year — and I had to stack them in my head to see it.
+- *Which year is the twelfth year of Shaoxing?* — first recall the first year of Shaoxing, then count twelve years forward yourself.
+- *Which year is dingwei?* — the sexagenary cycle repeats every sixty years, so two characters alone never tell you which dynasty you are in.
+- *Who was actually using the Qianzhen era in its first year?* — after flipping through several dynastic volumes, it turns out to be Yang Pu of Wu.
 
-So this site starts by aligning the ruler: give it a year, then read every regime that existed in that year side by side. When you want to dig in, each era can be traced to its sources, and years with no data are marked as blank, not as "nothing happened". Line the ruler up and settle the rules, and reading history stops giving you heartburn.
+None of these asks "what happened". They ask "in this one year, who existed, and what did each of them call it". Histories are written volume by volume, so readers have to stack the same year from different volumes back into one line inside their heads.
 
-It deliberately is not a map, and not a decorative scroll. "此年，山河同阅" is both the framing and the constraint: give the simultaneity back to history, and leave the judgement to you.
+I mostly work with spatial data, so my first instinct is to put everything into one coordinate system: an origin, a scale, and only then does a position mean anything. Time deserves the same ruler. So this site gives you the year first, then lays the coexisting regimes, era names, and events side by side — searchable, checkable, and traceable to sources.
 
-## Project name
-
-- **Site name**: 此年 · ChronoChina (ChronoChina = Chronology + China)
-- **Slogan**: 此年，山河同阅。
-- **Logo**: a seal-style 「此年」 stamp, see `public/favicon-art.png`
-
-## Overview
-
-A chronological atlas of Chinese history. It builds one shared time coordinate: pick any year and you see the Gregorian year, the sexagenary (ganzhi) cycle, every regime alive in that year, each one's era name and ruler, and what happened.
-
-Unlike an exhibition-style timeline, every entry here can be located, checked, and traced to a source. Disputed dates are dashed, approximate years are flagged, and missing coverage is stated as missing. All data is static JSON — no backend, no database, no runtime requests.
-
-It is for anyone who wants to know how many regimes existed in a given year and what each of them called it — and for teaching or writing that needs a date reference you can verify.
+It deliberately is not a map, and not a decorative scroll. "此年，山河同阅" is both the framing and the constraint: give the simultaneity back to history, and leave the judgement to you. Line the ruler up, settle the rules, and reading history stops giving you heartburn.
 
 ## Live demo
 
-**<https://cinian.laneqiyu.cn>** — hosted on Cloudflare Pages (mirror: <https://chronochina.pages.dev>).
+**<https://cinian.laneqiyu.cn>** — hosted on Cloudflare Pages (mirror: <https://chronochina.pages.dev>). The build is fully static, and `base: './'` works from any subpath.
 
-Open it as is, or run it locally (see [Getting started](#getting-started)) if you want to change something. The build is fully static, and `base: './'` works from any subpath.
+## How to use it
+
+The three questions above, one search each:
+
+| Question | Do this | You get |
+|---|---|---|
+| Which year is the twelfth year of Shaoxing? | `Ctrl / ⌘ + K`, type `绍兴十二年` | 1142: Song, Shaoxing 12 — alongside Jin Huangtong 2, Western Xia Daqing 3, Qara Khitai Kangguo 9, Dali Guangyun |
+| Which year is dingwei? | Type `丁未` | Every dingwei year in range (1127, 1067, 1007 …), repeating every sixty years; pick one to enter |
+| Who used Qianzhen in its first year? | Type `乾贞` | 927: Wu, Yang Pu, Qianzhen 1 — alongside Later Tang Tiancheng 2, Wuyue Baozheng, Southern Han Bailong 3, Liao Tianxian |
+
+Land on a year and you are in Reading (阅年): scroll up and down to change the year, read the coexisting regimes across; open any regime to see its era name, ruler, span, and month of change, and flip out the annual dossier at the bottom for that year's events, contemporary eras, and people alive. For a multi-year comparison, switch to Timeline (并世).
 
 ## Screenshots
 
@@ -54,7 +56,7 @@ Open it as is, or run it locally (see [Getting started](#getting-started)) if yo
 
 ![Timeline view (light)](docs/preview/04-timeline-light.png)
 
-**Search, browse**: `Ctrl / ⌘ + K`. With an empty box it is a table of contents — nine periods, the neighbouring regimes, and their polities.
+**Search, browse**: with an empty box it is a table of contents — six periods and their regimes.
 
 ![Search (browse)](docs/preview/05-search-browse-dark.png)
 
@@ -64,27 +66,25 @@ Open it as is, or run it locally (see [Getting started](#getting-started)) if yo
 
 ## Features
 
-- **Reading (阅年)** — one year per page: the year, its ganzhi, and how many regimes stood at once; the epigraph is generated from that year's era changes ("丁未之年，五政权并立；赵宋改元建炎，西夏改元正德。"); regimes run south to north by the latitude of their capital and split into two columns when five coexist; expand one to see its era name, ruler, span, and month of change; turn pages with the wheel / `↑ ↓` / swipe. Each page opens an "annual dossier" gathering the year's events, contemporary eras, and people alive.
-- **Timeline (并世)** — vertical multi-year comparison: Gregorian years on the left, a vermilion line at the current year; each surviving regime gets a column with an exhibition label, ordered south to north, era names are drawn as duration bars at their true extent, and regimes crossing the current year open their era, ruler, and month of change; disputed and approximate dates are marked; `Ctrl / ⌘ + wheel` changes time density, `‹ ›` pages through regime groups.
-- **Neighbouring regimes** — Tubo, Nanzhao, the Uyghur Khaganate, Bohai, Silla, and pre-907 Khitan stand on the same year ruler as the Central Plains dynasties, with the reigns of tsens, zhao kings, khagans, Bohai kings, and Silla kings; where no Chinese-style era name existed, the dating system and genealogical basis are noted.
-- **Search** — `Ctrl / ⌘ + K`: empty means browse by period and regime, and a click jumps to the founding year with the comparison window kept; typing searches years (`1127`, `前221`), era names (`建炎元年`, `绍兴`), ganzhi (`丁未`), person aliases (`秦始皇`), and regime pinyin (`donghan`).
-- **Annual dossier** — a floating record you can drag, resize on all eight handles, fade, or dock to the side; it follows the current year, and its events can be filtered by category.
-- **Ruler profiles** — click any ruler in the reading page or the chronology table to see the length of the reign, era names, dated events and the rulers who stood at the same time, with links onward to their profiles.
-- **Rare-character glosses** — pinyin follows rare characters such as 郢, 嬴, 亹 and 隗 in regime, ruler, era, event and heritage names.
+- **Reading (阅年)** — one year per page: the year, its ganzhi, and how many regimes stood at once; the epigraph is generated from that year's era changes ("丁未之年，五政权并立；赵宋改元建炎，西夏改元正德。"); regimes are ordered south to north by the latitude of their capital, with no "orthodox" side assumed; expand one to see its era name, ruler, span, and month of change; turn pages with the wheel / `↑ ↓` / swipe.
+- **Timeline (并世)** — vertical multi-year comparison: Gregorian years on the left, a vermilion line at the current year; each surviving regime gets a column with an exhibition label, ordered south to north, era names are drawn as duration bars at their true extent, and regimes crossing the current year open their era, ruler, and month of change; `Ctrl / ⌘ + wheel` changes time density, `‹ ›` pages through regime groups.
+- **Search** — `Ctrl / ⌘ + K`: empty means browse by period and regime, and a click jumps to the founding year with the comparison window kept; typing searches years (`1127`, `前221`), era names with an ordinal (`建炎元年`, `绍兴十二年`), ganzhi (`丁未`), person aliases (`秦始皇`), and regime pinyin (`donghan`).
 - **Chronology reference** — polities, rulers, era names, spans, ganzhi, months of change, disputes, and sources in one table, filterable and exportable to CSV.
 - **Heritage** — 162 selected sites, filterable by category / dynasty / keyword, each linking back to its founding year.
+- **Annual dossier** — a floating record you can drag, resize on all eight handles, fade, or dock to the side; it follows the current year, and ruler names open a ruler dossier.
+- **Interface languages** — Simplified Chinese / Traditional Chinese / English, following the browser on first visit and remembering your choice; Traditional also converts the historical data, while English translates only the interface and keeps regime, era, and event names in Chinese.
 - **Themes** — paper white and ink-black with gold share a single layout; only the paper changes, never the grid. Your choice is remembered.
 - **Keyboard and accessibility** — a "skip to content" link leads straight to the main view; `Esc` closes the search or the dossier and returns focus; search is a `combobox` navigable with arrow keys.
 
-## Stack
+This site draws no borders. For territory maps of a given period, see [Jiangshan Map](https://deanchen.me/jiangshan-map/).
 
-| Layer | Choice |
-|---|---|
-| Frontend | React 18, TypeScript (strict), plain CSS with custom properties |
-| Build | Vite 5 |
-| Time mapping | d3-scale (year ↔ pixels) |
-| Data | static JSON, read at build time, no backend, no database |
-| Data scripts | Node ESM + cheerio (dev-time import and validation only) |
+## Data and accuracy
+
+- Coverage 769 BCE — 1911: 90 polities and 1,107 reign records (746 of them carry an era name), including the Spring and Autumn and Warring States states, minor Sixteen Kingdoms offshoots, the Ten States and other regional regimes, plus Tubo, Nanzhao, Uyghur, Balhae, Silla, and Khitan.
+- 5,345 events across 2,200 years, 668 selected people, and 162 heritage sites.
+- Every era name and event carries sources; disputed dates (`disputed`) and approximate ones (`approx`) are distinguished in the interface by dashed lines and badges; years with no data are left blank — blank does not mean nothing happened.
+- Internal time is stored as astronomical year integers (1 BCE = 0); ganzhi is computed, never stored; months of era change follow the original record and are never auto-converted to Gregorian days.
+- Passing validation is not historical certification: events, people, and heritage still await entry-level review.
 
 ## Getting started
 
@@ -111,33 +111,30 @@ npm test           # regression tests for dates, conversion, search, and dossier
 | `data/` | static data: polities, rulers, eras, events, people, heritage, sources |
 | `data/curated/` | hand-curated overlays, highest priority |
 | `scripts/` | data import, validation, regression tests |
-| `public/` | fonts, icon originals, site icons |
 | `src/views/` | reading, timeline, chronology reference, heritage |
-| `src/components/` | search palette, annual dossier, year panel, icons |
+| `src/components/` | search palette, annual dossier, year panel, ruler dossier, category filter |
 | `src/lib/` | data access, time and ganzhi, search, conversion |
-| `src/styles.css` | time canvas, search palette, global layout |
-| `src/reading-collections.css` | reading page, reference and heritage styling |
+| `src/styles.css`, `src/reading-collections.css` | global layout, reading pages, and reference styling |
+| `public/` | fonts, icon originals, site icons |
 | `docs/preview/` | screenshots used in the README |
-| `index.html` | entry point |
+| `docs/assets/` | cover image for the README and external showcases |
 
 ## Roadmap
 
 **Done**
 
-- full era import (90 polities / 825 rulers / 1,107 era names), with ganzhi cross-checked entry by entry;
-- ruler-year sequences for the fourteen Eastern Zhou states (Zhou, Jin, Qi, Chu, Yan, Lu, Song, Wei, Zheng, Wu, Yue, Zhao, Wei and Han) extended back to 770 BCE, with Qin likewise extended;
-- a full event base (5,345 entries across 2,200 years), 668 people and 162 heritage sites;
-- the Sixteen Kingdoms and their offshoots (Ran Wei, Western Yan, Zhai Wei, Dai) plus the Ten States and regional regimes outside them (Qi, Jie Yan, Qingyuan, Guiyi), with complete era chains for Dali, Western Xia, and Qara Khitai;
-- Tubo, Nanzhao, the Uyghur Khaganate, Bohai, Silla, and pre-907 Khitan added to the side-by-side comparison, with related Tang–Tubo, Tang–Nanzhao, Tang–Uyghur, Tang–Bohai, Tang–Silla, and Tang–Khitan events attached;
-- vertical timeline, almanac-style reading page, chronology reference, heritage, glass search, annual dossier;
-- events filterable by military, political, diplomatic, institutional, biographical and cultural categories; ruler profiles gathering reign, eras, events and contemporaries;
-- pinyin glosses after rare characters in regime, ruler, era, event and person names (e.g. 郢 yǐng);
-- the dynasty browser folded into the search palette, matching light and dark layouts, data validation and regression tests.
+- reign data for 769 BCE — 1911: 90 polities / 825 rulers / 1,107 reign records, with ganzhi cross-checked entry by entry;
+- minor Sixteen Kingdoms offshoots (Ran Wei, Western Yan, Zhai Wei, Dai), the regional regimes beyond the Ten States (Qi, Jie Yan, Qingyuan, Guiyi), and Tubo, Nanzhao, Uyghur, Balhae, Silla, and Khitan;
+- 5,345 events linked to 668 people's birth and death, plus 162 selected heritage sites;
+- almanac-style reading page, vertical timeline, chronology reference, heritage, glass search, annual dossier, and ruler dossier;
+- matching light and dark layouts, data validation, and regression tests.
 
 **Planned**
 
-- linking history to place: a heritage map plus deep links into the timeline, without drawing borders of our own;
-- expanding the heritage list toward the full national key heritage register.
+- add the remaining short-lived polities and regional era names;
+- entry-level source review and dispute notes for reign records;
+- expanding heritage toward the full national key heritage register, with coordinate linking (no borders of our own; territory maps link out to Jiangshan Map);
+- month-level lunar–Gregorian conversion.
 
 ## Contributing
 
@@ -159,13 +156,9 @@ Please keep the attribution **此年 · ChronoChina (Linqiyu)** when reposting o
 ## Credits
 
 - event chronology follows [Wikipedia: 中国历史年表](https://zh.wikipedia.org/wiki/中国历史年表) (CC BY-SA 4.0; all text independently rewritten);
-- year-by-year entries from pre-Qin to the Yuan are extracted from the classical texts [Zizhi Tongjian and Xu Zizhi Tongjian at guoxuedashi](https://www.guoxuedashi.com/a/54cxdt/) (public domain; excerpts quoted); Gregorian years come from the source headers or are derived from this site's era table;
-- Ming and Qing entries are extracted from the [Basic Annals of Mingshi and Qingshigao](https://www.gxdq.com/24shi/) (public domain; excerpts quoted);
-- a few years with no classical entry draw on the datelines of [Jiangshan Historical Atlas](https://deanchen.me/jiangshan-map/), quoted briefly with attribution and not each reverified against primary sources;
 - era spans and disputed dates checked against [Y. T. Liu's Chinese chronology tables](https://ytliu0.github.io/ChineseCalendar/era_names_simp.html);
-- Spring and Autumn and Warring States ruler years follow the [Shiji chronological tables](https://www.gxdq.com/a/1y/); a few final rulers have disputed spans;
-- ruler genealogies for Tubo, Nanzhao, the Uyghur Khaganate and Bohai follow the "Four Barbarians" chapters of the [Old and New Tang Histories](https://www.gxdq.com/a/17kcea/); Silla follows the [Samguk Sagi](https://zh.wikisource.org/wiki/三國史記); pre-907 Khitan follows the [Liao Shi](https://zh.wikisource.org/wiki/遼史); most neighbouring regimes had no Chinese-style era names, and their Gregorian years are often approximate;
 - era data imported from [中国历代纪元表](https://home.olemiss.edu/~gg/lidaijiy.htm);
 - heritage entries draw on the UNESCO World Heritage list and the public national key heritage register;
+- for territory and place names, see [Jiangshan Map](https://deanchen.me/jiangshan-map/) by Dean Chen;
 - open-source dependencies: [React](https://react.dev/), [Vite](https://vite.dev/), [d3-scale](https://github.com/d3/d3-scale);
 - the typography uses a Song-dynasty style face (simplified / traditional) bundled with the site; check its license before redistributing.

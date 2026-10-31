@@ -881,3 +881,12 @@ h2 { font-size: 30px; }
   .rd-peers { grid-template-columns: 1fr; }
   .rd-foot { padding: 16px 18px 24px; }
 }
+
+/* ── 界面语言 ─────────────────────────── */
+.book-nav .lang-switch { display: flex; align-items: center; gap: 1px; padding: 0 6px; border-left: 1px solid var(--line); border-right: 1px solid var(--line); }
+.book-nav .lang-switch button { width: auto; height: 26px; padding: 0 6px; font: 11px/1 var(--sans); letter-spacing: .06em; color: var(--ink-3); border-radius: 3px; }
+.book-nav .lang-switch button:hover { background: none; box-shadow: none; color: var(--ink); }
+.book-nav .lang-switch button[aria-pressed=true] { color: var(--accent); background: none; box-shadow: none; }
+html[lang="en"] { --serif: Georgia, "Times New Roman", "Noto Serif SC", "Songti SC", serif; }
+html[lang="en"] .brand h1 { letter-spacing: .06em; }
+html[lang="en"] body { letter-spacing: .01em; }

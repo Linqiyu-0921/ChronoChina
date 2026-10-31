@@ -4,6 +4,7 @@
  */
 import { eras, eraCoverage } from './data';
 import { eraDisplayName, ganzhiYears, parseChineseNum, STEMS, BRANCHES } from './time';
+import { t } from './i18n';
 
 export interface EraMatch {
   eraId: string;
@@ -22,16 +23,16 @@ const eraNames = [...new Set(eras.filter((e) => !e.name.includes('无年号')).m
 
 export function parseQuery(raw: string): Query {
   const q = raw.trim().replace(/\s+/g, '').replace(/［［］〕（）]/g, '');
-  if (!q) return { kind: 'none', hint: '输入年份、年号或干支' };
-  if (q.includes('无年号')) return { kind: 'none', hint: '「无年号」表示该时段未建年号，可直接输入年份查询。' };
+  if (!q) return { kind: 'none', hint: t('q.empty') };
+  if (q.includes('无年号')) return { kind: 'none', hint: t('q.noEraPlaceholder') };
 
   // 1. 公元年：1127 / 1127年 / 前221 / 公元前221 / -220（天文纪年）
   let m = q.match(/^(?:公元)?(\d{1,4})年?$/);
-  if (m) return Number(m[1]) === 0 ? { kind: 'none', hint: '历史纪年没有公元 0 年，请输入前1或公元1年。' } : { kind: 'year', year: Number(m[1]) };
+  if (m) return Number(m[1]) === 0 ? { kind: 'none', hint: t('q.noYearZero') } : { kind: 'year', year: Number(m[1]) };
   m = q.match(/^(?:前|公元前)(\d{1,4})年?$/);
-  if (m) return Number(m[1]) === 0 ? { kind: 'none', hint: '没有公元前 0 年。' } : { kind: 'year', year: 1 - Number(m[1]) };
+  if (m) return Number(m[1]) === 0 ? { kind: 'none', hint: t('q.noYearZeroBce') } : { kind: 'year', year: 1 - Number(m[1]) };
   m = q.match(/^[-−](\d{1,4})$/);
-  if (m) return { kind: 'none', hint: '请使用历史纪年，例如前221，不使用负数。' };
+  if (m) return { kind: 'none', hint: t('q.noNegative') };
 
   // 2. 干支：丁未 / 丁未年
   m = q.match(new RegExp(`^([${STEMS.join('')}])[${BRANCHES.join('')}]年?$`));
@@ -52,7 +53,7 @@ export function parseQuery(raw: string): Query {
       yearNo = rest === '元' ? 1 : undefined;
     } else {
       const n = /^\d{1,2}$/.test(rest) ? Number(rest) : parseChineseNum(rest);
-      if (n === null || n < 1 || n > 99) return { kind: 'none', hint: `年次无法识别：${rest}` };
+      if (n === null || n < 1 || n > 99) return { kind: 'none', hint: t('q.badOrdinal', { rest }) };
       yearNo = n;
     }
     const matches = eras
@@ -63,11 +64,11 @@ export function parseQuery(raw: string): Query {
         yearNo,
         year: yearNo !== undefined ? e.startYear + yearNo - 1 : undefined,
       }));
-    return matches.length ? { kind: 'era', matches } : { kind: 'none', hint: '该年次超出已收录的纪年范围。' };
+    return matches.length ? { kind: 'era', matches } : { kind: 'none', hint: t('q.outOfRange') };
   }
 
   return {
     kind: 'none',
-    hint: '试一试：1127、前221、靖康二年、建炎元年、天会13年、丁未',
+    hint: t('q.hint'),
   };
 }

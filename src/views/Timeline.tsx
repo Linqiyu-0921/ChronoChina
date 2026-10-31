@@ -3,6 +3,7 @@ import { eraRowsAtYear, eraCoverage, polities, erasByPolity, reignById } from '.
 import YearInspector from '../components/YearInspector';
 import { eraDisplayName, eraYearDisplay, ganzhiOf, formatYear, reignLabel } from '../lib/time';
 import { orderBySouthToNorth } from '../lib/geography';
+import { getLang, S, t } from '../lib/i18n';
 import Han from '../components/Han';
 
 interface Props {
@@ -56,7 +57,7 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
       setHeight(element.clientHeight);
       setWidth(element.clientWidth);
       const available = element.clientWidth - (window.innerWidth <= 650 ? 88 : 112) - 12;
-      setColumnWidth(Math.min(320, Math.max(280, available / Math.max(1, Math.floor(available / 280)))));
+      setColumnWidth(window.innerWidth <= 650 ? Math.max(140, (element.clientWidth - 76) / 2) : Math.min(320, Math.max(280, available / Math.max(1, Math.floor(available / 280)))));
       setArchiveX(Math.max(8, element.clientWidth - 190));
       setPointerOffset(Math.max(90, Math.min(element.clientHeight - 60, element.clientHeight / 2)));
     };
@@ -108,14 +109,14 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
     const m = raw.match(/^(?:公元)?(前)?(\d+)年?$/);
     if (m && Number(m[2]) > 0) {
       const y = m[1] ? 1 - Number(m[2]) : Number(m[2]);
-      if (y < MIN || y > MAX) { setYearError(`请输入 ${formatYear(MIN)}—${formatYear(MAX)} 年`); return; }
+      if (y < MIN || y > MAX) { setYearError(t('tl.rangeError', { from: formatYear(MIN), to: formatYear(MAX) })); return; }
       scrollTo(y); onNavigateYear(y); setEditingYear(false); setYearError('');
-    } else setYearError('请输入年份，如 1127 或前221');
+    } else setYearError(t('tl.inputError'));
   };
-  return <section className={`vertical-atlas ${inspectorPinned ? 'has-sidepage' : ''}`} aria-label="纵向历史比较">
+  return <section className={`vertical-atlas ${inspectorPinned ? 'has-sidepage' : ''}`} aria-label={t('tl.aria')}>
     <div ref={viewport} className="vertical-viewport">
-      <div className="vertical-date-lane" aria-hidden="true"><span className="date-heading">公元纪年<small>年 / Year</small></span>{ticks.filter(y => position(y) > 84 && Math.abs(position(y) - pointerOffset) > 30).map(y => <div key={y} className={`vertical-tick ${(y > 0 ? y : 1 - y) % 5 === 0 ? 'major-tick' : 'minor-tick'}`} style={{ top: position(y) }}>{formatYear(y)}</div>)}</div>
-      <div ref={columns} onScroll={e => setLanePage(Math.round(e.currentTarget.scrollLeft / columnWidth))} className="vertical-columns" tabIndex={0} aria-label="同期政权，横向滚动查看更多" style={{ gridTemplateColumns: `repeat(${Math.max(1, lanes.length)}, ${columnWidth}px)` }}>
+      <div className="vertical-date-lane" aria-hidden="true"><span className="date-heading">{t('tl.yearHead')}<small>{t('tl.yearUnit')}</small></span>{ticks.filter(y => position(y) > 84 && Math.abs(position(y) - pointerOffset) > 30).map(y => <div key={y} className={`vertical-tick ${(y > 0 ? y : 1 - y) % 5 === 0 ? 'major-tick' : 'minor-tick'}`} style={{ top: position(y) }}>{formatYear(y)}</div>)}</div>
+      <div ref={columns} onScroll={e => setLanePage(Math.round(e.currentTarget.scrollLeft / columnWidth))} className="vertical-columns" tabIndex={0} aria-label={t('tl.columnsAria')} style={{ gridTemplateColumns: `repeat(${Math.max(1, lanes.length)}, ${columnWidth}px)` }}>
         {lanes.map(p => {
           const es = (erasByPolity.get(p.id) ?? []).filter(e => e.startYear <= top + visibleSpan + 140 / pixelsPerYear && e.endYear >= top - 140 / pixelsPerYear);
           const rows = currentRows.filter(r => r.polity.id === p.id).sort((a, b) => a.era.startYear - b.era.startYear || (a.era.startMonth ?? 0) - (b.era.startMonth ?? 0) || a.era.id.localeCompare(b.era.id));
@@ -146,7 +147,7 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
             opacityByEra.set(e.id, opacity);
           }
           return <div className={`vertical-polity ${target?.polityId === p.id ? 'target-polity' : ''}`} key={p.id} data-polity={p.id} data-start={p.startYear}>
-            <button className="vertical-column-title" title={`跳转至${p.name}开朝：${formatYear(p.startYear)}年`} onClick={() => { scrollTo(p.startYear); onNavigateYear(p.startYear); }}><Han text={p.name}/><small>{formatYear(p.startYear)}—{formatYear(p.endYear)}</small></button>
+            <button className="vertical-column-title" title={t('tl.jumpToPolity', { polity: S(p.name), year: formatYear(p.startYear) })} onClick={() => { scrollTo(p.startYear); onNavigateYear(p.startYear); }}><Han text={p.name}/><small>{formatYear(p.startYear)}—{formatYear(p.endYear)}</small></button>
             <div className="polity-spine" style={{ top: Math.max(82, position(p.startYear)), height: Math.max(0, Math.min(height, position(p.endYear + 1)) - Math.max(82, position(p.startYear))) }} />
             {es.map(e => {
               const start = position(e.startYear), end = position(e.endYear + 1);
@@ -160,7 +161,7 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
               const linkY = labelTop === undefined ? a : Math.max(a + 2, Math.min(b - 2, labelTop + 30));
               return <div key={e.id} className={`era-segment ${row ? 'is-current' : ''} ${target?.eraId === e.id ? 'target-era' : ''}`}>
                 {barVisible && <div className="era-duration" aria-hidden="true" style={{ top: a, height: b - a }} />}
-                {barVisible && <button className={`era-bracket ${e.disputed || e.precision === 'approx' ? 'uncertain' : ''}`} style={{ top: a, height: b - a, left: rail }} onClick={() => onOpenRecord('era', e.id)} aria-label={`${p.name} · ${eraDisplayName(e.name)} ${formatYear(e.startYear)}—${formatYear(e.endYear)}，含末年`}>
+                {barVisible && <button className={`era-bracket ${e.disputed || e.precision === 'approx' ? 'uncertain' : ''}`} style={{ top: a, height: b - a, left: rail }} onClick={() => onOpenRecord('era', e.id)} aria-label={t('tl.eraBarAria', { polity: S(p.name), era: S(eraDisplayName(e.name)), span: `${formatYear(e.startYear)}—${formatYear(e.endYear)}` })}>
                   {start >= 84 && <i className="era-cap start" />}{end <= height && <i className="era-cap end" />}
                 </button>}
                 {labelTop !== undefined && <>
@@ -168,27 +169,27 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
                   <div className="era-label" aria-hidden={labelOpacity < 0.05} style={{ top: labelTop, opacity: labelOpacity, pointerEvents: labelOpacity < 0.1 ? 'none' : undefined }}>
                     {ruler && <button tabIndex={labelOpacity < 0.1 ? -1 : undefined} className="segment-ruler" onClick={() => onOpenRecord('reign', ruler.id)}><Han text={reignLabel(ruler)}/></button>}
                     <button tabIndex={labelOpacity < 0.1 ? -1 : undefined} className="segment-name" onClick={() => onOpenRecord('era', e.id)}><Han text={eraDisplayName(e.name)}/>{row && <span>{eraYearDisplay(eraDisplayName(e.name), e.reignIds.length, row.eraYearNo)}</span>}</button>
-                    <span className="segment-range">{formatYear(e.startYear)}—{formatYear(e.endYear)}{e.startMonth ? ` · ${e.startMonth}月改元` : ''}{e.disputed ? ' · 异说' : e.precision === 'approx' ? ' · 约年' : ''}</span>
+                    <span className="segment-range">{formatYear(e.startYear)}—{formatYear(e.endYear)}{e.startMonth ? ` · ${t('tl.eraChange', { month: e.startMonth })}` : ''}{e.disputed ? ` · ${t('tl.disputed')}` : e.precision === 'approx' ? ` · ${t('tl.approx')}` : ''}</span>
                   </div>
                 </>}
               </div>;
             })}
-            {rows.length === 0 && <div className="missing-era" style={{ top: pointerOffset + 16 }}><span>纪年待补录</span>{nearestEra && <button onClick={() => { const destination = selectedYear < nearestEra.startYear ? nearestEra.startYear : nearestEra.endYear; scrollTo(destination); onNavigateYear(destination); }}>最近收录 · <Han text={nearestEra.name}/><small>{formatYear(nearestEra.startYear)}—{formatYear(nearestEra.endYear)} ↗</small></button>}</div>}
+            {rows.length === 0 && <div className="missing-era" style={{ top: pointerOffset + 16 }}><span>{t('tl.eraMissing')}</span>{nearestEra && <button onClick={() => { const destination = selectedYear < nearestEra.startYear ? nearestEra.startYear : nearestEra.endYear; scrollTo(destination); onNavigateYear(destination); }}>{t('tl.nearest', { era: S(nearestEra.name) })}<small>{formatYear(nearestEra.startYear)}—{formatYear(nearestEra.endYear)} ↗</small></button>}</div>}
           </div>;
         })}
-        {lanes.length === 0 && <p className="empty-period">本年尚未收录政权纪年</p>}
+        {lanes.length === 0 && <p className="empty-period">{t('tl.emptyYear')}</p>}
       </div>
       <div className="fixed-year-pointer" style={{ top: pointerOffset }}>
-        {editingYear ? <form onSubmit={go} className="pointer-edit"><input ref={yearInput} aria-label="直达年代" value={input} onChange={e => setInput(e.target.value)} onKeyDown={e => { if (e.key === 'Escape') { setEditingYear(false); setYearError(''); } }} /><button aria-label="前往年份">↵</button>{yearError && <span role="alert">{yearError}</span>}</form> : <button className="pointer-year" onClick={() => { setInput(formatYear(selectedYear)); setEditingYear(true); }} title="点击输入年份" aria-label={`当前 ${formatYear(selectedYear)} 年，点击修改`}><span>{formatYear(selectedYear)}</span><small>{ganzhiOf(selectedYear)}年</small></button>}
+        {editingYear ? <form onSubmit={go} className="pointer-edit"><input ref={yearInput} aria-label={t('tl.timeEdit')} value={input} onChange={e => setInput(e.target.value)} onKeyDown={e => { if (e.key === 'Escape') { setEditingYear(false); setYearError(''); } }} /><button aria-label={t('tl.go')}>↵</button>{yearError && <span role="alert">{yearError}</span>}</form> : <button className="pointer-year" onClick={() => { setInput(formatYear(selectedYear)); setEditingYear(true); }} title={t('tl.pointerTitle')} aria-label={t('tl.pointerAria', { year: formatYear(selectedYear) })}><span>{formatYear(selectedYear)}</span><small>{getLang() === 'en' ? ganzhiOf(selectedYear) : `${ganzhiOf(selectedYear)}年`}</small></button>}
       </div>
       <YearInspector onOpenRuler={(id) => onOpenRecord('reign', id)} onPinChange={setInspectorPinned} year={selectedYear} anchor={pointerOffset + (archiveX === 20 ? 92 : 0)} height={height} width={width} anchorX={archiveX} />
-      <div ref={scroller} className="year-scroll-surface" tabIndex={0} aria-label="上下滚动选择历史年份" onKeyDown={e => {
+      <div ref={scroller} className="year-scroll-surface" tabIndex={0} aria-label={t('tl.scrollAria')} onKeyDown={e => {
         if (['ArrowUp', 'ArrowDown', 'PageUp', 'PageDown', 'Home', 'End'].includes(e.key)) {
           e.preventDefault(); const next = e.key === 'Home' ? MIN : e.key === 'End' ? MAX : bound(center + (e.key.endsWith('Up') ? -1 : 1) * (e.key.startsWith('Page') ? Math.max(1, visibleSpan / 2) : 1));
           scrollTo(next); onNavigateYear(Math.round(next));
         }
       }} onScroll={e => { if (!programmatic.current) publish(bound(MIN + e.currentTarget.scrollTop / pixelsPerYear)); }}><div style={{ height: (MAX - MIN) * pixelsPerYear + height - 84 }} /></div>
     </div>
-    <div className="book-bottom"><span className="book-gesture">上下阅年 · 横移对照 <span>· Ctrl / ⌘ + 滚轮缩放</span></span><span className="interval-note">{lanes.length} 个同期政权 · 区间含末年</span><div className="lane-navigation"><button aria-label="查看前一组政权" disabled={lanePage === 0} onClick={() => columns.current?.scrollBy({ left: -columns.current.clientWidth, behavior: 'smooth' })}>‹</button><span>{Math.min(lanePage + 1, lanes.length)} / {lanes.length}</span><button aria-label="查看后一组政权" disabled={(lanePage + Math.round((width - (window.innerWidth <= 650 ? 88 : 112) - 12) / columnWidth)) >= lanes.length} onClick={() => columns.current?.scrollBy({ left: columns.current.clientWidth, behavior: 'smooth' })}>›</button></div><div className="book-zoom"><button aria-label="缩小，扩大时段" onClick={() => setPixelsPerYear(p => Math.max(.25, p / 1.5))}>−</button><button aria-label="放大，细读纪年" onClick={() => setPixelsPerYear(p => Math.min(100, p * 1.5))}>+</button></div></div>
+    <div className="book-bottom"><span className="book-gesture">{t('tl.gesture')} <span>{t('tl.gestureZoom')}</span></span><span className="interval-note">{t('tl.interval', { n: lanes.length })}</span><div className="lane-navigation"><button aria-label={t('tl.prevGroup')} disabled={lanePage === 0} onClick={() => columns.current?.scrollBy({ left: -columns.current.clientWidth, behavior: 'smooth' })}>‹</button><span>{Math.min(lanePage + 1, lanes.length)} / {lanes.length}</span><button aria-label={t('tl.nextGroup')} disabled={(lanePage + Math.round((width - (window.innerWidth <= 650 ? 88 : 112) - 12) / columnWidth)) >= lanes.length} onClick={() => columns.current?.scrollBy({ left: columns.current.clientWidth, behavior: 'smooth' })}>›</button></div><div className="book-zoom"><button aria-label={t('tl.zoomOut')} onClick={() => setPixelsPerYear(p => Math.max(.25, p / 1.5))}>−</button><button aria-label={t('tl.zoomIn')} onClick={() => setPixelsPerYear(p => Math.min(100, p * 1.5))}>+</button></div></div>
   </section>;
 }

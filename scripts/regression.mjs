@@ -4,10 +4,30 @@ import ts from 'typescript';
 const read = path => JSON.parse(readFileSync(new URL(`../data/${path}`, import.meta.url), 'utf8'));
 const eras = read('eras.json');
 const coverage = { min: Math.min(...eras.map(e => e.startYear)), max: Math.max(...eras.map(e => e.endYear)) };
+const i18nStub = {
+  getLang: () => 'zh',
+  t: (key) => ({
+    'cit.doubt': '（存疑）',
+    'cit.sourcePending': '来源待补',
+    'cat.polity': '政权',
+    'cat.period': '时期',
+    'cat.ruler': '帝王',
+    'cat.era': '年号',
+    'cat.person': '人物',
+    'cat.event': '事件',
+    'cat.site': '遗产',
+    'cat.year': '年份',
+    'sp.yearHitHint': '直达同期政权与纪年',
+  })[key] ?? key,
+};
 function load(path, deps = {}) {
   const code = ts.transpileModule(readFileSync(new URL(`../src/lib/${path}.ts`, import.meta.url), 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 } }).outputText;
   const exports = {};
-  new Function('exports', 'require', code)(exports, name => { assert.ok(name in deps, `Unexpected dependency ${name}`); return deps[name]; });
+  new Function('exports', 'require', code)(exports, name => {
+    if (name === './i18n' && !(name in deps)) return i18nStub;
+    assert.ok(name in deps, `Unexpected dependency ${name}`);
+    return deps[name];
+  });
   return exports;
 }
 const time = load('time');
@@ -37,7 +57,10 @@ assert.equal(RARE_PINYIN['啜'], 'chuò');
 assert.ok(parseQuery('丁未').years.length > 12);
 const events = read('events.json');
 assert.ok(events.every(e => /^[A-Za-z0-9_-]+$/.test(e.id)), '事件 id 必须可用于 URL 锚点');
-const citation = load('citation', { './time': time });
+const citation = load('citation', {
+  './time': time,
+  './i18n': { getLang: () => 'zh', t: (key) => ({ 'cit.doubt': '（存疑）', 'cit.sourcePending': '来源待补' })[key] ?? key },
+});
 const sourceList = read('sources.json');
 const liu = { id: 'p-p-liuzongyuan-death', year: 819, title: '柳宗元去世', categories: ['人物'], polityIds: ['tang'], summary: '', sources: ['S4'] };
 const piluoge = { id: 'ev-738-01', year: 738, title: '皮逻阁统一六诏，受唐封云南王', categories: ['政治'], polityIds: ['nanzhao'], summary: '', sources: ['S15', 'S6'] };
@@ -122,3 +145,7 @@ assert.deepEqual(resizePanel(panel, 'w', -20, 0, 390, 844), { x: 20, y: 80, widt
 const fitted = fitPanel({ x: 700, y: 600, width: 500, height: 700 }, 320, 480);
 assert.ok(fitted.x + fitted.width <= 308 && fitted.y + fitted.height <= 468);
 console.log('通过：档案四边四角缩放、最小尺寸、视口收窄约束。');
+
+assert.deepEqual([-2,-1,0,1,2].map(time.formatYear), ['前3','前2','前1','1','2']);
+for (const [input,expected] of [['前1',0],['1',1],['前2',-1]]) assert.equal(parseQuery(input).year,expected);
+console.log('通过：公元前后连续纪年与双向跨年，无公元零年。');

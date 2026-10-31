@@ -3,6 +3,8 @@
  * 内部统一使用天文纪年整数：公元 1127 = 1127，公元 前1 = 0，前2 = -1（无公元 0 年）。
  * 干支由算法计算，不落库，保证单一事实来源。
  */
+import { getLang } from './i18n';
+
 export const STEMS = ['甲', '乙', '丙', '丁', '戊', '己', '庚', '辛', '壬', '癸'];
 export const BRANCHES = ['子', '丑', '寅', '卯', '辰', '巳', '午', '未', '申', '酉', '戌', '亥'];
 
@@ -19,13 +21,25 @@ export const eraDisplayName = (name: string) => name.replace(/（复）$/, '').r
 export const reignLabel = (r: { title: string; name?: string } | null | undefined) =>
   r ? (r.name ? `${r.title} · ${r.name.split('（')[0]}` : r.title) : '';
 
-/** 天文纪年 → 展示文本：1127 → "1127"，-220 → "前221" */
+/** 天文纪年 → 展示文本：1127 → "1127"，-220 → "前221"；英文为 1127 / 221 BCE */
 export function formatYear(year: number): string {
+  if (getLang() === 'en') return year > 0 ? String(year) : `${1 - year} BCE`;
   return year > 0 ? String(year) : `前${1 - year}`;
 }
 
 export function formatYearFull(year: number): string {
+  if (getLang() === 'en') return year > 0 ? `${year} CE` : `${1 - year} BCE`;
   return year > 0 ? `公元 ${year} 年` : `公元前 ${1 - year} 年`;
+}
+
+/** 干支加年份后缀：丁未年（英文只留丁未） */
+export function ganzhiLabel(year: number): string {
+  return getLang() === 'en' ? ganzhiOf(year) : `${ganzhiOf(year)}年`;
+}
+
+/** 月份：三月（英文 Month 3） */
+export function monthLabel(month: number): string {
+  return getLang() === 'en' ? `Month ${month}` : `${chineseNum(month)}月`;
 }
 
 /** 某干支在区间内的所有候选年（60 年一循环） */
@@ -54,8 +68,9 @@ export function chineseNum(n: number): string {
   return (t === 1 ? '十' : CN[t] + '十') + (u === 0 ? '' : CN[u]);
 }
 
-/** 年号纪年表述：1 → 元年，13 → 十三年 */
+/** 年号纪年表述：1 → 元年，13 → 十三年；英文 Year 1 / Year 13 */
 export function eraYearLabel(n: number): string {
+  if (getLang() === 'en') return `Year ${n}`;
   return n === 1 ? '元年' : `${chineseNum(n)}年`;
 }
 

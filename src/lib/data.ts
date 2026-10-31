@@ -3,6 +3,7 @@
  * 类型即契约：数据结构的说明见 README「数据模型」一节。
  */
 import { formatYear } from './time';
+import { getLang } from './i18n';
 import { bySouthToNorth } from './geography';
 import politiesJson from '../../data/polities.json';
 import reignsJson from '../../data/reigns.json';
@@ -112,8 +113,9 @@ export function siteJumpYear(s: Site): number | null {
 }
 
 export function sitePeriodLabel(s: Site): string {
-  if (s.builtRange) return `${formatYear(s.builtRange[0])}—${formatYear(s.builtRange[1])} 年`;
-  if (typeof s.builtYear === 'number') return `${formatYear(s.builtYear)} 年`;
+  const unit = getLang() === 'en' ? '' : ' 年';
+  if (s.builtRange) return `${formatYear(s.builtRange[0])}—${formatYear(s.builtRange[1])}${unit}`;
+  if (typeof s.builtYear === 'number') return `${formatYear(s.builtYear)}${unit}`;
   return s.period ?? '—';
 }
 

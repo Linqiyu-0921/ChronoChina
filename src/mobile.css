@@ -1,0 +1,234 @@
+.mobile-head,.mobile-paging-hint,.mobile-era-list{display:none}
+@media(max-width:650px){
+  .app.book-app{padding:0 22px 24px;max-width:100%;overflow-x:clip}
+  .site-head.book-head{display:none}
+  .mobile-head{display:flex;align-items:center;justify-content:space-between;height:88px;padding-top:env(safe-area-inset-top);flex-shrink:0;border-bottom:1px solid var(--rule)}
+  .mobile-head button{border:0;background:transparent;color:var(--gold);min-width:44px;min-height:44px;padding:8px}
+  .mobile-head .nav-icon{width:30px;height:30px;stroke-width:1}
+  .mobile-head .mobile-brand{font:26px/1.2 var(--serif);letter-spacing:.24em;color:var(--text-main);text-align:center;padding-left:14px}
+  .mobile-brand small{display:block;font:8px/2 var(--sans);letter-spacing:.2em;color:var(--gold);padding-top:3px}
+  .mobile-menu{inset:0;width:100%;max-width:none;height:100dvh;max-height:none;margin:0;padding:calc(20px + env(safe-area-inset-top)) 30px calc(24px + env(safe-area-inset-bottom));border:0;background:color-mix(in srgb,var(--paper) 94%,transparent);color:var(--text-main);backdrop-filter:blur(14px);overflow:auto}
+  .mobile-menu::backdrop{background:#0007}
+  .mobile-menu header{display:flex;align-items:center;justify-content:space-between;font:14px var(--serif);letter-spacing:.14em;color:var(--gold)}
+  .mobile-menu button{background:none;border:0;color:var(--gold);min-height:44px}
+  .mobile-menu header button{font:32px var(--serif);width:44px}
+  .mobile-menu-motto{font:13px var(--serif);color:var(--text-muted);margin:28px 0 20px;letter-spacing:.14em}
+  .mobile-menu nav{display:grid}
+  .mobile-menu nav button{display:grid;grid-template-columns:62px 1fr 12px;gap:22px;align-items:center;text-align:left;padding:24px 0;border-bottom:1px solid var(--rule)}
+  .mobile-menu nav .nav-icon{width:54px;height:54px;stroke-width:.8}
+  .mobile-menu nav span{font:25px/1.5 var(--serif);letter-spacing:.16em}
+  .mobile-menu nav small{display:block;font:11px/1.8 var(--sans);letter-spacing:.06em;color:var(--text-muted);margin-top:4px}
+  .mobile-menu nav i{font-style:normal}
+  .mobile-menu nav [aria-current=page]{color:var(--gold-bright)}
+  .mobile-menu footer{display:flex;justify-content:space-between;gap:12px;padding-top:28px}
+  .mobile-menu footer button{display:flex;align-items:center;gap:10px;font:12px var(--serif)}
+  .mobile-menu footer .nav-icon{width:22px;height:22px}
+  .mobile-menu button:focus-visible,.mobile-head button:focus-visible{outline:1px solid var(--gold);outline-offset:4px}
+  .desktop-paging-hint{display:none}
+  .mobile-paging-hint{display:inline}
+  .yearbook{display:block;margin:0;min-height:0}
+  .book-binding{display:none}
+  .yearbook-leaf{display:block;padding:0}
+  .yearbook-date{display:flex;align-items:center;text-align:center;padding:32px 0 14px;border:0;touch-action:pan-y}
+  .yearbook-date>p{font:9px/1.6 var(--sans);letter-spacing:.3em;margin:0 0 20px;color:var(--text-muted)}
+  .yearbook-year{align-items:center;width:100%;padding:0;text-align:center;gap:16px}
+  .year-ce{font-family:Georgia,'Times New Roman',serif;font-size:clamp(74px,25vw,152px);line-height:1.05;letter-spacing:-.065em;font-weight:400;color:transparent;-webkit-text-stroke:1px var(--gold-bright);text-shadow:none;background:linear-gradient(155deg,transparent 30%,color-mix(in srgb,var(--gold) 18%,transparent) 63%,transparent 85%);background-clip:text;padding-right:.065em}
+  .year-ganzhi{font:15px/1.6 var(--serif);letter-spacing:.26em;color:var(--gold)}
+  .yearbook-paging{display:flex;flex-direction:row;align-items:center;justify-content:space-between;width:100%;padding-top:18px;margin:0;font:10px var(--sans);gap:4px}
+  .yearbook-paging button{min-height:44px;padding:8px 0;color:var(--gold);font:13px var(--serif)}
+  .yearbook-paging .mobile-paging-hint{font-size:10px;color:var(--text-muted)}
+  .yearbook-contemporaries{padding:0 0 14px}
+  .year-epigraph{font:14px/1.9 var(--serif);color:var(--text-secondary);padding:14px 0 20px;margin:0;letter-spacing:.06em}
+  .yearbook-polities,.yearbook-polities.is-pair{display:grid;grid-template-columns:1fr;column-count:auto;gap:0;margin:0}
+  .polity-leaf{grid-template-columns:28px minmax(0,1fr);padding:14px 0 18px;border-top:1px solid var(--rule)}
+  .polity-index{padding-top:12px;font-size:10px;color:var(--gold)}
+  .polity-leaf-title{min-height:40px;font:16px/1.7 var(--serif);color:var(--gold)}
+  .polity-leaf-title span{font-size:18px}
+  .book-era{margin-top:2px}
+  .book-era h2{font:25px/1.6 var(--serif)}
+  .book-era h2 small{font:12px var(--serif);margin-left:4px}
+  .book-era .era-meta{font:12px/1.8 var(--sans);margin:4px 0 10px;flex-wrap:wrap}
+  .book-era-note{font:13px/1.9 var(--sans)}
+  .book-data-note{font:11px/1.8 var(--sans)}
+  .yearbook-story{padding:24px 0 30px;margin-top:0;gap:16px;grid-template-columns:28px 1fr}
+  .yearbook-story button{font-size:19px;line-height:1.7}
+  .yearbook-story p{font-size:14px;line-height:1.9}
+  .yearbook-story .book-read-more{font-size:14px;min-height:44px}
+  .reading-archive{top:8dvh;bottom:0;left:0;right:0;width:100%;border-radius:18px 18px 0 0;padding:54px 24px calc(28px + env(safe-area-inset-bottom));overscroll-behavior:contain;box-shadow:0 -20px 80px #0009;z-index:40;max-height:92dvh}
+  .reading-archive:before{content:'';position:absolute;top:12px;left:calc(50% - 18px);width:36px;height:2px;background:var(--gold)}
+  .archive-close{position:sticky;float:right;top:0;margin-top:-36px;width:44px;height:44px;background:var(--paper);font-size:26px;z-index:2}
+  .reading-archive .yearpanel{max-height:none;overflow:visible}
+  .search-palette{inset:0;margin:0;width:100%;max-width:none;height:100dvh;max-height:100dvh;border:0;border-radius:0;background:var(--paper);padding:calc(20px + env(safe-area-inset-top)) 20px 20px;overflow:auto}
+  .search-palette .palette-input{position:sticky;top:-20px;background:var(--paper);z-index:2;gap:8px;padding:12px 0}
+  .palette-input input{font-size:16px;min-width:0;width:100%;padding:12px 0}
+  .palette-input button{min-width:44px;min-height:44px;font-size:13px}
+  .dynasty-groups{grid-template-columns:1fr}
+  .dynasty-groups section>div{gap:8px}
+  .dynasty-groups section button{min-height:44px}
+  .palette-results>div{padding:16px 4px;gap:10px}
+  .palette-results strong{font-size:17px}
+  .palette-results small{font-size:12px;line-height:1.7;white-space:normal}
+  .search-palette footer{flex-wrap:wrap;gap:10px}
+  .collection-page{padding:22px 0;border:0;box-shadow:none}
+  main>section.collection-page{margin-top:0}
+  .collection-head{gap:14px;padding-bottom:24px}
+  .collection-head h2{font-size:28px}
+  .collection-head>small{padding-left:0}
+  .collection-page .et-toolbar{gap:12px}
+  .collection-page .et-toolbar input{width:100%}
+  .collection-page input,.collection-page select{font-size:16px;min-height:44px}
+  .collection-page .et-scroll{display:none}
+  .mobile-era-list{display:block}
+  .mobile-era-record{border-bottom:1px solid var(--rule);padding:20px 0}
+  .mobile-era-record summary{cursor:pointer;list-style:none}
+  .mobile-era-record summary::-webkit-details-marker{display:none}
+  .mobile-era-record summary>span:first-child{display:flex;justify-content:space-between;color:var(--gold);font:13px var(--serif);gap:10px}
+  .mobile-era-record small{color:var(--text-muted);font:12px var(--sans)}
+  .mobile-era-record strong{display:block;font:25px/1.8 var(--serif);margin:6px 0}
+  .mobile-era-flags{font:11px var(--sans);color:var(--text-muted)}
+  .mobile-era-record p{font:13px/1.9 var(--sans);color:var(--text-secondary);overflow-wrap:anywhere}
+  .mobile-era-record button{min-height:44px;font-size:16px}
+  .collection-page .sites-grid{grid-template-columns:1fr}
+  .collection-page .site-card{padding:24px 0;background:none}
+  .collection-page .site-foot button{min-height:44px}
+  .sources-page.about-intro,.sources-page.about-evidence{padding:24px 0;box-shadow:none;border:0;overflow-wrap:anywhere}
+  .coverage-grid{grid-template-columns:1fr}
+  .foot{display:flex;flex-direction:column;align-items:flex-start;gap:12px;line-height:1.7}
+  .app.book-timeline{padding-bottom:env(safe-area-inset-bottom)}
+  .book-timeline .mobile-head{height:76px}
+  .vertical-columns{left:64px;right:12px}
+  .vertical-column-title{font-size:19px;padding-left:12px}
+  .vertical-column-title small{font-size:10px}
+  .era-label{left:28px!important;right:4px}
+  .era-label .segment-name,.is-current .segment-name{font-size:18px;white-space:normal}
+  .segment-name span{display:block;font-size:11px}
+  .segment-ruler{font-size:11px;white-space:normal}
+  .segment-range{font-size:10px;white-space:normal}
+  .book-bottom{flex-wrap:wrap;gap:8px;padding:12px 0;justify-content:space-between}
+  .book-bottom .book-gesture,.book-bottom .interval-note{display:none}
+  .book-bottom button{min-width:44px;min-height:44px}
+  .suijian-paper{position:fixed!important;inset:auto 0 0!important;width:100%!important;height:76dvh!important;max-width:none!important;max-height:85dvh;z-index:40;border-radius:16px 16px 0 0}
+  .inspector-resize,.suijian-link{display:none}
+  .detail-panel{width:100%;max-width:none;max-height:90dvh;inset:auto 0 0;margin:0;padding:24px;border:1px solid var(--rule);border-radius:16px 16px 0 0}
+}
+@media(max-width:650px){
+ .book-timeline .era-label .segment-name,.book-timeline .is-current .segment-name{font-size:23px;line-height:29px}
+ .book-timeline .era-label .segment-name span{display:inline;font-size:11px;line-height:18px;margin-left:4px}
+ .book-timeline .era-label .segment-range{font-size:10px;line-height:15px;margin-top:3px}
+ .book-timeline .era-label .segment-ruler{font-size:11px;line-height:17px}
+ .book-timeline .suijian-paper:not(.is-positioned):not(.suijian-pinned){left:0!important}
+ .reading-archive{color:var(--text-main)}
+}
+@media(max-width:650px){
+ .mobile-menu{background:transparent;backdrop-filter:none;padding:env(safe-area-inset-top) 24px env(safe-area-inset-bottom);color:#d4b781}
+ .mobile-menu::backdrop{background:rgba(0,0,0,.88)}
+ .mobile-menu header{position:absolute;top:calc(12px + env(safe-area-inset-top));right:16px;z-index:2}
+ .mobile-menu header>span,.mobile-menu-motto{display:none}
+ .mobile-menu header button{color:#d4b781;font-size:28px}
+ .mobile-menu nav{min-height:calc(100dvh - 96px);padding:28px 0 0;display:flex;flex-direction:column;justify-content:space-around;gap:14px}
+ .mobile-menu nav button{display:flex;flex-direction:column;justify-content:center;gap:8px;padding:8px 0;border:0;width:100%;color:#d4b781}
+ .mobile-menu nav .nav-icon{width:clamp(76px,12dvh,116px);height:clamp(76px,12dvh,116px);object-fit:contain}
+ .mobile-menu nav span{font:23px/1.4 var(--serif);letter-spacing:.18em;padding-left:.18em}
+ .mobile-menu nav small,.mobile-menu nav i{display:none}
+ .mobile-menu nav [aria-current=page]{color:#f2d9a6}
+ .mobile-menu footer{padding:16px 0 20px;justify-content:space-evenly;gap:16px}
+ .mobile-menu footer button{color:#d4b781}
+ .artifact-icon{object-fit:contain;filter:saturate(.52);flex-shrink:0}
+ .mobile-head .artifact-icon{width:38px;height:38px}
+ .mobile-menu footer .artifact-icon{width:28px;height:28px}
+}
+@media(max-width:650px){
+ .book-reading .mobile-head{border-bottom:0;height:96px}
+ .book-reading .yearbook-date{padding:clamp(36px,7dvh,72px) 0 12px;min-height:360px}
+ .book-reading .yearbook-date>p{letter-spacing:.32em;font-size:8px;opacity:.65;margin-bottom:32px}
+ .book-reading .yearbook-year{gap:30px}
+ .book-reading .year-ce{font-family:'Times New Roman',Georgia,serif;font-size:clamp(100px,34vw,210px);font-weight:400;line-height:1.12;letter-spacing:-.055em;-webkit-text-stroke:.75px var(--gold-bright);background:linear-gradient(160deg,transparent 18%,color-mix(in srgb,var(--gold) 7%,transparent) 42%,color-mix(in srgb,var(--gold-bright) 24%,transparent) 74%,transparent 95%);background-clip:text;color:transparent;text-shadow:none;max-width:100%;padding:0 .06em .04em 0}
+ .book-reading .year-ganzhi{font-size:17px;letter-spacing:.22em;color:var(--gold);line-height:1.8}
+ .book-reading .yearbook-paging{padding-top:30px}
+ .book-reading .year-epigraph{padding:26px 0 30px;font-size:14px;line-height:2.1;letter-spacing:.09em}
+ .book-reading .polity-leaf{padding-top:18px;padding-bottom:22px}
+ .book-reading .yearbook-polities{border-top:1px solid var(--rule)}
+ .book-reading .polity-leaf:first-child{border-top:0}
+}
+@media(max-width:360px){.book-reading .year-ce{font-size:31vw}.book-reading .yearbook-date{min-height:310px;padding-top:30px}}
+@media(max-height:700px) and (max-width:650px){.book-reading .yearbook-date{padding-top:24px;min-height:300px}.book-reading .yearbook-year{gap:18px}.book-reading .yearbook-paging{padding-top:16px}}
+.mobile-page-return{display:none}
+@media(max-width:650px){
+ .mobile-page-return{display:flex;justify-content:space-between;align-items:center;padding:6px 0 14px;color:var(--gold);font:14px var(--serif);flex-shrink:0}
+ .mobile-page-return button{background:none;border:0;min-height:44px;padding:0 12px 0 0;color:var(--gold);font:14px var(--serif)}
+ .mobile-menu nav{min-height:calc(100dvh - 140px)}
+ .mobile-auto-theme{display:block;margin:0 auto;font:11px/1.7 var(--sans);letter-spacing:.08em;color:#d4b781!important;min-height:36px!important}
+ .mobile-menu footer{padding-top:4px}
+ .search-suggestions{display:flex;flex-wrap:wrap;gap:12px;padding:24px 0}
+ .search-suggestions p{width:100%;margin:0 0 8px;color:var(--gold)}
+ .search-suggestions button{min-height:44px;padding:8px 18px;border:1px solid var(--rule);border-radius:24px;background:var(--binding);color:var(--text-main)}
+ .search-palette .period-heading{font-size:22px;padding:16px 0}
+ .reading-archive{overscroll-behavior-y:contain}
+}
+@media(max-width:650px) and (prefers-reduced-motion:no-preference){
+ .mobile-menu[open]{animation:mobile-reveal 220ms ease-out}
+ .search-palette[open],.reading-archive,.detail-panel[open]{animation:mobile-sheet 260ms ease-out}
+ .collection-page:not([hidden]){animation:mobile-reveal 240ms ease-out}
+ @keyframes mobile-reveal{from{opacity:0}to{opacity:1}}
+ @keyframes mobile-sheet{from{opacity:0;transform:translateY(32px)}to{opacity:1;transform:translateY(0)}}
+}
+.mobile-poster-trigger{display:none}
+@media(max-width:650px){
+ .mobile-poster-trigger{display:flex;align-items:center;justify-content:center;gap:14px;width:100%;padding:20px 0 30px;border:0;border-top:1px solid var(--rule);background:none;color:var(--gold);font:16px var(--serif)}
+ .mobile-poster-trigger img{width:42px;height:42px;object-fit:contain;filter:saturate(.52)}
+ .year-poster{inset:0;width:100%;max-width:none;height:100dvh;max-height:none;margin:0;padding:20px;background:#11100d;color:#d6bd8b;border:0;overflow:auto}
+ .year-poster::backdrop{background:#000c}
+ .year-poster header{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;font:16px var(--serif)}
+ .year-poster button,.year-poster a{background:none;border:1px solid #655237;padding:12px 18px;color:#d6bd8b;min-height:44px;font:14px var(--serif);text-decoration:none}
+ .year-poster header button{border:0;font-size:28px}
+ .year-poster>img{display:block;width:100%;height:auto;box-shadow:0 12px 30px #0008}
+ .year-poster footer{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;padding:24px 0 calc(16px + env(safe-area-inset-bottom))}
+ .year-poster footer p{width:100%;font-size:13px;line-height:1.8}
+}
+@media(max-width:650px){
+ .year-poster.poster-light{background:#f5f0e5;color:#846538}
+ .year-poster.poster-light button,.year-poster.poster-light a{color:#846538;border-color:#c9b997}
+ .poster-style-switch{display:flex;justify-content:center;gap:12px;margin:0 0 24px}
+ .poster-style-switch button{min-width:120px;opacity:.65}
+ .poster-style-switch [aria-pressed=true]{opacity:1;border-bottom-width:3px}
+ .year-poster>img{max-height:calc(100dvh - 260px);width:auto;max-width:100%;object-fit:contain;margin:0 auto}
+}
+
+@media (max-width:650px) {
+  .mobile-menu .mobile-lang { display: flex; gap: 10px; justify-content: center; padding: 14px 0 0; }
+  .mobile-menu .mobile-lang button { min-height: 38px; padding: 0 16px; border: 1px solid rgba(212,183,129,.45); font: 12px var(--sans); letter-spacing: .08em; color: #d4b781; }
+  .mobile-menu .mobile-lang button[aria-pressed=true] { color: #f2d9a6; border-color: #f2d9a6; }
+}
+.mobile-archive-heading{display:none}
+@media(max-width:650px){
+ .yearbook-leaf{touch-action:pan-y}
+ .reading-archive{top:0;max-height:100dvh;border-radius:0;padding:22px 22px calc(32px + env(safe-area-inset-bottom));background:var(--paper)}
+ .reading-archive:before{display:none}
+ .reading-archive .archive-close{display:none}
+ .mobile-archive-heading{display:flex;align-items:center;gap:12px;position:sticky;top:-22px;z-index:3;padding:16px 0;background:var(--paper);border-bottom:1px solid var(--rule);margin-bottom:24px;color:var(--gold);font:14px var(--serif)}
+ .mobile-archive-heading img{width:38px;height:38px;object-fit:contain;filter:saturate(.52)}
+ .mobile-archive-heading button{margin-left:auto;border:0;background:none;min-height:44px;color:var(--gold);font:13px var(--serif)}
+ .reading-archive .year-era-row{padding:20px 0;margin:0;border-bottom:1px solid var(--rule)}
+ .reading-archive p,.reading-archive li,.detail-panel p{font-size:15px;line-height:1.95;overflow-wrap:anywhere}
+ .reading-archive summary{min-height:44px;padding:12px 0;color:var(--gold);font-size:14px}
+ .reading-archive details[open]{padding-bottom:12px}
+ .reading-archive .yp-year{font-size:32px;margin-bottom:24px}
+ .detail-panel{padding:24px;line-height:1.9}
+ .detail-panel button{min-height:44px}
+ .mobile-year-picker{inset:0;margin:auto;width:calc(100% - 32px);max-width:440px;max-height:90dvh;overflow:auto;padding:24px;background:var(--paper);border:1px solid var(--gold);color:var(--text-main)}
+ .mobile-year-picker::backdrop{background:#000b}
+ .mobile-year-picker header{display:flex;justify-content:space-between;align-items:center;color:var(--gold);font:17px var(--serif)}
+ .mobile-year-picker header button{background:none;border:0;font-size:28px;color:var(--gold);min-width:44px;min-height:44px}
+ .mobile-year-picker>img{display:block;width:72px;height:72px;object-fit:contain;margin:24px auto;filter:saturate(.52)}
+ .year-picker-fields{display:flex;align-items:center;gap:12px}
+ .year-picker-fields input,.year-picker-fields select{min-width:0;min-height:48px;background:none;color:var(--text-main);border:1px solid var(--rule);font-size:18px;padding:8px}
+ .year-picker-fields input{width:100%;flex:1}
+ .mobile-year-picker p{font-size:12px;line-height:1.8;color:var(--text-secondary);margin:20px 0}
+ .year-picker-submit{width:100%;padding:14px;border:1px solid var(--gold);background:none;color:var(--gold);font:18px var(--serif)}
+}
+@media(max-width:650px){
+ .mobile-year-picker>img{width:88px;height:88px}
+ .reading-archive{overflow-anchor:none;scrollbar-gutter:stable}
+ .book-reading .yearbook-leaf{overflow-anchor:none;animation:none}
+ .mobile-year-picker form [role=alert]{min-height:44px}
+}

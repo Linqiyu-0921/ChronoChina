@@ -1,4 +1,5 @@
 import { formatYear } from '../lib/time';
+import { S, t } from '../lib/i18n';
 import Han from '../components/Han';
 /**
  * 文化遗产视图：按类别/朝代/关键词筛选遗址卡片，可跳转时间轴定位始建年代。
@@ -46,22 +47,22 @@ export default function Sites({ onJumpToYear }: Props) {
   return (
     <div className="sites-view">
       <div className="card sites-toolbar">
-        <select aria-label="遗产类别" value={cat} onChange={(e) => setCat(e.target.value)}>
-          <option value="all">全部类别</option>
+        <select aria-label={t('st.categoryAria')} value={cat} onChange={(e) => setCat(e.target.value)}>
+          <option value="all">{t('st.categoryAll')}</option>
           {SITE_CATS.map((c) => (
-            <option key={c} value={c}>{c}</option>
+            <option key={c} value={c}>{S(c)}</option>
           ))}
         </select>
-        <select aria-label="遗产政权" value={polity} onChange={(e) => setPolity(e.target.value)}>
-          <option value="all">全部朝代</option>
-          <option value="none">史前 / 无政权关联</option>
+        <select aria-label={t('st.dynastyAria')} value={polity} onChange={(e) => setPolity(e.target.value)}>
+          <option value="all">{t('st.dynastyAll')}</option>
+          <option value="none">{t('st.dynastyNone')}</option>
           {dynastyOptions.map((p) => (
-            <option key={p.id} value={p.id}>{p.name}（{formatYear(p.startYear)}—{formatYear(p.endYear)}）</option>
+            <option key={p.id} value={p.id}>{S(p.name)}（{formatYear(p.startYear)}—{formatYear(p.endYear)}）</option>
           ))}
         </select>
-        <input aria-label="搜索遗产" value={q} onChange={(e) => setQ(e.target.value)} placeholder="搜索名称 / 地点 / 备注…" />
+        <input aria-label={t('st.searchAria')} value={q} onChange={(e) => setQ(e.target.value)} placeholder={t('st.searchPlaceholder')} />
         <span className="dim">
-          {filtered.length} 处{whsCount ? ` · 世遗 ${whsCount}` : ''}
+          {t('st.count', { n: filtered.length })}{whsCount ? t('st.whsCount', { n: whsCount }) : ''}
         </span>
       </div>
 
@@ -70,7 +71,7 @@ export default function Sites({ onJumpToYear }: Props) {
           <SiteCard key={s.id} site={s} onJumpToYear={onJumpToYear} />
         ))}
       </div>
-      {filtered.length === 0 && <p className="card hint-card dim">没有匹配的遗址，试试放宽筛选。</p>}
+      {filtered.length === 0 && <p className="card hint-card dim">{t('st.empty')}</p>}
     </div>
   );
 }
@@ -81,11 +82,11 @@ function SiteCard({ site, onJumpToYear }: { site: Site; onJumpToYear: (y: number
     <article className="card site-card">
       <header>
         <h3><Han text={site.name}/></h3>
-        <span className="ghost-chip cat-chip">{site.category}</span>
-        {site.whs && <span className="badge whs">世遗 {site.whs}</span>}
+        <span className="ghost-chip cat-chip">{S(site.category)}</span>
+        {site.whs && <span className="badge whs">{t('st.whs', { year: site.whs })}</span>}
       </header>
       <p className="site-meta">
-        <b>{site.dynasty}</b> ｜ {sitePeriodLabel(site)}
+        <b>{S(site.dynasty)}</b> ｜ {S(sitePeriodLabel(site))}
       </p>
       <p className="site-place"><Han text={site.place}/></p>
       {site.polityIds.length > 0 && (
@@ -104,11 +105,11 @@ function SiteCard({ site, onJumpToYear }: { site: Site; onJumpToYear: (y: number
       <footer className="site-foot">
         {site.coords && <span className="mono dim">{site.coords[0].toFixed(2)}, {site.coords[1].toFixed(2)}</span>}
         {jump !== null && jump >= -305 && jump <= 1911 ? (
-          <button className="chip-btn" onClick={() => onJumpToYear(jump)}>定位年代：{formatYear(jump)} 年</button>
+          <button className="chip-btn" onClick={() => onJumpToYear(jump)}>{t('st.locate', { year: formatYear(jump) })}</button>
         ) : (
-          <span className="dim">超出纪年轴范围或年代未定</span>
+          <span className="dim">{t('st.outOfRange')}</span>
         )}
-        <span className="dim">来源：{sourceShort(site.sources).join('、')}</span>
+        <span className="dim">{t('st.sources', { list: sourceShort(site.sources).map(S).join(t('tl.listSep')) })}</span>
       </footer>
     </article>
   );

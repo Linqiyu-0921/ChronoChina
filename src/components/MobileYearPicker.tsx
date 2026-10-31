@@ -1,0 +1,9 @@
+import {useEffect,useRef,useState} from 'react';
+import {eraCoverage} from '../lib/data';
+import {formatYear} from '../lib/time';
+export default function MobileYearPicker({year,onPick,onClose}:{year:number;onPick:(year:number)=>void;onClose:()=>void}){
+ const dialog=useRef<HTMLDialogElement>(null);
+ const [bce,setBce]=useState(year<=0),[value,setValue]=useState(String(year<=0?1-year:year)),[error,setError]=useState('');
+ useEffect(()=>{const before=document.activeElement as HTMLElement;const el=dialog.current;const y=window.scrollY;const body=document.body;const previous={position:body.style.position,top:body.style.top,width:body.style.width};body.style.position='fixed';body.style.top=`-${y}px`;body.style.width='100%';el?.showModal();return()=>{el?.close();Object.assign(body.style,previous);window.scrollTo(0,y);before?.focus({preventScroll:true});};},[]);
+ return <dialog ref={dialog} className="mobile-year-picker" aria-label="选择年份" onCancel={e=>{e.preventDefault();onClose();}}><header><span>此年 · 选择年份</span><button onClick={onClose} aria-label="关闭年份选择">×</button></header><img src="./assets/icons/gold-outline/32-bottom-topic.png" alt=""/><form onSubmit={e=>{e.preventDefault();const n=Number(value);const y=bce?1-n:n;if(!/^\d+$/.test(value)||!Number.isSafeInteger(n)||n<1||y<eraCoverage.min||y>eraCoverage.max){setError(`请输入 ${formatYear(eraCoverage.min)}—${formatYear(eraCoverage.max)} 范围内的年份；不存在公元零年。`);return;}onPick(y);onClose();}}><div className="year-picker-fields"><select aria-label="纪元" value={bce?'bce':'ce'} onChange={e=>setBce(e.target.value==='bce')}><option value="ce">公元</option><option value="bce">公元前</option></select><input aria-label="年份" inputMode="numeric" value={value} onChange={e=>{setValue(e.target.value);setError('');}}/><span>年</span></div><p>已收录范围：{formatYear(eraCoverage.min)}—{formatYear(eraCoverage.max)}</p>{error&&<p role="alert">{error}</p>}<button className="year-picker-submit">阅此年</button></form></dialog>;
+}

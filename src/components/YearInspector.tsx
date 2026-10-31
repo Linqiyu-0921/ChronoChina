@@ -3,6 +3,7 @@ import { fitPanel, resizePanel, type PanelRect } from '../lib/panelGeometry';
 import YearPanel from './YearPanel';
 import { eraRowsAtYear, eventsByYear } from '../lib/data';
 import { eraDisplayName, eraYearDisplay, formatYearFull, ganzhiOf } from '../lib/time';
+import { getLang, S, t } from '../lib/i18n';
 
 interface Props { year: number; anchor: number; height: number; width: number; anchorX: number; onPinChange: (pinned: boolean) => void; onOpenRuler?: (reignId: string) => void; }
 export default function YearInspector({ year, anchor, anchorX, onPinChange, onOpenRuler }: Props) {
@@ -88,11 +89,11 @@ export default function YearInspector({ year, anchor, anchorX, onPinChange, onOp
   }, [open, mode, anchor, anchorX, year, floating]);
   return <>
     {mode !== 'pinned' && <button ref={trigger} className="year-inspector-toggle suijian-trigger" style={{ top: anchor, left: anchorX }} aria-expanded={open} aria-controls="year-inspector" onClick={() => open ? close() : setMode('short')}>
-      <span aria-hidden="true">◇</span> 岁笺 <small>{(eventsByYear.get(year)?.length ?? 0) > 0 ? `${eventsByYear.get(year)!.length} 条纪事` : '阅此年'}</small>
+      <span aria-hidden="true">◇</span> {t('sj.trigger')} <small>{(eventsByYear.get(year)?.length ?? 0) > 0 ? t('sj.triggerCount', { n: eventsByYear.get(year)!.length }) : t('sj.triggerOpen')}</small>
     </button>}
     {open && mode !== 'pinned' && <svg className="suijian-link" aria-hidden="true"><path d={`M${link.x} ${link.from}V${link.to}`} /></svg>}
-    {open && <section ref={panel} id="year-inspector" aria-label={`${formatYearFull(readingYear)}岁笺`} className={`suijian-paper suijian-${mode} ${floating ? 'is-positioned' : ''} ${settling ? 'is-settling' : ''}`} style={mode === 'pinned' ? undefined : floating ? { left: floating.x, top: floating.y, width: floating.width, height: floating.height } : position}>
-      {mode !== 'pinned' && ['n','e','s','w','ne','se','sw','nw'].map(edge => <div key={edge} className={`inspector-resize resize-${edge}`} role="separator" tabIndex={0} aria-label={`调整岁笺 ${edge} 边缘`} onPointerDown={e => {
+    {open && <section ref={panel} id="year-inspector" aria-label={t('sj.aria', { year: formatYearFull(readingYear) })} className={`suijian-paper suijian-${mode} ${floating ? 'is-positioned' : ''} ${settling ? 'is-settling' : ''}`} style={mode === 'pinned' ? undefined : floating ? { left: floating.x, top: floating.y, width: floating.width, height: floating.height } : position}>
+      {mode !== 'pinned' && ['n','e','s','w','ne','se','sw','nw'].map(edge => <div key={edge} className={`inspector-resize resize-${edge}`} role="separator" tabIndex={0} aria-label={t('sj.resize', { edge })} onPointerDown={e => {
         if (e.button !== 0 || !panel.current) return;
         e.preventDefault(); e.currentTarget.setPointerCapture(e.pointerId);
         const r = panel.current.getBoundingClientRect(); gesture.current = { edge, x:e.clientX, y:e.clientY, rect:{x:r.x,y:r.y,width:r.width,height:r.height} };
@@ -102,17 +103,17 @@ export default function YearInspector({ year, anchor, anchorX, onPinChange, onOp
       <header className="suijian-tools" onPointerDown={e => {
         if(mode==='pinned' || e.button!==0 || (e.target as HTMLElement).closest('button') || !panel.current) return;
         e.preventDefault(); e.currentTarget.setPointerCapture(e.pointerId); const r=panel.current.getBoundingClientRect(); gesture.current={edge:'move',x:e.clientX,y:e.clientY,rect:{x:r.x,y:r.y,width:r.width,height:r.height}};
-      }} onPointerMove={e => { const g=gesture.current; if(g?.edge==='move') setFloating(fitPanel({...g.rect,x:g.rect.x+e.clientX-g.x,y:g.rect.y+e.clientY-g.y},window.innerWidth,window.innerHeight)); }} onPointerUp={() => {gesture.current=null;}} onPointerCancel={() => {gesture.current=null;}}><span>{mode === 'pinned' ? '岁笺 · 侧页' : '岁笺'}</span><div>
-        <button aria-label={mode === 'pinned' ? '取消固定' : '固定为侧页'} title={mode === 'pinned' ? '取消固定' : '固定为侧页'} onClick={togglePin}><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.3" aria-hidden="true"><path d="M8 3h8l-1 7 4 4H5l4-4-1-7ZM12 14v7"/></svg></button>
-        <button ref={closeButton} aria-label="收起岁笺" title="收起岁笺" onClick={close}><svg width="16" height="16" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.3" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button>
+      }} onPointerMove={e => { const g=gesture.current; if(g?.edge==='move') setFloating(fitPanel({...g.rect,x:g.rect.x+e.clientX-g.x,y:g.rect.y+e.clientY-g.y},window.innerWidth,window.innerHeight)); }} onPointerUp={() => {gesture.current=null;}} onPointerCancel={() => {gesture.current=null;}}><span>{mode === 'pinned' ? t('sj.pinned') : t('sj.title')}</span><div>
+        <button aria-label={mode === 'pinned' ? t('sj.unpin') : t('sj.pin')} title={mode === 'pinned' ? t('sj.unpin') : t('sj.pin')} onClick={togglePin}><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.3" aria-hidden="true"><path d="M8 3h8l-1 7 4 4H5l4-4-1-7ZM12 14v7"/></svg></button>
+        <button ref={closeButton} aria-label={t('sj.close')} title={t('sj.close')} onClick={close}><svg width="16" height="16" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.3" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button>
       </div></header>
       <div className="suijian-body">
-        {mode === 'short' ? <><h2>{formatYearFull(readingYear)}</h2><p className="suijian-subtitle">{ganzhiOf(readingYear)}年 · {new Set(rows.map(r => r.polity.id)).size} 政权纪年已录</p>
-          <div className="suijian-eras">{rows.slice(0, 4).map(row => <p key={row.era.id}><span>{row.polity.name}</span><strong>{eraDisplayName(row.era.name)}{eraYearDisplay(eraDisplayName(row.era.name), row.era.reignIds.length, row.eraYearNo)}</strong></p>)}{!rows.length && <p>本年纪年尚待补录。</p>}{rows.length > 4 && <small>另有 {rows.length - 4} 条纪年，详见本年档。</small>}</div>
-          <div className="suijian-excerpt"><h3>这一年</h3>{story ? <><p>{story.title}</p>{storyBody && <p>{storyBody}</p>}</> : <p>本年尚未收录纪事，亦可展开查阅同期纪年与人物。</p>}</div>
+        {mode === 'short' ? <><h2>{formatYearFull(readingYear)}</h2><p className="suijian-subtitle">{t('sj.subtitle', { ganzhi: getLang() === 'en' ? ganzhiOf(readingYear) : `${ganzhiOf(readingYear)}年`, n: new Set(rows.map(r => r.polity.id)).size })}</p>
+          <div className="suijian-eras">{rows.slice(0, 4).map(row => <p key={row.era.id}><span>{S(row.polity.name)}</span><strong>{S(eraDisplayName(row.era.name))}{eraYearDisplay(eraDisplayName(row.era.name), row.era.reignIds.length, row.eraYearNo)}</strong></p>)}{!rows.length && <p>{t('sj.pending')}</p>}{rows.length > 4 && <small>{t('sj.more', { n: rows.length - 4 })}</small>}</div>
+          <div className="suijian-excerpt"><h3>{t('sj.story')}</h3>{story ? <><p>{S(story.title)}</p>{storyBody && <p>{S(storyBody)}</p>}</> : <p>{t('sj.noStory')}</p>}</div>
         </> : <YearPanel year={readingYear} onOpenRuler={onOpenRuler}/>}
       </div>
-      <footer className="suijian-footer">{mode === 'short' ? <button onClick={() => setMode('long')}>展开本年档 <span aria-hidden="true">↗</span></button> : mode === 'long' ? <button onClick={() => setMode('short')}>收为短笺</button> : <span>随阅年同步 · 可继续滚动对照</span>}</footer>
+      <footer className="suijian-footer">{mode === 'short' ? <button onClick={() => setMode('long')}>{t('sj.expand')} <span aria-hidden="true">↗</span></button> : mode === 'long' ? <button onClick={() => setMode('short')}>{t('sj.collapse')}</button> : <span>{t('sj.synced')}</span>}</footer>
     </section>}
   </>;
 }

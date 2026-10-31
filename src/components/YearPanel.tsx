@@ -15,9 +15,10 @@ import {
   type HistEvent,
   type YearEraRow,
 } from '../lib/data';
-import { chineseNum, eraDisplayName, eraYearDisplay, formatYearFull, ganzhiOf, reignLabel } from '../lib/time';
+import { chineseNum, eraDisplayName, eraYearDisplay, formatYearFull, ganzhiOf, monthLabel, reignLabel } from '../lib/time';
 import { citationList, eventCitation, eventPermalink, type CitationFormat } from '../lib/citation';
 import { copyText } from '../lib/clipboard';
+import { getLang, S, t } from '../lib/i18n';
 import EventCategoryFilter from './EventCategoryFilter';
 import Han from './Han';
 
@@ -32,19 +33,19 @@ interface Props {
 function EraRow({ row, onOpenRuler }: { row: YearEraRow; onOpenRuler?: (reignId: string) => void }) {
   const { polity: p, era, ruler, extraRulers } = row;
   const monthHint =
-    row.isStart && era.startMonth ? `（${chineseNum(era.startMonth)}月改元）` : '';
-  const endHint = row.isEnd && era.endNote ? `（${era.endNote}）` : '';
+    row.isStart && era.startMonth ? t('yp.monthChangeHint', { month: getLang() === 'en' ? era.startMonth : chineseNum(era.startMonth) }) : '';
+  const endHint = row.isEnd && era.endNote ? t('yp.endHint', { note: era.endNote }) : '';
   const transition =
     extraRulers.length > 0 && ruler
-      ? `（${extraRulers[extraRulers.length - 1].title} → ${ruler.title}，沿用年号）`
+      ? t('yp.transitionHint', { from: extraRulers[extraRulers.length - 1].title, to: ruler.title })
       : '';
   return (
     <article className="year-era-row">
       <div><span className="ghost-chip" style={{ color: p.color }}><Han text={p.name}/></span> <strong><Han text={eraDisplayName(era.name)}/>{eraYearDisplay(eraDisplayName(era.name), era.reignIds.length, row.eraYearNo)}</strong></div>
-      <p>{ruler ? (onOpenRuler ? <button type="button" className="reign-link" onClick={() => onOpenRuler(ruler.id)}><Han text={reignLabel(ruler)}/></button> : <Han text={reignLabel(ruler)}/>) : '君主待补录'} {monthHint}{transition}</p>
-      <details><summary>纪年说明与来源{era.disputed || p.precision ? ' · 有异说或约数' : ''}</summary>
-        <p>{endHint || era.note || '当前按所列来源整理，尚需条目级复核。'}</p>
-        {era.sources?.map(id => { const s = sourceById.get(id); return s?.url ? <a key={id} href={s.url} target="_blank" rel="noreferrer">{s.name} </a> : <span key={id}>{s?.name}</span>; })}
+      <p>{ruler ? (onOpenRuler ? <button type="button" className="reign-link" onClick={() => onOpenRuler(ruler.id)}><Han text={reignLabel(ruler)}/></button> : <Han text={reignLabel(ruler)}/>) : t('yp.rulerMissing')} {monthHint}{transition}</p>
+      <details><summary>{t('yp.details')}{era.disputed || p.precision ? t('yp.disputedFlag') : ''}</summary>
+        <p>{S(endHint || era.note) || t('yp.noteFallback')}</p>
+        {era.sources?.map(id => { const s = sourceById.get(id); return s?.url ? <a key={id} href={s.url} target="_blank" rel="noreferrer">{S(s.name)} </a> : <span key={id}>{S(s?.name)}</span>; })}
       </details>
     </article>
   );
@@ -86,7 +87,7 @@ export default function YearPanel({ year, selectedEvent, onSelectEvent, onOpenRu
   if (year === null) {
     return (
       <aside className="yearpanel card">
-        <p className="dim">点击时间轴上的任意年份，或检索「1127」「天会十三年」。</p>
+        <p className="dim">{t('yp.clickHint')}</p>
       </aside>
     );
   }
@@ -116,9 +117,9 @@ export default function YearPanel({ year, selectedEvent, onSelectEvent, onOpenRu
     copyTimer.current = window.setTimeout(() => setCopied(null), 1800);
   };
   const copyLabel = (ev: HistEvent, kind: 'link' | 'cite') => {
-    if (copied === `${ev.id}:${kind}:ok`) return kind === 'link' ? '已复制链接' : '已复制引用';
-    if (copied === `${ev.id}:${kind}:fail`) return '复制失败';
-    return kind === 'link' ? '复制链接' : '复制引用';
+    if (copied === `${ev.id}:${kind}:ok`) return kind === 'link' ? t('yp.copiedLink') : t('yp.copiedCite');
+    if (copied === `${ev.id}:${kind}:fail`) return t('yp.copyFail');
+    return kind === 'link' ? t('yp.copyLink') : t('yp.copyCite');
   };
   const listText = () => citationList(shownEvs, sources, { format: citeFormat, numbered: citeNumber });
   const copyAll = async () => {
@@ -138,57 +139,56 @@ export default function YearPanel({ year, selectedEvent, onSelectEvent, onOpenRu
     a.click();
     window.setTimeout(() => URL.revokeObjectURL(url), 1000);
   };
-  const allLabel = copied?.startsWith('all:ok') ? '已复制' : copied === 'all:fail' ? '复制失败' : '复制全部';
+  const allLabel = copied?.startsWith('all:ok') ? t('yp.copiedAll') : copied === 'all:fail' ? t('yp.copyFail') : t('yp.copyAll');
 
   if (compact) return <div className="year-summary">
-    <header><h3>{formatYearFull(year)}</h3><span>{ganzhiOf(year)}年 · 年度笺注</span></header>
-    <section><h4>事件 · {evs.length}</h4>{evs.length ? evs.slice(0, 3).map(ev => <p className="summary-event" id={`event-${ev.id}`} key={ev.id}><small>{ev.month ? `${ev.month}月` : '月不详'}</small><Han text={ev.title}/></p>) : <p className="summary-note">本年尚未收录事件。</p>}{evs.length > 3 && <p className="summary-note">另有 {evs.length - 3} 条，固定到侧边查看完整记录。</p>}</section>
-    <section><h4>同期纪年</h4>{rows.length ? rows.map(row => <p className="summary-era" key={row.era.id}><span><Han text={row.polity.name}/></span><strong><Han text={eraDisplayName(row.era.name)}/>{eraYearDisplay(eraDisplayName(row.era.name), row.era.reignIds.length, row.eraYearNo)}</strong><small><Han text={reignLabel(row.ruler)}/>{row.isStart && row.era.startMonth ? ` · ${row.era.startMonth}月改元` : ''}</small></p>) : <p>本年纪年尚未收录。</p>}
-      {multiPerPolity.size > 0 && <p className="summary-note">同年多条纪年含年中改元，并非全年同时使用。</p>}
+    <header><h3>{formatYearFull(year)}</h3><span>{getLang() === 'en' ? ganzhiOf(year) : `${ganzhiOf(year)}年`} · {t('yp.summaryGenre')}</span></header>
+    <section><h4>{t('yp.summaryEvents', { n: evs.length })}</h4>{evs.length ? evs.slice(0, 3).map(ev => <p className="summary-event" id={`event-${ev.id}`} key={ev.id}><small>{ev.month ? monthLabel(ev.month) : t('yp.monthUnknown')}</small><Han text={ev.title}/></p>) : <p className="summary-note">{t('yp.summaryNoEvents')}</p>}{evs.length > 3 && <p className="summary-note">{t('yp.summaryMore', { n: evs.length - 3 })}</p>}</section>
+    <section><h4>{t('yp.summaryEras')}</h4>{rows.length ? rows.map(row => <p className="summary-era" key={row.era.id}><span><Han text={row.polity.name}/></span><strong><Han text={eraDisplayName(row.era.name)}/>{eraYearDisplay(eraDisplayName(row.era.name), row.era.reignIds.length, row.eraYearNo)}</strong><small><Han text={reignLabel(row.ruler)}/>{row.isStart && row.era.startMonth ? ` · ${t('tl.eraChange', { month: row.era.startMonth })}` : ''}</small></p>) : <p>{t('yp.summaryNoEras')}</p>}
+      {multiPerPolity.size > 0 && <p className="summary-note">{t('yp.summaryMulti')}</p>}
     </section>
-    <section><h4>已收录人物</h4><p>{[...born, ...died, ...alive].slice(0, 6).map(p => `${p.name}${p.birth === year ? '（生）' : p.death === year ? '（卒）' : ''}`).join('、') || '本年尚未收录人物。'}</p></section>
-    <p className="summary-note">精选资料，非完整覆盖；来源与异说见完整档案。</p>
+    <section><h4>{t('yp.summaryPeople')}</h4><p>{[...born, ...died, ...alive].slice(0, 6).map(p => `${S(p.name)}${p.birth === year ? t('yp.bornMark') : p.death === year ? t('yp.diedMark') : ''}`).join(getLang() === 'en' ? ', ' : '、') || t('yp.summaryNoPeople')}</p></section>
+    <p className="summary-note">{t('yp.summaryNote')}</p>
   </div>;
 
   return (
     <aside className="yearpanel card">
       <header className="yp-head">
         <div className="yp-year">{formatYearFull(year)}</div>
-        <div className="yp-ganzhi">{ganzhiOf(year)}年</div>
+        <div className="yp-ganzhi">{getLang() === 'en' ? ganzhiOf(year) : `${ganzhiOf(year)}年`}</div>
       </header>
 
       {rows.length === 0 ? (
         <p className="dim">
-          {inScope ? '该年份尚未收录对应纪年。' : '该年份超出当前纪年覆盖范围。'}
+          {inScope ? t('yp.emptyInScope') : t('yp.emptyOutScope')}
         </p>
       ) : (
         <>
           <div className="year-era-list">{rows.map((r, i) => <EraRow key={`${r.era.id}-${i}`} row={r} onOpenRuler={onOpenRuler}/>)}</div>
           {multiPerPolity.size > 0 && (
             <p className="yp-note">
-              同一年内出现多个纪年（如 {[...multiPerPolity].map((id) => rows.find((r) => r.polity.id === id)!.polity.name).join('、')}
-              ），系年中改元或政权更替所致，不代表各年号全年同时使用。
+              {t('yp.multi', { names: [...multiPerPolity].map((id) => S(rows.find((r) => r.polity.id === id)!.polity.name)).join(getLang() === 'en' ? ', ' : '、') })}
             </p>
           )}
         </>
       )}
 
-      {inScope && polities.filter(p => p.startYear <= year && p.endYear >= year && !rows.some(r => r.polity.id === p.id)).map(p => <p className="yp-note" key={p.id}><Han text={p.name}/>：同期存在，纪年尚未收录。</p>)}
+      {inScope && polities.filter(p => p.startYear <= year && p.endYear >= year && !rows.some(r => r.polity.id === p.id)).map(p => <p className="yp-note" key={p.id}>{t('yp.existingNoEra', { polity: S(p.name) })}</p>)}
       {inScope && (born.length > 0 || died.length > 0 || alive.length > 0) && (
         <section className="yp-persons">
-          <h4>已收录人物{alive.length > 0 ? ` · 在世 ${alive.length} 人` : ''}</h4>
+          <h4>{alive.length > 0 ? t('yp.personsAlive', { n: alive.length }) : t('yp.persons')}</h4>
           {(born.length > 0 || died.length > 0) && (
             <p className="person-life dim">
-              {born.length > 0 && <>本年生：{born.map((p) => `${p.name}（${p.field}）`).join('、')}　</>}
-              {died.length > 0 && <>本年卒：{died.map((p) => `${p.name}（${p.field}）`).join('、')}</>}
+              {born.length > 0 && <>{t('yp.born', { list: born.map((p) => `${S(p.name)}（${S(p.field)}）`).join(getLang() === 'en' ? ', ' : '、') })}　</>}
+              {died.length > 0 && <>{t('yp.died', { list: died.map((p) => `${S(p.name)}（${S(p.field)}）`).join(getLang() === 'en' ? ', ' : '、') })}</>}
             </p>
           )}
           {alive.length > 0 && (
             <ul className="person-list">
               {alive.map((p) => (
-                <li key={p.id} title={p.summary}>
+                <li key={p.id} title={S(p.summary)}>
                   <span className="person-name"><Han text={p.name}/></span>
-                  <span className="person-field">{p.field}</span>
+                  <span className="person-field">{S(p.field)}</span>
                 </li>
               ))}
             </ul>
@@ -198,24 +198,24 @@ export default function YearPanel({ year, selectedEvent, onSelectEvent, onOpenRu
 
       {inScope && (
         <section className="yp-events">
-          <h4>当年事件{evs.length ? `（${evs.length}）` : ''}</h4>
+          <h4>{evs.length ? t('yp.eventsCount', { n: evs.length }) : t('yp.events')}</h4>
           <EventCategoryFilter events={evs} value={cat} onChange={setCat}/>
           <div className="ev-cite-bar">
-            <label>引用格式
-              <select value={citeFormat} onChange={(e) => chooseCiteFormat(e.target.value as CitationFormat)} aria-label="引用格式">
+            <label>{t('yp.citeFormat')}
+              <select value={citeFormat} onChange={(e) => chooseCiteFormat(e.target.value as CitationFormat)} aria-label={t('yp.citeFormat')}>
                 <option value="gbt7714">GB/T 7714</option>
-                <option value="plain">通用</option>
+                <option value="plain">{t('common.plain')}</option>
               </select>
             </label>
             <label className="ev-number">
-              <input type="checkbox" checked={citeNumber} onChange={(e) => chooseCiteNumber(e.target.checked)}/> 自动序号
+              <input type="checkbox" checked={citeNumber} onChange={(e) => chooseCiteNumber(e.target.checked)}/> {t('yp.autoNumber')}
             </label>
-            <button type="button" className="ev-copy" disabled={!shownEvs.length} title={`复制当前筛选的 ${shownEvs.length} 条引用`} onClick={copyAll}>{allLabel}</button>
-            <button type="button" className="ev-copy" disabled={!shownEvs.length} title={`下载当前筛选的 ${shownEvs.length} 条引用`} onClick={downloadAll}>下载 .txt</button>
+            <button type="button" className="ev-copy" disabled={!shownEvs.length} title={t('yp.copyAllTitle', { n: shownEvs.length })} onClick={copyAll}>{allLabel}</button>
+            <button type="button" className="ev-copy" disabled={!shownEvs.length} title={t('yp.downloadAllTitle', { n: shownEvs.length })} onClick={downloadAll}>{t('yp.downloadAll')}</button>
           </div>
-          <small className="ev-cite-hint">批量导出按当前列表顺序编号</small>
-          {evs.length === 0 && <p className="dim">本年尚未收录事件。</p>}
-          {evs.length > 0 && shownEvs.length === 0 && <p className="dim">本类暂无纪事，可切换「全部」。</p>}
+          <small className="ev-cite-hint">{t('yp.batchHint')}</small>
+          {evs.length === 0 && <p className="dim">{t('yp.noEvents')}</p>}
+          {evs.length > 0 && shownEvs.length === 0 && <p className="dim">{t('yp.noCategory')}</p>}
           <ul ref={eventList}>
             {shownEvs.map((ev) => (
               <li
@@ -227,23 +227,23 @@ export default function YearPanel({ year, selectedEvent, onSelectEvent, onOpenRu
                 onClick={() => onSelectEvent?.(ev.id)}
               >
                 <div className="ev-title">
-                  <span className="ev-month">{ev.month ? `${chineseNum(ev.month)}月` : "月不详"}</span>
+                  <span className="ev-month">{ev.month ? monthLabel(ev.month) : t('yp.monthUnknown')}</span>
                   <span className="ev-cats">
                     {ev.categories.map((c) => (
-                      <span key={c} className="cat-dot" data-cat={c in CAT_GLYPHS ? c : '其他'} title={c}>
-                        {c.slice(0, 1)}
+                      <span key={c} className="cat-dot" data-cat={c in CAT_GLYPHS ? c : '其他'} title={S(c)}>
+                        {S(c.slice(0, 1))}
                       </span>
                     ))}
                   </span>
                   <Han text={ev.title}/>
-                  {ev.confidence === 'low' && <span className="badge low">存疑</span>}
+                  {ev.confidence === 'low' && <span className="badge low">{t('yp.disputedBadge')}</span>}
                 </div>
                 <p className="ev-summary"><Han text={ev.summary}/></p>
                 <div className="ev-actions">
                   <button type="button" className="ev-copy" onClick={(e) => { e.stopPropagation(); copyEvent(ev, 'link'); }}>{copyLabel(ev, 'link')}</button>
-                  <button type="button" className="ev-copy" title={citeFormat === 'gbt7714' ? '按 GB/T 7714 格式复制' : '按通用格式复制'} onClick={(e) => { e.stopPropagation(); copyEvent(ev, 'cite'); }}>{copyLabel(ev, 'cite')}</button>
+                  <button type="button" className="ev-copy" title={citeFormat === 'gbt7714' ? 'GB/T 7714' : t('common.plain')} onClick={(e) => { e.stopPropagation(); copyEvent(ev, 'cite'); }}>{copyLabel(ev, 'cite')}</button>
                 </div>
-                <details><summary>来源、引用与整理状态 · 待条目复核</summary><p className="ev-src">{ev.sources.map(id => { const s = sourceById.get(id); return s?.url ? <a key={id} href={s.url} target="_blank" rel="noreferrer">{s.name} </a> : <span key={id}>{s?.name}</span>; })}</p><p className="dim">参与政权尚待核对；同期存在不等于参与此事件。</p><div className="ev-citation"><span>引用格式 · {citeFormat === 'gbt7714' ? 'GB/T 7714' : '通用'}{citeNumber ? ` · 第 ${eventNumber(ev)} 条` : ''}</span><code>{eventCitation(ev, sources, { format: citeFormat, number: eventNumber(ev) })}</code></div></details>
+                <details><summary>{t('yp.sourceDetail')}</summary><p className="ev-src">{ev.sources.map(id => { const s = sourceById.get(id); return s?.url ? <a key={id} href={s.url} target="_blank" rel="noreferrer">{S(s.name)} </a> : <span key={id}>{S(s?.name)}</span>; })}</p><p className="dim">参与政权尚待核对；同期存在不等于参与此事件。</p><div className="ev-citation"><span>{t('yp.citeLabel', { format: citeFormat === 'gbt7714' ? 'GB/T 7714' : t('common.plain') })}{citeNumber ? t('yp.citeNumber', { n: eventNumber(ev) ?? '' }) : ''}</span><code>{eventCitation(ev, sources, { format: citeFormat, number: eventNumber(ev) })}</code></div></details>
               </li>
             ))}
           </ul>

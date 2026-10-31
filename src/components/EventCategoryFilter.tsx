@@ -1,4 +1,5 @@
 import { CAT_GLYPHS, type HistEvent } from '../lib/data';
+import { S, t } from '../lib/i18n';
 
 interface Props {
   events: readonly HistEvent[];
@@ -16,13 +17,13 @@ export default function EventCategoryFilter({ events, value, onChange }: Props) 
     ...ORDER.filter((c) => counts.has(c)),
     ...[...counts.keys()].filter((c) => !ORDER.includes(c)),
   ];
-  return <div className="event-filter" role="group" aria-label="按事件分类筛选">
+  return <div className="event-filter" role="group" aria-label={t('ev.filterAria')}>
     <button type="button" className={value === null ? 'is-on' : undefined} aria-pressed={value === null} onClick={() => onChange(null)}>
-      全部<span>{events.length}</span>
+      {t('common.all')}<span>{events.length}</span>
     </button>
     {order.map((c) => (
       <button key={c} type="button" className={value === c ? 'is-on' : undefined} aria-pressed={value === c} onClick={() => onChange(value === c ? null : c)}>
-        {c}<span>{counts.get(c)}</span>
+        {S(c)}<span>{counts.get(c)}</span>
       </button>
     ))}
   </div>;
