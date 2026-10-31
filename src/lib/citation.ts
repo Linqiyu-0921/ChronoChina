@@ -18,17 +18,20 @@ export function eventPermalink(ev: Pick<HistEvent, 'id' | 'year'>, origin?: stri
   return `${base}${eventPath(ev)}`;
 }
 
-export function eventCitation(
-  ev: HistEvent,
-  sources: Source[],
-  origin?: string,
-  format: CitationFormat = 'plain',
-  accessDate = todayStamp(),
-): string {
+export interface CitationOptions {
+  origin?: string;
+  format?: CitationFormat;
+  accessDate?: string;
+  number?: number;
+}
+
+export function eventCitation(ev: HistEvent, sources: Source[], options: CitationOptions = {}): string {
+  const { origin, format = 'plain', accessDate = todayStamp(), number } = options;
+  const prefix = number ? `[${number}] ` : '';
   const doubt = ev.confidence === 'low' ? '（存疑）' : '';
   if (format === 'gbt7714') {
     const when = `${formatYearFull(ev.year).replace(/\s+/g, '')}${ev.month ? `${ev.month}月` : ''}`;
-    return `此年 · ChronoChina. ${ev.title}${doubt}（${when}）[EB/OL]. [${accessDate}]. ${eventPermalink(ev, origin)}.`;
+    return `${prefix}此年 · ChronoChina. ${ev.title}${doubt}（${when}）[EB/OL]. [${accessDate}]. ${eventPermalink(ev, origin)}.`;
   }
   const links = ev.sources
     .map((id) => sources.find((s) => s.id === id))
@@ -37,5 +40,17 @@ export function eventCitation(
     ? links.map((s) => (s.url ? `${s.name}（${s.url}）` : s.name)).join('；')
     : '来源待补';
   const month = ev.month ? ` ${ev.month} 月` : '';
-  return `“${ev.title}”${doubt}，${formatYearFull(ev.year)}${month}（${ganzhiOf(ev.year)}年），此年 · ChronoChina，${eventPermalink(ev, origin)}\n来源：${sourceText}`;
+  return `${prefix}“${ev.title}”${doubt}，${formatYearFull(ev.year)}${month}（${ganzhiOf(ev.year)}年），此年 · ChronoChina，${eventPermalink(ev, origin)}\n来源：${sourceText}`;
+}
+
+export function citationList(
+  list: HistEvent[],
+  sources: Source[],
+  options: CitationOptions & { numbered?: boolean } = {},
+): string {
+  const { numbered = true, ...rest } = options;
+  const separator = (rest.format ?? 'plain') === 'gbt7714' ? '\n' : '\n\n';
+  return list
+    .map((ev, i) => eventCitation(ev, sources, { ...rest, number: numbered ? i + 1 : undefined }))
+    .join(separator);
 }

@@ -141,6 +141,10 @@ main { margin-top: 22px; }
 .ev-cite-bar label { display: inline-flex; align-items: center; gap: 5px; }
 .ev-cite-bar select { font: inherit; color: var(--ink-2); background: transparent; border: 1px solid var(--line); border-radius: 2px; padding: 1px 4px; }
 .ev-cite-bar select:focus-visible { outline: 1px solid var(--accent); outline-offset: 1px; }
+.ev-number { display: inline-flex; align-items: center; gap: 4px; cursor: pointer; }
+.ev-number input { margin: 0; accent-color: var(--accent); }
+.ev-cite-hint { display: block; margin: -2px 0 6px; font-family: var(--sans); font-size: 10px; color: var(--ink-3); }
+.ev-copy:disabled { opacity: .45; cursor: default; }
 .ev-actions { display: flex; flex-wrap: wrap; gap: 6px; margin: 5px 0 3px; }
 .ev-copy { font-family: var(--sans); font-size: 11px; line-height: 1.5; color: var(--ink-2); background: transparent; border: 1px solid var(--line); border-radius: 2px; padding: 2px 7px; cursor: pointer; }
 .ev-copy:hover, .ev-copy:focus-visible { color: var(--accent); border-color: var(--accent); }

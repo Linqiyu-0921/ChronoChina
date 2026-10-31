@@ -38,32 +38,33 @@ assert.ok(parseQuery('丁未').years.length > 12);
 const events = read('events.json');
 assert.ok(events.every(e => /^[A-Za-z0-9_-]+$/.test(e.id)), '事件 id 必须可用于 URL 锚点');
 const citation = load('citation', { './time': time });
+const sourceList = read('sources.json');
+const liu = { id: 'p-p-liuzongyuan-death', year: 819, title: '柳宗元去世', categories: ['人物'], polityIds: ['tang'], summary: '', sources: ['S4'] };
+const piluoge = { id: 'ev-738-01', year: 738, title: '皮逻阁统一六诏，受唐封云南王', categories: ['政治'], polityIds: ['nanzhao'], summary: '', sources: ['S15', 'S6'] };
 assert.equal(citation.eventPath({ id: 'p-p-liuzongyuan-death', year: 819 }), '/?year=819&event=p-p-liuzongyuan-death');
-const cite = citation.eventCitation(
-  { id: 'p-p-liuzongyuan-death', year: 819, title: '柳宗元去世', categories: ['人物'], polityIds: ['tang'], summary: '', sources: ['S4'] },
-  read('sources.json'),
-  'https://cinian.laneqiyu.cn',
-);
+const cite = citation.eventCitation(liu, sourceList, { origin: 'https://cinian.laneqiyu.cn' });
 assert.ok(cite.includes('“柳宗元去世”'));
 assert.ok(cite.includes('公元 819 年'));
 assert.ok(cite.includes('https://cinian.laneqiyu.cn/?year=819&event=p-p-liuzongyuan-death'));
 assert.ok(cite.includes('编者综合整理'));
-const gbt = citation.eventCitation(
-  { id: 'p-p-liuzongyuan-death', year: 819, title: '柳宗元去世', categories: ['人物'], polityIds: ['tang'], summary: '', sources: ['S4'] },
-  read('sources.json'),
-  'https://cinian.laneqiyu.cn',
-  'gbt7714',
-  '2026-10-31',
-);
+const gbt = citation.eventCitation(liu, sourceList, { origin: 'https://cinian.laneqiyu.cn', format: 'gbt7714', accessDate: '2026-10-31' });
 assert.ok(gbt.includes('此年 · ChronoChina. 柳宗元去世（公元819年）[EB/OL]. [2026-10-31]. https://cinian.laneqiyu.cn/?year=819&event=p-p-liuzongyuan-death.'));
 const gbtBce = citation.eventCitation(
   { id: 'test-bce', year: -220, title: '测试', categories: ['政治'], polityIds: ['qin'], summary: '', sources: ['S4'] },
-  read('sources.json'),
-  'https://cinian.laneqiyu.cn',
-  'gbt7714',
-  '2026-10-31',
+  sourceList,
+  { origin: 'https://cinian.laneqiyu.cn', format: 'gbt7714', accessDate: '2026-10-31' },
 );
 assert.ok(gbtBce.includes('（公元前221年）'));
+const numbered = citation.eventCitation(liu, sourceList, { origin: 'https://cinian.laneqiyu.cn', format: 'gbt7714', accessDate: '2026-10-31', number: 3 });
+assert.ok(numbered.startsWith('[3] 此年 · ChronoChina.'));
+const gbtList = citation.citationList([liu, piluoge], sourceList, { origin: 'https://cinian.laneqiyu.cn', format: 'gbt7714', accessDate: '2026-10-31' });
+assert.ok(gbtList.startsWith('[1] 此年 · ChronoChina.'));
+assert.ok(gbtList.includes('\n[2] 此年 · ChronoChina.'));
+const gbtListPlain = citation.citationList([liu, piluoge], sourceList, { origin: 'https://cinian.laneqiyu.cn', format: 'gbt7714', accessDate: '2026-10-31', numbered: false });
+assert.ok(!gbtListPlain.includes('[1]'));
+const plainList = citation.citationList([liu, piluoge], sourceList, { origin: 'https://cinian.laneqiyu.cn', format: 'plain', accessDate: '2026-10-31' });
+assert.ok(plainList.startsWith('[1] “柳宗元去世”'));
+assert.ok(plainList.includes('\n\n[2] “皮逻阁统一六诏'));
 assert.ok(!events.some(e => ['w-1127-02', 'w-1127-03'].includes(e.id)));
 assert.ok(events.some(e => e.id === 'ev-1127-01'));
 assert.ok(events.some(e => e.id === 'ev-1127-03'));

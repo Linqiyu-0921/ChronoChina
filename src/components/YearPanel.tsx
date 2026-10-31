@@ -16,7 +16,7 @@ import {
   type YearEraRow,
 } from '../lib/data';
 import { chineseNum, eraDisplayName, eraYearDisplay, formatYearFull, ganzhiOf, reignLabel } from '../lib/time';
-import { eventCitation, eventPermalink, type CitationFormat } from '../lib/citation';
+import { citationList, eventCitation, eventPermalink, type CitationFormat } from '../lib/citation';
 import { copyText } from '../lib/clipboard';
 import EventCategoryFilter from './EventCategoryFilter';
 import Han from './Han';
@@ -61,6 +61,14 @@ export default function YearPanel({ year, selectedEvent, onSelectEvent, onOpenRu
     setCopied(null);
     try { localStorage.setItem('chronochina-citation-format', format); } catch {}
   };
+  const [citeNumber, setCiteNumber] = useState(() => {
+    try { return localStorage.getItem('chronochina-citation-numbering') !== '0'; } catch { return true; }
+  });
+  const chooseCiteNumber = (on: boolean) => {
+    setCiteNumber(on);
+    setCopied(null);
+    try { localStorage.setItem('chronochina-citation-numbering', on ? '1' : '0'); } catch {}
+  };
   const eventList = useRef<HTMLUListElement>(null);
   const copyTimer = useRef<number | null>(null);
   useEffect(() => { setCat(null); setCopied(null); }, [year]);
@@ -97,8 +105,12 @@ export default function YearPanel({ year, selectedEvent, onSelectEvent, onOpenRu
     if (rows.filter((x) => x.polity.id === r.polity.id).length > 1) multiPerPolity.add(r.polity.id);
   });
 
+  const eventNumber = (ev: HistEvent) => {
+    const index = shownEvs.findIndex((item) => item.id === ev.id);
+    return citeNumber && index >= 0 ? index + 1 : undefined;
+  };
   const copyEvent = async (ev: HistEvent, kind: 'link' | 'cite') => {
-    const ok = await copyText(kind === 'link' ? eventPermalink(ev) : eventCitation(ev, sources, undefined, citeFormat));
+    const ok = await copyText(kind === 'link' ? eventPermalink(ev) : eventCitation(ev, sources, { format: citeFormat, number: eventNumber(ev) }));
     setCopied(`${ev.id}:${kind}:${ok ? 'ok' : 'fail'}`);
     if (copyTimer.current) window.clearTimeout(copyTimer.current);
     copyTimer.current = window.setTimeout(() => setCopied(null), 1800);
@@ -108,6 +120,25 @@ export default function YearPanel({ year, selectedEvent, onSelectEvent, onOpenRu
     if (copied === `${ev.id}:${kind}:fail`) return '复制失败';
     return kind === 'link' ? '复制链接' : '复制引用';
   };
+  const listText = () => citationList(shownEvs, sources, { format: citeFormat, numbered: citeNumber });
+  const copyAll = async () => {
+    if (!shownEvs.length) return;
+    const ok = await copyText(listText());
+    setCopied(ok ? `all:ok:${shownEvs.length}` : 'all:fail');
+    if (copyTimer.current) window.clearTimeout(copyTimer.current);
+    copyTimer.current = window.setTimeout(() => setCopied(null), 1800);
+  };
+  const downloadAll = () => {
+    if (!shownEvs.length) return;
+    const blob = new Blob(['\uFEFF' + listText()], { type: 'text/plain;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `chronochina-${year > 0 ? year : `BC${1 - year}`}-citations.txt`;
+    a.click();
+    window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+  };
+  const allLabel = copied?.startsWith('all:ok') ? '已复制' : copied === 'all:fail' ? '复制失败' : '复制全部';
 
   if (compact) return <div className="year-summary">
     <header><h3>{formatYearFull(year)}</h3><span>{ganzhiOf(year)}年 · 年度笺注</span></header>
@@ -176,8 +207,13 @@ export default function YearPanel({ year, selectedEvent, onSelectEvent, onOpenRu
                 <option value="plain">通用</option>
               </select>
             </label>
-            <small>复制引用时使用</small>
+            <label className="ev-number">
+              <input type="checkbox" checked={citeNumber} onChange={(e) => chooseCiteNumber(e.target.checked)}/> 自动序号
+            </label>
+            <button type="button" className="ev-copy" disabled={!shownEvs.length} title={`复制当前筛选的 ${shownEvs.length} 条引用`} onClick={copyAll}>{allLabel}</button>
+            <button type="button" className="ev-copy" disabled={!shownEvs.length} title={`下载当前筛选的 ${shownEvs.length} 条引用`} onClick={downloadAll}>下载 .txt</button>
           </div>
+          <small className="ev-cite-hint">批量导出按当前列表顺序编号</small>
           {evs.length === 0 && <p className="dim">本年尚未收录事件。</p>}
           {evs.length > 0 && shownEvs.length === 0 && <p className="dim">本类暂无纪事，可切换「全部」。</p>}
           <ul ref={eventList}>
@@ -207,7 +243,7 @@ export default function YearPanel({ year, selectedEvent, onSelectEvent, onOpenRu
                   <button type="button" className="ev-copy" onClick={(e) => { e.stopPropagation(); copyEvent(ev, 'link'); }}>{copyLabel(ev, 'link')}</button>
                   <button type="button" className="ev-copy" title={citeFormat === 'gbt7714' ? '按 GB/T 7714 格式复制' : '按通用格式复制'} onClick={(e) => { e.stopPropagation(); copyEvent(ev, 'cite'); }}>{copyLabel(ev, 'cite')}</button>
                 </div>
-                <details><summary>来源、引用与整理状态 · 待条目复核</summary><p className="ev-src">{ev.sources.map(id => { const s = sourceById.get(id); return s?.url ? <a key={id} href={s.url} target="_blank" rel="noreferrer">{s.name} </a> : <span key={id}>{s?.name}</span>; })}</p><p className="dim">参与政权尚待核对；同期存在不等于参与此事件。</p><div className="ev-citation"><span>引用格式 · {citeFormat === 'gbt7714' ? 'GB/T 7714' : '通用'}</span><code>{eventCitation(ev, sources, undefined, citeFormat)}</code></div></details>
+                <details><summary>来源、引用与整理状态 · 待条目复核</summary><p className="ev-src">{ev.sources.map(id => { const s = sourceById.get(id); return s?.url ? <a key={id} href={s.url} target="_blank" rel="noreferrer">{s.name} </a> : <span key={id}>{s?.name}</span>; })}</p><p className="dim">参与政权尚待核对；同期存在不等于参与此事件。</p><div className="ev-citation"><span>引用格式 · {citeFormat === 'gbt7714' ? 'GB/T 7714' : '通用'}{citeNumber ? ` · 第 ${eventNumber(ev)} 条` : ''}</span><code>{eventCitation(ev, sources, { format: citeFormat, number: eventNumber(ev) })}</code></div></details>
               </li>
             ))}
           </ul>
