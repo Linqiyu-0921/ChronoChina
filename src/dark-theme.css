@@ -100,9 +100,8 @@
 .book-timeline .vertical-columns { left:164px; }
 .book-timeline .vertical-tick { left:16px; width:128px; font:18px/22px var(--serif); }
 .book-timeline .date-heading small { display:none; }
-.book-timeline .column-caption { display:block; font:11px var(--sans); color:var(--ink-2); margin-bottom:6px; }
-.book-timeline .vertical-column-title { padding-left:48px; font:24px/1.3 var(--serif); }
-.book-timeline .vertical-column-title small { font:12px var(--sans); }
+.book-timeline .vertical-column-title { padding: 18px 16px 10px 48px; font: 30px/1.18 var(--serif); }
+.book-timeline .vertical-column-title small { font: 12px var(--sans); margin-top: 6px; }
 .book-timeline .era-duration { position:absolute; left:24px; width:8px; background:var(--line); pointer-events:none; }
 .book-timeline .is-current .era-duration { background:#98733e; }
 .book-timeline .era-label { left:48px; right:16px; height:88px; }
@@ -152,6 +151,7 @@
 @media(max-width:650px) {
  .book-timeline .vertical-tick { font-size:16px; line-height:20px; }
  .book-timeline .date-heading { font-size:14px; }
+ .book-timeline .vertical-column-title { padding-left:36px; font-size:24px; }
 }
 
 .book-timeline .vertical-tick.minor-tick { color:var(--ink-2); opacity:.62; }

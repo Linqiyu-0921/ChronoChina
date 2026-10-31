@@ -146,7 +146,7 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
             opacityByEra.set(e.id, opacity);
           }
           return <div className={`vertical-polity ${target?.polityId === p.id ? 'target-polity' : ''}`} key={p.id} data-polity={p.id} data-start={p.startYear}>
-            <button className="vertical-column-title" title={`跳转至${p.name}开朝：${formatYear(p.startYear)}年`} onClick={() => { scrollTo(p.startYear); onNavigateYear(p.startYear); }}><span className="column-caption">政权展签</span><Han text={p.name}/><small>{formatYear(p.startYear)}—{formatYear(p.endYear)}</small></button>
+            <button className="vertical-column-title" title={`跳转至${p.name}开朝：${formatYear(p.startYear)}年`} onClick={() => { scrollTo(p.startYear); onNavigateYear(p.startYear); }}><Han text={p.name}/><small>{formatYear(p.startYear)}—{formatYear(p.endYear)}</small></button>
             <div className="polity-spine" style={{ top: Math.max(82, position(p.startYear)), height: Math.max(0, Math.min(height, position(p.endYear + 1)) - Math.max(82, position(p.startYear))) }} />
             {es.map(e => {
               const start = position(e.startYear), end = position(e.endYear + 1);
