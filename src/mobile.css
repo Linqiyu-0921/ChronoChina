@@ -254,3 +254,5 @@
 
 .mobile-sheet-handle{display:none}
 @media(max-width:650px){.mobile-page-return,.timeline-mobile-years{display:none!important}.mobile-sheet-handle{display:block;flex:0 0 32px;touch-action:none;cursor:ns-resize;position:relative}.mobile-sheet-handle:after{content:"";position:absolute;top:14px;left:calc(50% - 22px);width:44px;height:3px;border-radius:4px;background:var(--gold)}.suijian-paper .suijian-tools{touch-action:pan-y!important}.suijian-body{touch-action:pan-y;-webkit-overflow-scrolling:touch}}
+.mobile-collection-icon{display:none}
+@media(max-width:650px){.collection-head .collection-seal{display:none}.collection-head .mobile-collection-icon{display:block;width:56px;height:56px;object-fit:contain;filter:saturate(.52);flex-shrink:0}}

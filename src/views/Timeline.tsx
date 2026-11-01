@@ -21,6 +21,8 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
   const scroller = useRef<HTMLDivElement>(null);
   const columns = useRef<HTMLDivElement>(null);
   const programmatic = useRef(false);
+  const snapTimer = useRef<number | null>(null);
+  useEffect(() => () => { if (snapTimer.current !== null) clearTimeout(snapTimer.current); }, []);
   const [pixelsPerYear, setPixelsPerYear] = useState(24);
   const [height, setHeight] = useState(560);
   const [width, setWidth] = useState(1000);
@@ -188,7 +190,7 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
           e.preventDefault(); const next = e.key === 'Home' ? MIN : e.key === 'End' ? MAX : bound(center + (e.key.endsWith('Up') ? -1 : 1) * (e.key.startsWith('Page') ? Math.max(1, visibleSpan / 2) : 1));
           scrollTo(next); onNavigateYear(Math.round(next));
         }
-      }} onScroll={e => { if (!programmatic.current) publish(bound(MIN + e.currentTarget.scrollTop / pixelsPerYear)); }}><div style={{ height: (MAX - MIN) * pixelsPerYear + height - 84 }} /></div>
+      }} onScroll={e => { if (programmatic.current) return; publish(bound(MIN + e.currentTarget.scrollTop / pixelsPerYear)); if (matchMedia('(max-width:650px)').matches) { if (snapTimer.current !== null) clearTimeout(snapTimer.current); snapTimer.current = window.setTimeout(() => { const rounded=bound(Math.round(centerRef.current)); scrollTo(rounded); onNavigateYear(rounded); snapTimer.current=null; }, 180); } }}><div style={{ height: (MAX - MIN) * pixelsPerYear + height - 84 }} /></div>
     </div>
     <div className="book-bottom"><span className="book-gesture">{t('tl.gesture')} <span>{t('tl.gestureZoom')}</span></span><span className="interval-note">{t('tl.interval', { n: lanes.length })}</span><div className="lane-navigation"><button aria-label={t('tl.prevGroup')} disabled={lanePage === 0} onClick={() => columns.current?.scrollBy({ left: -columns.current.clientWidth, behavior: 'smooth' })}>‹</button><span>{Math.min(lanePage + 1, lanes.length)} / {lanes.length}</span><button aria-label={t('tl.nextGroup')} disabled={(lanePage + Math.round((width - (window.innerWidth <= 650 ? 88 : 112) - 12) / columnWidth)) >= lanes.length} onClick={() => columns.current?.scrollBy({ left: columns.current.clientWidth, behavior: 'smooth' })}>›</button></div><div className="book-zoom"><button aria-label={t('tl.zoomOut')} onClick={() => setPixelsPerYear(p => Math.max(.25, p / 1.5))}>−</button><button aria-label={t('tl.zoomIn')} onClick={() => setPixelsPerYear(p => Math.min(100, p * 1.5))}>+</button></div></div>
   </section>;
