@@ -37,7 +37,7 @@ export default function MobileNavigation({ year, onPickYear, view, theme, lang, 
       <button className="mobile-brand" onClick={() => setPicking(true)} aria-label="此年，选择年份" aria-haspopup="dialog">{lang === 'en' ? 'ChronoChina' : '此年'}<small>CHRONOCHINA</small></button>
       <button onClick={onSearch} aria-label={t('mb.search')}><NavIcon name="search" /></button>
     </header>
-    {view !== 'reading' && <div className="mobile-page-return"><button onClick={() => onNavigate('reading')}>{t('mb.backReading')}</button><span>{view === 'timeline' ? t('nav.timeline') : view === 'table' ? t('mb.entryTable') : view === 'sites' ? t('mb.entrySites') : t('mb.about')}</span></div>}
+    {view !== 'reading' && view !== 'timeline' && <div className="mobile-page-return"><button onClick={() => onNavigate('reading')}>{t('mb.backReading')}</button><span>{view === 'timeline' ? t('nav.timeline') : view === 'table' ? t('mb.entryTable') : view === 'sites' ? t('mb.entrySites') : t('mb.about')}</span></div>}
     {picking && <MobileYearPicker year={year} onPick={onPickYear} onClose={()=>setPicking(false)}/>}
     {open && <dialog ref={dialog} className="mobile-menu" aria-labelledby="mobile-menu-title" onCancel={e => { e.preventDefault(); setOpen(false); }}>
       <header><span id="mobile-menu-title">{t('mb.menuTitle')}</span><button autoFocus onClick={() => setOpen(false)} aria-label={t('mb.closeMenu')}>×</button></header>

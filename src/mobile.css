@@ -245,3 +245,9 @@
  .book-timeline .mobile-page-return{padding-bottom:0}
  .mobile-year-picker>img{height:88px;min-height:88px;width:88px;flex-shrink:0;object-fit:contain}
 }
+@media(max-width:650px){
+ .book-timeline .year-scroll-surface{left:0;right:auto;width:64px;top:84px;bottom:0;z-index:8;scrollbar-width:none;touch-action:pan-y;overscroll-behavior-y:contain;-webkit-overflow-scrolling:touch;background:transparent}
+ .book-timeline .year-scroll-surface::-webkit-scrollbar{display:none}
+ .book-timeline .year-scroll-surface:focus-visible{outline:1px solid var(--gold);outline-offset:-2px}
+ .book-timeline .pointer-year{pointer-events:none}
+}
