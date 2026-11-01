@@ -107,7 +107,7 @@
   .book-bottom{flex-wrap:wrap;gap:8px;padding:12px 0;justify-content:space-between}
   .book-bottom .book-gesture,.book-bottom .interval-note{display:none}
   .book-bottom button{min-width:44px;min-height:44px}
-  .suijian-paper{position:fixed!important;inset:auto 0 0!important;width:100%!important;height:76dvh!important;max-width:none!important;max-height:85dvh;z-index:40;border-radius:16px 16px 0 0}
+  .suijian-paper{position:fixed!important;inset:auto 0 0!important;width:100%!important;height:76dvh;max-width:none!important;max-height:90dvh;z-index:40;border-radius:16px 16px 0 0}
   .inspector-resize,.suijian-link{display:none}
   .detail-panel{width:100%;max-width:none;max-height:90dvh;inset:auto 0 0;margin:0;padding:24px;border:1px solid var(--rule);border-radius:16px 16px 0 0}
 }
@@ -251,3 +251,6 @@
  .book-timeline .year-scroll-surface:focus-visible{outline:1px solid var(--gold);outline-offset:-2px}
  .book-timeline .pointer-year{pointer-events:none}
 }
+
+.mobile-sheet-handle{display:none}
+@media(max-width:650px){.mobile-page-return,.timeline-mobile-years{display:none!important}.mobile-sheet-handle{display:block;flex:0 0 32px;touch-action:none;cursor:ns-resize;position:relative}.mobile-sheet-handle:after{content:"";position:absolute;top:14px;left:calc(50% - 22px);width:44px;height:3px;border-radius:4px;background:var(--gold)}.suijian-paper .suijian-tools{touch-action:pan-y!important}.suijian-body{touch-action:pan-y;-webkit-overflow-scrolling:touch}}

@@ -11,6 +11,8 @@ export default function YearInspector({ year, anchor, anchorX, onPinChange, onOp
   const [position, setPosition] = useState({ left: 12, top: 80 });
   const [link, setLink] = useState({ x: 0, from: 0, to: 0 });
   const [floating, setFloating] = useState<PanelRect | null>(null);
+  const [sheetHeight,setSheetHeight]=useState(0);
+  const sheetDrag=useRef<{y:number;height:number}|null>(null);
   const [settling, setSettling] = useState(false);
   const gesture = useRef<{ edge: string; x: number; y: number; rect: PanelRect } | null>(null);
   const saved = useRef<{ rect: PanelRect; mode: 'short' | 'long' } | null>(null);
@@ -92,7 +94,8 @@ export default function YearInspector({ year, anchor, anchorX, onPinChange, onOp
       <span aria-hidden="true">◇</span> {t('sj.trigger')} <small>{(eventsByYear.get(year)?.length ?? 0) > 0 ? t('sj.triggerCount', { n: eventsByYear.get(year)!.length }) : t('sj.triggerOpen')}</small>
     </button>}
     {open && mode !== 'pinned' && <svg className="suijian-link" aria-hidden="true"><path d={`M${link.x} ${link.from}V${link.to}`} /></svg>}
-    {open && <section ref={panel} id="year-inspector" aria-label={t('sj.aria', { year: formatYearFull(readingYear) })} className={`suijian-paper suijian-${mode} ${floating ? 'is-positioned' : ''} ${settling ? 'is-settling' : ''}`} style={mode === 'pinned' ? undefined : floating ? { left: floating.x, top: floating.y, width: floating.width, height: floating.height } : position}>
+    {open && <section ref={panel} id="year-inspector" aria-label={t('sj.aria', { year: formatYearFull(readingYear) })} className={`suijian-paper suijian-${mode} ${floating ? 'is-positioned' : ''} ${settling ? 'is-settling' : ''}`} style={sheetHeight && window.innerWidth <= 650 ? { height: `${sheetHeight}dvh` } : mode === 'pinned' ? undefined : floating ? { left: floating.x, top: floating.y, width: floating.width, height: floating.height } : position}>
+      <div className="mobile-sheet-handle" role="slider" aria-label="调整岁笺高度" aria-valuemin={30} aria-valuemax={90} aria-valuenow={sheetHeight || 76} tabIndex={0} onPointerDown={e=>{if(!matchMedia('(max-width:650px)').matches)return;e.currentTarget.setPointerCapture(e.pointerId);sheetDrag.current={y:e.clientY,height:sheetHeight || 76};}} onPointerMove={e=>{if(!sheetDrag.current)return;setSheetHeight(Math.max(30,Math.min(90,sheetDrag.current.height+(sheetDrag.current.y-e.clientY)/window.innerHeight*100)));}} onPointerUp={()=>{sheetDrag.current=null;}} onPointerCancel={()=>{sheetDrag.current=null;}} onKeyDown={e=>{if(e.key==='ArrowUp'||e.key==='ArrowDown'){e.preventDefault();setSheetHeight(h=>Math.max(30,Math.min(90,(h||76)+(e.key==='ArrowUp'?5:-5))));}}} />
       {mode !== 'pinned' && ['n','e','s','w','ne','se','sw','nw'].map(edge => <div key={edge} className={`inspector-resize resize-${edge}`} role="separator" tabIndex={0} aria-label={t('sj.resize', { edge })} onPointerDown={e => {
         if (e.button !== 0 || !panel.current) return;
         e.preventDefault(); e.currentTarget.setPointerCapture(e.pointerId);
