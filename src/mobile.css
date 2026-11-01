@@ -281,3 +281,10 @@
  .collection-page .site-foot{gap:8px}
  .book-timeline .era-label,.book-timeline .era-connector{transition:none}
 }
+@media(max-width:650px){
+ .collection-page .sites-toolbar,.collection-page .et-toolbar{align-items:center}
+ .collection-page .sites-toolbar input,.collection-page .sites-toolbar select,.collection-page .et-toolbar input,.collection-page .et-toolbar select{box-sizing:border-box;height:48px;min-width:0;margin:0}
+ .collection-page .sites-toolbar .dim{grid-column:1/-1;line-height:1.6}
+ .collection-page .et-toolbar .dim{grid-column:1;line-height:1.6}
+ .collection-page .et-toolbar button{grid-column:2;grid-row:3}
+}
