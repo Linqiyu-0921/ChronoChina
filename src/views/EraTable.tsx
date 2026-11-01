@@ -16,7 +16,7 @@ export default function EraTable({onJumpToYear,onOpenRuler}:{onJumpToYear:(year:
 
   const rows: { p: (typeof polities)[number]; e: EraUse }[] = [];
   for (const p of shown) {
-    for (const e of erasByPolity.get(p.id) ?? []) if (`${p.name} ${e.name} ${e.reignIds.map(id => { const r = reignById.get(id); return r ? r.title + r.name : ''; }).join(' ')}`.includes(query.trim())) rows.push({ p, e });
+    for (const e of erasByPolity.get(p.id) ?? []) { const text = `${p.name} ${e.name} ${e.reignIds.map(id => { const r = reignById.get(id); return r ? r.title + r.name : ''; }).join(' ')}`; if (text.includes(query.trim()) || S(text).includes(query.trim())) rows.push({ p, e }); }
   }
 
   const exportCsv = () => {
@@ -55,7 +55,6 @@ export default function EraTable({onJumpToYear,onOpenRuler}:{onJumpToYear:(year:
   return (
     <div className="eratable card">
       <div className="et-toolbar">
-        <input aria-label={t('et.filterAria')} placeholder={t('et.filterPlaceholder')} value={query} onChange={e => setQuery(e.target.value)} />
         <select aria-label={t('et.polityAria')} value={filter} onChange={(e) => setFilter(e.target.value)}>
           <option value="all">{t('et.allPolities')}</option>
           {polities.map((p) => (
@@ -64,6 +63,7 @@ export default function EraTable({onJumpToYear,onOpenRuler}:{onJumpToYear:(year:
             </option>
           ))}
         </select>
+        <input aria-label={t('et.filterAria')} placeholder={t('et.filterPlaceholder')} value={query} onChange={e => setQuery(e.target.value)} />
         <span className="dim">{t('et.count', { n: rows.length })}</span>
         <button className="ghost" onClick={exportCsv}>
           {t('et.export')}

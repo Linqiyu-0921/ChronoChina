@@ -37,7 +37,8 @@ export default function Sites({ onJumpToYear }: Props) {
       if (cat !== 'all' && s.category !== cat) return false;
       if (polity === 'none' && s.polityIds.length > 0) return false;
       if (polity !== 'all' && polity !== 'none' && !s.polityIds.includes(polity)) return false;
-      if (kw && !`${s.name}${s.place}${s.dynasty}${s.note ?? ''}`.includes(kw)) return false;
+      const text = `${s.name}${s.place}${s.dynasty}${s.note ?? ''}`;
+      if (kw && !text.includes(kw) && !S(text).includes(kw)) return false;
       return true;
     });
   }, [cat, polity, q]);

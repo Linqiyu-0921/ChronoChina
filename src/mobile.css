@@ -288,3 +288,15 @@
  .collection-page .et-toolbar .dim{grid-column:1;line-height:1.6}
  .collection-page .et-toolbar button{grid-column:2;grid-row:3}
 }
+@media(max-width:650px){
+ .collection-page .sites-toolbar.card,.collection-page .et-toolbar{padding:22px 0;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .collection-page .et-toolbar select{grid-column:1/-1;grid-row:1}
+ .collection-page .et-toolbar input{grid-column:1/-1;grid-row:2}
+ .collection-page .et-toolbar .dim{grid-column:1;grid-row:3;overflow-wrap:anywhere}
+ .collection-page .et-toolbar button{grid-column:2;grid-row:3}
+ .collection-page .sites-toolbar select:nth-of-type(1){grid-column:1;grid-row:1}
+ .collection-page .sites-toolbar select:nth-of-type(2){grid-column:2;grid-row:1}
+ .collection-page .sites-toolbar input{grid-column:1/-1;grid-row:2}
+ .collection-page .sites-toolbar .dim{grid-column:1/-1;grid-row:3}
+ .collection-page .sites-toolbar input,.collection-page .sites-toolbar select,.collection-page .et-toolbar input,.collection-page .et-toolbar select{font:16px var(--sans);text-overflow:ellipsis}
+}
