@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { memo, useCallback, useEffect, useRef, useState } from 'react';
 import Timeline from './views/Timeline';
 import YearBook from './views/YearBook';
 import SearchPalette from './components/SearchPalette';
@@ -12,6 +12,9 @@ import Sites from './views/Sites';
 import { eraCoverage, meta, sources, persons, events, sites, polities, eras } from './lib/data';
 import { eraDisplayName, formatYear, formatYearFull } from './lib/time';
 import { applyLang, detectLang, ensureLang, getLang, rememberLang, S, t, type Lang, LANGS, LANG_LABEL } from './lib/i18n';
+
+const MemoEraTable = memo(EraTable);
+const MemoSites = memo(Sites);
 
 type View = 'reading' | 'timeline' | 'table' | 'sites' | 'about';
 const readState = () => {
@@ -68,11 +71,11 @@ export default function App() {
     return () => dialog.close();
   }, [detail]);
   const [target, setTarget] = useState<{ polityId?: string; eraId?: string; key: number }>({ key: 0 });
-  const jumpToYear = (y: number, polityId?: string, eraId?: string) => {
+  const jumpToYear = useCallback((y: number, polityId?: string, eraId?: string) => {
     setTarget(t => ({ polityId, eraId, key: t.key + 1 }));
     setSearchOpen(false); setYear(y); setSelectedEvent(null); setView(view === 'timeline' ? 'timeline' : 'reading');
     setDomain([Math.max(eraCoverage.min, y - 25), Math.min(eraCoverage.max, y + 25)]);
-  };
+  }, [view]);
   useEffect(() => {
     const p = new URLSearchParams({ view, year: String(year), from: String(domain[0]), to: String(domain[1]), lang });
     if (q) p.set('q', q);
@@ -137,8 +140,8 @@ export default function App() {
           if (kind === 'era') { const e = eras.find(e => e.id === id)!; setDetail({ title: `${S(polities.find(p => p.id === e.polityId)?.name ?? '')} · ${S(eraDisplayName(e.name))}`, text: t('tl.detailEra', { span: `${formatYearFull(e.startYear)}—${formatYearFull(e.endYear)}`, month: e.startMonth ? t('tl.detailEraMonth', { month: e.startMonth }) : '', note: S(e.note ?? ''), disputed: e.disputed ? t('tl.detailEraDisputed') : '', sources: (e.sources ?? []).map(id => S(sources.find(s => s.id === id)?.name ?? '')).join(t('tl.listSep')) }), year: e.startYear }); }
         }} />
       </>}
-      {<section className="collection-page" hidden={view !== 'table'}><header className="collection-head"><span className="collection-seal">{t('col.tableSeal')}</span><img className="mobile-collection-icon" src="./assets/icons/mobile/01-dynasty.webp" alt=""/><div><p>CHRONOCHINA / CHRONOLOGY</p><h2>{t('col.tableTitle')}</h2><p>{t('col.tableLead')}</p></div><small>{t('col.tableCount', { polities: polities.length, eras: eras.length })}</small></header><EraTable onJumpToYear={jumpToYear} onOpenRuler={setRulerId}/><p className="collection-note">{t('col.tableNote')}</p></section>}
-      {<section className="collection-page" hidden={view !== 'sites'}><header className="collection-head"><span className="collection-seal">{t('col.sitesSeal')}</span><img className="mobile-collection-icon" src="./assets/icons/mobile/07-map.webp" alt=""/><div><p>CHRONOCHINA / HERITAGE</p><h2>{t('col.sitesTitle')}</h2><p>{t('col.sitesLead')}</p></div><small>{t('col.sitesCount', { n: sites.length })}</small></header><Sites onJumpToYear={jumpToYear}/><p className="collection-note">{t('col.sitesNote')}</p></section>}
+      {<section className="collection-page" hidden={view !== 'table'}><header className="collection-head"><span className="collection-seal">{t('col.tableSeal')}</span><img className="mobile-collection-icon" src="./assets/icons/mobile/01-dynasty.webp" alt=""/><div><p>CHRONOCHINA / CHRONOLOGY</p><h2>{t('col.tableTitle')}</h2><p>{t('col.tableLead')}</p></div><small>{t('col.tableCount', { polities: polities.length, eras: eras.length })}</small></header><MemoEraTable key={lang} onJumpToYear={jumpToYear} onOpenRuler={setRulerId}/><p className="collection-note">{t('col.tableNote')}</p></section>}
+      {<section className="collection-page" hidden={view !== 'sites'}><header className="collection-head"><span className="collection-seal">{t('col.sitesSeal')}</span><img className="mobile-collection-icon" src="./assets/icons/mobile/07-map.webp" alt=""/><div><p>CHRONOCHINA / HERITAGE</p><h2>{t('col.sitesTitle')}</h2><p>{t('col.sitesLead')}</p></div><small>{t('col.sitesCount', { n: sites.length })}</small></header><MemoSites key={lang} onJumpToYear={jumpToYear}/><p className="collection-note">{t('col.sitesNote')}</p></section>}
     </main>
     {view !== 'timeline' && view !== 'reading' && <footer className="foot"><span>{t('footer.meta', { version: meta.version })}</span><span>{t('footer.note')}</span><button className="ghost" onClick={openCoverage}>{t('footer.sources')}</button></footer>}
     {rulerId && <RulerDossier reignId={rulerId} onClose={() => setRulerId(null)} onJump={(y) => { jumpToYear(y); setRulerId(null); }} onOpenRuler={setRulerId}/>}
