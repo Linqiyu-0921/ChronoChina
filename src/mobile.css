@@ -300,3 +300,4 @@
  .collection-page .sites-toolbar .dim{grid-column:1/-1;grid-row:3}
  .collection-page .sites-toolbar input,.collection-page .sites-toolbar select,.collection-page .et-toolbar input,.collection-page .et-toolbar select{font:16px var(--sans);text-overflow:ellipsis}
 }
+@media(max-width:650px){.collection-page .et-toolbar .et-multiselect{grid-column:1/-1;grid-row:1}.collection-page .et-multiselect summary{min-height:48px;font-size:16px}.collection-page .et-polity-options input{width:18px;height:18px;min-height:0}}

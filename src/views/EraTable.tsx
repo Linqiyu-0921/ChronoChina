@@ -8,11 +8,11 @@ import { getLang, S, t } from '../lib/i18n';
 import Han from '../components/Han';
 
 export default function EraTable({onJumpToYear,onOpenRuler}:{onJumpToYear:(year:number)=>void;onOpenRuler?:(reignId:string)=>void}) {
-  const [filter, setFilter] = useState<string>('all');
+  const [filter, setFilter] = useState<string[]>([]);
   const [query, setQuery] = useState('');
   const sep = getLang() === 'en' ? '; ' : '；';
   const listSep = getLang() === 'en' ? ', ' : '、';
-  const shown = polities.filter((p) => filter === 'all' || p.id === filter);
+  const shown = polities.filter((p) => filter.length === 0 || filter.includes(p.id));
 
   const rows: { p: (typeof polities)[number]; e: EraUse }[] = [];
   for (const p of shown) {
@@ -55,14 +55,13 @@ export default function EraTable({onJumpToYear,onOpenRuler}:{onJumpToYear:(year:
   return (
     <div className="eratable card">
       <div className="et-toolbar">
-        <select aria-label={t('et.polityAria')} value={filter} onChange={(e) => setFilter(e.target.value)}>
-          <option value="all">{t('et.allPolities')}</option>
-          {polities.map((p) => (
-            <option key={p.id} value={p.id}>
-              {p.name}
-            </option>
-          ))}
-        </select>
+        <details className="et-multiselect">
+          <summary aria-label={t('et.polityAria')}>{filter.length ? t('et.selectedPolities', { n: filter.length }) : t('et.allPolities')}</summary>
+          <div className="et-multiselect-menu">
+            <button type="button" onClick={() => setFilter([])}>{t('et.clearPolities')}</button>
+            <div className="et-polity-options">{polities.map(p => <label key={p.id}><input type="checkbox" checked={filter.includes(p.id)} onChange={() => setFilter(current => current.includes(p.id) ? current.filter(id => id !== p.id) : [...current, p.id])}/><span>{S(p.name)}<small>{formatYear(p.startYear)}—{formatYear(p.endYear)}</small></span></label>)}</div>
+          </div>
+        </details>
         <input aria-label={t('et.filterAria')} placeholder={t('et.filterPlaceholder')} value={query} onChange={e => setQuery(e.target.value)} />
         <span className="dim">{t('et.count', { n: rows.length })}</span>
         <button className="ghost" onClick={exportCsv}>
