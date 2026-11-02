@@ -33,7 +33,7 @@
 
 @font-face {
  font-family: "Cinian Songke";
- src: url("/fonts/songke-simplified.ttf") format("truetype");
+ src: url("../public/fonts/songke-simplified.ttf") format("truetype");
  font-display: swap;
 }
 :root, :root[data-theme="light"], :root[data-theme="dark"] {
@@ -62,7 +62,7 @@
 
 @font-face {
  font-family: "Cinian Songke Traditional";
- src: url("/fonts/songke-traditional.ttf") format("truetype");
+ src: url("../public/fonts/songke-traditional.ttf") format("truetype");
  font-display: swap;
 }
 :root, :root[data-theme="light"], :root[data-theme="dark"] {

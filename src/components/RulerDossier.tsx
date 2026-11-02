@@ -56,7 +56,7 @@ export default function RulerDossier({ reignId, onClose, onJump, onOpenRuler }: 
   const years = reign.endYear - reign.startYear + 1;
 
   return (
-    <dialog ref={dialog} className="ruler-dossier" aria-labelledby="ruler-name" onCancel={(e) => { e.preventDefault(); onClose(); }}>
+    <dialog ref={dialog} className="ruler-dossier" aria-labelledby="ruler-name" onCancel={(e) => { e.preventDefault(); onClose(); }} onClick={e => { if (e.target !== e.currentTarget) return; const r = e.currentTarget.getBoundingClientRect(); if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) onClose(); }}>
       <header className="rd-head">
         <div>
           <p className="rd-eyebrow">{t('rd.eyebrow')}</p>

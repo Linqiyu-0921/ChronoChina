@@ -15,7 +15,7 @@ export const eventPath = (ev: Pick<HistEvent, 'id' | 'year'>) =>
   `/?year=${ev.year}&event=${encodeURIComponent(ev.id)}`;
 
 export function eventPermalink(ev: Pick<HistEvent, 'id' | 'year'>, origin?: string): string {
-  const base = origin ?? (typeof location !== 'undefined' ? location.origin : CITATION_ORIGIN);
+  const base = origin ?? (typeof location !== 'undefined' ? `${location.origin}${location.pathname.replace(/\/$/, '')}` : CITATION_ORIGIN);
   return `${base}${eventPath(ev)}`;
 }
 
