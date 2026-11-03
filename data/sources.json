@@ -29,7 +29,7 @@
   "url": "",
   "license": "本站整理",
   "short": "编者整理",
-  "note": "大理年号、西辽开国纪年等学界有异说的条目，本站采用通说并标注异说；正式发布前需对照专门研究逐条复核。"
+  "note": "编者整理的条目可能存在异说；尚未逐条对照专门研究，不代表通说或已完成复核。"
  },
  {
   "id": "S5",
@@ -134,5 +134,109 @@
   "license": "公有领域古籍（元·脱脱等撰）",
   "short": "辽史",
   "note": "契丹建国前部族联盟世系据《辽史·世表》《部族表》及《新唐书·契丹传》整理。"
+ },
+ {
+  "id": "S18",
+  "name": "《宋史》卷二十三·钦宗本纪",
+  "url": "https://zh.wikisource.org/zh-hans/宋史/卷023",
+  "license": "公有领域古籍",
+  "short": "宋史·钦宗纪",
+  "note": "按原记载月份引用；不自动换算公历。"
+ },
+ {
+  "id": "S19",
+  "name": "《靖康纪闻》附注",
+  "url": "https://zh.wikisource.org/wiki/靖康紀聞/00",
+  "license": "公有领域古籍及编者校注",
+  "short": "靖康纪闻",
+  "note": "城破的靖康元年闰十一月二十五日，附注换算为西历1127年1月9日；所引西历口径待进一步核对。"
+ },
+ {
+  "id": "S20",
+  "name": "《宋朝事实》卷二",
+  "url": "https://zh.wikisource.org/wiki/宋朝事實/卷02",
+  "license": "公有领域古籍",
+  "short": "宋朝事实",
+  "note": "记靖康二年五月朔即位改元。"
+ },
+ {
+  "id": "S21",
+  "name": "《宋史》卷三百六十·宗泽传",
+  "url": "https://zh.wikisource.org/zh-hans/宋史/卷360",
+  "license": "公有领域古籍",
+  "short": "宋史·宗泽传",
+  "note": "记宗泽临终语及后续人事。"
+ },
+ {
+  "id": "S22",
+  "name": "《宋史》卷二百十三·宰辅表",
+  "url": "https://zh.wikisource.org/zh-hans/宋史/卷213",
+  "license": "公有领域古籍",
+  "short": "宋史·宰辅表",
+  "note": "记建炎元年李纲任命。"
+ },
+ {
+  "id": "S23",
+  "name": "《宋史纪事本末》卷六十一",
+  "url": "https://zh.wikisource.org/zh-hans/宋史紀事本末/卷61",
+  "license": "公有领域古籍",
+  "short": "宋史纪事本末",
+  "note": "记建炎元年宗泽任东京留守。"
+ },
+ {
+  "id": "S24",
+  "name": "《宋史》卷二十五·高宗本纪",
+  "url": "https://zh.wikisource.org/zh-hant/宋史/卷025",
+  "license": "公有领域古籍",
+  "short": "宋史·高宗纪",
+  "note": "记建炎二年宗泽卒等事；原记载月份为农历。"
+ },
+ {
+  "id": "S25",
+  "name": "《中国历代年号索引表》",
+  "url": "https://agri-history.ihns.ac.cn/history/historic%20table.htm",
+  "license": "资料索引",
+  "short": "中科院年号索引",
+  "note": "提供年号起讫对照；条目年份及月日仍需复核。"
+ },
+ {
+  "id": "S26",
+  "name": "《中国边政》181期年号附表",
+  "url": "https://acbas.org.tw/admin/files/%E4%B8%AD%E5%9C%8B%E9%82%8A%E6%94%BF181.pdf",
+  "license": "研究论文",
+  "short": "中国边政年号附表",
+  "note": "附表列西夏元德1119—1127与正德1127—1134。"
+ },
+ {
+  "id": "S27",
+  "name": "苏州市地方志：范成大",
+  "url": "https://dfzb.suzhou.gov.cn/dfzb/szdq/202106/a25ed5a76da74e52bc008daaba46cb25.shtml",
+  "license": "地方志资料",
+  "short": "苏州地方志",
+  "note": "列范成大1126—1193。"
+ },
+ {
+  "id": "S28",
+  "name": "《南诏野史》（胡蔚本）",
+  "url": "https://zh.wikisource.org/zh-hant/南詔野史_(胡蔚本)",
+  "license": "公有领域古籍",
+  "short": "南诏野史",
+  "note": "记段和誉所用年号，具体起讫须另证。"
+ },
+ {
+  "id": "S29",
+  "name": "《宋史》卷三十三·孝宗本纪",
+  "url": "https://zh.wikisource.org/zh/宋史/卷033",
+  "license": "公有领域古籍",
+  "short": "宋史·孝宗纪",
+  "note": "记赵昚生于建炎元年十月；西历日期需另核。"
+ },
+ {
+  "id": "S30",
+  "name": "《大金吊伐录》卷四",
+  "url": "https://zh.wikisource.org/zh-hans/大金弔伐錄/卷04",
+  "license": "公有领域古籍",
+  "short": "大金吊伐录",
+  "note": "记二帝降封诏书；礼仪及具体地点另需核验。"
  }
 ]

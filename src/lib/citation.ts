@@ -2,7 +2,7 @@ import type { HistEvent, Source } from './data';
 import { formatYearFull, ganzhiOf } from './time';
 import { getLang, t } from './i18n';
 
-export const CITATION_ORIGIN = 'https://cinian.laneqiyu.cn';
+export const CITATION_ORIGIN = 'https://laneqiyu.cn/Cinian-ChronoChina';
 
 export type CitationFormat = 'plain' | 'gbt7714';
 

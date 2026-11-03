@@ -24,7 +24,7 @@
 
 ## 在线预览
 
-**<https://cinian.laneqiyu.cn>** —— 由 Cloudflare Pages 托管（备用地址 <https://chronochina.pages.dev>）。构建产物为纯静态，`base: './'` 也适配任意子路径，打开即用。
+**<https://laneqiyu.cn/Cinian-ChronoChina/>** —— 由 Cloudflare Pages 托管。构建产物为纯静态，`base: './'` 也适配任意子路径，打开即用。
 
 ## 怎么用
 

@@ -91,6 +91,10 @@ assert.ok(plainList.includes('\n\n[2] “皮逻阁统一六诏'));
 assert.ok(!events.some(e => ['w-1127-02', 'w-1127-03'].includes(e.id)));
 assert.ok(events.some(e => e.id === 'ev-1127-01'));
 assert.ok(events.some(e => e.id === 'ev-1127-03'));
+assert.equal(events.find(e => e.id === 'ev-1126-02')?.year, 1127);
+assert.deepEqual(events.find(e => e.id === 'w-1127-01')?.polityIds, ['song', 'jin']);
+for (const id of ['w-1126-01', 'w-1126-02']) assert.deepEqual(events.find(e => e.id === id)?.polityIds, []);
+
 assert.ok(eras.every(e => e.sources?.length));
 assert.ok(events.every(e => e.sources?.length));
 console.log('通过：日期边界、无零年、纪年越界、同名年号、干支候选、事件合并、来源必填。');

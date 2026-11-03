@@ -29,7 +29,7 @@ export function normalizeLang(tag: string | null | undefined): Lang | null {
   return null;
 }
 
-/** ?lang= 优先，其次本地记忆，最后跟随浏览器；非中文浏览器落到英文 */
+/** ?lang= 优先，其次本地记忆，默认繁体中文 */
 export function detectLang(): Lang {
   if (typeof location !== 'undefined') {
     const fromUrl = normalizeLang(new URLSearchParams(location.search).get('lang'));
@@ -39,8 +39,7 @@ export function detectLang(): Lang {
     const saved = normalizeLang(localStorage.getItem(STORAGE_KEY));
     if (saved) return saved;
   } catch {}
-  if (typeof navigator !== 'undefined') return normalizeLang(navigator.language) ?? 'en';
-  return 'zh-Hans';
+  return 'zh-Hant';
 }
 
 export function rememberLang(lang: Lang) {

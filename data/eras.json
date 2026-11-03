@@ -13300,13 +13300,14 @@
    "xia-chongzong"
   ],
   "startYear": 1119,
-  "endYear": 1126,
+  "endYear": 1127,
   "disputed": true,
-  "note": "一说起于 1120。",
+  "note": "起年有1119、1120两种记载，结束年份亦有异说。",
   "sources": [
-   "S2",
-   "S4"
-  ]
+   "S25",
+   "S26"
+  ],
+  "endNote": "止年有异说：年号索引表列至1126，《中国边政》181期附表列至1127；与正德同年并列，不代表全年并用。"
  },
  {
   "id": "dali-yongjia",
@@ -13319,9 +13320,11 @@
   "endYear": 1127,
   "precision": "approx",
   "sources": [
-   "S2",
+   "S28",
    "S4"
-  ]
+  ],
+  "disputed": true,
+  "note": "《南诏野史》记段和誉使用此年号，但未给出具体起讫；现列区间为约年，不同资料另有不同起讫，待核。"
  },
  {
   "id": "liao-baoda",
@@ -13431,9 +13434,11 @@
   "endYear": 1137,
   "precision": "approx",
   "sources": [
-   "S2",
+   "S28",
    "S4"
-  ]
+  ],
+  "disputed": true,
+  "note": "《南诏野史》记段和誉使用此年号，但未给出具体起讫；现列区间为约年，不同资料另有不同起讫，待核。"
  },
  {
   "id": "song-shaoxing",

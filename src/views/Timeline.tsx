@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { eraRowsAtYear, eraCoverage, polities, erasByPolity, reignById } from '../lib/data';
 import YearInspector from '../components/YearInspector';
+import PolityComparison from '../components/PolityComparison';
 import { eraDisplayName, eraYearDisplay, ganzhiOf, formatYear, reignLabel } from '../lib/time';
 import { orderBySouthToNorth } from '../lib/geography';
 import { getLang, S, t } from '../lib/i18n';
@@ -16,6 +17,7 @@ interface Props {
 const MIN = eraCoverage.min, MAX = eraCoverage.max;
 const bound = (y: number) => Math.max(MIN, Math.min(MAX, y));
 export default function Timeline({ target, domain, year, onNavigateYear, onOpenRecord }: Props) {
+  const [comparing, setComparing] = useState(false);
   const [inspectorPinned, setInspectorPinned] = useState(false);
   const viewport = useRef<HTMLDivElement>(null);
   const scroller = useRef<HTMLDivElement>(null);
@@ -118,7 +120,7 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
     } else setYearError(t('tl.inputError'));
   };
   return <section className={`vertical-atlas ${inspectorPinned ? 'has-sidepage' : ''}`} aria-label={t('tl.aria')}>
-    <div ref={viewport} className="vertical-viewport">
+    <div ref={viewport} className="vertical-viewport"><button className="compare-entry" onClick={() => setComparing(true)} disabled={lanes.length < 2}>{getLang() === 'en' ? 'Compare' : S('政权对照')}</button>
       <div className="vertical-date-lane" aria-hidden="true"><span className="date-heading">{t('tl.yearHead')}<small>{t('tl.yearUnit')}</small></span>{ticks.filter(y => position(y) > 84 && Math.abs(position(y) - pointerOffset) > 30).map(y => <div key={y} className={`vertical-tick ${(y > 0 ? y : 1 - y) % 5 === 0 ? 'major-tick' : 'minor-tick'}`} style={{ top: position(y) }}>{formatYear(y)}</div>)}</div>
       <div ref={columns} onScroll={e => setLanePage(Math.round(e.currentTarget.scrollLeft / columnWidth))} className="vertical-columns" tabIndex={0} aria-label={t('tl.columnsAria')} style={{ gridTemplateColumns: `repeat(${Math.max(1, lanes.length)}, ${columnWidth}px)` }}>
         {lanes.map(p => {
@@ -194,6 +196,7 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
         }
       }} onScroll={e => { if (programmatic.current) return; publish(bound(MIN + e.currentTarget.scrollTop / pixelsPerYear)); if (matchMedia('(max-width:650px)').matches) { if (snapTimer.current !== null) clearTimeout(snapTimer.current); snapTimer.current = window.setTimeout(() => { if (!touchingAxis.current) { const rounded=bound(Math.round(centerRef.current)); scrollTo(rounded); onNavigateYear(rounded); } snapTimer.current=null; }, 350); } }}><div style={{ height: (MAX - MIN) * pixelsPerYear + height - 84 }} /></div>
     </div>
+    {comparing && <PolityComparison year={selectedYear} polities={lanes} onClose={() => setComparing(false)} />}
     <div className="book-bottom"><span className="book-gesture">{t('tl.gesture')} <span>{t('tl.gestureZoom')}</span></span><span className="interval-note">{t('tl.interval', { n: lanes.length })}</span><div className="lane-navigation"><button aria-label={t('tl.prevGroup')} disabled={lanePage === 0} onClick={() => columns.current?.scrollBy({ left: -columns.current.clientWidth, behavior: 'smooth' })}>‹</button><span>{Math.min(lanePage + 1, lanes.length)} / {lanes.length}</span><button aria-label={t('tl.nextGroup')} disabled={(lanePage + Math.round((width - (window.innerWidth <= 650 ? 88 : 112) - 12) / columnWidth)) >= lanes.length} onClick={() => columns.current?.scrollBy({ left: columns.current.clientWidth, behavior: 'smooth' })}>›</button></div><div className="book-zoom"><button aria-label={t('tl.zoomOut')} onClick={() => setPixelsPerYear(p => Math.max(.25, p / 1.5))}>−</button><button aria-label={t('tl.zoomIn')} onClick={() => setPixelsPerYear(p => Math.min(100, p * 1.5))}>+</button></div></div>
   </section>;
 }

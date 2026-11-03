@@ -890,3 +890,28 @@ h2 { font-size: 30px; }
 html[lang="en"] { --serif: Georgia, "Times New Roman", "Noto Serif SC", "Songti SC", serif; }
 html[lang="en"] .brand h1 { letter-spacing: .06em; }
 html[lang="en"] body { letter-spacing: .01em; }
+
+.polity-comparison { width:min(960px,calc(100vw - 32px)); max-height:calc(100dvh - 32px); overflow:auto; padding:24px; background:var(--bg); color:var(--ink); border:1px solid var(--line); font-family:var(--serif); }
+.polity-comparison::backdrop { background:#171c1c70; backdrop-filter:blur(3px); }
+.polity-comparison header { display:flex; justify-content:space-between; align-items:flex-start; gap:16px; }
+.polity-comparison header small,.compare-hint,.compare-note { color:var(--ink-2); font:12px/1.6 var(--sans); }
+.polity-comparison h2 { margin:8px 0 16px; font-size:25px; font-weight:400; }
+.polity-comparison header button { border:0; background:none; color:var(--ink); font-size:26px; }
+.compare-options { display:flex; gap:8px; flex-wrap:wrap; margin:12px 0 20px; }
+.compare-options label { border:1px solid var(--line); padding:7px 10px; display:flex; gap:6px; align-items:center; }
+.compare-options input { accent-color:var(--accent); }
+.compare-start { border:1px solid var(--line-strong); background:var(--bg-subtle); color:var(--ink); padding:8px 14px; }
+.compare-start:disabled { opacity:.45; }
+.compare-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); border-top:1px solid var(--line); }
+.compare-grid article { min-width:0; padding:12px 16px 12px 0; }
+.compare-grid h3 { margin:0 0 18px; font-size:21px; font-weight:400; }
+.compare-grid h4 { margin:16px 0 8px; color:var(--ink-2); font:12px var(--sans); }
+.compare-grid p,.compare-grid li { font:13px/1.7 var(--sans); margin:4px 0; }
+.compare-grid ul { padding-left:18px; }
+.compare-era strong { font-size:17px; font-weight:400; }
+.compare-entry { position:absolute; right:12px; top:8px; z-index:12; padding:6px 10px; background:var(--bg); border:1px solid var(--line); color:var(--ink-2); font:12px var(--sans); white-space:nowrap; }
+.compare-entry:disabled { opacity:.45; }
+@media(max-width:650px) { .polity-comparison { padding:18px; } .compare-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .compare-grid article { padding-right:10px; } }
+
+.compare-era details { color:var(--ink-2); font:12px/1.6 var(--sans); }
+.compare-era details a,.compare-era details span { display:block; overflow-wrap:anywhere; }

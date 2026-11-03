@@ -40,7 +40,7 @@ export default function App() {
     ensureLang(next).then(() => { applyLang(next); setLang(next); });
   };
   const [theme, setTheme] = useState<'light' | 'dark'>(() => document.documentElement.dataset.theme === 'light' ? 'light' : 'dark');
-  const [automaticTheme, setAutomaticTheme] = useState(() => { try { return !localStorage.getItem('chronochina-original-theme'); } catch { return true; } });
+  const [automaticTheme, setAutomaticTheme] = useState(false);
   useEffect(() => { document.documentElement.dataset.theme = theme; }, [theme]);
   useEffect(() => {
     if (!automaticTheme) return;

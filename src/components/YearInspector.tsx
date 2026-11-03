@@ -3,7 +3,7 @@ import { fitPanel, resizePanel, type PanelRect } from '../lib/panelGeometry';
 import YearPanel from './YearPanel';
 import { eraRowsAtYear, eventsByYear } from '../lib/data';
 import { eraDisplayName, eraYearDisplay, formatYearFull, ganzhiOf } from '../lib/time';
-import { getLang, S, t } from '../lib/i18n';
+import { S, t } from '../lib/i18n';
 
 interface Props { year: number; anchor: number; height: number; width: number; anchorX: number; onPinChange: (pinned: boolean) => void; onOpenRuler?: (reignId: string) => void; }
 export default function YearInspector({ year, anchor, anchorX, onPinChange, onOpenRuler }: Props) {
@@ -111,7 +111,7 @@ export default function YearInspector({ year, anchor, anchorX, onPinChange, onOp
         <button ref={closeButton} aria-label={t('sj.close')} title={t('sj.close')} onClick={close}><svg width="16" height="16" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.3" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button>
       </div></header>
       <div className="suijian-body">
-        {mode === 'short' ? <><h2>{formatYearFull(readingYear)}</h2><p className="suijian-subtitle">{t('sj.subtitle', { ganzhi: getLang() === 'en' ? ganzhiOf(readingYear) : `${ganzhiOf(readingYear)}年`, n: new Set(rows.map(r => r.polity.id)).size })}</p>
+        {mode === 'short' ? <><h2>{formatYearFull(readingYear)}</h2><p className="suijian-subtitle">{t('sj.subtitle', { ganzhi: ganzhiOf(readingYear), n: new Set(rows.map(r => r.polity.id)).size })}</p>
           <div className="suijian-eras">{rows.slice(0, 4).map(row => <p key={row.era.id}><span>{S(row.polity.name)}</span><strong>{S(eraDisplayName(row.era.name))}{eraYearDisplay(eraDisplayName(row.era.name), row.era.reignIds.length, row.eraYearNo)}</strong></p>)}{!rows.length && <p>{t('sj.pending')}</p>}{rows.length > 4 && <small>{t('sj.more', { n: rows.length - 4 })}</small>}</div>
           <div className="suijian-excerpt"><h3>{t('sj.story')}</h3>{story ? <><p>{S(story.title)}</p>{storyBody && <p>{S(storyBody)}</p>}</> : <p>{t('sj.noStory')}</p>}</div>
         </> : <YearPanel year={readingYear} onOpenRuler={onOpenRuler}/>}

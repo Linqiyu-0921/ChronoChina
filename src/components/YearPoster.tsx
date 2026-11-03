@@ -38,7 +38,7 @@ export default function YearPoster({year,onClose}:{year:number;onClose:()=>void}
    rows.forEach((r,i)=>{const y=940+i*120;ctx.fillStyle=goldColor;ctx.font='26px serif';ctx.fillText(S(r.polity.name),120,y);ctx.fillStyle=ink;ctx.font='34px serif';const label=`${S(eraDisplayName(r.era.name))} · ${eraYearLabel(r.eraYearNo)}`;let size=34;while(ctx.measureText(label).width>580&&size>18){ctx.font=`${--size}px serif`;}ctx.fillText(label,370,y);ctx.fillStyle=muted;ctx.font='21px serif';ctx.fillText(`${formatYear(r.era.startYear)}—${formatYear(r.era.endYear)}${r.era.disputed?` · ${t('tl.disputed')}`:r.era.precision==='approx'?` · ${t('tl.approx')}`:''}`,370,y+36);});
    if(!rows.length){ctx.textAlign='center';ctx.fillStyle='#c4b595';ctx.font='30px serif';ctx.fillText(t('po.empty'),540,980);}
    ctx.textAlign='center';ctx.fillStyle=muted;ctx.font='22px serif';ctx.fillText(t('po.note1'),540,height-200);ctx.fillText(t('po.note2'),540,height-155);
-   ctx.fillStyle=goldColor;ctx.font='26px Georgia';ctx.fillText('cinian.laneqiyu.cn',540,height-95);
+   ctx.fillStyle=goldColor;ctx.font='26px Georgia';ctx.fillText('laneqiyu.cn/Cinian-ChronoChina/',540,height-95);
    const result=await new Promise<Blob>((resolve,reject)=>canvas.toBlob(b=>b?resolve(b):reject(new Error(t('po.imageFail'))),'image/png'));
    if(disposed)return;blob.current=result;objectUrl=URL.createObjectURL(result);setUrl(objectUrl);
   };
