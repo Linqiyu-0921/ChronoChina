@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { eraRowsAtYear, eraCoverage, polities, erasByPolity, reignById } from '../lib/data';
 import YearInspector from '../components/YearInspector';
 import PolityComparison from '../components/PolityComparison';
+import YearComparison from '../components/YearComparison';
 import { eraDisplayName, eraYearDisplay, ganzhiOf, formatYear, reignLabel } from '../lib/time';
 import { orderBySouthToNorth } from '../lib/geography';
 import { getLang, S, t } from '../lib/i18n';
@@ -9,6 +10,10 @@ import Han from '../components/Han';
 
 interface Props {
   target?: { polityId?: string; eraId?: string; key: number };
+  comparison: string[];
+  onComparison: (ids: string[]) => void;
+  invalidComparison: boolean;
+  onDismissInvalid: () => void;
   domain: [number, number];
   year: number | null;
   onNavigateYear: (year: number) => void;
@@ -16,8 +21,9 @@ interface Props {
 }
 const MIN = eraCoverage.min, MAX = eraCoverage.max;
 const bound = (y: number) => Math.max(MIN, Math.min(MAX, y));
-export default function Timeline({ target, domain, year, onNavigateYear, onOpenRecord }: Props) {
+export default function Timeline({ target, comparison, onComparison, invalidComparison, onDismissInvalid, domain, year, onNavigateYear, onOpenRecord }: Props) {
   const [comparing, setComparing] = useState(false);
+  const [yearComparison, setYearComparison] = useState(false);
   const [inspectorPinned, setInspectorPinned] = useState(false);
   const viewport = useRef<HTMLDivElement>(null);
   const scroller = useRef<HTMLDivElement>(null);
@@ -43,12 +49,13 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
   const [yearError, setYearError] = useState('');
   const yearInput = useRef<HTMLInputElement>(null);
   useEffect(() => { if (editingYear) yearInput.current?.select(); }, [editingYear]);
-  const lanes = useMemo(() => orderBySouthToNorth(polities.filter(p => p.startYear <= Math.round(center) && p.endYear >= Math.round(center))), [Math.round(center)]);
+  const lanes = useMemo(() => orderBySouthToNorth(polities.filter(p => comparison.length ? comparison.includes(p.id) : p.startYear <= Math.round(center) && p.endYear >= Math.round(center))), [Math.round(center), comparison]);
   const top = center - pointerOffset / pixelsPerYear;
   const position = (y: number) => (y - top) * pixelsPerYear;
   const scrollTo = (y: number) => {
     const next = bound(y);
     centerRef.current = next;
+    lastPublishedYear.current = Math.round(next);
     setCenter(next); setInput(formatYear(Math.round(next)));
     if (scroller.current) {
       programmatic.current = true;
@@ -131,8 +138,10 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
     } else setYearError(t('tl.inputError'));
   };
   return <section className={`vertical-atlas ${inspectorPinned ? 'has-sidepage' : ''}`} aria-label={t('tl.aria')}>
-    <div ref={viewport} className="vertical-viewport"><button className="compare-entry" onClick={() => setComparing(true)} disabled={lanes.length < 2}>{getLang() === 'en' ? 'Compare' : S('政权对照')}</button>
+    <div ref={viewport} className="vertical-viewport"><button className="compare-entry" onClick={() => setComparing(true)} >{getLang() === 'en' ? 'Compare' : S('政权对照')}</button>
       <div className="vertical-date-lane" aria-hidden="true"><span className="date-heading">{t('tl.yearHead')}<small>{t('tl.yearUnit')}</small></span>{ticks.filter(y => position(y) > 84 && Math.abs(position(y) - pointerOffset) > 30).map(y => <div key={y} className={`vertical-tick ${(y > 0 ? y : 1 - y) % 5 === 0 ? 'major-tick' : 'minor-tick'}`} style={{ top: position(y) }}>{formatYear(y)}</div>)}</div>
+      {invalidComparison && <div className="comparison-notice" role="status">{S('部分政权标识无效，已忽略。')} <button onClick={onDismissInvalid}>×</button></div>}
+      {comparison.length > 0 && target?.polityId && !comparison.includes(target.polityId) && <div className="comparison-notice" style={{ top: invalidComparison ? 90 : 48 }} role="status">{S('搜索目标不在当前对照中。')} <button onClick={() => onComparison([...comparison, target.polityId!])}>{S('加入对照')}</button></div>}
       <div ref={columns} onScroll={e => setLanePage(Math.round(e.currentTarget.scrollLeft / columnWidth))} className="vertical-columns" tabIndex={0} aria-label={t('tl.columnsAria')} style={{ gridTemplateColumns: `repeat(${Math.max(1, lanes.length)}, ${columnWidth}px)` }}>
         {lanes.map(p => {
           const es = (erasByPolity.get(p.id) ?? []).filter(e => e.startYear <= top + visibleSpan + 140 / pixelsPerYear && e.endYear >= top - 140 / pixelsPerYear);
@@ -191,7 +200,7 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
                 </>}
               </div>;
             })}
-            {rows.length === 0 && <div className="missing-era" style={{ top: pointerOffset + 16 }}><span>{t('tl.eraMissing')}</span>{nearestEra && <button onClick={() => { const destination = selectedYear < nearestEra.startYear ? nearestEra.startYear : nearestEra.endYear; scrollTo(destination); onNavigateYear(destination); }}>{t('tl.nearest', { era: S(nearestEra.name) })}<small>{formatYear(nearestEra.startYear)}—{formatYear(nearestEra.endYear)} ↗</small></button>}</div>}
+            {rows.length === 0 && <div className="missing-era" style={{ top: pointerOffset + 16 }}><span>{selectedYear < p.startYear || selectedYear > p.endYear ? S('此年未存续') : t('tl.eraMissing')}</span>{selectedYear >= p.startYear && selectedYear <= p.endYear && nearestEra && <button onClick={() => { const destination = selectedYear < nearestEra.startYear ? nearestEra.startYear : nearestEra.endYear; scrollTo(destination); onNavigateYear(destination); }}>{t('tl.nearest', { era: S(nearestEra.name) })}<small>{formatYear(nearestEra.startYear)}—{formatYear(nearestEra.endYear)} ↗</small></button>}</div>}
           </div>;
         })}
         {lanes.length === 0 && <p className="empty-period">{t('tl.emptyYear')}</p>}
@@ -207,7 +216,8 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
         }
       }} onScroll={e => { if (programmatic.current) return; publish(bound(MIN + e.currentTarget.scrollTop / pixelsPerYear)); scheduleSnap(); }}><div style={{ height: (MAX - MIN) * pixelsPerYear + height - 84 }} /></div>
     </div>
-    {comparing && <PolityComparison year={selectedYear} polities={lanes} onClose={() => setComparing(false)} />}
+    {comparing && <PolityComparison year={selectedYear} polities={polities} selected={comparison} onApply={onComparison} onDetails={() => { setComparing(false); setYearComparison(true); }} onClose={() => setComparing(false)} />}
+    {yearComparison && <YearComparison year={selectedYear} polities={orderBySouthToNorth(polities.filter(p => p.startYear <= selectedYear && p.endYear >= selectedYear))} onClose={() => setYearComparison(false)} />}
     <div className="book-bottom"><span className="book-gesture">{t('tl.gesture')} <span>{t('tl.gestureZoom')}</span></span><span className="interval-note">{t('tl.interval', { n: lanes.length })}</span><div className="lane-navigation"><button aria-label={t('tl.prevGroup')} disabled={lanePage === 0} onClick={() => columns.current?.scrollBy({ left: -columns.current.clientWidth, behavior: 'smooth' })}>‹</button><span>{Math.min(lanePage + 1, lanes.length)} / {lanes.length}</span><button aria-label={t('tl.nextGroup')} disabled={(lanePage + Math.round((width - (window.innerWidth <= 650 ? 88 : 112) - 12) / columnWidth)) >= lanes.length} onClick={() => columns.current?.scrollBy({ left: columns.current.clientWidth, behavior: 'smooth' })}>›</button></div><div className="book-zoom"><button aria-label={t('tl.zoomOut')} onClick={() => setPixelsPerYear(p => Math.max(.25, p / 1.5))}>−</button><button aria-label={t('tl.zoomIn')} onClick={() => setPixelsPerYear(p => Math.min(100, p * 1.5))}>+</button></div></div>
   </section>;
 }

@@ -27,7 +27,9 @@ const readState = () => {
   const requestedEvent = p.get('event') || hashEvent;
   const linkedEvent = requestedEvent ? events.find((ev) => ev.id === requestedEvent) : undefined;
   const year = linkedEvent ? linkedEvent.year : Math.max(eraCoverage.min, Math.min(eraCoverage.max, Math.round(valid('year', 1127))));
-  return { view: (['reading', 'timeline', 'table', 'sites', 'about'].includes(raw ?? '') ? raw : 'reading') as View, year, domain: (end - start >= 3 ? [start, end] : [eraCoverage.min, eraCoverage.max]) as [number, number], q: p.get('q') ?? '', event: linkedEvent?.id ?? null, lang: detectLang() };
+  const requestedPolities = p.get('compare')?.split(',').filter(Boolean) ?? [];
+  const comparison = [...new Set(requestedPolities.filter(id => polities.some(polity => polity.id === id)))];
+  return { comparison, invalidComparison: requestedPolities.length !== comparison.length, view: (['reading', 'timeline', 'table', 'sites', 'about'].includes(raw ?? '') ? raw : 'reading') as View, year, domain: (end - start >= 3 ? [start, end] : [eraCoverage.min, eraCoverage.max]) as [number, number], q: p.get('q') ?? '', event: linkedEvent?.id ?? null, lang: detectLang() };
 };
 
 export default function App() {
@@ -70,6 +72,8 @@ export default function App() {
     dialog.showModal();
     return () => dialog.close();
   }, [detail]);
+  const [comparison, setComparison] = useState<string[]>(initial.comparison);
+  const [invalidComparison, setInvalidComparison] = useState(initial.invalidComparison);
   const [target, setTarget] = useState<{ polityId?: string; eraId?: string; key: number }>({ key: 0 });
   const jumpToYear = useCallback((y: number, polityId?: string, eraId?: string) => {
     setTarget(t => ({ polityId, eraId, key: t.key + 1 }));
@@ -78,13 +82,15 @@ export default function App() {
   }, [view]);
   useEffect(() => {
     const p = new URLSearchParams({ view, year: String(year), from: String(domain[0]), to: String(domain[1]), lang });
+    if (comparison.length) p.set('compare', comparison.join(','));
     if (q) p.set('q', q);
     if (selectedEvent) p.set('event', selectedEvent);
     history.replaceState(null, '', `?${p}`);
-  }, [view, year, domain, q, selectedEvent, lang]);
+  }, [view, year, domain, q, selectedEvent, lang, comparison]);
   useEffect(() => {
     const onPop = () => {
       const s = readState();
+      setComparison(s.comparison); setInvalidComparison(s.invalidComparison);
       setView(s.view); setYear(s.year); setDomain(s.domain); setQ(s.q); setSelectedEvent(s.event);
       if (s.lang !== getLang()) ensureLang(s.lang).then(() => { applyLang(s.lang); setLang(s.lang); });
     };
@@ -134,7 +140,7 @@ export default function App() {
       {view === 'about' && <section id="source-coverage" className="sources-page about-evidence"><p className="eyebrow">此年 · ChronoChina</p><p className="brand-motto">{t('about.evidenceMotto')}</p><h2>{t('about.evidenceTitle')}</h2><div className="coverage-grid"><article className="card"><h3>{t('about.card1Title')}</h3><p>{t('about.card1Body', { from: formatYear(eraCoverage.min), to: formatYear(eraCoverage.max), polities: polities.length, eras: eras.length })}</p></article><article className="card"><h3>{t('about.card2Title')}</h3><p>{t('about.card2Body', { events: events.length, persons: persons.length, sites: sites.length })}</p></article><article className="card"><h3>{t('about.card3Title')}</h3><p>{t('about.card3Body')}</p></article></div><h3>{t('about.sources')}</h3>{sources.map(s => <article className="source-row" key={s.id}><h3>{s.url ? <a href={s.url} target="_blank" rel="noreferrer">{S(s.name)}</a> : S(s.name)}</h3><p>{S(s.license)} · {S(s.note) || t('about.sourceNote')}</p></article>)}</section>}
 
       {view === 'timeline' && <>
-        <Timeline target={target} onNavigateYear={setYear} year={year} domain={domain} onOpenRecord={(kind, id) => {
+        <Timeline target={target} comparison={comparison} onComparison={setComparison} invalidComparison={invalidComparison} onDismissInvalid={() => setInvalidComparison(false)} onNavigateYear={setYear} year={year} domain={domain} onOpenRecord={(kind, id) => {
           if (kind === 'polity') { const p = polities.find(p => p.id === id)!; setDetail({ title: t('tl.detailPolityTitle', { polity: S(p.name) }), text: t('tl.detailPolity', { span: `${formatYearFull(p.startYear)}—${formatYearFull(p.endYear)}`, note: S(p.note) || t('tl.detailPolityNote') }), year: p.startYear }); }
           if (kind === 'reign') { setDetail(null); setRulerId(id); }
           if (kind === 'era') { const e = eras.find(e => e.id === id)!; setDetail({ title: `${S(polities.find(p => p.id === e.polityId)?.name ?? '')} · ${S(eraDisplayName(e.name))}`, text: t('tl.detailEra', { span: `${formatYearFull(e.startYear)}—${formatYearFull(e.endYear)}`, month: e.startMonth ? t('tl.detailEraMonth', { month: e.startMonth }) : '', note: S(e.note ?? ''), disputed: e.disputed ? t('tl.detailEraDisputed') : '', sources: (e.sources ?? []).map(id => S(sources.find(s => s.id === id)?.name ?? '')).join(t('tl.listSep')) }), year: e.startYear }); }

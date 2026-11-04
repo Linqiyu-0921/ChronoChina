@@ -915,3 +915,10 @@ html[lang="en"] body { letter-spacing: .01em; }
 
 .compare-era details { color:var(--ink-2); font:12px/1.6 var(--sans); }
 .compare-era details a,.compare-era details span { display:block; overflow-wrap:anywhere; }
+.compare-search { display:grid; gap:6px; font:13px var(--sans); }
+.compare-search input { width:100%; box-sizing:border-box; padding:10px; color:var(--ink); background:var(--bg); border:1px solid var(--line-strong); }
+.compare-options { max-height:min(44vh, 420px); overflow:auto; align-content:start; }
+.compare-options label small { color:var(--ink-2); }
+.compare-actions { display:flex; flex-wrap:wrap; gap:10px; }
+.comparison-notice { position:absolute; z-index:14; right:12px; top:48px; max-width:calc(100% - 88px); padding:8px; color:var(--ink); background:var(--bg); border:1px solid var(--line); font:12px/1.5 var(--sans); }
+.comparison-notice button { color:var(--accent); }
