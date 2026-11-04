@@ -105,6 +105,17 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
     centerRef.current = next;
     setCenter(next); const rounded=Math.round(next); setInput(formatYear(rounded)); if (lastPublishedYear.current !== rounded) { lastPublishedYear.current=rounded; onNavigateYear(rounded); }
   };
+  const scheduleSnap = () => {
+    if (!matchMedia('(max-width:650px)').matches) return;
+    if (snapTimer.current !== null) clearTimeout(snapTimer.current);
+    snapTimer.current = window.setTimeout(() => {
+      snapTimer.current = null;
+      if (touchingAxis.current) return;
+      const rounded = bound(Math.round(centerRef.current));
+      scrollTo(rounded);
+      onNavigateYear(rounded);
+    }, 350);
+  };
   const selectedYear = Math.round(center);
   const step = pixelsPerYear >= 16 ? 1 : pixelsPerYear >= 5 ? 5 : pixelsPerYear >= 1 ? 25 : 100;
   const ticks = [];
@@ -189,12 +200,12 @@ export default function Timeline({ target, domain, year, onNavigateYear, onOpenR
         {editingYear ? <form onSubmit={go} className="pointer-edit"><input ref={yearInput} aria-label={t('tl.timeEdit')} value={input} onChange={e => setInput(e.target.value)} onKeyDown={e => { if (e.key === 'Escape') { setEditingYear(false); setYearError(''); } }} /><button aria-label={t('tl.go')}>↵</button>{yearError && <span role="alert">{yearError}</span>}</form> : <button className="pointer-year" onClick={() => { setInput(formatYear(selectedYear)); setEditingYear(true); }} title={t('tl.pointerTitle')} aria-label={t('tl.pointerAria', { year: formatYear(selectedYear) })}><span>{formatYear(selectedYear)}</span><small>{getLang() === 'en' ? ganzhiOf(selectedYear) : `${ganzhiOf(selectedYear)}年`}</small></button>}
       </div>
       <YearInspector onOpenRuler={(id) => onOpenRecord('reign', id)} onPinChange={setInspectorPinned} year={selectedYear} anchor={pointerOffset + (archiveX === 20 ? 92 : 0)} height={height} width={width} anchorX={archiveX} />
-      <div ref={scroller} className="year-scroll-surface" onTouchStart={()=>{touchingAxis.current=true;if(snapTimer.current!==null)clearTimeout(snapTimer.current);}} onTouchEnd={()=>{touchingAxis.current=false;}} onTouchCancel={()=>{touchingAxis.current=false;}} tabIndex={0} aria-label={t('tl.scrollAria')} onKeyDown={e => {
+      <div ref={scroller} className="year-scroll-surface" onTouchStart={()=>{touchingAxis.current=true;if(snapTimer.current!==null)clearTimeout(snapTimer.current);}} onTouchEnd={()=>{touchingAxis.current=false;scheduleSnap();}} onTouchCancel={()=>{touchingAxis.current=false;scheduleSnap();}} tabIndex={0} aria-label={t('tl.scrollAria')} onKeyDown={e => {
         if (['ArrowUp', 'ArrowDown', 'PageUp', 'PageDown', 'Home', 'End'].includes(e.key)) {
           e.preventDefault(); const next = e.key === 'Home' ? MIN : e.key === 'End' ? MAX : bound(center + (e.key.endsWith('Up') ? -1 : 1) * (e.key.startsWith('Page') ? Math.max(1, visibleSpan / 2) : 1));
           scrollTo(next); onNavigateYear(Math.round(next));
         }
-      }} onScroll={e => { if (programmatic.current) return; publish(bound(MIN + e.currentTarget.scrollTop / pixelsPerYear)); if (matchMedia('(max-width:650px)').matches) { if (snapTimer.current !== null) clearTimeout(snapTimer.current); snapTimer.current = window.setTimeout(() => { if (!touchingAxis.current) { const rounded=bound(Math.round(centerRef.current)); scrollTo(rounded); onNavigateYear(rounded); } snapTimer.current=null; }, 350); } }}><div style={{ height: (MAX - MIN) * pixelsPerYear + height - 84 }} /></div>
+      }} onScroll={e => { if (programmatic.current) return; publish(bound(MIN + e.currentTarget.scrollTop / pixelsPerYear)); scheduleSnap(); }}><div style={{ height: (MAX - MIN) * pixelsPerYear + height - 84 }} /></div>
     </div>
     {comparing && <PolityComparison year={selectedYear} polities={lanes} onClose={() => setComparing(false)} />}
     <div className="book-bottom"><span className="book-gesture">{t('tl.gesture')} <span>{t('tl.gestureZoom')}</span></span><span className="interval-note">{t('tl.interval', { n: lanes.length })}</span><div className="lane-navigation"><button aria-label={t('tl.prevGroup')} disabled={lanePage === 0} onClick={() => columns.current?.scrollBy({ left: -columns.current.clientWidth, behavior: 'smooth' })}>‹</button><span>{Math.min(lanePage + 1, lanes.length)} / {lanes.length}</span><button aria-label={t('tl.nextGroup')} disabled={(lanePage + Math.round((width - (window.innerWidth <= 650 ? 88 : 112) - 12) / columnWidth)) >= lanes.length} onClick={() => columns.current?.scrollBy({ left: columns.current.clientWidth, behavior: 'smooth' })}>›</button></div><div className="book-zoom"><button aria-label={t('tl.zoomOut')} onClick={() => setPixelsPerYear(p => Math.max(.25, p / 1.5))}>−</button><button aria-label={t('tl.zoomIn')} onClick={() => setPixelsPerYear(p => Math.min(100, p * 1.5))}>+</button></div></div>
